@@ -6,3 +6,5 @@ src/main/webapp/WEB-INF/*.tld
 .directory
 .nb-configuration.xml
 ./src/main/webapp/META-INF/context.xml
+.classpath
+.settings
