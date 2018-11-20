@@ -1,1 +1,8 @@
-/target/
+target
+*.log
+.ant-targets-build.xml
+src/main/webapp/WEB-INF/*.tld
+.DS_Store
+.directory
+.nb-configuration.xml
+./src/main/webapp/META-INF/context.xml
