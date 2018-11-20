@@ -1,0 +1,7 @@
+<project name="prototiposito" default="WAR-build" basedir=".">
+	<description>prototiposito - Build file</description>
+
+	<import file="buildProperties.xml"/>
+	<import file="buildTasks.xml"/>
+
+</project>
