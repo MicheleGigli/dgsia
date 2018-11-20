@@ -124,7 +124,7 @@
 
         <skipDerby>true</skipDerby>
         <skipStandalone>true</skipStandalone>
-        <entando.version>5.0.1-SNAPSHOT</entando.version>
+        <entando.version>5.0.1</entando.version>
         <spring.version>5.0.8.RELEASE</spring.version>
         <struts2.version>2.5.17</struts2.version>
     </properties>
@@ -587,13 +587,13 @@
                         <version>9.1-901.jdbc4</version>
                     </dependency>
                     <!-- uncomment if you need -->
-<!--                    
+                  
                     <dependency>
                             <groupId>mysql</groupId>
                             <artifactId>mysql-connector-java</artifactId>
                             <version>5.1.18</version>
                     </dependency>
-                    -->
+                    
                     <dependency>
                         <groupId>org.apache.derby</groupId>
                         <artifactId>derby</artifactId>

@@ -30,7 +30,7 @@
 	<property name="postgres.bin.restore" value="pg_restore.exe" />
 	<property name="postgres.bin.drop" value="dropdb.exe" />
 	<property name="postgres.bin.create" value="createdb.exe" />
-	<property name="mysql.bin.path" location="C:\Programmi\MySQL\5\bin" />
+	<property name="mysql.bin.path" location="C:\Program Files\MySQL\MySQL Server 5.7\bin" />
 	<property name="mysql.bin.dump" value="mysqldump" />
 	<property name="mysql.bin.restore" value="mysql" />
 	<property name="mysql.bin.create" value="mysql" />
