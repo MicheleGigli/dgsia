@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    
+    <package name="fix_core_do/Entity/Attribute" namespace="/do/Entity/Attribute" extends="core_do/Entity/Attribute">
+    	
+        <action name="saveAttribute" class="entityAttributeConfigAction" method="saveAttribute">
+            <result name="input" type="tiles">admin.entityManagement.entryEntityAttributeType</result>
+            <result name="configureListElementAttribute" type="redirectAction">
+                <param name="namespace">/do/Entity/ListAttribute</param>
+                <param name="actionName">configureListElement</param>
+            </result>
+            <result name="configureCompositeAttribute" type="redirectAction">
+                <param name="namespace">/do/Entity/CompositeAttribute</param>
+                <param name="actionName">entryCompositeAttribute</param>
+            </result>
+            <result type="redirectAction">
+                <param name="namespace">/do${entityTypeManagementNamespacePrefix}/Entity</param>
+                <param name="actionName">entryEntityType</param>
+            </result>
+            <interceptor-ref name="entandoValidationStack">
+                <param name="requestAuth.requiredPermission">superuser</param>
+            </interceptor-ref>
+        </action>
+		
+    </package>
+    
+</struts>
