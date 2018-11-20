@@ -26,6 +26,58 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			</list>
 		</attributes>
 	</contenttype>
+	<contenttype typecode="CTA" typedescr="Contenuto lista" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
+		<attributes>
+			<attribute name="title" attributetype="Text" description="titolo">
+				<validations />
+			</attribute>
+			<list name="lista" attributetype="Monolist" description="lista contenuti vari">
+				<validations />
+				<nestedtype>
+					<attribute name="lista" attributetype="Composite">
+						<attributes>
+							<attribute name="title" attributetype="Text" description="titolo">
+								<validations>
+									<required>true</required>
+								</validations>
+							</attribute>
+							<attribute name="abstract" attributetype="Longtext" description="descrizione">
+								<validations />
+							</attribute>
+							<attribute name="img" attributetype="Image" description="immagine">
+								<validations />
+							</attribute>
+							<attribute name="link" attributetype="Link" description="link">
+								<validations />
+							</attribute>
+							<attribute name="date" attributetype="Date" description="data">
+								<validations />
+							</attribute>
+							<attribute name="number" attributetype="Number" description="numero">
+								<validations />
+							</attribute>
+						</attributes>
+					</attribute>
+				</nestedtype>
+			</list>
+		</attributes>
+	</contenttype>
+	<contenttype typecode="CTM" typedescr="Contenuto base titl+sub+img+link" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
+		<attributes>
+			<attribute name="subtitle" attributetype="Text" description="subtitle">
+				<validations>
+					<required>true</required>
+				</validations>
+			</attribute>
+			<attribute name="title" attributetype="Text" description="title">
+				<validations>
+					<required>true</required>
+				</validations>
+			</attribute>
+			<attribute name="img" attributetype="Image" description="immagine" />
+			<attribute name="link" attributetype="Link" description="link" />
+		</attributes>
+	</contenttype>
 </contenttypes>
 
 ');
@@ -335,7 +387,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params',
 </Params>
 
 ');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','index');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20181120183700');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','userProfileTypes','User Profile Types Definitions','<?xml version="1.0" encoding="UTF-8"?>
 <profiletypes>
 	<profiletype typecode="PFL" typedescr="Default user profile">
