@@ -7,3 +7,8 @@ INSERT INTO actionlogrelations (recordid,refgroup) VALUES (6,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (7,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (8,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (9,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (10,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (13,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (14,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (15,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (16,'free');

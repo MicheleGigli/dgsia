@@ -285,21 +285,40 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('landi
 	</frame>
 	<frame pos="8">
 		<descr>Colonna12</descr>
+		<sketch x1="0" y1="8" x2="11" y2="8" />
 	</frame>
 	<frame pos="9">
 		<descr>Colonna12</descr>
+		<sketch x1="0" y1="9" x2="11" y2="9" />
 	</frame>
 	<frame pos="10">
 		<descr>Colonna12</descr>
+		<sketch x1="0" y1="10" x2="11" y2="10" />
 	</frame>
 	<frame pos="11">
 		<descr>Colonna12</descr>
+		<sketch x1="0" y1="11" x2="11" y2="11" />
 	</frame>
 	<frame pos="12">
 		<descr>Colonna12</descr>
+		<sketch x1="0" y1="12" x2="11" y2="12" />
 	</frame>
 	<frame pos="13">
 		<descr>Colonna12</descr>
+		<sketch x1="0" y1="13" x2="11" y2="13" />
+	</frame>
+</frames>
+
+',NULL,NULL);
+INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('second-level-page','Pagina secondo livello','<?xml version="1.0" encoding="UTF-8"?>
+<frames>
+	<frame pos="0">
+		<descr>Sezione contenuti</descr>
+		<sketch x1="0" y1="0" x2="7" y2="8" />
+	</frame>
+	<frame pos="1">
+		<descr>Menu laterale</descr>
+		<sketch x1="8" y1="0" x2="11" y2="8" />
 	</frame>
 </frames>
 
