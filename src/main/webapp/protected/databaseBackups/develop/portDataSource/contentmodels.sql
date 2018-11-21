@@ -205,13 +205,13 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                         <svg class="icon icon-primary icon-lg">
-                            <use xlink:href="svg/sprite.svg#it-arrow-left"></use>
+                            <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-arrow-left"></use>
                         </svg>
                         <span class="sr-only">Precedente</span>
                     </a>
                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                         <svg class="icon icon-primary icon-lg">
-                            <use xlink:href="svg/sprite.svg#it-arrow-right"></use>
+                            <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-arrow-right"></use>
                         </svg>
                         <span class="sr-only">Successivo</span>
                     </a>

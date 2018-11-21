@@ -1480,7 +1480,7 @@ __multiselect_extraGroupNames=
 contentOnSessionMarker=CTA_editContent_CTA30
 Monolist:Composite:Image:it_lista_img_2=
 Monolist:Composite:Image:it_lista_img_1=
-Monolist:Composite:Longtext:en_lista_abstract_2=ASSFVSPOF DFOKS èOFSèFKèSOK SODGSOFJS OFJSO SOJF OJFOFJè OEFJèOFJèOEFJ FèQO JFèOJFèOFJèAO FèOJFèQOFJèC  FKFèF èFJFOJQ 
+Monolist:Composite:Longtext:en_lista_abstract_2=ASSFVSPOF DFOKS ï¿½OFSï¿½FKï¿½SOK SODGSOFJS OFJSO SOJF OJFOFJï¿½ OEFJï¿½OFJï¿½OEFJ Fï¿½QO JFï¿½OJFï¿½OFJï¿½AO Fï¿½OJFï¿½QOFJï¿½C  FKFï¿½F ï¿½FJFOJQ 
 Monolist:Composite:Longtext:en_lista_abstract_0=dfogheaouheohfo fhfoifh oiwgh owefjFK  wgj p jp powefpOWF  FPWfj P
 Monolist:Composite:Longtext:en_lista_abstract_1=ADUFH UAOIF OJ FJJPIFJPDJFP AFJAPOFJ OJAOSJDAJ   AOSFJAOFJ J J
 Monolist:Composite:Text:en_lista_title_1=NOTIZIA 2
@@ -1539,7 +1539,7 @@ __multiselect_extraGroupNames=
 contentOnSessionMarker=CTA_editContent_CTA30
 Monolist:Composite:Image:it_lista_img_2=
 Monolist:Composite:Image:it_lista_img_1=
-Monolist:Composite:Longtext:en_lista_abstract_2=ASSFVSPOF DFOKS èOFSèFKèSOK SODGSOFJS OFJSO SOJF OJFOFJè OEFJèOFJèOEFJ FèQO JFèOJFèOFJèAO FèOJFèQOFJèC  FKFèF èFJFOJQ
+Monolist:Composite:Longtext:en_lista_abstract_2=ASSFVSPOF DFOKS ï¿½OFSï¿½FKï¿½SOK SODGSOFJS OFJSO SOJF OJFOFJï¿½ OEFJï¿½OFJï¿½OEFJ Fï¿½QO JFï¿½OJFï¿½OFJï¿½AO Fï¿½OJFï¿½QOFJï¿½C  FKFï¿½F ï¿½FJFOJQ
 Monolist:Composite:Longtext:en_lista_abstract_0=dfogheaouheohfo fhfoifh oiwgh owefjFK  wgj p jp powefpOWF  FPWfj P
 Monolist:Composite:Longtext:en_lista_abstract_1=ADUFH UAOIF OJ FJJPIFJPDJFP AFJAPOFJ OJAOSJDAJ   AOSFJAOFJ J J
 Monolist:Composite:Text:en_lista_title_1=NOTIZIA 2
@@ -1967,7 +1967,7 @@ contentOnSessionMarker=CTA_newContent
 Monolist:Composite:Longtext:en_lista_abstract_2=
 Monolist:Composite:Longtext:en_lista_abstract_0=
 Monolist:Composite:Longtext:en_lista_abstract_1=
-Monolist:Composite:Text:en_lista_title_1=Pubblicità legale
+Monolist:Composite:Text:en_lista_title_1=Pubblicitï¿½ legale
 Monolist:Composite:Text:en_lista_title_0=Amministrazione trasparente
 Monolist:Composite:Text:en_lista_title_2=Bilancio
 Monolist:Composite:Date:lista_date_1=
@@ -2198,3 +2198,54 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-11-21 18:51:23');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (80,'admin','2018-11-21 19:23:37','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','userFilters=
+modelId=4
+entandoaction:saveListViewerConfig=Submit
+maxElemForItem=3
+categoryCode=
+filters=
+pageCode=homepage
+filterKey=keyFilter_created
+linkDescr_it=
+linkDescr_en=
+widgetTypeCode=content_viewer_list
+maxElements=3
+title_it=
+title_en=LINK UTILI
+categories=
+userFilterKey=fulltext
+contentType=CTM
+frame=7
+pageLink=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>1</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">7</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-21 19:23:37');

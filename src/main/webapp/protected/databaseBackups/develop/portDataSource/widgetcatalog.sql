@@ -11,7 +11,9 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 <properties>
 <property key="en">Contents - Publish a List of Contents</property>
 <property key="it">Contenuti - Pubblica una Lista di Contenuti</property>
-</properties>','<config>
+</properties>
+
+','<config>
 	<parameter name="contentType">Content Type (mandatory)</parameter>
 	<parameter name="modelId">Content Model</parameter>
 	<parameter name="userFilters">Front-End user filter options</parameter>
@@ -25,7 +27,7 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 	<parameter name="pageLink">The code of the Page to link</parameter>
 	<parameter name="linkDescr_{lang}">Link description in lang {lang}</parameter>
 	<action name="listViewerConfig"/>
-</config>','jacms',NULL,NULL,1,NULL);
+</config>','jacms',NULL,NULL,1,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-language_choose','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Choose a Language</property>

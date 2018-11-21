@@ -50,3 +50,4 @@ INSERT INTO actionlogrelations (recordid,refgroup) VALUES (74,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (77,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (78,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (79,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (80,'free');

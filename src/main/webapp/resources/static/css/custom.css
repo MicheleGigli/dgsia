@@ -120,7 +120,7 @@
 }
 
 .card-body-link {
-	color: white;
+    color: white;
 }
 
 /**/
@@ -197,4 +197,7 @@
 .footer .list-group-item {
     background: transparent;
     border-color: #FFF;
+}
+ul.link-list .list-item {
+    color:#0073e6;
 }

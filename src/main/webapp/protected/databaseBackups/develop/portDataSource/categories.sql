@@ -5,3 +5,10 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('home','home','<?xml 
 </properties>
 
 ');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('news','home','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">news</property>
+<property key="it">news</property>
+</properties>
+
+');
