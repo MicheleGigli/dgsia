@@ -2,6 +2,31 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 $content.subtitle.text
 $content.img.getImagePath(''0'')
 $content.link.text',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3,'CTA','Lista Servizi Home Page','<section id="section1" class="bg-300">
+            <div class="container py-4">
+                <h2>$content.title.text</h2>
+                <div class="card-deck servizi">
+                    #foreach ($item in $content.lista)  
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <img class="img-fluid" data-src="" alt="" src="$item.img.getImagePath(''0'')" data-holder-rendered="true">
+                            <h5 class="card-title bg-primary">
+                             <a href="$item.link.destination" data-attribute="forward" class="forward mt-3" aria-hidden="true">
+                               <i class="it-expand">
+                                   $item.title.text
+                               </i>
+                             </a>
+                            </h5>
+                        </div>
+                    </div>
+                    #end
+                    
+                </div>
+            </div>
+            
+            
+        </section>
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )
