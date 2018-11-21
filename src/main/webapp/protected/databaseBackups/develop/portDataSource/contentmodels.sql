@@ -1,7 +1,38 @@
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1,'CTM','notizia','$content.title.text
-$content.subtitle.text
-$content.img.getImagePath(''0'')
-$content.link.text',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1,'CTM','Notizia','<div class="card shadow rounded">
+	<div class="card-header">
+		<p class="card-text orange">
+			<span class="text-uppercase font-weight-bold">Atti giudiziari</span>
+				<small class="text-muted d-block">$item.date</small>
+		</p>
+	</div>
+  	<img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+  <div class="card-body">
+  	<h5 class="card-title">$content.title.text</h5>
+  	<p class="card-text">$content.subtitle.text</p>
+  </div>
+<a href="$content.link.destination" data-attribute="forward" class="forward mt-3" aria-hidden="true">
+</div>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2,'CTA','Lista Notizie Primo Piano','<div class="container py-4">
+                <h2>$content.title.text</h2>
+                <div class="card-deck">
+                    #foreach ($item in $content.lista)  
+                    <div class="card shadow rounded">
+                        <div class="card-header">
+                            <p class="card-text orange">
+                                <span class="text-uppercase font-weight-bold">Atti giudiziari</span>
+                                <small class="text-muted d-block">$item.date</small>
+                            </p>
+                        </div>
+                        <img class="img-fluid" data-src="" alt="" src="$item.img.getImagePath(''0'')" data-holder-rendered="true">
+                        <div class="card-body">
+                            <h5 class="card-title">$item.title.text</h5>
+                            <p class="card-text">$item.abstract.text</p>
+                        </div>
+                    </div>
+                    #end
+                    
+            </div>
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3,'CTA','Lista Servizi Home Page','<section id="section1" class="bg-300">
             <div class="container py-4">
                 <h2>$content.title.text</h2>
@@ -27,6 +58,46 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3
             
         </section>
 ',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4,'CTM','Link Utili Home Page','<div class="card border-0 rounded">
+                        <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+                        <div class="card-body">
+                            <h5 class="card-title">$content.title.text
+                            <p class="card-text">$content.subtitle.text
+                            <a href="#" type="button" class="btn btn-outline-primary">Vai al sito</a>
+                        </div>
+                    </div>
+',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5,'CTA','Trasparenza Home Page','<div class="container py-4">
+                <h2 class="text-white">$content.title.text</h2>
+                <div class="card-deck mt-3">
+                #foreach ($item in $content.lista)  
+                    <div class="card bg-primary border-0 rounded">
+                        <div class="card-body p-3">
+                            <a href="#" class="card-link text-white d-block">
+                                $item.title.text< <svg class="icon icon-light float-right">
+                                    <use xlink:href="$item.img.getImagePath(''0'')"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                   #end
+                    
+                </div>
+            </div>
+',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (6,'CTM','Link Istituzionali Home Page','<div id="carouselExampleControls" class="carousel slide bg-white px-0" data-ride="carousel">
+	<div class="carousel-inner">
+  	<div class="carousel-item active"> 
+   		<div class="row align-items-center justify-content-center">
+  		 <div class="col-md-3">
+   				<a class="d-block text-center" href="#">
+   					<img class="img-fluid" src="$content.img.getImagePath(''0'')" alt="Image">
+   				</a>
+   			</div>
+   		</div>
+   </div>
+  </div>
+</div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )
