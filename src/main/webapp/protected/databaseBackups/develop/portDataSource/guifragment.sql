@@ -93,7 +93,40 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('default_pagerInfo_is',NULL,NULL,NULL,'<#assign s=JspTaglibs["/struts-tags"]>
 <p><@s.text name="note.searchIntro" />&#32;<@s.property value="#group.size" />&#32;<@s.text name="note.searchOutro" />.<br />
 <@s.text name="label.page" />: [<@s.property value="#group.currItem" />/<@s.property value="#group.maxItem" />].</p>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entando-widget-language_choose','entando-widget-language_choose',NULL,NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entando-widget-language_choose','entando-widget-language_choose',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+<#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
+
+<@wp.info key="langs" var="langsVar" />
+<@wp.info key="currentLang" var="currentLangVar" />
+<div class="nav-item dropdown">
+
+    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"  aria-expanded="false"  title="<@wp.i18n key="ESLC_LANGUAGE" />">
+       <span><@wp.i18n key="LINGUA_CORRENTE" /></span>
+        <svg class="icon d-none d-lg-block">
+        <use xlink:href="<@wp.imgURL />sprite.svg#it-expand"></use>
+        </svg>
+    </a>
+    <div class="dropdown-menu">
+
+        <div class="row">
+            <div class="col-12">
+                <div class="link-list-wrapper">
+                    <ul class="link-list">
+                       <@wp.freemarkerTemplateParameter var="langsListVar" valueName="langsVar" removeOnEndTag=true >
+                        <#list langsListVar as curLangVar>
+                        <li <#if (curLangVar.code == currentLangVar)>class="active" </#if>>
+                            <a class="list-item" href="<@wp.url lang="${curLangVar.code}" paramRepeat=true />">
+                            <@wp.i18n key="ESLC_LANG_${curLangVar.code}" />
+                            </a>
+                        </li>
+                        </#list>
+                        </@wp.freemarkerTemplateParameter>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>','<#assign wp=JspTaglibs["/aps-core"]>
 <@wp.headInfo type="JS" info="entando-misc-jquery/jquery-1.10.0.min.js" />
 <@wp.headInfo type="JS" info="entando-misc-bootstrap/bootstrap.min.js" />
 <@wp.info key="langs" var="langsVar" />
@@ -114,7 +147,66 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
       </ul>
   </li>
 </ul>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entando-widget-login_form','entando-widget-login_form',NULL,NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entando-widget-login_form','entando-widget-login_form',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+
+        <#if (Session.currentUser != "guest")>
+
+        <button class="btn btn-outline-primary btn-sm py-1 my-2 px-3" data-toggle="dropdown">
+            ${Session.currentUser}
+            <span class="caret pull-right"></span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="link-list-wrapper">
+                <ul class="link-list">
+                    <li>
+                        <@wp.ifauthorized permission="enterBackend">
+                        <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />"><@wp.i18n key="ESLF_ADMINISTRATION" /></a>
+                        </@wp.ifauthorized>
+                    </li>
+                    <li>
+                        <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action"><@wp.i18n key="ESLF_SIGNOUT" /></a>
+                    </li>
+                    <li>
+                        <@wp.pageWithWidget var="editProfilePageVar" widgetTypeCode="userprofile_editCurrentUser" />
+                        <#if (editProfilePageVar??) >
+                        <a class="list-item" href="<@wp.url page="${editProfilePageVar.code}" />" ><@wp.i18n key="ESLF_PROFILE_CONFIGURATION" /></a>
+                        </#if>
+                    </li>
+                </ul>
+            </div>	
+        </div>	
+        <#else>
+
+        <a  data-toggle="dropdown" href="#"><span class="btn btn-outline-primary btn-sm py-1 my-2 px-3"><@wp.i18n key="ESLF_SIGNIN" /> </span></a>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="link-list-wrapper">
+                <form  method="POST">
+                    <#if (accountExpired?? && accountExpired == true)>
+                    <div class="alert alert-error">
+                        <button class="close" data-dismiss="alert">x</button>
+                        <@wp.i18n key="ESLF_USER_STATUS_EXPIRED" />
+                    </div>
+                    </#if>
+                    <#if (wrongAccountCredential?? && wrongAccountCredential == true)>
+                    <div class="alert alert-error">
+                        <button class="close" data-dismiss="alert">x</button>
+                        <@wp.i18n key="ESLF_USER_STATUS_CREDENTIALS_INVALID" />
+                    </div>
+                    </#if>
+                    <div class="form-group mx-2">
+                        <input type="text" name="username"  class="form-control" >
+                        <label for="exampleInputText"><@wp.i18n key="ESLF_USERNAME" /></label>
+                    </div>
+
+                    <div class="form-group mx-2">
+                        <input type="password" name="password" class="form-control">
+                        <label for="exampleInputText"><@wp.i18n key="ESLF_PASSWORD" /></label>
+                        <input type="submit" class="btn btn-primary mx-2 my-3" value="<@wp.i18n key="ESLF_SIGNIN" />"  />
+                               </form>
+                    </div>
+            </div>
+            </#if>','<#assign wp=JspTaglibs["/aps-core"]>
 <@wp.headInfo type="JS" info="entando-misc-jquery/jquery-1.10.0.min.js" />
 <@wp.headInfo type="JS" info="entando-misc-bootstrap/bootstrap.min.js" />
 
@@ -284,7 +376,12 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
      </#list>
     </li>
 </#if>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entando-widget-search_form','entando-widget-search_form',NULL,NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entando-widget-search_form','entando-widget-search_form',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+<@wp.pageWithWidget var="searchResultPageVar" widgetTypeCode="search_result" listResult=false />
+<form class="form-inline my-2 my-lg-0 collapse navbar-collapse" id="searchForm" action="<#if (searchResultPageVar??) ><@wp.url page="${searchResultPageVar.code}" /></#if>" method="get">
+ <input class="form-control mr-sm-2 ml-auto" type="text" name="search" placeholder="<@wp.i18n key="ESSF_SEARCH" />" x-webkit-speech="x-webkit-speech" />
+<button class="btn btn-primary my-2 my-sm-0" type="submit">Cerca</button>
+</form>','<#assign wp=JspTaglibs["/aps-core"]>
 <@wp.pageWithWidget var="searchResultPageVar" widgetTypeCode="search_result" listResult=false />
 <form class="navbar-search pull-left" action="<#if (searchResultPageVar??) ><@wp.url page="${searchResultPageVar.code}" /></#if>" method="get">
 <input type="text" name="search" class="search-query span2" placeholder="<@wp.i18n key="ESSF_SEARCH" />" x-webkit-speech="x-webkit-speech" />
