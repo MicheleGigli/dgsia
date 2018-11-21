@@ -313,21 +313,45 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('landi
 INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('second-level-page','Pagina secondo livello','<?xml version="1.0" encoding="UTF-8"?>
 <frames>
 	<frame pos="0">
-		<descr>Sezione contenuti</descr>
-		<sketch x1="0" y1="0" x2="7" y2="8" />
+		<descr>Scelta Lingua</descr>
+		<sketch x1="9" y1="0" x2="11" y2="0" />
 	</frame>
 	<frame pos="1">
+		<descr>Ricerca</descr>
+		<sketch x1="6" y1="1" x2="11" y2="1" />
+	</frame>
+	<frame pos="2">
+		<descr>Menu</descr>
+		<sketch x1="0" y1="2" x2="8" y2="2" />
+	</frame>
+	<frame pos="3">
+		<descr>Accesso</descr>
+		<sketch x1="9" y1="2" x2="11" y2="2" />
+	</frame>
+	<frame pos="4">
+		<descr>Lista contenuti</descr>
+		<sketch x1="0" y1="3" x2="8" y2="10" />
+	</frame>
+	<frame pos="5">
 		<descr>Menu laterale</descr>
-		<sketch x1="8" y1="0" x2="11" y2="8" />
+		<sketch x1="9" y1="3" x2="11" y2="10" />
+	</frame>
+	<frame pos="6">
+		<descr>Footer</descr>
+		<sketch x1="0" y1="11" x2="11" y2="11" />
 	</frame>
 </frames>
 
 ',NULL,NULL);
-INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('service','Service Page','<frames>
+INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('service','Service Page','<?xml version="1.0" encoding="UTF-8"?>
+<frames>
 	<frame pos="0">
 		<descr>Sample Frame</descr>
+		<sketch x1="0" y1="0" x2="11" y2="0" />
 	</frame>
-</frames>',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+</frames>
+
+',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
