@@ -21,12 +21,12 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 </properties>
 
 ');
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',11,'row_content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="maxElemForItem">3</property>
-<property key="title_it">Link Istituzionali</property>
-<property key="contents">[{contentId=CTM36}]</property>
-<property key="title_en">Link Istituzionali</property>
+<property key="title_en">LINK UTILI</property>
+<property key="contentType">CTM</property>
+<property key="modelId">4</property>
 </properties>
 
 ');
