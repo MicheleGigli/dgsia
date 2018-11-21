@@ -12,12 +12,11 @@
             <wp:currentPage param="title" /> - <wp:i18n  key="PORTAL_TITLE" />
         </title>
         <jsp:include page="inc/header-inclusions.jsp" />
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
     </head>
     <body>
-
-
-
 
 
         <div class="cookiebar bg-dark p-4 hide" aria-hidden="true">
@@ -266,18 +265,15 @@
             <%-- 4. Untitled Frame V  --%>
             <wp:show frame="4" />
 
-            <div class="container">
-                <h1 class="hero-heading display-4">Lorem Ipsum</h1>
-                <p class="lead">Qui ipsorum lingua Celtae, nostra Galli appellantur.</p>
-                <hr class="my-4">
-                <p>Quid securi etiam tamquam eu fugiat nulla pariatur. Quae vero auctorem tractata ab fiducia dicuntur. Excepteur sint obcaecat cupiditat non proident culpa. Gallia est omnis divisa in partes tres, quarum. Plura mihi bona sunt, inclinet, amari petere vellent.</p>
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Per saperne di più</a>
-                </p>
-            </div>
-            <a href="#section1" data-attribute="forward" class="forward mt-3" aria-hidden="true">
-                <i class="it-expand"></i>
-            </a>
+
+
+
+
+
+
+
+
+
 
 
         </div>
@@ -287,10 +283,7 @@
 
         <section id="section3" class="bg-link">
             <div class="container py-4">
-                <div class="card-deck">
-
-                    <wp:show frame="7" />
-                </div>
+                <wp:show frame="7" />
             </div>
         </section>
 
@@ -298,8 +291,6 @@
         <wp:show frame="9" />
 
         <%-- FOOTER	--%>
-
-
 
         <%-- 10. Untitled Frame XI  --%>
         <wp:show frame="10" />

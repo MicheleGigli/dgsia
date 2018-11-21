@@ -73,7 +73,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
                     <div class="card bg-primary border-0 rounded">
                         <div class="card-body p-3">
                             <a href="#" class="card-link text-white d-block">
-                                $item.title.text< <svg class="icon icon-light float-right">
+                                $item.title.text <svg class="icon icon-light float-right">
                                     <use xlink:href="$item.img.getImagePath(''0'')"></use>
                                 </svg>
                             </a>
@@ -124,7 +124,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (7
             #end
         </div>
 
-        <ul class="list-group col-sm-4">
+        <ul class="list-group col-4">
             #foreach ($item in $content.lista)
             <li data-target="#myCarousel" data-slide-to="$item.number.value"  class="list-group-item">
                 <h4>$item.link.text</h4>
