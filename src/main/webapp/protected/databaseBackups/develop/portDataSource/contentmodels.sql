@@ -95,6 +95,93 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (6
    </div>
   </div>
 </div>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (7,'CTA','Carousel Home','<div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+
+            #foreach($item in $content.lista)
+            <div class="item active">
+
+                <img src="$item.img.getImagePath(''0'')">
+                <div class="carousel-caption">
+                    <h4>
+                        <a href="#">$item.title.text</a>
+                    </h4>
+
+                    <p>$item.abstract.text
+                        <a class="label label-primary"  href="$item.link.destination" target="_blank">
+                            $item.link.text
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+
+            #end
+        </div>
+
+        <ul class="list-group col-sm-4">
+            #foreach ($item in $content.lista)
+            <li data-target="#myCarousel" data-slide-to="$item.number.value"  class="list-group-item">
+                <h4>$item.link.text</h4>
+            </li>
+            #end
+        </ul>
+
+
+        <div class="carousel-controls">
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> 
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a> 
+            <a class="right carousel-control" href="#myCarousel"  data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            
+        </div>
+        
+    </div>
+
+</div>
+
+
+
+<script>
+    $(document).ready(function () {
+
+        $(".carousel-inner .item").removeClass("active").first().addClass("active");
+
+        $("ul.list-group li").first().addClass("active");
+
+        var clickEvent = false;
+        $(''#myCarousel'').carousel({
+            interval: 1000
+        }).on(''click'', ''.list-group li'', function () {
+            clickEvent = true;
+            $(''.list-group li'').removeClass(''active'');
+            $(this).addClass(''active'');
+        }).on(''slid.bs.carousel'', function (e) {
+            if (!clickEvent) {
+                var count = $(''.list-group'').children().length - 1;
+                var current = $(''.list-group li.active'');
+                current.removeClass(''active'').next().addClass(''active'');
+                var id = parseInt(current.data(''slide-to''));
+                if (count == id) {
+                    $(''.list-group li'').first().addClass(''active'');
+                }
+            }
+            clickEvent = false;
+        });
+    })
+
+    $(window).load(function () {
+        var boxheight = $(''#myCarousel .carousel-inner'').innerHeight();
+        var itemlength = $(''#myCarousel .item'').length;
+        var triggerheight = Math.round(boxheight / itemlength + 1);
+        $(''#myCarousel .list-group-item'').outerHeight(triggerheight);
+    });
+</script>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )

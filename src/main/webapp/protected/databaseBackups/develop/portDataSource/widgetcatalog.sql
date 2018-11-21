@@ -30,12 +30,16 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 <properties>
 <property key="en">Choose a Language</property>
 <property key="it">Choose a Language</property>
-</properties>',NULL,NULL,NULL,NULL,1,NULL);
+</properties>
+
+',NULL,NULL,NULL,NULL,1,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-login_form','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Dropdown Sign In</property>
 <property key="it">Dropdown Sign In</property>
-</properties>',NULL,NULL,NULL,NULL,1,NULL);
+</properties>
+
+',NULL,NULL,NULL,NULL,1,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Navigation - Bar</property>
@@ -48,7 +52,9 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 <properties>
 <property key="en">Search Form</property>
 <property key="it">Search Form</property>
-</properties>',NULL,NULL,NULL,NULL,1,NULL);
+</properties>
+
+',NULL,NULL,NULL,NULL,1,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando_apis','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">APIs</property>

@@ -278,6 +278,8 @@
 			</div>
 		</div>
 	</section>
+	
+	<wp:show frame="8" />
 
 	<%-- FOOTER	--%>
 
