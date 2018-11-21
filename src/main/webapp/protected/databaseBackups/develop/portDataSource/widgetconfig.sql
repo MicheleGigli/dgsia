@@ -30,6 +30,20 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage
 </properties>
 
 ');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',8,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="contentId">CTA71</property>
+<property key="modelId">5</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="contentId">CTA76</property>
+<property key="modelId">8</property>
+</properties>
+
+');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('second_level_page',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('second_level_page',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('second_level_page',2,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>

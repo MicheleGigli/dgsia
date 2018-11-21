@@ -64,7 +64,9 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4
                         </div>
                     </div>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5,'CTA','Trasparenza Home Page','<div class="container py-4">
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5,'CTA','Trasparenza Home Page','<section id="section4" class="bg-dark">
+
+<div class="container py-4">
                 <h2 class="text-white">$content.title.text</h2>
                 <div class="card-deck mt-3">
                 #foreach ($item in $content.lista)  
@@ -81,6 +83,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
                     
                 </div>
             </div>
+</section>
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (6,'CTM','Link Istituzionali Home Page','<div id="carouselExampleControls" class="carousel slide bg-white px-0" data-ride="carousel">
 	<div class="carousel-inner">
@@ -182,6 +185,40 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (7
         $(''#myCarousel .list-group-item'').outerHeight(triggerheight);
     });
 </script>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8,'CTA','Link Istituzionali Home Page','<section id="section5">
+            <div class="container py-4">
+                <h2>$content.title.text</h2>
+                <div id="carouselExampleControls" class="carousel slide bg-white px-0" data-ride="carousel">
+                    <div class="carousel-inner">                    	   
+                        <div class="carousel-item active">
+                            <div class="row align-items-center justify-content-center">
+                            #foreach ($item in $content.lista)
+                                <div class="col-md-4">
+                                    <a class="d-block text-center" href="$item.link.destination">
+                                        <img class="img-fluid" src="$item.img.getImagePath(''0'')" >
+                                    </a>
+                                </div>    
+                                 #end
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <svg class="icon icon-primary icon-lg">
+                            <use xlink:href="svg/sprite.svg#it-arrow-left"></use>
+                        </svg>
+                        <span class="sr-only">Precedente</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <svg class="icon icon-primary icon-lg">
+                            <use xlink:href="svg/sprite.svg#it-arrow-right"></use>
+                        </svg>
+                        <span class="sr-only">Successivo</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )

@@ -1958,3 +1958,243 @@ pageLink=
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-11-21 17:57:38');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (72,'admin','2018-11-21 18:20:07','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Text:en_title=Trasparenza
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+__multiselect_extraGroupNames=
+contentOnSessionMarker=CTA_newContent
+Monolist:Composite:Longtext:en_lista_abstract_2=
+Monolist:Composite:Longtext:en_lista_abstract_0=
+Monolist:Composite:Longtext:en_lista_abstract_1=
+Monolist:Composite:Text:en_lista_title_1=Pubblicità legale
+Monolist:Composite:Text:en_lista_title_0=Amministrazione trasparente
+Monolist:Composite:Text:en_lista_title_2=Bilancio
+Monolist:Composite:Date:lista_date_1=
+Monolist:Composite:Date:lista_date_2=
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=
+mainGroup=free
+Monolist:Composite:Number:lista_number_2=
+descr=TRASPARENZA HOME PAGE
+Monolist:Composite:Number:lista_number_1=
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Longtext:it_lista_abstract_2=
+Monolist:Composite:Text:it_lista_title_2=
+Monolist:Composite:Number:lista_number_0=
+Text:it_title=
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">TRASPARENZA HOME PAGE</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>11</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA71</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-21 18:20:07');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (73,'admin','2018-11-21 18:22:31','/do/jacms/Page/SpecialWidget/Viewer','saveViewerConfig','contentId=CTA71
+modelId=5
+widgetTypeCode=content_viewer
+pageCode=homepage
+frame=8
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>2</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-21 18:22:31');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (74,'admin','2018-11-21 18:22:34','/do/rs/Page','setOnline','','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-21 18:22:34');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (77,'admin','2018-11-21 18:50:15','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Monolist:Composite:Image:it_lista_img_0=
+Text:en_title=Link Istituzionali
+Monolist:Composite:Image:en_lista_img_0=link ist1
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+Monolist:Composite:Image:en_lista_img_2=amministrazione
+Monolist:Composite:Image:en_lista_img_1=cittadino
+__multiselect_extraGroupNames=
+contentOnSessionMarker=CTA_newContent
+Monolist:Composite:Image:it_lista_img_2=
+Monolist:Composite:Image:it_lista_img_1=
+Monolist:Composite:Longtext:en_lista_abstract_2=
+Monolist:Composite:Longtext:en_lista_abstract_0=
+Monolist:Composite:Longtext:en_lista_abstract_1=
+Monolist:Composite:Text:en_lista_title_1=titolo2
+Monolist:Composite:Text:en_lista_title_0=Titolo l1
+Monolist:Composite:Text:en_lista_title_2=titolo3
+Monolist:Composite:Date:lista_date_1=
+Monolist:Composite:Date:lista_date_2=
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=
+mainGroup=free
+Monolist:Composite:Number:lista_number_2=
+descr=Lista link istituzionali
+Monolist:Composite:Number:lista_number_1=
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Longtext:it_lista_abstract_2=
+Monolist:Composite:Text:it_lista_title_2=
+Monolist:Composite:Number:lista_number_0=
+Text:it_title=
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Lista link istituzionali</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>11</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA76</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-21 18:50:15');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (78,'admin','2018-11-21 18:51:18','/do/jacms/Page/SpecialWidget/Viewer','saveViewerConfig','contentId=CTA76
+modelId=8
+widgetTypeCode=content_viewer
+pageCode=homepage
+frame=9
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>2</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">9</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-21 18:51:18');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (79,'admin','2018-11-21 18:51:23','/do/rs/Page','setOnline','','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-21 18:51:23');
