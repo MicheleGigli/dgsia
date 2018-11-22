@@ -12,7 +12,7 @@
             <wp:currentPage param="title" /> - <wp:i18n  key="PORTAL_TITLE" />
         </title>
         <jsp:include page="inc/header-inclusions.jsp" />
-    
+
 
     </head>
     <body>
@@ -94,6 +94,9 @@
                 </div>
             </div>
         </div>
+
+        <wp:show frame="2" />
+
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
                 <div class="col-12 d-block d-sm-block d-md-none text-right align-middle">
@@ -263,30 +266,21 @@
         <div class="hero hero-fluid">
             <%-- 4. Untitled Frame V  --%>
             <wp:show frame="4" />
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
 
         <wp:show frame="5" />
         <wp:show frame="6" />
+        <wp:show frame="7" />
 
         <section id="section3" class="bg-link">
             <div class="container py-4">
-                <wp:show frame="7" />
+                <wp:show frame="8" />
             </div>
         </section>
 
-        <wp:show frame="8" />
+
+
+
         <wp:show frame="9" />
 
         <%-- FOOTER	--%>
