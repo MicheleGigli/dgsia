@@ -5,15 +5,12 @@
 <!DOCTYPE html>
 <html lang="<wp:info key="currentLang" />">
 
-   <head>
+    <head>
 
         <title>
             <wp:currentPage param="title" /> - <wp:i18n  key="PORTAL_TITLE" />
         </title>
         <jsp:include page="inc/header-inclusions.jsp" />
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-
     </head>
     <body>
 
@@ -263,11 +260,11 @@
 
 
 
-      
+
         <%-- 4. Untitled Frame V  --%>
         <wp:show frame="4" />
-         <wp:show frame="5" />
-         <wp:show frame="6" />
+        <wp:show frame="5" />
+        <wp:show frame="6" />
         <%-- 
         <wp:show frame="5" />
         <wp:show frame="6" />
