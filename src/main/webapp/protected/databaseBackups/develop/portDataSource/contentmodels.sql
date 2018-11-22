@@ -242,29 +242,31 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (9
             </div>
         </section>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10,'CTA','Modello Lista Link','	<div class="card-wrapper">
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10,'CTA','Modello Lista Link','<div class="card-wrapper">
 		<div class="card border-0">
 			<div class="card-body p-3">
 				<h3>$content.title.text</h3>
-				<div class="row">
-					<div class="col-6">
-						<div class="link-list-wrapper multiline">
-							<ul class="link-list">
-							#foreach ($item in $content.lista) 
-								<li><a class="list-item right-icon p-0" href="$item.link"> 
-                	<span>$item.title.text</span> 
-								</a></li>
-								<li><span class="divider"></span>
-                
-								#end
-							</ul>
-						</div>
-					</div>
-					
+				<div class="link-list-wrapper multiline">
+					<ul class="d-flex flex-wrap link-list">
+						#foreach ($item in $content.lista)
+						<li class="col-6 mt-3"><a class="list-item right-icon p-0"
+							href="$item.link">
+              <span class="display-4">$item.title.text</span>
+              <svg class="icon icon-primary icon-right m-0">
+              <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-chevron-right"></use>
+              </svg>
+
+						</a></li>
+						<li><span class="divider"></span> #end
+					</ul>
 				</div>
 			</div>
+
 		</div>
-	</div>',NULL);
+	</div>
+	</div>
+	</div>
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )
