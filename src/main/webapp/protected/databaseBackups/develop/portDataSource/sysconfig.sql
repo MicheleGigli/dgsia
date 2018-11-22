@@ -75,7 +75,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataType
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoComponentsReport','The component installation report','<?xml version="1.0" encoding="UTF-8"?>
 <reports status="OK">
 	<creation>2018-11-20 16:48:47</creation>
-	<lastupdate>2018-11-20 16:50:15</lastupdate>
+	<lastupdate>2018-11-22 17:49:34</lastupdate>
 	<components>
 		<component code="entandoCore" date="2018-11-20 16:48:47" status="OK">
 			<schema status="OK">
@@ -301,6 +301,17 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</data>
 			<postProcess status="OK" />
+		</component>
+		<component code="entando-widget-navigation_breadcrumbs" date="2018-11-22 17:49:32" status="OK">
+			<schema status="OK">
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="portDataSource" status="OK" />
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
 		</component>
 	</components>
 </reports>

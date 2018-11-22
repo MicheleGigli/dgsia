@@ -589,9 +589,9 @@
                     <!-- uncomment if you need -->
                   
                     <dependency>
-                            <groupId>mysql</groupId>
-                            <artifactId>mysql-connector-java</artifactId>
-                            <version>5.1.18</version>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>5.1.18</version>
                     </dependency>
                     
                     <dependency>
@@ -903,6 +903,12 @@
         <dependency>
             <groupId>org.entando.entando.plugins</groupId>
             <artifactId>entando-plugin-jpinfinispan</artifactId>
+            <version>${entando.version}</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>org.entando.entando.bundles.widgets</groupId>
+            <artifactId>entando-widget-navigation_breadcrumbs</artifactId>
             <version>${entando.version}</version>
             <type>war</type>
         </dependency>

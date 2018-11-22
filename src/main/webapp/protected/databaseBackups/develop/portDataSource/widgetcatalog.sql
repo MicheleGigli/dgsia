@@ -50,6 +50,11 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 	<parameter name="navSpec">Rules for the Page List auto-generation</parameter>
 	<action name="navigatorConfig" />
 </config>',NULL,NULL,NULL,1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-navigation_breadcrumbs','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Navigation - Breadcrumbs</property>
+<property key="it">Navigazione - Briciole di Pane</property>
+</properties>',NULL,NULL,NULL,NULL,1,NULL);
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-search_form','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Search Form</property>
