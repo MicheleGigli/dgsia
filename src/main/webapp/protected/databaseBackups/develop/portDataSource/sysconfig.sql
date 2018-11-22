@@ -28,11 +28,10 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 	</contenttype>
 	<contenttype typecode="CTA" typedescr="Contenuto lista" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
 		<attributes>
-			<attribute name="title" attributetype="Text" description="titolo">
+			<attribute name="title" attributetype="Text" description="titolo" searchable="true" indexingtype="TEXT">
 				<validations />
 			</attribute>
 			<list name="lista" attributetype="Monolist" description="lista contenuti vari">
-				<validations />
 				<nestedtype>
 					<attribute name="lista" attributetype="Composite">
 						<attributes>
@@ -41,21 +40,11 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 									<required>true</required>
 								</validations>
 							</attribute>
-							<attribute name="abstract" attributetype="Longtext" description="descrizione">
-								<validations />
-							</attribute>
-							<attribute name="img" attributetype="Image" description="immagine">
-								<validations />
-							</attribute>
-							<attribute name="link" attributetype="Link" description="link">
-								<validations />
-							</attribute>
-							<attribute name="date" attributetype="Date" description="data">
-								<validations />
-							</attribute>
-							<attribute name="number" attributetype="Number" description="numero">
-								<validations />
-							</attribute>
+							<attribute name="abstract" attributetype="Longtext" description="descrizione" />
+							<attribute name="img" attributetype="Image" description="immagine" />
+							<attribute name="link" attributetype="Link" description="link" />
+							<attribute name="date" attributetype="Date" description="data" />
+							<attribute name="number" attributetype="Number" description="numero" />
 						</attributes>
 					</attribute>
 				</nestedtype>
@@ -387,7 +376,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params',
 </Params>
 
 ');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20181120183700');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20181122132859');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','userProfileTypes','User Profile Types Definitions','<?xml version="1.0" encoding="UTF-8"?>
 <profiletypes>
 	<profiletype typecode="PFL" typedescr="Default user profile">

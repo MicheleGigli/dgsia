@@ -219,6 +219,52 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8
             </div>
         </section>
 ',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (9,'CNG','Modello Testo','<section id="section1">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2 class="border-bottom">$content.Title.text</h2>
+                       
+                       <!--start card-->
+                        
+                        <div class="card-wrapper">
+                            <div class="card border-0">
+                                <div class="card-body p-3">
+                                    <h3 class="card-title">$content.Abstract.text</h3>
+                                    <p class="card-text">$content.MainBody.text</p>                                                                    
+                                </div>
+                            </div>
+                        </div>
+               <!--end card-->
+               
+               </div>
+              </div>
+            </div>
+        </section>
+',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10,'CTA','Modello Lista Link','	<div class="card-wrapper">
+		<div class="card border-0">
+			<div class="card-body p-3">
+				<h3>$content.title.text</h3>
+				<div class="row">
+					<div class="col-6">
+						<div class="link-list-wrapper multiline">
+							<ul class="link-list">
+							#foreach ($item in $content.lista) 
+								<li><a class="list-item right-icon p-0" href="$item.link"> 
+                	<span>$item.title.text</span> 
+								</a></li>
+								<li><span class="divider"></span>
+                
+								#end
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )

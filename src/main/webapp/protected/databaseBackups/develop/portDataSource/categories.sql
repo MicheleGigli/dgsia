@@ -1,3 +1,10 @@
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('filtro1','news','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">filtro1</property>
+<property key="it">filtro1</property>
+</properties>
+
+');
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('home','home','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="it">Generale</property>

@@ -249,6 +249,55 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('entan
     </body>
 </html>');
 INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('home','Home Page',NULL,NULL,NULL);
+INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('internal-page','Internal Page','<?xml version="1.0" encoding="UTF-8"?>
+<frames>
+	<frame pos="0">
+		<descr>Scelta Lingua</descr>
+		<sketch x1="9" y1="0" x2="11" y2="0" />
+	</frame>
+	<frame pos="1">
+		<descr>Ricerca</descr>
+		<sketch x1="6" y1="1" x2="11" y2="1" />
+	</frame>
+	<frame pos="2">
+		<descr>Menu</descr>
+		<sketch x1="0" y1="2" x2="8" y2="2" />
+	</frame>
+	<frame pos="3">
+		<descr>Accesso</descr>
+		<sketch x1="9" y1="2" x2="11" y2="2" />
+	</frame>
+	<frame pos="4">
+		<descr>Lista contenuti</descr>
+		<sketch x1="0" y1="3" x2="8" y2="10" />
+	</frame>
+	<frame pos="5">
+		<descr>Menu laterale</descr>
+		<sketch x1="9" y1="3" x2="11" y2="10" />
+	</frame>
+	<frame pos="6">
+		<descr>Footer</descr>
+		<sketch x1="0" y1="11" x2="11" y2="11" />
+	</frame>
+	<frame pos="7">
+		<descr>Footer</descr>
+		<sketch x1="0" y1="12" x2="11" y2="12" />
+	</frame>
+	<frame pos="8">
+		<descr>Footer</descr>
+		<sketch x1="0" y1="13" x2="11" y2="13" />
+	</frame>
+	<frame pos="9">
+		<descr>Footer</descr>
+		<sketch x1="0" y1="14" x2="11" y2="14" />
+	</frame>
+	<frame pos="10">
+		<descr>Footer</descr>
+		<sketch x1="0" y1="15" x2="11" y2="15" />
+	</frame>
+</frames>
+
+',NULL,NULL);
 INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('landing-page','Landing Page','<?xml version="1.0" encoding="UTF-8"?>
 <frames>
 	<frame pos="0">
@@ -306,55 +355,6 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('landi
 	<frame pos="13">
 		<descr>Colonna12</descr>
 		<sketch x1="0" y1="13" x2="11" y2="13" />
-	</frame>
-</frames>
-
-',NULL,NULL);
-INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('second-level-page','Pagina secondo livello','<?xml version="1.0" encoding="UTF-8"?>
-<frames>
-	<frame pos="0">
-		<descr>Scelta Lingua</descr>
-		<sketch x1="9" y1="0" x2="11" y2="0" />
-	</frame>
-	<frame pos="1">
-		<descr>Ricerca</descr>
-		<sketch x1="6" y1="1" x2="11" y2="1" />
-	</frame>
-	<frame pos="2">
-		<descr>Menu</descr>
-		<sketch x1="0" y1="2" x2="8" y2="2" />
-	</frame>
-	<frame pos="3">
-		<descr>Accesso</descr>
-		<sketch x1="9" y1="2" x2="11" y2="2" />
-	</frame>
-	<frame pos="4">
-		<descr>Lista contenuti</descr>
-		<sketch x1="0" y1="3" x2="8" y2="10" />
-	</frame>
-	<frame pos="5">
-		<descr>Menu laterale</descr>
-		<sketch x1="9" y1="3" x2="11" y2="10" />
-	</frame>
-	<frame pos="6">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="11" x2="11" y2="11" />
-	</frame>
-	<frame pos="7">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="12" x2="11" y2="12" />
-	</frame>
-	<frame pos="8">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="13" x2="11" y2="13" />
-	</frame>
-	<frame pos="9">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="14" x2="11" y2="14" />
-	</frame>
-	<frame pos="10">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="15" x2="11" y2="15" />
 	</frame>
 </frames>
 
