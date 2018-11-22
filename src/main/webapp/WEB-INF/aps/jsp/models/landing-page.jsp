@@ -263,10 +263,8 @@
             </div>
         </nav>
 
-        <div class="hero hero-fluid">
-            <%-- 4. Untitled Frame V  --%>
-            <wp:show frame="4" />
-        </div>
+        <%-- 4. Untitled Frame V  --%>
+        <wp:show frame="4" />
 
 	<wp:show frame="5" />
 	<wp:show frame="6" />
@@ -280,7 +278,8 @@
 
 
 
-	<wp:show frame="9" />
+
+        <wp:show frame="9" />
 
         <%-- FOOTER	--%>
 
