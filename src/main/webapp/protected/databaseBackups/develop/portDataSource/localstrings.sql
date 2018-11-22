@@ -136,6 +136,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESLF_USER_STATU
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESLF_USER_STATUS_EXPIRED','it','Credenziali scadute!');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESLF_WELCOME','en','Hello');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESLF_WELCOME','it','Ciao');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESNB_YOU_ARE_HERE','en','You are here');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESNB_YOU_ARE_HERE','it','Sei qui');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','en','Search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','it','Cerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('GENERIC_ERROR','en','Generic Error');
