@@ -16,8 +16,6 @@
 
     </head>
     <body>
-
-
         <div class="cookiebar bg-dark p-4 hide" aria-hidden="true">
             <p class="text-white">Questo sito utilizza cookie tecnici, analytics e di terze parti.
                 <br>Proseguendo nella navigazione accetti l'utilizzo dei cookie.<br>
@@ -27,8 +25,6 @@
                 <a href="" class="btn btn-outline-info">Privacy policy</a>
             </p>
         </div>
-
-
         <div class="it-header-slim-wrapper">
             <div class="container">
                 <div class="row">
@@ -40,7 +36,8 @@
                                     <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu1" role="button" aria-expanded="false" aria-controls="collapseExample">
                                         <span>Ente appartenenza/Owner</span>
                                         <svg class="icon">
-                                        <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>                                        </svg>
+                                        <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use> 
+                                        </svg>
                                     </a>
 
                                 </nav>
@@ -95,7 +92,7 @@
             </div>
         </div>
 
-        <wp:show frame="2" />
+        <%--<wp:show frame="2" />--%>
 
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
@@ -112,33 +109,14 @@
                     </div>
                     <div class="menu-wrapper bg-dark">
                         <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                                    <span>Il Tribunale</span>
-                                    <svg class="icon-expand icon icon-sm icon-light">
-                                    <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>
-                                    </svg>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <div class="link-list-wrapper">
-                                        <ul class="link-list">
-                                            <li>
-                                                <h3>Heading</h3>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 1 </span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 2</span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 3 </span></a>
-                                            </li>
-                                            <li><span class="divider"></span>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 4 </span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
+
+
+
+                            <wp:show frame="2" />
+
+
+                            <!--<ul class="navbar-nav">-->
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
                                     <span>Per il Cittadino</span>
@@ -166,33 +144,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                                    <span>Per il Professionista</span>
-                                    <svg class="icon-expand icon icon-sm icon-light">
-                                    <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>
-                                    </svg>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <div class="link-list-wrapper">
-                                        <ul class="link-list">
-                                            <li>
-                                                <h3>Heading</h3>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 1 </span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 2</span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 3 </span></a>
-                                            </li>
-                                            <li><span class="divider"></span>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 4 </span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
                                     <span>Per l'Amministrazione</span>
