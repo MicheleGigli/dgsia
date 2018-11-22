@@ -273,6 +273,146 @@
         <wp:show frame="9" />
         
         <wp:show frame="10" /> --%>
+      <footer class="footer bg-300 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="media footer-title">
+                            <img class="img-fluid mb-3" data-src="" alt=""
+                                 src="<wp:imgURL />logo-Tribunale-di-Torino-trasparente.png"
+                                 data-holder-rendered="true">
+                            <div class="media-body">
+                                <span class="sr-only">Nome della Pubblica Amministrazione</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col my-3">
+                        <h2 class="display-3 mb-4">Argomento 1</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="">blanditiis soluta
+                                    exercitationem</a></li>
+                            <li class="list-group-item"><a href="">voluptatem
+                                    eligendi laboriosam</a></li>
+                            <li class="list-group-item"><a href="">laboriosam porro
+                                    dolor</a></li>
+                            <li class="list-group-item"><a href="">sed et velit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col my-3">
+                        <h2 class="display-3 mb-4">Argomento 2</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="">blanditiis soluta
+                                    exercitationem</a></li>
+                            <li class="list-group-item"><a href="">voluptatem
+                                    eligendi laboriosam</a></li>
+                            <li class="list-group-item"><a href="">laboriosam porro
+                                    dolor</a></li>
+                            <li class="list-group-item"><a href="">sed et velit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col my-3">
+                        <h2 class="display-3 mb-4">Argomento 3</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="">blanditiis soluta
+                                    exercitationem</a></li>
+                            <li class="list-group-item"><a href="">voluptatem
+                                    eligendi laboriosam</a></li>
+                            <li class="list-group-item"><a href="">laboriosam porro
+                                    dolor</a></li>
+                            <li class="list-group-item"><a href="">sed et velit</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col my-3">
+                        <h2 class="display-3 mb-4">Argomento 4</h2>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="">blanditiis soluta
+                                    exercitationem</a></li>
+                            <li class="list-group-item"><a href="">voluptatem
+                                    eligendi laboriosam</a></li>
+                            <li class="list-group-item"><a href="">laboriosam porro
+                                    dolor</a></li>
+                            <li class="list-group-item"><a href="">sed et velit</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col my-3">
+                        <h2 class="display-3 mb-4">Contatti</h2>
+                        <div>
+                            <h3 class="display-4">Recapiti</h3>
+                            <address>
+                                Via autem reiciendis maiores<br> autem reiciendis maiores<br>
+                                Tel. (+00) 00.0000.0000
+                            </address>
+                        </div>
+                    </div>
+
+                    <div class="col my-3">
+                        <h2 class="display-3 mb-4">Contatti</h2>
+                        <div>
+                            <h3 class="display-4">Recapiti</h3>
+                            <address>
+                                Via blanditiis soluta exercitationem<br> blanditiis soluta
+                                exercitationem<br> Tel. (+00) 00.0000.0000
+                            </address>
+                        </div>
+                    </div>
+
+                    <div class="col my-3">
+                        <h2 class="display-3 mb-4">Contatti</h2>
+                        <div>
+                            <h3 class="display-4">Indirizzo PEC</h3>
+                            <p>
+                                <a href="">indirizzo.pec@gov.it</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col my-3">
+                        <h2 class="display-3 mb-4">Seguici su</h2>
+                        <div>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="" class=""><svg
+                                            class="icon">
+                                        <use
+                                            xlink:href="<wp:imgURL />sprite.svg#it-facebook "></use>
+                                        </svg></a></li>
+                                <li class="list-inline-item"><a href=""><svg
+                                            class="icon">
+                                        <use
+                                            xlink:href="<wp:imgURL />sprite.svg#it-twitter"></use>
+                                        </svg></a></li>
+                                <li class="list-inline-item"><a href=""><svg
+                                            class="icon">
+                                        <use
+                                            xlink:href="<wp:imgURL />sprite.svg#it-youtube"></use>
+                                        </svg></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="list-inline border-top">
+                    <li class="list-inline-item"><a href="" title="Privacy policy">Privacy</a></li>
+                    <li class="list-inline-item"><a href="" title="Note legali">Note
+                            legali</a></li>
+                    <li class="list-inline-item"><a href="" title="Contatti">Contatti</a></li>
+                    <li class="list-inline-item"><a href="" title="a est rerum">a
+                            est rerum</a></li>
+                    <li class="list-inline-item">autem reiciendis maiores</li>
+                </ul>
+            </div>
+        </footer>
+
+        <a href="#" data-attribute="return-to-top" class="return-to-top"><i
+                class="it-collapse"></i><span class="sr-only">Collapse</span></a>
     </body>
 
 </html>

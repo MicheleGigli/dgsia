@@ -268,20 +268,19 @@
             <wp:show frame="4" />
         </div>
 
-        <wp:show frame="5" />
-        <wp:show frame="6" />
-        <wp:show frame="7" />
-
-        <section id="section3" class="bg-link">
-            <div class="container py-4">
-                <wp:show frame="8" />
-            </div>
-        </section>
-
+	<wp:show frame="5" />
+	<wp:show frame="6" />
+	<section id="section2">
+		<wp:show frame="7" />
+	</section>
+	<section id="section3" class="bg-link">
+		<wp:show frame="8" />
+	</section>
 
 
 
-        <wp:show frame="9" />
+
+	<wp:show frame="9" />
 
         <%-- FOOTER	--%>
 

@@ -28,9 +28,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 	</contenttype>
 	<contenttype typecode="CTA" typedescr="Contenuto lista" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
 		<attributes>
-			<attribute name="title" attributetype="Text" description="titolo" searchable="true" indexingtype="TEXT">
-				<validations />
-			</attribute>
+			<attribute name="title" attributetype="Text" description="titolo" searchable="true" indexingtype="TEXT" />
 			<list name="lista" attributetype="Monolist" description="lista contenuti vari">
 				<nestedtype>
 					<attribute name="lista" attributetype="Composite">
@@ -65,6 +63,10 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			</attribute>
 			<attribute name="img" attributetype="Image" description="immagine" />
 			<attribute name="link" attributetype="Link" description="link" />
+			<attribute name="abstract" attributetype="Text" description="abstract" />
+			<attribute name="date" attributetype="Date" description="data">
+				<validations />
+			</attribute>
 		</attributes>
 	</contenttype>
 </contenttypes>
