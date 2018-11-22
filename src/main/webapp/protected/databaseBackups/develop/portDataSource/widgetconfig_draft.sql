@@ -54,6 +54,3 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 </properties>
 
 ');
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('second_level_page',0,'entando-widget-language_choose',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('second_level_page',1,'entando-widget-search_form',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('second_level_page',3,'entando-widget-login_form',NULL);
