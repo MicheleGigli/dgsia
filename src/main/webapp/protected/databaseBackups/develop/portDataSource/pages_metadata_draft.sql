@@ -16,7 +16,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-21 22:34:22');
+','2018-11-22 10:33:40');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('login','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="it">Pagina di login</property>
@@ -27,20 +27,6 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
 <property key="en">Page not found</property>
 <property key="it">Pagina non trovata</property>
 </properties>','service',1,NULL,'2017-02-17 16:37:10');
-INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('second_level_page','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">second level page</property>
-<property key="it">pagina secondo livello</property>
-</properties>
-
-','second-level-page',1,'<?xml version="1.0" encoding="UTF-8"?>
-<config>
-  <useextratitles>false</useextratitles>
-  <charset>utf-8</charset>
-  <mimeType>text/html</mimeType>
-</config>
-
-','2018-11-21 22:55:34');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('service','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="it">Pagine di Servizio</property>

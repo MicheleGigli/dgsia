@@ -154,10 +154,6 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TE
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TEXT_AT_LEAST_ONE_WORD','it','Almeno una parola');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TEXT_EXACT','en','Exact');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TEXT_EXACT','it','Frase esatta');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LINGUA_CORRENTE','en','English');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LINGUA_CORRENTE','it','Italiano');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LINK_UTILI','en','Read more');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LINK_UTILI','it','Tutti i link utili');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LIST_VIEWER_EMPTY','en','No result found. Broaden your search and try again!');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LIST_VIEWER_EMPTY','it','Nessun risultato trovato. Imposta dei parametri meno stringenti e prova ancora!');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LOGOUT','en','Logout');

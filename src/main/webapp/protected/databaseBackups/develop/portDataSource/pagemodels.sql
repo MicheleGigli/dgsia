@@ -340,22 +340,6 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('secon
 		<descr>Footer</descr>
 		<sketch x1="0" y1="11" x2="11" y2="11" />
 	</frame>
-	<frame pos="7">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="12" x2="11" y2="12" />
-	</frame>
-	<frame pos="8">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="13" x2="11" y2="13" />
-	</frame>
-	<frame pos="9">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="14" x2="11" y2="14" />
-	</frame>
-	<frame pos="10">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="15" x2="11" y2="15" />
-	</frame>
 </frames>
 
 ',NULL,NULL);
