@@ -30,7 +30,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-22 16:03:55');
+','2018-11-22 22:57:44');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('login','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="it">Pagina di login</property>
@@ -55,6 +55,34 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 <property key="en">Page not found</property>
 <property key="it">Pagina non trovata</property>
 </properties>','service',1,NULL,'2017-02-17 16:37:10');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('paginadettaglio','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Detail page</property>
+<property key="it">Dettaglio</property>
+</properties>
+
+','internal-page',0,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-11-22 23:13:49');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('search_result','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Search result</property>
+<property key="it">Risultato ricerca</property>
+</properties>
+
+','internal-page',0,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-11-22 23:14:23');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('service','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="it">Pagine di Servizio</property>

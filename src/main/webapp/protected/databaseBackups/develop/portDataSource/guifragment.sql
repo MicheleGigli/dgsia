@@ -806,7 +806,7 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
 <div class="container py-4">
 <#if (titleVar??)>
-<h2 class="text-white">${titleVar}</h2>
+<h2>${titleVar}</h2>
 </#if>
 <div class="card-deck">
 <@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
@@ -836,7 +836,7 @@ pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFi
 <#assign contentList="">
 </div>
 </div>
-<div class="mt-3 text-right view-all">
+<div class="mt-3 container py-2 text-right">
          <a href="#" type="button" class="btn btn-outline-primary"><@wp.i18n key="LINK_UTILI" /></a>
 </div>','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
 <#assign wp=JspTaglibs["/aps-core"]>

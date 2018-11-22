@@ -43,7 +43,6 @@
                                 </nav>
                             </span>
                             <div class="header-slim-right-zone">
-
                                 <%-- 0. Untitled Frame I  --%>
                                 <wp:show frame="0" />
                             </div>
@@ -106,6 +105,7 @@
                     </div>
                     <div class="menu-wrapper bg-dark">
                         <ul class="navbar-nav">
+                            <wp:show frame="2" />
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
                                     <span>Il Tribunale</span>
@@ -242,10 +242,8 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown ml-auto">
-
                                 <%-- 3. Untitled Frame IV  --%>
                                 <wp:show frame="3" />
-
                             </li>
                         </ul>
                     </div>
@@ -256,24 +254,19 @@
                 </button>
             </div>
         </nav>
-
-
-
-
-
         <%-- 4. Untitled Frame V  --%>
         <wp:show frame="4" />
         <wp:show frame="5" />
         <wp:show frame="6" />
-        <%-- 
+
         <wp:show frame="5" />
         <wp:show frame="6" />
         <wp:show frame="7" />
         <wp:show frame="8" />
         <wp:show frame="9" />
-        
+
         <wp:show frame="10" /> --%>
-      <footer class="footer bg-300 py-5">
+        <footer class="footer bg-300 py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">

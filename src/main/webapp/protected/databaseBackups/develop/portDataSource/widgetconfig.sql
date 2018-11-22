@@ -68,7 +68,8 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribu
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribunale',3,'entando-widget-login_form',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribunale',4,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribunale',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribunale',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="contentId">CNG142</property>
 <property key="modelId">9</property>
@@ -100,3 +101,20 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',6,
 </properties>
 
 ');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',1,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',2,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">code(homepage)</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',9,'content_viewer',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('search_result',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('search_result',1,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('search_result',2,'entando-widget-navigation_bar',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('search_result',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('search_result',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('search_result',10,'search_result',NULL);

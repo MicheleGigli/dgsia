@@ -8,7 +8,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
 <div class="card-body">
 <h5 class="card-title"><a class="card-body-link" href="$content.link.destination"> $content.title.text </a></h5>
-<p class="card-text">$content.abstarct.text</p>
+<p class="card-text">$content.abstract.text</p>
 </div>
 </div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2,'CTA','Lista Notizie Primo Piano','<section id="section2">

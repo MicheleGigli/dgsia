@@ -7,16 +7,12 @@
 <html lang="<wp:info key="currentLang" />">
 
     <head>
-
         <title>
             <wp:currentPage param="title" /> - <wp:i18n  key="PORTAL_TITLE" />
         </title>
         <jsp:include page="inc/header-inclusions.jsp" />
-
-
     </head>
     <body>
-
 
         <div class="cookiebar bg-dark p-4 hide" aria-hidden="true">
             <p class="text-white">Questo sito utilizza cookie tecnici, analytics e di terze parti.
@@ -95,7 +91,7 @@
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-custom">
             <div class="container">
                 <div class="col-12 d-block d-sm-block d-md-none text-right align-middle">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavB" aria-controls="navbarNavB" aria-expanded="false" aria-label="Toggle navigation">
@@ -194,10 +190,8 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown ml-auto">
-
                                 <%-- 3. Untitled Frame IV  --%>
                                 <wp:show frame="3" />
-
                             </li>
                         </ul>
                     </div>
@@ -209,29 +203,19 @@
             </div>
         </nav>
 
-        <%-- 4. Untitled Frame V  --%>
         <wp:show frame="4" />
-
-	<wp:show frame="5" />
-	<wp:show frame="6" />
-	<section id="section2">
-		<wp:show frame="7" />
-	</section>
-	<section id="section3" class="bg-link">
-		<wp:show frame="8" />
-	</section>
-
+        <wp:show frame="5" />
+        <wp:show frame="6" />
+        <section id="section2">
+            <wp:show frame="7" />
+        </section>
+        <section id="section3" class="bg-link">
+            <wp:show frame="8" />
+        </section>
         <wp:show frame="9" />
-
-        <%-- FOOTER	--%>
-
-        <%-- 10. Untitled Frame XI  --%>
         <wp:show frame="10" />
-        <%-- 11. Untitled Frame XII  --%>
         <wp:show frame="11" />
-        <%-- 12. Untitled Frame XIII  --%>
         <wp:show frame="12" />
-        <%-- 13. Untitled Frame XIV  --%>
         <wp:show frame="13" />
 
         <footer class="footer bg-300 py-5">

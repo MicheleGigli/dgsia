@@ -18,7 +18,7 @@
 </c:if>
 
 <c:if test="${previousPage.code == currentPageCode}">
-    <c:set var="liClass" value=' class="active"' />
+    <c:set var="liClass" value=' class="active mt-2 mr-3"' />
 </c:if>
 
 <c:if test="${previousLevel < level}">

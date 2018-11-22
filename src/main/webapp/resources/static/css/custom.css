@@ -426,3 +426,17 @@ ul.link-list .list-item {
 }
 
 /*Carousel*/
+
+.it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
+    color: #fff;
+    font-size: 1em;
+    padding: 0;
+}
+
+.navbar-custom .navbar-nav li a span {
+    color:#fff;
+}
+
+.bg-dark h2, .bg-link h2 {
+    color:#fff;
+}

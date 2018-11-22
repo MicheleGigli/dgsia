@@ -254,46 +254,51 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('inter
 	<frame pos="0">
 		<descr>Scelta Lingua</descr>
 		<sketch x1="9" y1="0" x2="11" y2="0" />
+		<defaultWidget code="entando-widget-language_choose" />
 	</frame>
 	<frame pos="1">
 		<descr>Ricerca</descr>
 		<sketch x1="6" y1="1" x2="11" y2="1" />
+		<defaultWidget code="entando-widget-search_form" />
 	</frame>
 	<frame pos="2">
 		<descr>Menu</descr>
 		<sketch x1="0" y1="2" x2="8" y2="2" />
+		<defaultWidget code="entando-widget-navigation_bar" />
 	</frame>
 	<frame pos="3">
 		<descr>Accesso</descr>
 		<sketch x1="9" y1="2" x2="11" y2="2" />
+		<defaultWidget code="entando-widget-login_form" />
 	</frame>
 	<frame pos="4">
-		<descr>Lista contenuti</descr>
-		<sketch x1="0" y1="3" x2="8" y2="10" />
+		<descr>breadcrumb</descr>
+		<sketch x1="0" y1="3" x2="11" y2="3" />
+		<defaultWidget code="entando-widget-navigation_breadcrumbs" />
 	</frame>
 	<frame pos="5">
-		<descr>Menu laterale</descr>
-		<sketch x1="9" y1="3" x2="11" y2="10" />
+		<descr>contenuto destra</descr>
+		<sketch x1="0" y1="4" x2="8" y2="10" />
 	</frame>
 	<frame pos="6">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="11" x2="11" y2="11" />
+		<descr>col sinistra</descr>
+		<sketch x1="9" y1="4" x2="11" y2="10" />
 	</frame>
 	<frame pos="7">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="12" x2="11" y2="12" />
+		<descr>contenuto destra</descr>
+		<sketch x1="0" y1="11" x2="8" y2="12" />
 	</frame>
 	<frame pos="8">
-		<descr>Footer</descr>
+		<descr>col sinistra</descr>
+		<sketch x1="9" y1="11" x2="11" y2="12" />
+	</frame>
+	<frame pos="9" main="true">
+		<descr>col 12</descr>
 		<sketch x1="0" y1="13" x2="11" y2="13" />
 	</frame>
-	<frame pos="9">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="14" x2="11" y2="14" />
-	</frame>
 	<frame pos="10">
-		<descr>Footer</descr>
-		<sketch x1="0" y1="15" x2="11" y2="15" />
+		<descr>col 12</descr>
+		<sketch x1="0" y1="14" x2="11" y2="14" />
 	</frame>
 </frames>
 
@@ -303,22 +308,27 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('landi
 	<frame pos="0">
 		<descr>Scelta Lingua</descr>
 		<sketch x1="9" y1="0" x2="11" y2="0" />
+		<defaultWidget code="entando-widget-language_choose" />
 	</frame>
 	<frame pos="1">
 		<descr>Ricerca</descr>
 		<sketch x1="6" y1="1" x2="11" y2="1" />
+		<defaultWidget code="entando-widget-search_form" />
 	</frame>
 	<frame pos="2">
 		<descr>Menu</descr>
 		<sketch x1="0" y1="2" x2="8" y2="2" />
+		<defaultWidget code="entando-widget-navigation_bar" />
 	</frame>
 	<frame pos="3">
 		<descr>Accesso</descr>
 		<sketch x1="9" y1="2" x2="11" y2="2" />
+		<defaultWidget code="entando-widget-login_form" />
 	</frame>
 	<frame pos="4">
-		<descr>Colonna12</descr>
+		<descr>breadcrumb</descr>
 		<sketch x1="0" y1="3" x2="11" y2="3" />
+		<defaultWidget code="entando-widget-navigation_breadcrumbs" />
 	</frame>
 	<frame pos="5">
 		<descr>Colonna12</descr>
