@@ -3,26 +3,26 @@
 
 <wp:currentPage param="code" var="currentViewCode" />
 
-<p class="breadcrumb"><span class="noscreen"><wp:i18n key="ESNB_YOU_ARE_HERE" />:</span>
+<ol class="breadcrumb p-0 m-0">
     <c:set var="first" value="true" />
     <wp:nav spec="current.path" var="currentTarget">
         <c:set var="currentCode"><c:out value="${currentTarget.code}" /></c:set>
-        <c:if test="${first != 'true'}"> <span class="divider">/</span> </c:if>
+        <c:if test="${first != 'true'}"> <span class="divider">&nbsp;&nbsp;/&nbsp;&nbsp;</span> </c:if>
         <c:choose>
             <c:when test="${!currentTarget.voidPage}">
                 <c:choose>
                     <c:when test="${currentCode == currentViewCode}">
-                        <span class="active"><c:out value="${currentTarget.title}" /></span>
+                        <li> <span class="active"><c:out value="${currentTarget.title}" /></span></li>
+                        </c:when>
+                        <c:otherwise>
+                        <li><a href="<c:out value="${currentTarget.url}" />"><c:out value="${currentTarget.title}" /></a><span class="separator">&gt;</span></li>
+                            </c:otherwise>
+                        </c:choose>
                     </c:when>
                     <c:otherwise>
-                        <a href="<c:out value="${currentTarget.url}" />"><c:out value="${currentTarget.title}" /></a>
+                        <c:out value="${currentTarget.title}" />
                     </c:otherwise>
                 </c:choose>
-            </c:when>
-            <c:otherwise>
-                <c:out value="${currentTarget.title}" />
-            </c:otherwise>
-        </c:choose>
-        <c:set var="first" value="false" />
-    </wp:nav>
-</p>
+                <c:set var="first" value="false" />
+            </wp:nav>
+</ol>
