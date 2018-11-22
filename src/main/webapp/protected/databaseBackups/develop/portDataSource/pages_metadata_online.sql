@@ -16,7 +16,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-22 10:33:40');
+','2018-11-21 22:34:22');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('login','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="it">Pagina di login</property>
