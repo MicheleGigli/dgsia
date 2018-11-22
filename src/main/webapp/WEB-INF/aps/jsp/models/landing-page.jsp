@@ -16,6 +16,8 @@
 
     </head>
     <body>
+
+
         <div class="cookiebar bg-dark p-4 hide" aria-hidden="true">
             <p class="text-white">Questo sito utilizza cookie tecnici, analytics e di terze parti.
                 <br>Proseguendo nella navigazione accetti l'utilizzo dei cookie.<br>
@@ -25,6 +27,8 @@
                 <a href="" class="btn btn-outline-info">Privacy policy</a>
             </p>
         </div>
+
+
         <div class="it-header-slim-wrapper">
             <div class="container">
                 <div class="row">
@@ -36,8 +40,7 @@
                                     <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu1" role="button" aria-expanded="false" aria-controls="collapseExample">
                                         <span>Ente appartenenza/Owner</span>
                                         <svg class="icon">
-                                        <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use> 
-                                        </svg>
+                                        <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>                                        </svg>
                                     </a>
 
                                 </nav>
@@ -92,8 +95,6 @@
             </div>
         </div>
 
-        <%--<wp:show frame="2" />--%>
-
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container">
                 <div class="col-12 d-block d-sm-block d-md-none text-right align-middle">
@@ -109,14 +110,7 @@
                     </div>
                     <div class="menu-wrapper bg-dark">
                         <ul class="navbar-nav">
-
-
-
                             <wp:show frame="2" />
-
-
-                            <!--<ul class="navbar-nav">-->
-
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
                                     <span>Per il Cittadino</span>
@@ -218,18 +212,14 @@
         <%-- 4. Untitled Frame V  --%>
         <wp:show frame="4" />
 
-        <wp:show frame="5" />
-        <wp:show frame="6" />
-        <wp:show frame="7" />
-
-        <section id="section3" class="bg-link">
-            <div class="container py-4">
-                <wp:show frame="8" />
-            </div>
-        </section>
-
-
-
+	<wp:show frame="5" />
+	<wp:show frame="6" />
+	<section id="section2">
+		<wp:show frame="7" />
+	</section>
+	<section id="section3" class="bg-link">
+		<wp:show frame="8" />
+	</section>
 
         <wp:show frame="9" />
 

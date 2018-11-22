@@ -1,16 +1,15 @@
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1,'CTM','Notizia','<div class="card shadow rounded">
-	<div class="card-header">
-		<p class="card-text orange">
-			<span class="text-uppercase font-weight-bold">Atti giudiziari</span>
-				<small class="text-muted d-block">$item.date</small>
-		</p>
-	</div>
-  	<img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
-  <div class="card-body">
-  	<h5 class="card-title">$content.title.text</h5>
-  	<p class="card-text">$content.subtitle.text</p>
-  </div>
-<a href="$content.link.destination" data-attribute="forward" class="forward mt-3" aria-hidden="true">
+<div class="card-header">
+<p class="card-text orange">
+<span class="text-uppercase font-weight-bold">Atti giudiziari</span>
+<small class="text-muted d-block">$content.date</small>
+</p>
+</div>
+<img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+<div class="card-body">
+<h5 class="card-title"><a class="card-body-link" href="$content.link.destination"> $content.title.text </a></h5>
+<p class="card-text">$content.abstarct.text</p>
+</div>
 </div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2,'CTA','Lista Notizie Primo Piano','<section id="section2">
 		<div class="container py-4">
@@ -266,6 +265,24 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 	</div>
 	</div>
 	</div>
+',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (11,'CTM','Storico Notizie','<div class="card card-bg card-big no-after border-0">
+<div class="card-body px-0">
+<div class="row">
+<div class="col-7">
+<div class="head-tags">
+<a class="card-tag" href="#">Categoria 1</a>
+<span class="data">$content.date</span>
+</div>
+<h5 class="card-title"><a href="#">$content.title.text</a></h5>
+<p class="card-text">$content.abstract.text</p>
+</div>
+<div class="col-5">
+<img src="$content.img.getImagePath(''0'')" title="img title" alt="imagealt" class="img-fluid">
+</div>
+</div>
+</div>
+</div>
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>

@@ -92,6 +92,13 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 <property key="en">System Messages</property>
 <property key="it">Messaggi di Sistema</property>
 </properties>',NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('PCR','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Publish a list of news</property>
+<property key="it">Publish a list of news</property>
+</properties>
+
+',NULL,NULL,NULL,NULL,0,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('row_content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Contents - Publish Contents</property>
