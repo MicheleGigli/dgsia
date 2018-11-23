@@ -7,7 +7,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </div>
 <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
 <div class="card-body">
-<h5 class="card-title"><a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=11 "> $content.title.text </a></h5>
+<h5 class="card-title"><a class="card-body-link" href="$content.link.destination"> $content.title.text </a></h5>
 <p class="card-text">$content.abstract.text</p>
 </div>
 </div>',NULL);
@@ -97,93 +97,41 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (6
    </div>
   </div>
 </div>',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (7,'CTA','Carousel Home','<div class="container">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-        <div class="carousel-inner">
-
-            #foreach($item in $content.lista)
-            <div class="item active">
-
-                <img src="$item.img.getImagePath(''0'')">
-                <div class="carousel-caption">
-                    <h4>
-                        <a href="#">$item.title.text</a>
-                    </h4>
-
-                    <p>$item.abstract.text
-                        <a class="label label-primary"  href="$item.link.destination" target="_blank">
-                            $item.link.text
-                        </a>
-                    </p>
-
-                </div>
-            </div>
-
-            #end
-        </div>
-
-        <ul class="list-group col-4">
-            #foreach ($item in $content.lista)
-            <li data-target="#myCarousel" data-slide-to="$item.number.value"  class="list-group-item">
-                <h4>$item.link.text</h4>
-            </li>
-            #end
-        </ul>
-
-
-        <div class="carousel-controls">
-
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> 
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a> 
-            <a class="right carousel-control" href="#myCarousel"  data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-            
-        </div>
-        
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (7,'CTA','Carousel Home','<div id="myCarousel" class="carousel container slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+  #foreach ($item in $content.lista)
+    <li data-target="#myCarousel" data-slide-to="$item.number.value"></li>
+    #end
+  </ol>
+  <div class="carousel-inner">
+  #foreach($item in $content.lista)
+    <div class="carousel-item">
+      <img class="d-block w-100" src="$item.img.getImagePath(''0'')" alt="">
     </div>
-
+    #end
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Precedente</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Successivo</span>
+  </a>
 </div>
 
-
-
 <script>
-    $(document).ready(function () {
+$(document).ready(function () {
 
-        $(".carousel-inner .item").removeClass("active").first().addClass("active");
-
-        $("ul.list-group li").first().addClass("active");
-
-        var clickEvent = false;
-        $(''#myCarousel'').carousel({
-            interval: 1000
-        }).on(''click'', ''.list-group li'', function () {
-            clickEvent = true;
-            $(''.list-group li'').removeClass(''active'');
-            $(this).addClass(''active'');
-        }).on(''slid.bs.carousel'', function (e) {
-            if (!clickEvent) {
-                var count = $(''.list-group'').children().length - 1;
-                var current = $(''.list-group li.active'');
-                current.removeClass(''active'').next().addClass(''active'');
-                var id = parseInt(current.data(''slide-to''));
-                if (count == id) {
-                    $(''.list-group li'').first().addClass(''active'');
-                }
-            }
-            clickEvent = false;
+        $(".carousel-inner .carousel-item").removeClass("active").first().addClass("active");
+                                                              $("ol.carousel-indicators li").first().addClass("active");
+       
+        $(''.myCarousel'').carousel({
+            interval:3000
         });
-    })
-
-    $(window).load(function () {
-        var boxheight = $(''#myCarousel .carousel-inner'').innerHeight();
-        var itemlength = $(''#myCarousel .item'').length;
-        var triggerheight = Math.round(boxheight / itemlength + 1);
-        $(''#myCarousel .list-group-item'').outerHeight(triggerheight);
-    });
-</script>',NULL);
+})
+</script>
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8,'CTA','Link Istituzionali Home Page','<section id="section5">
             <div class="container py-4">
                 <h2>$content.title.text</h2>
@@ -274,10 +222,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 <a class="card-tag" href="#">Categoria 1</a>
 <span class="data">$content.date</span>
 </div>
-<h5 class="card-title"><a href="$content.getContentOnPageLink("paginadettaglio")&modelId=11 "> $content.title.text</a></h5>
-
-
-
+<h5 class="card-title"><a href="#">$content.title.text</a></h5>
 <p class="card-text">$content.abstract.text</p>
 </div>
 <div class="col-5">
