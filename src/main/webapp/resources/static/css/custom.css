@@ -153,51 +153,60 @@ h2.border-bottom {
 .list-group-item.active {
     background-color: transparent;
 
+}
+.footer a {
+    color: #333;
+    text-decoration: underline;
+}
 
-    .footer a {
-        color: #333;
-        text-decoration: underline;
-    }
-
-    .list-group-item.active a {
-        color: #17324d;
-    }
-    .footer .list-group-item {
-        background: transparent;
-        border-color: #FFF;
-    }
-    ul.link-list .list-item {
-        color:#0073e6;
-    }
+.list-group-item.active a {
+    color: #17324d;
+}
+.footer .list-group-item {
+    background: transparent;
+    border-color: #FFF;
+}
+ul.link-list .list-item {
+    color:#0073e6;
+}
 
 
-    /*CAROUSEL*/
-    .carousel-control-next,
-    .carousel-control-prev {
-        top: 0;
-    }
+/*CAROUSEL*/
+.carousel-control-next,
+.carousel-control-prev {
+    top: 0;
+}
 
-    .carousel-control-prev {
-        right: 3em;
-        .it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
-            color: #fff;
-            font-size: 1em;
-            padding: 0;
-        }
+.carousel-control-prev {
+    right: 3em;
+}
+.it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
+    color: #fff;
+    font-size: 1em;
+    padding: 0;
+}
 
-        .carousel-control-next {
-            right: 0;
-        }
+.carousel-control-next {
+    right: 0;
+}
 
-        .bg-dark h2, .bg-link h2 {
-            color:#fff;
-        }
-        .footer a {
-            color: #333;
-            text-decoration: underline;
-        }
+.bg-dark h2, .bg-link h2 {
+    color:#fff;
+}
+.footer a {
+    color: #333;
+    text-decoration: underline;
+}
 
-        .footer .list-group-item {
-            background: transparent;
-            border-color: #FFF;
-        }
+.footer .list-group-item {
+    background: transparent;
+    border-color: #FFF;
+}
+
+#carouselExampleControls .carousel-item {
+    display:block
+
+}
+.navbar-nav a.list-item span {
+    color:#fff;
+}
