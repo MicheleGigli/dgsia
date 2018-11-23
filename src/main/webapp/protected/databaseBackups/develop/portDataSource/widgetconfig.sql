@@ -81,15 +81,15 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribu
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribunale',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribunale',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CNG142</property>
 <property key="modelId">9</property>
+<property key="contentId">CNG142</property>
 </properties>
 
 ');
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribunale',6,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribunale',7,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CTA144</property>
 <property key="modelId">10</property>
+<property key="contentId">CTA144</property>
 </properties>
 
 ');

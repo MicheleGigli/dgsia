@@ -170,28 +170,22 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8
             </div>
         </section>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (9,'CNG','Modello Testo','<section id="section1">
-            <div class="container py-4">
-                <div class="row">
-                    <div class="col-md-7">
-                        <h2 class="border-bottom">$content.Title.text</h2>
-                       
-                       <!--start card-->
-                        
-                        <div class="card-wrapper">
-                            <div class="card border-0">
-                                <div class="card-body p-3">
-                                    <h3 class="card-title">$content.Abstract.text</h3>
-                                    <p class="card-text">$content.MainBody.text</p>                                                                    
-                                </div>
-                            </div>
-                        </div>
-               <!--end card-->
-               
-               </div>
-              </div>
-            </div>
-        </section>
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (9,'CNG','Modello Testo','
+<h2 class="border-bottom">$content.Title.text</h2>
+
+<!--start card-->
+
+<div class="card-wrapper">
+<div class="card border-0">
+<div class="card-body p-3">
+<h3 class="card-title">$content.Abstract.text</h3>
+<p class="card-text">$content.MainBody.text</p>                                                                    
+</div>
+</div>
+</div>
+<!--end card-->
+
+
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10,'CTA','Modello Lista Link','<div class="card-wrapper">
 		<div class="card border-0">
