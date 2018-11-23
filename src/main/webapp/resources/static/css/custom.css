@@ -2,6 +2,10 @@
     background-color: #003466 !important;
 }
 
+h2.border-bottom {
+    border-width: 3px !important;
+    border-color: #003466 !important;
+}
 
 @media only screen and (max-width: 991px) {
 
@@ -102,9 +106,6 @@
     color: white;
 }
 
-/**/
-
-
 /* Notizie in primo piano */
 .card-header {
     position: relative;
@@ -126,9 +127,6 @@
 .card-header .card-text.violet {
     border-color: #7A73FF;
 }
-
-/**/
-
 
 /*Link utili*/
 .bg-link {
@@ -152,33 +150,54 @@
     box-shadow: inset 0 0 0 2px #fff, 0 0 0 .2rem rgba(255, 255, 255, .5);
 }
 
+.list-group-item.active {
+    background-color: transparent;
 
 
-.footer a {
-    color: #333;
-    text-decoration: underline;
-}
+    .footer a {
+        color: #333;
+        text-decoration: underline;
+    }
 
-.footer .list-group-item {
-    background: transparent;
-    border-color: #FFF;
-}
-ul.link-list .list-item {
-    color:#0073e6;
-}
+    .list-group-item.active a {
+        color: #17324d;
+    }
+    .footer .list-group-item {
+        background: transparent;
+        border-color: #FFF;
+    }
+    ul.link-list .list-item {
+        color:#0073e6;
+    }
 
 
+    /*CAROUSEL*/
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 0;
+    }
 
-.it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
-    color: #fff;
-    font-size: 1em;
-    padding: 0;
-}
+    .carousel-control-prev {
+        right: 3em;
+        .it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
+            color: #fff;
+            font-size: 1em;
+            padding: 0;
+        }
 
-.navbar-custom .navbar-nav li a span {
-    color:#fff;
-}
+        .carousel-control-next {
+            right: 0;
+        }
 
-.bg-dark h2, .bg-link h2 {
-    color:#fff;
-}
+        .bg-dark h2, .bg-link h2 {
+            color:#fff;
+        }
+        .footer a {
+            color: #333;
+            text-decoration: underline;
+        }
+
+        .footer .list-group-item {
+            background: transparent;
+            border-color: #FFF;
+        }

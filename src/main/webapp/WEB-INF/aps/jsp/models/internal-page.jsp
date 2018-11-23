@@ -106,141 +106,7 @@
                     <div class="menu-wrapper bg-dark">
                         <ul class="navbar-nav">
                             <wp:show frame="2" />
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                                    <span>Il Tribunale</span>
-                                    <svg class="icon-expand icon icon-sm icon-light">
-                                    <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>
-                                    </svg>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <div class="link-list-wrapper">
-                                        <ul class="link-list">
-                                            <li>
-                                                <h3>Heading</h3>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 1 </span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 2</span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 3 </span></a>
-                                            </li>
-                                            <li><span class="divider"></span>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 4 </span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                                    <span>Per il Cittadino</span>
-                                    <svg class="icon-expand icon icon-sm icon-light">
-                                    <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>
-                                    </svg>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <div class="link-list-wrapper">
-                                        <ul class="link-list">
-                                            <li>
-                                                <h3>Heading</h3>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 1 </span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 2</span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 3 </span></a>
-                                            </li>
-                                            <li><span class="divider"></span>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 4 </span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                                    <span>Per il Professionista</span>
-                                    <svg class="icon-expand icon icon-sm icon-light">
-                                    <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>
-                                    </svg>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <div class="link-list-wrapper">
-                                        <ul class="link-list">
-                                            <li>
-                                                <h3>Heading</h3>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 1 </span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 2</span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 3 </span></a>
-                                            </li>
-                                            <li><span class="divider"></span>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 4 </span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                                    <span>Per l'Amministrazione</span>
-                                    <svg class="icon-expand icon icon-sm icon-light">
-                                    <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>
-                                    </svg>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <div class="link-list-wrapper">
-                                        <ul class="link-list">
-                                            <li>
-                                                <h3>Heading</h3>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 1 </span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 2</span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 3 </span></a>
-                                            </li>
-                                            <li><span class="divider"></span>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 4 </span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                                    <span>Come fare per </span>
-                                    <svg class="icon-expand icon icon-sm icon-light">
-                                    <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>
-                                    </svg>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <div class="link-list-wrapper">
-                                        <ul class="link-list">
-                                            <li>
-                                                <h3>Heading</h3>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 1 </span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 2</span></a>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 3 </span></a>
-                                            </li>
-                                            <li><span class="divider"></span>
-                                            </li>
-                                            <li><a class="list-item" href="#"><span>Link list 4 </span></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
+
                             <li class="nav-item dropdown ml-auto">
                                 <%-- 3. Untitled Frame IV  --%>
                                 <wp:show frame="3" />
@@ -255,11 +121,15 @@
             </div>
         </nav>
 
-        <wp:show frame="4" />
+        <wp:show frame="4" /> 
+
         <section id="section2">
             <div class="container py-4">
                 <div class="row">
                     <div class="col-7">
+                        <!--questa mostra il tiotlo della pagina corrente anche multilingua-->
+                        <h2 class="border-bottom"><wp:currentPage param="title" /></h2>
+
                         <wp:show frame="5" />
                     </div>
                     <div class="col-5">

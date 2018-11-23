@@ -15740,7 +15740,7 @@ nav.pagination-wrapper .btn.dropdown-toggle:after {
         left: 0;
         z-index: 1000;
         float: left;
-        min-width: 10rem;
+        min-width: 14rem;
         padding: .5rem 0 0;
         margin: .125rem 0 0;
         font-size: 1rem;
@@ -15752,7 +15752,7 @@ nav.pagination-wrapper .btn.dropdown-toggle:after {
         border: 0 solid transparent;
         border-radius: 0 0 4px 4px;
         -webkit-box-shadow: 0 20px 30px 5px rgba(0, 0, 0, .05);
-        box-shadow: 0 20px 30px 5px rgba(0, 0, 0, .05)
+        box-shadow: 0 20px 30px 5px rgba(0, 0, 0, .05);
     }
     .navbar .dropdown-menu.show {
         -webkit-animation: .3s forwards dropdownFadeIn;
