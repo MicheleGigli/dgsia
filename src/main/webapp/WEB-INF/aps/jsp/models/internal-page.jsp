@@ -269,9 +269,10 @@
         	<wp:show frame="7" />
         </div>
         <wp:show frame="8" />
+        
         <wp:show frame="9" />
 
-        <wp:show frame="10" /> --%>
+        <wp:show frame="10" /> 
         <footer class="footer bg-300 py-5">
             <div class="container">
                 <div class="row">
