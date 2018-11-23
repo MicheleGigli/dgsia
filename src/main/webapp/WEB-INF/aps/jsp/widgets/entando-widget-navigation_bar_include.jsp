@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 
-<c:set var="liClass" value=' class="nav-item dropdown"' />
+<c:set var="liClass" value=' class="mt-2 mr-3"' />
 <c:set var="homeIcon" value='' />
 <c:set var="caret" value="" />
 <c:set var="ulClass" value=' class="link-list"' />
@@ -22,18 +22,18 @@
 </c:if>
 
 <c:if test="${previousLevel < level}">
-    <c:set var="liClass" value=' class="nav-item dropdown"' />
+    <c:set var="liClass" value=' class="nav-item dropdown mt-2 mr-3"' />
     <c:if test="${previousPage.code == currentPageCode}">
-        <c:set var="liClass" value=' class=" nav-item dropdown active"' />
+        <c:set var="liClass" value=' class=" mt-2 mr-3 active"' />
     </c:if>
     <c:if test="${previousPage.voidPage}">
         <c:set var="liClass" value=' class="nav-item dropdown"' />
     </c:if>
 
     <c:if test="${previousLevel > 0}">
-        <c:set var="liClass" value=' class="nav-item dropdown"' />
+        <c:set var="liClass" value=' class="nav-item dropdown mt-2 mr-3"' />
         <c:if test="${previousPage.code == currentPageCode}">
-            <c:set var="liClass" value=' class=" nav-item dropdown active"' />
+            <c:set var="liClass" value=' class=" nav-item dropdown mt-2 mr-3 active"' />
         </c:if>
 
         <c:set var="ulClass" value='' />

@@ -254,25 +254,31 @@
                 </button>
             </div>
         </nav>
-        <%-- 4. Untitled Frame V  --%>
-        <div class="col-md-7">
-        	<wp:show frame="4" />
-        </div>
-        <div class="col-md-5">
-        	<wp:show frame="5" />
-        </div>
-        <div class="col-md-7">
-        	<wp:show frame="6" />
-		</div>
-       
-        <div class="col-md-5">
-        	<wp:show frame="7" />
-        </div>
-        <wp:show frame="8" />
-        
-        <wp:show frame="9" />
 
-        <wp:show frame="10" /> 
+        <wp:show frame="4" />
+        <section id="section2">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-7">
+                        <wp:show frame="5" />
+                    </div>
+                    <div class="col-5">
+                        <wp:show frame="6" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-7">
+                        <wp:show frame="7" />
+                    </div>
+                    <div class="col-5">
+                        <wp:show frame="8" />
+                    </div>
+                </div>
+            </div>
+            <wp:show frame="9" />
+
+            <wp:show frame="10" /> 
+        </section>
         <footer class="footer bg-300 py-5">
             <div class="container">
                 <div class="row">
