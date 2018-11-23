@@ -92,6 +92,18 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 <property key="en">System Messages</property>
 <property key="it">Messaggi di Sistema</property>
 </properties>',NULL,NULL,NULL,NULL,1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('Navigation_Bar_Settato','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Navigation Bar Settato</property>
+<property key="it">Navigation Bar Settato</property>
+</properties>
+
+',NULL,NULL,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">code(sezione_tribunale).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
+</properties>
+
+',0,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('PCR','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Publish a list of news</property>

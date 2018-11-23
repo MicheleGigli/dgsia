@@ -15,12 +15,7 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('do
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('dove_siamo',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',1,'entando-widget-search_form',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',2,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="navSpec">code(sezione_tribunale).subtree(10) + code(sezione_per_il_cittadino).subtree(10) + code(sezione_per_il_professionista).subtree(10) + code(sezione_per_l_amministrazia).subtree(10) + code(sezione_come_fare_per).subtree(10)</property>
-</properties>
-
-');
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
@@ -111,16 +106,11 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ne
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('news',6,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="maxElemForItem">10</property>
-<property key="contentType">CTM</property>
 <property key="modelId">11</property>
+<property key="contentType">CTM</property>
 </properties>
 
 ');
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('organizzazione1',0,'entando-widget-language_choose',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('organizzazione1',1,'entando-widget-search_form',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('organizzazione1',2,'entando-widget-navigation_bar',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('organizzazione1',3,'entando-widget-login_form',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('organizzazione1',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',2,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>

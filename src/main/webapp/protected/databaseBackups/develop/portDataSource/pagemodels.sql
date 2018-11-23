@@ -264,7 +264,11 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('inter
 	<frame pos="2">
 		<descr>Menu</descr>
 		<sketch x1="0" y1="2" x2="8" y2="2" />
-		<defaultWidget code="entando-widget-navigation_bar" />
+		<defaultWidget code="Navigation_Bar_Settato">
+			<properties>
+				<property key="navSpec">code(sezione_tribunale).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
+			</properties>
+		</defaultWidget>
 	</frame>
 	<frame pos="3">
 		<descr>Accesso</descr>
@@ -318,7 +322,11 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('landi
 	<frame pos="2">
 		<descr>Menu</descr>
 		<sketch x1="0" y1="2" x2="8" y2="2" />
-		<defaultWidget code="entando-widget-navigation_bar" />
+		<defaultWidget code="Navigation_Bar_Settato">
+			<properties>
+				<property key="navSpec">code(sezione_tribunale).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
+			</properties>
+		</defaultWidget>
 	</frame>
 	<frame pos="3">
 		<descr>Accesso</descr>

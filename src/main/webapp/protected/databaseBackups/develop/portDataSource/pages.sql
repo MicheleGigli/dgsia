@@ -8,7 +8,6 @@ INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('login','service',3,'f
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('news','homepage',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('notfound','service',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('organizzazione','sezione_tribunale',3,'free');
-INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('organizzazione1','il_tribunale',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('paginadettaglio','homepage',4,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('search_result','homepage',3,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('service','homepage',1,'free');

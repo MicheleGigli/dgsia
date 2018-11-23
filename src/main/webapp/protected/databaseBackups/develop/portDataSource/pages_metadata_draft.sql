@@ -58,7 +58,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 12:43:52');
+','2018-11-23 15:50:14');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('il_tribunale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Il Tribunale</property>
@@ -110,21 +110,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 11:52:14');
-INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('organizzazione1','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Organizzazione</property>
-<property key="it">Organizzazione</property>
-</properties>
-
-','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
-<config>
-  <useextratitles>false</useextratitles>
-  <charset>utf-8</charset>
-  <mimeType>text/html</mimeType>
-</config>
-
-','2018-11-23 11:52:35');
+','2018-11-23 15:36:25');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('paginadettaglio','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Detail page</property>
