@@ -170,10 +170,9 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8
             </div>
         </section>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (9,'CNG','Modello Testo','
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (9,'CNG','Modello Testo','<!--
 <h2 class="border-bottom">$content.Title.text</h2>
-
-<!--start card-->
+-->
 
 <div class="card-wrapper">
 <div class="card border-0">
