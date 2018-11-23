@@ -22,12 +22,6 @@ INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcatego
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA30',NULL,NULL,'51',NULL,NULL);
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA30',NULL,NULL,'52',NULL,NULL);
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA71',NULL,NULL,NULL,NULL,'free');
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,NULL,NULL,'free');
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,'105',NULL,NULL);
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,'104',NULL,NULL);
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,'105',NULL,NULL);
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,'103',NULL,NULL);
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,'105',NULL,NULL);
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG142',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA76',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA76',NULL,NULL,'75',NULL,NULL);
@@ -41,3 +35,9 @@ INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcatego
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTM169',NULL,NULL,NULL,'news',NULL);
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTM169',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTM169',NULL,NULL,'170',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,NULL,NULL,'free');
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,'105',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,'104',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,'105',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,'103',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA91',NULL,NULL,'105',NULL,NULL);

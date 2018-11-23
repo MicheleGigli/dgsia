@@ -107,6 +107,10 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (7
   #foreach($item in $content.lista)
     <div class="carousel-item">
       <img class="d-block w-100" src="$item.img.getImagePath(''0'')" alt="">
+      <div class="carousel-caption d-none d-md-block">
+         <h5>$item.title.text</h5>
+         <p>$item.abstract.text</p>
+       </div>
     </div>
     #end
   </div>

@@ -7927,3 +7927,88 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-11-23 12:43:52');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (266,'admin','2018-11-23 15:21:53','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+Monolist:Composite:Longtext:en_lista_abstract_4=test vtesttesttesttesttesttesttesttesttest
+Monolist:Composite:Longtext:en_lista_abstract_2=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_3=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_0=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_1=test test testtesttesttest test test test test
+Monolist:Composite:Link:it_lista_link_3=
+Monolist:Composite:Link:it_lista_link_4=
+Monolist:Composite:Link:it_lista_link_1=
+Monolist:Composite:Link:it_lista_link_2=
+Monolist:Composite:Link:it_lista_link_0=
+Monolist:Composite:Number:lista_number_2=2
+descr=Carousel home
+Monolist:Composite:Number:lista_number_1=1
+Monolist:Composite:Longtext:it_lista_abstract_4=
+Monolist:Composite:Number:lista_number_4=4
+Monolist:Composite:Longtext:it_lista_abstract_3=
+Monolist:Composite:Number:lista_number_3=3
+Monolist:Composite:Longtext:it_lista_abstract_2=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Number:lista_number_0=0
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+status=
+Monolist:Composite:Link:en_lista_link_4=test 4
+Monolist:Composite:Link:en_lista_link_3=linkj test
+Monolist:Composite:Link:en_lista_link_0=link test
+Monolist:Composite:Image:it_lista_img_0=
+Monolist:Composite:Link:en_lista_link_2=link test
+Monolist:Composite:Link:en_lista_link_1=link test 2
+Text:en_title=home
+Monolist:Composite:Image:en_lista_img_0=1
+Monolist:Composite:Image:en_lista_img_2=1
+Monolist:Composite:Image:en_lista_img_1=2
+__multiselect_extraGroupNames=
+Monolist:Composite:Image:en_lista_img_4=1
+Monolist:Composite:Image:en_lista_img_3=1
+contentOnSessionMarker=CTA_editContent_CTA91
+Monolist:Composite:Image:it_lista_img_4=
+Monolist:Composite:Image:it_lista_img_3=
+Monolist:Composite:Image:it_lista_img_2=
+Monolist:Composite:Image:it_lista_img_1=
+Monolist:Composite:Text:en_lista_title_4=test
+Monolist:Composite:Text:en_lista_title_1=test
+Monolist:Composite:Text:en_lista_title_0=test
+Monolist:Composite:Text:en_lista_title_3=test
+Monolist:Composite:Text:en_lista_title_2=test
+Monolist:Composite:Date:lista_date_3=
+Monolist:Composite:Date:lista_date_4=
+Monolist:Composite:Date:lista_date_1=
+Monolist:Composite:Date:lista_date_2=
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Text:it_lista_title_3=
+Monolist:Composite:Text:it_lista_title_2=
+Monolist:Composite:Text:it_lista_title_4=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Carousel home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA91</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-23 15:21:53');
