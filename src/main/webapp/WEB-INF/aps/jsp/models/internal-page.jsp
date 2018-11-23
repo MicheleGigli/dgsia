@@ -255,13 +255,19 @@
             </div>
         </nav>
         <%-- 4. Untitled Frame V  --%>
-        <wp:show frame="4" />
-        <wp:show frame="5" />
-        <wp:show frame="6" />
-
-        <wp:show frame="5" />
-        <wp:show frame="6" />
-        <wp:show frame="7" />
+        <div class="col-md-7">
+        	<wp:show frame="4" />
+        </div>
+        <div class="col-md-5">
+        	<wp:show frame="5" />
+        </div>
+        <div class="col-md-7">
+        	<wp:show frame="6" />
+		</div>
+       
+        <div class="col-md-5">
+        	<wp:show frame="7" />
+        </div>
         <wp:show frame="8" />
         <wp:show frame="9" />
 
