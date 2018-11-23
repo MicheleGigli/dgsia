@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <backup>
-	<date>2018-11-22 23:16:17</date>
-	<requiredTime>73</requiredTime>
+	<date>2018-11-23 11:33:02</date>
+	<requiredTime>1049</requiredTime>
 	<subfolder>develop</subfolder>
 	<componentsHistory>
 		<component code="entandoCore" date="2018-11-20 16:48:47" status="OK">
@@ -243,52 +243,52 @@
 	</componentsHistory>
 	<datasource name="portDataSource">
 		<table name="categories" requiredTime="0" rows="4" />
-		<table name="contentattributeroles" requiredTime="0" rows="3" />
-		<table name="contentmodels" requiredTime="0" rows="15" />
-		<table name="contentrelations" requiredTime="1" rows="43" />
-		<table name="contents" requiredTime="1" rows="16" />
-		<table name="contentsearch" requiredTime="0" rows="18" />
-		<table name="guifragment" requiredTime="2" rows="55" />
-		<table name="localstrings" requiredTime="32" rows="292" />
+		<table name="contentattributeroles" requiredTime="24" rows="3" />
+		<table name="contentmodels" requiredTime="6" rows="15" />
+		<table name="contentrelations" requiredTime="2" rows="43" />
+		<table name="contents" requiredTime="3" rows="16" />
+		<table name="contentsearch" requiredTime="11" rows="18" />
+		<table name="guifragment" requiredTime="22" rows="55" />
+		<table name="localstrings" requiredTime="3" rows="292" />
 		<table name="pagemodels" requiredTime="1" rows="5" />
-		<table name="pages" requiredTime="0" rows="9" />
-		<table name="pages_metadata_draft" requiredTime="0" rows="9" />
-		<table name="pages_metadata_online" requiredTime="1" rows="9" />
-		<table name="resourcerelations" requiredTime="0" rows="0" />
-		<table name="resources" requiredTime="1" rows="18" />
-		<table name="sysconfig" requiredTime="1" rows="9" />
-		<table name="uniquekeys" requiredTime="1" rows="1" />
+		<table name="pages" requiredTime="1" rows="10" />
+		<table name="pages_metadata_draft" requiredTime="1" rows="10" />
+		<table name="pages_metadata_online" requiredTime="0" rows="10" />
+		<table name="resourcerelations" requiredTime="30" rows="0" />
+		<table name="resources" requiredTime="2" rows="18" />
+		<table name="sysconfig" requiredTime="2" rows="9" />
+		<table name="uniquekeys" requiredTime="0" rows="1" />
 		<table name="widgetcatalog" requiredTime="1" rows="17" />
-		<table name="widgetconfig" requiredTime="0" rows="36" />
+		<table name="widgetconfig" requiredTime="1" rows="35" />
 		<table name="widgetconfig_draft" requiredTime="0" rows="36" />
-		<table name="workcontentattributeroles" requiredTime="1" rows="3" />
-		<table name="workcontentrelations" requiredTime="0" rows="4" />
-		<table name="workcontentsearch" requiredTime="1" rows="18" />
+		<table name="workcontentattributeroles" requiredTime="7" rows="3" />
+		<table name="workcontentrelations" requiredTime="11" rows="4" />
+		<table name="workcontentsearch" requiredTime="13" rows="18" />
 	</datasource>
 	<datasource name="servDataSource">
-		<table name="actionlogcommentrecords" requiredTime="0" rows="0" />
-		<table name="actionloglikerecords" requiredTime="0" rows="0" />
-		<table name="actionlogrecords" requiredTime="6" rows="173" />
-		<table name="actionlogrelations" requiredTime="1" rows="151" />
-		<table name="api_oauth_consumers" requiredTime="0" rows="1" />
-		<table name="api_oauth_tokens" requiredTime="0" rows="1" />
-		<table name="apicatalog_methods" requiredTime="0" rows="0" />
-		<table name="apicatalog_services" requiredTime="0" rows="0" />
-		<table name="authgroups" requiredTime="0" rows="2" />
-		<table name="authpermissions" requiredTime="1" rows="10" />
+		<table name="actionlogcommentrecords" requiredTime="8" rows="0" />
+		<table name="actionloglikerecords" requiredTime="11" rows="0" />
+		<table name="actionlogrecords" requiredTime="14" rows="181" />
+		<table name="actionlogrelations" requiredTime="1" rows="156" />
+		<table name="api_oauth_consumers" requiredTime="13" rows="1" />
+		<table name="api_oauth_tokens" requiredTime="1" rows="2" />
+		<table name="apicatalog_methods" requiredTime="1" rows="0" />
+		<table name="apicatalog_services" requiredTime="1" rows="0" />
+		<table name="authgroups" requiredTime="1" rows="2" />
+		<table name="authpermissions" requiredTime="2" rows="10" />
 		<table name="authrolepermissions" requiredTime="1" rows="1" />
 		<table name="authroles" requiredTime="0" rows="1" />
-		<table name="authusergrouprole" requiredTime="0" rows="1" />
-		<table name="authuserprofileattrroles" requiredTime="0" rows="0" />
+		<table name="authusergrouprole" requiredTime="3" rows="1" />
+		<table name="authuserprofileattrroles" requiredTime="7" rows="0" />
 		<table name="authuserprofiles" requiredTime="0" rows="1" />
-		<table name="authuserprofilesearch" requiredTime="0" rows="0" />
-		<table name="authusers" requiredTime="0" rows="1" />
-		<table name="authusershortcuts" requiredTime="1" rows="1" />
-		<table name="dataobjectattributeroles" requiredTime="0" rows="0" />
-		<table name="dataobjectmodels" requiredTime="0" rows="0" />
-		<table name="dataobjectrelations" requiredTime="0" rows="0" />
-		<table name="dataobjects" requiredTime="1" rows="0" />
-		<table name="dataobjectsearch" requiredTime="0" rows="0" />
+		<table name="authuserprofilesearch" requiredTime="8" rows="0" />
+		<table name="authusers" requiredTime="1" rows="1" />
+		<table name="authusershortcuts" requiredTime="10" rows="1" />
+		<table name="dataobjectattributeroles" requiredTime="1" rows="0" />
+		<table name="dataobjectmodels" requiredTime="3" rows="0" />
+		<table name="dataobjectrelations" requiredTime="7" rows="0" />
+		<table name="dataobjects" requiredTime="9" rows="0" />
+		<table name="dataobjectsearch" requiredTime="8" rows="0" />
 	</datasource>
 </backup>
 

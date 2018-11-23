@@ -30,7 +30,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-22 22:57:44');
+','2018-11-23 09:51:33');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('login','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="it">Pagina di login</property>
@@ -88,3 +88,17 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 <property key="it">Pagine di Servizio</property>
 <property key="en">Service</property>
 </properties>','service',0,NULL,'2017-02-17 13:06:24');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('sezione_tribunale','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Sezione Tribunale</property>
+<property key="it">Sezione Tribunale</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-11-23 11:32:02');

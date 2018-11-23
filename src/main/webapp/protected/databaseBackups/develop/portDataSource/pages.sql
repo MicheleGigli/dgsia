@@ -1,9 +1,10 @@
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('errorpage','service',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('homepage','homepage',-1,'free');
-INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('il_tribunale','homepage',2,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('il_tribunale','sezione_tribunale',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('login','service',3,'free');
-INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('news','homepage',3,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('news','homepage',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('notfound','service',1,'free');
-INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('paginadettaglio','homepage',5,'free');
-INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('search_result','homepage',4,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('paginadettaglio','homepage',4,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('search_result','homepage',3,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('service','homepage',1,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('sezione_tribunale','homepage',5,'free');

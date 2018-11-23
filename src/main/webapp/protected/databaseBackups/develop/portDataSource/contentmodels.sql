@@ -7,7 +7,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </div>
 <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
 <div class="card-body">
-<h5 class="card-title"><a class="card-body-link" href="$content.link.destination"> $content.title.text </a></h5>
+<h5 class="card-title"><a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=11 "> $content.title.text </a></h5>
 <p class="card-text">$content.abstract.text</p>
 </div>
 </div>',NULL);
@@ -274,7 +274,10 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 <a class="card-tag" href="#">Categoria 1</a>
 <span class="data">$content.date</span>
 </div>
-<h5 class="card-title"><a href="#">$content.title.text</a></h5>
+<h5 class="card-title"><a href="$content.getContentOnPageLink("paginadettaglio")&modelId=11 "> $content.title.text</a></h5>
+
+
+
 <p class="card-text">$content.abstract.text</p>
 </div>
 <div class="col-5">
