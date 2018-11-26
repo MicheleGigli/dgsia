@@ -49,7 +49,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			</list>
 		</attributes>
 	</contenttype>
-	<contenttype typecode="CTM" typedescr="Contenuto base titl+sub+img+link" viewpage="**NULL**" listmodel="1" defaultmodel="1">
+	<contenttype typecode="CTM" typedescr="Contenuto base titl+sub+img+link" viewpage="paginadettaglio" listmodel="1" defaultmodel="1">
 		<attributes>
 			<attribute name="subtitle" attributetype="Text" description="subtitle">
 				<validations>

@@ -53,55 +53,50 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="modelId">7</property>
 <property key="contentId">CTA91</property>
+<property key="modelId">7</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',6,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CTA22</property>
 <property key="modelId">3</property>
+<property key="contentId">CTA22</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="maxElements">3</property>
-<property key="title_it">Notizie</property>
-<property key="linkDescr_it">Pagina news</property>
-<property key="pageLink">paginadettaglio</property>
 <property key="maxElemForItem">3</property>
-<property key="title_en">NEWS</property>
+<property key="maxElements">3</property>
 <property key="contentType">CTM</property>
 <property key="modelId">1</property>
-<property key="linkDescr_en">Pagina news</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',8,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="title_it">Link Utili</property>
 <property key="maxElemForItem">3</property>
+<property key="title_it">Link Utili</property>
 <property key="categories">link_utili</property>
 <property key="maxElements">3</property>
 <property key="title_en">Useful Links</property>
-<property key="modelId">4</property>
 <property key="contentType">CTM</property>
+<property key="modelId">4</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="modelId">5</property>
 <property key="contentId">CTA71</property>
+<property key="modelId">5</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',10,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="modelId">8</property>
 <property key="contentId">CTA76</property>
+<property key="modelId">8</property>
 </properties>
 
 ');
@@ -126,6 +121,19 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribu
 <properties>
 <property key="modelId">10</property>
 <property key="contentId">CTA144</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('link_utili',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('link_utili',1,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('link_utili',2,'Navigation_Bar_Settato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('link_utili',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('link_utili',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('link_utili',5,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="categories">link_utili</property>
+<property key="contentType">CTM</property>
+<property key="modelId">17</property>
 </properties>
 
 ');

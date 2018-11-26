@@ -7,7 +7,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </div>
 <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
 <div class="card-body">
-<h5 class="card-title"><a class="card-body-link" href="$content.link.destination"> $content.title.text </a></h5>
+<h5 class="card-title"><a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a></h5>
 <p class="card-text">$content.abstract.text</p>
 </div>
 </div>',NULL);
@@ -59,7 +59,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4
                         <div class="card-body">
                             <h5 class="card-title">$content.title.text
                             <p class="card-text">$content.subtitle.text
-                            <a href="#" type="button" class="btn btn-outline-primary">Vai al sito</a>
+                            <a href="" type="button" class="btn btn-outline-primary">vai al sito</a>
                         </div>
                     </div>
 ',NULL);
@@ -71,7 +71,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
                 #foreach ($item in $content.lista)  
                     <div class="card bg-primary border-0 rounded">
                         <div class="card-body p-3">
-                            <a href="#" class="card-link text-white d-block">
+                            <a class="card-link text-white d-block"  >
                                 $item.title.text <svg class="icon icon-light float-right">
                                     <use xlink:href="$item.img.getImagePath(''0'')"></use>
                                 </svg>
@@ -230,6 +230,33 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
    </div>
   </div> 
 </div>
+',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (17,'CTM','Modello Link Utili Pagina Dettaglio','<div class="col-md-4">
+	<div class="card border rounded mb-4">
+		<img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+		<div class="card-body">
+			<h5 class="card-title">$content.title.text</h5>
+			<p class="card-text">$content.subtitle.text </p>
+			<a href="#" type="button" class="btn btn-outline-primary">Vai al sito</a>
+		</div>
+	</div>
+</div>
+
+',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<!--
+<h2 class="border-bottom"></h2>
+-->
+
+<div class="card-wrapper">
+<div class="card border-0">
+<div class="card-body p-3">
+<h3 class="card-title">$content.title.text</h3>
+<p class="card-text">$content.abstract.text</p>                                                                    
+</div>
+</div>
+</div>
+<!--end card-->
+
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
