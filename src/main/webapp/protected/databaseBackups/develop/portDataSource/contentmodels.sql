@@ -1,4 +1,4 @@
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1,'CTM','Notizia','<div class="card shadow rounded">
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1,'CTM','Notizia Home','<div class="card shadow rounded">
 <div class="card-header">
 <p class="card-text orange">
 <span class="text-uppercase font-weight-bold">Atti giudiziari</span>
@@ -211,22 +211,24 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 	</div>
 	</div>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (11,'CTM','Storico Notizie','<div class="card card-bg card-big no-after border-0">
-<div class="card-body px-0">
-<div class="row">
-<div class="col-7">
-<div class="head-tags">
-<a class="card-tag" href="#">Categoria 1</a>
-<span class="data">$content.date</span>
-</div>
-<h5 class="card-title"><a href="#">$content.title.text</a></h5>
-<p class="card-text">$content.abstract.text</p>
-</div>
-<div class="col-5">
-<img src="$content.img.getImagePath(''0'')" title="img title" alt="imagealt" class="img-fluid">
-</div>
-</div>
-</div>
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (11,'CTM','Storico Notizie','<div class="card-wrapper border-bottom">
+ <div class="card">
+   <div class="card-body px-0">
+      <div class="row">
+          <div class="col-7">
+             <div class="category-top">
+             <a class="category" href="#">Categoria 1</a>
+             <span class="data">$content.date</span>
+             </div>
+          <h5 class="card-title big-heading"><a href="#">$content.title.text</a></h5>
+          <p class="card-text">$content.abstract.text</p>
+          </div>
+         <div class="col-5">
+         		<img src="$content.img.getImagePath(''0'')" title="img title" alt="imagealt" class="img-fluid">
+         </div>
+      </div>
+   </div>
+  </div> 
 </div>
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>

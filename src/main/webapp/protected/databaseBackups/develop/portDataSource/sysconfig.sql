@@ -49,7 +49,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			</list>
 		</attributes>
 	</contenttype>
-	<contenttype typecode="CTM" typedescr="Contenuto base titl+sub+img+link" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
+	<contenttype typecode="CTM" typedescr="Contenuto base titl+sub+img+link" viewpage="**NULL**" listmodel="1" defaultmodel="1">
 		<attributes>
 			<attribute name="subtitle" attributetype="Text" description="subtitle">
 				<validations>
@@ -64,9 +64,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			<attribute name="img" attributetype="Image" description="immagine" />
 			<attribute name="link" attributetype="Link" description="link" />
 			<attribute name="abstract" attributetype="Text" description="abstract" />
-			<attribute name="date" attributetype="Date" description="data">
-				<validations />
-			</attribute>
+			<attribute name="date" attributetype="Date" description="data" />
 		</attributes>
 	</contenttype>
 </contenttypes>

@@ -67,12 +67,15 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="maxElemForItem">3</property>
-<property key="title_it">Notizie</property>
 <property key="maxElements">3</property>
+<property key="title_it">Notizie</property>
+<property key="linkDescr_it">Pagina news</property>
+<property key="pageLink">paginadettaglio</property>
+<property key="maxElemForItem">3</property>
 <property key="title_en">NEWS</property>
 <property key="contentType">CTM</property>
 <property key="modelId">1</property>
+<property key="linkDescr_en">Pagina news</property>
 </properties>
 
 ');
@@ -128,15 +131,10 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('il_tribu
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',1,'entando-widget-search_form',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',2,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="navSpec">code(homepage)</property>
-</properties>
-
-');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',4,'entando-widget-navigation_breadcrumbs',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',6,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',5,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="maxElemForItem">10</property>
 <property key="contentType">CTM</property>
