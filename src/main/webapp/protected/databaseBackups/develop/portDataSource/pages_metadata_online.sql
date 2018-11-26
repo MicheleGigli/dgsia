@@ -1,3 +1,17 @@
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('come_fare_per','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Come fare per</property>
+<property key="it">Come fare per</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-11-26 12:33:52');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('competenza_territoriale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Competenza Territoriale</property>
@@ -11,7 +25,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 18:06:52');
+','2018-11-26 12:25:57');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('contatti','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Contatti</property>
@@ -25,7 +39,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 11:55:10');
+','2018-11-26 12:27:58');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('dove_siamo','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Dove Siamo</property>
@@ -39,7 +53,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 11:49:31');
+','2018-11-26 12:27:15');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('errorpage','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Error page</property>
@@ -110,21 +124,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 15:36:25');
-INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('organizzazione_interna','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Organizzazione</property>
-<property key="it">Organizzazione</property>
-</properties>
-
-','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
-<config>
-  <useextratitles>false</useextratitles>
-  <charset>utf-8</charset>
-  <mimeType>text/html</mimeType>
-</config>
-
-','2018-11-26 11:34:40');
+','2018-11-26 12:26:39');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('paginadettaglio','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Detail page</property>
@@ -139,6 +139,48 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 </config>
 
 ','2018-11-22 23:13:49');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('per_il_cittadino','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Per il Cittadino</property>
+<property key="it">Per il Cittadino</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-11-26 12:32:47');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('per_il_professionista','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Per il Professionista</property>
+<property key="it">Per il Professionista</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-11-26 12:33:11');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('per_l_amministrazione','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Per l''Amministrazione</property>
+<property key="it">Per l''Amministrazione</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-11-26 12:33:31');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('search_result','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Search result</property>
@@ -227,7 +269,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 11:53:32');
+','2018-11-26 12:26:57');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('sezione_penale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Sezione Penale</property>
@@ -311,4 +353,4 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 11:54:25');
+','2018-11-26 12:27:32');
