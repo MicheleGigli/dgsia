@@ -58,8 +58,8 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4
                         <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
                         <div class="card-body">
                             <h5 class="card-title">$content.title.text
-                            <p class="card-text">$content.subtitle.text
-                            <a href="" type="button" class="btn btn-outline-primary">vai al sito</a>
+                            <p class="card-text">$content.abstract.text
+                            <a href="$content.link.destination" type="button" class="btn btn-outline-primary">vai al sito</a>
                         </div>
                     </div>
 ',NULL);
@@ -231,12 +231,12 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   </div> 
 </div>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (17,'CTM','Modello Link Utili Pagina Dettaglio','<div class="col-md-4">
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (17,'CTM','Modello Link Utili Pagina Primo livello','<div class="col-md-4">
 	<div class="card border rounded mb-4">
 		<img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
 		<div class="card-body">
 			<h5 class="card-title">$content.title.text</h5>
-			<p class="card-text">$content.subtitle.text </p>
+			<p class="card-text"> $content.abstract.text </p>
 			<a href="#" type="button" class="btn btn-outline-primary">Vai al sito</a>
 		</div>
 	</div>

@@ -12805,15 +12805,15 @@ status=
 ','2018-11-27 09:20:52');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (429,'admin','2018-11-27 09:21:46','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
 Hypertext:it_MainBody=
-Hypertext:en_Abstract=Informazioni Per Pubblicità Legale
+Hypertext:en_Abstract=Informazioni Per Pubblicitï¿½ Legale
 Hypertext:it_Abstract=
 categoryCode=home
 Text:it_Caption=
-Text:en_Title=Info Per Pubblicità Legale
+Text:en_Title=Info Per Pubblicitï¿½ Legale
 Text:en_Caption=
 Hypertext:en_MainBody=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo in nisi pellentesque ornare. Vestibulum eu rutrum dui, non auctor nisl. Duis vehicula nibh nec erat semper, sed accumsan nulla eleifend. Cras aliquam elementum lacinia. Ut aliquet enim vehicula quam imperdiet, quis consectetur dolor laoreet. Suspendisse eu dolor eu lorem cursus blandit. Morbi vehicula, augue nec tincidunt mollis, ligula dui feugiat dolor, in hendrerit dolor dui sit amet elit. In luctus justo ac orci mollis, eget porta mi fermentum. Praesent accumsan lorem porta, tempus eros ut, eleifend enim. Mauris magna tellus, egestas eu risus non, aliquam tristique purus. Sed sollicitudin neque nec volutpat mollis. Ut lobortis viverra eros vel imperdiet. In consectetur urna eget iaculis venenatis. Cras vehicula ligula ut sem cursus, in aliquet nisi blandit.
 __multiselect_extraGroupNames=
-descr=Info Per Pubblicità Legale
+descr=Info Per Pubblicitï¿½ Legale
 contentOnSessionMarker=CNG_pasteContent_CNG375
 Text:it_Title=
 status=
@@ -12822,7 +12822,7 @@ status=
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Per Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Per Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -13191,7 +13191,7 @@ contentOnSessionMarker=CTA_editContent_CTA71
 Monolist:Composite:Longtext:en_lista_abstract_2=
 Monolist:Composite:Longtext:en_lista_abstract_0=
 Monolist:Composite:Longtext:en_lista_abstract_1=
-Monolist:Composite:Text:en_lista_title_1=Pubblicita  legale
+Monolist:Composite:Text:en_lista_title_1=Pubblicitaï¿½ legale
 Monolist:Composite:Text:en_lista_title_0=Amministrazione trasparente
 Monolist:Composite:Link:it_lista_link_1=
 Monolist:Composite:Text:en_lista_title_2=Bilancio
@@ -13217,7 +13217,7 @@ status=
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (444,'admin','2018-11-27 09:26:28','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
 Monolist:Composite:Link:en_lista_link_0=Amministrazione Trasparente
 Monolist:Composite:Link:en_lista_link_2=Bilancio
-Monolist:Composite:Link:en_lista_link_1=Pubblicita Legale
+Monolist:Composite:Link:en_lista_link_1=Pubblicitaï¿½Legale
 Text:en_title=Trasparenza
 Monolist:Composite:Longtext:it_lista_abstract_1=
 Monolist:Composite:Longtext:it_lista_abstract_0=
@@ -13226,7 +13226,7 @@ contentOnSessionMarker=CTA_editContent_CTA71
 Monolist:Composite:Longtext:en_lista_abstract_2=
 Monolist:Composite:Longtext:en_lista_abstract_0=
 Monolist:Composite:Longtext:en_lista_abstract_1=
-Monolist:Composite:Text:en_lista_title_1=Pubblicita Legale
+Monolist:Composite:Text:en_lista_title_1=Pubblicitaï¿½Legale
 Monolist:Composite:Text:en_lista_title_0=Amministrazione Trasparente
 Monolist:Composite:Link:it_lista_link_1=
 Monolist:Composite:Text:en_lista_title_2=Bilancio
@@ -13348,3 +13348,347 @@ Monolist:Composite:Text:it_lista_title_2=
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-11-27 09:58:51');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (451,'admin','2018-11-27 10:19:44','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Monolist:Composite:Link:en_lista_link_0=Amministrazione Trasparente
+Monolist:Composite:Link:en_lista_link_2=Bilancio
+Monolist:Composite:Link:en_lista_link_1=Pubblicita Legale
+Text:en_title=Trasparenza
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+__multiselect_extraGroupNames=
+contentOnSessionMarker=CTA_editContent_CTA71
+Monolist:Composite:Longtext:en_lista_abstract_2=
+Monolist:Composite:Longtext:en_lista_abstract_0=
+Monolist:Composite:Longtext:en_lista_abstract_1=
+Monolist:Composite:Text:en_lista_title_1=Pubblicitaï¿½Legale
+Monolist:Composite:Text:en_lista_title_0=Amministrazione Trasparente
+Monolist:Composite:Link:it_lista_link_1=
+Monolist:Composite:Text:en_lista_title_2=Bilancio
+Monolist:Composite:Link:it_lista_link_2=
+Monolist:Composite:Link:it_lista_link_0=
+Monolist:Composite:Date:lista_date_1=
+Monolist:Composite:Date:lista_date_2=
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=
+Monolist:Composite:Number:lista_number_2=
+descr=TRASPARENZA HOME PAGE
+Monolist:Composite:Number:lista_number_1=
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Longtext:it_lista_abstract_2=
+Monolist:Composite:Text:it_lista_title_2=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Number:lista_number_0=
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">TRASPARENZA HOME PAGE</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA71</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 10:19:44');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (452,'admin','2018-11-27 10:24:56','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Processo telematico
+entandoaction:saveAndApprove=Submit
+Text:en_title=Processo telematico
+Link:it_link=
+treeNodesToOpen=home
+Image:it_img=
+Text:it_abstract=
+__multiselect_extraGroupNames=
+descr=Link utile2
+Text:en_abstract=A communi observantia non est recedendum. Curabitur blandit tempus ardua ridiculus sed magna. Quam diu etiam furor iste tuus nos eludet? Idque Caesaris facere voluntate liceret: sese habere
+Text:it_subtitle=
+contentOnSessionMarker=CTM_editContent_CTM60
+Image:en_img=Link utile2
+jacmsPreviewActionPageCode_it=
+Date:date=
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+Link:en_link=ABCD
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Link utile2</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM60</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 10:24:56');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (453,'admin','2018-11-27 10:27:54','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Processo telematico
+entandoaction:saveAndApprove=Submit
+Text:en_title=Processo telematico
+Link:it_link=
+treeNodesToOpen=home
+Image:it_img=
+Text:it_abstract=
+__multiselect_extraGroupNames=
+descr=Link utile - Processo telematico
+Text:en_abstract=A communi observantia non est recedendum. Curabitur blandit tempus ardua ridiculus sed magna. Quam diu etiam furor iste tuus nos eludet? Idque Caesaris facere voluntate liceret: sese habere
+Text:it_subtitle=
+contentOnSessionMarker=CTM_editContent_CTM60
+Image:en_img=Link utile2
+jacmsPreviewActionPageCode_it=
+Date:date=
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+Link:en_link=
+status=
+',NULL,'2018-11-27 10:27:54');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (454,'admin','2018-11-27 10:28:04','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Processo telematico
+entandoaction:saveAndApprove=Submit
+Text:en_title=Processo telematico
+Link:it_link=
+treeNodesToOpen=home
+Image:it_img=
+Text:it_abstract=
+__multiselect_extraGroupNames=
+descr=Link utile - Processo telematico
+Text:en_abstract=A communi observantia non est recedendum. Curabitur blandit tempus ardua ridiculus sed magna. Quam diu etiam furor iste tuus nos eludet? Idque Caesaris facere voluntate liceret: sese habere
+Text:it_subtitle=
+contentOnSessionMarker=CTM_editContent_CTM60
+Image:en_img=Link utile2
+jacmsPreviewActionPageCode_it=
+Date:date=
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+Link:en_link=pst link
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Link utile - Processo telematico</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM60</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 10:28:04');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (455,'admin','2018-11-27 10:33:27','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Servizi Online
+entandoaction:saveAndApprove=Submit
+Text:en_title=Servizi Online
+Link:it_link=
+treeNodesToOpen=home
+Image:it_img=
+Text:it_abstract=
+__multiselect_extraGroupNames=
+descr=Link utile - Servizi Online
+Text:en_abstract=Quisque placerat facilisis egestas cillum dolore. Curabitur blandit tempus ardua ridiculus sed magna.
+Text:it_subtitle=
+contentOnSessionMarker=CTM_editContent_CTM57
+Image:en_img=link utile1
+jacmsPreviewActionPageCode_it=
+Date:date=
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+Link:en_link=organizzazione link
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Link utile - Servizi Online</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM57</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 10:33:27');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (456,'admin','2018-11-27 10:34:49','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Aste Giudiziarie
+entandoaction:saveAndApprove=Submit
+Text:en_title=Aste Giudiziarie
+Link:it_link=
+treeNodesToOpen=home
+Image:it_img=
+Text:it_abstract=
+__multiselect_extraGroupNames=
+descr=Aste Giudiziarie
+Text:en_abstract=Nihil hic munitissimus habendi senatus locus, nihil horum? Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Quisque placerat facilisis egestas cillum dolore.
+Text:it_subtitle=
+contentOnSessionMarker=CTM_editContent_CTM63
+Image:en_img=Link utile3
+jacmsPreviewActionPageCode_it=
+Date:date=
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+Link:en_link=aste giudiziarie link
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Aste Giudiziarie</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM63</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 10:34:49');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (457,'admin','2018-11-27 10:35:27','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Aste Giudiziarie
+entandoaction:saveAndApprove=Submit
+Text:en_title=Aste Giudiziarie
+Link:it_link=
+treeNodesToOpen=home
+Image:it_img=
+Text:it_abstract=
+__multiselect_extraGroupNames=
+descr=link utili - Aste Giudiziarie
+Text:en_abstract=Nihil hic munitissimus habendi senatus locus, nihil horum? Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Quisque placerat facilisis egestas cillum dolore.
+Text:it_subtitle=
+contentOnSessionMarker=CTM_editContent_CTM63
+Image:en_img=Link utile3
+jacmsPreviewActionPageCode_it=
+Date:date=
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+Link:en_link=aste giudiziarie link
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">link utili - Aste Giudiziarie</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM63</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 10:35:27');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (460,'admin','2018-11-27 10:38:06','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Normativa
+entandoaction:saveAndApprove=Submit
+Text:en_title=Normativa
+Link:it_link=
+treeNodesToOpen=home
+Image:it_img=
+Text:it_abstract=
+mainGroup=free
+__multiselect_extraGroupNames=
+descr=link utile - Normativa
+Text:en_abstract=
+Text:it_subtitle=
+contentOnSessionMarker=CTM_newContent
+Image:en_img=normativa
+jacmsPreviewActionPageCode_it=
+Date:date=
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+Link:en_link=competenza territoriale link
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">link utile - Normativa</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>11</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM459</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 10:38:06');
