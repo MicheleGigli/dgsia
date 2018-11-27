@@ -1,3 +1,5 @@
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('amministrazione_trasparente','homepage',11,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('bilancio','homepage',13,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('come_fare_per','sezione_come_fare_per',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('competenza_territoriale','sezione_tribunale',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('contatti','sezione_tribunale',7,'free');
@@ -14,6 +16,7 @@ INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('paginadettaglio','hom
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('per_il_cittadino','sezione_per_il_cittadino',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('per_il_professionista','sezione_per_il_professionista',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('per_l_amministrazione','sezione_per_l_amministrazia',1,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('pubblicita_legale','homepage',12,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('search_result','homepage',3,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('service','homepage',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('sezione_amministrativa','uffici_e_cancellerie',3,'free');

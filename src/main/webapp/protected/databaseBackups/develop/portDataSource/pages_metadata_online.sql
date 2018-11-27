@@ -1,3 +1,31 @@
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('amministrazione_trasparente','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Amministrazione Trasparente</property>
+<property key="it">Amministrazione Trasparente</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-11-27 09:22:53');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('bilancio','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Bilancio</property>
+<property key="it">Bilancio</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-11-27 09:24:28');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('come_fare_per','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Come fare per</property>
@@ -195,6 +223,20 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 </config>
 
 ','2018-11-26 12:33:31');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('pubblicita_legale','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Pubblicita Legale</property>
+<property key="it">Pubblicita Legale</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-11-27 09:23:44');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('search_result','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Search result</property>

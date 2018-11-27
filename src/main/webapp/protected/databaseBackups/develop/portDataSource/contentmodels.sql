@@ -71,7 +71,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
                 #foreach ($item in $content.lista)  
                     <div class="card bg-primary border-0 rounded">
                         <div class="card-body p-3">
-                            <a class="card-link text-white d-block"  >
+                            <a class="card-link text-white d-block" href="$item.link.destination" >
                                 $item.title.text <svg class="icon icon-light float-right">
                                     <use xlink:href="$item.img.getImagePath(''0'')"></use>
                                 </svg>
