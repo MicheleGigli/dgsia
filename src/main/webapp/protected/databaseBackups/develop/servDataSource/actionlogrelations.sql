@@ -386,3 +386,4 @@ INSERT INTO actionlogrelations (recordid,refgroup) VALUES (516,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (517,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (518,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (519,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (520,'free');

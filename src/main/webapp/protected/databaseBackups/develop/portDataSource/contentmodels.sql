@@ -223,7 +223,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 					<ul class="d-flex flex-wrap link-list">
 						#foreach ($item in $content.lista)
 						<li class="col-6 mt-3"><a class="list-item right-icon p-0"
-							href="$item.link">
+							href="$item.link.destination">
               <span class="display-4">$item.title.text</span>
               <svg class="icon icon-primary icon-right m-0">
               <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-chevron-right"></use>

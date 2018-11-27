@@ -15996,3 +15996,70 @@ status=
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-11-27 16:24:01');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (520,'admin','2018-11-27 16:40:48','/do/jacms/Content','saveAndApprove','Monolist:Composite:Link:en_lista_link_3=Sezione Lavoro
+entandoaction:saveAndApprove=Submit
+Monolist:Composite:Link:en_lista_link_0=Sezione Civile
+Monolist:Composite:Link:en_lista_link_2=Sezione Amministrativa
+Monolist:Composite:Link:en_lista_link_1=Sezione Penale
+Text:en_title=Sezioni
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+__multiselect_extraGroupNames=
+contentOnSessionMarker=CTA_editContent_CTA497
+Monolist:Composite:Longtext:en_lista_abstract_2=
+Monolist:Composite:Longtext:en_lista_abstract_3=
+Monolist:Composite:Longtext:en_lista_abstract_0=
+Monolist:Composite:Longtext:en_lista_abstract_1=
+Monolist:Composite:Text:en_lista_title_1=Sezione Penale
+Monolist:Composite:Link:it_lista_link_3=
+Monolist:Composite:Text:en_lista_title_0=Sezione Civile
+Monolist:Composite:Text:en_lista_title_3=Sezione Lavoro
+Monolist:Composite:Link:it_lista_link_1=
+Monolist:Composite:Text:en_lista_title_2=Sezione Amministrativa
+Monolist:Composite:Link:it_lista_link_2=
+Monolist:Composite:Date:lista_date_3=
+Monolist:Composite:Link:it_lista_link_0=
+Monolist:Composite:Date:lista_date_1=
+Monolist:Composite:Date:lista_date_2=
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=
+Monolist:Composite:Number:lista_number_2=
+descr=Lista Link Uffici e Cancellerie
+Monolist:Composite:Number:lista_number_1=
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Longtext:it_lista_abstract_3=
+Monolist:Composite:Number:lista_number_3=
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Longtext:it_lista_abstract_2=
+Monolist:Composite:Text:it_lista_title_3=
+Monolist:Composite:Text:it_lista_title_2=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Number:lista_number_0=
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Lista Link Uffici e Cancellerie</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA497</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 16:40:48');
