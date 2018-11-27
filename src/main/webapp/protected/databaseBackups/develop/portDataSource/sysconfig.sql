@@ -65,6 +65,10 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			<attribute name="link" attributetype="Link" description="link" />
 			<attribute name="abstract" attributetype="Text" description="abstract" />
 			<attribute name="date" attributetype="Date" description="data" />
+			<attribute name="enum" attributetype="Enumerator" description="enumeration" searchable="true" separator=",">
+				<validations />
+				<![CDATA[ATTI GIUDIZIARI, ATTUALITA, COMUNICATI STAMPA]]>
+			</attribute>
 		</attributes>
 	</contenttype>
 </contenttypes>

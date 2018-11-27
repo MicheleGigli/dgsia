@@ -26,3 +26,10 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('news','home','<?xml 
 </properties>
 
 ');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('news_in_evidenza','news','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">News in Evidenza</property>
+<property key="it">News in Evidenza</property>
+</properties>
+
+');

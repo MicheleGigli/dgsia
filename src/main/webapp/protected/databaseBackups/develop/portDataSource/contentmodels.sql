@@ -1,7 +1,7 @@
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1,'CTM','Notizia Home','<div class="card shadow rounded">
 <div class="card-header">
 <p class="card-text orange">
-<span class="text-uppercase font-weight-bold">Atti giudiziari</span>
+<span class="text-uppercase font-weight-bold">$content.enum.text</span>
 <small class="text-muted d-block">$content.date.shortDate</small>
 </p>
 </div>
