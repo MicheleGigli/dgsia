@@ -91,8 +91,9 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="maxElemForItem">3</property>
-<property key="maxElements">3</property>
+<property key="maxElemForItem">6</property>
+<property key="categories">news</property>
+<property key="maxElements">6</property>
 <property key="contentType">CTM</property>
 <property key="modelId">1</property>
 </properties>

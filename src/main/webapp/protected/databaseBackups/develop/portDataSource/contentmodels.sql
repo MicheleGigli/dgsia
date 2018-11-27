@@ -2,7 +2,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 <div class="card-header">
 <p class="card-text orange">
 <span class="text-uppercase font-weight-bold">Atti giudiziari</span>
-<small class="text-muted d-block">$content.date</small>
+<small class="text-muted d-block">$content.date.shortDate</small>
 </p>
 </div>
 <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
@@ -10,7 +10,9 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 <h5 class="card-title"><a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a></h5>
 <p class="card-text">$content.abstract.text</p>
 </div>
-</div>',NULL);
+</div>
+
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2,'CTA','Lista Notizie Primo Piano','<section id="section2">
 		<div class="container py-4">
 <h2>$content.title.text</h2>
@@ -58,7 +60,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4
                         <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
                         <div class="card-body">
                             <h5 class="card-title">$content.title.text
-                            <p class="card-text">$content.abstract.text
+                            <p class="card-text">$content.abstract.text </p>
                             <a href="$content.link.destination" type="button" class="btn btn-outline-primary">vai al sito</a>
                         </div>
                     </div>
