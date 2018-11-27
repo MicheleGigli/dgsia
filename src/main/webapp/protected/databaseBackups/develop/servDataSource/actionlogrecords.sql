@@ -14558,3 +14558,372 @@ status=
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-11-27 15:15:22');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (482,'admin','2018-11-27 15:30:26','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','userFilters=
+modelId=7
+entandoaction:saveListViewerConfig=Submit
+maxElemForItem=
+categoryCode=news
+filters=
+categoryCodes=news
+pageCode=homepage
+filterKey=keyFilter_created
+linkDescr_it=
+linkDescr_en=
+widgetTypeCode=content_viewer_list
+maxElements=
+title_it=NEWS IN EVIDENZA
+title_en=NEWS IN EVIDENZA
+categories=news
+userFilterKey=fulltext
+contentType=CTM
+frame=5
+pageLink=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>2</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 15:30:26');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (483,'admin','2018-11-27 15:30:28','/do/rs/Page','setOnline','','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 15:30:28');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (484,'admin','2018-11-27 15:32:46','/do/rs/Page','setOnline','','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 15:32:46');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (485,'admin','2018-11-27 15:37:26','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+Monolist:Composite:Longtext:en_lista_abstract_4=test vtesttesttesttesttesttesttesttesttest
+Monolist:Composite:Longtext:en_lista_abstract_5=jhgiug
+Monolist:Composite:Longtext:en_lista_abstract_2=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_3=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_0=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_1=test test testtesttesttest test test test test
+Monolist:Composite:Link:it_lista_link_5=
+Monolist:Composite:Link:it_lista_link_3=
+Monolist:Composite:Link:it_lista_link_4=
+Monolist:Composite:Link:it_lista_link_1=
+Monolist:Composite:Link:it_lista_link_2=
+Monolist:Composite:Link:it_lista_link_0=
+Monolist:Composite:Number:lista_number_2=2
+Monolist:Composite:Longtext:it_lista_abstract_5=
+descr=Carousel home
+Monolist:Composite:Number:lista_number_1=1
+Monolist:Composite:Longtext:it_lista_abstract_4=
+Monolist:Composite:Number:lista_number_4=4
+Monolist:Composite:Longtext:it_lista_abstract_3=
+Monolist:Composite:Number:lista_number_3=3
+Monolist:Composite:Longtext:it_lista_abstract_2=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Number:lista_number_0=0
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+status=
+Monolist:Composite:Link:en_lista_link_4=test 4
+Monolist:Composite:Link:en_lista_link_3=linkj test
+Monolist:Composite:Link:en_lista_link_5=
+Monolist:Composite:Link:en_lista_link_0=link test
+Monolist:Composite:Image:it_lista_img_0=
+Monolist:Composite:Link:en_lista_link_2=link test
+Monolist:Composite:Link:en_lista_link_1=link test 2
+Text:en_title=home
+Monolist:Composite:Image:en_lista_img_0=gius1
+Monolist:Composite:Number:lista_number_5=5
+Monolist:Composite:Image:en_lista_img_2=gius3
+Monolist:Composite:Image:en_lista_img_1=gius2
+__multiselect_extraGroupNames=
+Monolist:Composite:Image:en_lista_img_4=gius5
+Monolist:Composite:Image:en_lista_img_3=gius4
+Monolist:Composite:Image:en_lista_img_5=1
+contentOnSessionMarker=CTA_editContent_CTA91
+Monolist:Composite:Date:lista_date_5=
+Monolist:Composite:Image:it_lista_img_4=
+Monolist:Composite:Image:it_lista_img_3=
+Monolist:Composite:Image:it_lista_img_2=
+Monolist:Composite:Image:it_lista_img_1=
+Monolist:Composite:Image:it_lista_img_5=
+Monolist:Composite:Text:en_lista_title_5=kugg
+Monolist:Composite:Text:en_lista_title_4=test
+Monolist:Composite:Text:en_lista_title_1=test
+Monolist:Composite:Text:en_lista_title_0=test
+Monolist:Composite:Text:en_lista_title_3=test
+Monolist:Composite:Text:en_lista_title_2=test
+Monolist:Composite:Date:lista_date_3=
+Monolist:Composite:Date:lista_date_4=
+Monolist:Composite:Date:lista_date_1=
+Monolist:Composite:Date:lista_date_2=
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Text:it_lista_title_3=
+Monolist:Composite:Text:it_lista_title_2=
+Monolist:Composite:Text:it_lista_title_5=
+Monolist:Composite:Text:it_lista_title_4=
+',NULL,'2018-11-27 15:37:26');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (486,'admin','2018-11-27 15:40:46','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+Monolist:Composite:Longtext:en_lista_abstract_4=test vtesttesttesttesttesttesttesttesttest
+Monolist:Composite:Longtext:en_lista_abstract_5=CTM165 - notizia1
+Monolist:Composite:Longtext:en_lista_abstract_2=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_3=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_0=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_1=test test testtesttesttest test test test test
+Monolist:Composite:Link:it_lista_link_5=
+Monolist:Composite:Link:it_lista_link_3=
+Monolist:Composite:Link:it_lista_link_4=
+Monolist:Composite:Link:it_lista_link_1=
+Monolist:Composite:Link:it_lista_link_2=
+Monolist:Composite:Link:it_lista_link_0=
+Monolist:Composite:Number:lista_number_2=2
+Monolist:Composite:Longtext:it_lista_abstract_5=
+descr=Carousel home
+Monolist:Composite:Number:lista_number_1=1
+Monolist:Composite:Longtext:it_lista_abstract_4=
+Monolist:Composite:Number:lista_number_4=4
+Monolist:Composite:Longtext:it_lista_abstract_3=
+Monolist:Composite:Number:lista_number_3=3
+Monolist:Composite:Longtext:it_lista_abstract_2=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Number:lista_number_0=0
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+status=
+Monolist:Composite:Link:en_lista_link_4=test 4
+Monolist:Composite:Link:en_lista_link_3=linkj test
+Monolist:Composite:Link:en_lista_link_5=CTM165 - notizia1
+Monolist:Composite:Link:en_lista_link_0=link test
+Monolist:Composite:Image:it_lista_img_0=
+Monolist:Composite:Link:en_lista_link_2=link test
+Monolist:Composite:Link:en_lista_link_1=link test 2
+Text:en_title=home
+Monolist:Composite:Image:en_lista_img_0=gius1
+Monolist:Composite:Number:lista_number_5=5
+Monolist:Composite:Image:en_lista_img_2=gius3
+Monolist:Composite:Image:en_lista_img_1=gius2
+__multiselect_extraGroupNames=
+Monolist:Composite:Image:en_lista_img_4=gius5
+Monolist:Composite:Image:en_lista_img_3=gius4
+Monolist:Composite:Image:en_lista_img_5=1
+contentOnSessionMarker=CTA_editContent_CTA91
+Monolist:Composite:Date:lista_date_5=
+Monolist:Composite:Image:it_lista_img_4=
+Monolist:Composite:Image:it_lista_img_3=
+Monolist:Composite:Image:it_lista_img_2=
+Monolist:Composite:Image:it_lista_img_1=
+Monolist:Composite:Image:it_lista_img_5=
+Monolist:Composite:Text:en_lista_title_5=CTM165 - notizia1
+Monolist:Composite:Text:en_lista_title_4=test
+Monolist:Composite:Text:en_lista_title_1=test
+Monolist:Composite:Text:en_lista_title_0=test
+Monolist:Composite:Text:en_lista_title_3=test
+Monolist:Composite:Text:en_lista_title_2=test
+Monolist:Composite:Date:lista_date_3=
+Monolist:Composite:Date:lista_date_4=
+Monolist:Composite:Date:lista_date_1=
+Monolist:Composite:Date:lista_date_2=
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Text:it_lista_title_3=
+Monolist:Composite:Text:it_lista_title_2=
+Monolist:Composite:Text:it_lista_title_5=
+Monolist:Composite:Text:it_lista_title_4=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Carousel home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA91</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 15:40:46');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (487,'admin','2018-11-27 15:55:05','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+Monolist:Composite:Longtext:en_lista_abstract_4=test vtesttesttesttesttesttesttesttesttest
+Monolist:Composite:Longtext:en_lista_abstract_5=Atti giudiziari
+Monolist:Composite:Longtext:en_lista_abstract_2=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_3=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_0=test test testtesttesttest test test test test
+Monolist:Composite:Longtext:en_lista_abstract_1=test test testtesttesttest test test test test
+Monolist:Composite:Link:it_lista_link_5=
+Monolist:Composite:Link:it_lista_link_3=
+Monolist:Composite:Link:it_lista_link_4=
+Monolist:Composite:Link:it_lista_link_1=
+Monolist:Composite:Link:it_lista_link_2=
+Monolist:Composite:Link:it_lista_link_0=
+Monolist:Composite:Number:lista_number_2=2
+Monolist:Composite:Longtext:it_lista_abstract_5=
+descr=Carousel home
+Monolist:Composite:Number:lista_number_1=1
+Monolist:Composite:Longtext:it_lista_abstract_4=
+Monolist:Composite:Number:lista_number_4=4
+Monolist:Composite:Longtext:it_lista_abstract_3=
+Monolist:Composite:Number:lista_number_3=3
+Monolist:Composite:Longtext:it_lista_abstract_2=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Number:lista_number_0=0
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+status=
+Monolist:Composite:Link:en_lista_link_4=test 4
+Monolist:Composite:Link:en_lista_link_3=linkj test
+Monolist:Composite:Link:en_lista_link_5=Atti giudiziari
+Monolist:Composite:Link:en_lista_link_0=link test
+Monolist:Composite:Image:it_lista_img_0=
+Monolist:Composite:Link:en_lista_link_2=link test
+Monolist:Composite:Link:en_lista_link_1=link test 2
+Text:en_title=home
+Monolist:Composite:Image:en_lista_img_0=gius1
+Monolist:Composite:Number:lista_number_5=5
+Monolist:Composite:Image:en_lista_img_2=gius3
+Monolist:Composite:Image:en_lista_img_1=gius2
+__multiselect_extraGroupNames=
+Monolist:Composite:Image:en_lista_img_4=gius5
+Monolist:Composite:Image:en_lista_img_3=gius4
+Monolist:Composite:Image:en_lista_img_5=notizia1
+contentOnSessionMarker=CTA_editContent_CTA91
+Monolist:Composite:Date:lista_date_5=
+Monolist:Composite:Image:it_lista_img_4=
+Monolist:Composite:Image:it_lista_img_3=
+Monolist:Composite:Image:it_lista_img_2=
+Monolist:Composite:Image:it_lista_img_1=
+Monolist:Composite:Image:it_lista_img_5=
+Monolist:Composite:Text:en_lista_title_5=Atti giudiziari
+Monolist:Composite:Text:en_lista_title_4=test
+Monolist:Composite:Text:en_lista_title_1=test
+Monolist:Composite:Text:en_lista_title_0=test
+Monolist:Composite:Text:en_lista_title_3=test
+Monolist:Composite:Text:en_lista_title_2=test
+Monolist:Composite:Date:lista_date_3=
+Monolist:Composite:Date:lista_date_4=
+Monolist:Composite:Date:lista_date_1=
+Monolist:Composite:Date:lista_date_2=
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Text:it_lista_title_3=
+Monolist:Composite:Text:it_lista_title_2=
+Monolist:Composite:Text:it_lista_title_5=
+Monolist:Composite:Text:it_lista_title_4=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Carousel home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA91</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 15:55:05');

@@ -110,8 +110,10 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (7
     <div class="carousel-item">
       <img class="d-block w-100" src="$item.img.getImagePath(''0'')" alt="">
       <div class="carousel-caption d-none d-md-block">
-         <h5>$item.title.text</h5>
-         <p>$item.abstract.text</p>
+         <a href="$item.link.destination&modelId=55"
+            <h5>$item.title.text</h5>
+            <p>$item.abstract.text</p>
+         </a>
        </div>
     </div>
     #end
@@ -277,6 +279,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
 <div class="card-wrapper">
 <div class="card border-0">
 <div class="card-body p-3">
+<img src="$content.img.getImagePath(''0'')" alt="">
 <h3 class="card-title">$content.title.text</h3>
 <p class="card-text">$content.abstract.text</p>                                                                    
 </div>
