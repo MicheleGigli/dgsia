@@ -142,19 +142,33 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8
             <div class="container py-4">
                 <h2>$content.title.text</h2>
                 <div id="carouselExampleControls" class="carousel slide bg-white px-0" data-ride="carousel">
-                    <div class="carousel-inner">                    	   
-                        <div class="carousel-item active">
+                    <div class="carousel-inner">
+                        <div id="attivo" class="carousel-item active">
                             <div class="row align-items-center justify-content-center">
-                            #foreach ($item in $content.lista)
-                                <div class="col-md-4">
-                                    <a class="d-block text-center" href="$item.link.destination">
-                                        <img class="img-fluid" src="$item.img.getImagePath(''0'')" >
-                                    </a>
-                                </div>    
-                                 #end
+                               #foreach ($item in $content.lista)
+                       				 		#if($item.number.value < 3)
+                                     <div class="col-md-4">
+                                         <a class="d-block text-center" href="$item.link.destination">
+                                             <img class="img-fluid" src="$item.img.getImagePath(''0'')" >
+                                         </a>
+                                     </div>    
+                                  #end
+                                #end    
                             </div>
                         </div>
-                       
+                         <div class="carousel-item">
+                            <div class="row align-items-center justify-content-center">
+                               #foreach ($item in $content.lista)
+                       				 		#if($item.number.value >= 3)
+                                     <div class="col-md-4">
+                                         <a class="d-block text-center" href="$item.link.destination">
+                                             <img class="img-fluid" src="$item.img.getImagePath(''0'')" >
+                                         </a>
+                                     </div>    
+                                   #end
+                                #end    
+                            </div>
+                        </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                         <svg class="icon icon-primary icon-lg">
@@ -170,7 +184,18 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8
                     </a>
                 </div>
             </div>
-        </section>
+</section>
+        
+<script>
+$(document).ready(function () {
+
+				$("#attivo").addClass("active");
+
+        $(''.carouselExampleControls'').carousel({
+            interval:3000
+        });
+})
+</script>
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (9,'CNG','Modello Testo','<!--
 <h2 class="border-bottom">$content.Title.text</h2>

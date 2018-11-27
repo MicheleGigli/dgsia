@@ -7,6 +7,16 @@ h2.border-bottom {
     border-color: #003466 !important;
 }
 
+.bg-dark h2, .bg-link h2 {
+    color:#fff;
+}
+
+.it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
+    color: #fff;
+    font-size: 1em;
+    padding: 0;
+}
+
 @media only screen and (max-width: 991px) {
 
     .header-title .display-3,
@@ -84,12 +94,130 @@ h2.border-bottom {
     }
 }
 
+.navbar-nav a.list-item span {
+    color:#fff;
+}
+
+
+/*CAROUSEL*/
+.carousel {
+    background-color: #444e57;
+    padding: 3.5em 3em 3em;
+        padding-right: 3em;
+        padding-left: 3em;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto;
+    color: #5c6f82;
+    text-align: center;
+    opacity: 1;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    top: 0;
+}
+
+.carousel-control-prev {
+    right: 3em;
+    left: auto;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+/*#carouselExampleControls .carousel-item {
+    display:block
+}*/
+/**/
+
+
+/* CARD */
+.row [class*="col-"] > .card-wrapper, 
+.row [class*="col-"] > .card-wrapper > .card {
+    height: auto;
+}
+
+.card::after {
+    display: none;
+}
+
+.card-header {
+    position: relative;
+}
+
+.card-header .card-text {
+    border-left: 4px solid;
+    padding-left: 10px;
+}
+
+.card .head-tags {
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.card .card-tag {
+    color: #06c;
+    font-size: .77778rem;
+    font-weight: 700;
+    letter-spacing: .9px;
+    padding: 0 32px;
+    border-radius: 50px;
+    border: 1px solid #06c;
+}
+
+.card .head-tags .data {
+    font-size: .77778rem;
+    text-transform: uppercase;
+    color: #435a70;
+}
+
+.card.card-big .card-body h5.card-title {
+    font-size: 1.33333rem;
+    line-height: 1.55556rem;
+}
+
+.card-body-link {
+    color: white;
+}
+/**/
+
+
 /* SERVIZI */
 .servizi .card {
     position: relative;
 }
 
-.servizi .card .card-title {
+.servizi .card-body h5.card-title {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -101,21 +229,10 @@ h2.border-bottom {
     text-transform: uppercase;
     font-size: 1rem
 }
+/**/
 
-.card-body-link {
-    color: white;
-}
 
-/* Notizie in primo piano */
-.card-header {
-    position: relative;
-}
-
-.card-header .card-text {
-    border-left: 4px solid;
-    padding-left: 10px;
-}
-
+/* NOTIZIE IN PRIMO PIANO */
 .card-header .card-text.orange {
     border-color: #FF9700;
 }
@@ -127,8 +244,10 @@ h2.border-bottom {
 .card-header .card-text.violet {
     border-color: #7A73FF;
 }
+/**/
 
-/*Link utili*/
+
+/* LINK UTILI */
 .bg-link {
     background-color: #275380;
 }
@@ -149,50 +268,41 @@ h2.border-bottom {
 .bg-link .view-all .btn-outline-primary:focus {
     box-shadow: inset 0 0 0 2px #fff, 0 0 0 .2rem rgba(255, 255, 255, .5);
 }
+/**/
 
+
+/* LIST */
 .list-group-item.active {
     background-color: transparent;
-
-}
-.footer a {
-    color: #333;
-    text-decoration: underline;
 }
 
 .list-group-item.active a {
     color: #17324d;
 }
-.footer .list-group-item {
-    background: transparent;
-    border-color: #FFF;
+
+.list-group-item.active:focus, 
+.list-group-item.active:hover {
+    background-color: transparent;
 }
+
+.list-group-item-action:focus, 
+.list-group-item-action:hover {
+    background-color: transparent;
+}
+
 ul.link-list .list-item {
     color:#0073e6;
 }
+/**/
 
 
-/*CAROUSEL*/
-.carousel-control-next,
-.carousel-control-prev {
-    top: 0;
-}
-
-.carousel-control-prev {
-    right: 3em;
-}
-.it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
+/* ELEMENTI FORM */
+.form-group button {
     color: #fff;
-    font-size: 1em;
-    padding: 0;
 }
+/**/
 
-.carousel-control-next {
-    right: 0;
-}
 
-.bg-dark h2, .bg-link h2 {
-    color:#fff;
-}
 .footer a {
     color: #333;
     text-decoration: underline;
@@ -201,12 +311,4 @@ ul.link-list .list-item {
 .footer .list-group-item {
     background: transparent;
     border-color: #FFF;
-}
-
-#carouselExampleControls .carousel-item {
-    display:block
-
-}
-.navbar-nav a.list-item span {
-    color:#fff;
 }

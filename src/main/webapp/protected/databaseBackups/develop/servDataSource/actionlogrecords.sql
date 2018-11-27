@@ -14424,3 +14424,137 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-11-27 14:21:07');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (480,'admin','2018-11-27 15:13:20','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+Monolist:Composite:Longtext:en_lista_abstract_2=
+Monolist:Composite:Longtext:en_lista_abstract_3=
+Monolist:Composite:Longtext:en_lista_abstract_0=
+Monolist:Composite:Longtext:en_lista_abstract_1=
+Monolist:Composite:Link:it_lista_link_3=
+Monolist:Composite:Link:it_lista_link_1=
+Monolist:Composite:Link:it_lista_link_2=
+Monolist:Composite:Link:it_lista_link_0=
+Monolist:Composite:Number:lista_number_2=2
+descr=Lista link istituzionali
+Monolist:Composite:Number:lista_number_1=1
+Monolist:Composite:Longtext:it_lista_abstract_3=
+Monolist:Composite:Number:lista_number_3=3
+Monolist:Composite:Longtext:it_lista_abstract_2=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Number:lista_number_0=0
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+status=
+Monolist:Composite:Link:en_lista_link_3=Tribunale Torino
+Monolist:Composite:Link:en_lista_link_0=Corte Suprema di Cassazione
+Monolist:Composite:Image:it_lista_img_0=
+Monolist:Composite:Link:en_lista_link_2=Ordine Avvocati Torino
+Monolist:Composite:Link:en_lista_link_1=Corte Superiore della Magistratura
+Text:en_title=Link Istituzionali
+Monolist:Composite:Image:en_lista_img_0=Corte Suprema di Cassazione
+Monolist:Composite:Image:en_lista_img_2=Ordine Avvocati Torino
+Monolist:Composite:Image:en_lista_img_1=Corte Superiore della Magistratura
+__multiselect_extraGroupNames=
+Monolist:Composite:Image:en_lista_img_3=Tribunale Torino
+contentOnSessionMarker=CTA_editContent_CTA76
+Monolist:Composite:Image:it_lista_img_3=
+Monolist:Composite:Image:it_lista_img_2=
+Monolist:Composite:Image:it_lista_img_1=
+Monolist:Composite:Text:en_lista_title_1=Corte Superiore della Magistratura
+Monolist:Composite:Text:en_lista_title_0=Corte Suprema di Cassazione
+Monolist:Composite:Text:en_lista_title_3=Tribunale Torino
+Monolist:Composite:Text:en_lista_title_2=Ordine Avvocati Torino
+Monolist:Composite:Date:lista_date_3=
+Monolist:Composite:Date:lista_date_1=
+Monolist:Composite:Date:lista_date_2=
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Text:it_lista_title_3=
+Monolist:Composite:Text:it_lista_title_2=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Lista link istituzionali</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA76</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 15:13:20');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (481,'admin','2018-11-27 15:15:22','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Monolist:Composite:Link:en_lista_link_0=Amministrazione Trasparente
+Monolist:Composite:Link:en_lista_link_2=Bilancio
+Monolist:Composite:Link:en_lista_link_1=Pubblicita Legale
+Text:en_title=Trasparenza
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+__multiselect_extraGroupNames=
+contentOnSessionMarker=CTA_editContent_CTA71
+Monolist:Composite:Longtext:en_lista_abstract_2=
+Monolist:Composite:Longtext:en_lista_abstract_0=
+Monolist:Composite:Longtext:en_lista_abstract_1=
+Monolist:Composite:Text:en_lista_title_1=Pubblicita Legale
+Monolist:Composite:Text:en_lista_title_0=Amministrazione Trasparente
+Monolist:Composite:Link:it_lista_link_1=
+Monolist:Composite:Text:en_lista_title_2=Bilancio
+Monolist:Composite:Link:it_lista_link_2=
+Monolist:Composite:Link:it_lista_link_0=
+Monolist:Composite:Date:lista_date_1=
+Monolist:Composite:Date:lista_date_2=
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=
+Monolist:Composite:Number:lista_number_2=
+descr=TRASPARENZA HOME PAGE
+Monolist:Composite:Number:lista_number_1=
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Longtext:it_lista_abstract_2=
+Monolist:Composite:Text:it_lista_title_2=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Number:lista_number_0=
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">TRASPARENZA HOME PAGE</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA71</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-11-27 15:15:22');
