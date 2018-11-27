@@ -82,6 +82,19 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 	</parameter>
 	<action name="configSimpleParameter"/>
 </config>',NULL,NULL,NULL,1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('LinkUtiliSettato','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Link Utili Settato</property>
+<property key="it">Link Utili Settato</property>
+</properties>
+
+',NULL,NULL,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="modelId">10</property>
+<property key="contentId">CTA144</property>
+</properties>
+
+',0,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('login_form','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Login Form</property>
