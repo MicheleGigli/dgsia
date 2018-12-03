@@ -64,10 +64,10 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			<attribute name="img" attributetype="Image" description="immagine" />
 			<attribute name="link" attributetype="Link" description="link" />
 			<attribute name="abstract" attributetype="Text" description="abstract" />
-			<attribute name="date" attributetype="Date" description="data" />
-			<attribute name="enum" attributetype="Enumerator" description="enumeration" searchable="true" separator=",">
+			<attribute name="date" attributetype="Date" description="data" searchable="true" indexingtype="TEXT" />
+			<attribute name="enum" attributetype="Enumerator" description="enumeration" searchable="true" separator=","><![CDATA[ATTI GIUDIZIARI, ATTUALITA, COMUNICATI STAMPA]]></attribute>
+			<attribute name="autore" attributetype="Text" description="autore" searchable="true" indexingtype="TEXT">
 				<validations />
-				<![CDATA[ATTI GIUDIZIARI, ATTUALITA, COMUNICATI STAMPA]]>
 			</attribute>
 		</attributes>
 	</contenttype>
@@ -391,7 +391,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params',
 </Params>
 
 ');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20181122132859');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20181129220502');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','userProfileTypes','User Profile Types Definitions','<?xml version="1.0" encoding="UTF-8"?>
 <profiletypes>
 	<profiletype typecode="PFL" typedescr="Default user profile">

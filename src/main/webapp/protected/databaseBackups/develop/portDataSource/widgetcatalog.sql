@@ -28,6 +28,54 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 	<parameter name="linkDescr_{lang}">Link description in lang {lang}</parameter>
 	<action name="listViewerConfig"/>
 </config>','jacms',NULL,NULL,1,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('content_viewer_list_carousel','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Contents - Publish a List of Carousel Contents</property>
+<property key="it">Contenuti - Pubblica una Lista di Contenuti Carousel</property>
+</properties>
+
+','<config>
+	<parameter name="contentType">Content Type (mandatory)</parameter>
+	<parameter name="modelId">Content Model</parameter>
+	<parameter name="userFilters">Front-End user filter options</parameter>
+	<parameter name="category">Content Category **deprecated**</parameter>
+	<parameter name="categories">Content Category codes (comma separeted)</parameter>
+	<parameter name="orClauseCategoryFilter" />
+	<parameter name="maxElemForItem">Contents for each page</parameter>
+	<parameter name="maxElements">Number of contents</parameter>
+	<parameter name="filters" />
+	<parameter name="title_{lang}">Widget Title in lang {lang}</parameter>
+	<parameter name="pageLink">The code of the Page to link</parameter>
+	<parameter name="linkDescr_{lang}">Link description in lang {lang}</parameter>
+	<action name="listViewerConfig"/>
+</config>','jacms',NULL,NULL,1,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('content_viewer_list_news','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property key="en">Contents - Publish a List of Contents News</property>
+    <property key="it">Contenuti - Pubblica una Lista di Contenuti News</property>
+</properties>','<config>
+    <parameter name="contentType">Content Type (mandatory)</parameter>
+    <parameter name="modelId">Content Model</parameter>
+    <parameter name="userFilters">Front-End user filter options</parameter>
+    <parameter name="category">Content Category **deprecated**</parameter>
+    <parameter name="categories">Content Category codes (comma separeted)</parameter>
+    <parameter name="orClauseCategoryFilter" />
+    <parameter name="maxElemForItem">Contents for each page</parameter>
+    <parameter name="maxElements">Number of contents</parameter>
+    <parameter name="filters" />
+    <parameter name="title_{lang}">Widget Title in lang {lang}</parameter>
+    <parameter name="pageLink">The code of the Page to link</parameter>
+    <parameter name="linkDescr_{lang}">Link description in lang {lang}</parameter>
+    <action name="listViewerConfig"/>
+</config>','jacms',NULL,NULL,1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-internal-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property key="en">Navigation -internal Bar</property>
+    <property key="it">Navigazione - Barra interna </property>
+</properties>','<config>
+    <parameter name="navSpec">Rules for the Page List auto-generation</parameter>
+    <action name="navigatorConfig" />
+</config>',NULL,NULL,NULL,1,NULL);
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-language_choose','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Choose a Language</property>
@@ -62,6 +110,14 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </properties>
 
 ',NULL,NULL,NULL,NULL,1,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-side-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property key="en">Navigation -Side Bar</property>
+    <property key="it">Navigazione - Barra laterale </property>
+</properties>','<config>
+    <parameter name="navSpec">Rules for the Page List auto-generation</parameter>
+    <action name="navigatorConfig" />
+</config>',NULL,NULL,NULL,1,NULL);
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando_apis','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">APIs</property>
@@ -113,7 +169,7 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 
 ',NULL,NULL,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="navSpec">code(sezione_tribunale).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
+<property key="navSpec">code(sezione_tribunale).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(per_le_forse_dell_ordine).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
 </properties>
 
 ',0,'free');
@@ -140,7 +196,9 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 <properties>
 <property key="en">Search - Search Result</property>
 <property key="it">Ricerca - Risultati della Ricerca</property>
-</properties>',NULL,'jacms',NULL,NULL,1,NULL);
+</properties>
+
+',NULL,'jacms',NULL,NULL,1,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('userprofile_editCurrentUser','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Edit Current User</property>

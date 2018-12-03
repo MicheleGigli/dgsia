@@ -140,6 +140,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESNB_YOU_ARE_HE
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESNB_YOU_ARE_HERE','it','Sei qui');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','en','Search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','it','Cerca');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FULL_TEXT_SEARCH','en','search');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FULL_TEXT_SEARCH','it','ricerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('GENERIC_ERROR','en','Generic Error');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('GENERIC_ERROR','it','Errore Generico');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('IGNORE','en','Ignore');

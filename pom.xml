@@ -189,7 +189,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>2.8</version><!--$NO-MVN-MAN-VER$ -->
+                <version>2.8</version>
                 <dependencies>
                     <dependency>
                         <groupId>org.codehaus.plexus</groupId>
@@ -912,5 +912,16 @@
             <version>${entando.version}</version>
             <type>war</type>
         </dependency>
+        
+        
+        <dependency>
+            <groupId>org.entando.entando.plugins</groupId>
+            <artifactId>entando-plugin-jacms</artifactId>
+            <version>${entando.version}</version>
+            <type>jar</type>
+            <classifier>classes</classifier>
+            <scope>provided</scope>
+        </dependency>
+        
     </dependencies>
 </project>

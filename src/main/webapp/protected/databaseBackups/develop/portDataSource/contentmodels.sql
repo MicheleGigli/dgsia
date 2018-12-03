@@ -5,7 +5,9 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 <small class="text-muted d-block">$content.date.shortDate</small>
 </p>
 </div>
-<img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+<div class="img-wrapper">
+ <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+</div>
 <div class="card-body">
 <h5 class="card-title"><a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a></h5>
 <p class="card-text">$content.abstract.text</p>
@@ -25,7 +27,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2
 <small class="text-muted d-block">$item.date</small>
 </p>
 </div>
-<img class="img-fluid" data-src="" alt="" src="$item.img.getImagePath(''0'')" data-holder-rendered="true">
+   <img class="img-fluid" data-src="" alt="" src="$item.img.getImagePath(''0'')" data-holder-rendered="true"> 
 <div class="card-body">
 <h5 class="card-title"><a class="card-body-link" href="$item.link.destination"> $item.title.text </a></h5>
 <p class="card-text">$item.abstract.text</p>
@@ -75,7 +77,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
                         <div class="card-body p-3">
                             <a class="card-link text-white d-block" href="$item.link.destination" >
                                 $item.title.text <svg class="icon icon-light float-right">
-                                    <use xlink:href="$item.img.getImagePath(''0'')"></use>
+                                    <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-chevron-right"></use>
                                 </svg>
                             </a>
                         </div>
@@ -240,11 +242,12 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 	</div>
 	</div>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (11,'CTM','Storico Notizie','<div class="card-wrapper border-bottom">
- <div class="card">
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (11,'CTM','Storico Notizie','<div class="list-news">
+<div class="card-wrapper border-bottom">
+<div class="card">
    <div class="card-body px-0">
       <div class="row">
-          <div class="col-7">
+          <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
              <div class="category-top">
              <a class="category" href="#">Categoria 1</a>
              <span class="data">$content.date</span>
@@ -252,13 +255,15 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
           <h5 class="card-title big-heading"><a href="#">$content.title.text</a></h5>
           <p class="card-text">$content.abstract.text</p>
           </div>
-         <div class="col-5">
-         		<img src="$content.img.getImagePath(''0'')" title="img title" alt="imagealt" class="img-fluid">
+         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                              <img src="$content.img.getImagePath(''0'')" title="img title" alt="imagealt" class="img-fluid">
          </div>
       </div>
    </div>
   </div> 
 </div>
+</div>
+
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (17,'CTM','Modello Link Utili Pagina Primo livello','<div class="col-md-4">
 	<div class="card border rounded mb-4">
@@ -288,6 +293,73 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
 <!--end card-->
 
 ',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (182,'CTM','Carousel con filtri home','<div class="it-single-slide-wrapper">
+
+    <a href="#">
+
+        <div class="img-responsive-wrapper">
+
+            <div class="img-responsive">
+
+                <div class="img-wrapper">
+
+                    <img src="$content.img.getImagePath(''0'')" title="img title" alt="imagealt">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </a>
+
+    <div class="it-text-slider-wrapper-outside">
+
+        <div class="card-wrapper">
+
+            <div class="card">
+
+                <div class="card-body">
+
+                    <div class="category-top">
+
+                        <!-- category heading-->
+
+                        <a class="category" href="#">Category</a>
+
+                        <!-- category data-->
+
+                        <span class="data">$content.date.getFormattedDate("dd/MM/yyyy")</span>
+
+                    </div>
+
+                    <h5 class="card-title big-heading">$content.title.text</h5>
+
+                    <p class="card-text">$content.abstract.text</p>
+
+                    <span class="card-signature">di $content.autore.text</span>
+
+                    <a class="read-more" href="#">
+
+                        <span class="text">Leggi di più</span>
+
+                        <svg class="icon">
+
+                        <use xlink:href="$content.link.destination"/>
+
+                        </svg>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )
@@ -318,16 +390,20 @@ $content.MainBody.text
   </ul>
 #end
 </article>',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10011,'CNG','Lists - Default','<div class="search-result">
-  <h3><a href="$content.contentLink">$content.Title.text</a></h3>
-  <a class="search-link" href="$content.contentLink">$content.contentLink</a>
-#if ( $content.Abstract.text != "" )
-  <p>
-    $content.Abstract.text
-  </p>
-#end
-</div>
-<div class="hr-line-dashed"></div>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10011,'CNG','Lists - Default','    <li><a class="list-item active right-icon" href="$content.contentLink">
+        <span>$content.Title.text</span>
+        <svg class="icon icon-primary icon-right"><use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-chevron-right"></use
+        </svg>
+        #if ( $content.Abstract.text != "" )
+        <p>
+          $content.Abstract.text
+        </p>
+       #end
+        </a>
+    </li>
+<span class="divider"></span>
+
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10012,'CNG','Hero Unit + Picture','<article>
   <div class="hero-unit span6">
   <h1>$content.Title.text</h1>

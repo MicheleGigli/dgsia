@@ -1,4 +1,143 @@
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('default_pagerBlock',NULL,NULL,NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('default_pagerBlock',NULL,NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+<#if (group.size > group.max)>
+
+<nav class="pagination-wrapper">
+
+    <ul class="pagination">
+
+        <#if (1 != group.currItem)>
+
+        <#if (group.advanced)>
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >1</@wp.parameter></@wp.url>" title="<@wp.i18n key="PAGER_FIRST" />">
+
+                <svg class="icon icon-primary">
+
+                <use xlink:href="<@wp.url />sprite.svg#it-chevron-left"></use>
+
+                </svg>
+
+            </a>
+
+        </li>
+
+        <#if (1 != group.beginItemAnchor)>
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${group.currItem - group.offset}</@wp.parameter></@wp.url>" title="<@wp.i18n key="PAGER_STEP_BACKWARD" />&#32;${group.offset}">
+
+                <svg class="icon icon-primary">
+
+                <use xlink:href="<@wp.url />sprite.svg#it-chevron-left"></use>
+
+                </svg>
+
+            </a>
+
+        </li>
+
+        </#if>
+
+        </#if>
+
+
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${group.prevItem}</@wp.parameter></@wp.url>"><@wp.i18n key="PAGER_PREV" /></a>
+
+        </li>
+
+        </#if>
+
+        <#list group.items as item>
+
+        <#if (item_index >= (group.beginItemAnchor-1)) && (item_index <= (group.endItemAnchor-1))>
+
+        <#if (item == group.currItem)>
+
+
+
+        <li class="active page-item">
+
+            <a class="page-link" href="#">${item}</a>
+
+        </li>
+
+        <#else>
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${item}</@wp.parameter></@wp.url>">${item}</a>
+
+        </li>
+
+        </#if>
+
+        </#if>
+
+        </#list>
+
+        <#if (group.maxItem != group.currItem)>
+
+
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${group.nextItem}</@wp.parameter></@wp.url>"><@wp.i18n key="PAGER_NEXT" /></a>
+
+        </li>
+
+        <#if (group.advanced)>
+
+        <#if (group.maxItem != group.endItemAnchor)>
+
+
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${group.currItem + group.offset}</@wp.parameter></@wp.url>" title="<@wp.i18n key="PAGER_STEP_FORWARD" />&#32;${group.offset}">
+
+                <svg class="icon icon-primary">
+
+                <use xlink:href="<@wp.url />sprite.svg#it-chevron-right"></use>
+
+                </svg>
+
+            </a>
+
+        </li>
+
+        </#if>
+
+
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${group.maxItem}</@wp.parameter></@wp.url>" title="<@wp.i18n key="PAGER_LAST" />">
+
+                <svg class="icon icon-primary">
+
+                <use xlink:href="<@wp.url />sprite.svg#it-chevron-right"></use>
+
+                </svg>
+
+            </a>
+
+        </li>
+
+        </#if>
+
+        </#if>
+
+    </ul>
+
+</nav>
+
+</#if>','<#assign wp=JspTaglibs["/aps-core"]>
 
 <#if (group.size > group.max)>
 	<div class="pagination pagination-centered">
@@ -280,6 +419,74 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 <form class="navbar-search pull-left" action="<#if (searchResultPageVar??) ><@wp.url page="${searchResultPageVar.code}" /></#if>" method="get">
 <input type="text" name="search" class="search-query span2" placeholder="<@wp.i18n key="ESSF_SEARCH" />" x-webkit-speech="x-webkit-speech" />
 </form>',1);
+INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entando-widget-side-navigation_bar_include',NULL,NULL,'','<#assign wp=JspTaglibs["/aps-core"]>
+<#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
+
+
+<#assign liClass="">
+<#assign homeIcon="">
+<#assign caret="">
+<#assign ulClass='' class="dropdown-menu"''>
+<#assign aClassAndData="">
+<#assign aURL=previousPage.url>
+
+<#if (previousPage.voidPage)>
+<#assign aURL=''#'' />
+</#if>
+
+<#if (previousPage.code?contains("homepage"))>
+<#assign homeIcon=''<i class="icon-home"></i>&#32;''>
+</#if>
+
+<#if (previousPage.code == currentPageCode)>
+<#assign liClass='' class="active"''>
+</#if>
+
+<#if (previousLevel < level)>
+<#assign liClass='' class="dropdown"'' >
+
+<#if (previousPage.code == currentPageCode)>
+<#assign liClass='' class="dropdown active"''>
+</#if>
+
+<#if previousPage.voidPage>
+<#assign liClass='' class=" dropdown"'' >
+</#if>
+
+<#if (previousLevel > 0) >
+<#assign liClass='' class="dropdown-submenu"''>
+<#if (previousPage.code == currentPageCode)>
+<#assign liClass='' class="dropdown-submenu active"''>
+</#if>
+
+<#assign ulClass='' class="dropdown-menu"''>
+</#if>
+
+<#assign aClassAndData='' class="dropdown-toggle" data-toggle="dropdown"''>
+
+<#if (previousLevel == 0)>
+<#assign caret='' <span class="caret"></span>''>
+</#if>
+</#if>
+
+<li ${liClass} > 
+    <a href="${aURL}"  ${aClassAndData} >
+                            <!-- [ ${previousLevel} ] -->
+        ${homeIcon}
+        ${previousPage.title}
+        ${caret}
+    </a>
+
+    <#if (previousLevel == level)></li></#if>
+<#if (previousLevel < level)>
+<ul ${ulClass}>
+    </#if>
+    <#if (previousLevel > level)>
+    <#list 1..(previousLevel - level) as ignoreMe>
+</li></ul>
+</#list>
+</li>
+</#if>',1);
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entandoapi_is_resource_detail','entando_apis',NULL,NULL,'<#assign s=JspTaglibs["/struts-tags"]>
 <#assign wp=JspTaglibs["/aps-core"]>
 
@@ -800,45 +1007,165 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 </#if>
 <@jacms.content publishExtraTitle=true />',1);
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list','content_viewer_list','jacms','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
+
 <#assign wp=JspTaglibs["/aps-core"]>
+
 <@wp.headInfo type="JS_EXT" info="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js" />
+
 <@jacms.contentList listName="contentList" titleVar="titleVar"
+
 pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
-<div class="container py-4">
+
+<div class="container py-4 custom-list-content">
+
 <#if (titleVar??)>
+
 <h2>${titleVar}</h2>
+
 </#if>
+
 <div class="card-deck">
+
 <@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
+
 <@wp.fragment code="jacms_content_viewer_list_userfilters" escapeXml=false />
+
 </@wp.freemarkerTemplateParameter>
+
+ 
 
 <#if (contentList??) && (contentList?has_content) && (contentList?size > 0)>
 
+ 
+
 <@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>
+
 <@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
-<@wp.fragment code="default_pagerBlock" escapeXml=false />
+
+ 
 
 <#list contentList as contentId>
+
 <#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>
+
 <@jacms.content contentId="${contentId}" />
+
+</#if>
+
+</#list>
+
+<@wp.fragment code="default_pagerBlock" escapeXml=false />
+
+</@wp.freemarkerTemplateParameter>
+
+</@wp.pager>
+
+<#else>
+
+<p class="alert alert-info"><@wp.i18n key="LIST_VIEWER_EMPTY" /></p>
+
+</#if>
+
+<#if (pageLinkVar??) && (pageLinkDescriptionVar??)>
+
+<p class="text-right"><a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a></p>
+
+</#if>
+
+<#assign contentList="">
+
+</div>
+
+</div>
+
+<div class="mt-3 container py-2 text-right">
+
+         <a href="#" type="button" class="btn btn-outline-primary"><@wp.i18n key="LINK_UTILI" /></a>
+
+</div>','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
+<#assign wp=JspTaglibs["/aps-core"]>
+<@wp.headInfo type="JS_EXT" info="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js" />
+<@jacms.contentList listName="contentList" titleVar="titleVar"
+	pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
+<#if (titleVar??)>
+	<h1>${titleVar}</h1>
+</#if>
+<@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
+<@wp.fragment code="jacms_content_viewer_list_userfilters" escapeXml=false />
+</@wp.freemarkerTemplateParameter>
+<#if (contentList??) && (contentList?has_content) && (contentList?size > 0)>
+	<@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>
+		<@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
+		<@wp.fragment code="default_pagerBlock" escapeXml=false />
+<#list contentList as contentId>
+<#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>
+	<@jacms.content contentId="${contentId}" />
 </#if>
 </#list>
-<@wp.fragment code="default_pagerBlock" escapeXml=false />
-</@wp.freemarkerTemplateParameter>
-</@wp.pager>
+		<@wp.fragment code="default_pagerBlock" escapeXml=false />
+		</@wp.freemarkerTemplateParameter>
+	</@wp.pager>
 <#else>
-<p class="alert alert-info"><@wp.i18n key="LIST_VIEWER_EMPTY" /></p>
+		<p class="alert alert-info"><@wp.i18n key="LIST_VIEWER_EMPTY" /></p>
 </#if>
 <#if (pageLinkVar??) && (pageLinkDescriptionVar??)>
-<p class="text-right"><a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a></p>
+	<p class="text-right"><a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a></p>
 </#if>
-<#assign contentList="">
+<#assign contentList="">',1);
+INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_carousel','content_viewer_list_carousel','jacms','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
+<#assign wp=JspTaglibs["/aps-core"]>
+
+<@jacms.contentList listName="contentList" titleVar="titleVar" pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
+<div class="container py-4">
+    <#if (titleVar??)>
+    <h2>${titleVar}</h2>
+    </#if>
+    <div>
+        <@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
+        <@wp.fragment code="jacms_content_viewer_list_userfilters" escapeXml=false />
+        </@wp.freemarkerTemplateParameter>
+        <#if (contentList??) && (contentList?has_content) && (contentList?size > 0)><@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>
+        <@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
+        <@wp.fragment code="default_pagerBlock" escapeXml=false />
+        <div class="it-carousel-wrapper it-carousel-landscape-abstract">
+            <div class="it-carousel-all owl-carousel">
+                <#list contentList as contentId>
+                <#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>
+                <@jacms.content contentId="${contentId}" modelId="182"/>
+                </#if>
+                </#list>
+            </div>
+        </div>
+        <@wp.fragment code="default_pagerBlock" escapeXml=false />
+        </@wp.freemarkerTemplateParameter>
+        </@wp.pager>
+        <#else>
+        <p class="alert alert-info">
+            <@wp.i18n key="LIST_VIEWER_EMPTY" />
+        </p>
+        </#if>
+
+        <#if (pageLinkVar??) && (pageLinkDescriptionVar??)>
+        <p class="text-right">
+            <a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a>
+        </p>
+        </#if>
+        <#assign contentList="">
+    </div>
 </div>
-</div>
-<div class="mt-3 container py-2 text-right">
-         <a href="#" type="button" class="btn btn-outline-primary"><@wp.i18n key="LINK_UTILI" /></a>
-</div>','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
+
+<script>
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            navigation: false,
+            dots: true,
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            singleItem: true,
+            items: 1,
+        });
+    });
+</script>','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
 <#assign wp=JspTaglibs["/aps-core"]>
 <@wp.headInfo type="JS_EXT" info="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js" />
 <@jacms.contentList listName="contentList" titleVar="titleVar"
@@ -937,235 +1264,6 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 </form>
 </div></div>
 </#if>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilter_ent_Boolean',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#assign formFieldNameVar = userFilterOptionVar.formFieldNames[0] >
-<#assign formFieldValue = userFilterOptionVar.getFormFieldValue(formFieldNameVar) >
-<#assign i18n_Attribute_Key = userFilterOptionVar.attribute.name >
-<fieldset>
-<legend><@wp.i18n key="${i18n_Attribute_Key}" /></legend>
-<@wp.fragment code="jacms_content_viewer_list_userfilter_ent_Bool_io" escapeXml=false />
-<div class="control-group">
-	<div class="controls">
-		<label for="${formFieldNameVar}" class="radio">
-		<input name="${formFieldNameVar}" id="true_${formFieldNameVar}" <#if (formFieldValue??) && (formFieldValue == "true")>checked="checked"</#if> value="true" type="radio" />
-		<@wp.i18n key="YES"/></label>
-	</div>
-	<div class="controls">
-		<label for="false_${formFieldNameVar}" class="radio">
-		<input name="${formFieldNameVar}" id="false_${formFieldNameVar}" <#if (formFieldValue??) && (formFieldValue == "false")>checked="checked"</#if> value="false" type="radio" />
-		<@wp.i18n key="NO"/></label>
-	</div>
-</div>
-</fieldset>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilter_ent_Bool_io',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#assign formFieldNameControlVar = userFilterOptionVar.formFieldNames[2] >
-<input name="${formFieldNameControlVar}" type="hidden" value="true" />
-<#assign formFieldNameIgnoreVar = userFilterOptionVar.formFieldNames[1] >
-<#assign formFieldIgnoreValue = userFilterOptionVar.getFormFieldValue(formFieldNameIgnoreVar) >
-<#assign formFieldControlValue = userFilterOptionVar.getFormFieldValue(formFieldNameControlVar) >
-<div class="controls">
-	<label for="ignore_${formFieldNameIgnoreVar}" class="checkbox">
-	<input id="ignore_${formFieldNameIgnoreVar}" name="${formFieldNameIgnoreVar}" <#if (formFieldIgnoreValue?? && formFieldIgnoreValue == "true")>checked="checked"</#if> value="true" type="checkbox" />
-	<@wp.i18n key="IGNORE" /></label>
-</div>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilter_ent_CheckBox',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#assign formFieldNameVar = userFilterOptionVar.formFieldNames[0] >
-<#assign formFieldValue = userFilterOptionVar.getFormFieldValue(formFieldNameVar) >
-<#assign i18n_Attribute_Key = userFilterOptionVar.attribute.name >
-<fieldset>
-<legend><@wp.i18n key="${i18n_Attribute_Key}" /></legend>
-<@wp.fragment code="jacms_content_viewer_list_userfilter_ent_Bool_io" escapeXml=false />
-<div class="control-group">
-	<div class="controls">
-		<label for="true_${formFieldNameVar}" class="checkbox">
-		<input name="${formFieldNameVar}" id="true_${formFieldNameVar}" <#if (formFieldValue??) && (formFieldValue == "true")>checked="checked"</#if> value="true" type="checkbox" />
-		<@wp.i18n key="YES"/></label>
-	</div>
-</div>
-</fieldset>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilter_ent_Date',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-
-<#assign currentLangVar ><@wp.info key="currentLang" /></#assign>
-
-<#assign js_for_datepicker="jQuery(function($){
-	$.datepicker.regional[''it''] = {
-		closeText: ''Chiudi'',
-		prevText: ''&#x3c;Prec'',
-		nextText: ''Succ&#x3e;'',
-		currentText: ''Oggi'',
-		monthNames: [''Gennaio'',''Febbraio'',''Marzo'',''Aprile'',''Maggio'',''Giugno'',
-			''Luglio'',''Agosto'',''Settembre'',''Ottobre'',''Novembre'',''Dicembre''],
-		monthNamesShort: [''Gen'',''Feb'',''Mar'',''Apr'',''Mag'',''Giu'',
-			''Lug'',''Ago'',''Set'',''Ott'',''Nov'',''Dic''],
-		dayNames: [''Domenica'',''Luned&#236'',''Marted&#236'',''Mercoled&#236'',''Gioved&#236'',''Venerd&#236'',''Sabato''],
-		dayNamesShort: [''Dom'',''Lun'',''Mar'',''Mer'',''Gio'',''Ven'',''Sab''],
-		dayNamesMin: [''Do'',''Lu'',''Ma'',''Me'',''Gi'',''Ve'',''Sa''],
-		weekHeader: ''Sm'',
-		dateFormat: ''yy-mm-dd'',
-		firstDay: 1,
-		isRTL: false,
-		showMonthAfterYear: false,
-		yearSuffix: ''''};
-});
-
-jQuery(function($){
-	if (Modernizr.touch && Modernizr.inputtypes.date) {
-		$.each(	$(''input[data-isdate=true]''), function(index, item) {
-			item.type = ''date'';
-		});
-	} else {
-		$.datepicker.setDefaults( $.datepicker.regional[''${currentLangVar}''] );
-		$(''input[data-isdate=true]'').datepicker({
-      			changeMonth: true,
-      			changeYear: true,
-      			dateFormat: ''yyyy-mm-dd''
-    		});
-	}
-});" >
-
-<@wp.headInfo type="JS" info="entando-misc-html5-essentials/modernizr-2.5.3-full.js" />
-<@wp.headInfo type="JS_EXT" info="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js" />
-<@wp.headInfo type="CSS_EXT" info="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.min.css" />
-<@wp.headInfo type="JS_RAW" info="${js_for_datepicker}" />
-<fieldset>
-<legend>
-<#assign i18n_Attribute_Key = userFilterOptionVar.attribute.name >
-<@wp.i18n key="${i18n_Attribute_Key}" />
-</legend>
-<div class="control-group">
-	<#assign formFieldStartNameVar = userFilterOptionVar.formFieldNames[0] >
-	<#assign formFieldStartValueVar = userFilterOptionVar.getFormFieldValue(formFieldStartNameVar) >
-	<label for="${formFieldStartNameVar}" class="control-label">
-		<@wp.i18n key="DATE_FROM" />
-	</label>
-	<div class="controls">
-		<input id="${formFieldStartNameVar}" name="${formFieldStartNameVar}" value="${formFieldStartValueVar?default("")}" type="text" data-isdate="true" class="input-xlarge" />
-	</div>
-</div>
-<div class="control-group">
-	<#assign formFieldEndNameVar = userFilterOptionVar.formFieldNames[1] >
-	<#assign formFieldEndValueVar = userFilterOptionVar.getFormFieldValue(formFieldEndNameVar) >
-	<label for="${formFieldEndNameVar}" class="control-label">
-		<@wp.i18n key="DATE_TO" />
-	</label>
-	<div class="controls">
-		<input id="${formFieldEndNameVar}" name="${formFieldEndNameVar}" value="${formFieldEndValueVar?default("")}" type="text" data-isdate="true" class="input-xlarge" />
-	</div>
-</div>
-</fieldset>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilter_ent_Enumer',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#assign formFieldNameVar = userFilterOptionVar.formFieldNames[0] >
-<#assign formFieldValue = userFilterOptionVar.getFormFieldValue(formFieldNameVar) >
-<#assign i18n_Attribute_Key = userFilterOptionVar.attribute.name >
-<div class="control-group">
-	<label for="${formFieldNameVar}" class="control-label"><@wp.i18n key="${i18n_Attribute_Key}" /></label>
-	<div class="controls">
-		<select name="${formFieldNameVar}" id="${formFieldNameVar}" class="input-xlarge">
-			<option value=""><@wp.i18n key="ALL" /></option>
-			<#list userFilterOptionVar.attribute.items as enumeratorItemVar>
-			<option value="${enumeratorItemVar}" <#if (formFieldValue??) && (enumeratorItemVar == formFieldValue)>selected="selected"</#if> >${enumeratorItemVar}</option>
-			</#list>
-		</select>
-	</div>
-</div>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilter_ent_EnumerMap',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#assign formFieldNameVar = userFilterOptionVar.formFieldNames[0] >
-<#assign formFieldValue = userFilterOptionVar.getFormFieldValue(formFieldNameVar) >
-<#assign i18n_Attribute_Key = userFilterOptionVar.attribute.name >
-<div class="control-group">
-	<label for="${formFieldNameVar}" class="control-label"><@wp.i18n key="${i18n_Attribute_Key}" /></label>
-	<div class="controls">
-		<select name="${formFieldNameVar}" id="${formFieldNameVar}" class="input-xlarge">
-			<option value=""><@wp.i18n key="ALL" /></option>
-			<#list userFilterOptionVar.attribute.mapItems as enumeratorMapItemVar>
-			<option value="${enumeratorMapItemVar.key}" <#if (formFieldValue??) && (enumeratorMapItemVar.key == formFieldValue)>selected="selected"</#if> >${enumeratorMapItemVar.value}</option>
-			</#list>
-		</select>
-	</div>
-</div>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilter_ent_Number',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<fieldset>
-<legend>
-<#assign i18n_Attribute_Key = userFilterOptionVar.attribute.name >
-<@wp.i18n key="${i18n_Attribute_Key}" />
-</legend>
-<div class="control-group">
-	<#assign formFieldStartNameVar = userFilterOptionVar.formFieldNames[0] >
-	<#assign formFieldStartValueVar = userFilterOptionVar.getFormFieldValue(formFieldStartNameVar) >
-	<label for="${formFieldStartNameVar}" class="control-label">
-		<@wp.i18n key="NUMBER_FROM" />
-	</label>
-	<div class="controls">
-		<input id="${formFieldStartNameVar}" name="${formFieldStartNameVar}" value="${formFieldStartValueVar?default("")}" type="number" class="input-medium" />
-	</div>
-</div>
-<div class="control-group">
-	<#assign formFieldEndNameVar = userFilterOptionVar.formFieldNames[1] >
-	<#assign formFieldEndValueVar = userFilterOptionVar.getFormFieldValue(formFieldEndNameVar) >
-	<label for="${formFieldEndNameVar}" class="control-label">
-		<@wp.i18n key="NUMBER_TO" />
-	</label>
-	<div class="controls">
-		<input id="${formFieldEndNameVar}" name="${formFieldEndNameVar}" value="${formFieldEndValueVar?default("")}" type="number" class="input-medium" />
-	</div>
-</div>
-</fieldset>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilter_ent_Text',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#assign formFieldNameVar = userFilterOptionVar.formFieldNames[0] >
-<#assign formFieldValue = userFilterOptionVar.getFormFieldValue(formFieldNameVar) >
-<#assign i18n_Attribute_Key = userFilterOptionVar.attribute.name >
-<div class="control-group">
-	<label for="${formFieldNameVar}" class="control-label"><@wp.i18n key="${i18n_Attribute_Key}" /></label>
-	<div class="controls">
-		<input name="${formFieldNameVar}" id="${formFieldNameVar}" value="${formFieldValue}" type="text" class="input-xlarge"/>
-	</div>
-</div>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilter_ent_ThreeSt',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#assign formFieldNameVar = userFilterOptionVar.formFieldNames[0] >
-<#assign formFieldValue = userFilterOptionVar.getFormFieldValue(formFieldNameVar) >
-<#assign i18n_Attribute_Key = userFilterOptionVar.attribute.name >
-<fieldset>
-<legend><@wp.i18n key="${i18n_Attribute_Key}" /></legend>
-<@wp.fragment code="jacms_content_viewer_list_userfilter_ent_Bool_io" escapeXml=false />
-<div class="control-group">
-	<div class="controls">
-		<label for="true_${formFieldNameVar}" class="radio">
-		<input name="${formFieldNameVar}" id="true_${formFieldNameVar}" <#if (formFieldValue??) && (formFieldValue == "true")>checked="checked"</#if> value="true" type="radio" />
-		<@wp.i18n key="YES"/></label>
-		<label for="false_${formFieldNameVar}" class="radio">
-		<input name="${formFieldNameVar}" id="false_${formFieldNameVar}" <#if (formFieldValue??) && (formFieldValue == "false")>checked="checked"</#if> value="false" type="radio" />
-		<@wp.i18n key="NO"/></label>
-		<label for="both_${formFieldNameVar}" class="radio">
-		<input name="${formFieldNameVar}" id="both_${formFieldNameVar}" <#if (formFieldValue??) && (formFieldValue == "both")>checked="checked"</#if> value="both" type="radio" />
-		<@wp.i18n key="BOTH"/></label>
-	</div>
-</div>
-</fieldset>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilter_met_category',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#assign formFieldNameVar = userFilterOptionVar.formFieldNames[0] >
-<#assign formFieldValue = userFilterOptionVar.getFormFieldValue(formFieldNameVar) >
-<#assign userFilterCategoryCodeVar = userFilterOptionVar.userFilterCategoryCode?default("") >
-<@wp.categories var="systemCategories" titleStyle="prettyFull" root="${userFilterCategoryCodeVar}" />
-<div class="control-group">
-	<label for="category" class="control-label"><@wp.i18n key="CATEGORY" /></label>
-	<div class="controls">
-		<select id="category" name="${formFieldNameVar}" class="input-xlarge">
-			<option value=""><@wp.i18n key="ALL" /></option>
-			<#list systemCategories as systemCategory>
-			<option value="${systemCategory.key}" <#if (formFieldValue == systemCategory.key)>selected="selected"</#if> >${systemCategory.value}</option>
-			</#list>
-		</select>
-	</div>
-</div>',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilter_met_fulltext',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#assign formFieldNameVar = userFilterOptionVar.formFieldNames[0] >
-<#assign formFieldValue = userFilterOptionVar.getFormFieldValue(formFieldNameVar) >
-<div class="control-group">
-    <label for="${formFieldNameVar}" class="control-label"><@wp.i18n key="TEXT" /></label>
-    <div class="controls">
-        <input name="${formFieldNameVar}" id="${formFieldNameVar}" value="${formFieldValue}" type="text" class="input-xlarge"/>
-    </div>
-</div>',1);
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_row_content_viewer_list','row_content_viewer_list','jacms',NULL,'<#assign jacms=JspTaglibs["/jacms-aps-core"]>
 <#assign wp=JspTaglibs["/aps-core"]>
 <@jacms.rowContentList listName="contentInfoList" titleVar="titleVar"
@@ -1325,31 +1423,6 @@ pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFi
 <div class="mt-3 text-right view-all">
          <a href="#" type="button" class="btn btn-outline-primary"><@wp.i18n key="LINK_UTILI" /></a>
 </div>',NULL,0);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('search_result','search_result','jacms',NULL,'<#assign jacms=JspTaglibs["/jacms-aps-core"]>
-<#assign wp=JspTaglibs["/aps-core"]>
-<h1><@wp.i18n key="SEARCH_RESULTS" /></h1>
-<#if (RequestParameters.search?? && RequestParameters.search!='''')>
-<@jacms.searcher listName="contentListResult" />
-</#if>
-<p><@wp.i18n key="SEARCHED_FOR" />: <em><strong><#if (RequestParameters.search??)>${RequestParameters.search}</#if></strong></em></p>
-<#if (contentListResult??) && (contentListResult?has_content) && (contentListResult?size > 0)>
-<@wp.pager listName="contentListResult" objectName="groupContent" max=10 pagerIdFromFrame=true advanced=true offset=5>
-	<@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
-	<p><em><@wp.i18n key="SEARCH_RESULTS_INTRO" /> <!-- infamous whitespace hack -->
-	${groupContent.size}
-	<@wp.i18n key="SEARCH_RESULTS_OUTRO" /> [${groupContent.begin + 1} &ndash; ${groupContent.end + 1}]:</em></p>
-	<@wp.fragment code="default_pagerBlock" escapeXml=false />
-	<#list contentListResult as contentId>
-	<#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>
-		<@jacms.content contentId="${contentId}" modelId="list" />
-	</#if>
-	</#list>
-	<@wp.fragment code="default_pagerBlock" escapeXml=false />
-	</@wp.freemarkerTemplateParameter>
-</@wp.pager>
-<#else>
-<p class="alert alert-info"><@wp.i18n key="SEARCH_NOTHING_FOUND" /></p>
-</#if>',1);
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('userprofile_editCurrentUser_password','userprofile_editCurrentUser_password',NULL,NULL,'<#assign s=JspTaglibs["/struts-tags"]>
 <#assign wp=JspTaglibs["/aps-core"]>
 <#assign wpsa=JspTaglibs["/apsadmin-core"]>
