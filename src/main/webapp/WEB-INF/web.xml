@@ -2,8 +2,8 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          metadata-complete="false" version="3.0">
-    <display-name>sitiweb - powered by Entando</display-name>
-    <description>sitiweb - powered by Entando</description>
+    <display-name>cortidappello - powered by Entando</display-name>
+    <description>cortidappello - powered by Entando</description>
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>

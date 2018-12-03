@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>it.dgsia</groupId>
-    <artifactId>sitiweb</artifactId>
+    <artifactId>cortidappello</artifactId>
     <packaging>war</packaging>
     <version>1.0</version>
-    <name>sitiweb</name>
+    <name>cortidappello</name>
     <url>http://maven.apache.org/</url>
     <repositories>
         <repository>
@@ -129,7 +129,7 @@
         <struts2.version>2.5.17</struts2.version>
     </properties>
     <build>
-        <finalName>sitiweb</finalName>
+        <finalName>cortidappello</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>

@@ -77,7 +77,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
                         <div class="card-body p-3">
                             <a class="card-link text-white d-block" href="$item.link.destination" >
                                 $item.title.text <svg class="icon icon-light float-right">
-                                    <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-chevron-right"></use>
+                                    <use xlink:href="/cortidappello/resources/static/img/sprite.svg#it-chevron-right"></use>
                                 </svg>
                             </a>
                         </div>
@@ -176,13 +176,13 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                         <svg class="icon icon-primary icon-lg">
-                            <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-arrow-left"></use>
+                            <use xlink:href="/cortidappello/resources/static/img/sprite.svg#it-arrow-left"></use>
                         </svg>
                         <span class="sr-only">Precedente</span>
                     </a>
                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                         <svg class="icon icon-primary icon-lg">
-                            <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-arrow-right"></use>
+                            <use xlink:href="/cortidappello/resources/static/img/sprite.svg#it-arrow-right"></use>
                         </svg>
                         <span class="sr-only">Successivo</span>
                     </a>
@@ -228,7 +228,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 							href="$item.link.destination">
               <span class="display-4">$item.title.text</span>
               <svg class="icon icon-primary icon-right m-0">
-              <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-chevron-right"></use>
+              <use xlink:href="/cortidappello/resources/static/img/sprite.svg#it-chevron-right"></use>
               </svg>
 
 						</a></li>
@@ -392,7 +392,7 @@ $content.MainBody.text
 </article>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10011,'CNG','Lists - Default','    <li><a class="list-item active right-icon" href="$content.contentLink">
         <span>$content.Title.text</span>
-        <svg class="icon icon-primary icon-right"><use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-chevron-right"></use
+        <svg class="icon icon-primary icon-right"><use xlink:href="/cortidappello/resources/static/img/sprite.svg#it-chevron-right"></use
         </svg>
         #if ( $content.Abstract.text != "" )
         <p>

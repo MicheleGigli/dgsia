@@ -1,5 +1,5 @@
-<project name="sitiweb" default="WAR-build" basedir=".">
-	<description>sitiweb - Build file</description>
+<project name="cortidappello" default="WAR-build" basedir=".">
+	<description>cortidappello - Build file</description>
 
 	<import file="buildProperties.xml"/>
 	<import file="buildTasks.xml"/>
