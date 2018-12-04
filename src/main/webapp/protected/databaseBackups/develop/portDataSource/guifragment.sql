@@ -868,6 +868,89 @@ pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFi
 	<p class="text-right"><a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a></p>
 </#if>
 <#assign contentList="">',1);
+INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_carousel','content_viewer_list_carousel','jacms','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
+<#assign wp=JspTaglibs["/aps-core"]>
+
+<@jacms.contentList listName="contentList" titleVar="titleVar" pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
+<div class="container py-4">
+    <#if (titleVar??)>
+    <h2>${titleVar}</h2>
+    </#if>
+    <div>
+        <@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
+        <@wp.fragment code="jacms_content_viewer_list_userfilters" escapeXml=false />
+        </@wp.freemarkerTemplateParameter>
+        <#if (contentList??) && (contentList?has_content) && (contentList?size > 0)><@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>
+        <@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
+        <@wp.fragment code="default_pagerBlock" escapeXml=false />
+        <div class="it-carousel-wrapper it-carousel-landscape-abstract">
+            <div class="it-carousel-all owl-carousel">
+                <#list contentList as contentId>
+                <#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>
+                <@jacms.content contentId="${contentId}" modelId="182"/>
+                </#if>
+                </#list>
+            </div>
+        </div>
+        <@wp.fragment code="default_pagerBlock" escapeXml=false />
+        </@wp.freemarkerTemplateParameter>
+        </@wp.pager>
+        <#else>
+        <p class="alert alert-info">
+            <@wp.i18n key="LIST_VIEWER_EMPTY" />
+        </p>
+        </#if>
+
+        <#if (pageLinkVar??) && (pageLinkDescriptionVar??)>
+        <p class="text-right">
+            <a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a>
+        </p>
+        </#if>
+        <#assign contentList="">
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            navigation: false,
+            dots: true,
+            slideSpeed: 300,
+            paginationSpeed: 400,
+            singleItem: true,
+            items: 1,
+        });
+    });
+</script>','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
+<#assign wp=JspTaglibs["/aps-core"]>
+<@wp.headInfo type="JS_EXT" info="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js" />
+<@jacms.contentList listName="contentList" titleVar="titleVar"
+	pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
+<#if (titleVar??)>
+	<h1>${titleVar}</h1>
+</#if>
+<@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
+<@wp.fragment code="jacms_content_viewer_list_userfilters" escapeXml=false />
+</@wp.freemarkerTemplateParameter>
+<#if (contentList??) && (contentList?has_content) && (contentList?size > 0)>
+	<@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>
+		<@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
+		<@wp.fragment code="default_pagerBlock" escapeXml=false />
+<#list contentList as contentId>
+<#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>
+	<@jacms.content contentId="${contentId}" />
+</#if>
+</#list>
+		<@wp.fragment code="default_pagerBlock" escapeXml=false />
+		</@wp.freemarkerTemplateParameter>
+	</@wp.pager>
+<#else>
+		<p class="alert alert-info"><@wp.i18n key="LIST_VIEWER_EMPTY" /></p>
+</#if>
+<#if (pageLinkVar??) && (pageLinkDescriptionVar??)>
+	<p class="text-right"><a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a></p>
+</#if>
+<#assign contentList="">',1);
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilters',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
 <#if (userFilterOptionsVar??) && userFilterOptionsVar?has_content && (userFilterOptionsVar?size > 0)>
 <div class="row-fluid"><div class="span12 padding-medium-top">

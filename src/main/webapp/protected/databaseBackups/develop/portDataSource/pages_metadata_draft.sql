@@ -100,7 +100,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-27 16:04:04');
+','2018-12-04 12:33:37');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('il_tribunale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Il Tribunale</property>

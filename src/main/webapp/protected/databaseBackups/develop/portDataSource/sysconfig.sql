@@ -64,10 +64,12 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			<attribute name="img" attributetype="Image" description="immagine" />
 			<attribute name="link" attributetype="Link" description="link" />
 			<attribute name="abstract" attributetype="Text" description="abstract" />
-			<attribute name="date" attributetype="Date" description="data" />
-			<attribute name="enum" attributetype="Enumerator" description="enumeration" searchable="true" separator=",">
+			<attribute name="date" attributetype="Date" description="data" searchable="true">
 				<validations />
-				<![CDATA[ATTI GIUDIZIARI, ATTUALITA, COMUNICATI STAMPA]]>
+			</attribute>
+			<attribute name="enum" attributetype="Enumerator" description="enumeration" searchable="true" separator=","><![CDATA[ATTI GIUDIZIARI, ATTUALITA, COMUNICATI STAMPA]]></attribute>
+			<attribute name="autore" attributetype="Text" description="autore" searchable="true">
+				<validations />
 			</attribute>
 		</attributes>
 	</contenttype>

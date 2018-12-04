@@ -288,6 +288,73 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
 <!--end card-->
 
 ',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (182,'CTM','Carousel con filtri home','<div class="it-single-slide-wrapper">
+
+    <a href="#">
+
+        <div class="img-responsive-wrapper">
+
+            <div class="img-responsive">
+
+                <div class="img-wrapper">
+
+                    <img src="$content.img.getImagePath(''0'')" title="img title" alt="imagealt">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </a>
+
+    <div class="it-text-slider-wrapper-outside">
+
+        <div class="card-wrapper">
+
+            <div class="card">
+
+                <div class="card-body">
+
+                    <div class="category-top">
+
+                        <!-- category heading-->
+
+                        <a class="category" href="#">Category</a>
+
+                        <!-- category data-->
+
+                        <span class="data">$content.date.getFormattedDate("dd/MM/yyyy")</span>
+
+                    </div>
+
+                    <h5 class="card-title big-heading">$content.title.text</h5>
+
+                    <p class="card-text">$content.abstract.text</p>
+
+                    <span class="card-signature">di $content.autore.text</span>
+
+                    <a class="read-more" href="#">
+
+                        <span class="text">Leggi di piu''</span>
+
+                        <svg class="icon">
+
+                        <use xlink:href="$content.link.destination"/>
+
+                        </svg>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )
