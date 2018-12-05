@@ -5,7 +5,9 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 <small class="text-muted d-block">$content.date.shortDate</small>
 </p>
 </div>
-<img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+<div class="img-wrapper">
+ <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+</div>
 <div class="card-body">
 <h5 class="card-title"><a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a></h5>
 <p class="card-text">$content.abstract.text</p>

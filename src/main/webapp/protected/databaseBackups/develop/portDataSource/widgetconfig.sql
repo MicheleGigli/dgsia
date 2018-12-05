@@ -161,11 +161,12 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',1,
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',4,'entando-widget-navigation_breadcrumbs',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',5,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',9,'content_viewer_list_news','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="maxElemForItem">10</property>
+<property key="maxElemForItem">3</property>
+<property key="userFilters">(attributeFilter=false;key=category;categoryCode=news)+(attributeFilter=false;key=fulltext)+(attributeFilter=true;key=date)</property>
+<property key="modelId">1</property>
 <property key="contentType">CTM</property>
-<property key="modelId">11</property>
 </properties>
 
 ');

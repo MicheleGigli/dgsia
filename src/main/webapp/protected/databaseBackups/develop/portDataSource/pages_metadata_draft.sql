@@ -147,7 +147,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-26 14:59:53');
+','2018-12-05 11:28:58');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('notfound','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Page not found</property>

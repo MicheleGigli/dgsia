@@ -1,0 +1,16 @@
+<%@ taglib prefix="wp" uri="/aps-core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<c:set var="formFieldNameVar" value="${userFilterOptionVar.formFieldNames[0]}" />
+<c:set var="formFieldValue" value="${userFilterOptionVar.formFieldValues[formFieldNameVar]}" />
+
+<wp:categories var="systemCategories" titleStyle="prettyFull" root="${userFilterOptionVar.userFilterCategoryCode}" />
+<div class="my-2">
+    <h3 class="font-big"  for="category"><wp:i18n key="CATEGORY" /></h3>
+    <select class="form-control"  id="category" name="<c:out value="${formFieldNameVar}" />" >
+        <option value=""><wp:i18n key="ALL" /></option>
+        <c:forEach items="${systemCategories}" var="systemCategory">
+            <option value="<c:out value="${systemCategory.key}" />" <c:if test="${formFieldValue == systemCategory.key}">selected="selected"</c:if> ><c:out value="${systemCategory.value}" /></option>
+        </c:forEach>
+    </select>
+</div>

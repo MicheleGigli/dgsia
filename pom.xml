@@ -912,5 +912,14 @@
             <version>${entando.version}</version>
             <type>war</type>
         </dependency>
+        
+        <dependency>
+            <groupId>org.entando.entando.plugins</groupId>
+            <artifactId>entando-plugin-jacms</artifactId>
+            <version>${entando.version}</version>
+            <type>jar</type>
+            <classifier>classes</classifier>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 </project>

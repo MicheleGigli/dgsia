@@ -126,28 +126,31 @@
         <section id="section2">
             <div class="container py-4">
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-md-7 col-sm-12">
                         <!--questa mostra il tiotlo della pagina corrente anche multilingua-->
                         <h2 class="border-bottom"><wp:currentPage param="title" /></h2>
-
                         <wp:show frame="5" />
                     </div>
-                    <div class="col-5">
+                    <div class="col-1">
+                    </div>
+                    <div class="col-4">
                         <wp:show frame="6" />
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-md-7 col-sm-12">
                         <wp:show frame="7" />
                     </div>
-                    <div class="col-5">
+                    <div class="col-1">
+                    </div>
+                    <div class="col-4">
                         <wp:show frame="8" />
                     </div>
                 </div>
+                <wp:show frame="9" />
+                <wp:show frame="10" />
             </div>
-            <wp:show frame="9" />
 
-            <wp:show frame="10" /> 
         </section>
         <footer class="footer bg-300 py-5">
             <div class="container">
@@ -155,7 +158,7 @@
                     <div class="col-12">
                         <div class="media footer-title">
                             <img class="img-fluid mb-3" data-src="" alt=""
-                                 src="<wp:imgURL />logo-Tribunale-di-Torino-trasparente.png"
+                                 src="<wp:imgURL />logo_procura_inv.png"
                                  data-holder-rendered="true">
                             <div class="media-body">
                                 <span class="sr-only">Nome della Pubblica Amministrazione</span>
