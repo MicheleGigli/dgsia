@@ -102,6 +102,14 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </properties>
 
 ',NULL,NULL,NULL,NULL,1,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-side-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property key="en">Navigation -Side Bar</property>
+    <property key="it">Navigazione - Barra laterale </property>
+</properties>','<config>
+    <parameter name="navSpec">Rules for the Page List auto-generation</parameter>
+    <action name="navigatorConfig" />
+</config>',NULL,NULL,NULL,1,NULL);
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando_apis','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">APIs</property>
