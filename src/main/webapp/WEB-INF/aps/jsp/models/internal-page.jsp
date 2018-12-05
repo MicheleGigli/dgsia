@@ -130,6 +130,7 @@
                         <!--questa mostra il tiotlo della pagina corrente anche multilingua-->
                         <h2 class="border-bottom"><wp:currentPage param="title" /></h2>
                         <wp:show frame="5" />
+                        <wp:show frame="7" />
                     </div>
                     <div class="col-1">
                     </div>
@@ -139,7 +140,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-7 col-sm-12">
-                        <wp:show frame="7" />
+                        
                     </div>
                     <div class="col-1">
                     </div>

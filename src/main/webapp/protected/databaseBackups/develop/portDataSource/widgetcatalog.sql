@@ -185,6 +185,30 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </properties>
 
 ',0,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('Navigation_Bar_Side_PerIlCittadino','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Navigation Bar Side Per Il Cittadino</property>
+<property key="it">Navigation Bar Side Per Il Cittadino</property>
+</properties>
+
+',NULL,NULL,'entando-widget-side-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">code(sezione_per_il_cittadino).subtree(1)</property>
+</properties>
+
+',0,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('Navigation_Internal_Child','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Navigation-Internal-Child</property>
+<property key="it">Navigation-Internal-Child</property>
+</properties>
+
+',NULL,NULL,'entando-widget-internal-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">current.children</property>
+</properties>
+
+',0,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('PCR','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Publish a list of news</property>

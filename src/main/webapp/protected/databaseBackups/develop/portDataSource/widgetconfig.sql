@@ -64,6 +64,34 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('amminist
 </properties>
 
 ');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('area_elettorale',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('area_elettorale',1,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('area_elettorale',2,'Navigation_Bar_Settato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('area_elettorale',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('area_elettorale',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('area_elettorale',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="contentId">CNG861</property>
+<property key="modelId">9</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('area_elettorale',6,'Navigation_Bar_Side_PerIlCittadino',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('area_elettorale',7,'Navigation_Internal_Child',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('aste_giudiziarie',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('aste_giudiziarie',1,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('aste_giudiziarie',2,'Navigation_Bar_Settato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('aste_giudiziarie',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('aste_giudiziarie',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('aste_giudiziarie',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="contentId">CNG861</property>
+<property key="modelId">9</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('aste_giudiziarie',6,'Navigation_Bar_Side_PerIlCittadino',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('aste_giudiziarie',7,'Navigation_Internal_Child',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('bilancio',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('bilancio',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('bilancio',2,'Navigation_Bar_Settato',NULL);
@@ -205,24 +233,31 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="maxElemForItem">6</property>
+<property key="maxElements">4</property>
 <property key="title_it">News</property>
+<property key="linkDescr_it">Vedi Tutte</property>
+<property key="pageLink">news</property>
 <property key="categories">news</property>
+<property key="maxElemForItem">4</property>
 <property key="title_en">News</property>
-<property key="contentType">CTM</property>
 <property key="modelId">1</property>
+<property key="contentType">CTM</property>
+<property key="linkDescr_en">Vedi Tutte</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',8,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="title_it">Link Utili</property>
-<property key="maxElemForItem">3</property>
-<property key="categories">link_utili</property>
 <property key="maxElements">3</property>
+<property key="title_it">Link Utili</property>
+<property key="linkDescr_it">Vedi Tutti</property>
+<property key="pageLink">link_utili</property>
+<property key="categories">link_utili</property>
+<property key="maxElemForItem">3</property>
 <property key="title_en">Link Utili</property>
 <property key="modelId">4</property>
 <property key="contentType">CTM</property>
+<property key="linkDescr_en">Vedi Tutti</property>
 </properties>
 
 ');
@@ -276,6 +311,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('link_uti
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('link_utili',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('link_utili',5,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
+<property key="maxElemForItem">10</property>
 <property key="categories">link_utili</property>
 <property key="contentType">CTM</property>
 <property key="modelId">17</property>
@@ -289,8 +325,8 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="modelId">9</property>
 <property key="contentId">CNG371</property>
+<property key="modelId">9</property>
 </properties>
 
 ');
@@ -300,6 +336,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',
 </properties>
 
 ');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',7,'Navigation_Internal_Child',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli_',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli_',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli_',2,'Navigation_Bar_Settato',NULL);
@@ -465,6 +502,34 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('per_l_am
 </properties>
 
 ');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('prenotazione_appuntamenti',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('prenotazione_appuntamenti',1,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('prenotazione_appuntamenti',2,'Navigation_Bar_Settato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('prenotazione_appuntamenti',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('prenotazione_appuntamenti',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('prenotazione_appuntamenti',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="modelId">9</property>
+<property key="contentId">CNG861</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('prenotazione_appuntamenti',6,'Navigation_Bar_Side_PerIlCittadino',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('prenotazione_appuntamenti',7,'Navigation_Internal_Child',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('procedure_concorsuali',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('procedure_concorsuali',1,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('procedure_concorsuali',2,'Navigation_Bar_Settato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('procedure_concorsuali',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('procedure_concorsuali',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('procedure_concorsuali',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="contentId">CNG861</property>
+<property key="modelId">9</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('procedure_concorsuali',6,'Navigation_Bar_Side_PerIlCittadino',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('procedure_concorsuali',7,'Navigation_Internal_Child',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('procura_generale',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('procura_generale',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('procura_generale',2,'Navigation_Bar_Settato',NULL);
@@ -520,6 +585,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_
 </properties>
 
 ');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_area_ammistrativa',7,'Navigation_Internal_Child',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_area_civile',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_area_civile',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_area_civile',2,'Navigation_Bar_Settato',NULL);
@@ -538,6 +604,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_
 </properties>
 
 ');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_area_civile',7,'Navigation_Internal_Child',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_area_penale',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_area_penale',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_area_penale',2,'Navigation_Bar_Settato',NULL);
@@ -556,6 +623,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_
 </properties>
 
 ');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_area_penale',7,'Navigation_Internal_Child',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_online',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_online',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_online',2,'Navigation_Bar_Settato',NULL);
@@ -574,6 +642,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_
 </properties>
 
 ');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_online',7,'Navigation_Internal_Child',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_online_',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_online_',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('servizi_online_',2,'Navigation_Bar_Settato',NULL);
@@ -700,6 +769,20 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('sezione_
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('sezione_per_il_professionista',2,'entando-widget-navigation_bar',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('sezione_per_il_professionista',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('sezione_per_il_professionista',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('ufficio_tessere_cmg',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('ufficio_tessere_cmg',1,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('ufficio_tessere_cmg',2,'Navigation_Bar_Settato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('ufficio_tessere_cmg',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('ufficio_tessere_cmg',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('ufficio_tessere_cmg',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="contentId">CNG861</property>
+<property key="modelId">9</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('ufficio_tessere_cmg',6,'Navigation_Bar_Side_PerIlCittadino',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('ufficio_tessere_cmg',7,'Navigation_Internal_Child',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('uffici_e_cancellerie',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('uffici_e_cancellerie',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('uffici_e_cancellerie',2,'entando-widget-navigation_bar',NULL);

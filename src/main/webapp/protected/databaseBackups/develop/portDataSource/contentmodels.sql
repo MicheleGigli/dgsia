@@ -357,13 +357,13 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 
                     <span class="card-signature">di $content.autore.text</span>
 
-                    <a class="read-more" href="#">
+                    <a class="read-more" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">
 
-                        <span class="text">Leggi di più</span>
+                        <span class="text">Leggi di piu''</span>
 
                         <svg class="icon">
 
-                        <use xlink:href="$content.link.destination"/>
+                        <use xlink:href=""/>
 
                         </svg>
 

@@ -67,7 +67,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-04 12:36:55');
+','2018-12-05 15:45:48');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('aste_giudiziarie','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Aste Giudiziarie</property>
@@ -81,7 +81,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-04 12:35:40');
+','2018-12-05 15:43:30');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('bilancio','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Bilancio</property>
@@ -254,7 +254,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-04 15:15:44');
+','2018-12-05 16:06:33');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('la_corte_d_appello','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Informazioni</property>
@@ -282,7 +282,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-26 18:27:20');
+','2018-12-05 16:14:12');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('login','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="it">Pagina di login</property>
@@ -301,7 +301,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-04 11:06:11');
+','2018-12-05 15:30:01');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('moduli_','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Moduli</property>
@@ -488,7 +488,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-04 11:12:29');
+','2018-12-05 15:42:09');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('procedure_concorsuali','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Procedure Concorsuali</property>
@@ -502,7 +502,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-04 12:36:18');
+','2018-12-05 15:44:37');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('procura_generale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Procura Generale</property>
@@ -563,7 +563,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-30 01:42:41');
+','2018-12-05 15:35:00');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('servizi_area_civile','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Servizi area civile</property>
@@ -577,7 +577,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-30 01:41:38');
+','2018-12-05 15:34:19');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('servizi_area_penale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Servizi area penale</property>
@@ -591,7 +591,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-30 01:42:02');
+','2018-12-05 15:34:45');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('servizi_online','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Servizi Online</property>
@@ -605,7 +605,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-30 01:32:20');
+','2018-12-05 15:33:59');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('servizi_online_','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Servizi Online</property>
@@ -815,7 +815,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-04 12:37:36');
+','2018-12-05 15:47:27');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('uffici_e_cancellerie','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Uffici e Cancellerie</property>

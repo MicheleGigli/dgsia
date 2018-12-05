@@ -1078,11 +1078,7 @@ pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFi
 
 </div>
 
-<div class="mt-3 container py-2 text-right">
-
-         <a href="#" type="button" class="btn btn-outline-primary"><@wp.i18n key="LINK_UTILI" /></a>
-
-</div>','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
+','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
 <#assign wp=JspTaglibs["/aps-core"]>
 <@wp.headInfo type="JS_EXT" info="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js" />
 <@jacms.contentList listName="contentList" titleVar="titleVar"
