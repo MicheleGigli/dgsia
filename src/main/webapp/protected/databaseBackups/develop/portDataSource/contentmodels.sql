@@ -277,6 +277,24 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </div>
 
 ',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (18,'ATC','Modello per lista di Allegati','
+
+
+
+<div class="card shadow rounded">
+<div class="card-header">
+<p class="card-text orange">
+<span class="text-uppercase font-weight-bold">$content.getCategories()</span>
+</p>
+</div>
+
+<div class="card-body">
+<h5 class="card-title"><a class="card-body-link" href="$content.attach.attachPath"> $content.attach.text</a></h5>
+
+</div>
+</div>
+
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<!--
 <h2 class="border-bottom"></h2>
 -->

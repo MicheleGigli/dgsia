@@ -5,4 +5,8 @@ INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM63','link_u
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM167','news');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','news');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM463','news');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('ATC875','moduli_sezione_civile');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('ATC875','allegati');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('ATC873','moduli_sezione_amministrativa');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('ATC873','allegati');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM169','news');

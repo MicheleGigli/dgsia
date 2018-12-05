@@ -169,7 +169,19 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 
 ',NULL,NULL,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="navSpec">code(sezione_tribunale).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(per_le_forse_dell_ordine).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
+<property key="navSpec">code(corte_d_appello).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
+</properties>
+
+',0,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('Navigation_Bar_Side_CA','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Navigation BAR Site Corte d''Appello</property>
+<property key="it">Navigation BAR Site Corte d''Appello</property>
+</properties>
+
+',NULL,NULL,'entando-widget-side-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">code(corte_d_appello).subtree(1)</property>
 </properties>
 
 ',0,'free');

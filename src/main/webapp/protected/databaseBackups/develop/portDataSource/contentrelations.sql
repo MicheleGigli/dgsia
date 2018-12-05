@@ -34,7 +34,6 @@ INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcatego
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG346',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG351',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG353',NULL,NULL,NULL,NULL,'free');
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG355',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG357',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG373',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG375',NULL,NULL,NULL,NULL,'free');
@@ -82,3 +81,13 @@ INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcatego
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTM169',NULL,NULL,NULL,'news',NULL);
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTM169',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTM169',NULL,NULL,'170',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG861',NULL,NULL,NULL,NULL,'free');
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('ATC875',NULL,NULL,NULL,'moduli_sezione_civile',NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('ATC875',NULL,NULL,NULL,'allegati',NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('ATC875',NULL,NULL,NULL,NULL,'free');
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('ATC875',NULL,NULL,'851',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('ATC873',NULL,NULL,NULL,'moduli_sezione_amministrativa',NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('ATC873',NULL,NULL,NULL,'allegati',NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('ATC873',NULL,NULL,NULL,NULL,'free');
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('ATC873',NULL,NULL,'850',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG355',NULL,NULL,NULL,NULL,'free');

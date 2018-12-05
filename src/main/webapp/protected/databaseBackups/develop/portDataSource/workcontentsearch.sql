@@ -24,8 +24,6 @@ INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,l
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG351','Title','Info Sezione Magistrati',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG353','Title','Info Dove Siamo',NULL,NULL,'en');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG353','Title','Info Dove Siamo',NULL,NULL,'it');
-INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG355','Title','Info Uffici e Cancellerie',NULL,NULL,'en');
-INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG355','Title','Info Uffici e Cancellerie',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG357','Title','Info Contatti',NULL,NULL,'en');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG357','Title','Info Contatti',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG373','Title','Info Per il Professionista',NULL,NULL,'en');
@@ -55,8 +53,6 @@ INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,l
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG693','Title','Per le Forze dell''Ordine',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG371','Title','Info Per il Cittadino',NULL,NULL,'en');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG371','Title','Info Per il Cittadino',NULL,NULL,'it');
-INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA22','title','Servizi',NULL,NULL,'en');
-INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA22','title','Servizi',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','date',NULL,'2018-11-21 00:00:00',NULL,NULL);
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','enum','ATTI GIUDIZIARI',NULL,NULL,NULL);
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','autore','Lucia Mondello',NULL,NULL,'en');
@@ -67,7 +63,13 @@ INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,l
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','autore','Mario Bianchi',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM463','date',NULL,'2018-11-29 00:00:00',NULL,NULL);
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM463','enum',' ATTUALITA',NULL,NULL,NULL);
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA22','title','Servizi',NULL,NULL,'en');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA22','title','Servizi',NULL,NULL,'it');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG861','Title','Informazioni',NULL,NULL,'en');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG861','Title','Informazioni',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM169','date',NULL,'2018-11-21 00:00:00',NULL,NULL);
-INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM169','enum',' COMUNICATI STAMPA',NULL,NULL,NULL);
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM169','enum','',NULL,NULL,NULL);
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM169','autore','Mario Rossi',NULL,NULL,'en');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM169','autore','Mario Rossi',NULL,NULL,'it');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG355','Title','Info Uffici e Cancellerie',NULL,NULL,'en');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG355','Title','Info Uffici e Cancellerie',NULL,NULL,'it');

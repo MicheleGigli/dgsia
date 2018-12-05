@@ -24,8 +24,6 @@ INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langc
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG351','Title','Info Sezione Magistrati',NULL,NULL,'it');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG353','Title','Info Dove Siamo',NULL,NULL,'en');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG353','Title','Info Dove Siamo',NULL,NULL,'it');
-INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG355','Title','Info Uffici e Cancellerie',NULL,NULL,'en');
-INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG355','Title','Info Uffici e Cancellerie',NULL,NULL,'it');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG357','Title','Info Contatti',NULL,NULL,'en');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG357','Title','Info Contatti',NULL,NULL,'it');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG373','Title','Info Per il Professionista',NULL,NULL,'en');
@@ -71,3 +69,7 @@ INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langc
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM169','enum',' COMUNICATI STAMPA',NULL,NULL,NULL);
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM169','autore','Mario Rossi',NULL,NULL,'en');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM169','autore','Mario Rossi',NULL,NULL,'it');
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG861','Title','Informazioni',NULL,NULL,'en');
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG861','Title','Informazioni',NULL,NULL,'it');
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG355','Title','Info Uffici e Cancellerie',NULL,NULL,'en');
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG355','Title','Info Uffici e Cancellerie',NULL,NULL,'it');
