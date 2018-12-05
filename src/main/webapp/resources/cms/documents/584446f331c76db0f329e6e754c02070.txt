@@ -1,0 +1,46 @@
+HOME :
+header alle pagine distribuite in orizzontale
+pagina divisa in 3 colonne ,credo, 20%-60%-20%
+
+colonna centrale 60%:
+foto che scorrono in alto (tranne roma)
+elementi in evidenza o news in un elenco sottostante la foto 
+
+colonna a sinistra 20 %:
+duplicazione di riferimenti a header e alcuni link a pagine aggiuntivi 
+
+colonna a destra 20 %:
+link ad altri siti istituzionali 
+comunicazioni altre rispetto a quelle presenti in colonna centrale.
+
+
+Torino :
+1)Home – Servizi al cittadino - prenotazione appuntamenti (entra in area riservata)http://torino.cittadino.gestionale.astalegale.net/webapp/login.aspx
+2)2 link successivi a quello di cui sopra.
+3)Home – Servizi ai professionisti – Servizi Online (tutte prenotazioni appuntamenti/udienze)
+4)Home – Vendite giudiziarie – Ricerca immobile(ricerca risultati filtro avanzato)http://www.tribunale.torino.giustizia.it/it/Aste/AdvancedSearch?Idlink=27309
+5)Home – Vendite giudiziarie – Calendario aste (calendario smista aste per giorni e mesi, click ritorna a pagina risultati con filtro per giorno)http://www.tribunale.torino.giustizia.it/it/Aste/Calendar?Idlink=27310
+
+
+Roma:
+1)Home > Moduli (filtro )http://www.tribunale.roma.giustizia.it/modulistica.aspx
+2)Home > Servizi per l'utenza > Albo Consulenti Tecnici d'Ufficio e Periti (ricerche su db?) 
+3)Home > Servizi per l'utenza > Giurisprudenza-Massimario(non so dove si prende i dati delle asentenze)http://www.tribunale.roma.giustizia.it/GiurisprudenzaMassimario.aspx
+4)Home > Vendite Giudiziarie > Ricerca beni immobiliari(form di ricerca avanzato)http://www.tribunale.roma.giustizia.it/astegiudiziarie/default.aspx?m=1
+5)Home > Filo diretto con il Tribunale  (form per fare una richiesta al trib)http://www.tribunale.roma.giustizia.it/filoDiretto.aspx
+
+Milano:
+area riservata :
+Homepage > Servizi > Tirocini Formativi(www.docs)https://www.tribunale.milano.it/index.phtml?Id_VMenu=462
+Homepage > Servizi > Prenotazione Udienze Sfratti > Elenco Udienze (ce sia la ricerca che inserimento)https://www.tribunale.milano.it/index.phtml?Id_VMenu=222
+Homepage > Servizi > Punto Informativo Dibattimento Penale e rilascio Sentenze GIP (ricerca RG )
+Homepage > Servizi > Certificati Online > Gestione Richieste (gestione delle richieste complesso)https://www.tribunale.milano.it/index.phtml?Id_VMenu=389
+Homepage > Newsletter (gestione interna della newsletters) https://www.tribunale.milano.it/index.phtml?Id_VMenu=30
+
+
+Procura di milano:
+Domanda Tirocini DL 90/2014 (invio domanda online)https://www.procura.milano.giustizia.it/domanda-tirocini-dl-90-2014.html
+
+procura Roma:
+Home » Penotazione udienze ( chiede il log in )
+ Home » Servizio CED per gli Avvocati (form inviata)
