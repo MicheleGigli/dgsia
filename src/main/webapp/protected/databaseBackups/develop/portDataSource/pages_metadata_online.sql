@@ -4,28 +4,28 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 <property key="it">Amministrazione Trasparente</property>
 </properties>
 
-','landing-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
 <config>
   <useextratitles>false</useextratitles>
   <charset>utf-8</charset>
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-07 10:14:46');
+','2018-12-07 12:33:38');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('bilancio','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Bilancio</property>
 <property key="it">Bilancio</property>
 </properties>
 
-','landing-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
 <config>
   <useextratitles>false</useextratitles>
   <charset>utf-8</charset>
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-07 10:37:05');
+','2018-12-07 12:35:29');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('come_fare_per','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Come fare per</property>
@@ -229,14 +229,14 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 <property key="it">Pubblicita Legale</property>
 </properties>
 
-','landing-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
 <config>
   <useextratitles>false</useextratitles>
   <charset>utf-8</charset>
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-07 10:35:54');
+','2018-12-07 12:34:34');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('search_result','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Search result</property>

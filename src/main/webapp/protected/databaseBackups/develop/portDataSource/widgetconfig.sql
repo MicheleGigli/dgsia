@@ -3,7 +3,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('amminist
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('amministrazione_trasparente',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('amministrazione_trasparente',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('amministrazione_trasparente',4,'entando-widget-navigation_breadcrumbs',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('amministrazione_trasparente',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('amministrazione_trasparente',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="contentId">CNG426</property>
 <property key="modelId">9</property>
@@ -15,7 +15,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('bilancio
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('bilancio',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('bilancio',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('bilancio',4,'entando-widget-navigation_breadcrumbs',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('bilancio',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('bilancio',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="contentId">CNG430</property>
 <property key="modelId">9</property>
@@ -316,7 +316,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('pubblici
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('pubblicita_legale',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('pubblicita_legale',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('pubblicita_legale',4,'entando-widget-navigation_breadcrumbs',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('pubblicita_legale',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('pubblicita_legale',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="contentId">CNG428</property>
 <property key="modelId">9</property>
