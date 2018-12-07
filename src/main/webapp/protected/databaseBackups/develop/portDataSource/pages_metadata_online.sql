@@ -4,28 +4,28 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 <property key="it">Amministrazione Trasparente</property>
 </properties>
 
-','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+','landing-page',1,'<?xml version="1.0" encoding="UTF-8"?>
 <config>
   <useextratitles>false</useextratitles>
   <charset>utf-8</charset>
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-27 09:22:53');
+','2018-12-07 10:14:46');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('bilancio','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Bilancio</property>
 <property key="it">Bilancio</property>
 </properties>
 
-','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+','landing-page',1,'<?xml version="1.0" encoding="UTF-8"?>
 <config>
   <useextratitles>false</useextratitles>
   <charset>utf-8</charset>
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-27 09:24:28');
+','2018-12-07 10:37:05');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('come_fare_per','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Come fare per</property>
@@ -53,7 +53,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:28:05');
+','2018-12-07 11:06:41');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('contatti','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Contatti</property>
@@ -67,7 +67,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:42:14');
+','2018-12-07 11:11:07');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('dove_siamo','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Dove Siamo</property>
@@ -81,7 +81,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:38:46');
+','2018-12-07 11:10:35');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('errorpage','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Error page</property>
@@ -166,7 +166,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:28:37');
+','2018-12-07 11:09:21');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('paginadettaglio','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Detail page</property>
@@ -229,14 +229,14 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 <property key="it">Pubblicita Legale</property>
 </properties>
 
-','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+','landing-page',1,'<?xml version="1.0" encoding="UTF-8"?>
 <config>
   <useextratitles>false</useextratitles>
   <charset>utf-8</charset>
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-27 09:23:44');
+','2018-12-07 10:35:54');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('search_result','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Search result</property>
@@ -325,7 +325,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:38:07');
+','2018-12-07 11:09:59');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('sezione_penale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Sezione Penale</property>
@@ -409,4 +409,4 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:39:19');
+','2018-12-07 11:08:16');

@@ -58,7 +58,12 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('competen
 </properties>
 
 ');
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('competenza_territoriale',7,'LinkUtiliSettato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('competenza_territoriale',7,'entando-widget-internal-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">code(competenza_territoriale).children</property>
+</properties>
+
+');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('contatti',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('contatti',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('contatti',2,'Navigation_Bar_Settato',NULL);
@@ -77,7 +82,12 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('contatti
 </properties>
 
 ');
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('contatti',7,'LinkUtiliSettato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('contatti',7,'entando-widget-internal-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">code(contatti).children</property>
+</properties>
+
+');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('dove_siamo',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('dove_siamo',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('dove_siamo',2,'Navigation_Bar_Settato',NULL);
@@ -96,7 +106,12 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('dove_sia
 </properties>
 
 ');
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('dove_siamo',7,'LinkUtiliSettato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('dove_siamo',7,'entando-widget-internal-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">code(dove_siamo).children</property>
+</properties>
+
+');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',2,'Navigation_Bar_Settato',NULL);
@@ -225,7 +240,12 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('organizz
 </properties>
 
 ');
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('organizzazione',7,'LinkUtiliSettato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('organizzazione',7,'entando-widget-internal-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">code(organizzazione).children</property>
+</properties>
+
+');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('paginadettaglio',2,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
@@ -363,7 +383,12 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('sezione_
 </properties>
 
 ');
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('sezione_magistrati',7,'LinkUtiliSettato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('sezione_magistrati',7,'entando-widget-internal-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">code(sezione_magistrati).children</property>
+</properties>
+
+');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('sezione_penale',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('sezione_penale',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('sezione_penale',2,'entando-widget-navigation_bar',NULL);
@@ -399,10 +424,9 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('uffici_e
 </properties>
 
 ');
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('uffici_e_cancellerie',7,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('uffici_e_cancellerie',7,'entando-widget-internal-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CTA497</property>
-<property key="modelId">10</property>
+<property key="navSpec">code(uffici_e_cancellerie).children</property>
 </properties>
 
 ');

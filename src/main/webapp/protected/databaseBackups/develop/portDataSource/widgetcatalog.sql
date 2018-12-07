@@ -68,6 +68,14 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
     <parameter name="linkDescr_{lang}">Link description in lang {lang}</parameter>
     <action name="listViewerConfig"/>
 </config>','jacms',NULL,NULL,1,NULL);
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-internal-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property key="en">Navigation -internal Bar</property>
+    <property key="it">Navigazione - Barra interna </property>
+</properties>','<config>
+    <parameter name="navSpec">Rules for the Page List auto-generation</parameter>
+    <action name="navigatorConfig" />
+</config>',NULL,NULL,NULL,1,NULL);
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('entando-widget-language_choose','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Choose a Language</property>

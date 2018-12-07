@@ -1,7 +1,7 @@
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('filtro1','news','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">filtro1</property>
-<property key="it">filtro1</property>
+<property key="en">Editoriale</property>
+<property key="it">Editoriale</property>
 </properties>
 
 ');
