@@ -53,7 +53,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-27 09:22:53');
+','2018-12-07 11:54:53');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('area_elettorale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Area Elettorale</property>
@@ -95,7 +95,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-27 09:24:28');
+','2018-12-07 12:28:18');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('calendari_giudiziari','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Calendari Giudiziari</property>
@@ -268,7 +268,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 11:40:01');
+','2018-12-07 11:31:01');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('link_utili','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Link Utili</property>
@@ -282,7 +282,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 16:14:12');
+','2018-12-07 14:10:54');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('login','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="it">Pagina di login</property>
@@ -530,7 +530,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-27 09:23:44');
+','2018-12-07 11:57:25');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('search_result','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Search result</property>
@@ -829,4 +829,4 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-04 16:02:26');
+','2018-12-07 11:34:11');
