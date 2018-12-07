@@ -56,7 +56,7 @@
             <div class="container py-5">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <img class="img-fluid" src="<wp:imgURL />logo_procura.png">
+                        <img class="img-fluid" src="<wp:imgURL />Corte_dAppello.png">
                     </div>
 
                     <div class="col-12 col-md-6">
