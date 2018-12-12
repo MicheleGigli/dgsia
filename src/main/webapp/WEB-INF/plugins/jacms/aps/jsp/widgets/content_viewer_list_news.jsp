@@ -23,12 +23,14 @@
             <c:when test="${contentList != null && !empty contentList}">
                 <wp:pager listName="contentList" objectName="groupContent" pagerIdFromFrame="true" advanced="true" offset="5">
                     <c:set var="group" value="${groupContent}" scope="request" />
-
-                    <c:forEach var="contentId" items="${contentList}" begin="${groupContent.begin}" end="${groupContent.end}">
-                        <jacms:content contentId="${contentId}" />
-                    </c:forEach>
-
-                    <c:import url="/WEB-INF/plugins/jacms/aps/jsp/widgets/inc/pagerBlock.jsp" />
+                    <div class="card-box clearfix">
+                        <c:forEach var="contentId" items="${contentList}" begin="${groupContent.begin}" end="${groupContent.end}">
+                            <jacms:content contentId="${contentId}" />
+                        </c:forEach>
+                    </div>
+                    <div class="card-box">
+                        <c:import url="/WEB-INF/plugins/jacms/aps/jsp/widgets/inc/pagerBlock.jsp" />
+                    </div>
                 </wp:pager>
             </c:when>
             <c:otherwise>
