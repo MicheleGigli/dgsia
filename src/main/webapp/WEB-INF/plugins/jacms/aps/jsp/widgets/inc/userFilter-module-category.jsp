@@ -6,7 +6,7 @@
 
 <wp:categories var="systemCategories" titleStyle="prettyFull" root="${userFilterOptionVar.userFilterCategoryCode}" />
 <div class="my-2">
-    <h3 class="font-big"  for="category"><wp:i18n key="CATEGORY" /></h3>
+    <h6 class="font-big"  for="category"><wp:i18n key="CATEGORY" /></h6>
     <select class="form-control"  id="category" name="<c:out value="${formFieldNameVar}" />" >
         <option value=""><wp:i18n key="ALL" /></option>
         <c:forEach items="${systemCategories}" var="systemCategory">

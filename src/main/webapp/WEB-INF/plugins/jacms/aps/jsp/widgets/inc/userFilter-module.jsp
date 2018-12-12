@@ -10,15 +10,20 @@
         </c:forEach>
 
         <c:if test="${hasUserFilterError}">
-            <div class="alert alert-error">
-                <a class="close" data-dismiss="alert" href="#"><i class="icon-remove"></i></a>
-                <h2 class="alert-heading"><wp:i18n key="ERRORS" /></h2>
+            <div class="alert alert-warning" role="alert">
+                    <wp:i18n key="ERRORS" />
                 <ul>
                     <c:forEach var="userFilterOptionVar" items="${userFilterOptionsVar}">
                         <c:if test="${null != userFilterOptionVar.formFieldErrors}">
                             <c:forEach var="formFieldError" items="${userFilterOptionVar.formFieldErrors}">
                                 <li>
-                                    <wp:i18n key="jacms_LIST_VIEWER_FIELD" />&#32;<em><c:out value="${formFieldError.value.attributeName}" /></em><c:if test="${formFieldError.value.rangeFieldType != null}">:&#32;<em><wp:i18n key="${formFieldError.value.rangeFieldType}" /></em></c:if>&#32;<wp:i18n key="${formFieldError.value.errorKey}" />
+                                    <wp:i18n key="jacms_LIST_VIEWER_FIELD" />&#32; 
+                                    <em><c:out value="${formFieldError.value.attributeName}" /></em>
+                                    <c:if test="${formFieldError.value.rangeFieldType != null}">
+                                        :&#32; <em>
+                                            <wp:i18n key="${formFieldError.value.rangeFieldType}" /></em>
+                                    </c:if>&#32; 
+                                    <wp:i18n key="${formFieldError.value.errorKey}" />
                                     </li>
                             </c:forEach>
                         </c:if>
@@ -34,7 +39,7 @@
     </button>-->
         <div class="Grid-cell">
             <div class="u-background-50 u-color-white u-margin-bottom-l u-borderRadius-m u-padding-all-m">
-                News
+                Cerca  News
             </div>
         </div>
         <br>

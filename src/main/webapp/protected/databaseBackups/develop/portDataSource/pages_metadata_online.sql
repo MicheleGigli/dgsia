@@ -357,7 +357,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-29 22:05:57');
+','2018-12-12 15:50:46');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('normativa','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Normativa</property>

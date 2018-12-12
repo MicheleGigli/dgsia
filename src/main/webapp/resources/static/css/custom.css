@@ -260,6 +260,7 @@ h2.border-bottom {
     height: 122px;
     overflow: hidden;
     display: inline-block;
+    position: relative;
 }
 .img-wrapper img {
     vertical-align: middle;
@@ -270,11 +271,6 @@ h2.border-bottom {
     width: 100%;
     height: auto;
 }
-.custom-list-content .card-body{
-    min-height: 260px;
-}
-/**/ 
-
 
 /* LINK UTILI */
 .bg-link {
@@ -394,7 +390,7 @@ ul.link-list .list-item {
     display: none!important;
 }
 .custom-link-section .list-item span{
-    font-size: 1.25rem;
+    font-size: 1.10rem;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -403,28 +399,6 @@ ul.link-list .list-item {
 }
 .h3-custom span{
     color:#19191a!important;
-}
-/* CUSTOM MEDIA QUIERIES */
-/* COOCKIE BAR */
-@media (min-width: 992px){
-    .cookiebar {
-        max-width: 100%;
-    }
-    .cookiebar p {
-        width: 66%;
-        margin-bottom: 20px;
-        font-size: 18px;
-        line-height: 1.55;
-    }
-    .card .card-body p{
-        font-size: .875rem;
-        line-height: 1.2rem;
-        min-height: 120px;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: .2rem;
-        padding-left: .2rem;
-    }
 }
 
 .font-big {
@@ -456,3 +430,169 @@ ul.link-list .list-item {
 .u-padding-all-m {
     padding: 1rem!important;
 }
+
+.form-ricerca {
+}
+
+.it-header-slim-wrapper .it-header-slim-wrapper-content {
+    padding: 0 0px;
+    height: 48px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.internal-link-section .link-list-wrapper ul li a span {
+    margin-right: 0px;
+}
+
+.internal-link-section .list-item span {
+    font-size: 1.10rem;
+    font-weight: 700;
+    line-height: 1.2;
+    max-width: 90%;
+}
+
+.internal-link-section .link-list-wrapper ul li a {
+    font-size: .889em;
+    line-height: 2.3em;
+    display: block;
+    padding: 0 0px;
+    position: relative;
+}
+
+.icon-custom {
+    fill:#fff;
+}
+
+.separatore{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    width:50%;
+}
+
+.listed h6 {
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.link-list-wrapper .active span {
+    font-weight: 700;
+}
+
+.card-signature {
+    font-style: italic;
+    font-family: Lora,Georgia,serif;
+    color: #435a70;
+    font-weight: 700;
+    font-size: .88889rem;
+    display: block;
+}
+
+#lista-howto .collapse-header [aria-expanded=true] {
+    width: 100%;
+    text-align: left;
+    border: 0;
+    background-color: #0073e6;
+    border-top: 1px solid #e3e4e6;
+    padding: 14px 24px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#lista-howto .collapse-header [data-toggle=collapse]:hover {
+    background: #0073e6;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.card-news  {
+    width: 49%;
+    min-height: 334px;
+    float: left;
+    margin: 5px 3px;
+}
+
+.news-body h6 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.badge-pos {
+    position: absolute;
+    bottom: 0;
+}
+
+.news-body p {
+    /*    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+    overflow: hidden;
+}
+
+.card-news .card-body p {
+    font-size: .875rem;
+    line-height: 1.2rem;
+    min-height: 65px !important;
+    max-height: 65px !important;
+}
+
+.card-news .card-body {
+    padding: 14px;
+}
+
+.data {
+    font-size: .77778rem !important;
+    text-transform: uppercase !important;
+    color: #435a70 !important;
+}
+
+.alert ul {
+    list-style-type: none !important;
+    padding:0; 
+}
+
+.link-utili .card-body {
+    padding: 24px 24px 0 24px ;
+}
+
+.btn-position {
+    position: relative;
+    width: 117px;
+    margin: 0px 20px 24px 24px;
+}
+
+/* CUSTOM MEDIA QUERIES */
+/* COOCKIE BAR */
+@media (min-width: 992px){
+    .cookiebar {
+        max-width: 100%;
+    }
+    .cookiebar p {
+        width: 66%;
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 1.55;
+    }
+    .card .card-body p{
+        font-size: .875rem;
+        line-height: 1.2rem;
+        min-height: 120px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .2rem;
+        padding-left: .2rem;
+    }
+}
+@media (max-width: 992px){
+    .card-news  {
+        width: 100%;
+        min-height: 334px;
+        float: left;
+        margin: 4px 0px;
+    }
+}
+

@@ -4,11 +4,11 @@
 <wp:currentPage param="code" var="currentPageCode" />
 <c:set var="currentPageCode" value="${currentPageCode}" />
 <c:set var="previousPage" value="${null}" />
-<div class="card-wrapper custom-link-section">
+<div class="card-wrapper internal-link-section">
     <div class="card border-0">
-        <div class="card-body p-3">   
+        <div class="card-body p-0 my-4">   
             <div class="link-list-wrapper multiline">
-                <ul class="d-flex flex-wrap link-list">
+                <ul class="">
                     <wp:nav var="page">
 
                         <c:if test="${previousPage.code != null}">
@@ -34,3 +34,5 @@
         </div>
     </div>
 </div>
+
+

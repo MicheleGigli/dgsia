@@ -2,11 +2,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="<wp:info key="currentLang" />">
 
     <head>
-
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>
             <wp:currentPage param="title" /> - <wp:i18n  key="PORTAL_TITLE" />
         </title>
@@ -31,7 +32,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="it-header-slim-wrapper-content">
-                            <a class="navbar-brand"  href="#">Ministero della Giustizia</a>
+                            <a class="navbar-brand"  href="https://www.giustizia.it/giustizia/">Ministero della Giustizia</a>
                             <span class="nav-palce-mobile">
                                 <nav>
                                     <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu1" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -53,10 +54,10 @@
         </div>
 
         <div class="header">
-            <div class="container py-5">
+            <div class="container py-1">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <img class="img-fluid" src="<wp:imgURL />Corte_dAppello.png">
+                        <img class="img-fluid" src="<wp:imgURL />logo_procura.png">
                     </div>
 
                     <div class="col-12 col-md-6">
@@ -124,7 +125,7 @@
         <wp:show frame="4" /> 
 
         <section id="section2">
-            <div class="container py-4">
+            <div class="container py-1">
                 <div class="row">
                     <div class="col-md-7 col-sm-12">
                         <!--questa mostra il tiotlo della pagina corrente anche multilingua-->
@@ -136,18 +137,10 @@
                     </div>
                     <div class="col-4">
                         <wp:show frame="6" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-7 col-sm-12">
-                        
-                    </div>
-                    <div class="col-1">
-                    </div>
-                    <div class="col-4">
                         <wp:show frame="8" />
                     </div>
                 </div>
+
                 <wp:show frame="9" />
                 <wp:show frame="10" />
             </div>
@@ -294,5 +287,5 @@
         <a href="#" data-attribute="return-to-top" class="return-to-top"><i
                 class="it-collapse"></i><span class="sr-only">Collapse</span></a>
     </body>
-
 </html>
+
