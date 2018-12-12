@@ -100,7 +100,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-06 14:50:28');
+','2018-12-12 11:45:49');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('il_tribunale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Il Tribunale</property>
@@ -147,7 +147,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 11:28:58');
+','2018-12-11 16:21:31');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('notfound','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Page not found</property>

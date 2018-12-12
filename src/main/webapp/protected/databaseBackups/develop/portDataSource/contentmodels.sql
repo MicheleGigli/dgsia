@@ -262,6 +262,28 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   </div> 
 </div>
 ',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (14,'CTM','Lista news in pagina news','<div class="card card-news shadow rounded">
+    <div class="img-wrapper">
+        <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+        <span class="badge badge-primary badge-pos">$content.enum.text</span>
+    </div>
+    <div class="card-body news-body">
+        <h5 class="card-title">
+            <a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a>
+        </h5>
+
+        <span class="data">$content.date.shortDate</span>
+        
+        #if ($content.autore.text != "")  
+          <span class="card-signature">di $content.autore.text</span>
+        #else
+          <span class="card-signature">Autore sconosciuto</span>
+        #end
+        <p class="card-text">$content.abstract.text</p>
+    </div>
+
+</div>
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (17,'CTM','Modello Link Utili Pagina Primo livello','<div class="col-md-4">
 	<div class="card border rounded mb-4">
 		<img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
@@ -274,20 +296,22 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </div>
 
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<!--
-<h2 class="border-bottom"></h2>
--->
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<div class="card-wrapper">
 
-<div class="card-wrapper">
-<div class="card border-0">
-<div class="card-body p-3">
-<img src="$content.img.getImagePath(''0'')" alt="">
-<h3 class="card-title">$content.title.text</h3>
-<p class="card-text">$content.abstract.text</p>                                                                    
+        <div class="card-body p-0 my-3">
+            <img src="$content.img.getImagePath(''0'')" alt="">
+            <h3 class="card-title">$content.title.text</h3>
+            <p class="card-text">$content.abstract.text</p>    
+           
+           #if ($content.autore.text != "") 
+              <span class="card-signature">di $content.autore.text</span>
+            #end
+            <small class="text-muted d-block">
+            Data $content.date.shortDate
+            </small>
+        </div>
+
 </div>
-</div>
-</div>
-<!--end card-->
 
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (182,'CTM','Carousel con filtri home','<div class="it-single-slide-wrapper">

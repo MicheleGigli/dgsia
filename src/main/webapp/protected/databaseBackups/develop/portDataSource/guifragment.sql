@@ -871,8 +871,6 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 
 <#assign wp=JspTaglibs["/aps-core"]>
 
-<@wp.headInfo type="JS_EXT" info="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js" />
-
 <@jacms.contentList listName="contentList" titleVar="titleVar"
 
 pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
@@ -885,7 +883,7 @@ pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFi
 
 </#if>
 
-<div class="card-deck">
+<div class="card-deck py-2">
 
 <@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
 
@@ -893,17 +891,11 @@ pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFi
 
 </@wp.freemarkerTemplateParameter>
 
- 
-
 <#if (contentList??) && (contentList?has_content) && (contentList?size > 0)>
-
- 
 
 <@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>
 
 <@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
-
- 
 
 <#list contentList as contentId>
 
@@ -929,17 +921,17 @@ pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFi
 
 <#if (pageLinkVar??) && (pageLinkDescriptionVar??)>
 
-<p class="text-right"><a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a></p>
+<div class="mt-3 container py-2 text-right">
+        <a  class="btn btn-outline-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a>
+</div>
 
 </#if>
 
 <#assign contentList="">
-
+<br>
 </div>
 
-</div>
-
-','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
+</div>','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
 <#assign wp=JspTaglibs["/aps-core"]>
 <@wp.headInfo type="JS_EXT" info="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js" />
 <@jacms.contentList listName="contentList" titleVar="titleVar"

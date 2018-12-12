@@ -14,25 +14,24 @@ $(document).ready(function() {
                         dropdown.empty();
                         $.each(data, function (key, entry) {
                             $.each(entry, function (key1, entry1) {
-                                dropdown.append($('<option></option>').attr('value', entry1.code).text(entry1.titles.it));
+                                dropdown.append($('<option></option>').attr('value', entry1.code).text(entry1.code));
                             });
                         });
                     });
 
-    $(".dropdown1").change(function()
+    $("#dropdown1").change(function()
     {
         let dropdown2 = $('#dropdown2');
-        dropdown2.disabled=false;
-
-        var dataString = 'parentCode=news';
+        let dropdown1 = $('#dropdown1');
+        var dataString = 'parentCode='+dropdown1.val();
         $.ajax({
             url: "./api/mycategories",
-            data: dataString,
+            data: dataString
         }).then(function(data) {
             dropdown2.empty();
             $.each(data, function (key, entry) {
                 $.each(entry, function (key1, entry1) {
-                    dropdown2.append($('<option></option>').attr('value', entry1.code).text(entry1.titles.it));
+                    dropdown2.append($('<option></option>').attr('value', entry1.code).text(entry1.code));
                 });
             });
         });

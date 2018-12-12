@@ -36,7 +36,7 @@
             <c:set var="liClass" value=' class=""' />
         </c:if>
 
-        <c:set var="ulClass" value='' />
+        <c:set var="ulClass" value=' class="no-class"' />
     </c:if>
 
     <c:set var="aClassAndData" value=' class="h3-custom" ' />
@@ -49,8 +49,8 @@
      <a href="<c:out value="${aURL}" escapeXml="false" />"<c:out value="${aClassAndData}" escapeXml="false" />><!-- [ <c:out value="${previousLevel}" /> ] --><c:out value="${homeIcon}" escapeXml="false" />
         <span><c:out value="${previousPage.title}" /></span>
         <svg class="icon icon-primary icon-right m-0">
-              <use xlink:href="<wp:imgURL />sprite.svg#it-chevron-right"></use>
-              </svg>
+        <use xlink:href="<wp:imgURL />sprite.svg#it-chevron-right"></use>
+        </svg>
     </a>
     <c:if test="${previousLevel == level}">
     </li>
@@ -58,7 +58,8 @@
 <c:if test="${previousLevel < level}">
     <div class="-menu">
         <div class="link-list-wrapper">
-            <ul<c:out value="${ulClass}" escapeXml="false" />></c:if>
+
+            <ul <c:out value="${ulClass}" escapeXml="false" />></c:if>
             <c:if test="${previousLevel > level}">
                 <c:forEach begin="${1}" end="${previousLevel - level}">
                     </li>

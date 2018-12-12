@@ -137,14 +137,14 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 <properties>
 <property key="maxElements">6</property>
 <property key="title_it">News</property>
-<property key="linkDescr_it">Vedi Tutte</property>
+<property key="linkDescr_it">Lista News</property>
 <property key="pageLink">news</property>
 <property key="categories">news</property>
 <property key="maxElemForItem">6</property>
 <property key="title_en">News</property>
 <property key="modelId">1</property>
 <property key="contentType">CTM</property>
-<property key="linkDescr_en">Vedi Tutte</property>
+<property key="linkDescr_en">Lista News</property>
 </properties>
 
 ');
@@ -215,10 +215,10 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ne
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('news',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('news',9,'content_viewer_list_news','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="maxElemForItem">3</property>
-<property key="userFilters">(attributeFilter=false;key=category;categoryCode=news)+(attributeFilter=false;key=fulltext)+(attributeFilter=true;key=date)</property>
-<property key="modelId">1</property>
+<property key="maxElemForItem">6</property>
+<property key="userFilters">(attributeFilter=false;key=fulltext)+(attributeFilter=false;key=category;categoryCode=news)+(attributeFilter=true;key=date)</property>
 <property key="contentType">CTM</property>
+<property key="modelId">14</property>
 </properties>
 
 ');

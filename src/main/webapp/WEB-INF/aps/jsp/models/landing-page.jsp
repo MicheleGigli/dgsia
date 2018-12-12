@@ -1,12 +1,13 @@
-
 <%@ taglib prefix="wp" uri="/aps-core"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="<wp:info key="currentLang" />">
 
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>
             <wp:currentPage param="title" /> - <wp:i18n  key="PORTAL_TITLE" />
         </title>
@@ -26,13 +27,12 @@
             </p>
         </div>
 
-
         <div class="it-header-slim-wrapper">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="it-header-slim-wrapper-content">
-                            <a class="navbar-brand"  href="#">Ministero della Giustizia</a>
+                            <a class="navbar-brand"  href="https://www.giustizia.it/giustizia/">Ministero della Giustizia</a>
                             <span class="nav-palce-mobile">
                                 <nav>
                                     <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu1" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -55,7 +55,7 @@
         </div>
 
         <div class="header">
-            <div class="container py-5">
+            <div class="container py-1">
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <img class="img-fluid" src="<wp:imgURL />logo-Tribunale-di-Torino.png">
@@ -146,7 +146,7 @@
                     <div class="col-12">
                         <div class="media footer-title">
                             <img class="img-fluid mb-3" data-src="" alt=""
-                                 src="<wp:imgURL />logo-Tribunale-di-Torino-trasparente.png"
+                                 src="<wp:imgURL />logo_procura_inv.png"
                                  data-holder-rendered="true">
                             <div class="media-body">
                                 <span class="sr-only">Nome della Pubblica Amministrazione</span>
@@ -283,15 +283,3 @@
     </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
