@@ -381,6 +381,26 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
     </div>
 
 </div>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (183,'ATT','Lista degli allegati ','<div class="link-list-wrapper multiline">
+<ul class="d-flex flex-wrap link-list">
+    #foreach ($attach in $content.allegati)
+    <li class="col-6 mt-3">
+        <a class="list-item right-icon p-0"
+           href="$attach.attachPath">
+            <span class="display-4">$attach.text</span>
+            
+            <svg class="icon icon-primary icon-right m-0">
+            <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-download">
+                </use>
+            </svg>
+            
+        </a>
+    </li>
+    <li><span class="divider"></span> 
+     #end
+</ul>
+</div>
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )

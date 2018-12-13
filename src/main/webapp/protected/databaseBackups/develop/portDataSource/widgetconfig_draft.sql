@@ -27,10 +27,9 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('co
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('come_fare_per',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('come_fare_per',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('come_fare_per',4,'entando-widget-navigation_breadcrumbs',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('come_fare_per',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('come_fare_per',5,'come_fare_per','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CNG377</property>
-<property key="modelId">9</property>
+<property key="categoryRoot">come_fare_per</property>
 </properties>
 
 ');

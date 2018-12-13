@@ -1,11 +1,10 @@
-
 <%@ taglib prefix="mytld" uri="/WEB-INF/tld/myTLD.tld" %>
 <%@ taglib prefix="jacms" uri="/jacms-aps-core" %>
 <%@ taglib prefix="wp" uri="/aps-core" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <%--<mytld:categories var="contentList" />--%>
-
+<wp:currentWidget param="config" configParam="categoryRoot" var="categoryRootVar"/>
 
 <script>
     $(document).ready(function () {
@@ -13,7 +12,7 @@
         $(placeholder).hide();
         let dropdown = $('#dropdown1');
         $.ajax({
-            url: "<wp:info key="systemParam" paramName="applicationBaseURL" />api/mycategories",
+            url: "<wp:info key="systemParam" paramName="applicationBaseURL" />api/mycategories<c:if test="${not empty categoryRootVar}">?parentCode=<c:out value="${categoryRootVar}" /></c:if>",
         }).then(function (data) {
             dropdown.empty();
             $.each(data, function (key, entry) {

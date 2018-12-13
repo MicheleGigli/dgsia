@@ -1,5 +1,20 @@
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentTypes','Definition of the Content Types','<?xml version="1.0" encoding="UTF-8"?>
 <contenttypes>
+	<contenttype typecode="ATT" typedescr="Lista Allegati" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
+		<attributes>
+			<list name="allegati" attributetype="Monolist" description="lista allegati">
+				<validations />
+				<nestedtype>
+					<attribute name="allegati" attributetype="Attach">
+						<validations />
+					</attribute>
+				</nestedtype>
+			</list>
+			<attribute name="att" attributetype="Attach" description="att">
+				<validations />
+			</attribute>
+		</attributes>
+	</contenttype>
 	<contenttype typecode="CNG" typedescr="Generic Content" viewpage="**NULL**" listmodel="10011" defaultmodel="10001">
 		<attributes>
 			<attribute name="Title" attributetype="Text" searchable="true" indexingtype="TEXT">
@@ -64,13 +79,9 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			<attribute name="img" attributetype="Image" description="immagine" />
 			<attribute name="link" attributetype="Link" description="link" />
 			<attribute name="abstract" attributetype="Text" description="abstract" />
-			<attribute name="date" attributetype="Date" description="data" searchable="true">
-				<validations />
-			</attribute>
+			<attribute name="date" attributetype="Date" description="data" searchable="true" />
 			<attribute name="enum" attributetype="Enumerator" description="enumeration" searchable="true" separator=","><![CDATA[ATTI GIUDIZIARI, ATTUALITA, COMUNICATI STAMPA]]></attribute>
-			<attribute name="autore" attributetype="Text" description="autore" searchable="true">
-				<validations />
-			</attribute>
+			<attribute name="autore" attributetype="Text" description="autore" searchable="true" />
 		</attributes>
 	</contenttype>
 </contenttypes>
@@ -80,10 +91,10 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataobje
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataTypeDefinitions','Definition of the Type Types','<datatypes />');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoComponentsReport','The component installation report','<?xml version="1.0" encoding="UTF-8"?>
 <reports status="OK">
-	<creation>2018-11-20 16:48:47</creation>
-	<lastupdate>2018-11-22 17:49:34</lastupdate>
+	<creation>2018-12-13 10:53:20</creation>
+	<lastupdate>2018-12-13 10:53:27</lastupdate>
 	<components>
-		<component code="entandoCore" date="2018-11-20 16:48:47" status="OK">
+		<component code="entandoCore" date="2018-12-13 10:53:20" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="OK">
 					<table name="sysconfig" />
@@ -125,56 +136,56 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 				</datasource>
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="OK" />
-				<datasource name="servDataSource" status="OK" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-jquery" date="2018-11-20 16:49:32" status="OK">
+		<component code="entando-misc-jquery" date="2018-12-13 10:53:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="NOT_AVAILABLE" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-html5-essentials" date="2018-11-20 16:49:32" status="OK">
+		<component code="entando-misc-html5-essentials" date="2018-12-13 10:53:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="NOT_AVAILABLE" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-bootstrap" date="2018-11-20 16:49:32" status="OK">
+		<component code="entando-misc-bootstrap" date="2018-12-13 10:53:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="NOT_AVAILABLE" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-less" date="2018-11-20 16:49:32" status="OK">
+		<component code="entando-misc-less" date="2018-12-13 10:53:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="NOT_AVAILABLE" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jacms" date="2018-11-20 16:49:32" status="OK">
+		<component code="jacms" date="2018-12-13 10:53:22" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="OK">
 					<table name="contentmodels" />
@@ -191,34 +202,45 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="OK" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-content-generic" date="2018-11-20 16:49:55" status="OK">
+		<component code="entando-content-generic" date="2018-12-13 10:53:23" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="OK" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
-			<postProcess status="OK" />
+			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-navigation_bar" date="2018-11-20 16:49:55" status="OK">
+		<component code="entando-widget-navigation_bar" date="2018-12-13 10:53:23" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="OK" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-admin-console" date="2018-11-20 16:49:55" status="OK">
+		<component code="entando-widget-navigation_breadcrumbs" date="2018-12-13 10:53:23" status="OK">
+			<schema status="OK">
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="entando-admin-console" date="2018-12-13 10:53:23" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="OK">
@@ -226,96 +248,85 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 				</datasource>
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="NOT_AVAILABLE" />
-				<datasource name="servDataSource" status="OK" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-portal-ui" date="2018-11-20 16:49:55" status="OK">
+		<component code="entando-portal-ui" date="2018-12-13 10:53:23" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="NOT_AVAILABLE" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-app-view-cms-default" date="2018-11-20 16:49:55" status="OK">
+		<component code="entando-app-view-cms-default" date="2018-12-13 10:53:23" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="OK" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jpinfinispan" date="2018-11-20 16:49:55" status="OK">
+		<component code="jpinfinispan" date="2018-12-13 10:53:23" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="NOT_AVAILABLE" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-language_choose" date="2018-11-20 16:49:55" status="OK">
+		<component code="entando-widget-language_choose" date="2018-12-13 10:53:23" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="OK" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-login_form" date="2018-11-20 16:49:55" status="OK">
+		<component code="entando-widget-login_form" date="2018-12-13 10:53:23" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="OK" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-search_form" date="2018-11-20 16:49:55" status="OK">
+		<component code="entando-widget-search_form" date="2018-12-13 10:53:23" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="OK" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-page-bootstrap-hero" date="2018-11-20 16:49:55" status="OK">
+		<component code="entando-page-bootstrap-hero" date="2018-12-13 10:53:23" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
 			</schema>
 			<data status="OK">
-				<datasource name="portDataSource" status="OK" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
-			</data>
-			<postProcess status="OK" />
-		</component>
-		<component code="entando-widget-navigation_breadcrumbs" date="2018-11-22 17:49:32" status="OK">
-			<schema status="OK">
-				<datasource name="portDataSource" status="NOT_AVAILABLE" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
-			</schema>
-			<data status="OK">
-				<datasource name="portDataSource" status="OK" />
-				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="RESTORE" />
+				<datasource name="servDataSource" status="RESTORE" />
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
