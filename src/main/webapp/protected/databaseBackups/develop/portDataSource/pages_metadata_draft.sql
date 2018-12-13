@@ -137,7 +137,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-26 12:33:52');
+','2018-12-13 11:43:38');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('competenza_territoriale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Competenza Territoriale</property>

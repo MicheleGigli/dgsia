@@ -1,5 +1,20 @@
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentTypes','Definition of the Content Types','<?xml version="1.0" encoding="UTF-8"?>
 <contenttypes>
+	<contenttype typecode="ATT" typedescr="Lista Allegati" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
+		<attributes>
+			<list name="allegati" attributetype="Monolist" description="lista allegati">
+				<validations />
+				<nestedtype>
+					<attribute name="allegati" attributetype="Attach">
+						<validations />
+					</attribute>
+				</nestedtype>
+			</list>
+			<attribute name="att" attributetype="Attach" description="att">
+				<validations />
+			</attribute>
+		</attributes>
+	</contenttype>
 	<contenttype typecode="ATC" typedescr="Allegati" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
 		<attributes>
 			<attribute name="attach" attributetype="Attach" description="attach">
