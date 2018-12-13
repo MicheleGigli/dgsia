@@ -3,7 +3,7 @@
 
     <Environment name="logActiveFileOutput" value="true" type="java.lang.String" override="false" />
     <Environment name="logName" value="sitiweb" type="java.lang.String" override="false" />
-    <Environment name="logFilePrefix" value="C:\\lavoro\\entando 5.0.0\\dgsia\\target\\log_sitiweb" type="java.lang.String" override="false" />
+    <Environment name="logFilePrefix" value="C:\\projects\\almaviva\\almaviva\\target\\log_sitiweb" type="java.lang.String" override="false" />
     <Environment name="logLevel" value="INFO" type="java.lang.String" override="false" />
     <Environment name="logFileSize" value="200000" type="java.lang.String" override="false" />
     <Environment name="logFilesCount" value="10" type="java.lang.String" override="false" />
@@ -14,10 +14,10 @@
     <Environment name="resourceRootURL" value="/sitiweb/resources/" type="java.lang.String" override="false" />
     <Environment name="protectedResourceRootURL" value="/sitiweb/protected/" type="java.lang.String" override="false" />
 
-    <Environment name="resourceDiskRootFolder" value="C:\\lavoro\\entando 5.0.0\\dgsia\\src\\main\\webapp\\resources" type="java.lang.String" override="false" />
-    <Environment name="protectedResourceDiskRootFolder" value="C:\\lavoro\\entando 5.0.0\\dgsia\\src\\main\\webapp\\protected" type="java.lang.String" override="false" />
+    <Environment name="resourceDiskRootFolder" value="C:\\projects\\almaviva\\almaviva\\src\\main\\webapp\\resources" type="java.lang.String" override="false" />
+    <Environment name="protectedResourceDiskRootFolder" value="C:\\projects\\almaviva\\almaviva\\src\\main\\webapp\\protected" type="java.lang.String" override="false" />
 
-    <Environment name="indexDiskRootFolder" value="C:\\lavoro\\entando 5.0.0\\dgsia\\target\\temp\\indexdir" type="java.lang.String" override="false" />
+    <Environment name="indexDiskRootFolder" value="C:\\projects\\almaviva\\almaviva\\target\\temp\\indexdir" type="java.lang.String" override="false" />
     
     <Environment name="portDataSourceClassName" value="com.mysql.jdbc.Driver" type="java.lang.String" override="false" />
     <Environment name="servDataSourceClassName" value="com.mysql.jdbc.Driver" type="java.lang.String" override="false" />
@@ -25,13 +25,13 @@
     <Resource name="jdbc/portDataSource" auth="Container"
               type="javax.sql.DataSource" driverClassName="com.mysql.jdbc.Driver"
               maxActive="8" maxIdle="4"
-              username="agile" password="agile"
-              url="jdbc:mysql://localhost:3306/sitiwebPort" />
+              username="root" password="root"
+              url="jdbc:mysql://localhost:3306/almavivaport" />
 
     <Resource name="jdbc/servDataSource" auth="Container"
               type="javax.sql.DataSource" driverClassName="com.mysql.jdbc.Driver"
               maxActive="8" maxIdle="4"
-              username="agile" password="agile"
-              url="jdbc:mysql://localhost:3306/sitiwebServ" />
+              username="root" password="root"
+              url="jdbc:mysql://localhost:3306/almavivaserv" />
 
 </Context>

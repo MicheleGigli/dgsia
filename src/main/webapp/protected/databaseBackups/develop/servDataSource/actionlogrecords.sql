@@ -20206,3 +20206,134 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-12-13 12:59:23');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (648,'admin','2018-12-13 15:09:26','/do/jacms/Content','saveAndApprove','Hypertext:it_ShortDescr=
+entandoaction:saveAndApprove=Submit
+Attach:en_File=test file 1
+Text:it_Caption=
+treeNodesToOpen=home
+Text:en_Title=Titolo test 1
+Text:en_Caption=
+__multiselect_extraGroupNames=
+descr=Titolo test 1
+Hypertext:en_LongDescr=Descrizione lunga test 1
+Attach:it_File=
+contentOnSessionMarker=DLD_newContent
+Hypertext:it_LongDescr=
+Hypertext:en_ShortDescr=Descrizione breve test 1
+Text:it_Title=
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Titolo test 1</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">DLD646</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-12-13 15:09:26');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (649,'admin','2018-12-13 15:10:04','/do/jacms/Content','saveAndApprove','Hypertext:it_ShortDescr=
+entandoaction:saveAndApprove=Submit
+Attach:en_File=test file 1
+Text:it_Caption=
+treeNodesToOpen=home
+Text:en_Title=Titolo test 1
+Text:en_Caption=
+__multiselect_extraGroupNames=
+descr=Titolo test 1
+Hypertext:en_LongDescr=<p>
+	Descrizione lunga test 1</p>
+
+Attach:it_File=
+contentOnSessionMarker=DLD_editContent_DLD646
+Hypertext:it_LongDescr=
+Hypertext:en_ShortDescr=<p>
+	Descrizione breve test 1</p>
+
+Text:it_Title=
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Titolo test 1</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">DLD646</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-12-13 15:10:04');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (652,'admin','2018-12-13 15:10:53','/do/jacms/Content','saveAndApprove','Hypertext:it_ShortDescr=
+entandoaction:saveAndApprove=Submit
+Attach:en_File=test file 2
+Text:it_Caption=
+treeNodesToOpen=home
+Text:en_Title=Titolo test 2
+Text:en_Caption=
+__multiselect_extraGroupNames=
+descr=Titolo test 2
+Hypertext:en_LongDescr=<p>
+	Descrizione lunga test 2</p>
+
+Attach:it_File=
+contentOnSessionMarker=DLD_pasteContent_DLD646
+Hypertext:it_LongDescr=
+Hypertext:en_ShortDescr=<p>
+	Descrizione breve test 2</p>
+
+Text:it_Title=
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Titolo test 2</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">DLD650</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-12-13 15:10:53');

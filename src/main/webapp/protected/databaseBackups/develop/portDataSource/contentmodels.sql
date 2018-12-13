@@ -431,6 +431,28 @@ $content.MainBody.text
   </ul>
 #end
 </article>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10003,'DLD','Full - Default','<article>
+<h1>$content.Title.text</a></h1>
+#if($content.categories.size() >= 1)
+<p><span class="label">$i18n.getLabel("DLD_CATEGORIES"):</span>
+#foreach($categ in $content.categories)
+<span class="label label-info">$categ.title</span>
+#end
+</p>
+#end
+#if ( $content.Picture.getImagePath("0") != "" )
+<figure class="well well-small text-center">
+  <img src="$content.Picture.getImagePath("0")" alt="$content.Picture.text" />
+  #if ( $content.Caption.text != "" )
+  <figcaption><p class="margin-medium-all">$content.Caption.text</p></figcaption>
+  #end
+</figure>
+#end
+#if ( $content.LongDescr.text != "" )
+$content.LongDescr.text
+#end
+<p><a class="btn btn-primary" href="$content.File.attachPath">$i18n.getLabel("DLD_DOWNLOAD")&nbsp;<i class="icon-download-alt icon-white"></i></a></p>
+</article>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10011,'CNG','Lists - Default','<div class="search-result">
   <h3><a href="$content.contentLink">$content.Title.text</a></h3>
   <a class="search-link" href="$content.contentLink">$content.contentLink</a>
@@ -474,4 +496,12 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </figure>
 #end
 <p class="text-right"><a class="btn" href="$content.contentLink">$i18n.getLabel("CNG_READ_MORE")</a></p>
+</article>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10031,'DLD','Lists - Default','<article>
+<h2>$content.Title.text</h2>
+$content.ShortDescr.text
+<p class="btn-group">
+  <a class="btn" href="$content.contentLink">$i18n.getLabel("DLD_GET_INFO")&nbsp;<i class="icon-info-sign"></i></a>
+  <a class="btn btn-primary" href="$content.File.attachPath">$i18n.getLabel("DLD_DOWNLOAD")&nbsp;<i class="icon-download-alt icon-white"></i></a>
+</p>
 </article>',NULL);

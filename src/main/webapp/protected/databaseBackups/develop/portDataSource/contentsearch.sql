@@ -69,3 +69,7 @@ INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langc
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','autore','Mario Bianchi',NULL,NULL,'it');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM463','date',NULL,'2018-11-29 00:00:00',NULL,NULL);
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM463','enum','ATTI GIUDIZIARI',NULL,NULL,NULL);
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('DLD646','Title','Titolo test 1',NULL,NULL,'en');
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('DLD646','Title','Titolo test 1',NULL,NULL,'it');
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('DLD650','Title','Titolo test 2',NULL,NULL,'en');
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('DLD650','Title','Titolo test 2',NULL,NULL,'it');

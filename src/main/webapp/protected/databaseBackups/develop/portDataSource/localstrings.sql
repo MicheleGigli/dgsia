@@ -24,6 +24,12 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DATE_FROM','en'
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DATE_FROM','it','Da');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DATE_TO','en','To');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DATE_TO','it','A');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DLD_CATEGORIES','en','Tags');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DLD_CATEGORIES','it','Tag');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DLD_DOWNLOAD','en','Get it now');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DLD_DOWNLOAD','it','Scarica');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DLD_GET_INFO','en','View details');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DLD_GET_INFO','it','Dettagli');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('EDIT_THIS_CONTENT','en','Edit');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('EDIT_THIS_CONTENT','it','Modifica');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_DESCRIPTION','en','Description');

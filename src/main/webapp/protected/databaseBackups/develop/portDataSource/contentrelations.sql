@@ -85,3 +85,7 @@ INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcatego
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTM463',NULL,NULL,NULL,'news_in_evidenza',NULL);
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTM463',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTM463',NULL,NULL,'304',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('DLD646',NULL,NULL,NULL,NULL,'free');
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('DLD646',NULL,NULL,'647',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('DLD650',NULL,NULL,NULL,NULL,'free');
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('DLD650',NULL,NULL,'651',NULL,NULL);
