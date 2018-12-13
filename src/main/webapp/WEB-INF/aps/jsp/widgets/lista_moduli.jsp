@@ -47,18 +47,25 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <c:forEach var="resourceId" items="${resourceList}" begin="${groupResource.begin}" end="${groupResource.end}">
+                                <c:forEach var="resourceId" items="${resourceList}" begin="${groupResource.begin}" end="${groupResource.end}" varStatus="varStatus">
+                                <mytld:resource resourceId="${resourceId}" var="resourceVar" />
                                 <tr>
-                                    <th scope="row">1</th>
-                                    <td>DESCRIZIONE <c:out value="${resourceId}" /> </td>
-                                    <td>CATEGORIE <c:out value="${resourceId}" /></td>
+                                    <th scope="row">
+                                        <c:out value="${varStatus.count}" />
+                                    </th>
+                                    <td><c:out value="${resourceVar.descr}" /></td>
                                     <td>
-                                        <a href="#" class="callout-more-download">
+                                        <c:forEach items="${resourceVar.categories}" var="resourceCategory">
+                                            <c:out value="${resourceCategory.title}" />
+                                        </c:forEach>
+                                    </td>
+                                    <td>
+                                        <a href="<c:out value="${resourceVar.documentPath}" />" class="callout-more-download">
                                             <svg class="icon icon-primary">
                                             <use xlink:href="<wp:imgURL />sprite.svg#it-download"></use>
                                             </svg>
-                                            <span class="sr-only">Nome file  </span>
-                                            Nome file
+                                            <span class="sr-only"><c:out value="${resourceVar.masterFileName}" /></span>
+                                            <c:out value="${resourceVar.masterFileName}" />
                                         </a>
                                     </td>
                                 </tr>

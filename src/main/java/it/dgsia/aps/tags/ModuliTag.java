@@ -107,6 +107,8 @@ public class ModuliTag extends TagSupport {
             filters = ArrayUtils.add(filters, filterByText);
             values.put("moduli_textFilter", value);
         }
+        FieldSearchFilter filterByType = new FieldSearchFilter(IResourceManager.RESOURCE_TYPE_FILTER_KEY, "Attach", false);
+        filters = ArrayUtils.add(filters, filterByType);
         return filters;
     }
 
