@@ -12,9 +12,11 @@
             classpath:spring/baseSystemConfig.xml
             classpath:spring/jbossBaseSystemConfig.xml
             classpath*:spring/aps/**/**.xml
-            classpath*:spring/apsadmin/**/**.xml
-            classpath*:spring/plugins/**/aps/**/**.xml
-            classpath*:spring/plugins/**/apsadmin/**/**.xml
+            classpath*:spring/apsadmin/**/**.xml 
+            classpath*:spring/plugins/**/aps/**/**.xml 
+            classpath*:spring/plugins/**/apsadmin/**/**.xml 
+            classpath*:spring/entandocore/aps/**/**.xml 
+            classpath*:spring/entandocore/apsadmin/**/**.xml 
         </param-value>
     </context-param>
     <context-param>

@@ -42,6 +42,12 @@
 			<required>yes</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
+       <attribute>
+			<description><![CDATA[.....]]></description>
+			<name>inputValues</name>
+			<required>yes</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
 	</tag>
 	<tag>
 		<description><![CDATA[Return the list of the system categories on SelectItem objects.]]></description>
