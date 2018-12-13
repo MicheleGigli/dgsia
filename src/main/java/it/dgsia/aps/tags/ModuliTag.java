@@ -22,17 +22,25 @@ import org.slf4j.LoggerFactory;
 
 import com.agiletec.aps.system.RequestContext;
 import com.agiletec.aps.system.SystemConstants;
+import com.agiletec.aps.system.common.FieldSearchFilter;
 import com.agiletec.aps.system.services.authorization.Authorization;
+import com.agiletec.aps.system.services.category.ICategoryManager;
 import com.agiletec.aps.system.services.group.Group;
 import com.agiletec.aps.system.services.page.Widget;
 import com.agiletec.aps.system.services.user.UserDetails;
 import com.agiletec.aps.util.ApsWebApplicationUtils;
 import com.agiletec.plugins.jacms.aps.system.JacmsSystemConstants;
 import com.agiletec.plugins.jacms.aps.system.services.resource.IResourceManager;
+import it.dgsia.aps.system.services.resource.IResourcePlusManager;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.StringUtils;
 
 public class ModuliTag extends TagSupport {
 
@@ -48,20 +56,58 @@ public class ModuliTag extends TagSupport {
         ServletRequest request = this.pageContext.getRequest();
         RequestContext reqCtx = (RequestContext) request.getAttribute(RequestContext.REQCTX);
         try {
+            ICategoryManager categoryManager = (ICategoryManager) ApsWebApplicationUtils.getBean(SystemConstants.CATEGORY_MANAGER, this.pageContext);
             Widget currentWidget = (Widget) reqCtx.getExtraParam(SystemConstants.EXTRAPAR_CURRENT_WIDGET);
             String mainCategoryFilter = currentWidget.getConfig().getProperty("mainCategoryFilter");
             String categoryCodesCSV = currentWidget.getConfig().getProperty("categoryCodesCSV");
-            String[] categoryCodes = categoryCodesCSV.split(",");
-            IResourceManager resourceManager = (IResourceManager) ApsWebApplicationUtils.getBean(JacmsSystemConstants.RESOURCE_MANAGER, this.pageContext);
-            Collection<String> userGroupCodes = this.getAllowedGroups(reqCtx);
-            List<String> ids = resourceManager.searchResourcesId(null, mainCategoryFilter, userGroupCodes);
-            this.pageContext.setAttribute(this.getCategoryCodes(), categoryCodes);
+            String[] categoryCodesSplit = categoryCodesCSV.split(",");
+            List<String> categoriesForForm = new ArrayList<>();
+            for (String categoryCode : categoryCodesSplit) {
+                if (null != categoryManager.getCategory(categoryCode)) {
+                    categoriesForForm.add(categoryCode);
+                } else {
+                    _logger.warn("Categoria '" + categoryCode + "' configurata non esistente");
+                }
+            }
+            IResourcePlusManager resourceManager = (IResourcePlusManager) ApsWebApplicationUtils.getBean(JacmsSystemConstants.RESOURCE_MANAGER, this.pageContext);
+            Map<String, String> values = new HashMap<>(categoriesForForm.size() + 1);
+            FieldSearchFilter[] filters = this.getFilters(values, reqCtx);
+            List<String> categoriesForFilter = new ArrayList<>();
+            categoriesForFilter.add(mainCategoryFilter);
+            for (String categoryForForm : categoriesForForm) {
+                String paramName = "moduli_catFilter_" + categoryForForm;
+                String value = reqCtx.getRequest().getParameter(paramName);
+                if (!StringUtils.isBlank(value)) {
+                    categoriesForFilter.add(value);
+                    values.put(paramName, value);
+                }
+            }
+            List<String> ids = resourceManager.searchResourcesId(filters, categoriesForFilter);
+            this.pageContext.setAttribute(this.getCategoryCodes(), categoriesForForm);
+            this.pageContext.setAttribute(this.getInputValues(), values);
             this.pageContext.setAttribute(this.getListName(), ids);
         } catch (Throwable t) {
             _logger.error("error in doStartTag", t);
             throw new JspException("Error detected while initialising the tag", t);
         }
         return EVAL_PAGE;
+    }
+
+    private FieldSearchFilter[] getFilters(Map<String, String> values, RequestContext reqCtx) {
+        FieldSearchFilter[] filters = new FieldSearchFilter[0];
+        Collection<String> userGroupCodes = this.getAllowedGroups(reqCtx);
+        if (null != userGroupCodes) {
+            List<String> allowed = new ArrayList<>(userGroupCodes);
+            FieldSearchFilter filterByGroup = new FieldSearchFilter(IResourceManager.RESOURCE_MAIN_GROUP_FILTER_KEY, allowed, false);
+            filters = ArrayUtils.add(filters, filterByGroup);
+        }
+        String value = reqCtx.getRequest().getParameter("moduli_textFilter");
+        if (!StringUtils.isBlank(value)) {
+            FieldSearchFilter filterByText = new FieldSearchFilter(IResourceManager.RESOURCE_DESCR_FILTER_KEY, value.trim(), true);
+            filters = ArrayUtils.add(filters, filterByText);
+            values.put("moduli_textFilter", value);
+        }
+        return filters;
     }
 
     protected Collection<String> getAllowedGroups(RequestContext reqCtx) {
@@ -76,6 +122,9 @@ public class ModuliTag extends TagSupport {
         if (null != auths) {
             for (Authorization auth : auths) {
                 if (null != auth && null != auth.getGroup()) {
+                    if (auth.getGroup().getName().equals(Group.ADMINS_GROUP_NAME)) {
+                        return null;
+                    }
                     codes.add(auth.getGroup().getName());
                 }
             }
@@ -87,6 +136,7 @@ public class ModuliTag extends TagSupport {
     public void release() {
         this.setCategoryCodes(null);
         this.setListName(null);
+        this.setInputValues(null);
     }
 
     public String getListName() {
@@ -105,7 +155,16 @@ public class ModuliTag extends TagSupport {
         this.categoryCodes = categoryCodes;
     }
 
+    public String getInputValues() {
+        return inputValues;
+    }
+
+    public void setInputValues(String inputValues) {
+        this.inputValues = inputValues;
+    }
+
     private String listName;
     private String categoryCodes;
+    private String inputValues;
 
 }
