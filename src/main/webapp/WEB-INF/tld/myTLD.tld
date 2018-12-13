@@ -87,5 +87,24 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 	</tag>
+	
+	<tag>
+		<description></description>
+		<name>resource</name>
+		<tag-class>it.dgsia.aps.tags.ResourceTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<description></description>
+			<name>resourceId</name>
+			<required>yes</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description></description>
+			<name>var</name>
+			<required>yes</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
     
 </taglib>
