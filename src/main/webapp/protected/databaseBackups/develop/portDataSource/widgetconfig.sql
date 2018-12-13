@@ -207,6 +207,24 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('link_uti
 </properties>
 
 ');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',1,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',2,'Navigation_Bar_Settato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',5,'lista_moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="mainCategoryFilter">moduli</property>
+<property key="categoryCodesCSV">cittadino,allegati</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',6,'entando-widget-side-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">code(sezione_per_il_cittadino).subtree(1)</property>
+</properties>
+
+');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',2,'Navigation_Bar_Settato',NULL);

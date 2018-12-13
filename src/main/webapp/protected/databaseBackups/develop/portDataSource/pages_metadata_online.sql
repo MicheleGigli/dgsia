@@ -134,6 +134,20 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 <property key="it">Pagina di login</property>
 <property key="en">Login</property>
 </properties>','service',1,NULL,'2017-02-17 15:32:34');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Moduli</property>
+<property key="it">Moduli</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-12-13 16:54:08');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('news','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">News</property>

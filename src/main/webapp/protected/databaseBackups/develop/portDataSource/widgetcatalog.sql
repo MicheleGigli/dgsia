@@ -161,6 +161,15 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </properties>
 
 ',0,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('lista_moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Lista Moduli</property>
+<property key="it">Lista Moduli</property>
+</properties>','<config>
+<parameter name="mainCategoryFilter">Filtro principale</parameter>
+                <parameter name="categoryCodesCSV">Codici categorie in CSV</parameter>
+	<action name="configSimpleParameter"/>
+</config>',NULL,NULL,NULL,1,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('login_form','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Login Form</property>
