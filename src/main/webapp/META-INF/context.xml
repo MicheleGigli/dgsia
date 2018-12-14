@@ -3,21 +3,21 @@
 
     <Environment name="logActiveFileOutput" value="true" type="java.lang.String" override="false" />
     <Environment name="logName" value="sitiweb" type="java.lang.String" override="false" />
-    <Environment name="logFilePrefix" value="C:\\lavoro\\entando 5.0.0\\dgsia\\target\\log_sitiweb" type="java.lang.String" override="false" />
+    <Environment name="logFilePrefix" value="C:\\Entando\\dgsia\\target\\log_sitiweb" type="java.lang.String" override="false" />
     <Environment name="logLevel" value="INFO" type="java.lang.String" override="false" />
     <Environment name="logFileSize" value="200000" type="java.lang.String" override="false" />
     <Environment name="logFilesCount" value="10" type="java.lang.String" override="false" />
 
     <Environment name="configVersion" value="production" type="java.lang.String" override="false" />
 
-    <Environment name="applicationBaseURL" value="http://localhost:8080/sitiweb/" type="java.lang.String" override="false" />
+    <Environment name="applicationBaseURL" value="http://localhost:8081/sitiweb/" type="java.lang.String" override="false" />
     <Environment name="resourceRootURL" value="/sitiweb/resources/" type="java.lang.String" override="false" />
     <Environment name="protectedResourceRootURL" value="/sitiweb/protected/" type="java.lang.String" override="false" />
 
-    <Environment name="resourceDiskRootFolder" value="C:\\lavoro\\entando 5.0.0\\dgsia\\src\\main\\webapp\\resources" type="java.lang.String" override="false" />
-    <Environment name="protectedResourceDiskRootFolder" value="C:\\lavoro\\entando 5.0.0\\dgsia\\src\\main\\webapp\\protected" type="java.lang.String" override="false" />
+    <Environment name="resourceDiskRootFolder" value="C:\\Entando\\dgsia\\src\\main\\webapp\\resources" type="java.lang.String" override="false" />
+    <Environment name="protectedResourceDiskRootFolder" value="C:\\Entando\\dgsia\\src\\main\\webapp\\protected" type="java.lang.String" override="false" />
 
-    <Environment name="indexDiskRootFolder" value="C:\\lavoro\\entando 5.0.0\\dgsia\\target\\temp\\indexdir" type="java.lang.String" override="false" />
+    <Environment name="indexDiskRootFolder" value="C:\\Entando\\dgsia\\target\\temp\\indexdir" type="java.lang.String" override="false" />
     
     <Environment name="portDataSourceClassName" value="com.mysql.jdbc.Driver" type="java.lang.String" override="false" />
     <Environment name="servDataSourceClassName" value="com.mysql.jdbc.Driver" type="java.lang.String" override="false" />
