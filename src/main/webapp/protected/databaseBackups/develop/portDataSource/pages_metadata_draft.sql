@@ -28,8 +28,8 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
 ','2018-12-07 12:35:29');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('come_fare_per','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Come fare per</property>
-<property key="it">Come fare per</property>
+<property key="en">Ricerca guidata</property>
+<property key="it">Ricerca guidata</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -39,7 +39,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-13 11:43:38');
+','2018-12-14 10:36:49');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('competenza_territoriale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Competenza Territoriale</property>

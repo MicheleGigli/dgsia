@@ -296,6 +296,37 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </div>
 
 ',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (31,'PRC','List Default','<div class="search-result">
+  <h3><a href="$content.contentLink">$content.titolo.text</a></h3>
+#if ( $content.abstract.text != "" )
+  <p>
+    $content.abstract.text
+  </p>
+#end
+</div>
+<div class="hr-line-dashed"></div>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (32,'PRC','Full Default','<article>
+  <h1>$content.titolo.text</h1>
+#if ( $content.body.text != "" )
+$content.body.text
+#end
+#if ($content.allegati.size()>0)
+  <h2>$i18n.getLabel("CNG_ATTACHMENTS")</h2>
+  <ul>
+  #foreach ($item in $content.allegati )
+    <li><a href="$item.attachPath">$item.text</a></li>
+  #end
+  </ul>
+#end
+#if ($content.links.size()>0)
+  <h2>$i18n.getLabel("CNG_LINKS")</h2>
+  <ul>
+  #foreach ($item in $content.links)
+    <li><a href="$item.destination">$item.text</a></li>
+  #end
+  </ul>
+#end
+</article>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<div class="card-wrapper">
 
         <div class="card-body p-0 my-3">
