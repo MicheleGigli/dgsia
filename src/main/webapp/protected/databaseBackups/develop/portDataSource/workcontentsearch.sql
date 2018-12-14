@@ -48,8 +48,6 @@ INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,l
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG503','Title','Info Per Sezione Amministrativa',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG505','Title','Info Per Sezione Lavoro',NULL,NULL,'en');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG505','Title','Info Per Sezione Lavoro',NULL,NULL,'it');
-INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA497','title','Sezioni',NULL,NULL,'en');
-INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA497','title','Sezioni',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM57','enum','',NULL,NULL,NULL);
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM60','enum','',NULL,NULL,NULL);
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM63','enum','',NULL,NULL,NULL);
@@ -73,3 +71,9 @@ INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,l
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('DLD646','Title','Titolo test 1',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('DLD650','Title','Titolo test 2',NULL,NULL,'en');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('DLD650','Title','Titolo test 2',NULL,NULL,'it');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA497','title','Sezioni',NULL,NULL,'en');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA497','title','Sezioni',NULL,NULL,'it');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('PRC655','titolo','Procedura di test 1',NULL,NULL,'en');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('PRC655','titolo','Procedura di test 1',NULL,NULL,'it');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('PRC658','titolo','Procedura di test 2',NULL,NULL,'en');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('PRC658','titolo','Procedura di test 2',NULL,NULL,'it');

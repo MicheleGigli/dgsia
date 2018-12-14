@@ -82,45 +82,43 @@
 
 <div class="row">
     <div class="col-md-7 p-0  my-2">
+        <form action="<wp:url />" method="post">
         <h4 class="card-title">Ricerca guidata</h4>
 
         <h6>Macro area</h6>
         <div class="input-group mb-3">
-            <select class="custom-select" id="dropdown1">
+            <select name="macro_area" class="custom-select" id="dropdown1">
                 <option selected>Scegli...</option>
             </select>
         </div>
 
         <h6>Sotto area 1</h6>
         <div class="input-group mb-3">
-            <select class="custom-select" id="dropdown2">
+            <select name="subarea_1" class="custom-select" id="dropdown2">
                 <option selected>Scegli...</option>
             </select>
         </div>
 
         <h6>Sotto area 2</h6>
         <div class="input-group mb-3">
-            <select class="custom-select" id="dropdown3">
+            <select name="subarea_2" class="custom-select" id="dropdown3">
                 <option selected>Scegli...</option>
             </select>
         </div>
+        <button type="submit" class="btn btn-secondary my-3"><wp:i18n key="BTN_FILTRA" /></button>
+        </form>
     </div>
-    <div class="col-md-12 px-3">
-        <div id="resultPlaceholder">
-            <h4 class="card-title">Risultato Ricerca</h4>
-            <jacms:content contentId="ATT732" modelId="183" />
-        </div>
-    </div>
+
 </div>
 
+    <jacms:contentList listName="contentList" contentType="PRC" />
 <c:choose>
     <c:when test="${contentList != null && !empty contentList}">
-        <wp:pager listName="contentList" objectName="groupContent" pagerIdFromFrame="true" advanced="true" max="1"  offset="5">
+        <wp:pager listName="contentList" objectName="groupContent" pagerIdFromFrame="true" advanced="true" max="10" offset="5">
             <c:set var="group" value="${groupContent}" scope="request" />
             <c:import url="/WEB-INF/plugins/jacms/aps/jsp/widgets/inc/pagerBlock.jsp" />
             <c:forEach var="contentId" items="${contentList}" begin="${groupContent.begin}" end="${groupContent.end}">
-                <%--<jacms:content contentId="${contentId}" modelId="list" />--%>
-                <jacms:content contentId="${contentId}" modelId="1821" />
+                <jacms:content contentId="${contentId}" modelId="list" />
             </c:forEach>
             <c:import url="/WEB-INF/plugins/jacms/aps/jsp/widgets/inc/pagerBlock.jsp" />
         </wp:pager>
@@ -130,16 +128,5 @@
     </c:otherwise>
 </c:choose>
 
-<c:if test="${null != pageLinkVar && null != pageLinkDescriptionVar}">
-    <p class="text-right"><a class="btn btn-primary" href="<wp:url page="${pageLinkVar}"/>"><c:out value="${pageLinkDescriptionVar}" /></a></p>
-    </c:if>
-
-<%-- Important: reset variables --%>
-<c:set var="userFilterOptionsVar" value="${null}" scope="request" />
 <c:set var="contentList" value="${null}"  scope="request" />
-<c:set var="group" value="${null}"  scope="request" />
-
-
-
-
 
