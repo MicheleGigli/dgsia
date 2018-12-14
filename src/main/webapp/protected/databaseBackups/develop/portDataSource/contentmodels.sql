@@ -262,6 +262,28 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   </div> 
 </div>
 ',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (14,'CTM','Lista news in pagina news','<div class="card card-news shadow rounded">
+    <div class="img-wrapper">
+        <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+        <span class="badge badge-primary badge-pos">$content.enum.text</span>
+    </div>
+    <div class="card-body news-body">
+        <h5 class="card-title">
+            <a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a>
+        </h5>
+
+        <span class="data">$content.date.shortDate</span>
+        
+        #if ($content.autore.text != "")  
+          <span class="card-signature">di $content.autore.text</span>
+        #else
+          <span class="card-signature">Autore sconosciuto</span>
+        #end
+        <p class="card-text">$content.abstract.text</p>
+    </div>
+
+</div>
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (17,'CTM','Modello Link Utili Pagina Primo livello','<div class="col-md-4">
 	<div class="card border rounded mb-4">
 		<img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
@@ -274,20 +296,22 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </div>
 
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<!--
-<h2 class="border-bottom"></h2>
--->
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<div class="card-wrapper">
 
-<div class="card-wrapper">
-<div class="card border-0">
-<div class="card-body p-3">
-<img src="$content.img.getImagePath(''0'')" alt="">
-<h3 class="card-title">$content.title.text</h3>
-<p class="card-text">$content.abstract.text</p>                                                                    
+        <div class="card-body p-0 my-3">
+            <img src="$content.img.getImagePath(''0'')" alt="">
+            <h3 class="card-title">$content.title.text</h3>
+            <p class="card-text">$content.abstract.text</p>    
+           
+           #if ($content.autore.text != "") 
+              <span class="card-signature">di $content.autore.text</span>
+            #end
+            <small class="text-muted d-block">
+            Data $content.date.shortDate
+            </small>
+        </div>
+
 </div>
-</div>
-</div>
-<!--end card-->
 
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (182,'CTM','Carousel con filtri home','<div class="it-single-slide-wrapper">
@@ -357,6 +381,26 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
     </div>
 
 </div>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (183,'ATT','Lista degli allegati ','<div class="link-list-wrapper multiline">
+<ul class="d-flex flex-wrap link-list">
+    #foreach ($attach in $content.allegati)
+    <li class="col-6 mt-3">
+        <a class="list-item right-icon p-0"
+           href="$attach.attachPath">
+            <span class="display-4">$attach.text</span>
+            
+            <svg class="icon icon-primary icon-right m-0">
+            <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-download">
+                </use>
+            </svg>
+            
+        </a>
+    </li>
+    <li><span class="divider"></span> 
+     #end
+</ul>
+</div>
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )
@@ -386,6 +430,28 @@ $content.MainBody.text
   #end
   </ul>
 #end
+</article>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10003,'DLD','Full - Default','<article>
+<h1>$content.Title.text</a></h1>
+#if($content.categories.size() >= 1)
+<p><span class="label">$i18n.getLabel("DLD_CATEGORIES"):</span>
+#foreach($categ in $content.categories)
+<span class="label label-info">$categ.title</span>
+#end
+</p>
+#end
+#if ( $content.Picture.getImagePath("0") != "" )
+<figure class="well well-small text-center">
+  <img src="$content.Picture.getImagePath("0")" alt="$content.Picture.text" />
+  #if ( $content.Caption.text != "" )
+  <figcaption><p class="margin-medium-all">$content.Caption.text</p></figcaption>
+  #end
+</figure>
+#end
+#if ( $content.LongDescr.text != "" )
+$content.LongDescr.text
+#end
+<p><a class="btn btn-primary" href="$content.File.attachPath">$i18n.getLabel("DLD_DOWNLOAD")&nbsp;<i class="icon-download-alt icon-white"></i></a></p>
 </article>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10011,'CNG','Lists - Default','<div class="search-result">
   <h3><a href="$content.contentLink">$content.Title.text</a></h3>
@@ -430,4 +496,12 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </figure>
 #end
 <p class="text-right"><a class="btn" href="$content.contentLink">$i18n.getLabel("CNG_READ_MORE")</a></p>
+</article>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10031,'DLD','Lists - Default','<article>
+<h2>$content.Title.text</h2>
+$content.ShortDescr.text
+<p class="btn-group">
+  <a class="btn" href="$content.contentLink">$i18n.getLabel("DLD_GET_INFO")&nbsp;<i class="icon-info-sign"></i></a>
+  <a class="btn btn-primary" href="$content.File.attachPath">$i18n.getLabel("DLD_DOWNLOAD")&nbsp;<i class="icon-download-alt icon-white"></i></a>
+</p>
 </article>',NULL);

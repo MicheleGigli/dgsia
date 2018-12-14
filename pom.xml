@@ -127,6 +127,7 @@
         <entando.version>5.0.1</entando.version>
         <spring.version>5.0.8.RELEASE</spring.version>
         <struts2.version>2.5.17</struts2.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <build>
         <finalName>sitiweb</finalName>
@@ -909,6 +910,12 @@
         <dependency>
             <groupId>org.entando.entando.bundles.widgets</groupId>
             <artifactId>entando-widget-navigation_breadcrumbs</artifactId>
+            <version>${entando.version}</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>org.entando.entando.bundles.contents</groupId>
+            <artifactId>entando-content-download</artifactId>
             <version>${entando.version}</version>
             <type>war</type>
         </dependency>

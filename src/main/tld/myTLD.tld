@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	<description><![CDATA[My First Tld]]></description>
+	<display-name>My First Tld</display-name>
+	<tlib-version>2.3</tlib-version>
+	<short-name>mytld</short-name>
+	<uri>myTLD.tld</uri>
+
+	<tag>
+		<description><![CDATA[Return the list of the system categories on SelectItem objects.]]></description>
+		<name>categories</name>
+		<tag-class>it.dgsia.aps.tags.MyCategoriesTag</tag-class>
+		<body-content>empty</body-content>
+<!--		<attribute>
+			<description><![CDATA[the input category. The default is home]]></description>
+			<name>cat</name>
+			<required>no</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>-->
+                <attribute>
+			<description><![CDATA[The resulting list]]></description>
+			<name>var</name>
+			<required>yes</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<description><![CDATA[.....]]></description>
+		<name>moduli</name>
+		<tag-class>it.dgsia.aps.tags.ModuliTag</tag-class>
+		<body-content>empty</body-content>
+       <attribute>
+			<description><![CDATA[.....]]></description>
+			<name>listName</name>
+			<required>yes</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+       <attribute>
+			<description><![CDATA[.....]]></description>
+			<name>categoryCodes</name>
+			<required>yes</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+       <attribute>
+			<description><![CDATA[.....]]></description>
+			<name>inputValues</name>
+			<required>yes</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	<tag>
+		<description><![CDATA[Return the list of the system categories on SelectItem objects.]]></description>
+		<name>categorieModuli</name>
+		<tag-class>it.dgsia.aps.tags.CategoriesPlusTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<description><![CDATA[The style of the single select item. Currently it can be 'default' (single title node),
+				'full' (title with all parents) or 'prettyFull' (title with all parents in form of '..').
+				The default when none is given is 'default'.]]></description>
+			<name>titleStyle</name>
+			<required>no</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description><![CDATA[the separator beetwen the titles when 'titleStyle' is 'full' or 'prettyFull'.]]></description>
+			<name>fullTitleSeparator</name>
+			<required>no</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description><![CDATA[Name of the page-scoped variable where to place the list of categories.]]></description>
+			<name>var</name>
+			<required>no</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description><![CDATA[The root of the categories to show. The default is the system root categories]]></description>
+			<name>root</name>
+			<required>no</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description><![CDATA[]]></description>
+			<name>addSubChildren</name>
+			<required>no</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<description></description>
+		<name>resource</name>
+		<tag-class>it.dgsia.aps.tags.ResourceTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<description></description>
+			<name>resourceId</name>
+			<required>yes</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description></description>
+			<name>var</name>
+			<required>yes</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+    
+</taglib>

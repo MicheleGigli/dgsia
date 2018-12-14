@@ -11,7 +11,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-27 09:22:53');
+','2018-12-07 12:33:38');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('bilancio','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Bilancio</property>
@@ -25,7 +25,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-27 09:24:28');
+','2018-12-07 12:35:29');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('come_fare_per','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Come fare per</property>
@@ -39,7 +39,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:36:02');
+','2018-12-13 11:43:38');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('competenza_territoriale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Competenza Territoriale</property>
@@ -53,7 +53,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:28:05');
+','2018-12-07 11:06:41');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('contatti','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Contatti</property>
@@ -67,7 +67,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:42:14');
+','2018-12-07 11:11:07');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('dove_siamo','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Dove Siamo</property>
@@ -81,7 +81,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:38:46');
+','2018-12-07 11:10:35');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('errorpage','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Error page</property>
@@ -100,7 +100,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-06 14:50:28');
+','2018-12-12 11:45:49');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('il_tribunale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Il Tribunale</property>
@@ -134,6 +134,20 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
 <property key="it">Pagina di login</property>
 <property key="en">Login</property>
 </properties>','service',1,NULL,'2017-02-17 15:32:34');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Moduli</property>
+<property key="it">Moduli</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-12-13 16:54:08');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('news','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">News</property>
@@ -147,7 +161,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 11:28:58');
+','2018-12-11 16:21:31');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('notfound','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Page not found</property>
@@ -166,7 +180,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:28:37');
+','2018-12-07 11:09:21');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('paginadettaglio','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Detail page</property>
@@ -236,7 +250,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-27 09:23:44');
+','2018-12-07 12:34:34');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('search_result','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Search result</property>
@@ -286,8 +300,8 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
 ','2018-11-27 16:15:19');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('sezione_come_fare_per','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Sezione Come fare per</property>
-<property key="it">Sezione Come fare per</property>
+<property key="en">Come fare per</property>
+<property key="it">Come fare per</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -297,7 +311,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 12:22:16');
+','2018-12-13 12:44:35');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('sezione_lavoro','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Sezione Lavoro</property>
@@ -325,7 +339,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:38:07');
+','2018-12-07 11:09:59');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('sezione_penale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Sezione Penale</property>
@@ -342,8 +356,8 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
 ','2018-11-27 16:15:44');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('sezione_per_il_cittadino','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Sezione Per il Cittadino</property>
-<property key="it">Sezione Per il Cittadino</property>
+<property key="en">Per il Cittadino</property>
+<property key="it">Per il Cittadino</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -353,11 +367,11 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 12:18:16');
+','2018-12-13 12:43:35');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('sezione_per_il_professionista','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Sezione Per il Professionista</property>
-<property key="it">Sezione Per il Professionista</property>
+<property key="en">Per il Professionista</property>
+<property key="it">Per il Professionista</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -367,11 +381,11 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 12:43:03');
+','2018-12-13 12:43:56');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('sezione_per_l_amministrazia','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Sezione Per l''Amministrazione</property>
-<property key="it">Sezione Per l''Amministrazione</property>
+<property key="en">Per la Pubblica Amministrazione</property>
+<property key="it">Per la Pubblica Amministrazione</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -381,11 +395,11 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 12:21:05');
+','2018-12-13 12:49:23');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('sezione_tribunale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Sezione Tribunale</property>
-<property key="it">Sezione Tribunale</property>
+<property key="en">Il Tribunale</property>
+<property key="it">Il Tribunale</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -395,7 +409,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-23 11:47:24');
+','2018-12-13 12:59:22');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('uffici_e_cancellerie','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Uffici e Cancellerie</property>
@@ -409,4 +423,4 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 15:39:19');
+','2018-12-07 11:08:16');

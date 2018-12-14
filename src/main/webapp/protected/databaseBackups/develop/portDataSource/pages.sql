@@ -9,6 +9,7 @@ INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('homepage','homepage',
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('il_tribunale','sezione_tribunale',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('link_utili','homepage',10,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('login','service',3,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('moduli','sezione_per_il_cittadino',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('news','homepage',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('notfound','service',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('organizzazione','sezione_tribunale',3,'free');
