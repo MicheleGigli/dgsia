@@ -12,6 +12,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BOTH','en','Bot
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BOTH','it','Entrambi');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CATEGORY','en','Category');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CATEGORY','it','Categoria');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CERCA_PER_TITOLO','en','Cerca per Titolo');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CERCA_PER_TITOLO','it','Cerca per Titolo');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CNG_ATTACHMENTS','en','Attachments');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CNG_ATTACHMENTS','it','Allegati');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CNG_LINKS','en','Links');
@@ -204,6 +206,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','it','Il Mio Portale');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','en','Please sign in');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','it','È necessario autenticarsi');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SCEGLI_PER_TITOLO','en','Scegli per Titolo');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SCEGLI_PER_TITOLO','it','Scegli per Titolo');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SEARCH','en','Search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SEARCH','it','Cerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SEARCHED_FOR','en','You searched for');
