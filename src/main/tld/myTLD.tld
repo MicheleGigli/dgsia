@@ -49,6 +49,25 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 	</tag>
+
+	<tag>
+		<description><![CDATA[.....]]></description>
+		<name>comefareper</name>
+		<tag-class>it.dgsia.aps.tags.ComeFarePerTag</tag-class>
+		<body-content>empty</body-content>
+       <attribute>
+			<description><![CDATA[.....]]></description>
+			<name>listName</name>
+			<required>yes</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+       <attribute>
+			<description><![CDATA[.....]]></description>
+			<name>inputValues</name>
+			<required>yes</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
 	<tag>
 		<description><![CDATA[Return the list of the system categories on SelectItem objects.]]></description>
 		<name>categorieModuli</name>

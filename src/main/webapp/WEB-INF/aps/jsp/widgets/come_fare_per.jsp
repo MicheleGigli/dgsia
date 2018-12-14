@@ -6,6 +6,12 @@
 <%--<mytld:categories var="contentList" />--%>
 <wp:currentWidget param="config" configParam="categoryRoot" var="categoryRootVar"/>
 
+<mytld:comefareper listName="contentList" inputValues="inputValues" />
+<%--
+<c:out value="${contentList}" />
+<br />
+<c:out value="${inputValues}" />
+--%>
 <script>
     $(document).ready(function () {
         let placeholder = $('#resultPlaceholder');
