@@ -131,6 +131,13 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('link_utili','home','
 </properties>
 
 ');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('moduli','home','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Moduli</property>
+<property key="it">Moduli</property>
+</properties>
+
+');
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('moduli_sezione_amministrativa','allegati','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Moduli Sezione Amministrativa</property>

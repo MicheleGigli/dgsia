@@ -55,7 +55,7 @@ public class ComeFarePerTag extends TagSupport {
             Map<String, String> values = new HashMap<>(3);
             List<String> categoriesForFilter = this.getCategoryFilters(values, reqCtx);
             Collection<String> userGroupCodes = this.getAllowedGroups(reqCtx);
-            List<String> ids = contentManager.loadPublicContentsId("PRC", categoriesForFilter.toArray(new String[categoriesForFilter.size()]), null, userGroupCodes);
+            List<String> ids = contentManager.loadPublicContentsId("PCR", categoriesForFilter.toArray(new String[categoriesForFilter.size()]), null, userGroupCodes);
             this.pageContext.setAttribute(this.getInputValues(), values);
             this.pageContext.setAttribute(this.getListName(), ids);
         } catch (Throwable t) {
