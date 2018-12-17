@@ -7,7 +7,7 @@
 <html lang="<wp:info key="currentLang" />">
 
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"  pageEncoding="UTF-8" />
         <title>
             <wp:currentPage param="title" /> - <wp:i18n  key="PORTAL_TITLE" />
         </title>

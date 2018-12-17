@@ -7,15 +7,13 @@
 <html lang="<wp:info key="currentLang" />">
 
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"  pageEncoding="UTF-8" />
         <title>
             <wp:currentPage param="title" /> - <wp:i18n  key="PORTAL_TITLE" />
         </title>
         <jsp:include page="inc/header-inclusions.jsp" />
     </head>
     <body>
-
-
 
         <div class="cookiebar bg-dark p-4 hide" aria-hidden="true">
             <p class="text-white">Questo sito utilizza cookie tecnici, analytics e di terze parti.
