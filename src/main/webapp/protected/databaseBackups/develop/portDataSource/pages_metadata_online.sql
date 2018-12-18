@@ -87,6 +87,20 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
 <property key="en">Error page</property>
 <property key="it">Pagina di errore</property>
 </properties>','service',1,NULL,'2017-02-17 21:11:54');
+INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('f_a_q_','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">F.A.Q.</property>
+<property key="it">F.A.Q.</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2018-12-18 10:27:00');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('homepage','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Home</property>

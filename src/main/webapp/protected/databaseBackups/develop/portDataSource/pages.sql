@@ -5,6 +5,7 @@ INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('competenza_territoria
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('contatti','sezione_tribunale',7,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('dove_siamo','sezione_tribunale',5,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('errorpage','service',2,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('f_a_q_','sezione_come_fare_per',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('homepage','homepage',-1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('il_tribunale','sezione_tribunale',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('link_utili','homepage',10,'free');

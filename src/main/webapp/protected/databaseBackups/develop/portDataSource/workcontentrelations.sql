@@ -10,14 +10,6 @@ INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','news'
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','news_in_evidenza');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM463','news');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM463','news_in_evidenza');
-INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','certificati_online');
-INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','allegati_dirigenti');
-INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','pubblica_amministrazione');
-INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','certificati_precompilati');
-INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','cittadino');
-INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','come_fare_per');
-INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','allegati');
-INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','allegati_word');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC658','allegati_dirigenti');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC658','certificati');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC658','carichi_pendenti');
@@ -26,3 +18,11 @@ INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC658','citta
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC658','come_fare_per');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC658','allegati');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC658','allegati_word');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','certificati_online');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','allegati_dirigenti');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','pubblica_amministrazione');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','certificati_precompilati');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','cittadino');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','come_fare_per');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','allegati');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC655','allegati_word');
