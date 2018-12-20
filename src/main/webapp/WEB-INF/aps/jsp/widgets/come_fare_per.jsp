@@ -3,7 +3,7 @@
 <%@ taglib prefix="wp" uri="/aps-core" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="<wp:resourceURL />static/js/jquery.cookie.min.js"></script>
 <%--<mytld:categories var="contentList" />--%>
 <wp:currentWidget param="config" configParam="categoryRoot" var="categoryRootVar"/>
 
@@ -43,7 +43,7 @@
                             dropdown2.empty();
                             dropdown2.append($('<option>', {value: "", text: 'Scegli...'}));
                             dropdown3.empty();
-                            //                            dropdown3.append($('<option>', {value: 1, text: 'Scegli...'}));
+                            //   dropdown3.append($('<option>', {value: 1, text: 'Scegli...'}));
                             $(placeholder).hide();
                             $.each(data, function (key, entry) {
                                 if (key === 'payload') {
@@ -86,54 +86,54 @@
 
                         });
                     });
-                    var timeCookie = $.cookie("timeCookie"),
-                            selElem = $('select[name=macro_area]');
-
-                    console.log(" valore iniziale", timeCookie);
-
-                    selElem.on('change', function () {
-                        $.cookie("timeCookie", this.value);
-                    });
-
-                    if (timeCookie != undefined) {
-                        console.log("ha valore", timeCookie);
-                        selElem.val(timeCookie);
-
-                    } else {
-                        console.log("ha valore 2", timeCookie);
-                        $.cookie("timeCookie", selElem.val());
-                    }
-
-                    var timeCookie2 = $.cookie("timeCookie2"),
-                            selElem2 = $('select[name=subarea_1]');
-
-                    selElem2.on('change', function () {
-                        $.cookie("timeCookie2", this.value);
-                    });
-
-                    if (timeCookie2 != undefined) {
-                        console.log("ha valore", timeCookie2);
-                        selElem2.val(timeCookie2);
-
-                    } else {
-                        console.log("ha valore 2", timeCookie2);
-                        $.cookie("timeCookie2", selElem2.val());
-                    }
-                    var timeCookie3 = $.cookie("timeCookie3"),
-                            selElem3 = $('select[name=subarea_2]');
-
-                    selElem3.on('change', function () {
-                        $.cookie("timeCookie3", this.value);
-                    });
-
-                    if (timeCookie3 != undefined) {
-                        console.log("ha valore", timeCookie3);
-                        selElem3.val(timeCookie3);
-
-                    } else {
-                        console.log("ha valore 3", timeCookie3);
-                        $.cookie("timeCookie3", selElem3.val());
-                    }
+//                    var timeCookie = $.cookie("timeCookie"),
+//                            selElem = $('select[name=macro_area]');
+//
+//                    console.log(" valore iniziale", timeCookie);
+//
+//                    selElem.on('change', function () {
+//                        $.cookie("timeCookie", this.value);
+//                    });
+//
+//                    if (timeCookie != undefined) {
+//                        console.log("ha valore", timeCookie);
+//                        selElem.val(timeCookie);
+//
+//                    } else {
+//                        console.log("ha valore 2", timeCookie);
+//                        $.cookie("timeCookie", selElem.val());
+//                    }
+//
+//                    var timeCookie2 = $.cookie("timeCookie2"),
+//                            selElem2 = $('select[name=subarea_1]');
+//
+//                    selElem2.on('change', function () {
+//                        $.cookie("timeCookie2", this.value);
+//                    });
+//
+//                    if (timeCookie2 != undefined) {
+//                        console.log("ha valore", timeCookie2);
+//                        selElem2.val(timeCookie2);
+//
+//                    } else {
+//                        console.log("ha valore 2", timeCookie2);
+//                        $.cookie("timeCookie2", selElem2.val());
+//                    }
+//                    var timeCookie3 = $.cookie("timeCookie3"),
+//                            selElem3 = $('select[name=subarea_2]');
+//
+//                    selElem3.on('change', function () {
+//                        $.cookie("timeCookie3", this.value);
+//                    });
+//
+//                    if (timeCookie3 != undefined) {
+//                        console.log("ha valore", timeCookie3);
+//                        selElem3.val(timeCookie3);
+//
+//                    } else {
+//                        console.log("ha valore 3", timeCookie3);
+//                        $.cookie("timeCookie3", selElem3.val());
+//                    }
                 });
 </script>
 

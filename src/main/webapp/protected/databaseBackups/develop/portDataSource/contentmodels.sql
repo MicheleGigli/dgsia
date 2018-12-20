@@ -262,7 +262,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   </div> 
 </div>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (13,'CTA','Lista F.A.Q.','<h4 class="card-title">Domande più frequenti</h4>
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (13,'CTA','Lista F.A.Q.','<h4 class="card-title">Domande piï¿½ frequenti</h4>
 <div id="lista-howto" class="collapse-div mb-5" role="tablist">
     #foreach ($item in $content.lista) 
     <div class="collapse-header" id="headingA$item.number.value">
@@ -338,7 +338,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3
             <a class="list-item" href="$item.attachPath">$item.text
             <svg class="icon icon-primary m-0">
                
-               <use xlink:href="/sitiweb2/resources/static/img/sprite.svg#it-download">
+               <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-download">
                </use>
             </svg>           
             </a>
@@ -355,7 +355,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3
         <li>
             <a class="list-item" href="$item.destination">$item.text
             <svg class="icon icon-primary m-0">
-            <use xlink:href="/sitiweb2/resources/static/img/sprite.svg#it-chevron-right">
+            <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-chevron-right">
                 </use>
             </svg>
             
