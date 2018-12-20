@@ -152,7 +152,7 @@
                     <div class="col-12">
                         <div class="media footer-title">
                             <img class="img-fluid mb-3" data-src="" alt=""
-                                 src="<wp:imgURL />logo_procura_inv.png"
+                                 src="<wp:imgURL />logo-Tribunale-di-Torino.png"
                                  data-holder-rendered="true">
                             <div class="media-body">
                                 <span class="sr-only">Nome della Pubblica Amministrazione</span>

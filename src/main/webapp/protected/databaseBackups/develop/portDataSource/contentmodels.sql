@@ -318,7 +318,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3
           <span class="it-multiple">
             <span class="metadata"></span>
            <svg class="icon">
-              <use xlink:href="/sitiweb2/resources/static/img/sprite.svg#it-chevron-right"></use>
+              <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-chevron-right"></use>
             </svg>
           </span>
         </div>
