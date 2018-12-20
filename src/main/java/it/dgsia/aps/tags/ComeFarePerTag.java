@@ -22,6 +22,8 @@ import org.slf4j.LoggerFactory;
 
 import com.agiletec.aps.system.RequestContext;
 import com.agiletec.aps.system.SystemConstants;
+import com.agiletec.aps.system.common.FieldSearchFilter;
+import com.agiletec.aps.system.common.entity.model.EntitySearchFilter;
 import com.agiletec.aps.system.services.authorization.Authorization;
 import com.agiletec.aps.system.services.group.Group;
 import com.agiletec.aps.system.services.user.UserDetails;
@@ -55,9 +57,16 @@ public class ComeFarePerTag extends TagSupport {
             Map<String, String> values = new HashMap<>(3);
             List<String> categoriesForFilter = this.getCategoryFilters(values, reqCtx);
             Collection<String> userGroupCodes = this.getAllowedGroups(reqCtx);
-            List<String> ids = contentManager.loadPublicContentsId("PCR", categoriesForFilter.toArray(new String[categoriesForFilter.size()]), null, userGroupCodes);
+            if (categoriesForFilter.isEmpty()) {
+                this.pageContext.setAttribute(this.getListName(), new ArrayList<String>());
+            } else {
+                EntitySearchFilter roleFilter = EntitySearchFilter.createRoleFilter(JacmsSystemConstants.ATTRIBUTE_ROLE_TITLE);
+                roleFilter.setOrder(FieldSearchFilter.Order.ASC);
+                EntitySearchFilter[] filters = {roleFilter};
+                List<String> ids = contentManager.loadPublicContentsId("PCR", categoriesForFilter.toArray(new String[categoriesForFilter.size()]), filters, userGroupCodes);
+                this.pageContext.setAttribute(this.getListName(), ids);
+            }
             this.pageContext.setAttribute(this.getInputValues(), values);
-            this.pageContext.setAttribute(this.getListName(), ids);
         } catch (Throwable t) {
             _logger.error("error in doStartTag", t);
             throw new JspException("Error detected while initialising the tag", t);

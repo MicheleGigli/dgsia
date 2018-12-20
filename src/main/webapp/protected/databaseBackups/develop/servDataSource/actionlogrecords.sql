@@ -567,87 +567,6 @@ contentType=CTM
 frame=7
 pageLink=paginadettaglio
 ',NULL,'2018-11-26 13:06:45');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (394,'admin','2018-11-26 14:53:52','/do/jacms/Content','save','Text:en_subtitle=bancale
-Text:en_title=bancale2
-treeNodesToOpen=home
-Image:it_img=
-Text:it_abstract=
-__multiselect_extraGroupNames=
-descr=Link Istituzionale1
-Text:en_abstract=Quisque placerat facilisis egestas cillum dolore. Curabitur blandit tempus ardua ridiculus sed magna.
-Text:it_subtitle=
-contentOnSessionMarker=CTM_editContent_CTM36
-Image:en_img=BANC1
-Date:date=
-entandoaction:save=Submit
-Text:it_title=
-status=
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Link Istituzionale1</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>2</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM36</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2018-11-26 14:53:52');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (395,'admin','2018-11-26 14:54:52','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Di seguito il link utile 1
-entandoaction:saveAndApprove=Submit
-Text:en_title=Link utile1
-Link:it_link=
-treeNodesToOpen=home
-Image:it_img=
-Text:it_abstract=
-__multiselect_extraGroupNames=
-descr=Link utile1
-Text:en_abstract=Quisque placerat facilisis egestas cillum dolore. Curabitur blandit tempus ardua ridiculus sed magna.
-Text:it_subtitle=
-contentOnSessionMarker=CTM_editContent_CTM57
-Image:en_img=link utile1
-Date:date=
-Text:it_title=
-Link:en_link=ABCD
-status=
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Link utile1</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM57</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2018-11-26 14:54:52');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (396,'admin','2018-11-26 14:55:01','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Di seguito il link utile 3
 entandoaction:saveAndApprove=Submit
 Text:en_title=Link utile3
@@ -19322,3 +19241,89 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-12-18 10:46:36');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (978,'admin','2018-12-20 11:57:27','/do/jacms/Content','saveAndApprove','Text:it_titolo=
+entandoaction:saveAndApprove=Submit
+Hypertext:en_body=Test come fare per Test come fare per 
+treeNodesToOpen=home
+Longtext:en_abstract=Abstract Test come fare per
+Monolist:Link:it_links_0=
+Monolist:Attach:en_allegati_0=carico pendente
+__multiselect_extraGroupNames=
+Longtext:it_abstract=
+descr=Procedura di test 1
+Hypertext:it_body=
+Monolist:Link:en_links_0=Home page
+contentOnSessionMarker=PCR_editContent_PCR963
+jacmsPreviewActionPageCode_it=
+jacmsPreviewActionPageCode_en=
+Monolist:Attach:it_allegati_0=
+Text:en_titolo=Test come fare per
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Procedura di test 1</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">PCR963</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-12-20 11:57:27');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (979,'admin','2018-12-20 11:58:50','/do/jacms/Content','saveAndApprove','Text:it_titolo=
+entandoaction:saveAndApprove=Submit
+Hypertext:en_body=Corpo testo Procedura di test 2
+treeNodesToOpen=home
+Longtext:en_abstract=Abstract Procedura di test 2
+Monolist:Link:it_links_0=
+Monolist:Attach:en_allegati_0=allegato
+__multiselect_extraGroupNames=
+Longtext:it_abstract=
+descr=Procedura di test 2
+Hypertext:it_body=
+Monolist:Link:en_links_0=Home page
+contentOnSessionMarker=PCR_editContent_PCR965
+jacmsPreviewActionPageCode_it=
+jacmsPreviewActionPageCode_en=
+Monolist:Attach:it_allegati_0=
+Text:en_titolo=Procedura di test 2
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Procedura di test 2</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">PCR965</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-12-20 11:58:50');

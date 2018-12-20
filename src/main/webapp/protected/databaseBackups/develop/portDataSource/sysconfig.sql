@@ -90,6 +90,9 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 				<validations>
 					<required>true</required>
 				</validations>
+				<roles>
+					<role>jacms:title</role>
+				</roles>
 			</attribute>
 			<attribute name="abstract" attributetype="Longtext" description="abstract" />
 			<attribute name="body" attributetype="Hypertext" description="body" />

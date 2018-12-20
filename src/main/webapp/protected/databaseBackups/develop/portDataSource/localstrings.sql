@@ -10,8 +10,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ALL','en','All'
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ALL','it','Tutte');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BOTH','en','Both');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BOTH','it','Entrambi');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BTN_FILTRA','en','Filtra');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BTN_FILTRA','it','Filtra');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BTN_FILTRA','en','Cerca');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BTN_FILTRA','it','Cerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CATEGORY','en','Category');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CATEGORY','it','Categoria');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CERCA_PER_TITOLO','en','Cerca per Titolo');
@@ -202,6 +202,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','it','Il Mio Portale');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','en','Please sign in');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','it','È necessario autenticarsi');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_RICERCA','en','Risultato Ricerca');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_RICERCA','it','Risultato Ricerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SCEGLI_PER_TITOLO','en','Scegli per Titolo');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SCEGLI_PER_TITOLO','it','Scegli per Titolo');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SEARCH','en','Search');

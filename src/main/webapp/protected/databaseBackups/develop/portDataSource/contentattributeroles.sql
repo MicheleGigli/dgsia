@@ -20,3 +20,5 @@ INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG371'
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG861','Title','jacms:title');
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG355','Title','jacms:title');
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG968','Title','jacms:title');
+INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('PCR963','titolo','jacms:title');
+INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('PCR965','titolo','jacms:title');
