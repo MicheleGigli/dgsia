@@ -214,6 +214,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA',
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','it','È necessario autenticarsi');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_NULLO','en','La ricerca non ha restituito nessun risultato.');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_NULLO','it','La ricerca non ha restituito nessun risultato.');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_RICERCA','en','Risultato Ricerca');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_RICERCA','it','Risultato Ricerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SCEGLI_allegati','en','Scegli tipo allegato');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SCEGLI_allegati','it','Scegli tipo allegato');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SCEGLI_cittadino','en','Scegli "chi sei"');

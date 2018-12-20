@@ -75,65 +75,6 @@ Image:en_img=BANC1
 Text:it_title=
 status=
 ',NULL,'2018-11-21 16:07:17');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (48,'admin','2018-11-21 16:37:39','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
-Monolist:Composite:Image:it_lista_img_0=
-Text:en_title=Servizi
-Monolist:Composite:Image:en_lista_img_0=cittadino
-Monolist:Composite:Longtext:it_lista_abstract_1=
-Monolist:Composite:Longtext:it_lista_abstract_0=
-Monolist:Composite:Image:en_lista_img_2=amministrazione
-Monolist:Composite:Image:en_lista_img_1=professionista
-__multiselect_extraGroupNames=
-contentOnSessionMarker=CTA_editContent_CTA22
-Monolist:Composite:Image:it_lista_img_2=
-Monolist:Composite:Image:it_lista_img_1=
-Monolist:Composite:Longtext:en_lista_abstract_2=
-Monolist:Composite:Longtext:en_lista_abstract_0=
-Monolist:Composite:Longtext:en_lista_abstract_1=
-Monolist:Composite:Text:en_lista_title_1=PER IL PROFESSIONISTA
-Monolist:Composite:Text:en_lista_title_0=PER IL CITTADINO
-Monolist:Composite:Text:en_lista_title_2=amministrazione
-Monolist:Composite:Date:lista_date_1=
-Monolist:Composite:Date:lista_date_2=
-treeNodesToOpen=home
-Monolist:Composite:Date:lista_date_0=
-Monolist:Composite:Number:lista_number_2=
-descr=LISTA SERVIZI HOME PAGE
-Monolist:Composite:Number:lista_number_1=
-Monolist:Composite:Text:it_lista_title_1=
-Monolist:Composite:Text:it_lista_title_0=
-Monolist:Composite:Longtext:it_lista_abstract_2=
-Monolist:Composite:Text:it_lista_title_2=
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Number:lista_number_0=
-jacmsPreviewActionPageCode_en=
-Text:it_title=
-status=
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">LISTA SERVIZI HOME PAGE</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA22</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2018-11-21 16:37:39');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (49,'admin','2018-11-21 16:53:55','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
 Monolist:Composite:Link:en_lista_link_0=AAA
 Monolist:Composite:Image:it_lista_img_0=
@@ -20445,3 +20386,47 @@ status=
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-12-20 11:17:49');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (693,'admin','2018-12-20 11:58:54','/do/jacms/Content','saveAndApprove','Text:it_titolo=
+entandoaction:saveAndApprove=Submit
+Hypertext:en_body=Test come fare per Test come fare per 
+
+treeNodesToOpen=home
+Longtext:en_abstract=Abstract Test come fare per
+Monolist:Link:it_links_0=
+Monolist:Attach:en_allegati_0=carico pendente
+__multiselect_extraGroupNames=
+Longtext:it_abstract=
+descr=Procedura di test 1
+Hypertext:it_body=
+Monolist:Link:en_links_0=Home page
+contentOnSessionMarker=PRC_editContent_PRC655
+jacmsPreviewActionPageCode_it=
+jacmsPreviewActionPageCode_en=
+Monolist:Attach:it_allegati_0=
+Text:en_titolo=Test come fare per
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Procedura di test 1</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">PRC655</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2018-12-20 11:58:54');
