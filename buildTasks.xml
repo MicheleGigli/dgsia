@@ -12,7 +12,7 @@
 		<echo message="========================================================================" />
 		<echo message=".:[Maven] :: Cleaning the project..." />
 		<echo message="========================================================================" />
-		<exec executable="mvn" dir="${basedir}">
+		<exec executable="mvn.cmd" dir="${basedir}">
 			<arg value="clean"/>
 		</exec>
 	</target>
@@ -22,7 +22,7 @@
 		<echo message="========================================================================" />
 		<echo message=".:[Maven] :: Initializing the project..." />
 		<echo message="========================================================================" />
-		<exec executable="mvn" dir="${basedir}">
+		<exec executable="mvn.cmd" dir="${basedir}">
 			<arg value="validate"/>
 			<arg value="generate-test-resources"/>
 		</exec>
@@ -32,7 +32,7 @@
 		<echo message="========================================================================" />
 		<echo message=".:[Maven] :: Compiling the sources..." />
 		<echo message="========================================================================" />
-		<exec executable="mvn" dir="${basedir}">
+		<exec executable="mvn.cmd" dir="${basedir}">
 			<arg value="compile"/>
 			<arg value="test-compile"/>
 		</exec>
@@ -42,7 +42,7 @@
 		<echo message="========================================================================" />
 		<echo message=".:[Maven] :: Packaging the WAR..." />
 		<echo message="========================================================================" />
-		<exec executable="mvn" dir="${basedir}">
+		<exec executable="mvn.cmd" dir="${basedir}">
 			<env key="MAVEN_WORKING_MODE" value="production"/>
 			<arg line="-P !development-windows"/>
 			<arg value="package"/>
@@ -55,7 +55,7 @@
 		<echo message="========================================================================" />
 		<echo message=".:[Maven] :: Packaging the Jboss WAR..." />
 		<echo message="========================================================================" />
-		<exec executable="mvn" dir="${basedir}">
+		<exec executable="mvn.cmd" dir="${basedir}">
 			<env key="MAVEN_WORKING_MODE" value="production-jboss"/>
 			<arg line="-P !development-windows"/>
 			<arg value="package"/>
@@ -67,7 +67,7 @@
 		<echo message="========================================================================" />
 		<echo message=".:[Maven] :: Packaging the standalone executable WAR..." />
 		<echo message="========================================================================" />
-		<exec executable="mvn" dir="${basedir}">
+		<exec executable="mvn.cmd" dir="${basedir}">
 			<env key="MAVEN_WORKING_MODE" value="standalone"/>
 			<arg line="-P !development-windows"/>
 			<arg value="package"/>
@@ -316,7 +316,7 @@
 		<echo message="========================================================================" />
 		<echo message=".:[Maven] :: Generating the Site..." />
 		<echo message="========================================================================" />
-		<exec executable="mvn" dir="${basedir}">
+		<exec executable="mvn.cmd" dir="${basedir}">
 			<arg value="site"/>
 		</exec>
 	</target>
