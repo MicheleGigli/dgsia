@@ -262,7 +262,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   </div> 
 </div>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (13,'CTA','Lista F.A.Q.','<h4 class="card-title">Domande piï¿½ frequenti</h4>
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (13,'CTA','Lista F.A.Q.','<h4 class="card-title">Domande più frequenti</h4>
 <div id="lista-howto" class="collapse-div mb-5" role="tablist">
     #foreach ($item in $content.lista) 
     <div class="collapse-header" id="headingA$item.number.value">
