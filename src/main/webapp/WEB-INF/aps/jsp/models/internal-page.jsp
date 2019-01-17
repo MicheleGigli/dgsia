@@ -57,7 +57,9 @@
             <div class="container py-1">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <img class="img-fluid" src="<wp:imgURL />logo_procura.png">
+                    <a href="<wp:url page="homepage" />" > 
+                        <img class="img-fluid" src="<wp:imgURL />logo-corte-torino_white.png">
+                        </a>
                     </div>
 
                     <div class="col-12 col-md-6">
@@ -152,7 +154,7 @@
                     <div class="col-12">
                         <div class="media footer-title">
                             <img class="img-fluid mb-3" data-src="" alt=""
-                                 src="<wp:imgURL />logo_procura_inv.png"
+                                 src="<wp:imgURL />logo-corte-torino_white1.png"
                                  data-holder-rendered="true">
                             <div class="media-body">
                                 <span class="sr-only">Nome della Pubblica Amministrazione</span>
