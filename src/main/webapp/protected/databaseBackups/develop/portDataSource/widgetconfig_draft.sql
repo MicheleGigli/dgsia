@@ -292,7 +292,6 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',3,'entando-widget-login_form',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',5,'content_viewer_list_carousel','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="maxElemForItem">3</property>

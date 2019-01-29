@@ -310,7 +310,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 16:06:33');
+','2019-01-28 12:36:19');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('info_palazzo','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Info Palazzo</property>

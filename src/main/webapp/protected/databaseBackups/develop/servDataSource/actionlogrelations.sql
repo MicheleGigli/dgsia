@@ -3,7 +3,6 @@ INSERT INTO actionlogrelations (recordid,refgroup) VALUES (134,'administrators')
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (135,'administrators');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (136,'administrators');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (137,'administrators');
-INSERT INTO actionlogrelations (recordid,refgroup) VALUES (396,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (397,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (398,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (399,'free');
@@ -503,3 +502,4 @@ INSERT INTO actionlogrelations (recordid,refgroup) VALUES (976,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (977,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (978,'free');
 INSERT INTO actionlogrelations (recordid,refgroup) VALUES (979,'free');
+INSERT INTO actionlogrelations (recordid,refgroup) VALUES (980,'free');

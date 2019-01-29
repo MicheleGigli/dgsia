@@ -104,7 +104,7 @@ h2.border-bottom {
 /*CAROUSEL*/
 .carousel {
     background-color: #444e57;
-    padding: 3.5em 3em 3em;
+    padding-top: 3.5em;
     padding-right: 3em;
     padding-left: 3em;
 }
@@ -172,6 +172,7 @@ h2.border-bottom {
 
 .card-header {
     position: relative;
+	height:85px;
 }
 
 .card-header .card-text {
@@ -300,7 +301,7 @@ h2.border-bottom {
 /**/
 /* LINK ISTITUZIONALI */
 #section5 .carousel-inner{
-    height: 150px;
+    height: 125px;
 }
 /**/
 

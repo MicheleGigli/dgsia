@@ -268,7 +268,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-05 16:06:33');
+','2019-01-28 12:36:19');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('la_corte_d_appello','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Informazioni</property>
