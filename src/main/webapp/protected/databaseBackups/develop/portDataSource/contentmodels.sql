@@ -386,7 +386,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (182,'CTM','Carousel con filtri home','<div class="it-single-slide-wrapper">
 
-    <a href="#">
+    <a href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">
 
         <div class="img-responsive-wrapper">
 
@@ -424,7 +424,11 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 
                     </div>
 
-                    <h5 class="card-title big-heading">$content.title.text</h5>
+                    <h5 class="card-title big-heading">
+                    	<a href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">
+                    		$content.title.text
+                      </a>  
+                    </h5>
 
                     <p class="card-text">$content.abstract.text</p>
 

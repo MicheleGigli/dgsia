@@ -75,65 +75,6 @@ Image:en_img=BANC1
 Text:it_title=
 status=
 ',NULL,'2018-11-21 16:07:17');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (54,'admin','2018-11-21 17:17:19','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
-Monolist:Composite:Image:it_lista_img_0=
-Text:en_title=Notizie in primo piano
-Monolist:Composite:Image:en_lista_img_0=notizia1
-Monolist:Composite:Longtext:it_lista_abstract_1=
-Monolist:Composite:Longtext:it_lista_abstract_0=
-Monolist:Composite:Image:en_lista_img_2=notizia3
-Monolist:Composite:Image:en_lista_img_1=notizia2
-__multiselect_extraGroupNames=
-contentOnSessionMarker=CTA_editContent_CTA30
-Monolist:Composite:Image:it_lista_img_2=
-Monolist:Composite:Image:it_lista_img_1=
-Monolist:Composite:Longtext:en_lista_abstract_2=ASSFVSPOF DFOKS �OFS�FK�SOK SODGSOFJS OFJSO SOJF OJFOFJ� OEFJ�OFJ�OEFJ F�QO JF�OJF�OFJ�AO F�OJF�QOFJ�C  FKF�F �FJFOJQ
-Monolist:Composite:Longtext:en_lista_abstract_0=dfogheaouheohfo fhfoifh oiwgh owefjFK  wgj p jp powefpOWF  FPWfj P
-Monolist:Composite:Longtext:en_lista_abstract_1=ADUFH UAOIF OJ FJJPIFJPDJFP AFJAPOFJ OJAOSJDAJ   AOSFJAOFJ J J
-Monolist:Composite:Text:en_lista_title_1=NOTIZIA 2
-Monolist:Composite:Text:en_lista_title_0=NOTIZIA 1
-Monolist:Composite:Text:en_lista_title_2=NOTIZIA3
-Monolist:Composite:Date:lista_date_1=29/11/2018
-Monolist:Composite:Date:lista_date_2=30/11/2018
-treeNodesToOpen=home
-Monolist:Composite:Date:lista_date_0=26/11/2018
-Monolist:Composite:Number:lista_number_2=
-descr=NOTIZIE IN PRIMO PIANO
-Monolist:Composite:Number:lista_number_1=
-Monolist:Composite:Text:it_lista_title_1=
-Monolist:Composite:Text:it_lista_title_0=
-Monolist:Composite:Longtext:it_lista_abstract_2=
-Monolist:Composite:Text:it_lista_title_2=
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Number:lista_number_0=
-jacmsPreviewActionPageCode_en=
-Text:it_title=
-status=
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">NOTIZIE IN PRIMO PIANO</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA30</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2018-11-21 17:17:19');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (56,'admin','2018-11-21 17:36:13','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Di seguito il link utile 1
 entandoaction:saveAndApprove=Submit
 Text:en_title=Link utile1
@@ -20424,3 +20365,31 @@ status=
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2018-12-21 10:16:53');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (696,'admin','2019-01-28 11:46:32','/do/rs/Page','setOnline','','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-01-28 11:46:32');
