@@ -30,8 +30,29 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </config>','jacms',NULL,NULL,1,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('content_viewer_list_carousel','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Contents - Publish a List of Carousel Contents</property>
-<property key="it">Contenuti - Pubblica una Lista di Contenuti Carousel</property>
+<property key="en">Contents - Publish Carousel Contents</property>
+<property key="it">Contenuti - Pubblica Contenuti Carousel</property>
+</properties>
+
+','<config>
+	<parameter name="contentType">Content Type (mandatory)</parameter>
+	<parameter name="modelId">Content Model</parameter>
+	<parameter name="userFilters">Front-End user filter options</parameter>
+	<parameter name="category">Content Category **deprecated**</parameter>
+	<parameter name="categories">Content Category codes (comma separeted)</parameter>
+	<parameter name="orClauseCategoryFilter" />
+	<parameter name="maxElemForItem">Contents for each page</parameter>
+	<parameter name="maxElements">Number of contents</parameter>
+	<parameter name="filters" />
+	<parameter name="title_{lang}">Widget Title in lang {lang}</parameter>
+	<parameter name="pageLink">The code of the Page to link</parameter>
+	<parameter name="linkDescr_{lang}">Link description in lang {lang}</parameter>
+	<action name="listViewerConfig"/>
+</config>','jacms',NULL,NULL,1,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('content_viewer_list_links','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Contents - Publish a List of Links</property>
+<property key="it">Contenuti - Pubblica una Lista di Link</property>
 </properties>
 
 ','<config>
@@ -51,8 +72,8 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </config>','jacms',NULL,NULL,1,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('content_viewer_list_news','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-    <property key="en">Contents - Publish a List of Contents News</property>
-    <property key="it">Contenuti - Pubblica una Lista di Contenuti News</property>
+    <property key="en">Contents - Publish Contents News</property>
+    <property key="it">Contenuti - Pubblica Contenuti News</property>
 </properties>','<config>
     <parameter name="contentType">Content Type (mandatory)</parameter>
     <parameter name="modelId">Content Model</parameter>
