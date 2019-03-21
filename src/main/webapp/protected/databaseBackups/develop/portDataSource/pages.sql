@@ -69,3 +69,4 @@ INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('sezione_tribunale','h
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('s_a_s_prospetti_possibili','sezione_per_il_cittadino',6,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('trova_ufficio_','sezione_tribunale',14,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('uffici_e_cancellerie','sezione_tribunale',6,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('useful_links','homepage',16,'free');

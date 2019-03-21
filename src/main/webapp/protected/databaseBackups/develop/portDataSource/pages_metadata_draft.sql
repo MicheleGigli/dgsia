@@ -240,7 +240,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-03-21 10:52:14');
+','2019-03-21 16:41:47');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('il_tribunale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">La procura</property>
@@ -530,7 +530,7 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-30 01:49:30');
+','2019-03-21 17:16:26');
 INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('protocolli_e_convenzioni','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Protocolli e Convenzioni</property>
@@ -956,3 +956,17 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
 </config>
 
 ','2018-11-27 16:20:10');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('useful_links','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Link utili</property>
+<property key="it">Link utili</property>
+</properties>
+
+','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <useextratitles>false</useextratitles>
+  <charset>utf-8</charset>
+  <mimeType>text/html</mimeType>
+</config>
+
+','2019-03-21 17:52:34');

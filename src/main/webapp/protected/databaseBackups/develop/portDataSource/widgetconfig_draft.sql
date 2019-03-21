@@ -296,13 +296,17 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',8,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="maxElemForItem">3</property>
+<property key="maxElements">8</property>
+<property key="filters">(order=ASC;attributeFilter=false;key=created)</property>
 <property key="title_it">Link Utili</property>
+<property key="linkDescr_it">Vedi tutti</property>
+<property key="pageLink">useful_links</property>
 <property key="categories">link_utili</property>
-<property key="maxElements">3</property>
+<property key="maxElemForItem">8</property>
 <property key="title_en">Usefull links</property>
-<property key="contentType">CTM</property>
 <property key="modelId">4</property>
+<property key="contentType">CTM</property>
+<property key="linkDescr_en">Read more</property>
 </properties>
 
 ');
@@ -622,8 +626,8 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('pe
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('per_l_amministrazione',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('per_l_amministrazione',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="modelId">9</property>
 <property key="contentId">CNG375</property>
+<property key="modelId">9</property>
 </properties>
 
 ');
@@ -1039,6 +1043,27 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('uf
 <properties>
 <property key="contentId">CTA497</property>
 <property key="modelId">10</property>
+</properties>
+
+');
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('useful_links',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('useful_links',1,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('useful_links',2,'Navigation_Bar_Settato',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('useful_links',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('useful_links',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('useful_links',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="contentId">CNG840</property>
+</properties>
+
+');
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('useful_links',9,'content_viewer_list_links','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="maxElemForItem">6</property>
+<property key="categories">link_utili</property>
+<property key="filters">(order=ASC;attributeFilter=false;key=created)</property>
+<property key="contentType">CTM</property>
+<property key="modelId">13</property>
 </properties>
 
 ');

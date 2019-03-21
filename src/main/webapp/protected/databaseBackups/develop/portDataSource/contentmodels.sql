@@ -6,9 +6,12 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   
    #foreach ($contentCategory in $content.getCategories())
 
-   #if ($contentCategory.title != "")
+   #if ($contentCategory.title.lenght > 1)
                              
-       $contentCategory.title
+       $contentCategory.title -
+       
+       #else 
+        $contentCategory.title
       
    #end
                     
@@ -74,14 +77,16 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3
 	</section>
 
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4,'CTM','Link Utili Home Page','<div class="card border-0 rounded">
-                        <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
-                        <div class="card-body">
-                            <h5 class="card-title">$content.title.text
-                            <p class="card-text">$content.abstract.text </p>
-                            <a href="$content.link.destination" type="button" class="btn btn-outline-primary">vai al sito</a>
-                        </div>
-                    </div>
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4,'CTM','Link Utili Home Page','<div class="col-sm-6 col-md-3 py-2">
+ <div class="card border-0 rounded">
+   <a href="$content.link.destination">
+     <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+    </a>
+    <div class="card-body">
+        <h5 class="card-title">$content.title.text</h5>            
+    </div>
+ </div>
+</div>
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5,'CTA','Trasparenza Home Page','<section id="section4" class="bg-dark">
 
@@ -299,6 +304,22 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
     </li>
 </div>
 ',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (13,'CTM','Link Utili per pagine interne','<div class="col-sm-12 col-md-4 py-2">
+<div class="card border-0 rounded">
+    <a href="$content.link.destination">
+      <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+    </a>
+    <div class="card-body">
+        <h5 class="card-title">$content.title.text</h5>
+            
+            
+            <p class="card-text">$content.abstract.text </p>
+           
+           
+           
+    </div>
+</div>
+</div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (17,'CTM','Modello Link Utili Pagina Primo livello','<div class="col-md-4">
 	<div class="card border rounded mb-4">
 		<img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
@@ -360,7 +381,9 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 
                         #if ($contentCategory.title != "")
                         <a class="category" href="$content.getContentOnPageLink("news_categorizzate")&modelId=55&category=$contentCategory.code ">                           
-                           $contentCategory.title
+
+                          $contentCategory.title
+       
                         </a>
                         #end
                     
