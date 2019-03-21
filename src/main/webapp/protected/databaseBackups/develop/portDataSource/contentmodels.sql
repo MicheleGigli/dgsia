@@ -1,9 +1,21 @@
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1,'CTM','Notizia Home','<div class="card shadow rounded">
 <div class="card-header">
 <p class="card-text orange">
+
 <span class="text-uppercase font-weight-bold">
-  $content.tipologia.text
+  
+   #foreach ($contentCategory in $content.getCategories())
+
+   #if ($contentCategory.title != "")
+                             
+       $contentCategory.title
+      
+   #end
+                    
+#end
+  
 </span>
+
   <small class="text-muted d-block">$content.date.shortDate</small>
 </p>
 </div>
@@ -326,8 +338,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
     <!--end card-->
   </div>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (182,'CTM','Carousel con filtri home','
-<div class="it-single-slide-wrapper">
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (182,'CTM','Carousel con filtri home','<div class="it-single-slide-wrapper">
     <a href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">
        <div class="img-responsive-wrapper">
             <div class="img-responsive">
@@ -348,7 +359,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
                       #foreach ($contentCategory in $content.getCategories())
 
                         #if ($contentCategory.title != "")
-                        <a class="category" href="$content.getContentOnPageLink("news_categorizzate")&modelId=55&contentCategory=$contentCategory.code ">                           
+                        <a class="category" href="$content.getContentOnPageLink("news_categorizzate")&modelId=55&category=$contentCategory.code ">                           
                            $contentCategory.title
                         </a>
                         #end

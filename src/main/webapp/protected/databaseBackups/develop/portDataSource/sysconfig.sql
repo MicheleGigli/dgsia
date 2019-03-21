@@ -52,22 +52,51 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 	<contenttype typecode="CTM" typedescr="Contenuto base titl+sub+img+link" viewpage="paginadettaglio" listmodel="12" defaultmodel="1">
 		<attributes>
 			<attribute name="primopiano" attributetype="Boolean" description="Primo piano" searchable="true" />
-			<attribute name="tipologia" attributetype="Text" description="tipologia" searchable="true" indexingtype="TEXT" />
-			<attribute name="title" attributetype="Text" description="title" indexingtype="TEXT">
+			<attribute name="title" attributetype="Text" description="Titolo" indexingtype="TEXT">
 				<validations>
 					<required>true</required>
 				</validations>
 			</attribute>
-			<attribute name="subtitle" attributetype="Text" description="subtitle">
+			<attribute name="subtitle" attributetype="Text" description="Sottotitolo">
 				<validations>
 					<required>true</required>
 				</validations>
 			</attribute>
-			<attribute name="img" attributetype="Image" description="immagine" />
+			<attribute name="img" attributetype="Image" description="Immagine in evidenza" />
 			<attribute name="link" attributetype="Link" description="link" />
-			<attribute name="abstract" attributetype="Text" description="abstract" indexingtype="TEXT" />
-			<attribute name="date" attributetype="Date" description="data" searchable="true" indexingtype="TEXT" />
-			<attribute name="autore" attributetype="Text" description="autore" searchable="true" indexingtype="TEXT" />
+			<attribute name="abstract" attributetype="Text" description="Estratto del testo" indexingtype="TEXT" />
+			<attribute name="date" attributetype="Date" description="Data" searchable="true" indexingtype="TEXT" />
+			<attribute name="autore" attributetype="Text" description="Autore" searchable="true" indexingtype="TEXT" />
+			<list name="article" attributetype="Monolist" description="Corpo articolo">
+				<validations>
+					<required>true</required>
+				</validations>
+				<nestedtype>
+					<attribute name="article" attributetype="Composite">
+						<attributes>
+							<attribute name="text1" attributetype="Hypertext" description="Parte del testo" indexingtype="TEXT">
+								<validations>
+									<required>true</required>
+								</validations>
+							</attribute>
+							<attribute name="img1" attributetype="Image" description="Immagine nel corpo">
+								<validations />
+							</attribute>
+							<attribute name="link1" attributetype="Link" description="link nel corpo">
+								<validations />
+							</attribute>
+						</attributes>
+					</attribute>
+				</nestedtype>
+			</list>
+			<list name="attach" attributetype="Monolist" description="Lista allegati">
+				<validations />
+				<nestedtype>
+					<attribute name="attach" attributetype="Attach">
+						<validations />
+					</attribute>
+				</nestedtype>
+			</list>
 		</attributes>
 	</contenttype>
 </contenttypes>
@@ -354,7 +383,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','langs','
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params','Configuration params.','<?xml version="1.0" encoding="UTF-8"?>
 <Params>
 	<Param name="urlStyle">classic</Param>
-	<Param name="hypertextEditor">none</Param>
+	<Param name="hypertextEditor">fckeditor</Param>
 	<Param name="treeStyle_page">classic</Param>
 	<Param name="treeStyle_category">classic</Param>
 	<Param name="startLangFromBrowser">false</Param>
@@ -390,7 +419,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params',
 </Params>
 
 ');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20190320151135');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20190321124400');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','userProfileTypes','User Profile Types Definitions','<?xml version="1.0" encoding="UTF-8"?>
 <profiletypes>
 	<profiletype typecode="PFL" typedescr="Default user profile">
