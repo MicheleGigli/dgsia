@@ -266,7 +266,7 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('inter
 		<sketch x1="0" y1="2" x2="8" y2="2" />
 		<defaultWidget code="Navigation_Bar_Settato">
 			<properties>
-				<property key="navSpec">code(corte_d_appello).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
+				<property key="navSpec">code(sezione_tribunale).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
 			</properties>
 		</defaultWidget>
 	</frame>
@@ -282,7 +282,7 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('inter
 	</frame>
 	<frame pos="5">
 		<descr>contenuto destra</descr>
-		<sketch x1="0" y1="4" x2="8" y2="8" />
+		<sketch x1="0" y1="4" x2="8" y2="10" />
 	</frame>
 	<frame pos="6">
 		<descr>col sinistra</descr>
@@ -290,7 +290,7 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('inter
 	</frame>
 	<frame pos="7">
 		<descr>contenuto destra</descr>
-		<sketch x1="0" y1="9" x2="8" y2="10" />
+		<sketch x1="0" y1="11" x2="8" y2="12" />
 	</frame>
 	<frame pos="8">
 		<descr>col sinistra</descr>
@@ -322,6 +322,11 @@ INSERT INTO pagemodels (code,descr,frames,plugincode,templategui) VALUES ('landi
 	<frame pos="2">
 		<descr>Menu</descr>
 		<sketch x1="0" y1="2" x2="8" y2="2" />
+		<defaultWidget code="Navigation_Bar_Settato">
+			<properties>
+				<property key="navSpec">code(sezione_tribunale).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
+			</properties>
+		</defaultWidget>
 	</frame>
 	<frame pos="3">
 		<descr>Accesso</descr>

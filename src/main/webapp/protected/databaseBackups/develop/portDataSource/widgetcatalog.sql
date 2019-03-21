@@ -1,13 +1,3 @@
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('come_fare_per','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Come Fare Per</property>
-<property key="it">Come Fare Per</property>
-</properties>
-
-','<config>
-                <parameter name="categoryRoot">category root</parameter>
-	<action name="configSimpleParameter"/>
-</config>',NULL,NULL,NULL,1,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Contents - Publish a Content</property>
@@ -161,15 +151,6 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 </properties>
 
 ',0,'free');
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('lista_moduli','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Lista Moduli</property>
-<property key="it">Lista Moduli</property>
-</properties>','<config>
-<parameter name="mainCategoryFilter">Filtro principale</parameter>
-                <parameter name="categoryCodesCSV">Codici categorie in CSV</parameter>
-	<action name="configSimpleParameter"/>
-</config>',NULL,NULL,NULL,1,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('login_form','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Login Form</property>
@@ -188,43 +169,7 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 
 ',NULL,NULL,'entando-widget-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="navSpec">code(corte_d_appello).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
-</properties>
-
-',0,'free');
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('Navigation_Bar_Side_CA','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Navigation BAR Site Corte d''Appello</property>
-<property key="it">Navigation BAR Site Corte d''Appello</property>
-</properties>
-
-',NULL,NULL,'entando-widget-side-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="navSpec">code(corte_d_appello).subtree(1)</property>
-</properties>
-
-',0,'free');
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('Navigation_Bar_Side_PerIlCittadino','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Navigation Bar Side Per Il Cittadino</property>
-<property key="it">Navigation Bar Side Per Il Cittadino</property>
-</properties>
-
-',NULL,NULL,'entando-widget-side-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="navSpec">code(sezione_per_il_cittadino).subtree(1)</property>
-</properties>
-
-',0,'free');
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('Navigation_Internal_Child','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Navigation-Internal-Child</property>
-<property key="it">Navigation-Internal-Child</property>
-</properties>
-
-',NULL,NULL,'entando-widget-internal-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="navSpec">current.children</property>
+<property key="navSpec">code(sezione_tribunale).subtree(1) + code(sezione_per_il_cittadino).subtree(1) + code(sezione_per_il_professionista).subtree(1) + code(sezione_per_l_amministrazia).subtree(1) + code(per_le_forse_dell_ordine).subtree(1) + code(sezione_come_fare_per).subtree(1)</property>
 </properties>
 
 ',0,'free');

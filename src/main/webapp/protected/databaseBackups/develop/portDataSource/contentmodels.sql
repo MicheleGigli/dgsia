@@ -1,16 +1,20 @@
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1,'CTM','Notizia Home','<div class="card shadow rounded">
 <div class="card-header">
 <p class="card-text orange">
-<span class="text-uppercase font-weight-bold">$content.enum.text</span>
-<small class="text-muted d-block">$content.date.shortDate</small>
+<span class="text-uppercase font-weight-bold">
+  $content.tipologia.text
+</span>
+  <small class="text-muted d-block">$content.date.shortDate</small>
 </p>
 </div>
 <div class="img-wrapper">
- <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+ <img class="img-fluid" data-src="" alt="$content.img.text" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
 </div>
 <div class="card-body">
-<h5 class="card-title"><a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a></h5>
-<p class="card-text">$content.abstract.text</p>
+  <h5 class="card-title">
+    <a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a>
+  </h5>
+  <p class="card-text">$content.abstract.text</p>
 </div>
 </div>
 
@@ -265,41 +269,22 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </div>
 
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (13,'CTA','Lista F.A.Q.','<h4 class="card-title">Domande più frequenti</h4>
-<div id="lista-howto" class="collapse-div mb-5" role="tablist">
-    #foreach ($item in $content.lista) 
-    <div class="collapse-header" id="headingA$item.number.value">
-        <button data-toggle="collapse" data-target="#accordion$item.number.value" aria-expanded="false" aria-controls="accordion$item.number.value">
-           $item.title.text
-        </button>
-    </div>
-    <div id="accordion$item.number.value" class="collapse" role="tabpanel" aria-labelledby="headingA$item.number.value" data-parent="#lista-howto">
-        <div class="collapse-body">
-           $item.abstract.text
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (12,'CTM','Contenuto base per lista ricerca','<div class="it-list-wrapper">
+  <ul class="it-list">
+      <li>
+      <a href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">
+       <div class="it-thumb">
+          <img src="$content.img.getImagePath(''0'')" alt="$content.img.text" alt" title="$content.img.text">
+       </div>
+        <div class="it-right-zone">
+          <span class="text">$content.title.text
+            <em>
+              $content.date.longDate
+            </em>
+          </span>
         </div>
-    </div>
-    #end
-</div>',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (14,'CTM','Lista news in pagina news','<div class="card card-news shadow rounded">
-    <div class="img-wrapper">
-        <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
-        <span class="badge badge-primary badge-pos">$content.enum.text</span>
-    </div>
-    <div class="card-body news-body">
-        <h5 class="card-title">
-            <a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a>
-        </h5>
-
-        <span class="data">$content.date.shortDate</span>
-        
-        #if ($content.autore.text != "")  
-          <span class="card-signature">di $content.autore.text</span>
-        #else
-          <span class="card-signature">Autore sconosciuto</span>
-        #end
-        <p class="card-text">$content.abstract.text</p>
-    </div>
-
+      </a>
+    </li>
 </div>
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (17,'CTM','Modello Link Utili Pagina Primo livello','<div class="col-md-4">
@@ -314,187 +299,79 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </div>
 
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (18,'ATC','Modello per lista di Allegati','
-
-
-
-<div class="card shadow rounded">
-<div class="card-header">
-<p class="card-text orange">
-<span class="text-uppercase font-weight-bold">$content.getCategories()</span>
-</p>
-</div>
-
-<div class="card-body">
-<h5 class="card-title"><a class="card-body-link" href="$content.attach.attachPath"> $content.attach.text</a></h5>
-
-</div>
-</div>
-
-',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (31,'PCR','List Default','<li>
-      <a href="$content.contentLink" class="">
-        <div class="it-right-zone">
-          <span class="text">$content.titolo.text<em>$content.abstract.text</em></span>
-          <span class="it-multiple">
-            <span class="metadata"></span>
-           <svg class="icon">
-              <use xlink:href="/cortidappello/resources/static/img/sprite.svg#it-chevron-right"></use>
-            </svg>
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<div class="col-12 col-lg-6">
+    <!--start card-->
+    <div class="card-wrapper">
+      <div class="card card-img no-after">
+        <div class="img-responsive-wrapper">
+            <div class="img-responsive">
+              <div class="img-wrapper">
+                <img src="$content.img.getImagePath(''0'')" title="$content.img.text" alt="$content.img.text">
+              </div>
+            </div>
+          </div>
+        <div class="card-body">
+          <div class="category-top">
+            <a class="category" href="#">Category</a>
+            <span class="data">$content.date.longDate</span>
+          </div>
+          <h5 class="card-title big-heading"> $content.title.text</h5>
+          <p class="card-text">$content.abstract.text</p>
+          <span class="card-signature">
+           di $content.autore.text
           </span>
         </div>
-      </a>
-</li>',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (32,'PCR','Full Default','<article class="my-4">
-    <h4>$content.titolo.text</h4>
-    #if ( $content.body.text != "" )
-    <p>$content.body.text</p>
-    #end
-    #if ($content.allegati.size()>0)
-    <h5>$i18n.getLabel("CNG_ATTACHMENTS")</h5>
-<div class="link-list-wrapper">
-  <ul class="link-list">
-        #foreach ($item in $content.allegati )
-        <li>
-            <a class="list-item" href="$item.attachPath">$item.text
-            <svg class="icon icon-primary m-0">
-               
-               <use xlink:href="/cortidappello/resources/static/img/sprite.svg#it-download">
-               </use>
-            </svg>           
-            </a>
-        </li>
-        #end
-    </ul>
-</div>
-    #end
-    #if ($content.links.size()>0)
-    <h5>$i18n.getLabel("CNG_LINKS")</h5>
- <div class="link-list-wrapper">
-  <ul class="link-list">
-        #foreach ($item in $content.links)
-        <li>
-            <a class="list-item" href="$item.destination">$item.text
-            <svg class="icon icon-primary m-0">
-            <use xlink:href="/cortidappello/resources/static/img/sprite.svg#it-chevron-right">
-                </use>
-            </svg>
-            
-            </a>
-        </li>
-        #end
-     </ul>
-</div>
-    #end
-</article>',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<div class="card-wrapper">
-
-        <div class="card-body p-0 my-3">
-            <img src="$content.img.getImagePath(''0'')" alt="">
-            <h3 class="card-title">$content.title.text</h3>
-            <p class="card-text">$content.abstract.text</p>    
-           
-           #if ($content.autore.text != "") 
-              <span class="card-signature">di $content.autore.text</span>
-            #end
-            <small class="text-muted d-block">
-            Data $content.date.shortDate
-            </small>
-        </div>
-
-</div>
+      </div>
+    </div>
+    <!--end card-->
+  </div>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (182,'CTM','Carousel con filtri home','<div class="it-single-slide-wrapper">
-
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (182,'CTM','Carousel con filtri home','
+<div class="it-single-slide-wrapper">
     <a href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">
-
-        <div class="img-responsive-wrapper">
-
+       <div class="img-responsive-wrapper">
             <div class="img-responsive">
-
                 <div class="img-wrapper">
-
                     <img src="$content.img.getImagePath(''0'')" title="img title" alt="imagealt">
-
                 </div>
-
             </div>
-
         </div>
-
     </a>
 
     <div class="it-text-slider-wrapper-outside">
-
         <div class="card-wrapper">
-
             <div class="card">
-
                 <div class="card-body">
-
                     <div class="category-top">
 
                         <!-- category heading-->
+                      #foreach ($contentCategory in $content.getCategories())
 
-                        <a class="category" href="#">Category</a>
+                        #if ($contentCategory.title != "")
+                        <a class="category" href="$content.getContentOnPageLink("news_categorizzate")&modelId=55&contentCategory=$contentCategory.code ">                           
+                           $contentCategory.title
+                        </a>
+                        #end
+                    
+                    #end
 
-                        <!-- category data-->
-
-                        <span class="data">$content.date.getFormattedDate("dd/MM/yyyy")</span>
-
-                    </div>
-
-                    <h5 class="card-title big-heading">
-                    	<a href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">
-                    		$content.title.text
-                      </a>  
-                    </h5>
-
-                    <p class="card-text">$content.abstract.text</p>
-
-                    <span class="card-signature">di $content.autore.text</span>
-
-                    <a class="read-more" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">
-
-                        <span class="text">Leggi di piu''</span>
-
-                        <svg class="icon">
-
-                        <use xlink:href="$content.link.destination"/>
-
-                        </svg>
-
-                    </a>
-
+                    <!-- category data-->
+                    <span class="data">$content.date.getFormattedDate("dd/MM/yyyy")</span>
                 </div>
-
+                <h5 class="card-title big-heading">$content.title.text</h5>
+                <p class="card-text">$content.abstract.text</p>
+                <span class="card-signature">di $content.autore.text</span>
+                <a class="read-more" href="#">
+                    <span class="text">Leggi di piÃ¹</span>
+                    <svg class="icon">
+                    <use xlink:href="$content.link.destination"/>
+                    </svg>
+                </a>
             </div>
-
         </div>
-
     </div>
-
-</div>',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (183,'ATT','Lista degli allegati ','<div class="link-list-wrapper multiline">
-<ul class="d-flex flex-wrap link-list">
-    #foreach ($attach in $content.allegati)
-    <li class="col-6 mt-3">
-        <a class="list-item right-icon p-0"
-           href="$attach.attachPath">
-            <span class="display-4">$attach.text</span>
-            
-            <svg class="icon icon-primary icon-right m-0">
-            <use xlink:href="/sitiweb/resources/static/img/sprite.svg#it-download">
-                </use>
-            </svg>
-            
-        </a>
-    </li>
-    <li><span class="divider"></span> 
-     #end
-</ul>
 </div>
-',NULL);
+</div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10001,'CNG','Full - Default','<article>
   <h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )

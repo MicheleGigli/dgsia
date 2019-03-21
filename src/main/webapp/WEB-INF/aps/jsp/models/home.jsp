@@ -54,3 +54,79 @@
         </div>
     </body>
 </html>
+
+
+<div class="it-single-slide-wrapper">
+
+    <a href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">
+
+       <div class="img-responsive-wrapper">
+
+            <div class="img-responsive">
+
+                <div class="img-wrapper">
+
+                    <img src="$content.img.getImagePath('0')" title="img title" alt="imagealt">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </a>
+
+    <div class="it-text-slider-wrapper-outside">
+
+        <div class="card-wrapper">
+
+            <div class="card">
+
+                <div class="card-body">
+
+                    <div class="category-top">
+
+                        <!-- category heading-->
+                        #foreach ($contentCategory in $content.getCategories())
+
+                        #if ($contentCategory.title)
+                        <a class="category" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55&contentCategory=$contentCategory.code ">                           
+                           $contentCategory.title
+                    </a>
+                    #end
+
+                    #end
+
+                    <!-- category data-->
+
+                    <span class="data">$content.date.getFormattedDate("dd/MM/yyyy")</span>
+
+                </div>
+
+                <h5 class="card-title big-heading">$content.title.text</h5>
+
+                <p class="card-text">$content.abstract.text</p>
+
+                <span class="card-signature">di $content.autore.text</span>
+
+                <a class="read-more" href="#">
+
+                    <span class="text">Leggi di più</span>
+
+                    <svg class="icon">
+
+                    <use xlink:href="$content.link.destination"/>
+
+                    </svg>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>

@@ -5,7 +5,9 @@ INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG342'
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG346','Title','jacms:title');
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG351','Title','jacms:title');
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG353','Title','jacms:title');
+INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG355','Title','jacms:title');
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG357','Title','jacms:title');
+INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG371','Title','jacms:title');
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG373','Title','jacms:title');
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG375','Title','jacms:title');
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG377','Title','jacms:title');
@@ -16,9 +18,3 @@ INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG499'
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG503','Title','jacms:title');
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG505','Title','jacms:title');
 INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG693','Title','jacms:title');
-INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG371','Title','jacms:title');
-INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG861','Title','jacms:title');
-INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG355','Title','jacms:title');
-INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('CNG968','Title','jacms:title');
-INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('PCR963','titolo','jacms:title');
-INSERT INTO contentattributeroles (contentid,attrname,rolename) VALUES ('PCR965','titolo','jacms:title');
