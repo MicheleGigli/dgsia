@@ -320,6 +320,40 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
     </div>
 </div>
 </div>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (16,'CTM','Lista card pagine interne','<div class="card shadow rounded mb-2">
+<div class="card-header">
+<p class="card-text orange">
+
+<span class="text-uppercase font-weight-bold">
+  
+   #foreach ($contentCategory in $content.getCategories())
+
+   #if ($contentCategory.title.lenght > 1)
+                             
+       $contentCategory.title -
+       
+       #else 
+        $contentCategory.title
+      
+   #end
+                    
+#end
+  
+</span>
+
+  <small class="text-muted d-block">$content.date.shortDate</small>
+</p>
+</div>
+<div class="img-wrapper">
+ <img class="img-fluid" data-src="" alt="$content.img.text" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+</div>
+<div class="card-body">
+  <h5 class="card-title">
+    <a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a>
+  </h5>
+  <p class="card-text">$content.abstract.text</p>
+</div>
+</div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (17,'CTM','Modello Link Utili Pagina Primo livello','<div class="col-md-4">
 	<div class="card border rounded mb-4">
 		<img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
@@ -345,7 +379,22 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5
           </div>
         <div class="card-body">
           <div class="category-top">
-            <a class="category" href="#">Category</a>
+            <a class="category" href="#">
+               
+   #foreach ($contentCategory in $content.getCategories())
+
+   #if ($contentCategory.title.lenght > 1)
+                             
+       $contentCategory.title -
+       
+       #else 
+        $contentCategory.title
+      
+   #end
+                    
+#end
+  
+            </a>
             <span class="data">$content.date.longDate</span>
           </div>
           <h5 class="card-title big-heading"> $content.title.text</h5>
@@ -395,7 +444,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
                 <h5 class="card-title big-heading">$content.title.text</h5>
                 <p class="card-text">$content.abstract.text</p>
                 <span class="card-signature">di $content.autore.text</span>
-                <a class="read-more" href="#">
+                <a class="read-more" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">    
                     <span class="text">Leggi di più</span>
                     <svg class="icon">
                     <use xlink:href="$content.link.destination"/>

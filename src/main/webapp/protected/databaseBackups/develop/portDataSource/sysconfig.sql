@@ -419,7 +419,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params',
 </Params>
 
 ');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20190321124400');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20190327141512');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','userProfileTypes','User Profile Types Definitions','<?xml version="1.0" encoding="UTF-8"?>
 <profiletypes>
 	<profiletype typecode="PFL" typedescr="Default user profile">

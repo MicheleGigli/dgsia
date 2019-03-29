@@ -385,7 +385,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-29 22:05:57');
+','2019-03-26 17:51:17');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('news_categorizzate','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">News categorizzate</property>
@@ -399,7 +399,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-03-21 11:31:43');
+','2019-03-26 17:52:25');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('notfound','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Page not found</property>
@@ -969,4 +969,4 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-03-21 17:52:34');
+','2019-03-26 17:36:10');

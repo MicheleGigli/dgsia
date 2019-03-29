@@ -16,15 +16,20 @@
                             <li> <span class="active"><c:out value="${currentTarget.title}" /></span></li>
                             </c:when>
                             <c:otherwise>
-                            <li><a href="<c:out value="${currentTarget.url}" />"><c:out value="${currentTarget.title}" /></a><span class="separator">&gt;</span></li>
-                                </c:otherwise>
-                            </c:choose>
-                        </c:when>
-                        <c:otherwise>
-                            <c:out value="${currentTarget.title}" />
+                            <li>
+                                <a href="<c:out value="${currentTarget.url}" />">
+                                    <c:out value="${currentTarget.title}" />
+                                </a>
+                                <!--<span class="separator">&gt;</span>-->
+                            </li>
                         </c:otherwise>
                     </c:choose>
-                    <c:set var="first" value="false" />
-                </wp:nav>
+                </c:when>
+                <c:otherwise>
+                    <c:out value="${currentTarget.title}" />
+                </c:otherwise>
+            </c:choose>
+            <c:set var="first" value="false" />
+        </wp:nav>
     </ol>
 </div>

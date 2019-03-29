@@ -491,7 +491,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news',9,
 <property key="maxElemForItem">3</property>
 <property key="userFilters">(attributeFilter=false;key=category;categoryCode=news)+(attributeFilter=false;key=fulltext)+(attributeFilter=true;key=date)</property>
 <property key="contentType">CTM</property>
-<property key="modelId">1</property>
+<property key="modelId">16</property>
 </properties>
 
 ');
@@ -500,13 +500,13 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news_cat
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news_categorizzate',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news_categorizzate',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news_categorizzate',4,'entando-widget-navigation_breadcrumbs',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news_categorizzate',7,'content_viewer_list_news','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('news_categorizzate',9,'content_viewer_list_news','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="maxElemForItem">6</property>
 <property key="userFilters">(attributeFilter=false;key=fulltext)+(attributeFilter=true;key=date)</property>
 <property key="filters">(order=ASC;attributeFilter=false;key=created)</property>
 <property key="contentType">CTM</property>
-<property key="modelId">55</property>
+<property key="modelId">16</property>
 </properties>
 
 ');
@@ -1051,13 +1051,13 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('useful_l
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('useful_links',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('useful_links',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('useful_links',4,'entando-widget-navigation_breadcrumbs',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('useful_links',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('useful_links',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="contentId">CNG840</property>
 </properties>
 
 ');
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('useful_links',9,'content_viewer_list_links','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('useful_links',10,'content_viewer_list_links','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="maxElemForItem">6</property>
 <property key="categories">link_utili</property>
