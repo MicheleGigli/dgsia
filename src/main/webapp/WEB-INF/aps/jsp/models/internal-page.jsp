@@ -57,8 +57,8 @@
             <div class="container py-1">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                    <a href="<wp:url page="homepage" />" > 
-                        <img class="img-fluid" src="<wp:imgURL />logo-corte-torino_white.png">
+                        <a href="<wp:url page="homepage" />" > 
+                            <img class="img-fluid" src="<wp:imgURL />logo-corte-torino_white.png">
                         </a>
                     </div>
 
@@ -289,5 +289,12 @@
         <a href="#" data-attribute="return-to-top" class="return-to-top"><i
                 class="it-collapse"></i><span class="sr-only">Collapse</span></a>
     </body>
+
+    <script>
+//        remove categoty spaces 
+        $("option").text(function () {
+            return $(this).text().replace(".. / .. /", "");
+        });
+    </script>
 </html>
 
