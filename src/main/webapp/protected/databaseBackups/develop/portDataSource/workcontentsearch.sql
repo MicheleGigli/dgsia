@@ -93,7 +93,7 @@ INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,l
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM463','date',NULL,'2018-11-29 00:00:00',NULL,NULL);
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM463','autore','Giulia gambirasi',NULL,NULL,'en');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM463','autore','Giulia gambirasi',NULL,NULL,'it');
-INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','primopiano','false',NULL,NULL,NULL);
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','primopiano','true',NULL,NULL,NULL);
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','date',NULL,'2018-11-21 00:00:00',NULL,NULL);
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','autore','Lucia Mondello',NULL,NULL,'en');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','autore','Lucia Mondello',NULL,NULL,'it');

@@ -265,8 +265,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',5,'content_viewer_list_carousel','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="maxElemForItem">4</property>
-<property key="maxElements">4</property>
-<property key="filters">(attributeFilter=true;key=primopiano;value=true)</property>
+<property key="filters">(attributeFilter=true;key=primopiano;value=true)+(attributeFilter=false;key=modified)</property>
 <property key="contentType">CTM</property>
 <property key="modelId">182</property>
 </properties>
