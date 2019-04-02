@@ -1,5 +1,5 @@
-<project name="sitiweb" default="WAR-build" basedir=".">
-	<description>sitiweb - Build file</description>
+<project name="tribunali" default="WAR-build" basedir=".">
+	<description>tribunali - Build file</description>
 
 	<import file="buildProperties.xml"/>
 	<import file="buildTasks.xml"/>

@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>it.dgsia</groupId>
-    <artifactId>sitiweb</artifactId>
+    <artifactId>tribunali</artifactId>
     <packaging>war</packaging>
     <version>1.0</version>
-    <name>sitiweb</name>
+    <name>tribunali</name>
     <url>http://maven.apache.org/</url>
     <repositories>
         <repository>
@@ -588,13 +588,13 @@
                         <version>9.1-901.jdbc4</version>
                     </dependency>
                     <!-- uncomment if you need -->
-                  
+
                     <dependency>
                         <groupId>mysql</groupId>
                         <artifactId>mysql-connector-java</artifactId>
                         <version>5.1.18</version>
                     </dependency>
-                    
+
                     <dependency>
                         <groupId>org.apache.derby</groupId>
                         <artifactId>derby</artifactId>
@@ -919,7 +919,7 @@
             <version>${entando.version}</version>
             <type>war</type>
         </dependency>
-        
+
         <dependency>
             <groupId>org.entando.entando.plugins</groupId>
             <artifactId>entando-plugin-jacms</artifactId>
@@ -934,6 +934,6 @@
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
-        
+
     </dependencies>
 </project>

@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Context path="/sitiweb" docBase="./sitiweb" debug="1" reloadable="false">
+<Context path="/tribunali" docBase="./tribunali" debug="1" reloadable="false">
 
     <Environment name="logActiveFileOutput" value="true" type="java.lang.String" override="false" />
-    <Environment name="logName" value="sitiweb" type="java.lang.String" override="false" />
-    <Environment name="logFilePrefix" value="C:\\Entando\\dgsia\\target\\log_sitiweb" type="java.lang.String" override="false" />
+    <Environment name="logName" value="tribunali" type="java.lang.String" override="false" />
+    <Environment name="logFilePrefix" value="/home/davide/LAVORO/dgsia/target/log_tribunali" type="java.lang.String" override="false" />
     <Environment name="logLevel" value="INFO" type="java.lang.String" override="false" />
     <Environment name="logFileSize" value="200000" type="java.lang.String" override="false" />
     <Environment name="logFilesCount" value="10" type="java.lang.String" override="false" />
 
     <Environment name="configVersion" value="production" type="java.lang.String" override="false" />
 
-    <Environment name="applicationBaseURL" value="http://localhost:8081/sitiweb/" type="java.lang.String" override="false" />
-    <Environment name="resourceRootURL" value="/sitiweb/resources/" type="java.lang.String" override="false" />
-    <Environment name="protectedResourceRootURL" value="/sitiweb/protected/" type="java.lang.String" override="false" />
+    <Environment name="applicationBaseURL" value="http://localhost:8080/tribunali/" type="java.lang.String" override="false" />
+    <Environment name="resourceRootURL" value="/tribunali/resources/" type="java.lang.String" override="false" />
+    <Environment name="protectedResourceRootURL" value="/tribunali/protected/" type="java.lang.String" override="false" />
 
-    <Environment name="resourceDiskRootFolder" value="C:\\Entando\\dgsia\\src\\main\\webapp\\resources" type="java.lang.String" override="false" />
-    <Environment name="protectedResourceDiskRootFolder" value="C:\\Entando\\dgsia\\src\\main\\webapp\\protected" type="java.lang.String" override="false" />
+    <Environment name="resourceDiskRootFolder" value="/home/davide/LAVORO/dgsia/src/main/webapp/resources" type="java.lang.String" override="false" />
+    <Environment name="protectedResourceDiskRootFolder" value="/home/davide/LAVORO/dgsia/src/main/webapp/protected" type="java.lang.String" override="false" />
 
-    <Environment name="indexDiskRootFolder" value="C:\\Entando\\dgsia\\target\\temp\\indexdir" type="java.lang.String" override="false" />
+    <Environment name="indexDiskRootFolder" value="/home/davide/LAVORO/dgsia/target/temp/indexdir" type="java.lang.String" override="false" />
     
     <Environment name="portDataSourceClassName" value="com.mysql.jdbc.Driver" type="java.lang.String" override="false" />
     <Environment name="servDataSourceClassName" value="com.mysql.jdbc.Driver" type="java.lang.String" override="false" />
@@ -26,12 +26,12 @@
               type="javax.sql.DataSource" driverClassName="com.mysql.jdbc.Driver"
               maxActive="8" maxIdle="4"
               username="agile" password="agile"
-              url="jdbc:mysql://localhost:3306/sitiwebPort" />
+              url="jdbc:mysql://localhost:3306/tribunaliPort" validationQuery="SELECT 1" />
 
     <Resource name="jdbc/servDataSource" auth="Container"
               type="javax.sql.DataSource" driverClassName="com.mysql.jdbc.Driver"
               maxActive="8" maxIdle="4"
               username="agile" password="agile"
-              url="jdbc:mysql://localhost:3306/sitiwebServ" />
+              url="jdbc:mysql://localhost:3306/tribunaliServ" validationQuery="SELECT 1" />
 
 </Context>
