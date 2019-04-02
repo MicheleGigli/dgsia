@@ -6,7 +6,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   
    #foreach ($contentCategory in $content.getCategories())
 
-   #if ($contentCategory.title.lenght > 1)
+   #if ($contentCategory.size() >= 2)
                              
        $contentCategory.title -
        
@@ -445,7 +445,9 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
                 <p class="card-text">$content.abstract.text</p>
                 <span class="card-signature">di $content.autore.text</span>
                 <a class="read-more" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">    
-                    <span class="text">Leggi di più</span>
+                    <span class="text">
+                    $i18n.getLabel("READ_MORE")
+                    </span>
                     <svg class="icon">
                     <use xlink:href="$content.link.destination"/>
                     </svg>

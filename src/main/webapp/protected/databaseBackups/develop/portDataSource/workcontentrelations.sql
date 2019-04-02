@@ -11,8 +11,6 @@ INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM829','link_
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM832','link_utili');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM834','link_utili');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CNG840','link_utili');
-INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','news');
-INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','avvisi');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM784','news');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM784','filtro1');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM782','news');
@@ -22,3 +20,5 @@ INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM463','news_
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM167','news');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM167','avvisi');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM167','news_in_evidenza');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','news');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','avvisi');
