@@ -77,10 +77,6 @@ INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langc
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG693','Title','Per le Forze dell''Ordine',NULL,NULL,'it');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG840','Title','Per i Link utili',NULL,NULL,'en');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG840','Title','Per i Link utili',NULL,NULL,'it');
-INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','primopiano','true',NULL,NULL,NULL);
-INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','date',NULL,'2018-11-12 00:00:00',NULL,NULL);
-INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','autore','Mario Bianchi',NULL,NULL,'en');
-INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','autore','Mario Bianchi',NULL,NULL,'it');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM784','primopiano','false',NULL,NULL,NULL);
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM784','date',NULL,'2018-11-21 00:00:00',NULL,NULL);
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM784','autore','Lucia Mondello',NULL,NULL,'en');
@@ -97,3 +93,7 @@ INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langc
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','date',NULL,'2018-11-21 00:00:00',NULL,NULL);
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','autore','Lucia Mondello',NULL,NULL,'en');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','autore','Lucia Mondello',NULL,NULL,'it');
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','primopiano','true',NULL,NULL,NULL);
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','date',NULL,'2018-11-12 00:00:00',NULL,NULL);
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','autore','Mario Bianchi',NULL,NULL,'en');
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','autore','Mario Bianchi',NULL,NULL,'it');

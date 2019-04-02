@@ -6,14 +6,11 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   
    #foreach ($contentCategory in $content.getCategories())
 
-   #if ($contentCategory.size() >= 2)
-                             
-       $contentCategory.title -
-       
-       #else 
-        $contentCategory.title
-      
-   #end
+   <a class="category" href="$content.getContentOnPageLink("news_categorizzate")&modelId=55&category=$contentCategory.code ">
+  
+  $contentCategory.title 
+  
+  </a>
                     
 #end
   
@@ -328,16 +325,13 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   
    #foreach ($contentCategory in $content.getCategories())
 
-   #if ($contentCategory.title.lenght > 1)
-                             
-       $contentCategory.title -
-       
-       #else 
-        $contentCategory.title
-      
-   #end
+   <a class="category" href="$content.getContentOnPageLink("news_categorizzate")&modelId=55&category=$contentCategory.code ">
+  
+  $contentCategory.title 
+  
+  </a>
                     
-#end
+   #end
   
 </span>
 
@@ -431,8 +425,8 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
                         #if ($contentCategory.title != "")
                         <a class="category" href="$content.getContentOnPageLink("news_categorizzate")&modelId=55&category=$contentCategory.code ">                           
 
-                          $contentCategory.title
-       
+                         $contentCategory.title
+                                         
                         </a>
                         #end
                     

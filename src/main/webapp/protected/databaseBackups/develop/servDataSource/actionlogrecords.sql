@@ -507,36 +507,6 @@ group=free
 ',NULL,'2018-11-26 11:34:13');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (297,'admin','2018-11-26 11:34:36','/do/Page','setDefaultWidgets','pageCode=organizzazione_interna
 ',NULL,'2018-11-26 11:34:36');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (310,'admin','2018-11-26 12:01:10','/do/Page','doSetOffline','pageCode=organizzazione_interna
-selectedNode=organizzazione_interna
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Organizzazione</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Organizzazione</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>6</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">organizzazione_interna</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2018-11-26 12:01:10');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (311,'admin','2018-11-26 12:01:21','/do/Page','delete','nodeToBeDelete=organizzazione_interna
 entandoaction:delete=Submit
 selectedNode=organizzazione
@@ -20794,3 +20764,53 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2019-04-01 15:09:18');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (900,'admin','2019-04-02 11:46:18','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Text:en_title=notizia singola 1
+Text:it_abstract=
+__multiselect_extraGroupNames=
+Text:it_subtitle=
+contentOnSessionMarker=CTM_editContent_CTM165
+Date:date=12/11/2018
+Text:en_subtitle=sottotitolo notizia singola 1
+Monolist:Composite:Hypertext:it_article_text1_0=
+Monolist:Composite:Hypertext:en_article_text1_0=<p>
+	uyruy uu ug uf uuu fufu u uf uf uyfuf ufuyfuf uyf ufuyojeojl&ograve;wkehf&ograve;lkhds&ograve;kjfh k&ograve;asdh&ograve;kjhdf &ograve;adsf&ograve;h ads khak h&ograve;ka kha kha fkah kah &ograve;kjhr&ograve; qhr&ograve;oh a&ograve;fgha&ograve;dh</p>
+
+categoryCode=news_in_evidenza
+Text:en_autore=Mario Bianchi
+treeNodesToOpen=home,news
+Image:it_img=
+Boolean:primopiano=true
+descr=notizia1
+Text:en_abstract=A communi observantia non est recedendum. Curabitur blandit tempus ardua ridiculus sed magna. Quam diu etiam furor iste tuus nos eludet? Idque Caesaris facere voluntate liceret: sese habere.
+Text:it_autore=
+Image:en_img=notizia1
+jacmsPreviewActionPageCode_it=
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">notizia1</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM165</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-04-02 11:46:18');

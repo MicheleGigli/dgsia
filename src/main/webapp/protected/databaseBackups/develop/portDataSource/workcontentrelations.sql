@@ -22,3 +22,4 @@ INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM167','avvis
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM167','news_in_evidenza');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','news');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','avvisi');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','news_in_evidenza');
