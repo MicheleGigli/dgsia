@@ -91,85 +91,6 @@ Text:it_title=
 Link:en_link=
 status=
 ',NULL,'2018-11-21 17:36:13');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (58,'admin','2018-11-21 17:37:06','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Di seguito il link utile 1
-entandoaction:saveAndApprove=Submit
-Text:en_title=Link utile1
-Link:it_link=
-treeNodesToOpen=home
-Image:it_img=
-__multiselect_extraGroupNames=
-descr=Link utile1
-Text:it_subtitle=
-contentOnSessionMarker=CTM_newContent
-Image:en_img=link utile1
-Text:it_title=
-Link:en_link=ABCD
-status=
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Link utile1</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM57</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2018-11-21 17:37:06');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (61,'admin','2018-11-21 17:38:30','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Di seguito il link utile 2
-entandoaction:saveAndApprove=Submit
-Text:en_title=Link utile2
-Link:it_link=
-treeNodesToOpen=home
-Image:it_img=
-mainGroup=free
-__multiselect_extraGroupNames=
-descr=Link utile2
-Text:it_subtitle=
-contentOnSessionMarker=CTM_newContent
-Image:en_img=Link utile2
-Text:it_title=
-Link:en_link=ABCD
-status=
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Link utile2</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>11</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM60</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2018-11-21 17:38:30');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (64,'admin','2018-11-21 17:39:28','/do/jacms/Content','saveAndApprove','Text:en_subtitle=Di seguito il link utile 3
 entandoaction:saveAndApprove=Submit
 Text:en_title=Link utile3
@@ -20393,3 +20314,121 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2019-01-28 11:46:32');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (697,'admin','2019-04-02 11:15:48','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Text:en_title=F.A.Q.
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+__multiselect_extraGroupNames=
+contentOnSessionMarker=CTA_editContent_CTA673
+Monolist:Composite:Longtext:en_lista_abstract_2=Risposta: Anche se il suono di queste parole può trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste più dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura è l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura è l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).
+Monolist:Composite:Longtext:en_lista_abstract_3=Risposta: No, la Procura di Ravenna ha una sola sede, quella di via Falcone 67 a Ravenna. Presso le sezioni del Tribunale di Faenza e Lugo vi è un ufficio del PM al quale si accede solo su sua convocazione.
+Monolist:Composite:Longtext:en_lista_abstract_0=Risposta: Il circondario ï¿½ la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
+Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto è la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
+Monolist:Composite:Text:en_lista_title_1=Domanda: Che cosa è il distretto?
+Monolist:Composite:Text:en_lista_title_0=Domanda: Che cosa è il circondario?
+Monolist:Composite:Text:en_lista_title_3=Domanda: La Procura di Ravenna ha uffici distaccati a Lugo e a Faenza, come il Tribunale?
+Monolist:Composite:Text:en_lista_title_2=Domanda: Che differenza c''è  tra Procura, Pretura e Prefettura?
+Monolist:Composite:Date:lista_date_3=07/12/2018
+Monolist:Composite:Date:lista_date_1=02/12/2018
+Monolist:Composite:Date:lista_date_2=07/12/2018
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=07/12/2018
+Monolist:Composite:Number:lista_number_2=3
+descr=Contenuto F.A.Q.
+Monolist:Composite:Number:lista_number_1=2
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Longtext:it_lista_abstract_3=
+Monolist:Composite:Number:lista_number_3=4
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Longtext:it_lista_abstract_2=
+Monolist:Composite:Text:it_lista_title_3=
+Monolist:Composite:Text:it_lista_title_2=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Number:lista_number_0=1
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Contenuto F.A.Q.</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA673</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-04-02 11:15:48');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (698,'admin','2019-04-02 11:16:11','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
+Text:en_title=F.A.Q.
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Longtext:it_lista_abstract_0=
+__multiselect_extraGroupNames=
+contentOnSessionMarker=CTA_editContent_CTA673
+Monolist:Composite:Longtext:en_lista_abstract_2=Risposta: Anche se il suono di queste parole può trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste più dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura è l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura è l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).
+Monolist:Composite:Longtext:en_lista_abstract_3=Risposta: No, la Procura di Ravenna ha una sola sede, quella di via Falcone 67 a Ravenna. Presso le sezioni del Tribunale di Faenza e Lugo vi è un ufficio del PM al quale si accede solo su sua convocazione.
+Monolist:Composite:Longtext:en_lista_abstract_0=Risposta: Il circondario è la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
+Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto è la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
+Monolist:Composite:Text:en_lista_title_1=Domanda: Che cosa è il distretto?
+Monolist:Composite:Text:en_lista_title_0=Domanda: Che cosa è il circondario?
+Monolist:Composite:Text:en_lista_title_3=Domanda: La Procura di Ravenna ha uffici distaccati a Lugo e a Faenza, come il Tribunale?
+Monolist:Composite:Text:en_lista_title_2=Domanda: Che differenza c''è  tra Procura, Pretura e Prefettura?
+Monolist:Composite:Date:lista_date_3=07/12/2018
+Monolist:Composite:Date:lista_date_1=02/12/2018
+Monolist:Composite:Date:lista_date_2=07/12/2018
+treeNodesToOpen=home
+Monolist:Composite:Date:lista_date_0=07/12/2018
+Monolist:Composite:Number:lista_number_2=3
+descr=Contenuto F.A.Q.
+Monolist:Composite:Number:lista_number_1=2
+Monolist:Composite:Text:it_lista_title_1=
+Monolist:Composite:Longtext:it_lista_abstract_3=
+Monolist:Composite:Number:lista_number_3=4
+Monolist:Composite:Text:it_lista_title_0=
+Monolist:Composite:Longtext:it_lista_abstract_2=
+Monolist:Composite:Text:it_lista_title_3=
+Monolist:Composite:Text:it_lista_title_2=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Number:lista_number_0=1
+jacmsPreviewActionPageCode_en=
+Text:it_title=
+status=
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Contenuto F.A.Q.</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA673</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-04-02 11:16:11');

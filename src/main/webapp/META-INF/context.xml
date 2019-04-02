@@ -3,7 +3,7 @@
 
     <Environment name="logActiveFileOutput" value="true" type="java.lang.String" override="false" />
     <Environment name="logName" value="tribunali" type="java.lang.String" override="false" />
-    <Environment name="logFilePrefix" value="/home/davide/LAVORO/dgsia/target/log_tribunali" type="java.lang.String" override="false" />
+    <Environment name="logFilePrefix" value="C:\\LAVORO\\dgsia\\target\\log_tribunali" type="java.lang.String" override="false" />
     <Environment name="logLevel" value="INFO" type="java.lang.String" override="false" />
     <Environment name="logFileSize" value="200000" type="java.lang.String" override="false" />
     <Environment name="logFilesCount" value="10" type="java.lang.String" override="false" />
@@ -14,10 +14,10 @@
     <Environment name="resourceRootURL" value="/tribunali/resources/" type="java.lang.String" override="false" />
     <Environment name="protectedResourceRootURL" value="/tribunali/protected/" type="java.lang.String" override="false" />
 
-    <Environment name="resourceDiskRootFolder" value="/home/davide/LAVORO/dgsia/src/main/webapp/resources" type="java.lang.String" override="false" />
-    <Environment name="protectedResourceDiskRootFolder" value="/home/davide/LAVORO/dgsia/src/main/webapp/protected" type="java.lang.String" override="false" />
+    <Environment name="resourceDiskRootFolder" value="C:\\LAVORO\\dgsia\\src\\main\\webapp\\resources" type="java.lang.String" override="false" />
+    <Environment name="protectedResourceDiskRootFolder" value="C:\\LAVORO\\dgsia\\src\\main\\webapp\\protected" type="java.lang.String" override="false" />
 
-    <Environment name="indexDiskRootFolder" value="/home/davide/LAVORO/dgsia/target/temp/indexdir" type="java.lang.String" override="false" />
+    <Environment name="indexDiskRootFolder" value="C:\\LAVORO\\dgsia\\target\\temp\\indexdir" type="java.lang.String" override="false" />
     
     <Environment name="portDataSourceClassName" value="com.mysql.jdbc.Driver" type="java.lang.String" override="false" />
     <Environment name="servDataSourceClassName" value="com.mysql.jdbc.Driver" type="java.lang.String" override="false" />

@@ -262,7 +262,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   </div> 
 </div>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (13,'CTA','Lista F.A.Q.','<h4 class="card-title">Domande piï¿½ frequenti</h4>
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (13,'CTA','Lista F.A.Q.','<h4 class="card-title">Domande più frequenti</h4>
 <div id="lista-howto" class="collapse-div mb-5" role="tablist">
     #foreach ($item in $content.lista) 
     <div class="collapse-header" id="headingA$item.number.value">
@@ -312,7 +312,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (31,'PRC','List Default','<li>
-      <a href="$content.contentLink" class="">
+      <a href="$content.contentLink">
         <div class="it-right-zone">
           <span class="text">$content.titolo.text<em>$content.abstract.text</em></span>
           <span class="it-multiple">
@@ -325,7 +325,9 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3
       </a>
 </li>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (32,'PRC','Full Default','<article class="my-4">
-    <h4>$content.titolo.text</h4>
+    <h4>
+      $content.titolo.text
+    </h4>
     #if ( $content.body.text != "" )
     <p>$content.body.text</p>
     #end
