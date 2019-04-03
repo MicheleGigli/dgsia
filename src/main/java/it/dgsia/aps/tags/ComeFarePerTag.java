@@ -63,7 +63,7 @@ public class ComeFarePerTag extends TagSupport {
                 EntitySearchFilter roleFilter = EntitySearchFilter.createRoleFilter(JacmsSystemConstants.ATTRIBUTE_ROLE_TITLE);
                 roleFilter.setOrder(FieldSearchFilter.Order.ASC);
                 EntitySearchFilter[] filters = {roleFilter};
-                List<String> ids = contentManager.loadPublicContentsId("PCR", categoriesForFilter.toArray(new String[categoriesForFilter.size()]), filters, userGroupCodes);
+                List<String> ids = contentManager.loadPublicContentsId("PRC", categoriesForFilter.toArray(new String[categoriesForFilter.size()]), filters, userGroupCodes);
                 this.pageContext.setAttribute(this.getListName(), ids);
             }
             this.pageContext.setAttribute(this.getInputValues(), values);
