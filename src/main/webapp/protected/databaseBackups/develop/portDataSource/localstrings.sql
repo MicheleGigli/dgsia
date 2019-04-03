@@ -10,6 +10,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ALL','en','All'
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ALL','it','Tutte');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BOTH','en','Both');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BOTH','it','Entrambi');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BTN_FILTRA','en','Filter');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('BTN_FILTRA','it','Filtra');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CATEGORY','en','Category');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CATEGORY','it','Categoria');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CNG_ATTACHMENTS','en','Attachments');
@@ -200,6 +202,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','en'
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','it','Leggi di Più');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','en','Please sign in');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','it','Ãˆ necessario autenticarsi');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_NULLO','en','La ricerca non ha restituito nessun risultato.');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_NULLO','it','La ricerca non ha restituito nessun risultato.');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SEARCH','en','Search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SEARCH','it','Cerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('SEARCHED_FOR','en','You searched for');

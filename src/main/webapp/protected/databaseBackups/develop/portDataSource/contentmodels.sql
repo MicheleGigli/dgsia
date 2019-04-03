@@ -360,6 +360,64 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 </div>
 
 ',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (19,'PRC','List Default','<li>
+      <a href="$content.contentLink">
+        <div class="it-right-zone">
+          <span class="text">$content.titolo.text<em>$content.abstract.text</em></span>
+          <span class="it-multiple">
+            <span class="metadata"></span>
+           <svg class="icon">
+              <use xlink:href="/cortidappello/resources/static/img/sprite.svg#it-chevron-right"></use>
+            </svg>
+          </span>
+        </div>
+      </a>
+</li>
+',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (20,'PRC','Full Default','<article class="my-4">
+    <h4>
+      $content.titolo.text
+    </h4>
+    #if ( $content.body.text != "" )
+    <p>$content.body.text</p>
+    #end
+    #if ($content.allegati.size()>0)
+    <h5>$i18n.getLabel("CNG_ATTACHMENTS")</h5>
+<div class="link-list-wrapper">
+  <ul class="link-list">
+        #foreach ($item in $content.allegati )
+        <li>
+            <a class="list-item" href="$item.attachPath">$item.text
+            <svg class="icon icon-primary m-0">
+               
+               <use xlink:href="/cortidappello/resources/static/img/sprite.svg#it-download">
+               </use>
+            </svg>           
+            </a>
+        </li>
+        #end
+    </ul>
+</div>
+    #end
+    #if ($content.links.size()>0)
+    <h5>$i18n.getLabel("CNG_LINKS")</h5>
+ <div class="link-list-wrapper">
+  <ul class="link-list">
+        #foreach ($item in $content.links)
+        <li>
+            <a class="list-item" href="$item.destination">$item.text
+            <svg class="icon icon-primary m-0">
+            <use xlink:href="/cortidappello/resources/static/img/sprite.svg#it-chevron-right">
+                </use>
+            </svg>
+            
+            </a>
+        </li>
+        #end
+     </ul>
+</div>
+    #end
+</article>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<div class="col-12 col-lg-6">
     <!--start card-->
     <div class="card-wrapper">

@@ -79,22 +79,36 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 									<required>true</required>
 								</validations>
 							</attribute>
-							<attribute name="img1" attributetype="Image" description="Immagine nel corpo">
-								<validations />
-							</attribute>
-							<attribute name="link1" attributetype="Link" description="link nel corpo">
-								<validations />
-							</attribute>
+							<attribute name="img1" attributetype="Image" description="Immagine nel corpo" />
+							<attribute name="link1" attributetype="Link" description="link nel corpo" />
 						</attributes>
 					</attribute>
 				</nestedtype>
 			</list>
 			<list name="attach" attributetype="Monolist" description="Lista allegati">
-				<validations />
 				<nestedtype>
-					<attribute name="attach" attributetype="Attach">
-						<validations />
-					</attribute>
+					<attribute name="attach" attributetype="Attach" />
+				</nestedtype>
+			</list>
+		</attributes>
+	</contenttype>
+	<contenttype typecode="PRC" typedescr="Procedura" viewpage="paginadettaglio" listmodel="19" defaultmodel="20">
+		<attributes>
+			<attribute name="titolo" attributetype="Text" description="titolo">
+				<validations>
+					<required>true</required>
+				</validations>
+			</attribute>
+			<attribute name="abstract" attributetype="Longtext" description="Abstract" indexingtype="TEXT" />
+			<attribute name="body" attributetype="Hypertext" description="body" />
+			<list name="allegati" attributetype="Monolist" description="Lista Allegati">
+				<nestedtype>
+					<attribute name="allegati" attributetype="Attach" indexingtype="TEXT" />
+				</nestedtype>
+			</list>
+			<list name="links" attributetype="Monolist" description="links">
+				<nestedtype>
+					<attribute name="links" attributetype="Link" />
 				</nestedtype>
 			</list>
 		</attributes>
@@ -419,7 +433,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params',
 </Params>
 
 ');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20190327141512');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20190403120932');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','userProfileTypes','User Profile Types Definitions','<?xml version="1.0" encoding="UTF-8"?>
 <profiletypes>
 	<profiletype typecode="PFL" typedescr="Default user profile">

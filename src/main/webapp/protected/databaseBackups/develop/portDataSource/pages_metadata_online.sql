@@ -109,7 +109,7 @@ INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-26 12:33:52');
+','2019-04-03 11:39:04');
 INSERT INTO pages_metadata_online (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('competenza_territoriale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Competenza Territoriale</property>
