@@ -50,9 +50,6 @@ public class ResourcePlusDAO extends ResourceDAO implements IResourcePlusDAO {
 
     private PreparedStatement buildStatement(FieldSearchFilter[] filters, List<String> categories, Connection conn) {
         String query = this.createQueryString(filters, categories);
-        System.out.println("*******************query********************");
-        System.out.println(query);
-        System.out.println("***************************************");
         PreparedStatement stat = null;
         try {
             stat = conn.prepareStatement(query);
