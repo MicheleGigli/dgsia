@@ -12,9 +12,9 @@
             classpath:spring/baseSystemConfig.xml
             classpath:spring/jbossBaseSystemConfig.xml
             classpath*:spring/aps/**/**.xml
-            classpath*:spring/apsadmin/**/**.xml 
-            classpath*:spring/plugins/**/aps/**/**.xml 
-            classpath*:spring/plugins/**/apsadmin/**/**.xml 
+            classpath*:spring/apsadmin/**/**.xml
+            classpath*:spring/plugins/**/aps/**/**.xml
+            classpath*:spring/plugins/**/apsadmin/**/**.xml
             classpath*:spring/entandocore/aps/**/**.xml 
             classpath*:spring/entandocore/apsadmin/**/**.xml 
         </param-value>
@@ -184,12 +184,12 @@
     <env-entry>
         <env-entry-name>logName</env-entry-name>
         <env-entry-type>java.lang.String</env-entry-type>
-        <env-entry-value>${profile.application.name}.log</env-entry-value>
+        <env-entry-value>${profile.log.file.name}</env-entry-value>
     </env-entry>
     <env-entry>
-        <env-entry-name>logFilePrefix</env-entry-name>
+        <env-entry-name>logFileRotatePattern</env-entry-name>
         <env-entry-type>java.lang.String</env-entry-type>
-        <env-entry-value>${profile.log.file.prefix}</env-entry-value>
+        <env-entry-value>${profile.log.file.rotatePattern}</env-entry-value>
     </env-entry>
     <env-entry>
         <env-entry-name>logLevel</env-entry-name>
