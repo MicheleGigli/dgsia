@@ -288,8 +288,9 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',5,'content_viewer_list_carousel','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="maxElemForItem">4</property>
-<property key="filters">(attributeFilter=true;key=primopiano;value=true)+(attributeFilter=false;key=modified)</property>
+<property key="maxElemForItem">20</property>
+<property key="maxElements">20</property>
+<property key="filters">(attributeFilter=true;key=primopiano;value=true)</property>
 <property key="contentType">CTM</property>
 <property key="modelId">182</property>
 </properties>
@@ -344,6 +345,15 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage
 <properties>
 <property key="modelId">8</property>
 <property key="contentId">CTA76</property>
+</properties>
+
+');
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',12,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="maxElemForItem">4</property>
+<property key="filters">(attributeFilter=true;key=primopiano;value=true)</property>
+<property key="contentType">CTM</property>
+<property key="modelId">1</property>
 </properties>
 
 ');
@@ -419,10 +429,10 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',4,'entando-widget-navigation_breadcrumbs',NULL);
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',5,'lista_moduli','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="modelId">9</property>
-<property key="contentId">CNG371</property>
+<property key="mainCategoryFilter">moduli</property>
+<property key="categoryCodesCSV">cittadino,allegati</property>
 </properties>
 
 ');
