@@ -172,7 +172,7 @@ h2.border-bottom {
 
 .card-header {
     position: relative;
-	height:85px;
+    height:85px;
 }
 
 .card-header .card-text {
@@ -566,6 +566,10 @@ ul.link-list .list-item {
     margin: 0px 20px 24px 24px;
 }
 
+.dropdown-menu  li {
+    white-space: nowrap;
+}
+
 /* CUSTOM MEDIA QUERIES */
 /* COOCKIE BAR */
 @media (min-width: 992px){
@@ -583,11 +587,18 @@ ul.link-list .list-item {
         line-height: 1.2rem;
         min-height: 120px;
     }
+
+    .detail .card-body p{
+        font-size: .875rem;
+        line-height: 1.2rem;
+        min-height: auto;
+    }
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: .2rem;
         padding-left: .2rem;
     }
 }
+
 @media (max-width: 992px){
     .card-news  {
         width: 100%;
