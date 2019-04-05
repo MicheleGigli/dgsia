@@ -50,6 +50,9 @@ public class ResourcePlusDAO extends ResourceDAO implements IResourcePlusDAO {
 
     private PreparedStatement buildStatement(FieldSearchFilter[] filters, List<String> categories, Connection conn) {
         String query = this.createQueryString(filters, categories);
+        System.out.println("*******************query********************");
+        System.out.println(query);
+        System.out.println("***************************************");
         PreparedStatement stat = null;
         try {
             stat = conn.prepareStatement(query);
@@ -76,7 +79,7 @@ public class ResourcePlusDAO extends ResourceDAO implements IResourcePlusDAO {
                 if (i > 0) {
                     query.append(" AND ");
                 }
-                query.append("resourcerelations.refcategory = ? ");
+                query.append("resourcerelations").append(i).append(".refcategory = ? ");
             }
         }
         query.append("ORDER BY resources.descr ");
@@ -86,7 +89,9 @@ public class ResourcePlusDAO extends ResourceDAO implements IResourcePlusDAO {
     private StringBuffer createBaseQueryBlock(FieldSearchFilter[] filters, boolean selectAll, List<String> categories) {
         StringBuffer query = super.createBaseQueryBlock(filters, selectAll);
         if (null != categories && categories.size() > 0) {
-            query.append("INNER JOIN resourcerelations ON resources.resid = resourcerelations.resid ");
+            for (int i = 0; i < categories.size(); i++) {
+                query.append("INNER JOIN resourcerelations AS resourcerelations").append(i).append(" ON resources.resid = resourcerelations").append(i).append(".resid ");
+            }
         }
         return query;
     }
