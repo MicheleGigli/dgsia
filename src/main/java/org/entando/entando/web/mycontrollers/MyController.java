@@ -5,7 +5,6 @@
  */
 package org.entando.entando.web.mycontrollers;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -30,23 +29,23 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/mycategories")
 public class MyController {
-    
+
     private final Logger logger = LoggerFactory.getLogger(getClass());
-    
+
     @Autowired
     private ICategoryService categoryService;
-    
-    
+
     protected ICategoryService getCategoryService() {
         return categoryService;
     }
-    
+
     @RequestMapping(method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<RestResponse<List<CategoryDto>>> getCategories(@RequestParam(value = "parentCode", required = false, defaultValue = "home") String parentCode) {
+    public ResponseEntity<RestResponse> getCategories(@RequestParam(value = "parentCode", required = false, defaultValue = "home") String parentCode) {
         logger.debug("getting category tree for parent {}", parentCode);
         List<CategoryDto> result = this.getCategoryService().getTree(parentCode);
         Map<String, String> metadata = new HashMap<>();
         metadata.put("parentCode", parentCode);
-        return new ResponseEntity<>(new RestResponse(result, new ArrayList<>(), metadata), HttpStatus.OK);
+        return new ResponseEntity<>(new RestResponse(result, metadata), HttpStatus.OK);
     }
+
 }

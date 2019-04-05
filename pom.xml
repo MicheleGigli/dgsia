@@ -604,9 +604,9 @@
                     </dependency>
                     <!-- uncomment if you need -->
                     <dependency>
-                            <groupId>mysql</groupId>
-                            <artifactId>mysql-connector-java</artifactId>
-                            <version>5.1.18</version>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>5.1.18</version>
                     </dependency>
                     <dependency>
                         <groupId>org.apache.derby</groupId>
@@ -943,11 +943,16 @@
             <scope>provided</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
-<dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>jstl</artifactId>
-    <version>1.2</version>
-</dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
         
         <!-- enable if you need to test Oracle DB connection with jetty -->
         <!--<dependency>
