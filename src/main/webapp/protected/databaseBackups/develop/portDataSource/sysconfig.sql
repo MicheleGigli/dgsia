@@ -413,7 +413,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','langs','
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params','Configuration params.','<?xml version="1.0" encoding="UTF-8"?>
 <Params>
 	<Param name="urlStyle">classic</Param>
-	<Param name="hypertextEditor">none</Param>
+	<Param name="hypertextEditor">fckeditor</Param>
 	<Param name="treeStyle_page">classic</Param>
 	<Param name="treeStyle_category">classic</Param>
 	<Param name="startLangFromBrowser">false</Param>

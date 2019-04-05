@@ -118,8 +118,8 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('f_
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('f_a_q_',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('f_a_q_',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CNG666</property>
 <property key="modelId">9</property>
+<property key="contentId">CNG666</property>
 </properties>
 
 ');
@@ -131,8 +131,8 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('f_
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('f_a_q_',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CTA673</property>
 <property key="modelId">13</property>
+<property key="contentId">CTA673</property>
 </properties>
 
 ');
@@ -238,8 +238,8 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('mo
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('moduli',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('moduli',5,'lista_moduli','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="mainCategoryFilter">moduli</property>
 <property key="categoryCodesCSV">cittadino,allegati</property>
+<property key="mainCategoryFilter">moduli</property>
 </properties>
 
 ');
