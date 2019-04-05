@@ -22,6 +22,7 @@ INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM826','link_
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM829','link_utili');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM832','link_utili');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM834','link_utili');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM913','link_utili');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CNG840','link_utili');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC905','allegati_dirigenti');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC905','come_fare_per');
@@ -31,3 +32,5 @@ INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC908','forze
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC908','come_fare_per');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC910','pubblica_amministrazione');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC910','come_fare_per');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC919','pubblica_amministrazione');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('PRC919','come_fare_per');

@@ -418,6 +418,21 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2
 </div>
     #end
 </article>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (21,'CTA','Lista F.A.Q.','<h4 class="card-title">Domande più frequenti</h4>
+<div id="lista-howto" class="collapse-div mb-5" role="tablist">
+    #foreach ($item in $content.lista) 
+    <div class="collapse-header" id="headingA$item.number.value">
+        <button data-toggle="collapse" data-target="#accordion$item.number.value" aria-expanded="false" aria-controls="accordion$item.number.value">
+           $item.title.text
+        </button>
+    </div>
+    <div id="accordion$item.number.value" class="collapse" role="tabpanel" aria-labelledby="headingA$item.number.value" data-parent="#lista-howto">
+        <div class="collapse-body">
+           $item.abstract.text
+        </div>
+    </div>
+    #end
+</div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<div class="col-12 col-lg-6">
     <!--start card-->
     <div class="card-wrapper">

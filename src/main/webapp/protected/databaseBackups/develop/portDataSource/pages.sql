@@ -15,6 +15,7 @@ INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('dove_siamo','sezione_
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('elenco_pec','per_le_forse_dell_ordine',7,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('errorpage','service',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('fotogallery','sezione_tribunale',13,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('f_a_q_','sezione_come_fare_per',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('homepage','homepage',-1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('il_tribunale','sezione_tribunale',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('info_palazzo','sezione_tribunale',8,'free');
