@@ -35,11 +35,11 @@
                             <a class="navbar-brand"  href="https://www.giustizia.it/giustizia/">Ministero della Giustizia</a>
                             <span class="nav-palce-mobile">
                                 <nav>
-                                    <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu1" role="button" aria-expanded="false" aria-controls="collapseExample">
+<!--                                    <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu1" role="button" aria-expanded="false" aria-controls="collapseExample">
                                         <span>Ente appartenenza/Owner</span>
                                         <svg class="icon">
                                         <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>                                        </svg>
-                                    </a>
+                                    </a>-->
 
                                 </nav>
                             </span>

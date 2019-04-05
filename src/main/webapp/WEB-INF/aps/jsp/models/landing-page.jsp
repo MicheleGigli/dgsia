@@ -15,8 +15,6 @@
     </head>
     <body>
 
-
-
         <div class="cookiebar bg-dark p-4 hide" aria-hidden="true">
             <p class="text-white">Questo sito utilizza cookie tecnici, analytics e di terze parti.
                 <br>Proseguendo nella navigazione accetti l'utilizzo dei cookie.<br>
@@ -35,12 +33,12 @@
                             <a class="navbar-brand"  href="https://www.giustizia.it/giustizia/">Ministero della Giustizia</a>
                             <span class="nav-palce-mobile">
                                 <nav>
-                                    <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                        <span>Ente appartenenza/Owner</span>
-                                        <svg class="icon">
-                                        <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>                                        </svg>
-                                    </a>
-
+                                    <!--                             <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                                           <span>Ente appartenenza/Owner</span>
+                                                                                 <svg class="icon">
+                                                                                       <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>        
+                                                                                 </svg>
+                                                                        </a>-->
                                 </nav>
                             </span>
                             <div class="header-slim-right-zone">
@@ -58,8 +56,8 @@
             <div class="container py-1">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                         <a href="<wp:url page="homepage" />" > 
-                        <img class="img-fluid" src="<wp:imgURL />logo-corte-torino_white.png">
+                        <a href="<wp:url page="homepage" />" > 
+                            <img class="img-fluid" src="<wp:imgURL />logo-corte-torino_white.png">
                         </a>
                     </div>
 
