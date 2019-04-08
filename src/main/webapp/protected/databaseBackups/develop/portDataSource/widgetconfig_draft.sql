@@ -118,8 +118,8 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('f_
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('f_a_q_',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('f_a_q_',5,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CNG666</property>
 <property key="modelId">9</property>
+<property key="contentId">CNG666</property>
 </properties>
 
 ');
@@ -131,8 +131,8 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('f_
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('f_a_q_',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CTA673</property>
 <property key="modelId">13</property>
+<property key="contentId">CTA673</property>
 </properties>
 
 ');
@@ -158,15 +158,14 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="maxElements">6</property>
+<property key="filters">(order=ASC;attributeFilter=true;key=primopiano;value=false)</property>
 <property key="title_it">News</property>
 <property key="linkDescr_it">Lista News</property>
 <property key="pageLink">news</property>
-<property key="categories">news</property>
 <property key="maxElemForItem">6</property>
 <property key="title_en">News</property>
-<property key="modelId">1</property>
 <property key="contentType">CTM</property>
+<property key="modelId">1</property>
 <property key="linkDescr_en">Lista News</property>
 </properties>
 
@@ -238,8 +237,8 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('mo
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('moduli',4,'entando-widget-navigation_breadcrumbs',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('moduli',5,'lista_moduli','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="mainCategoryFilter">moduli</property>
 <property key="categoryCodesCSV">cittadino,allegati</property>
+<property key="mainCategoryFilter">moduli</property>
 </properties>
 
 ');
@@ -260,6 +259,21 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ne
 <property key="userFilters">(attributeFilter=false;key=fulltext)+(attributeFilter=false;key=category;categoryCode=news)+(attributeFilter=true;key=date)</property>
 <property key="contentType">CTM</property>
 <property key="modelId">14</property>
+</properties>
+
+');
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('news_categorizzate',0,'entando-widget-language_choose',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('news_categorizzate',1,'entando-widget-search_form',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('news_categorizzate',2,'Navigation_Bar_Settato',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('news_categorizzate',3,'entando-widget-login_form',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('news_categorizzate',4,'entando-widget-navigation_breadcrumbs',NULL);
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('news_categorizzate',9,'content_viewer_list_news','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="maxElemForItem">6</property>
+<property key="userFilters">(attributeFilter=false;key=fulltext)+(attributeFilter=true;key=date)</property>
+<property key="filters">(order=ASC;attributeFilter=false;key=created)</property>
+<property key="contentType">CTM</property>
+<property key="modelId">18</property>
 </properties>
 
 ');

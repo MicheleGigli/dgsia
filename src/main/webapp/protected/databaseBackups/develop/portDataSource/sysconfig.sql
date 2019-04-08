@@ -51,6 +51,9 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 	</contenttype>
 	<contenttype typecode="CTM" typedescr="Contenuto base titl+sub+img+link" viewpage="paginadettaglio" listmodel="1" defaultmodel="1">
 		<attributes>
+			<attribute name="primopiano" attributetype="Boolean" description="Primo piano" searchable="true">
+				<validations />
+			</attribute>
 			<attribute name="subtitle" attributetype="Text" description="subtitle">
 				<validations>
 					<required>true</required>
@@ -67,6 +70,32 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			<attribute name="date" attributetype="Date" description="data" searchable="true" />
 			<attribute name="enum" attributetype="Enumerator" description="enumeration" searchable="true" separator=","><![CDATA[ATTI GIUDIZIARI, ATTUALITA, COMUNICATI STAMPA]]></attribute>
 			<attribute name="autore" attributetype="Text" description="autore" searchable="true" />
+			<list name="article" attributetype="Monolist" description="Corpo articolo">
+				<validations />
+				<nestedtype>
+					<attribute name="article" attributetype="Composite">
+						<attributes>
+							<attribute name="text1" attributetype="Hypertext" description="testo articolo">
+								<validations />
+							</attribute>
+							<attribute name="img1" attributetype="Image" description="immagine articolo">
+								<validations />
+							</attribute>
+							<attribute name="link1" attributetype="Link" description="link articolo">
+								<validations />
+							</attribute>
+						</attributes>
+					</attribute>
+				</nestedtype>
+			</list>
+			<list name="attach" attributetype="Monolist" description="allegati  articolo">
+				<validations />
+				<nestedtype>
+					<attribute name="attach" attributetype="Attach">
+						<validations />
+					</attribute>
+				</nestedtype>
+			</list>
 		</attributes>
 	</contenttype>
 	<contenttype typecode="DLD" typedescr="Download Card" viewpage="**NULL**" listmodel="10031" defaultmodel="10003">
@@ -419,7 +448,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','langs','
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params','Configuration params.','<?xml version="1.0" encoding="UTF-8"?>
 <Params>
 	<Param name="urlStyle">classic</Param>
-	<Param name="hypertextEditor">none</Param>
+	<Param name="hypertextEditor">fckeditor</Param>
 	<Param name="treeStyle_page">classic</Param>
 	<Param name="treeStyle_category">classic</Param>
 	<Param name="startLangFromBrowser">false</Param>

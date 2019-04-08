@@ -13,11 +13,13 @@
                 <c:when test="${!currentTarget.voidPage}">
                     <c:choose>
                         <c:when test="${currentCode == currentViewCode}">
-                            <li><span class="active"><c:out value="${currentTarget.title}" /></span></li>
+                            <li> <span class="active"><c:out value="${currentTarget.title}" /></span></li>
                             </c:when>
                             <c:otherwise>
                             <li>
-                                <a href="<c:out value="${currentTarget.url}" />"><c:out value="${currentTarget.title}" /></a>
+                                <a href="<c:out value="${currentTarget.url}" />">
+                                    <c:out value="${currentTarget.title}" />
+                                </a>
                                 <!--<span class="separator">&gt;</span>-->
                             </li>
                         </c:otherwise>
