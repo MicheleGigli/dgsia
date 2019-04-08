@@ -114,8 +114,8 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-04-05 17:20:03');
-INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('il_tribunale','<?xml version="1.0" encoding="UTF-8"?>
+','2019-04-05 17:20:03','free');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat,groupcode) VALUES ('il_tribunale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Il Tribunale</property>
 <property key="it">Il Tribunale</property>
@@ -175,8 +175,8 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-12-11 16:21:31');
-INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('news_categorizzate','<?xml version="1.0" encoding="UTF-8"?>
+','2018-12-11 16:21:31','free');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat,groupcode) VALUES ('news_categorizzate','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">News categorizzate</property>
 <property key="it">News categorizzate</property>
@@ -189,8 +189,8 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-04-05 17:07:23');
-INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('notfound','<?xml version="1.0" encoding="UTF-8"?>
+','2019-04-05 17:07:23','free');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat,groupcode) VALUES ('notfound','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Page not found</property>
 <property key="it">Pagina non trovata</property>

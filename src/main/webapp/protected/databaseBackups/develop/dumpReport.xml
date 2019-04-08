@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <backup>
-	<date>2019-04-05 17:21:20</date>
-	<requiredTime>738</requiredTime>
+	<date>2019-04-08 16:22:34</date>
+	<requiredTime>856</requiredTime>
 	<subfolder>develop</subfolder>
 	<componentsHistory>
-		<component code="entandoCore" date="2019-04-02 11:07:31" status="OK">
+		<component code="entandoCore" date="2019-04-08 16:00:28" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="OK">
 					<table name="sysconfig" />
@@ -51,7 +51,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-jquery" date="2019-04-02 11:07:35" status="OK">
+		<component code="entando-misc-jquery" date="2019-04-08 16:00:30" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -62,7 +62,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-html5-essentials" date="2019-04-02 11:07:35" status="OK">
+		<component code="entando-misc-html5-essentials" date="2019-04-08 16:00:30" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -73,7 +73,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-bootstrap" date="2019-04-02 11:07:35" status="OK">
+		<component code="entando-misc-bootstrap" date="2019-04-08 16:00:30" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -84,7 +84,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-less" date="2019-04-02 11:07:35" status="OK">
+		<component code="entando-misc-less" date="2019-04-08 16:00:30" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -95,7 +95,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jacms" date="2019-04-02 11:07:35" status="OK">
+		<component code="jacms" date="2019-04-08 16:00:30" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="OK">
 					<table name="contentmodels" />
@@ -117,7 +117,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-content-generic" date="2019-04-02 11:07:37" status="OK">
+		<component code="entando-content-generic" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -128,7 +128,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-content-download" date="2019-04-02 11:07:37" status="OK">
+		<component code="entando-content-download" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -139,7 +139,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-navigation_bar" date="2019-04-02 11:07:37" status="OK">
+		<component code="entando-widget-navigation_bar" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -150,7 +150,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-navigation_breadcrumbs" date="2019-04-02 11:07:37" status="OK">
+		<component code="entando-widget-navigation_breadcrumbs" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -161,7 +161,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-admin-console" date="2019-04-02 11:07:37" status="OK">
+		<component code="entando-admin-console" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="OK">
@@ -174,7 +174,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-portal-ui" date="2019-04-02 11:07:37" status="OK">
+		<component code="entando-portal-ui" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -185,7 +185,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-app-view-cms-default" date="2019-04-02 11:07:37" status="OK">
+		<component code="entando-app-view-cms-default" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -196,7 +196,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jpinfinispan" date="2019-04-02 11:07:37" status="OK">
+		<component code="jpinfinispan" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -207,7 +207,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-language_choose" date="2019-04-02 11:07:37" status="OK">
+		<component code="entando-widget-language_choose" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -218,7 +218,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-login_form" date="2019-04-02 11:07:37" status="OK">
+		<component code="entando-widget-login_form" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -229,7 +229,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-search_form" date="2019-04-02 11:07:37" status="OK">
+		<component code="entando-widget-search_form" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -240,7 +240,7 @@
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-page-bootstrap-hero" date="2019-04-02 11:07:37" status="OK">
+		<component code="entando-page-bootstrap-hero" date="2019-04-08 16:00:32" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -253,53 +253,53 @@
 		</component>
 	</componentsHistory>
 	<datasource name="portDataSource">
-		<table name="categories" requiredTime="0" rows="25" />
-		<table name="contentattributeroles" requiredTime="3" rows="24" />
-		<table name="contentmodels" requiredTime="9" rows="26" />
-		<table name="contentrelations" requiredTime="1" rows="108" />
-		<table name="contents" requiredTime="3" rows="42" />
-		<table name="contentsearch" requiredTime="2" rows="94" />
-		<table name="guifragment" requiredTime="7" rows="57" />
-		<table name="localstrings" requiredTime="2" rows="320" />
-		<table name="pagemodels" requiredTime="1" rows="5" />
-		<table name="pages" requiredTime="1" rows="35" />
-		<table name="pages_metadata_draft" requiredTime="1" rows="35" />
-		<table name="pages_metadata_online" requiredTime="1" rows="35" />
-		<table name="resourcerelations" requiredTime="1" rows="5" />
-		<table name="resources" requiredTime="3" rows="33" />
-		<table name="sysconfig" requiredTime="1" rows="9" />
-		<table name="uniquekeys" requiredTime="1" rows="1" />
-		<table name="widgetcatalog" requiredTime="0" rows="25" />
-		<table name="widgetconfig" requiredTime="1" rows="185" />
-		<table name="widgetconfig_draft" requiredTime="1" rows="185" />
-		<table name="workcontentattributeroles" requiredTime="1" rows="24" />
-		<table name="workcontentrelations" requiredTime="3" rows="19" />
-		<table name="workcontentsearch" requiredTime="1" rows="94" />
+		<table name="categories" requiredTime="3" rows="25" />
+		<table name="contentattributeroles" requiredTime="4" rows="24" />
+		<table name="contentmodels" requiredTime="8" rows="26" />
+		<table name="contentrelations" requiredTime="4" rows="108" />
+		<table name="contents" requiredTime="9" rows="42" />
+		<table name="contentsearch" requiredTime="5" rows="94" />
+		<table name="guifragment" requiredTime="11" rows="57" />
+		<table name="localstrings" requiredTime="21" rows="320" />
+		<table name="pagemodels" requiredTime="4" rows="5" />
+		<table name="pages" requiredTime="3" rows="35" />
+		<table name="pages_metadata_draft" requiredTime="5" rows="35" />
+		<table name="pages_metadata_online" requiredTime="6" rows="35" />
+		<table name="resourcerelations" requiredTime="7" rows="5" />
+		<table name="resources" requiredTime="22" rows="33" />
+		<table name="sysconfig" requiredTime="1" rows="10" />
+		<table name="uniquekeys" requiredTime="3" rows="1" />
+		<table name="widgetcatalog" requiredTime="4" rows="25" />
+		<table name="widgetconfig" requiredTime="6" rows="185" />
+		<table name="widgetconfig_draft" requiredTime="6" rows="185" />
+		<table name="workcontentattributeroles" requiredTime="6" rows="24" />
+		<table name="workcontentrelations" requiredTime="4" rows="19" />
+		<table name="workcontentsearch" requiredTime="5" rows="94" />
 	</datasource>
 	<datasource name="servDataSource">
-		<table name="actionlogcommentrecords" requiredTime="1" rows="0" />
-		<table name="actionloglikerecords" requiredTime="1" rows="0" />
-		<table name="actionlogrecords" requiredTime="20" rows="586" />
-		<table name="actionlogrelations" requiredTime="2" rows="505" />
-		<table name="api_oauth_consumers" requiredTime="2" rows="1" />
-		<table name="api_oauth_tokens" requiredTime="0" rows="3" />
-		<table name="apicatalog_methods" requiredTime="0" rows="0" />
-		<table name="apicatalog_services" requiredTime="0" rows="0" />
-		<table name="authgroups" requiredTime="0" rows="2" />
-		<table name="authpermissions" requiredTime="0" rows="10" />
-		<table name="authrolepermissions" requiredTime="0" rows="1" />
-		<table name="authroles" requiredTime="0" rows="1" />
-		<table name="authusergrouprole" requiredTime="0" rows="1" />
-		<table name="authuserprofileattrroles" requiredTime="1" rows="0" />
-		<table name="authuserprofiles" requiredTime="0" rows="1" />
-		<table name="authuserprofilesearch" requiredTime="1" rows="0" />
-		<table name="authusers" requiredTime="1" rows="1" />
-		<table name="authusershortcuts" requiredTime="3" rows="1" />
-		<table name="dataobjectattributeroles" requiredTime="1" rows="0" />
-		<table name="dataobjectmodels" requiredTime="1" rows="0" />
-		<table name="dataobjectrelations" requiredTime="2" rows="0" />
-		<table name="dataobjects" requiredTime="1" rows="0" />
-		<table name="dataobjectsearch" requiredTime="1" rows="0" />
+		<table name="actionlogcommentrecords" requiredTime="4" rows="0" />
+		<table name="actionloglikerecords" requiredTime="3" rows="0" />
+		<table name="actionlogrecords" requiredTime="202" rows="586" />
+		<table name="actionlogrelations" requiredTime="11" rows="505" />
+		<table name="api_oauth_consumers" requiredTime="7" rows="1" />
+		<table name="api_oauth_tokens" requiredTime="3" rows="1" />
+		<table name="apicatalog_methods" requiredTime="4" rows="0" />
+		<table name="apicatalog_services" requiredTime="3" rows="0" />
+		<table name="authgroups" requiredTime="3" rows="2" />
+		<table name="authpermissions" requiredTime="3" rows="10" />
+		<table name="authrolepermissions" requiredTime="3" rows="1" />
+		<table name="authroles" requiredTime="3" rows="1" />
+		<table name="authusergrouprole" requiredTime="4" rows="1" />
+		<table name="authuserprofileattrroles" requiredTime="4" rows="0" />
+		<table name="authuserprofiles" requiredTime="3" rows="1" />
+		<table name="authuserprofilesearch" requiredTime="4" rows="0" />
+		<table name="authusers" requiredTime="3" rows="1" />
+		<table name="authusershortcuts" requiredTime="5" rows="1" />
+		<table name="dataobjectattributeroles" requiredTime="4" rows="0" />
+		<table name="dataobjectmodels" requiredTime="2" rows="0" />
+		<table name="dataobjectrelations" requiredTime="3" rows="0" />
+		<table name="dataobjects" requiredTime="3" rows="0" />
+		<table name="dataobjectsearch" requiredTime="4" rows="0" />
 	</datasource>
 </backup>
 
