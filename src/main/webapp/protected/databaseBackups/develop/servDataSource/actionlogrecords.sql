@@ -19595,8 +19595,8 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
 </activityStreamInfo>
 ','2019-04-04 16:44:11');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (932,'admin','2019-04-04 16:45:57','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
-Monolist:Composite:Text:en_lista_title_1=Domanda: Che cosa è il distretto?
-Monolist:Composite:Text:en_lista_title_0=Domanda: Che cosa è il circondario?
+Monolist:Composite:Text:en_lista_title_1=Domanda: Che cosa ï¿½ il distretto?
+Monolist:Composite:Text:en_lista_title_0=Domanda: Che cosa ï¿½ il circondario?
 Text:en_title=F.A.Q.
 Monolist:Composite:Date:lista_date_1=02/04/2019
 Monolist:Composite:Longtext:it_lista_abstract_1=
@@ -19610,9 +19610,9 @@ Monolist:Composite:Text:it_lista_title_1=
 Monolist:Composite:Text:it_lista_title_0=
 contentOnSessionMarker=CTA_newContent
 Monolist:Composite:Number:lista_number_0=1
-Monolist:Composite:Longtext:en_lista_abstract_0=Risposta: Il circondario è la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
+Monolist:Composite:Longtext:en_lista_abstract_0=Risposta: Il circondario ï¿½ la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
 Text:it_title=
-Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto è la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
+Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto ï¿½ la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
 status=
 ','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <activityStreamInfo>
