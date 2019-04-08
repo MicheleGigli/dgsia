@@ -219,21 +219,16 @@ $(document).ready(function () {
 })
 </script>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (9,'CNG','Modello Testo','<!--
-<h2 class="border-bottom">$content.Title.text</h2>
--->
-
-<div class="card-wrapper">
-<div class="card border-0">
-<div class="card-body p-3">
-<h3 class="card-title">$content.Abstract.text</h3>
-<p class="card-text">$content.MainBody.text</p>                                                                    
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (9,'CNG','Modello Testo','<div class="card-wrapper">
+    <div class="card border-0">
+        <div class="card-body p-1">
+            <h3 class="card-title">
+              $content.Title.text
+            </h3>         
+            $content.MainBody.text                                                                         
+        </div>
+    </div>
 </div>
-</div>
-</div>
-<!--end card-->
-
-
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10,'CTA','Modello Lista Link','<div class="card-wrapper">
 		<div class="card border-0">
@@ -433,48 +428,70 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2
     </div>
     #end
 </div>',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','<div class="col-12 col-lg-6">
-    <!--start card-->
-    <div class="card-wrapper">
-      <div class="card card-img no-after">
-        <div class="img-responsive-wrapper">
-            <div class="img-responsive">
-              <div class="img-wrapper">
-                <img src="$content.img.getImagePath(''0'')" title="$content.img.text" alt="$content.img.text">
-              </div>
-            </div>
-          </div>
-        <div class="card-body">
-          <div class="category-top">
-            <a class="category" href="#">
-               
-   #foreach ($contentCategory in $content.getCategories())
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (55,'CTM','News Dettaglio','
+<div class="col-12 col-lg-6">
 
-   #if ($contentCategory.title.lenght > 1)
-                             
-       $contentCategory.title -
-       
-       #else 
-        $contentCategory.title
-      
-   #end
-                    
-#end
-  
-            </a>
-            <span class="data">$content.date.longDate</span>
-          </div>
-          <h5 class="card-title big-heading"> $content.title.text</h5>
-          <p class="card-text">$content.abstract.text</p>
-          <span class="card-signature">
-           di $content.autore.text
-          </span>
+    <div class="card-wrapper detail">
+        <div class="card card-img no-after">
+            <div class="img-responsive-wrapper">
+                <div class="img-responsive">
+                    <div class="img-wrapper">
+                        <img src="$content.img.getImagePath(''0'')" title="$content.img.text" alt="$content.img.text">
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="category-top">
+                    <a class="category" href="#">
+                        #foreach ($contentCategory in $content.getCategories())
+                        $contentCategory.title 
+                        #end
+                    </a>
+                    <span class="data">$content.date.longDate</span>
+                </div>
+                <h5 class="card-title big-heading"> $content.title.text</h5>
+                <p class="card-text">$content.abstract.text</p>
+
+
+
+                #foreach($item in $content.article)
+                <h5>$item.text1.text</h5>
+                <img class="" src="$item.img1.getImagePath(''0'')" alt="$item.img1.text">
+
+                <a href="$item.link1.destination">
+                    <div class="it-right-zone py-3">
+                        <span class="text">$item.link1.text</span>
+                    </div> 
+                </a>
+                #end
+
+                <span class="card-signature py-3">
+                    di $content.autore.text
+                </span>
+
+                #if ($content.attach.size()>0)
+                <h5 class="card-title big-heading">$i18n.getLabel("CNG_ATTACHMENTS")</h5>
+                <div class="it-list-wrapper py-3">
+                    <ul class="it-list">
+                        #foreach ($item in $content.attach )
+                        <li>
+                            <a href="$item.attachPath">
+                                <div class="it-right-zone">
+                                    <span class="text">$item.text</span>
+                                </div>
+                            </a>
+                        </li>
+                        #end
+                    </ul>
+                </div>
+
+                #end
+
+            </div>
         </div>
-      </div>
     </div>
-    <!--end card-->
-  </div>
-',NULL);
+
+</div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (182,'CTM','Carousel con filtri home','<div class="it-single-slide-wrapper">
     <a href="$content.getContentOnPageLink("paginadettaglio")&modelId=55">
        <div class="img-responsive-wrapper">

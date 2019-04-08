@@ -254,8 +254,8 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-04-01 15:09:17','free');
-INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat,groupcode) VALUES ('il_tribunale','<?xml version="1.0" encoding="UTF-8"?>
+','2019-04-05 09:54:19');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('il_tribunale','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">La procura</property>
 <property key="it">La procura</property>
@@ -268,8 +268,8 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-30 01:08:39','free');
-INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat,groupcode) VALUES ('info_palazzo','<?xml version="1.0" encoding="UTF-8"?>
+','2019-04-05 12:16:21');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('info_palazzo','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Info Palazzo</property>
 <property key="it">Info Palazzo</property>
@@ -329,8 +329,6 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
   <mimeType>text/html</mimeType>
 </config>
 
-','2018-11-30 01:30:12','free');
-INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat,groupcode) VALUES ('moduli_','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Moduli</property>
 <property key="it">Moduli</property>
@@ -984,3 +982,5 @@ INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,u
 </config>
 
 ','2019-03-26 17:36:10','free');
+','2019-04-05 16:01:31');
+INSERT INTO pages_metadata_draft (code,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('moduli_','<?xml version="1.0" encoding="UTF-8"?>
