@@ -210,6 +210,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PASSWORD','en',
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PASSWORD','it','Password');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','en','My Portal');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','it','Il Mio Portale');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','en','Read more');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','it','Leggi di più');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','en','Please sign in');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','it','Ãˆ necessario autenticarsi');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_NULLO','en','La ricerca non ha restituito nessun risultato.');

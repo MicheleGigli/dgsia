@@ -12,6 +12,7 @@ INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('link_utili','homepage
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('login','service',3,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('moduli','sezione_per_il_cittadino',2,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('news','homepage',2,'free');
+INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('news_categorizzate','homepage',14,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('notfound','service',1,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('organizzazione','sezione_tribunale',3,'free');
 INSERT INTO pages (code,parentcode,pos,groupcode) VALUES ('paginadettaglio','homepage',4,'free');
