@@ -76,7 +76,7 @@ public class CacheInfoManager extends AbstractService implements ICacheInfoManag
             if (null == cacheable) {
                 CachePut cachePut = effectiveTargetMethod.getAnnotation(CachePut.class);
                 if (null == cachePut) {
-                    return result;
+                    return pjp.proceed();
                 }
                 cacheNames = cachePut.value();
                 keyExpression = cachePut.key();
@@ -85,7 +85,7 @@ public class CacheInfoManager extends AbstractService implements ICacheInfoManag
                     Object isCacheable = this.evaluateExpression(cacheable.condition(), targetMethod, pjp.getArgs(), effectiveTargetMethod, targetClass);
                     Boolean check = Boolean.valueOf(isCacheable.toString());
                     if (null != check && !check) {
-                        return result;
+                        return pjp.proceed();
                     }
                 }
                 cacheNames = cacheable.value();
