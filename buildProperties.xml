@@ -9,7 +9,7 @@
     # <property name="aps.base.dir" location="../Entando" />
     -->
 
-    <property name="webappname" value="tribunali" />
+    <property name="webappname" value="tribunalemarsala" />
 
     <property name="postgres.hostname" value="localhost" />
     <property name="postgres.port" value="5432" />

@@ -1760,7 +1760,7 @@ treeNodesToOpen=home
 Monolist:Composite:Date:lista_date_0=
 mainGroup=free
 Monolist:Composite:Number:lista_number_2=
-descr=Lista Link Tribunali
+descr=Lista Link tribunalemarsala
 Monolist:Composite:Number:lista_number_1=
 Monolist:Composite:Text:it_lista_title_1=
 Monolist:Composite:Longtext:it_lista_abstract_3=
@@ -1777,7 +1777,7 @@ status=
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Lista Link Tribunali</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Lista Link tribunalemarsala</value>
         </entry>
     </objectTitles>
     <groups>
@@ -18138,7 +18138,7 @@ contentOnSessionMarker=CTA_newContent
 Monolist:Composite:Longtext:en_lista_abstract_2=Risposta: Anche se il suono di queste parole pu� trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste pi� dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura � l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura � l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).
 Monolist:Composite:Longtext:en_lista_abstract_3=Risposta: No, la Procura di Ravenna ha una sola sede, quella di via Falcone 67 a Ravenna. Presso le sezioni del Tribunale di Faenza e Lugo vi � un ufficio del PM al quale si accede solo su sua convocazione.
 Monolist:Composite:Longtext:en_lista_abstract_0=Risposta: Il circondario � la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
-Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
+Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i tribunalemarsala che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
 Monolist:Composite:Text:en_lista_title_1=Domanda: Che cosa � il distretto?
 Monolist:Composite:Text:en_lista_title_0=Domanda: Che cosa � il circondario?
 Monolist:Composite:Text:en_lista_title_3=Domanda: La Procura di Ravenna ha uffici distaccati a Lugo e a Faenza, come il Tribunale?
@@ -18326,7 +18326,7 @@ contentOnSessionMarker=CTA_editContent_CTA673
 Monolist:Composite:Longtext:en_lista_abstract_2=Risposta: Anche se il suono di queste parole pu� trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste pi� dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura � l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura � l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).
 Monolist:Composite:Longtext:en_lista_abstract_3=Risposta: No, la Procura di Ravenna ha una sola sede, quella di via Falcone 67 a Ravenna. Presso le sezioni del Tribunale di Faenza e Lugo vi � un ufficio del PM al quale si accede solo su sua convocazione.
 Monolist:Composite:Longtext:en_lista_abstract_0=Risposta: Il circondario � la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
-Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
+Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i tribunalemarsala che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
 Monolist:Composite:Text:en_lista_title_1=Domanda: Che cosa � il distretto?
 Monolist:Composite:Text:en_lista_title_0=Domanda: Che cosa � il circondario?
 Monolist:Composite:Text:en_lista_title_3=Domanda: La Procura di Ravenna ha uffici distaccati a Lugo e a Faenza, come il Tribunale?
@@ -18928,7 +18928,7 @@ contentOnSessionMarker=CTA_editContent_CTA673
 Monolist:Composite:Longtext:en_lista_abstract_2=Risposta: Anche se il suono di queste parole pu� trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste pi� dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura � l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura � l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).
 Monolist:Composite:Longtext:en_lista_abstract_3=Risposta: No, la Procura di Ravenna ha una sola sede, quella di via Falcone 67 a Ravenna. Presso le sezioni del Tribunale di Faenza e Lugo vi � un ufficio del PM al quale si accede solo su sua convocazione.
 Monolist:Composite:Longtext:en_lista_abstract_0=Risposta: Il circondario � la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
-Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
+Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i tribunalemarsala che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
 Monolist:Composite:Text:en_lista_title_1=Domanda: Che cosa � il distretto?
 Monolist:Composite:Text:en_lista_title_0=Domanda: Che cosa � il circondario?
 Monolist:Composite:Text:en_lista_title_3=Domanda: La Procura di Ravenna ha uffici distaccati a Lugo e a Faenza, come il Tribunale?
@@ -18987,7 +18987,7 @@ contentOnSessionMarker=CTA_editContent_CTA673
 Monolist:Composite:Longtext:en_lista_abstract_2=Risposta: Anche se il suono di queste parole pu� trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste pi� dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura � l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura � l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).
 Monolist:Composite:Longtext:en_lista_abstract_3=Risposta: No, la Procura di Ravenna ha una sola sede, quella di via Falcone 67 a Ravenna. Presso le sezioni del Tribunale di Faenza e Lugo vi � un ufficio del PM al quale si accede solo su sua convocazione.
 Monolist:Composite:Longtext:en_lista_abstract_0=Risposta: Il circondario � la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
-Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
+Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i tribunalemarsala che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
 Monolist:Composite:Text:en_lista_title_1=Domanda: Che cosa � il distretto?
 Monolist:Composite:Text:en_lista_title_0=Domanda: Che cosa � il circondario?
 Monolist:Composite:Text:en_lista_title_3=Domanda: La Procura di Ravenna ha uffici distaccati a Lugo e a Faenza, come il Tribunale?
@@ -19074,7 +19074,7 @@ contentOnSessionMarker=CTA_editContent_CTA673
 Monolist:Composite:Longtext:en_lista_abstract_2=Risposta: Anche se il suono di queste parole pu� trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste pi� dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura � l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura � l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).
 Monolist:Composite:Longtext:en_lista_abstract_3=Risposta: No, la Procura di Ravenna ha una sola sede, quella di via Falcone 67 a Ravenna. Presso le sezioni del Tribunale di Faenza e Lugo vi � un ufficio del PM al quale si accede solo su sua convocazione.
 Monolist:Composite:Longtext:en_lista_abstract_0=Risposta: Il circondario � la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
-Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
+Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i tribunalemarsala che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
 Monolist:Composite:Text:en_lista_title_1=Domanda: Che cosa � il distretto?
 Monolist:Composite:Text:en_lista_title_0=Domanda: Che cosa � il circondario?
 Monolist:Composite:Text:en_lista_title_3=Domanda: La Procura di Ravenna ha uffici distaccati a Lugo e a Faenza, come il Tribunale?
@@ -19133,7 +19133,7 @@ contentOnSessionMarker=CTA_editContent_CTA673
 Monolist:Composite:Longtext:en_lista_abstract_2=Risposta: Anche se il suono di queste parole pu� trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste pi� dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura � l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura � l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).
 Monolist:Composite:Longtext:en_lista_abstract_3=Risposta: No, la Procura di Ravenna ha una sola sede, quella di via Falcone 67 a Ravenna. Presso le sezioni del Tribunale di Faenza e Lugo vi � un ufficio del PM al quale si accede solo su sua convocazione.
 Monolist:Composite:Longtext:en_lista_abstract_0=Risposta: Il circondario � la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
-Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
+Monolist:Composite:Longtext:en_lista_abstract_1=Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i tribunalemarsala che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
 Monolist:Composite:Text:en_lista_title_1=Domanda: Che cosa � il distretto?
 Monolist:Composite:Text:en_lista_title_0=Domanda: Che cosa � il circondario?
 Monolist:Composite:Text:en_lista_title_3=Domanda: La Procura di Ravenna ha uffici distaccati a Lugo e a Faenza, come il Tribunale?

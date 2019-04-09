@@ -1,5 +1,5 @@
-<project name="tribunali" default="WAR-build" basedir=".">
-	<description>tribunali - Build file</description>
+<project name="tribunalemarsala" default="WAR-build" basedir=".">
+	<description>tribunalemarsala - Build file</description>
 
 	<import file="buildProperties.xml"/>
 	<import file="buildTasks.xml"/>

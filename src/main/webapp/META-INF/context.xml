@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Context path="/tribunali" docBase="./tribunali" debug="1" reloadable="false">
+<Context path="/tribunalemarsala" docBase="./tribunalemarsala" debug="1" reloadable="false">
 
     <Environment name="logActiveFileOutput" value="true" type="java.lang.String" override="false" />
-    <Environment name="logName" value="C:\\projects\\almaviva\\dgsia\\target\\tribunali.log" type="java.lang.String" override="false" />
-    <Environment name="logFileRotatePattern" value="C:\\projects\\almaviva\\dgsia\\target\\tribunali_logs\\tribunali-%i.log.gz" type="java.lang.String" override="false" />
+    <Environment name="logName" value="C:\\projects\\almaviva\\dgsia\\target\\tribunalemarsala.log" type="java.lang.String" override="false" />
+    <Environment name="logFileRotatePattern" value="C:\\projects\\almaviva\\dgsia\\target\\tribunalemarsala_logs\\tribunalemarsala-%i.log.gz" type="java.lang.String" override="false" />
     <Environment name="logLevel" value="INFO" type="java.lang.String" override="false" />
     <Environment name="logFileSize" value="10485760" type="java.lang.String" override="false" />
     <Environment name="logFilesCount" value="10" type="java.lang.String" override="false" />
 
     <Environment name="configVersion" value="production" type="java.lang.String" override="false" />
 
-    <Environment name="applicationBaseURL" value="https://localhost:8080/tribunali/" type="java.lang.String" override="false" />
-    <Environment name="resourceRootURL" value="/tribunali/resources/" type="java.lang.String" override="false" />
-    <Environment name="protectedResourceRootURL" value="/tribunali/protected/" type="java.lang.String" override="false" />
+    <Environment name="applicationBaseURL" value="https://localhost:8080/tribunalemarsala/" type="java.lang.String" override="false" />
+    <Environment name="resourceRootURL" value="/tribunalemarsala/resources/" type="java.lang.String" override="false" />
+    <Environment name="protectedResourceRootURL" value="/tribunalemarsala/protected/" type="java.lang.String" override="false" />
 
     <Environment name="resourceDiskRootFolder" value="C:\\projects\\almaviva\\dgsia\\src\\main\\webapp\\resources" type="java.lang.String" override="false" />
     <Environment name="protectedResourceDiskRootFolder" value="C:\\projects\\almaviva\\dgsia\\src\\main\\webapp\\protected" type="java.lang.String" override="false" />
@@ -26,12 +26,12 @@
               type="javax.sql.DataSource" driverClassName="com.mysql.jdbc.Driver"
               maxActive="8" maxIdle="4"
               username="root" password="root"
-              url="jdbc:mysql://localhost:3306/tribunaliport" />
+              url="jdbc:mysql://localhost:3306/tribunalemarsalaport" />
 
     <Resource name="jdbc/servDataSource" auth="Container"
               type="javax.sql.DataSource" driverClassName="com.mysql.jdbc.Driver"
               maxActive="8" maxIdle="4"
               username="root" password="root"
-              url="jdbc:mysql://localhost:3306/tribunaliserv" />
+              url="jdbc:mysql://localhost:3306/tribunalemarsalaserv" />
 
 </Context>

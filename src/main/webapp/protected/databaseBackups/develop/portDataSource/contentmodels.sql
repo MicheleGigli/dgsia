@@ -192,13 +192,13 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                         <svg class="icon icon-primary icon-lg">
-                            <use xlink:href="/tribunali/resources/static/img/sprite.svg#it-arrow-left"></use>
+                            <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-arrow-left"></use>
                         </svg>
                         <span class="sr-only">Precedente</span>
                     </a>
                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                         <svg class="icon icon-primary icon-lg">
-                            <use xlink:href="/tribunali/resources/static/img/sprite.svg#it-arrow-right"></use>
+                            <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-arrow-right"></use>
                         </svg>
                         <span class="sr-only">Successivo</span>
                     </a>
@@ -241,7 +241,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
 							href="$item.link.destination">
               <span class="display-4">$item.title.text</span>
               <svg class="icon icon-primary icon-right m-0">
-              <use xlink:href="/tribunali/resources/static/img/sprite.svg#it-chevron-right"></use>
+              <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-chevron-right"></use>
               </svg>
 
 						</a></li>
@@ -362,7 +362,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3
           <span class="it-multiple">
             <span class="metadata"></span>
            <svg class="icon">
-              <use xlink:href="/tribunali/resources/static/img/sprite.svg#it-chevron-right"></use>
+              <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-chevron-right"></use>
             </svg>
           </span>
         </div>
@@ -384,7 +384,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3
             <a class="list-item" href="$item.attachPath">$item.text
             <svg class="icon icon-primary m-0">
                
-               <use xlink:href="/tribunali/resources/static/img/sprite.svg#it-download">
+               <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-download">
                </use>
             </svg>           
             </a>
@@ -401,7 +401,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3
         <li>
             <a class="list-item" href="$item.destination">$item.text
             <svg class="icon icon-primary m-0">
-            <use xlink:href="/tribunali/resources/static/img/sprite.svg#it-chevron-right">
+            <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-chevron-right">
                 </use>
             </svg>
             
@@ -533,7 +533,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
             <span class="display-4">$attach.text</span>
             
             <svg class="icon icon-primary icon-right m-0">
-            <use xlink:href="/tribunali/resources/static/img/sprite.svg#it-download">
+            <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-download">
                 </use>
             </svg>
             

@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>it.dgsia</groupId>
-    <artifactId>tribunali</artifactId>
+    <artifactId>tribunalemarsala</artifactId>
     <packaging>war</packaging>
     <version>1.0</version>
-    <name>tribunali</name>
+    <name>tribunalemarsala</name>
     <url>http://maven.apache.org/</url>
     <repositories>
         <repository>
@@ -146,7 +146,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <build>
-        <finalName>tribunali</finalName>
+        <finalName>tribunalemarsala</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -920,7 +920,7 @@
             <version>${entando.version}</version>
             <type>war</type>
         </dependency>
-        
+
         <dependency>
             <groupId>org.entando.entando.bundles.widgets</groupId>
             <artifactId>entando-widget-navigation_breadcrumbs</artifactId>
@@ -953,7 +953,7 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
-        
+
         <!-- enable if you need to test Oracle DB connection with jetty -->
         <!--<dependency>
             <groupId>com.oracle</groupId>
