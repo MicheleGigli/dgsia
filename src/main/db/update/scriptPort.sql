@@ -17,3 +17,19 @@ INSERT INTO sysconfig (version, item, descr, config) VALUES ('production', 'jacm
 
 -- EN-2141
 UPDATE resources SET lastmodified = creationdate WHERE lastmodified IS NULL;
+
+-- ------------------------------------------------------------
+
+UPDATE sysconfig SET config = '<?xml version="1.0" encoding="UTF-8"?>
+<Langs>
+	<Lang>
+		<code>it</code>
+		<descr>Italiano</descr>
+		<default>true</default>
+	</Lang>
+	<Lang>
+		<code>en</code>
+		<descr>English</descr>
+		<default>false</default>
+	</Lang>
+</Langs>' WHERE item = 'langs';
