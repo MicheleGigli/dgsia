@@ -392,11 +392,11 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','langs','
 	<Lang>
 		<code>it</code>
 		<descr>Italiano</descr>
+		<default>true</default>
 	</Lang>
 	<Lang>
 		<code>en</code>
 		<descr>English</descr>
-		<default>true</default>
 	</Lang>
 </Langs>
 ');
