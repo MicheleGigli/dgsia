@@ -56,8 +56,8 @@
             <div class="container py-1">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <a href="<wp:url page="homepage" />" > 
-                            <img class="img-fluid" src="<wp:imgURL />logo-Tribunale-di-Marsala.png">
+                    <a href="<wp:url page="homepage" />" > 
+                        <img class="img-fluid" src="<wp:imgURL />logo-Tribunale-di-Marsala.png">
                         </a>
                     </div>
 

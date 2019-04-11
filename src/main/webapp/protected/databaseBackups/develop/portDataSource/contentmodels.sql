@@ -74,14 +74,16 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3
 	</section>
 
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4,'CTM','Link Utili Home Page','<div class="card border-0 rounded">
-                        <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
-                        <div class="card-body">
-                            <h5 class="card-title">$content.title.text
-                            <p class="card-text">$content.abstract.text </p>
-                            <a href="$content.link.destination" type="button" class="btn btn-outline-primary">vai al sito</a>
-                        </div>
-                    </div>
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4,'CTM','Link Utili Home Page','<div class="col-sm-6 col-md-3 py-2">
+ <div class="card border-0 rounded">
+   <a href="$content.link.destination">
+     <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+    </a>
+    <div class="card-body">
+        <h5 class="card-title">$content.title.text</h5>            
+    </div>
+ </div>
+</div>
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5,'CTA','Trasparenza Home Page','<section id="section4" class="bg-dark">
 
@@ -275,7 +277,9 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   </div> 
 </div>
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (13,'CTA','Lista F.A.Q.','<h4 class="card-title">Domande pi� frequenti</h4>
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (13,'CTA','Lista F.A.Q.','<h4 class="card-title">
+   $i18n.getLabel("FAQ_TITOLO")
+</h4>
 <div id="lista-howto" class="collapse-div mb-5" role="tablist">
     #foreach ($item in $content.lista) 
     <div class="collapse-header" id="headingA$item.number.value">
@@ -353,6 +357,22 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
     <a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a>
   </h5>
   <p class="card-text">$content.abstract.text</p>
+</div>
+</div>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (20,'CTM','Link Utili per pagine interne','<div class="col-sm-12 col-md-4 py-2">
+<div class="card border-0 rounded">
+    <a href="$content.link.destination">
+      <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
+    </a>
+    <div class="card-body">
+        <h5 class="card-title">$content.title.text</h5>
+            
+            
+            <p class="card-text">$content.abstract.text </p>
+           
+           
+           
+    </div>
 </div>
 </div>',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (31,'PRC','List Default','<li>

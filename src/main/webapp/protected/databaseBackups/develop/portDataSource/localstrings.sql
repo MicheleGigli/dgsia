@@ -154,6 +154,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESNB_YOU_ARE_HE
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESNB_YOU_ARE_HERE','it','Sei qui');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','en','Search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','it','Cerca');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FAQ_TITOLO','en','Common questions');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FAQ_TITOLO','it','Domande più frequenti');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FULL_TEXT_SEARCH','en','search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FULL_TEXT_SEARCH','it','ricerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('GENERIC_ERROR','en','Generic Error');
@@ -211,7 +213,7 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PASSWORD','it',
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','en','My Portal');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','it','Il Mio Portale');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','en','Read more');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','it','Leggi di piï¿½');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','it','Leggi di più');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','en','Please sign in');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','it','Ãˆ necessario autenticarsi');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_NULLO','en','La ricerca non ha restituito nessun risultato.');
