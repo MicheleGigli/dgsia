@@ -144,58 +144,59 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 <properties>
 <property key="maxElemForItem">3</property>
 <property key="maxElements">3</property>
-<property key="contentType">CTM</property>
 <property key="modelId">17</property>
+<property key="contentType">CTM</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',6,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CTA22</property>
 <property key="modelId">3</property>
+<property key="contentId">CTA22</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="filters">(order=ASC;attributeFilter=true;key=primopiano;value=false)</property>
+<property key="maxElements">3</property>
+<property key="filters">(attributeFilter=true;order=ASC;key=primopiano;value=false)+(order=ASC;attributeFilter=false;key=created)</property>
 <property key="title_it">News</property>
 <property key="linkDescr_it">Lista News</property>
 <property key="pageLink">news</property>
-<property key="maxElemForItem">6</property>
+<property key="maxElemForItem">3</property>
 <property key="title_en">News</property>
-<property key="contentType">CTM</property>
 <property key="modelId">1</property>
+<property key="contentType">CTM</property>
 <property key="linkDescr_en">Lista News</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',8,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="maxElements">3</property>
+<property key="filters">(order=ASC;attributeFilter=false;key=created)</property>
 <property key="title_it">Link Utili</property>
 <property key="linkDescr_it">Vedi Tutti</property>
 <property key="pageLink">link_utili</property>
 <property key="categories">link_utili</property>
-<property key="maxElemForItem">3</property>
+<property key="maxElemForItem">8</property>
 <property key="title_en">Link Utili</property>
-<property key="modelId">4</property>
 <property key="contentType">CTM</property>
+<property key="modelId">4</property>
 <property key="linkDescr_en">Vedi Tutti</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="modelId">5</property>
 <property key="contentId">CTA71</property>
+<property key="modelId">5</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',10,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="modelId">8</property>
 <property key="contentId">CTA76</property>
+<property key="modelId">8</property>
 </properties>
 
 ');
@@ -222,11 +223,18 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('li
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('link_utili',2,'Navigation_Bar_Settato',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('link_utili',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('link_utili',4,'entando-widget-navigation_breadcrumbs',NULL);
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('link_utili',5,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('link_utili',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
+<property key="contentId">CNG745</property>
+</properties>
+
+');
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('link_utili',10,'content_viewer_list_links','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="maxElemForItem">6</property>
 <property key="categories">link_utili</property>
 <property key="contentType">CTM</property>
-<property key="modelId">17</property>
+<property key="modelId">20</property>
 </properties>
 
 ');

@@ -22,3 +22,4 @@ INSERT INTO workcontentattributeroles (contentid,attrname,rolename) VALUES ('DLD
 INSERT INTO workcontentattributeroles (contentid,attrname,rolename) VALUES ('PRC658','titolo','jacms:title');
 INSERT INTO workcontentattributeroles (contentid,attrname,rolename) VALUES ('PRC655','titolo','jacms:title');
 INSERT INTO workcontentattributeroles (contentid,attrname,rolename) VALUES ('CNG666','Title','jacms:title');
+INSERT INTO workcontentattributeroles (contentid,attrname,rolename) VALUES ('CNG745','Title','jacms:title');

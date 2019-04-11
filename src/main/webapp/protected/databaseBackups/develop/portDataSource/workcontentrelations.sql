@@ -17,3 +17,10 @@ INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM463','news'
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM463','decreti');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','news');
 INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM165','avvisi');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM736','link_utili');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM738','link_utili');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM741','link_utili');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM743','link_utili');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CNG745','link_utili');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM726','news');
+INSERT INTO workcontentrelations (contentid,refcategory) VALUES ('CTM726','filtro1');
