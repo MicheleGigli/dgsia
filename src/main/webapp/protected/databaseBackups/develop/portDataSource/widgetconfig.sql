@@ -291,26 +291,27 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage
 <property key="maxElemForItem">20</property>
 <property key="maxElements">20</property>
 <property key="filters">(attributeFilter=true;key=primopiano;value=true)</property>
-<property key="contentType">CTM</property>
 <property key="modelId">182</property>
+<property key="contentType">CTM</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',6,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CTA22</property>
 <property key="modelId">3</property>
+<property key="contentId">CTA22</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
+<property key="maxElements">3</property>
 <property key="filters">(attributeFilter=true;key=primopiano;value=false)</property>
 <property key="title_it">News</property>
 <property key="linkDescr_it">Tutte le news</property>
 <property key="pageLink">news</property>
 <property key="categories">news</property>
-<property key="maxElemForItem">6</property>
+<property key="maxElemForItem">3</property>
 <property key="title_en">News</property>
 <property key="modelId">1</property>
 <property key="contentType">CTM</property>
@@ -328,32 +329,23 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage
 <property key="categories">link_utili</property>
 <property key="maxElemForItem">8</property>
 <property key="title_en">Usefull links</property>
-<property key="modelId">4</property>
 <property key="contentType">CTM</property>
+<property key="modelId">4</property>
 <property key="linkDescr_en">Read more</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="modelId">5</property>
 <property key="contentId">CTA71</property>
+<property key="modelId">5</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',10,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="modelId">8</property>
 <property key="contentId">CTA76</property>
-</properties>
-
-');
-INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',12,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="maxElemForItem">4</property>
-<property key="filters">(attributeFilter=true;key=primopiano;value=true)</property>
-<property key="contentType">CTM</property>
-<property key="modelId">1</property>
+<property key="modelId">8</property>
 </properties>
 
 ');
