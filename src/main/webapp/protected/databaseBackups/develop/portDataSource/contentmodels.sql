@@ -413,7 +413,9 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2
 </div>
     #end
 </article>',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (21,'CTA','Lista F.A.Q.','<h4 class="card-title">Domande più frequenti</h4>
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (21,'CTA','Lista F.A.Q.','<h4 class="card-title">
+  $i18n.getLabel("FAQ_TITOLO")
+</h4>
 <div id="lista-howto" class="collapse-div mb-5" role="tablist">
     #foreach ($item in $content.lista) 
     <div class="collapse-header" id="headingA$item.number.value">
