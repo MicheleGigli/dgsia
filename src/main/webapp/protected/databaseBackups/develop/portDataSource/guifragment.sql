@@ -1,4 +1,143 @@
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('default_pagerBlock',NULL,NULL,NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('default_pagerBlock',NULL,NULL,'<#assign wp=JspTaglibs["/aps-core"]>
+<#if (group.size > group.max)>
+
+<nav class="pagination-wrapper">
+
+    <ul class="pagination">
+
+        <#if (1 != group.currItem)>
+
+        <#if (group.advanced)>
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >1</@wp.parameter></@wp.url>" title="<@wp.i18n key="PAGER_FIRST" />">
+
+                <svg class="icon icon-primary">
+
+                <use xlink:href="<@wp.url />sprite.svg#it-chevron-left"></use>
+
+                </svg>
+
+            </a>
+
+        </li>
+
+        <#if (1 != group.beginItemAnchor)>
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${group.currItem - group.offset}</@wp.parameter></@wp.url>" title="<@wp.i18n key="PAGER_STEP_BACKWARD" />&#32;${group.offset}">
+
+                <svg class="icon icon-primary">
+
+                <use xlink:href="<@wp.url />sprite.svg#it-chevron-left"></use>
+
+                </svg>
+
+            </a>
+
+        </li>
+
+        </#if>
+
+        </#if>
+
+
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${group.prevItem}</@wp.parameter></@wp.url>"><@wp.i18n key="PAGER_PREV" /></a>
+
+        </li>
+
+        </#if>
+
+        <#list group.items as item>
+
+        <#if (item_index >= (group.beginItemAnchor-1)) && (item_index <= (group.endItemAnchor-1))>
+
+        <#if (item == group.currItem)>
+
+
+
+        <li class="active page-item">
+
+            <a class="page-link" href="#">${item}</a>
+
+        </li>
+
+        <#else>
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${item}</@wp.parameter></@wp.url>">${item}</a>
+
+        </li>
+
+        </#if>
+
+        </#if>
+
+        </#list>
+
+        <#if (group.maxItem != group.currItem)>
+
+
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${group.nextItem}</@wp.parameter></@wp.url>"><@wp.i18n key="PAGER_NEXT" /></a>
+
+        </li>
+
+        <#if (group.advanced)>
+
+        <#if (group.maxItem != group.endItemAnchor)>
+
+
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${group.currItem + group.offset}</@wp.parameter></@wp.url>" title="<@wp.i18n key="PAGER_STEP_FORWARD" />&#32;${group.offset}">
+
+                <svg class="icon icon-primary">
+
+                <use xlink:href="<@wp.url />sprite.svg#it-chevron-right"></use>
+
+                </svg>
+
+            </a>
+
+        </li>
+
+        </#if>
+
+
+
+        <li class="page-item">
+
+            <a class="page-link" href="<@wp.url paramRepeat=true ><@wp.parameter name="${group.paramItemName}" >${group.maxItem}</@wp.parameter></@wp.url>" title="<@wp.i18n key="PAGER_LAST" />">
+
+                <svg class="icon icon-primary">
+
+                <use xlink:href="<@wp.url />sprite.svg#it-chevron-right"></use>
+
+                </svg>
+
+            </a>
+
+        </li>
+
+        </#if>
+
+        </#if>
+
+    </ul>
+
+</nav>
+
+</#if>','<#assign wp=JspTaglibs["/aps-core"]>
 
 <#if (group.size > group.max)>
 	<div class="pagination pagination-centered">
@@ -1006,10 +1145,14 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 <script>
     $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
+           smartSpeed: 1000,
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:4000,
             navigation: false,
             dots: true,
-            slideSpeed: 300,
-            paginationSpeed: 400,
+            slideSpeed: 2000,
+            paginationSpeed: 2000,
             singleItem: true,
             items: 1,
         });

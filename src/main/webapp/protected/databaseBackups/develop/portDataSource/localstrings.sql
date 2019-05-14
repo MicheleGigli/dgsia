@@ -154,6 +154,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESNB_YOU_ARE_HE
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESNB_YOU_ARE_HERE','it','Sei qui');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','en','Search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','it','Cerca');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FAQ_TITOLO','en','Common questions');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FAQ_TITOLO','it','Domande più frequenti');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FULL_TEXT_SEARCH','en','search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FULL_TEXT_SEARCH','it','ricerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('GENERIC_ERROR','en','Generic Error');
