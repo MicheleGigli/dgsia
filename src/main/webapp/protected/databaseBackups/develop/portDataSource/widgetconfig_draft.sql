@@ -305,15 +305,16 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
+<property key="maxElements">3</property>
 <property key="filters">(attributeFilter=true;key=primopiano;value=false)</property>
 <property key="title_it">News</property>
 <property key="linkDescr_it">Tutte le news</property>
 <property key="pageLink">news</property>
 <property key="categories">news</property>
-<property key="maxElemForItem">6</property>
+<property key="maxElemForItem">3</property>
 <property key="title_en">News</property>
-<property key="contentType">CTM</property>
 <property key="modelId">1</property>
+<property key="contentType">CTM</property>
 <property key="linkDescr_en">News collection</property>
 </properties>
 
@@ -345,15 +346,6 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 <properties>
 <property key="contentId">CTA76</property>
 <property key="modelId">8</property>
-</properties>
-
-');
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',12,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="maxElemForItem">4</property>
-<property key="filters">(attributeFilter=true;key=primopiano;value=true)</property>
-<property key="modelId">1</property>
-<property key="contentType">CTM</property>
 </properties>
 
 ');
