@@ -138,7 +138,7 @@
 </script>
 
 <div class="row">
-    <div class="col-md-7 p-0  my-2 px-1">
+    <div class="col-lg-7 col-sm-12 p-0  my-2 px-1 ">
         <form action="<wp:url />" method="post">
             <h4 class="card-title">Ricerca guidata</h4>
 

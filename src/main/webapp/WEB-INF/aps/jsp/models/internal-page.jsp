@@ -33,16 +33,6 @@
                     <div class="col-12">
                         <div class="it-header-slim-wrapper-content">
                             <a class="navbar-brand"  href="https://www.giustizia.it/giustizia/">Ministero della Giustizia</a>
-                            <span class="nav-palce-mobile">
-                                <nav>
-                                    <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                        <span>Ente appartenenza/Owner</span>
-                                        <svg class="icon">
-                                        <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>                                        </svg>
-                                    </a>
-
-                                </nav>
-                            </span>
                             <div class="header-slim-right-zone">
                                 <%-- 0. Untitled Frame I  --%>
                                 <wp:show frame="0" />
@@ -56,13 +46,13 @@
         <div class="header">
             <div class="container py-1">
                 <div class="row">
-                    <div class="col-12 col-md-6">
-                    <a href="<wp:url page="homepage" />" > 
-                        <img class="img-fluid" src="<wp:imgURL />logo-Tribunale-di-Marsala.png">
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <a href="<wp:url page="homepage" />" > 
+                            <img class="img-fluid" src="<wp:imgURL />logo-Tribunale-di-Marsala.png">
                         </a>
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <div class="navbar-expand-md header-utils">
                             <div class="header-social text-right">
                                 <ul class="list-inline">
@@ -85,22 +75,28 @@
                                 </ul>
                             </div>
                             <!--search-->
-                            <%-- 1. Untitled Frame II  --%>
-                            <wp:show frame="1" />
-
+                            <div class=" d-none d-lg-block">
+                                <wp:show frame="1" />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg bg-dark">
+
+        <nav class="navbar navbar-expand-lg bg-dark navbar-custom">
             <div class="container">
-                <div class="col-12 d-block d-sm-block d-md-none text-right align-middle">
+                <div class="menu-mobile-bar">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavB" aria-controls="navbarNavB" aria-expanded="false" aria-label="Toggle navigation">
                         <svg class="icon icon-light">
                         <use xlink:href="<wp:imgURL />sprite.svg#it-burger "></use>
                         </svg>
                     </button>
+
+                    <div class="search-custom d-none d-md-block d-lg-none">
+                        <wp:show frame="1" />
+                    </div>
+
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNavB">
                     <div class="close-div">
@@ -108,6 +104,7 @@
                     </div>
                     <div class="menu-wrapper bg-dark">
                         <ul class="navbar-nav">
+
                             <wp:show frame="2" />
 
                             <li class="nav-item dropdown ml-auto">
@@ -129,15 +126,15 @@
         <section id="section2">
             <div class="container py-1">
                 <div class="row">
-                    <div class="col-md-7 col-sm-12">
+                    <div class="col-lg-7 col-sm-12">
                         <!--questa mostra il tiotlo della pagina corrente anche multilingua-->
                         <h2 class="border-bottom"><wp:currentPage param="title" /></h2>
                         <wp:show frame="5" />
                         <wp:show frame="7" />
                     </div>
-                    <div class="col-1">
-                    </div>
-                    <div class="col-4">
+                    <!--                    <div class="col-lg">
+                                        </div>-->
+                    <div class="col-lg-5 col-sm-12">
                         <wp:show frame="6" />
                         <wp:show frame="8" />
                     </div>
@@ -164,7 +161,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Argomento 1</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -177,7 +174,7 @@
                         </ul>
                     </div>
 
-                    <div class="col my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Argomento 2</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -190,7 +187,7 @@
                         </ul>
                     </div>
 
-                    <div class="col my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Argomento 3</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -203,7 +200,7 @@
                         </ul>
                     </div>
 
-                    <div class="col my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Argomento 4</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -218,7 +215,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Contatti</h2>
                         <div>
                             <h3 class="display-4">Recapiti</h3>
@@ -229,7 +226,7 @@
                         </div>
                     </div>
 
-                    <div class="col my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Contatti</h2>
                         <div>
                             <h3 class="display-4">Recapiti</h3>
@@ -240,7 +237,7 @@
                         </div>
                     </div>
 
-                    <div class="col my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Contatti</h2>
                         <div>
                             <h3 class="display-4">Indirizzo PEC</h3>
@@ -250,7 +247,7 @@
                         </div>
                     </div>
 
-                    <div class="col my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Seguici su</h2>
                         <div>
                             <ul class="list-inline">
@@ -287,7 +284,8 @@
         </footer>
 
         <a href="#" data-attribute="return-to-top" class="return-to-top"><i
-                class="it-collapse"></i><span class="sr-only">Collapse</span></a>
+                class="it-collapse"></i><span class="sr-only">Collapse</span>
+        </a>
+        <!--<script src="<wp:resourceURL />static/js/bootstrap-italia.bundle.min.js"></script>-->
     </body>
 </html>
-

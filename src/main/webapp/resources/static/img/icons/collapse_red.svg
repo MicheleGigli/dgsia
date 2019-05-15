@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icons / collapse_red</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-collapse_red" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <path d="M17.1250265,9.29207411 L12.0022213,14.4578379 L11.6471901,14.1042954 L6.87666667,9.35377331 C6.77906082,9.25628885 6.62093918,9.25628885 6.51893923,9.35810811 C6.47257778,9.40328253 6.44643005,9.46526893 6.44643005,9.53 C6.44643005,9.59473107 6.47257778,9.65671747 6.52392341,9.70681702 L11.2909934,14.483905 C11.684211,14.8714891 12.315789,14.8714891 12.7038807,14.4890312 L17.4810608,9.64189189 C17.5274222,9.59671747 17.5535699,9.53473107 17.5535699,9.47 C17.5535699,9.40526893 17.5274222,9.34328253 17.4766667,9.29377331 C17.3790608,9.19628885 17.2209392,9.19628885 17.1250265,9.29207411 Z" id="Path" stroke="#BF2B2B" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

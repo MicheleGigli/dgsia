@@ -51,49 +51,39 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 	</contenttype>
 	<contenttype typecode="CTM" typedescr="Contenuto base titl+sub+img+link" viewpage="paginadettaglio" listmodel="1" defaultmodel="1">
 		<attributes>
-			<attribute name="primopiano" attributetype="Boolean" description="Primo piano" searchable="true">
-				<validations />
-			</attribute>
-			<attribute name="subtitle" attributetype="Text" description="subtitle">
+			<attribute name="primopiano" attributetype="Boolean" description="Primo piano" searchable="true" />
+			<attribute name="subtitle" attributetype="Text" description="subtitle" indexingtype="TEXT">
 				<validations>
 					<required>true</required>
 				</validations>
 			</attribute>
-			<attribute name="title" attributetype="Text" description="title">
+			<attribute name="title" attributetype="Text" description="title" indexingtype="TEXT">
 				<validations>
 					<required>true</required>
 				</validations>
 			</attribute>
 			<attribute name="img" attributetype="Image" description="immagine" />
 			<attribute name="link" attributetype="Link" description="link" />
-			<attribute name="abstract" attributetype="Text" description="abstract" />
-			<attribute name="date" attributetype="Date" description="data" searchable="true" />
+			<attribute name="abstract" attributetype="Text" description="abstract" searchable="true" indexingtype="TEXT" />
+			<attribute name="date" attributetype="Date" description="data" searchable="true" indexingtype="TEXT">
+				<validations />
+			</attribute>
 			<attribute name="enum" attributetype="Enumerator" description="enumeration" searchable="true" separator=","><![CDATA[ATTI GIUDIZIARI, ATTUALITA, COMUNICATI STAMPA]]></attribute>
 			<attribute name="autore" attributetype="Text" description="autore" searchable="true" />
 			<list name="article" attributetype="Monolist" description="Corpo articolo">
-				<validations />
 				<nestedtype>
 					<attribute name="article" attributetype="Composite">
 						<attributes>
-							<attribute name="text1" attributetype="Hypertext" description="testo articolo">
-								<validations />
-							</attribute>
-							<attribute name="img1" attributetype="Image" description="immagine articolo">
-								<validations />
-							</attribute>
-							<attribute name="link1" attributetype="Link" description="link articolo">
-								<validations />
-							</attribute>
+							<attribute name="text1" attributetype="Hypertext" description="testo articolo" />
+							<attribute name="img1" attributetype="Image" description="immagine articolo" />
+							<attribute name="link1" attributetype="Link" description="link articolo" />
 						</attributes>
 					</attribute>
 				</nestedtype>
 			</list>
 			<list name="attach" attributetype="Monolist" description="allegati  articolo">
-				<validations />
 				<nestedtype>
-					<attribute name="attach" attributetype="Attach">
-						<validations />
-					</attribute>
+					<attribute name="attach" attributetype="Attach" />
 				</nestedtype>
 			</list>
 		</attributes>
@@ -484,7 +474,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params',
 </Params>
 
 ');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20181122132859');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20190412105601');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','userProfileTypes','User Profile Types Definitions','<?xml version="1.0" encoding="UTF-8"?>
 <profiletypes>
 	<profiletype typecode="PFL" typedescr="Default user profile">

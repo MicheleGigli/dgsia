@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icons / big / document_green</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-big-/-document_green" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="BG" x="0" y="0" width="32" height="32" rx="4"></rect>
+            <path d="M8.00025165,21.3304157 L8.00025165,8.49307075 C7.98391467,7.50712525 8.76504703,6.69214381 9.75079869,6.66666667 L22.226364,6.66666667 C23.2121156,6.69214381 23.993248,7.50712525 23.9769111,8.49307075 L23.9769111,23.5069292 C23.993248,24.4928748 23.2121156,25.3078561 22.226364,25.3333333 L11.9973341,25.3333333 L8.00025165,21.3304157 Z M11.9973341,21.3304157 L8.00025165,21.3304157 L11.9973341,25.3333333 L11.9973341,21.3304157 L11.9973341,21.3304157 Z M12.6683771,14.3282276 L19.3321261,14.3282276 L12.6683771,14.3282276 Z M12.6683771,10.996353 L19.3321261,10.996353 L12.6683771,10.996353 Z M12.6683771,17.6659373 L19.3321261,17.6659373 L12.6683771,17.6659373 Z M19.3321261,20.9978119 L16,20.9978119 L19.3321261,20.9978119 Z" id="94.-document" stroke="#556654" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

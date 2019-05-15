@@ -5,7 +5,7 @@
 <mytld:moduli listName="resourceList" categoryCodes="categoryCodes" inputValues="inputValues" />
 
 <div class="row">
-    <div class="col-md-7 p-0  my-2">
+    <div class="col-sm-12 p-0  mx-2 my-2">
         <form action="<wp:url />" method="post">
             <h4 class="card-title">Sezione moduli</h4>
             <h6><wp:i18n key="CERCA_PER_TITOLO" /></h6>
@@ -31,7 +31,7 @@
             <button type="submit" class="btn btn-secondary my-3"><wp:i18n key="BTN_FILTRA" /></button>
         </form>
     </div>
-    <div class="col-md-12 p-0">
+    <div class="col-sm-12 p-0 mx-2 my-2">
         <c:choose>
             <c:when test="${resourceList != null && !empty resourceList}">
                 <wp:pager listName="resourceList" objectName="groupResource" max="10" pagerIdFromFrame="XXXXX" advanced="true" offset="5">

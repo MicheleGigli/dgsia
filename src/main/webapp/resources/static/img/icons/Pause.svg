@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="32px" viewBox="0 0 41 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Component / Pause</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Component-/-Pause" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle-" fill-opacity="0.25" fill="#050404" x="0.5" y="0" width="40" height="32" rx="4"></rect>
+            <path d="M23,9.38017016 C23,8.61792323 23.6715729,8 24.5,8 C25.3284271,8 26,8.61792323 26,9.38017016 L26,22.6198298 C26,23.3820768 25.3284271,24 24.5,24 C23.6715729,24 23,23.3820768 23,22.6198298 L23,9.38017016 Z M16,9.38017016 C16,8.61792323 16.6715729,8 17.5,8 C18.3284271,8 19,8.61792323 19,9.38017016 L19,22.6198298 C19,23.3820768 18.3284271,24 17.5,24 C16.6715729,24 16,23.3820768 16,22.6198298 L16,9.38017016 Z" id="pause" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
