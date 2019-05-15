@@ -971,7 +971,7 @@ text-overflow: ellipsis;*/
     }
 
     ul.link-list .list-item {
-        font-size: 29px;
+        font-size: 32px;
     }
 
     .collapse-header [data-toggle=collapse]:after {
@@ -1017,7 +1017,7 @@ text-overflow: ellipsis;*/
     }
 
     .a-custom {
-        font-size: 32px;
+        font-size: 42px;
         color: #ffffff;
         background: #003466;
         width: 100%;
