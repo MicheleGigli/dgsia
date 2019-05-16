@@ -28,7 +28,8 @@
                             <jacms:content contentId="${contentId}" />
                         </c:forEach>
                     </div>
-                    <div class="card-box">
+                    
+                    <div class="card-box-pager">
                         <c:import url="/WEB-INF/plugins/jacms/aps/jsp/widgets/inc/pagerBlock.jsp" />
                     </div>
                 </wp:pager>

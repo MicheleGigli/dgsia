@@ -114,7 +114,7 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-04-11 10:46:14');
+','2019-05-16 16:46:10');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('il_tribunale','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Il Tribunale</property>

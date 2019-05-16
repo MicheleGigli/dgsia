@@ -3,9 +3,9 @@
 
 <wp:info key="currentLang" var="currentLang" />
 
-<script src="https://unpkg.com/gijgo@1.9.11/js/gijgo.min.js" type="text/javascript"></script>
-<link href="https://unpkg.com/gijgo@1.9.11/css/gijgo.min.css" rel="stylesheet" type="text/css" />
-<script src="https://unpkg.com/gijgo@1.9.11/js/messages/messages.it-it.js" type="text/javascript"></script>
+<script src="<wp:resourceURL />static/js/gijgo.min.js"></script>
+<link rel="stylesheet" href="<wp:resourceURL />static/css/gijgo.min.css" rel="stylesheet">
+<script src="<wp:resourceURL />static/js/messages.it-it.js"></script>
 
 <div class="my-2">
     <h6 class="font-big" >

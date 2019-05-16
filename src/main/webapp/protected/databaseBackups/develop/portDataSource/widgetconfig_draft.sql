@@ -144,15 +144,15 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 <properties>
 <property key="maxElemForItem">3</property>
 <property key="maxElements">3</property>
-<property key="modelId">17</property>
 <property key="contentType">CTM</property>
+<property key="modelId">17</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',6,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="modelId">3</property>
 <property key="contentId">CTA22</property>
+<property key="modelId">3</property>
 </properties>
 
 ');
@@ -165,38 +165,37 @@ INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('ho
 <property key="pageLink">news</property>
 <property key="maxElemForItem">3</property>
 <property key="title_en">News</property>
-<property key="modelId">1</property>
 <property key="contentType">CTM</property>
+<property key="modelId">1</property>
 <property key="linkDescr_en">Lista News</property>
 </properties>
 
 ');
-INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',8,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',8,'content_viewer_list_home_link','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="filters">(order=ASC;attributeFilter=false;key=created)</property>
 <property key="title_it">Link Utili</property>
-<property key="linkDescr_it">Vedi Tutti</property>
+<property key="linkDescr_it">Vedi tutti</property>
 <property key="pageLink">link_utili</property>
 <property key="categories">link_utili</property>
 <property key="maxElemForItem">8</property>
 <property key="title_en">Link Utili</property>
 <property key="contentType">CTM</property>
 <property key="modelId">4</property>
-<property key="linkDescr_en">Vedi Tutti</property>
+<property key="linkDescr_en">Vedi tutti</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',9,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CTA71</property>
 <property key="modelId">5</property>
+<property key="contentId">CTA71</property>
 </properties>
 
 ');
 INSERT INTO widgetconfig_draft (pagecode,framepos,widgetcode,config) VALUES ('homepage',10,'content_viewer','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="contentId">CTA76</property>
 <property key="modelId">8</property>
+<property key="contentId">CTA76</property>
 </properties>
 
 ');

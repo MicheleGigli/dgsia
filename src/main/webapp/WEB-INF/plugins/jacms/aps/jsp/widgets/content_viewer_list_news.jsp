@@ -18,7 +18,7 @@
 <c:set var="userFilterOptionsVar" value="${userFilterOptionsVar}" scope="request" />
 
 <div class="row">
-    <div class="col-7">
+    <div class="col-lg-8 col-sm-12">
         <c:choose>
             <c:when test="${contentList != null && !empty contentList}">
                 <wp:pager listName="contentList" objectName="groupContent" pagerIdFromFrame="true" advanced="true" offset="5">
@@ -28,7 +28,7 @@
                             <jacms:content contentId="${contentId}" />
                         </c:forEach>
                     </div>
-                    <div class="card-box">
+                    <div class="card-box-pager">
                         <c:import url="/WEB-INF/plugins/jacms/aps/jsp/widgets/inc/pagerBlock.jsp" />
                     </div>
                 </wp:pager>
@@ -47,8 +47,7 @@
         </c:if>
 
     </div>
-    <div class="col-1">
-    </div>
+
 
     <c:import url="/WEB-INF/plugins/jacms/aps/jsp/widgets/inc/userFilter-module.jsp" />
 

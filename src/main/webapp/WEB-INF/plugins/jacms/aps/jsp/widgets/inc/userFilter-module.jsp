@@ -3,7 +3,7 @@
 
 <c:if test="${null != userFilterOptionsVar && !empty userFilterOptionsVar}">
 
-    <div class="col-4">
+    <div class="col-sm-12 col-lg-4 mb-5">
         <c:set var="hasUserFilterError" value="${false}" />
         <c:forEach var="userFilterOptionVar" items="${userFilterOptionsVar}">
             <c:if test="${null != userFilterOptionVar.formFieldErrors && !empty userFilterOptionVar.formFieldErrors}"><c:set var="hasUserFilterError" value="${true}" /></c:if>
@@ -11,7 +11,7 @@
 
         <c:if test="${hasUserFilterError}">
             <div class="alert alert-warning" role="alert">
-                    <wp:i18n key="ERRORS" />
+                <wp:i18n key="ERRORS" />
                 <ul>
                     <c:forEach var="userFilterOptionVar" items="${userFilterOptionsVar}">
                         <c:if test="${null != userFilterOptionVar.formFieldErrors}">
@@ -24,7 +24,7 @@
                                             <wp:i18n key="${formFieldError.value.rangeFieldType}" /></em>
                                     </c:if>&#32; 
                                     <wp:i18n key="${formFieldError.value.errorKey}" />
-                                    </li>
+                                </li>
                             </c:forEach>
                         </c:if>
                     </c:forEach>

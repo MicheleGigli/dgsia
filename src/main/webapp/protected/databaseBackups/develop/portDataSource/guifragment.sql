@@ -1233,6 +1233,74 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 	<p class="text-right"><a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a></p>
 </#if>
 <#assign contentList="">',1);
+INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_home_link','content_viewer_list_home_link','jacms','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
+<#assign wp=JspTaglibs["/aps-core"]>
+<@jacms.contentList listName="contentList" titleVar="titleVar"
+pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
+<div class="container py-4 custom-list-content">
+    <#if (titleVar??)>
+    <h2>${titleVar}</h2>
+    </#if>
+    <div class="row link-utili">
+        
+            <@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
+            <@wp.fragment code="jacms_content_viewer_list_userfilters" escapeXml=false />
+            </@wp.freemarkerTemplateParameter>
+            <#if (contentList??) && (contentList?has_content) && (contentList?size > 0)>
+            <@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>
+            <@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
+            <#list contentList as contentId>
+            <#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>
+            <@jacms.content contentId="${contentId}" />
+            </#if>
+            </#list>
+            <@wp.fragment code="default_pagerBlock" escapeXml=false />
+            </@wp.freemarkerTemplateParameter>
+            </@wp.pager>
+            <#else>
+            <p class="alert alert-info">
+                <@wp.i18n key="LIST_VIEWER_EMPTY" />
+            </p>
+            </#if>
+            <#if (pageLinkVar??) && (pageLinkDescriptionVar??)>
+            <div class="mt-3 container py-2 text-right">
+                <a  class="btn btn-outline-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a>
+            </div>
+            </#if>
+            <#assign contentList="">
+            <br>
+      
+    </div>
+</div>','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
+<#assign wp=JspTaglibs["/aps-core"]>
+<@wp.headInfo type="JS_EXT" info="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js" />
+<@jacms.contentList listName="contentList" titleVar="titleVar"
+	pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
+<#if (titleVar??)>
+	<h1>${titleVar}</h1>
+</#if>
+<@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
+<@wp.fragment code="jacms_content_viewer_list_userfilters" escapeXml=false />
+</@wp.freemarkerTemplateParameter>
+<#if (contentList??) && (contentList?has_content) && (contentList?size > 0)>
+	<@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>
+		<@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
+		<@wp.fragment code="default_pagerBlock" escapeXml=false />
+<#list contentList as contentId>
+<#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>
+	<@jacms.content contentId="${contentId}" />
+</#if>
+</#list>
+		<@wp.fragment code="default_pagerBlock" escapeXml=false />
+		</@wp.freemarkerTemplateParameter>
+	</@wp.pager>
+<#else>
+		<p class="alert alert-info"><@wp.i18n key="LIST_VIEWER_EMPTY" /></p>
+</#if>
+<#if (pageLinkVar??) && (pageLinkDescriptionVar??)>
+	<p class="text-right"><a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a></p>
+</#if>
+<#assign contentList="">',1);
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_userfilters',NULL,'jacms',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
 <#if (userFilterOptionsVar??) && userFilterOptionsVar?has_content && (userFilterOptionsVar?size > 0)>
 <div class="row-fluid"><div class="span12 padding-medium-top">

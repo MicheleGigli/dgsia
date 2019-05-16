@@ -337,19 +337,15 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1
   <p class="card-text">$content.abstract.text</p>
 </div>
 </div>',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (20,'CTM','Link Utili per pagine interne','<div class="col-sm-12 col-md-4 py-2">
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (20,'CTM','Link Utili per pagine interne','<div class="col-sm-12 col-lg-4 py-2">
 <div class="card border-0 rounded">
     <a href="$content.link.destination">
       <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
     </a>
     <div class="card-body">
-        <h5 class="card-title">$content.title.text</h5>
-            
-            
+        <h5 class="card-title">$content.title.text</h5>           
             <p class="card-text">$content.abstract.text </p>
-           
-           
-           
+
     </div>
 </div>
 </div>',NULL);
