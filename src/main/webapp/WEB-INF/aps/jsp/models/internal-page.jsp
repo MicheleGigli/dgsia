@@ -161,7 +161,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col col-sm-6 my-3">
+                    <div class="col col-sm-6 col-lg-3 my-3">
                         <h2 class="display-3 mb-4">Argomento 1</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -174,7 +174,7 @@
                         </ul>
                     </div>
 
-                    <div class="col col-sm-6 my-3">
+                    <div class="col col-sm-6 col-lg-3 my-3">
                         <h2 class="display-3 mb-4">Argomento 2</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -187,7 +187,7 @@
                         </ul>
                     </div>
 
-                    <div class="col col-sm-6 my-3">
+                    <div class="col col-sm-6 col-lg-3 my-3">
                         <h2 class="display-3 mb-4">Argomento 3</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -200,7 +200,7 @@
                         </ul>
                     </div>
 
-                    <div class="col col-sm-6 my-3">
+                    <div class="col col-sm-6 col-lg-3 my-3">
                         <h2 class="display-3 mb-4">Argomento 4</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -215,7 +215,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col col-sm-6 my-3">
+                    <div class="col col-sm-6 col-lg-3 my-3">
                         <h2 class="display-3 mb-4">Contatti</h2>
                         <div>
                             <h3 class="display-4">Recapiti</h3>
@@ -226,7 +226,7 @@
                         </div>
                     </div>
 
-                    <div class="col col-sm-6 my-3">
+                    <div class="col col-sm-6 col-lg-3 my-3">
                         <h2 class="display-3 mb-4">Contatti</h2>
                         <div>
                             <h3 class="display-4">Recapiti</h3>
@@ -237,7 +237,7 @@
                         </div>
                     </div>
 
-                    <div class="col col-sm-6 my-3">
+                    <div class="col col-sm-6 col-lg-3 my-3">
                         <h2 class="display-3 mb-4">Contatti</h2>
                         <div>
                             <h3 class="display-4">Indirizzo PEC</h3>
@@ -247,7 +247,7 @@
                         </div>
                     </div>
 
-                    <div class="col col-sm-6 my-3">
+                    <div class="col col-sm-6 col-lg-3 my-3">
                         <h2 class="display-3 mb-4">Seguici su</h2>
                         <div>
                             <ul class="list-inline">
