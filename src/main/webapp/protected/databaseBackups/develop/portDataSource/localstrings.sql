@@ -155,11 +155,13 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESNB_YOU_ARE_HE
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','en','Search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','it','Cerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FAQ_TITOLO','en','Common questions');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FAQ_TITOLO','it','Domande pi� frequenti');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FAQ_TITOLO','it','Domande più frequenti');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FULL_TEXT_SEARCH','en','search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FULL_TEXT_SEARCH','it','ricerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('GENERIC_ERROR','en','Generic Error');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('GENERIC_ERROR','it','Errore Generico');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('GLOSSARIO_TITOLO','en','Glossary');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('GLOSSARIO_TITOLO','it','Glossario');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('IGNORE','en','Ignore');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('IGNORE','it','Ignora');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_LIST_VIEWER_FIELD','en','The value for field');
@@ -212,8 +214,10 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PASSWORD','en',
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PASSWORD','it','Password');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','en','My Portal');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','it','Il Mio Portale');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('pubblicita','en','Advertising');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('pubblicita','it','Pubblicità');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','en','Read more');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','it','Leggi di pi�');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','it','Leggi di più');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','en','Please sign in');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','it','È necessario autenticarsi');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_NULLO','en','La ricerca non ha restituito nessun risultato.');

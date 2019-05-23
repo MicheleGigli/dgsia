@@ -1,3 +1,10 @@
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('agraria','area_civile','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Agraria</property>
+<property key="it">Agraria</property>
+</properties>
+
+');
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('allegati','come_fare_per','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Allegati</property>
@@ -30,6 +37,34 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('altro_','cittadino',
 <properties>
 <property key="en">Altro ...</property>
 <property key="it">Altro ...</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_amministrativa','uffici_e_cancellerie_int','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Area Amministrativa</property>
+<property key="it">Area Amministrativa</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_civile','magistrati','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Area Civile</property>
+<property key="it">Area Civile</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_civile_cancellerie','uffici_e_cancellerie_int','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Area Civile Cancellerie</property>
+<property key="it">Area Civile Cancellerie</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_penale_cancellerie','uffici_e_cancellerie_int','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Area Penale Cancellerie</property>
+<property key="it">Area Penale Cancellerie</property>
 </properties>
 
 ');
@@ -89,6 +124,13 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('come_fare_per','home
 </properties>
 
 ');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('contenzioso_non_contenzioso','area_civile','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Contenzioso/Non Contenzioso</property>
+<property key="it">Contenzioso/Non Contenzioso</property>
+</properties>
+
+');
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('decreti','news','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">DECRETI</property>
@@ -100,6 +142,27 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('denunce_e_querele','
 <properties>
     <property key="en">Denunce e querele</property>
     <property key="it">Denunce e querele</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('dirigenza_amministrativa','uffici_e_cancellerie_int','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Dirigenza Amministrativa</property>
+<property key="it">Dirigenza Amministrativa</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('elenco_personale_amm','uffici_e_cancellerie','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Elenco Personale Amministrativo</property>
+<property key="it">Elenco Personale Amministrativo</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('fallimenti','area_civile','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Fallimenti</property>
+<property key="it">Fallimenti</property>
 </properties>
 
 ');
@@ -128,6 +191,13 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('link_utili','home','
 <properties>
 <property key="en">link utili</property>
 <property key="it">link utili</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('magistrati','scheda_all_info','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Magistrati</property>
+<property key="it">Magistrati</property>
 </properties>
 
 ');
@@ -166,10 +236,38 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('pubblica_amministraz
 </properties>
 
 ');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('scheda_all_info','home','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Scheda All Info</property>
+<property key="it">Scheda All Info</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('segreteria_di_presidenza','area_amministrativa','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Segreteria di Presidenza</property>
+<property key="it">Segreteria di Presidenza</property>
+</properties>
+
+');
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('sezione_pdf','allegati_dirigenti','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">sezione pdf</property>
 <property key="it">sezione pdf</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('uffici_e_cancellerie','scheda_all_info','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Uffici e Cancellerie</property>
+<property key="it">Uffici e Cancellerie</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('uffici_e_cancellerie_int','uffici_e_cancellerie','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Uffici e Cancellerie interno</property>
+<property key="it">Uffici e Cancellerie interno</property>
 </properties>
 
 ');

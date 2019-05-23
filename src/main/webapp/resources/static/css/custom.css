@@ -168,7 +168,7 @@
 
 .card-header {
     position: relative;
-    height: 60px;
+    height: 79px;
 }
 
 .card-header .card-text {
@@ -881,7 +881,7 @@ text-overflow: ellipsis;*/
     }
     .text-muted {
         color: #5a768a!important;
-        font-size: 29px;
+        font-size: 32px;
     }
     .u-color-white {
         font-size: 32px;
@@ -1048,7 +1048,7 @@ text-overflow: ellipsis;*/
     }
     .card-header {
         position: relative;
-        height: 85px;
+        height: 133px;
     }
 
     .search-custom input[type=text] {
