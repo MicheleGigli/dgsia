@@ -57,8 +57,8 @@
             <div class="container py-1">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                    <a href="<wp:url page="homepage" />" > 
-                        <img class="img-fluid" src="<wp:imgURL />logo-Tribunale-di-Marsala.png">
+                        <a href="<wp:url page="homepage" />" > 
+                            <img class="img-fluid" src="<wp:imgURL />logo-Tribunale-di-Marsala.png">
                         </a>
                     </div>
 
@@ -286,8 +286,12 @@
             </div>
         </footer>
 
-        <a href="#" data-attribute="return-to-top" class="return-to-top"><i
-                class="it-collapse"></i><span class="sr-only">Collapse</span></a>
+        <a href="#" data-attribute="return-to-top" class="return-to-top">
+            <i class="it-collapse"></i>
+            <span class="sr-only">Collapse</span>
+        </a>
+
+        <script src="<wp:resourceURL />static/js/bootstrap-italia.bundle.min.js"></script>
     </body>
 </html>
 

@@ -653,6 +653,7 @@ text-overflow: ellipsis;*/
     background-color: transparent;
     background-image: none;
     box-shadow: inset 0 0 0 1px #fff;
+    text-transform: capitalize;
 }
 
 .btn-access {
@@ -710,6 +711,7 @@ text-overflow: ellipsis;*/
         font-size: .875rem;
         line-height: 1.2rem;
         min-height: 120px;
+        text-align: justify;
     }
     .detail .card-body p {
         font-size: .875rem;
@@ -747,7 +749,7 @@ text-overflow: ellipsis;*/
         font-size: 42px;
     }
     .card .card-body p {
-        font-size: 32px;
+        font-size: 36px;
         line-height: 37px;
         min-height: 188px;
     }
@@ -780,7 +782,7 @@ text-overflow: ellipsis;*/
         font-size: 32px;
     }
     a.text-white {
-        font-size: 32px;
+        font-size: 42px;
     }
     .img-fluid {
         width: 100%;
@@ -788,7 +790,7 @@ text-overflow: ellipsis;*/
     }
     .it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
         color: #fff;
-        font-size: 34px;
+        font-size: 37px;
         font-weight: 500;
     }
     .it-header-slim-wrapper .it-header-slim-wrapper-content .dropdown-menu {
@@ -797,7 +799,7 @@ text-overflow: ellipsis;*/
     }
     .it-header-slim-wrapper .it-header-slim-wrapper-content a.dropdown-toggle {
         text-transform: uppercase;
-        font-size: 23px;
+        font-size: 31px;
         text-decoration: underline;
         align-items: center;
     }
@@ -805,8 +807,8 @@ text-overflow: ellipsis;*/
         fill: #ffffff;
     }
     .icon {
-        width: 50px;
-        height: 50px;
+        width: 71px;
+        height: 71px;
         vertical-align: middle;
     }
     .it-carousel-wrapper .owl-dots .owl-dot {
@@ -854,7 +856,8 @@ text-overflow: ellipsis;*/
         font-size: 33px;
     }
     .breadcrumb {
-        font-size: 32px;
+        font-size: 41px;
+        padding: .5em 0!important;
     }
     .container p {
         font-size: 32px
@@ -866,11 +869,11 @@ text-overflow: ellipsis;*/
     .footer a {
         color: #333;
         text-decoration: underline;
-        font-size: 32px;
+        font-size: 39px;
     }
     .display-4,
     address {
-        font-size: 32px;
+        font-size: 37px;
     }
     .col-7 .card-header {
         position: relative;
@@ -886,7 +889,7 @@ text-overflow: ellipsis;*/
     }
     .h6,
     h6 {
-        font-size: 1.6rem;
+        font-size: 38px;
     }
     label {
         font-size: 26px;
@@ -910,7 +913,7 @@ text-overflow: ellipsis;*/
         height: 43px;
     }
     select {
-        font-size: 32px !important;
+        font-size: 38px !important;
         padding: 0 !important;
         height: calc(3.25rem + 2px) !important;
     }
@@ -918,14 +921,18 @@ text-overflow: ellipsis;*/
         font-size: 32px;
     }
     .collapse-body {
-        padding: 12px 24px 42px;
-        font-size: 32px;
+        padding: 26px 11px;
+        font-size: 36px;
+        text-align: justify;
+        border-bottom: 1px solid #383838;
     }
     .card-title {
-        font-size: 32px;
+        font-size: 42px;
+        margin: 1em 0;
     }
     .card-body {
-        font-size: 32px;
+        font-size: 36px;
+        text-align: justify;
     }
 
     .navbar .dropdown-menu .link-list-wrapper ul li h3,
@@ -938,10 +945,11 @@ text-overflow: ellipsis;*/
         height: 46px;
     }
     .link-list-wrapper ul li a {
-        line-height: 3.3em;
+        line-height: 2.3em;
+        /* font-size: 12px; */
     }
     ul.link-list .list-item {
-        font-size: 32px;
+        font-size: 37px;
     }
     .collapse-header [data-toggle=collapse]:after {
         width: 3.5rem;
@@ -963,10 +971,13 @@ text-overflow: ellipsis;*/
     .form-group optgroup,
     .form-group textarea {
         font-size: 39px;
+        margin: 17px 0;
+        height: 3.5rem;
     }
     .list-group {
         list-style: none;
         padding-left: 0;
+        margin: 2em 0;
     }
     .form-group label {
         font-size: 1.7rem;
@@ -1105,6 +1116,11 @@ text-overflow: ellipsis;*/
         vertical-align: baseline;
         border-radius: 4px;
     }
+
+    .nav-link {
+        display: block;
+        padding: .1rem 1rem;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 1024px) and (orientation: landscape) {
@@ -1112,27 +1128,27 @@ text-overflow: ellipsis;*/
         max-width: 880px;
     }
     .card .card-body .category-top a.category {
-        font-size: 23px;
+        font-size: 32px;
         text-decoration: underline;
     }
     .data {
-        font-size: 23px;
+        font-size: 32px;
     }
     .card .card-body h5.card-title.big-heading,
     .card .card-body h5.card-title {
-        font-size: 28px;
+        font-size: 42px;
     }
     .card .card-body p {
-        font-size: 27px;
-        line-height: 32px;
-        min-height: 109px;
+        font-size: 36px;
+        line-height: 37px;
+        min-height: 188px;
     }
     .card .card-body .card-signature {
-        font-size: 26px;
+        font-size: 32px;
     }
     a.read-more {
         margin-top: 14px;
-        font-size: 28px;
+        font-size: 32px;
     }
     h2 {
         font-size: 44px;
@@ -1142,7 +1158,7 @@ text-overflow: ellipsis;*/
     }
     .card-body-link {
         color: white;
-        font-size: 28px;
+        font-size: 34px;
     }
     .card-header {
         position: relative;
@@ -1150,33 +1166,21 @@ text-overflow: ellipsis;*/
     }
     .card-header .card-text.orange {
         border-color: #FF9700;
-        font-size: 28px;
+        font-size: 34px;
     }
     .btn {
-        font-size: 25px;
-        padding: 10px 10px 10px 10px;
+        font-size: 32px;
     }
     a.text-white {
-        font-size: 28px;
+        font-size: 42px;
     }
     .img-fluid {
         width: 100%;
         height: auto;
     }
-
-    .header .img-fluid {
-        width: 63%;
-        height: auto;
-    }
-
-    .footer .img-fluid {
-        width: 50%;
-        height: auto;
-    }
-
     .it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
         color: #fff;
-        font-size: 23px;
+        font-size: 34px;
         font-weight: 500;
     }
     .it-header-slim-wrapper .it-header-slim-wrapper-content .dropdown-menu {
@@ -1184,8 +1188,8 @@ text-overflow: ellipsis;*/
         left: -4px !important;
     }
     .it-header-slim-wrapper .it-header-slim-wrapper-content a.dropdown-toggle {
-        text-transform: capitalize;
-        font-size: 23px;
+        text-transform: uppercase;
+        font-size: 31px;
         text-decoration: underline;
         align-items: center;
     }
@@ -1193,24 +1197,24 @@ text-overflow: ellipsis;*/
         fill: #ffffff;
     }
     .icon {
-        width: 50px;
-        height: 50px;
+        width: 71px;
+        height: 71px;
         vertical-align: middle;
     }
     .it-carousel-wrapper .owl-dots .owl-dot {
-        width: 22px;
-        height: 22px;
+        width: 32px;
+        height: 32px;
         background: #0059b3;
         display: inline-block;
         opacity: .3;
         -webkit-transition: .3s;
         transition: .3s;
         border-radius: 50px;
-        margin: 0 26px;
+        margin: 0 8px;
     }
     .navbar .navbar-collapse .navbar-nav li a.nav-link {
         color: #FFF;
-        font-size: 26px;
+        font-size: 43px;
         font-weight: 600;
     }
     .menu-mobile-bar {
@@ -1219,31 +1223,11 @@ text-overflow: ellipsis;*/
         position: relative;
         margin: 0 0 10px 0;
     }
-
-    .menu-wrapper .link-list-wrapper {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-
     .search-custom {
         position: absolute;
         right: 0;
         top: -8px;
     }
-    .search-custom input[type=text] {
-        width: 100px;
-        font-size: 28px;
-        background: transparent;
-        color: #fff;
-        font-weight: 500;
-        border-color: #fff;
-    }
-
-    .search-custom input[type=text]:focus {
-        width: 500px;
-        font-size:28px;
-    }
-
     .btn-search-custom {
         display: block;
     }
@@ -1262,22 +1246,24 @@ text-overflow: ellipsis;*/
         font-size: 33px;
     }
     .breadcrumb {
-        font-size: 26px;
+        font-size: 41px;
+        padding: .5em 0!important;
     }
     .container p {
         font-size: 32px
     }
     h2 {
-        font-size: 36px !Important;
+        font-size: 56px !Important;
+        /* border-bottom: 1px solid #b1b1b3!important; */
     }
     .footer a {
         color: #333;
         text-decoration: underline;
-        font-size: 26px;
+        font-size: 39px;
     }
     .display-4,
     address {
-        font-size: 28px;
+        font-size: 37px;
     }
     .col-7 .card-header {
         position: relative;
@@ -1288,24 +1274,18 @@ text-overflow: ellipsis;*/
         font-size: 29px;
     }
     .u-color-white {
-        font-size: 26px;
-    }
-    .u-padding-all-m {
-        padding: 1rem !important;
-        margin: 20px 0 0 0;
+        font-size: 32px;
+        margin-top: 20px;
     }
     .h6,
     h6 {
-        font-size: 26px;
+        font-size: 38px;
     }
     label {
         font-size: 26px;
     }
     .gj-datepicker-md [role=right-icon] {
-        position: absolute;
-        right: -5px;
-        top: -5px;
-        font-size: 38px;
+        font-size: 38px !important;
     }
     .h5,
     h5 {
@@ -1323,36 +1303,43 @@ text-overflow: ellipsis;*/
         height: 43px;
     }
     select {
-        font-size: 26px !important;
-        height: calc(3rem + 2px) !important;
+        font-size: 38px !important;
+        padding: 0 !important;
+        height: calc(3.25rem + 2px) !important;
     }
     .collapse-header [data-toggle=collapse] {
         font-size: 32px;
     }
     .collapse-body {
-        padding: 12px 24px 42px;
-        font-size: 32px;
+        padding: 26px 11px;
+        font-size: 36px;
+        text-align: justify;
+        border-bottom: 1px solid #383838;
     }
     .card-title {
-        font-size: 32px;
+        font-size: 42px;
+        margin: 1em 0;
     }
     .card-body {
-        font-size: 28px;
+        font-size: 36px;
+        text-align: justify;
     }
+
     .navbar .dropdown-menu .link-list-wrapper ul li h3,
     .navbar .dropdown-menu .link-list-wrapper ul li a i,
     .navbar .dropdown-menu .link-list-wrapper ul li a span {
-        font-size: 26px;
+        font-size: 42px;
     }
     .icon.icon-sm {
         width: 46px;
         height: 46px;
     }
     .link-list-wrapper ul li a {
-        line-height: 36px;
+        line-height: 2.3em;
+        /* font-size: 12px; */
     }
     ul.link-list .list-item {
-        font-size: 26px;
+        font-size: 37px;
     }
     .collapse-header [data-toggle=collapse]:after {
         width: 3.5rem;
@@ -1374,10 +1361,13 @@ text-overflow: ellipsis;*/
     .form-group optgroup,
     .form-group textarea {
         font-size: 39px;
+        margin: 17px 0;
+        height: 3.5rem;
     }
     .list-group {
         list-style: none;
         padding-left: 0;
+        margin: 2em 0;
     }
     .form-group label {
         font-size: 1.7rem;
@@ -1398,8 +1388,8 @@ text-overflow: ellipsis;*/
         width: 77%;
     }
     .card .card-body h5.card-title {
-        margin-top: 0;
-        margin-bottom: 22px;
+        margin-top: 13px;
+        margin-bottom: 37px;
     }
     .carousel-desktop-view {
         display: none;
@@ -1413,7 +1403,7 @@ text-overflow: ellipsis;*/
         bottom: 0;
         margin: 0;
         padding: 11px 11px;
-        width: 57%;
+        width: 77%;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
@@ -1446,59 +1436,28 @@ text-overflow: ellipsis;*/
         width: 100%;
         height: 300px;
     }
-
-    .card-news .img-wrapper .img-fluid {
-        max-width: initial;
-        width: 100%;
-        height: 200px;
-    }
     .card-header {
         position: relative;
         height: 85px;
     }
-    .navbar {
-        padding: 0px 16px;
+
+    .search-custom input[type=text] {
+        width: 110px;
+        font-size: 35px;
+        background: transparent;
+        font-weight: 500;
+        border-bottom: 1px solid #ffffff;
+        -webkit-transition: width 1s ease-in-out;
+        -moz-transition:width 1s ease-in-out;
+        -o-transition: width 1s ease-in-out;
+        transition: width 1s ease-in-out;
     }
 
-    .gj-datepicker-md [role=right-icon] {
-        position: absolute;
-        right: 0;
-        top: 0;
-        font-size: 35px !Important;
-    }
-    .gj-picker div[role=navigator] div[role=period] {
-        font-weight: 600 !important;
-        font-size: 28px !important;
-    }
-    .gj-picker-md table tr td div, .gj-picker-md table tr th div {
-        display: block;
-        width: 60px !important;
-        height: 60px !important;
-        line-height: 60px !important;
-        font-size: 27px !important;
-
+    .search-custom input[type=text]:focus {
+        width: 488px;
+        font-size:35px;
     }
 
-    .gj-textbox-md {
-        font-family: inherit !important;
-        font-size: 26px !important;
-        line-height: 26px !important;
-        padding: 4px 0 !important;
-        margin: 0 !important;
-        font-weight: 400 !important;
-    }
-
-    .badge {
-        display: inline-block;
-        padding: .45em .69em;
-        font-size: 28px;
-        font-weight: 700;
-        line-height: 1;
-        text-align: center;
-        white-space: nowrap;
-        vertical-align: baseline;
-        border-radius: 4px;
-    }
     .gj-datepicker-md [role=right-icon] {
         position: absolute;
         right: 0;
@@ -1528,18 +1487,19 @@ text-overflow: ellipsis;*/
     }
 
     .pagination .page-item .page-link {
-        height: 3.66667rem;
-        min-width: 3.66667rem;
+        height: 4.66667rem;
+        min-width: 4.66667rem;
     }
+
     a.page-link  {
-        font-size:26px !important;
+        font-size:32px !important;
     }
 
     .badge {
         display: inline-block;
         padding: .25em .4em;
-        font-size: 28px;
-        font-weight: 600;
+        font-size: 75%;
+        font-weight: 700;
         line-height: 1;
         text-align: center;
         white-space: nowrap;
@@ -1547,4 +1507,8 @@ text-overflow: ellipsis;*/
         border-radius: 4px;
     }
 
+    .nav-link {
+        display: block;
+        padding: .1rem 1rem;
+    }
 }

@@ -471,7 +471,7 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 </ul>',1);
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entando-widget-search_form','entando-widget-search_form',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
 <@wp.pageWithWidget var="searchResultPageVar" widgetTypeCode="search_result" listResult=false />
-<form class="form-inline my-2 my-lg-0 " id="searchForm" action="<#if (searchResultPageVar??) ><@wp.url page="${searchResultPageVar.code}" /></#if>" method="get">
+<form class="form-inline my-2 my-lg-0 "  action="<#if (searchResultPageVar??) ><@wp.url page="${searchResultPageVar.code}" /></#if>" method="get">
 
 <input class="form-control mr-sm-2 ml-auto" type="text" name="search" placeholder="<@wp.i18n key="ESSF_SEARCH" />" x-webkit-speech="x-webkit-speech" />
 
