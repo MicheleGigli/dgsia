@@ -213,6 +213,10 @@
     color: #17324d;
 }
 
+.linkHover:hover {    
+  color: white;
+}
+
 
 /**/
 
