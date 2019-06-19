@@ -287,125 +287,65 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
   </li>
 </ul>',1);
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entando-widget-login_form','entando-widget-login_form',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
-<#if (Session.currentUser != "guest")>
 
+        <#if (Session.currentUser != "guest")>
 
-<button class="btn btn-login btn-sm" type="button" data-toggle="modal" data-target="#modal-login">
-    ${Session.currentUser}
-</button>
-
-
-<!-- Modal -->
-<div class="modal fade" tabindex="-1" role="dialog" id="modal-login">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title"> Acceso amministrazione Entando 
-                </h5>
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <svg class="icon">
-                        <use xlink:href="<@wp.imgURL />sprite.svg#it-close"></use>
-                    </svg>
-                </button>
-            </div>
-            <div class="modal-body">
-
-                <div class="link-list-wrapper">
-                    <ul class="link-list">
-                        <li>
-                            <@wp.ifauthorized permission="enterBackend">
-                            <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />">
-                               <@wp.i18n key="ESLF_ADMINISTRATION" />
-                        </a>
+        <button class="btn btn-outline-primary btn-sm py-1 my-2 px-3" data-toggle="dropdown">
+            ${Session.currentUser}
+            <span class="caret pull-right"></span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="link-list-wrapper">
+                <ul class="link-list">
+                    <li>
+                        <@wp.ifauthorized permission="enterBackend">
+                        <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />"><@wp.i18n key="ESLF_ADMINISTRATION" /></a>
                         </@wp.ifauthorized>
                     </li>
                     <li>
-                        <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action">
-                           <@wp.i18n key="ESLF_SIGNOUT" />
-                    </a>
-                </li>
-                <li>
-                    <@wp.pageWithWidget var="editProfilePageVar" widgetTypeCode="userprofile_editCurrentUser" />
-                    <#if (editProfilePageVar??) >
-                    <a class="list-item" href="<@wp.url page="${editProfilePageVar.code}" />" >
-                    <@wp.i18n key="ESLF_PROFILE_CONFIGURATION" />
-                    </a>
+                        <a class="list-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action"><@wp.i18n key="ESLF_SIGNOUT" /></a>
+                    </li>
+                    <li>
+                        <@wp.pageWithWidget var="editProfilePageVar" widgetTypeCode="userprofile_editCurrentUser" />
+                        <#if (editProfilePageVar??) >
+                        <a class="list-item" href="<@wp.url page="${editProfilePageVar.code}" />" ><@wp.i18n key="ESLF_PROFILE_CONFIGURATION" /></a>
+                        </#if>
+                    </li>
+                </ul>
+            </div>	
+        </div>	
+        <#else>
+
+        <a  data-toggle="dropdown" href="#"><span class="btn btn-outline-primary btn-sm py-1 my-2 px-3"><@wp.i18n key="ESLF_SIGNIN" /> </span></a>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="link-list-wrapper">
+                <form  method="POST">
+                    <#if (accountExpired?? && accountExpired == true)>
+                    <div class="alert alert-error">
+                        <button class="close" data-dismiss="alert">x</button>
+                        <@wp.i18n key="ESLF_USER_STATUS_EXPIRED" />
+                    </div>
                     </#if>
-                </li>
-            </ul>
-        </div>
+                    <#if (wrongAccountCredential?? && wrongAccountCredential == true)>
+                    <div class="alert alert-error">
+                        <button class="close" data-dismiss="alert">x</button>
+                        <@wp.i18n key="ESLF_USER_STATUS_CREDENTIALS_INVALID" />
+                    </div>
+                    </#if>
+                    <div class="form-group mx-2">
+                        <input type="text" name="username"  class="form-control" >
+                        <label for="exampleInputText"><@wp.i18n key="ESLF_USERNAME" /></label>
+                    </div>
 
-    </div>
-    <div class="modal-footer">
-        <button class="btn btn-default btn-sm" data-dismiss="modal" type="button">Chiudi</button>
-    </div>
-</div>
-</div>
-</div>
-
-<#else>
-
-<button class="btn btn-login btn-sm" type="button" data-toggle="modal" data-target="#modal-login">
-    <@wp.i18n key="ESLF_SIGNIN" /> 
-</button>
-
-
-<!-- Modal -->
-<div class="modal fade" tabindex="-1" role="dialog" id="modal-login">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Accesso Utente
-                </h5>
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <svg class="icon">
-                        <use xlink:href="<@wp.imgURL />sprite.svg#it-close"></use>
-                    </svg>
-                </button>
+                    <div class="form-group mx-2">
+                        <input type="password" name="password" class="form-control">
+                        <label for="exampleInputText"><@wp.i18n key="ESLF_PASSWORD" /></label>
+                        <input type="submit" class="btn btn-primary mx-2 my-3" value="<@wp.i18n key="ESLF_SIGNIN" />"  />
+                               </form>
+                    </div>
             </div>
-            <div class="modal-body">
-
-                <div class="link-list-wrapper">
-                    <form  method="POST">
-                        <#if (accountExpired?? && accountExpired == true)>
-                        <div class="alert alert-error">
-                            <button class="close" data-dismiss="alert">x</button>
-                            <@wp.i18n key="ESLF_USER_STATUS_EXPIRED" />
-                        </div>
-                        </#if>
-                        <#if (wrongAccountCredential?? && wrongAccountCredential == true)>
-                        <div class="alert alert-error">
-                            <button class="close" data-dismiss="alert">x</button>
-                            <@wp.i18n key="ESLF_USER_STATUS_CREDENTIALS_INVALID" />
-                        </div>
-                        </#if>
-
-
-                        <div class="form-group">
-                            <!--<label for="formGroupExampleInput2"><@wp.i18n key="ESLF_USERNAME" /></label>-->
-                            <input type="text" name="username" class="form-control" id="formusername"  aria-labelledby="infoUser" placeholder="<@wp.i18n key="ESLF_USERNAME" />">
-                        </div>
-
-                        <div class="form-group">
-                            <!--<label for="exampleInputPassword"><@wp.i18n key="ESLF_PASSWORD" /></label>-->
-                            <input type="password" name="password" class="form-control" id="formpassword" aria-labelledby="infoPassword" placeholder="<@wp.i18n key="ESLF_PASSWORD" />">
-                        </div>
-
-                       <div class="form-group ">
-                             <button class="btn btn-default btn-sm float-right my-3" data-dismiss="modal" type="button">Chiudi</button>
-                              <input type="submit" class="btn btn-access btn-sm float-right mx-2 my-3" value="<@wp.i18n key="ESLF_SIGNIN" />"  />
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div>
-
-</#if>','<#assign wp=JspTaglibs["/aps-core"]>
+            </#if>','<#assign wp=JspTaglibs["/aps-core"]>
 <@wp.headInfo type="JS" info="entando-misc-jquery/jquery-1.10.0.min.js" />
 <@wp.headInfo type="JS" info="entando-misc-bootstrap/bootstrap.min.js" />
 
@@ -471,20 +411,9 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 </ul>',1);
 INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('entando-widget-search_form','entando-widget-search_form',NULL,'<#assign wp=JspTaglibs["/aps-core"]>
 <@wp.pageWithWidget var="searchResultPageVar" widgetTypeCode="search_result" listResult=false />
-<form class="form-inline my-2 my-lg-0 "  action="<#if (searchResultPageVar??) ><@wp.url page="${searchResultPageVar.code}" /></#if>" method="get">
-
-<input class="form-control mr-sm-2 ml-auto" type="text" name="search" placeholder="<@wp.i18n key="ESSF_SEARCH" />" x-webkit-speech="x-webkit-speech" />
-
-       <button class="btn btn-primary my-2 my-sm-0 d-none d-lg-block" type="submit">
-    <span class="">Cerca</span>
-</button>
-
-<button class="btn btn-search-custom my-2 my-sm-0" type="submit">
-    <svg class="icon">
-    <use xlink:href="<@wp.imgURL />sprite.svg#it-search"></use>
-    </svg>
-</button>
-
+<form class="form-inline my-2 my-lg-0 collapse navbar-collapse" id="searchForm" action="<#if (searchResultPageVar??) ><@wp.url page="${searchResultPageVar.code}" /></#if>" method="get">
+ <input class="form-control mr-sm-2 ml-auto" type="text" name="search" placeholder="<@wp.i18n key="ESSF_SEARCH" />" x-webkit-speech="x-webkit-speech" />
+<button class="btn btn-primary my-2 my-sm-0" type="submit">Cerca</button>
 </form>','<#assign wp=JspTaglibs["/aps-core"]>
 <@wp.pageWithWidget var="searchResultPageVar" widgetTypeCode="search_result" listResult=false />
 <form class="navbar-search pull-left" action="<#if (searchResultPageVar??) ><@wp.url page="${searchResultPageVar.code}" /></#if>" method="get">
@@ -1215,7 +1144,7 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
 
 <script>
     $(document).ready(function () {
-        $(".it-carousel-all").owlCarousel({
+        $(".owl-carousel").owlCarousel({
            smartSpeed: 1000,
             loop:true,
             autoplay:true,
@@ -1229,74 +1158,6 @@ INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) V
         });
     });
 </script>','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
-<#assign wp=JspTaglibs["/aps-core"]>
-<@wp.headInfo type="JS_EXT" info="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js" />
-<@jacms.contentList listName="contentList" titleVar="titleVar"
-	pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
-<#if (titleVar??)>
-	<h1>${titleVar}</h1>
-</#if>
-<@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
-<@wp.fragment code="jacms_content_viewer_list_userfilters" escapeXml=false />
-</@wp.freemarkerTemplateParameter>
-<#if (contentList??) && (contentList?has_content) && (contentList?size > 0)>
-	<@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>
-		<@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
-		<@wp.fragment code="default_pagerBlock" escapeXml=false />
-<#list contentList as contentId>
-<#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>
-	<@jacms.content contentId="${contentId}" />
-</#if>
-</#list>
-		<@wp.fragment code="default_pagerBlock" escapeXml=false />
-		</@wp.freemarkerTemplateParameter>
-	</@wp.pager>
-<#else>
-		<p class="alert alert-info"><@wp.i18n key="LIST_VIEWER_EMPTY" /></p>
-</#if>
-<#if (pageLinkVar??) && (pageLinkDescriptionVar??)>
-	<p class="text-right"><a class="btn btn-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a></p>
-</#if>
-<#assign contentList="">',1);
-INSERT INTO guifragment (code,widgettypecode,plugincode,gui,defaultgui,locked) VALUES ('jacms_content_viewer_list_home_link','content_viewer_list_home_link','jacms','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
-<#assign wp=JspTaglibs["/aps-core"]>
-<@jacms.contentList listName="contentList" titleVar="titleVar"
-pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
-<div class="container py-4 custom-list-content">
-    <#if (titleVar??)>
-    <h2>${titleVar}</h2>
-    </#if>
-    <div class="row link-utili">
-        
-            <@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true >
-            <@wp.fragment code="jacms_content_viewer_list_userfilters" escapeXml=false />
-            </@wp.freemarkerTemplateParameter>
-            <#if (contentList??) && (contentList?has_content) && (contentList?size > 0)>
-            <@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>
-            <@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >
-            <#list contentList as contentId>
-            <#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>
-            <@jacms.content contentId="${contentId}" />
-            </#if>
-            </#list>
-            <@wp.fragment code="default_pagerBlock" escapeXml=false />
-            </@wp.freemarkerTemplateParameter>
-            </@wp.pager>
-            <#else>
-            <p class="alert alert-info">
-                <@wp.i18n key="LIST_VIEWER_EMPTY" />
-            </p>
-            </#if>
-            <#if (pageLinkVar??) && (pageLinkDescriptionVar??)>
-            <div class="mt-3 container py-2 text-right">
-                <a  class="btn btn-outline-primary" href="<@wp.url page="${pageLinkVar}"/>">${pageLinkDescriptionVar}</a>
-            </div>
-            </#if>
-            <#assign contentList="">
-            <br>
-      
-    </div>
-</div>','<#assign jacms=JspTaglibs["/jacms-aps-core"]>
 <#assign wp=JspTaglibs["/aps-core"]>
 <@wp.headInfo type="JS_EXT" info="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js" />
 <@jacms.contentList listName="contentList" titleVar="titleVar"

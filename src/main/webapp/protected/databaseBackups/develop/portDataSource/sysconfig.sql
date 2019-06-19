@@ -58,7 +58,6 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 		<attributes>
 			<attribute name="title" attributetype="Text" description="titolo" searchable="true" indexingtype="TEXT" />
 			<list name="lista" attributetype="Monolist" description="lista contenuti vari">
-				<validations />
 				<nestedtype>
 					<attribute name="lista" attributetype="Composite">
 						<attributes>
@@ -183,6 +182,36 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			</list>
 		</attributes>
 	</contenttype>
+	<contenttype typecode="PRO" typedescr="Contenuto Procedura Concorsuale" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
+		<attributes>
+			<list name="contProc" attributetype="Monolist" description="Nuova Procedura Concorsuale">
+				<validations />
+				<nestedtype>
+					<attribute name="contProc" attributetype="Composite">
+						<attributes>
+							<attribute name="title" attributetype="Text" description="Intestazione" indexingtype="TEXT">
+								<validations>
+									<required>true</required>
+								</validations>
+							</attribute>
+							<attribute name="subtitle" attributetype="Text" description="Sottotitolo" indexingtype="TEXT">
+								<validations />
+							</attribute>
+							<attribute name="date" attributetype="Date" description="Data">
+								<validations />
+							</attribute>
+							<attribute name="text" attributetype="Longtext" description="Testo">
+								<validations />
+							</attribute>
+							<attribute name="file" attributetype="Attach" description="File">
+								<validations />
+							</attribute>
+						</attributes>
+					</attribute>
+				</nestedtype>
+			</list>
+		</attributes>
+	</contenttype>
 	<contenttype typecode="SCH" typedescr="scheda utente all informazioni" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
 		<attributes>
 			<attribute name="nome" attributetype="Text" description="nome" searchable="true" indexingtype="TEXT">
@@ -203,6 +232,48 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','contentT
 			<attribute name="note" attributetype="Text" description="note" />
 		</attributes>
 	</contenttype>
+	<contenttype typecode="STA" typedescr="Contenuto Statistica Lista" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
+		<attributes>
+			<list name="contStat" attributetype="Monolist" description="Nuova Statistica">
+				<nestedtype>
+					<attribute name="contStat" attributetype="Composite">
+						<attributes>
+							<attribute name="title" attributetype="Text" description="title" indexingtype="TEXT">
+								<validations>
+									<required>true</required>
+								</validations>
+							</attribute>
+							<attribute name="date" attributetype="Date" description="date" />
+							<attribute name="text" attributetype="Longtext" description="text" indexingtype="TEXT" />
+							<attribute name="file" attributetype="Attach" description="File" />
+						</attributes>
+					</attribute>
+				</nestedtype>
+			</list>
+		</attributes>
+	</contenttype>
+	<contenttype typecode="TIR" typedescr="Contenuto Tirocinio Formativo" viewpage="**NULL**" listmodel="**NULL**" defaultmodel="**NULL**">
+		<attributes>
+			<list name="contTir" attributetype="Monolist" description="Nuovo Tirocinio">
+				<nestedtype>
+					<attribute name="contTir" attributetype="Composite">
+						<attributes>
+							<attribute name="title" attributetype="Text" description="Intestazione" indexingtype="TEXT">
+								<validations>
+									<required>true</required>
+								</validations>
+							</attribute>
+							<attribute name="date" attributetype="Date" description="Data" />
+							<attribute name="text" attributetype="Longtext" description="Descrizione" />
+							<attribute name="docInfo" attributetype="Attach" description="Documento Informativo" />
+							<attribute name="mans" attributetype="Attach" description="Mansionario" />
+							<attribute name="modDom" attributetype="Attach" description="Modello di Domanda" />
+						</attributes>
+					</attribute>
+				</nestedtype>
+			</list>
+		</attributes>
+	</contenttype>
 </contenttypes>
 
 ');
@@ -210,10 +281,10 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataobje
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','dataTypeDefinitions','Definition of the Type Types','<datatypes />');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoComponentsReport','The component installation report','<?xml version="1.0" encoding="UTF-8"?>
 <reports status="OK">
-	<creation>2019-04-11 18:00:42</creation>
-	<lastupdate>2019-04-11 18:00:51</lastupdate>
+	<creation>2019-06-13 09:27:24</creation>
+	<lastupdate>2019-06-13 09:27:41</lastupdate>
 	<components>
-		<component code="entandoCore" date="2019-04-11 18:00:42" status="OK">
+		<component code="entandoCore" date="2019-06-13 09:27:24" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="OK">
 					<table name="sysconfig" />
@@ -260,7 +331,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-jquery" date="2019-04-11 18:00:46" status="OK">
+		<component code="entando-misc-jquery" date="2019-06-13 09:27:30" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -271,7 +342,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-html5-essentials" date="2019-04-11 18:00:46" status="OK">
+		<component code="entando-misc-html5-essentials" date="2019-06-13 09:27:30" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -282,7 +353,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-bootstrap" date="2019-04-11 18:00:46" status="OK">
+		<component code="entando-misc-bootstrap" date="2019-06-13 09:27:30" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -293,7 +364,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-misc-less" date="2019-04-11 18:00:46" status="OK">
+		<component code="entando-misc-less" date="2019-06-13 09:27:30" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -304,7 +375,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jacms" date="2019-04-11 18:00:46" status="OK">
+		<component code="jacms" date="2019-06-13 09:27:30" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="OK">
 					<table name="contentmodels" />
@@ -326,7 +397,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-content-generic" date="2019-04-11 18:00:48" status="OK">
+		<component code="entando-content-generic" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -337,7 +408,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-content-download" date="2019-04-11 18:00:48" status="OK">
+		<component code="entando-content-download" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -348,7 +419,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-navigation_bar" date="2019-04-11 18:00:48" status="OK">
+		<component code="entando-widget-navigation_bar" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -359,7 +430,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-navigation_breadcrumbs" date="2019-04-11 18:00:48" status="OK">
+		<component code="entando-widget-navigation_breadcrumbs" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -370,7 +441,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-admin-console" date="2019-04-11 18:00:48" status="OK">
+		<component code="entando-admin-console" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="OK">
@@ -383,7 +454,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-portal-ui" date="2019-04-11 18:00:48" status="OK">
+		<component code="entando-portal-ui" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -394,7 +465,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-app-view-cms-default" date="2019-04-11 18:00:48" status="OK">
+		<component code="entando-app-view-cms-default" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -405,7 +476,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="jpinfinispan" date="2019-04-11 18:00:48" status="OK">
+		<component code="jpinfinispan" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -416,7 +487,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-language_choose" date="2019-04-11 18:00:48" status="OK">
+		<component code="entando-widget-language_choose" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -427,7 +498,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-login_form" date="2019-04-11 18:00:48" status="OK">
+		<component code="entando-widget-login_form" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -438,7 +509,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-widget-search_form" date="2019-04-11 18:00:48" status="OK">
+		<component code="entando-widget-search_form" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -449,7 +520,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','entandoC
 			</data>
 			<postProcess status="NOT_AVAILABLE" />
 		</component>
-		<component code="entando-page-bootstrap-hero" date="2019-04-11 18:00:48" status="OK">
+		<component code="entando-page-bootstrap-hero" date="2019-06-13 09:27:34" status="OK">
 			<schema status="OK">
 				<datasource name="portDataSource" status="NOT_AVAILABLE" />
 				<datasource name="servDataSource" status="NOT_AVAILABLE" />
@@ -482,12 +553,14 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','imageDim
 	</Dimension>
 </Dimensions>
 ');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','jacms_resourceMetadataMapping','Mapping between resource Metadata and resource attribute fields','<mapping>
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','jacms_resourceMetadataMapping','Mapping between resource Metadata and resource attribute fields','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mapping>
+    <field key="legend"></field>
     <field key="alt"></field>
     <field key="description"></field>
-    <field key="legend"></field>
     <field key="title"></field>
-</mapping>');
+</mapping>
+');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','langs','Definition of the system languages','<?xml version="1.0" encoding="UTF-8"?>
 <Langs>
 	<Lang>
@@ -536,11 +609,12 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params',
 	</ExtendendPrivacyModule>
 	<ExtraParams>
 		<Param name="page_preview_hash">45OeUaM9FVmQLmRDPaod</Param>
+		<Param name="aspect_ratio" />
 	</ExtraParams>
 </Params>
 
 ');
-INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20190412164316');
+INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','subIndexDir','Name of the sub-directory containing content indexing files','indexdir20190531122625');
 INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','userProfileTypes','User Profile Types Definitions','<?xml version="1.0" encoding="UTF-8"?>
 <profiletypes>
 	<profiletype typecode="PFL" typedescr="Default user profile">

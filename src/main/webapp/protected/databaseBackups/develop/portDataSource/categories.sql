@@ -1,3 +1,10 @@
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('affari_del_giudice_tutelare','area_civile','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Affari del Giudice Tutelare</property>
+<property key="it">Affari del Giudice Tutelare</property>
+</properties>
+
+');
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('agraria','area_civile','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Agraria</property>
@@ -58,6 +65,13 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_civile_cancelle
 <properties>
 <property key="en">Area Civile Cancellerie</property>
 <property key="it">Area Civile Cancellerie</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_penale','magistrati','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Area Penale</property>
+<property key="it">Area Penale</property>
 </properties>
 
 ');
@@ -124,6 +138,13 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('come_fare_per','home
 </properties>
 
 ');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('consegnatario_economo','area_amministrativa','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Consegnatario/Economo</property>
+<property key="it">Consegnatario/Economo</property>
+</properties>
+
+');
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('contenzioso_non_contenzioso','area_civile','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Contenzioso/Non Contenzioso</property>
@@ -145,6 +166,13 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('denunce_e_querele','
 </properties>
 
 ');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('dibattimento','area_penale','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Dibattimento</property>
+<property key="it">Dibattimento</property>
+</properties>
+
+');
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('dirigenza_amministrativa','uffici_e_cancellerie_int','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Dirigenza Amministrativa</property>
@@ -156,6 +184,20 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('elenco_personale_amm
 <properties>
 <property key="en">Elenco Personale Amministrativo</property>
 <property key="it">Elenco Personale Amministrativo</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('espropriazione_immobiliare','area_civile','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Espropriazione Immobiliare</property>
+<property key="it">Espropriazione Immobiliare</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('espropriazione_mobiliare','area_civile','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Espropriazione Mobiliare</property>
+<property key="it">Espropriazione Mobiliare</property>
 </properties>
 
 ');
@@ -184,6 +226,13 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('home','home','<?xml 
 <properties>
 <property key="it">Generale</property>
 <property key="en">Root</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('lavoro_e_previdenza','area_civile','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Lavoro e Previdenza</property>
+<property key="it">Lavoro e Previdenza</property>
 </properties>
 
 ');
@@ -254,6 +303,20 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('sezione_pdf','allega
 <properties>
 <property key="en">sezione pdf</property>
 <property key="it">sezione pdf</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('ufficio_del_personale','area_amministrativa','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Ufficio del Personale</property>
+<property key="it">Ufficio del Personale</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('ufficio_gip_gup','area_penale','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Ufficio GIP/GUP</property>
+<property key="it">Ufficio GIP/GUP</property>
 </properties>
 
 ');

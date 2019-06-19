@@ -1,34 +1,36 @@
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1,'CTM','Notizia Home','<div class="col-md-12 col-lg-4 col-xl-4 py-2">
-<div class="card shadow rounded">
-    <div class="card-header">
-        <p class="card-text orange">
-            <span class="text-uppercase font-weight-bold">
-                #foreach ($contentCategory in $content.getCategories())
-                <a class="category" href="$content.getContentOnPageLink("news_categorizzate")&modelId=55&category=$contentCategory.code ">
-                   $contentCategory.title 
-            </a>
-            #end
-        </span>
-        <small class="text-muted d-block">
-            $content.date.shortDate
-        </small>
-    </p>
-</div>
-<div class="img-wrapper">
-    <img class="img-fluid" data-src="" alt="$content.img.text" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
-</div>
-<div class="card-body">
-    <h5 class="card-title">
-        <a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 ">
-           $content.title.text
-    </a>
-</h5>
-<p class="card-text">
-    $content.abstract.text
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (1,'CTM','Notizia Home','<div class="card shadow rounded">
+<div class="card-header">
+<p class="card-text orange">
+
+<span class="text-uppercase font-weight-bold">
+  
+   #foreach ($contentCategory in $content.getCategories())
+
+   <a class="category" href="$content.getContentOnPageLink("news_categorizzate")&modelId=55&category=$contentCategory.code ">
+  
+  $contentCategory.title 
+  
+  </a>
+                    
+#end
+  
+</span>
+
+  <small class="text-muted d-block">$content.date.shortDate</small>
 </p>
 </div>
+<div class="img-wrapper">
+ <img class="img-fluid" data-src="" alt="$content.img.text" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
 </div>
-</div>',NULL);
+<div class="card-body">
+  <h5 class="card-title">
+    <a class="card-body-link" href="$content.getContentOnPageLink("paginadettaglio")&modelId=55 "> $content.title.text </a>
+  </h5>
+  <p class="card-text">$content.abstract.text</p>
+</div>
+</div>
+
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2,'CTA','Lista Notizie Primo Piano','<section id="section2">
 		<div class="container py-4">
 <h2>$content.title.text</h2>
@@ -54,29 +56,25 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2
         
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (3,'CTA','Lista Servizi Home Page','<section id="section1" class="bg-300">
-    <div class="container py-4">
-        <h2>$content.title.text</h2>
-        <div class="row">
-            #foreach ($item in $content.lista)  
-            <div class=" col-sm-12 col-md-12 col-lg-4 col-xl-4 servizi">
-                <div class="card border-0">
-                    <div class="card-body p-0">
-                        <img class="img-fluid" data-src="" alt="" src="$item.img.getImagePath(''0'')" data-holder-rendered="true">
-                        <h5 class="card-title bg-primary">
-                            <a class="card-body-link" href="$item.link.destination">
-                                $item.title.text
-                            </a> 
-                        </h5>
-                    </div>
-                </div>
-            </div>
-            #end
-        </div>
-    </div>
-</section>
+		<div class="container py-4">
+<h2>$content.title.text</h2>
+<div class="card-deck servizi">
+ #foreach ($item in $content.lista)  
+  <div class="card border-0">
+  	<div class="card-body p-0">
+  		<img class="img-fluid" data-src="" alt="" src="$item.img.getImagePath(''0'')" data-holder-rendered="true">
+  		<h5 class="card-title bg-primary"><a class="card-body-link linkHover" href="$item.link.destination">$item.title.text</a> </h5>
+  </div>
+  </div>
+	#end
+
+</div>
+
+</div>
+	</section>
 
 ',NULL);
-INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4,'CTM','Link Utili Home Page','<div class="col-sm-12 col-lg-3 col-xl-3 py-2">
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4,'CTM','Link Utili Home Page','<div class="col-sm-6 col-md-3 py-2">
  <div class="card border-0 rounded">
    <a href="$content.link.destination">
      <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
@@ -88,25 +86,26 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (4
 </div>
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (5,'CTA','Trasparenza Home Page','<section id="section4" class="bg-dark">
-    <div class="container py-4">
-        <h2 class="text-white">$content.title.text</h2>
-        <div class="row">
-            #foreach ($item in $content.lista)  
-            <div class="col-md-12 col-lg-4 col-xl-4 mt-3">
-                <div class="card bg-primary border-0 rounded">
-                    <div class="card-body p-3">
-                        <a class="card-link text-white d-block" href="$item.link.destination" >
-                            $item.title.text <svg class="icon icon-light float-right">
-                                <use xlink:href="$item.img.getImagePath(''0'')"></use>
-                            </svg>
-                        </a>
+
+<div class="container py-4">
+                <h2 class="text-white">$content.title.text</h2>
+                <div class="card-deck mt-3">
+                #foreach ($item in $content.lista)  
+                    <div class="card bg-primary border-0 rounded">
+                        <div class="card-body p-3">
+                            <a class="card-link text-white d-block" href="$item.link.destination" >
+                                $item.title.text <svg class="icon icon-light float-right">
+                                    <use xlink:href="$item.img.getImagePath(''0'')"></use>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
+                   #end
+                    
                 </div>
             </div>
-            #end
-        </div>
-    </div>
-</section>',NULL);
+</section>
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (6,'CTM','Link Istituzionali Home Page','<div id="carouselExampleControls" class="carousel slide bg-white px-0" data-ride="carousel">
 	<div class="carousel-inner">
   	<div class="carousel-item active"> 
@@ -162,40 +161,64 @@ $(document).ready(function () {
 </script>
 ',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8,'CTA','Link Istituzionali Home Page','<section id="section5">
-    <div class="container">
-        <div id="carousel-link" class="owl-carousel-link owl-carousel owl-three owl-theme ">
-            #foreach ($item in $content.lista) 
-            <div class="item item-owl-custom">
-                <a class="d-block text-center" href="$item.link.destination">
-                    <img class="img-fluid" src="$item.img.getImagePath(''0'')" >
-                </a>
+            <div class="container py-4">
+                <h2>$content.title.text</h2>
+                <div id="carouselExampleControls" class="carousel slide bg-white px-0" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div id="attivo" class="carousel-item active">
+                            <div class="row align-items-center justify-content-center">
+                               #foreach ($item in $content.lista)
+                       				 		#if($item.number.value < 3)
+                                     <div class="col-md-4">
+                                         <a class="d-block text-center" href="$item.link.destination">
+                                             <img class="img-fluid" src="$item.img.getImagePath(''0'')" >
+                                         </a>
+                                     </div>    
+                                  #end
+                                #end    
+                            </div>
+                        </div>
+                         <div class="carousel-item">
+                            <div class="row align-items-center justify-content-center">
+                               #foreach ($item in $content.lista)
+                       				 		#if($item.number.value >= 3)
+                                     <div class="col-md-4">
+                                         <a class="d-block text-center" href="$item.link.destination">
+                                             <img class="img-fluid" src="$item.img.getImagePath(''0'')" >
+                                         </a>
+                                     </div>    
+                                   #end
+                                #end    
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <svg class="icon icon-primary icon-lg">
+                            <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-arrow-left"></use>
+                        </svg>
+                        <span class="sr-only">Precedente</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <svg class="icon icon-primary icon-lg">
+                            <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-arrow-right"></use>
+                        </svg>
+                        <span class="sr-only">Successivo</span>
+                    </a>
+                </div>
             </div>
-            #end  
-        </div>
-    </div>  
 </section>
+        
 <script>
-    $(document).ready(function () {
+$(document).ready(function () {
 
-        $(''.owl-three'').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 1
-                },
-                1000: {
-                    items: 3
-                }
-            }
-        })
+				$("#attivo").addClass("active");
 
-    });
-</script>',NULL);
+        $(''.carouselExampleControls'').carousel({
+            interval:3000
+        });
+})
+</script>
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (9,'CNG','Modello Testo','<div class="card-wrapper">
     <div class="card border-0">
         <div class="card-body p-1">
@@ -361,9 +384,13 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (2
       <img class="img-fluid" data-src="" alt="" src="$content.img.getImagePath(''0'')" data-holder-rendered="true">
     </a>
     <div class="card-body">
-        <h5 class="card-title">$content.title.text</h5>           
+        <h5 class="card-title">$content.title.text</h5>
+            
+            
             <p class="card-text">$content.abstract.text </p>
-
+           
+           
+           
     </div>
 </div>
 </div>',NULL);
@@ -737,6 +764,67 @@ $content.MainBody.text
   </ul>
 #end
 </article>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10002,'TIR','Modello Tirocinio Formativo','#foreach($item in $content.contTir)
+
+    <div class="card-wrapper">
+        <div class="card border-0">
+            <div class="card-body p-1">
+                
+                
+                #if($item.title.text)
+                 <h3 class="card-title">
+                   $item.title.text
+                 </h3> 
+          			#end
+                
+                #if($item.title.text)
+        					$item.date.longDate <br>
+								#end
+
+                #if($item.text.text)
+                	$item.text.text<br><br>
+                #end
+                
+   							#if($item.docInfo.attachPath != "")
+                 <a href="$item.docInfo.attachPath">
+                   <span class="display-4">$item.docInfo.text</span>
+                   <svg class="icon icon-primary icon-right m-0">
+                     <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-download">
+                     </use>
+                   </svg>
+                 </a> <br>
+                #end
+                
+                #if($item.mans.attachPath != "")
+                 <a href="$item.mans.attachPath">
+                   <span class="display-4">$item.mans.text</span>
+                   <svg class="icon icon-primary icon-right m-0">
+                     <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-download">
+                     </use>
+                   </svg>
+                 </a> <br>
+                #end
+                
+                #if($item.modDom.attachPath != "")
+                 <a href="$item.modDom.attachPath">
+                   <span class="display-4">$item.modDom.text</span>
+                   <svg class="icon icon-primary icon-right m-0">
+                     <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-download">
+                     </use>
+                   </svg>
+                 </a>
+                #end
+                
+            </div>
+        </div>
+    </div>
+    
+   <br>
+   
+#end
+
+
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10003,'DLD','Full - Default','<article>
 <h1>$content.Title.text</a></h1>
 #if($content.categories.size() >= 1)
@@ -759,6 +847,94 @@ $content.LongDescr.text
 #end
 <p><a class="btn btn-primary" href="$content.File.attachPath">$i18n.getLabel("DLD_DOWNLOAD")&nbsp;<i class="icon-download-alt icon-white"></i></a></p>
 </article>',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10004,'STA','Modello Statistica','#foreach($item in $content.contStat)
+
+    <div class="card-wrapper">
+        <div class="card border-0">
+            <div class="card-body p-1">
+                
+                
+                #if($item.title.text)
+                 <h3 class="card-title">
+                   $item.title.text
+                 </h3> 
+          			#end
+                
+                #if($item.title.text)
+        					$item.date.longDate <br>
+								#end
+
+                #if($item.text.text)
+                	$item.text.text<br><br>
+                #end
+                
+   							#if($item.file.attachPath != "")
+                 <a href="$item.file.attachPath">
+                   <span class="display-4">$item.file.text</span>
+                   <svg class="icon icon-primary icon-right m-0">
+                     <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-download">
+                     </use>
+                   </svg>
+                 </a>
+                #end
+                
+            </div>
+        </div>
+    </div>
+    
+   <br>
+   
+#end
+
+
+',NULL);
+INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10005,'PRO','Modello Procedura Concorsuale','#foreach($item in $content.contProc)
+
+    <div class="card-wrapper">
+        <div class="card border-0">
+            <div class="card-body p-1">
+                
+                
+                #if($item.title.text)
+                 <h3 class="card-title">
+                   $item.title.text
+                 </h3> 
+          			#end
+                
+                #if($item.subtitle.text)
+                 <h4 class="card-title">
+                   $item.subtitle.text
+                 </h4> 
+          			#end
+                
+                #if($item.date.longDate)
+        					$item.date.longDate <br>
+								#end
+
+                #if($item.text.text)
+                	$item.text.text<br><br>
+                #end
+                
+   							#if($item.file.attachPath != "")
+                 <a href="$item.file.attachPath">
+                   <span class="display-4">$item.file.text</span>
+                   <svg class="icon icon-primary icon-right m-0">
+                     <use xlink:href="/tribunalemarsala/resources/static/img/sprite.svg#it-download">
+                     </use>
+                   </svg>
+                 </a>
+                #end
+                
+            </div>
+        </div>
+    </div>
+    
+   <br>
+   
+#end
+
+
+',NULL);
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (10011,'CNG','Lists - Default','<div class="search-result">
   <h3><a href="$content.contentLink">$content.Title.text</a></h3>
   <a class="search-link" href="$content.contentLink">$content.contentLink</a>

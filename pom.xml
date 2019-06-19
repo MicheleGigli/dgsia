@@ -121,7 +121,7 @@
         <test.database.port.url>jdbc:postgresql://${test.database.hostname}:${test.database.port}/${project.artifactId}testPort</test.database.port.url>
         <test.database.serv.url>jdbc:postgresql://${test.database.hostname}:${test.database.port}/${project.artifactId}testServ</test.database.serv.url>
         -->
-        <!--
+        
         <test.database.driver>com.mysql.jdbc.Driver</test.database.driver>
         <test.database.hostname>localhost</test.database.hostname>
         <test.database.port>3306</test.database.port>
@@ -129,14 +129,14 @@
         <test.database.password>agile</test.database.password>
         <test.database.port.url>jdbc:mysql://${test.database.hostname}:${test.database.port}/${project.artifactId}testPort</test.database.port.url>
         <test.database.serv.url>jdbc:mysql://${test.database.hostname}:${test.database.port}/${project.artifactId}testServ</test.database.serv.url>
-        -->
-        <test.database.driver>org.apache.derby.jdbc.EmbeddedDriver</test.database.driver>
+        
+<!--        <test.database.driver>org.apache.derby.jdbc.EmbeddedDriver</test.database.driver>
         <test.database.hostname>localhost</test.database.hostname>
         <test.database.port>1527</test.database.port>
         <test.database.username>agile</test.database.username>
         <test.database.password>agile</test.database.password>
         <test.database.port.url>jdbc:derby:${project.build.directory}/test/db/${project.artifactId}testPort;create=true</test.database.port.url>
-        <test.database.serv.url>jdbc:derby:${project.build.directory}/test/db/${project.artifactId}testServ;create=true</test.database.serv.url>
+        <test.database.serv.url>jdbc:derby:${project.build.directory}/test/db/${project.artifactId}testServ;create=true</test.database.serv.url>-->
 
         <skipDerby>true</skipDerby>
         <skipStandalone>true</skipStandalone>

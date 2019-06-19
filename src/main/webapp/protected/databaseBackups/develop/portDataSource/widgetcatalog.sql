@@ -59,27 +59,6 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 	<parameter name="linkDescr_{lang}">Link description in lang {lang}</parameter>
 	<action name="listViewerConfig"/>
 </config>','jacms',NULL,NULL,1,'free');
-INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('content_viewer_list_home_link','<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Contents - Publish a List of home links</property>
-<property key="it">Contenuti - Pubblica una Lista di link per homepage</property>
-</properties>
-
-','<config>
-	<parameter name="contentType">Content Type (mandatory)</parameter>
-	<parameter name="modelId">Content Model</parameter>
-	<parameter name="userFilters">Front-End user filter options</parameter>
-	<parameter name="category">Content Category **deprecated**</parameter>
-	<parameter name="categories">Content Category codes (comma separeted)</parameter>
-	<parameter name="orClauseCategoryFilter" />
-	<parameter name="maxElemForItem">Contents for each page</parameter>
-	<parameter name="maxElements">Number of contents</parameter>
-	<parameter name="filters" />
-	<parameter name="title_{lang}">Widget Title in lang {lang}</parameter>
-	<parameter name="pageLink">The code of the Page to link</parameter>
-	<parameter name="linkDescr_{lang}">Link description in lang {lang}</parameter>
-	<action name="listViewerConfig"/>
-</config>','jacms','',NULL,1,'free');
 INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('content_viewer_list_links','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Contents - Publish a List of Contents Link</property>
@@ -231,6 +210,18 @@ INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defa
 ',NULL,NULL,'entando-widget-side-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="navSpec">code(sezione_per_l_amministrazia).subtree(1)</property>
+</properties>
+
+',0,'free');
+INSERT INTO widgetcatalog (code,titles,parameters,plugincode,parenttypecode,defaultconfig,locked,maingroup) VALUES ('Navigation_Bar_laterale_Proc_Conc','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Navigation Bar laterale Procedure Concorsuali</property>
+<property key="it">Navigation Bar laterale Procedure Concorsuali</property>
+</properties>
+
+',NULL,NULL,'entando-widget-side-navigation_bar','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="navSpec">code(procedure_concorsuali).subtree(1)</property>
 </properties>
 
 ',0,'free');

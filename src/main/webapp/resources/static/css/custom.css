@@ -582,7 +582,7 @@ text-overflow: ellipsis;*/
     font-size: .875rem;
     line-height: 1.2rem;
     min-height: 65px;
-    /* max-height: 65px; */
+    max-height: 65px;
 }
 
 .card-news .card-body {
