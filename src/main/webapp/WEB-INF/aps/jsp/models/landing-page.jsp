@@ -86,7 +86,7 @@
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg bg-dark navbar-custom">
+        <nav id="menu1" class="navbar navbar-expand-lg bg-dark navbar-custom">
             <div class="container">
                 <div class="menu-mobile-bar">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavB" aria-controls="navbarNavB" aria-expanded="false" aria-label="Toggle navigation">
@@ -279,8 +279,6 @@
         <a href="#" data-attribute="return-to-top" class="return-to-top"><i
                 class="it-collapse"></i><span class="sr-only">Collapse</span>
         </a>
-
-        <!--<script src="<wp:resourceURL />static/js/bootstrap-italia.bundle.min.js"></script>-->
     </body>
 
 </html>
