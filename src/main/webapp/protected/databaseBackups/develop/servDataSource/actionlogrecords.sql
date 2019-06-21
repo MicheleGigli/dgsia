@@ -3370,382 +3370,6 @@ jacmsPreviewActionPageCode_en=
 status=READY
 entandoaction:saveAndApprove=Submit
 ',NULL,'2019-05-14 12:55:08');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2037,'admin','2019-05-27 11:38:14','/do/jacms/Content','saveAndApprove','descr=Incarichi Professionali agli ausiliari del Giudice presso il Tribunale di Marsala
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON1686
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=
-Monolist:Composite:Attach:it_contComp_allegato_0=INCARICHI CONFERITI AI CTU NELL''ANNO 2018.pdf
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-Monolist:Composite:Attach:en_contComp_allegato_0=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Incarichi Professionali agli ausiliari del Giudice presso il Tribunale di Marsala</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON1686</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 11:38:14');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2039,'admin','2019-05-27 12:07:03','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_newContent
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p>Ubicazione:&nbsp;Piazza Borsellino, 1
-Piano:&nbsp;Secondo
-Stanza:&nbsp;100 - 101
-Telefono:&nbsp;0923/765279;
-0923/765277;
-0923/765275
-Fax:&nbsp;0923/765272
-PEC:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p>Attivit&agrave; svolte:</p>
-
-<p>Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):</p>
-
-<p>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;</p>
-
-<p>Iscrizione delle spese prenotate nel relativo registro;</p>
-
-<p>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p>Orario al pubblico:</p>
-
-<p>Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:07:03');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2040,'admin','2019-05-27 12:07:54','/do/jacms/Page/SpecialWidget/Viewer','saveViewerConfig','pageCode=ufficio_recupero_crediti
-frame=5
-widgetTypeCode=content_viewer
-contentId=CON2038
-modelId=10000
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>2</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>editFrame</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ufficio_recupero_crediti</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:07:54');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2041,'admin','2019-05-27 12:07:55','/do/rs/Page','setOnline','pageCode=ufficio_recupero_crediti
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ufficio_recupero_crediti</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:07:55');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2042,'admin','2019-05-27 12:08:50','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p>Ubicazione:&nbsp;Piazza Borsellino, 1</p>
-
-<p>Piano:&nbsp;Secondo</p>
-
-<p>Stanza:&nbsp;100 - 101</p>
-
-<p>Telefono:&nbsp;0923/765279;</p>
-
-<p>0923/765277;</p>
-
-<p>0923/765275</p>
-
-<p>Fax:&nbsp;0923/765272</p>
-
-<p>PEC:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p>Attivit&agrave; svolte:</p>
-
-<p>Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):</p>
-
-<p>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;</p>
-
-<p>Iscrizione delle spese prenotate nel relativo registro;</p>
-
-<p>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p>Orario al pubblico:</p>
-
-<p>Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:08:50');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2043,'admin','2019-05-27 12:10:34','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p>Ubicazione:&nbsp;Piazza Borsellino, 1</p>
-
-<p>Piano:&nbsp;Secondo</p>
-
-<p>Stanza:&nbsp;100 - 101</p>
-
-<p>Telefono:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275</p>
-
-<p>Fax:&nbsp;0923/765272</p>
-
-<p>PEC:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-Monolist:Composite:Text:it_contComp_title_1=
-Monolist:Composite:Hypertext:it_contComp_text_1=<p>Attivit&agrave; svolte:</p>
-
-<p>Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):</p>
-
-<p>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;</p>
-
-<p>Iscrizione delle spese prenotate nel relativo registro;</p>
-
-<p>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-Monolist:Composite:Text:it_contComp_title_2=
-Monolist:Composite:Hypertext:it_contComp_text_2=<p>Orario al pubblico:</p>
-
-<p>Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-Monolist:Composite:Text:en_contComp_title_1=
-Monolist:Composite:Hypertext:en_contComp_text_1=
-Monolist:Composite:Text:en_contComp_title_2=
-Monolist:Composite:Hypertext:en_contComp_text_2=
-jacmsPreviewActionPageCode_en=
-status=READY
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:10:34');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2044,'admin','2019-05-27 12:11:51','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p>Ubicazione:&nbsp;Piazza Borsellino, 1
-Piano:&nbsp;Secondo<br />
-Stanza:&nbsp;100 - 101<br />
-Telefono:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-Fax:&nbsp;0923/765272<br />
-PEC:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-Monolist:Composite:Text:it_contComp_title_1=
-Monolist:Composite:Hypertext:it_contComp_text_1=<p>Attivit&agrave; svolte:</p>
-
-<p>Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):</p>
-
-<p>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;</p>
-
-<p>Iscrizione delle spese prenotate nel relativo registro;</p>
-
-<p>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-Monolist:Composite:Text:it_contComp_title_2=
-Monolist:Composite:Hypertext:it_contComp_text_2=<p>Orario al pubblico:</p>
-
-<p>Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-Monolist:Composite:Text:en_contComp_title_1=
-Monolist:Composite:Hypertext:en_contComp_text_1=
-Monolist:Composite:Text:en_contComp_title_2=
-Monolist:Composite:Hypertext:en_contComp_text_2=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:11:51');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2045,'admin','2019-05-27 12:11:54','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
 __multiselect_extraGroupNames=
 treeNodesToOpen=home
@@ -3790,194 +3414,6 @@ jacmsPreviewActionPageCode_en=
 status=
 entandoaction:saveAndApprove=Submit
 ',NULL,'2019-05-27 12:11:54');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2046,'admin','2019-05-27 12:13:12','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p>Ubicazione:&nbsp;Piazza Borsellino, 1 Piano:&nbsp;Secondo<br />
-Stanza:&nbsp;100 - 101<br />
-Telefono:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-Fax:&nbsp;0923/765272<br />
-PEC:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-Monolist:Composite:Text:it_contComp_title_1=
-Monolist:Composite:Hypertext:it_contComp_text_1=<p>Attivit&agrave; svolte:<br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-Iscrizione delle spese prenotate nel relativo registro;<br />
-Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.<br />
-Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-Monolist:Composite:Text:it_contComp_title_2=
-Monolist:Composite:Hypertext:it_contComp_text_2=<p>Orario al pubblico:</p>
-
-<p>Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-Monolist:Composite:Text:en_contComp_title_1=
-Monolist:Composite:Hypertext:en_contComp_text_1=
-Monolist:Composite:Text:en_contComp_title_2=
-Monolist:Composite:Hypertext:en_contComp_text_2=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:13:12');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2047,'admin','2019-05-27 12:15:13','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1 Piano:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-Monolist:Composite:Text:it_contComp_title_1=
-Monolist:Composite:Hypertext:it_contComp_text_1=<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-Monolist:Composite:Text:it_contComp_title_2=
-Monolist:Composite:Hypertext:it_contComp_text_2=<p>Orario al pubblico:</p>
-
-<p>Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-Monolist:Composite:Text:en_contComp_title_1=
-Monolist:Composite:Hypertext:en_contComp_text_1=
-Monolist:Composite:Text:en_contComp_title_2=
-Monolist:Composite:Hypertext:en_contComp_text_2=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:15:13');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2048,'admin','2019-05-27 12:15:58','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1
-strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-Monolist:Composite:Text:it_contComp_title_1=
-Monolist:Composite:Hypertext:it_contComp_text_1=<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-Monolist:Composite:Text:it_contComp_title_2=
-Monolist:Composite:Hypertext:it_contComp_text_2=<p>Orario al pubblico:</p>
-
-<p>Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-Monolist:Composite:Text:en_contComp_title_1=
-Monolist:Composite:Hypertext:en_contComp_text_1=
-Monolist:Composite:Text:en_contComp_title_2=
-Monolist:Composite:Hypertext:en_contComp_text_2=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:15:58');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2049,'admin','2019-05-27 12:16:40','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
 __multiselect_extraGroupNames=
 treeNodesToOpen=home
@@ -30243,10 +29679,10 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia 4
-Text:it_abstract=Si comunica che è stato pubblicato nella area "Amministrazione Trasparente", sezione "Performance" il Programma delle attività 2019
+Text:it_abstract=Si comunica che ï¿½ stato pubblicato nella area "Amministrazione Trasparente", sezione "Performance" il Programma delle attivitï¿½ 2019
 Enumerator:enum=
 __multiselect_extraGroupNames=
-Text:it_subtitle=Programma delle attività  2019
+Text:it_subtitle=Programma delle attivitï¿½ 2019
 contentOnSessionMarker=CTM_editContent_CTM463
 Date:date=13/03/2019
 resourceTypeCode=
@@ -30269,7 +29705,7 @@ jacmsPreviewActionPageCode_it=
 Image:en_img=gius3
 jacmsPreviewActionPageCode_en=
 Image:en_img_metadata_alt=
-Text:it_title=Programma delle attività 2019
+Text:it_title=Programma delle attivitï¿½ 2019
 status=
 ','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <activityStreamInfo>
@@ -30301,7 +29737,7 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia singola 2
-Text:it_abstract=Si informa che nella sezione "Tirocini" è consultabile il documento informativo sulle proposte di tirocinio e stage
+Text:it_abstract=Si informa che nella sezione "Tirocini" ï¿½ consultabile il documento informativo sulle proposte di tirocinio e stage
 Enumerator:enum=ATTI GIUDIZIARI
 __multiselect_extraGroupNames=
 Text:it_subtitle=Tirocini Formativi per l''anno 2019
@@ -30360,7 +29796,7 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=bancale2
-Text:it_abstract=Si comunica che nella sezione "Statistiche" è pubblicato il Bollettino Statistico del mese di Marzo 2019
+Text:it_abstract=Si comunica che nella sezione "Statistiche" ï¿½ pubblicato il Bollettino Statistico del mese di Marzo 2019
 Enumerator:enum=
 __multiselect_extraGroupNames=
 Text:it_subtitle=Bollettino statistico di Marzo 2019
@@ -30500,7 +29936,7 @@ Monolist:Composite:Longtext:en_lista_abstract_0=
 Monolist:Composite:Longtext:en_lista_abstract_1=
 Monolist:Composite:Text:en_lista_title_1=Pubblicita Legale
 Monolist:Composite:Text:en_lista_title_0=Amministrazione Trasparente
-Monolist:Composite:Link:it_lista_link_1=Pubblicità  Legale
+Monolist:Composite:Link:it_lista_link_1=Pubblicitï¿½ Legale
 Monolist:Composite:Link:it_lista_link_2=Bilancio Sociale
 Monolist:Composite:Text:en_lista_title_2=Bilancio
 Monolist:Composite:Link:it_lista_link_0=Amministrazione Trasparente
@@ -30511,7 +29947,7 @@ Monolist:Composite:Date:lista_date_0=
 Monolist:Composite:Number:lista_number_2=
 descr=TRASPARENZA HOME PAGE
 Monolist:Composite:Number:lista_number_1=
-Monolist:Composite:Text:it_lista_title_1=Pubblicità  Legale
+Monolist:Composite:Text:it_lista_title_1=Pubblicitï¿½ Legale
 Monolist:Composite:Text:it_lista_title_0=Amministrazione Trasparente
 Monolist:Composite:Longtext:it_lista_abstract_2=
 Monolist:Composite:Text:it_lista_title_2=Bilancio
@@ -30765,12 +30201,12 @@ selectedNode=sezione_per_l_amministrazia
 ','2019-06-17 15:51:47');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2605,'admin','2019-06-17 15:52:42','/do/Page','saveConfigure','entandoaction:saveConfigure=Submit
 charset=utf-8
-langen=Attività  Contrattazione Consuntivi Semestrali
+langen=Attivitï¿½ Contrattazione Consuntivi Semestrali
 showable=true
 parentPageCode=sezione_per_l_amministrazia
 strutsAction=2
 mimeType=text/html
-langit=Attività  Contrattazione Consuntivi Semestrali
+langit=Attivitï¿½ Contrattazione Consuntivi Semestrali
 pageCode=attivit_contr_cons_semestr
 copyPageCode=
 groupSelectLock=false
@@ -30782,11 +30218,11 @@ group=free
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attività  Contrattazione Consuntivi Semestrali</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attivitï¿½ Contrattazione Consuntivi Semestrali</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attività  Contrattazione Consuntivi Semestrali</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attivitï¿½ Contrattazione Consuntivi Semestrali</value>
         </entry>
     </objectTitles>
     <groups>
@@ -30811,11 +30247,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attività  Contrattazione Consuntivi Semestrali</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attivitï¿½ Contrattazione Consuntivi Semestrali</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attività  Contrattazione Consuntivi Semestrali</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attivitï¿½ Contrattazione Consuntivi Semestrali</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31135,12 +30571,12 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
 ','2019-06-17 15:59:39');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2616,'admin','2019-06-17 16:03:13','/do/Page','saveConfigure','entandoaction:saveConfigure=Submit
 charset=utf-8
-langen=Attività  contrattazione consuntivi semestrali
+langen=Attivitï¿½ contrattazione consuntivi semestrali
 showable=true
 parentPageCode=contratti_e_fornitori
 strutsAction=2
 mimeType=text/html
-langit=Attività  contrattazione consuntivi semestrali
+langit=Attivitï¿½ contrattazione consuntivi semestrali
 pageCode=attivit_contrattazione_cons
 copyPageCode=
 groupSelectLock=false
@@ -31152,11 +30588,11 @@ group=free
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attività  contrattazione consuntivi semestrali</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attivitï¿½ contrattazione consuntivi semestrali</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attività  contrattazione consuntivi semestrali</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attivitï¿½ contrattazione consuntivi semestrali</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31181,11 +30617,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attività  contrattazione consuntivi semestrali</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attivitï¿½ contrattazione consuntivi semestrali</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attività  contrattazione consuntivi semestrali</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attivitï¿½ contrattazione consuntivi semestrali</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31206,12 +30642,12 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
 ','2019-06-17 16:03:17');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2618,'admin','2019-06-17 16:07:26','/do/Page','saveConfigure','entandoaction:saveConfigure=Submit
 charset=utf-8
-langen=Pubblicità Legale
+langen=Pubblicitï¿½ Legale
 showable=true
 parentPageCode=sezione_per_l_amministrazia
 strutsAction=3
 mimeType=text/html
-langit=Pubblicità Legale
+langit=Pubblicitï¿½ Legale
 pageCode=pubblicit_lega
 defaultShowlet=false
 copyPageCode=per_l_amministrazione
@@ -31224,11 +30660,11 @@ group=free
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31264,11 +30700,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31289,12 +30725,12 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
 ','2019-06-17 16:08:12');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2621,'admin','2019-06-17 16:10:23','/do/Page','saveConfigure','entandoaction:saveConfigure=Submit
 charset=utf-8
-langen=Programma delle Attività
+langen=Programma delle Attivitï¿½
 showable=true
 parentPageCode=pubblicit_lega
 strutsAction=2
 mimeType=text/html
-langit=Programma delle Attività 
+langit=Programma delle Attivitï¿½
 pageCode=programma_delle_attivita
 copyPageCode=
 groupSelectLock=false
@@ -31306,11 +30742,11 @@ group=free
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Programma delle Attività</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Programma delle Attivitï¿½</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Programma delle Attività </value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Programma delle Attivitï¿½</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31335,11 +30771,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Programma delle Attività</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Programma delle Attivitï¿½</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Programma delle Attività </value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Programma delle Attivitï¿½</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31360,12 +30796,12 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
 ','2019-06-17 16:10:27');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2623,'admin','2019-06-17 16:10:51','/do/Page','saveConfigure','entandoaction:saveConfigure=Submit
 charset=utf-8
-langen=Rendicontazione delle attività  di performance
+langen=Rendicontazione delle attivitï¿½ di performance
 showable=true
 parentPageCode=programma_delle_attivita
 strutsAction=2
 mimeType=text/html
-langit=Rendicontazione delle attività  di performance
+langit=Rendicontazione delle attivitï¿½ di performance
 pageCode=rend_attivit_di_perf
 copyPageCode=
 groupSelectLock=false
@@ -31377,11 +30813,11 @@ group=free
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rendicontazione delle attività  di performance</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rendicontazione delle attivitï¿½ di performance</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rendicontazione delle attività  di performance</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rendicontazione delle attivitï¿½ di performance</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31406,11 +30842,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rendicontazione delle attività  di performance</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rendicontazione delle attivitï¿½ di performance</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rendicontazione delle attività  di performance</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rendicontazione delle attivitï¿½ di performance</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31516,11 +30952,11 @@ frame=7
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31549,11 +30985,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31587,11 +31023,11 @@ frame=7
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31620,11 +31056,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31658,11 +31094,11 @@ frame=7
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31691,11 +31127,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31729,11 +31165,11 @@ frame=7
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31762,11 +31198,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31800,11 +31236,11 @@ frame=7
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -31833,11 +31269,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -34642,8 +34078,8 @@ linkDescr_it=Vedi Tutti
 linkDescr_en=Vedi Tutti
 widgetTypeCode=content_viewer_list
 maxElements=
-title_it=Utilità
-title_en=Utilità
+title_it=Utilitï¿½
+title_en=Utilitï¿½
 categories=link_utili
 userFilterKey=fulltext
 contentType=CTM
@@ -34725,7 +34161,7 @@ Monolist:Composite:Longtext:en_lista_abstract_0=
 Monolist:Composite:Longtext:en_lista_abstract_1=
 Monolist:Composite:Text:en_lista_title_1=Pubblicita Legale
 Monolist:Composite:Text:en_lista_title_0=Amministrazione Trasparente
-Monolist:Composite:Link:it_lista_link_1=Pubblicità  Legale
+Monolist:Composite:Link:it_lista_link_1=Pubblicitï¿½ Legale
 Monolist:Composite:Link:it_lista_link_2=Bilancio Sociale
 Monolist:Composite:Text:en_lista_title_2=Bilancio
 Monolist:Composite:Link:it_lista_link_0=Amministrazione Trasparente
@@ -34736,7 +34172,7 @@ Monolist:Composite:Date:lista_date_0=
 Monolist:Composite:Number:lista_number_2=
 descr=TRASPARENZA HOME PAGE
 Monolist:Composite:Number:lista_number_1=
-Monolist:Composite:Text:it_lista_title_1=Pubblicità  Legale
+Monolist:Composite:Text:it_lista_title_1=Pubblicitï¿½ Legale
 Monolist:Composite:Text:it_lista_title_0=Amministrazione Trasparente
 Monolist:Composite:Longtext:it_lista_abstract_2=
 Monolist:Composite:Text:it_lista_title_2=Bilancio
@@ -34775,7 +34211,7 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia singola 1
-Text:it_abstract=Si comunica che sono consultabili le linee guida in materia di violenza di genere e violenza domestica
+Text:it_abstract=Si comunica che sono consultabili le linee guida in materia di violenza diï¿½genere e violenza domestica
 Enumerator:enum=
 Monolist:Attach:en_attach_0=
 __multiselect_extraGroupNames=
@@ -34835,10 +34271,10 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia 4
-Text:it_abstract=Si comunica che è stato pubblicato nella area "Amministrazione Trasparente", sezione "Performance" il Programma delle attività 2019
+Text:it_abstract=Si comunica che ï¿½ stato pubblicato nella area "Amministrazione Trasparente", sezione "Performance" il Programma delle attivitï¿½ 2019
 Enumerator:enum=
 __multiselect_extraGroupNames=
-Text:it_subtitle=Programma delle attività  2019
+Text:it_subtitle=Programma delle attivitï¿½ 2019
 contentOnSessionMarker=CTM_editContent_CTM463
 Date:date=13/03/2019
 resourceTypeCode=
@@ -34860,7 +34296,7 @@ jacmsPreviewActionPageCode_it=
 Image:en_img=gius3
 jacmsPreviewActionPageCode_en=
 Image:en_img_metadata_alt=
-Text:it_title=Programma delle attività 2019
+Text:it_title=Programma delle attivitï¿½ 2019
 status=READY
 ','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <activityStreamInfo>
@@ -34936,7 +34372,7 @@ Text:en_title=notizia 4
 Text:it_abstract=
 Enumerator:enum=
 __multiselect_extraGroupNames=
-Text:it_subtitle=Programma delle attività  2019
+Text:it_subtitle=Programma delle attivitï¿½ 2019
 contentOnSessionMarker=CTM_editContent_CTM463
 Date:date=13/03/2019
 resourceTypeCode=
@@ -34959,7 +34395,7 @@ jacmsPreviewActionPageCode_it=
 Image:en_img=gius3
 jacmsPreviewActionPageCode_en=
 Image:en_img_metadata_alt=
-Text:it_title=Programma delle attività 2019
+Text:it_title=Programma delle attivitï¿½ 2019
 status=READY
 ','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <activityStreamInfo>
@@ -34991,10 +34427,10 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia 4
-Text:it_abstract=Si comunica che è stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attività 2019.
+Text:it_abstract=Si comunica che ï¿½ stato pubblicato nella area "Amministrazione Trasparente",ï¿½ sezione "Performance" il Programma delle attivitï¿½ 2019.
 Enumerator:enum=
 __multiselect_extraGroupNames=
-Text:it_subtitle=Programma delle attività  2019
+Text:it_subtitle=Programma delle attivitï¿½ 2019
 contentOnSessionMarker=CTM_editContent_CTM463
 Date:date=13/03/2019
 resourceTypeCode=
@@ -35017,7 +34453,7 @@ jacmsPreviewActionPageCode_it=
 Image:en_img=gius3
 jacmsPreviewActionPageCode_en=
 Image:en_img_metadata_alt=
-Text:it_title=Programma delle attività 2019
+Text:it_title=Programma delle attivitï¿½ 2019
 status=
 ','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <activityStreamInfo>
@@ -35049,10 +34485,10 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia 4
-Text:it_abstract=Si comunica che è stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attività 2019.
+Text:it_abstract=Si comunica che ï¿½ stato pubblicato nella area "Amministrazione Trasparente",ï¿½ sezione "Performance" il Programma delle attivitï¿½ 2019.
 Enumerator:enum=
 __multiselect_extraGroupNames=
-Text:it_subtitle=Programma delle attività  2019
+Text:it_subtitle=Programma delle attivitï¿½ 2019
 contentOnSessionMarker=CTM_editContent_CTM463
 Date:date=13/03/2019
 resourceTypeCode=
@@ -35074,7 +34510,7 @@ jacmsPreviewActionPageCode_it=
 Image:en_img=gius3
 jacmsPreviewActionPageCode_en=
 Image:en_img_metadata_alt=
-Text:it_title=Programma delle attività 2019
+Text:it_title=Programma delle attivitï¿½ 2019
 status=
 ',NULL,'2019-06-18 10:21:17');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2734,'admin','2019-06-18 10:21:31','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
@@ -35082,10 +34518,10 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia 4
-Text:it_abstract=Si comunica che è stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attività 2019.
+Text:it_abstract=Si comunica che ï¿½ stato pubblicato nella area "Amministrazione Trasparente",ï¿½ sezione "Performance" il Programma delle attivitï¿½ 2019.
 Enumerator:enum=
 __multiselect_extraGroupNames=
-Text:it_subtitle=Programma delle attività  2019
+Text:it_subtitle=Programma delle attivitï¿½ 2019
 contentOnSessionMarker=CTM_editContent_CTM463
 Date:date=13/03/2019
 resourceTypeCode=
@@ -35107,7 +34543,7 @@ jacmsPreviewActionPageCode_it=
 Image:en_img=gius3
 jacmsPreviewActionPageCode_en=
 Image:en_img_metadata_alt=
-Text:it_title=Programma delle attività 2019
+Text:it_title=Programma delle attivitï¿½ 2019
 status=READY
 ',NULL,'2019-06-18 10:21:31');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2735,'admin','2019-06-18 10:21:46','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
@@ -35115,15 +34551,15 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia 4
-Text:it_abstract=Si comunica che è stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attività 2019.
+Text:it_abstract=Si comunica che ï¿½ stato pubblicato nella area "Amministrazione Trasparente",ï¿½ sezione "Performance" il Programma delle attivitï¿½ 2019.
 Enumerator:enum=
 __multiselect_extraGroupNames=
-Text:it_subtitle=Programma delle attività  2019
+Text:it_subtitle=Programma delle attivitï¿½ 2019
 contentOnSessionMarker=CTM_editContent_CTM463
 Date:date=13/03/2019
 resourceTypeCode=
 Text:en_subtitle=notizia 4
-Monolist:Composite:Hypertext:it_article_text1_0=Si comunica che è stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attività 2019.
+Monolist:Composite:Hypertext:it_article_text1_0=Si comunica che ï¿½ stato pubblicato nella area "Amministrazione Trasparente",ï¿½ sezione "Performance" il Programma delle attivitï¿½ 2019.
 Image:it_img_metadata_legend=
 Monolist:Composite:Hypertext:en_article_text1_0=
 Text:en_autore=
@@ -35140,7 +34576,7 @@ jacmsPreviewActionPageCode_it=
 Image:en_img=gius3
 jacmsPreviewActionPageCode_en=
 Image:en_img_metadata_alt=
-Text:it_title=Programma delle attività 2019
+Text:it_title=Programma delle attivitï¿½ 2019
 status=READY
 ','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <activityStreamInfo>
@@ -35172,10 +34608,10 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia 4
-Text:it_abstract=Si comunica che è stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attività 2019.
+Text:it_abstract=Si comunica che ï¿½ stato pubblicato nella area "Amministrazione Trasparente",ï¿½ sezione "Performance" il Programma delle attivitï¿½ 2019.
 Enumerator:enum=
 __multiselect_extraGroupNames=
-Text:it_subtitle=Programma delle attività  2019
+Text:it_subtitle=Programma delle attivitï¿½ 2019
 contentOnSessionMarker=CTM_editContent_CTM463
 Date:date=13/03/2019
 resourceTypeCode=
@@ -35198,7 +34634,7 @@ jacmsPreviewActionPageCode_it=
 Image:en_img=gius3
 jacmsPreviewActionPageCode_en=
 Image:en_img_metadata_alt=
-Text:it_title=Programma delle attività 2019
+Text:it_title=Programma delle attivitï¿½ 2019
 status=
 ','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <activityStreamInfo>
@@ -35230,10 +34666,10 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia 4
-Text:it_abstract=Si comunica che è stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attività 2019
+Text:it_abstract=Si comunica che ï¿½ stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attivitï¿½ 2019
 Enumerator:enum=
 __multiselect_extraGroupNames=
-Text:it_subtitle=Programma delle attività  2019
+Text:it_subtitle=Programma delle attivitï¿½ 2019
 contentOnSessionMarker=CTM_editContent_CTM463
 Date:date=13/03/2019
 resourceTypeCode=
@@ -35256,7 +34692,7 @@ jacmsPreviewActionPageCode_it=
 Image:en_img=gius3
 jacmsPreviewActionPageCode_en=
 Image:en_img_metadata_alt=
-Text:it_title=Programma delle attività 2019
+Text:it_title=Programma delle attivitï¿½ 2019
 status=
 ','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <activityStreamInfo>
@@ -35288,10 +34724,10 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia 4
-Text:it_abstract=Si comunica che è stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attività 2019
+Text:it_abstract=Si comunica che ï¿½ stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attivitï¿½ 2019
 Enumerator:enum=
 __multiselect_extraGroupNames=
-Text:it_subtitle=Programma delle attività  2019
+Text:it_subtitle=Programma delle attivitï¿½ 2019
 contentOnSessionMarker=CTM_editContent_CTM463
 Date:date=13/03/2019
 resourceTypeCode=
@@ -35313,7 +34749,7 @@ jacmsPreviewActionPageCode_it=
 Image:en_img=gius3
 jacmsPreviewActionPageCode_en=
 Image:en_img_metadata_alt=
-Text:it_title=Programma delle attività 2019
+Text:it_title=Programma delle attivitï¿½ 2019
 status=
 ','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <activityStreamInfo>
@@ -35345,10 +34781,10 @@ Image:it_img_metadata_alt=
 Image:it_img_metadata_title=
 Image:en_img_metadata_description=
 Text:en_title=notizia 4
-Text:it_abstract=Si comunica che è stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attività 2019
+Text:it_abstract=Si comunica che ï¿½ stato pubblicato nella area "Amministrazione Trasparente",  sezione "Performance" il Programma delle attivitï¿½ 2019
 Enumerator:enum=
 __multiselect_extraGroupNames=
-Text:it_subtitle=Programma delle attività  2019
+Text:it_subtitle=Programma delle attivitï¿½ 2019
 contentOnSessionMarker=CTM_editContent_CTM463
 Date:date=13/03/2019
 resourceTypeCode=
@@ -35371,7 +34807,7 @@ jacmsPreviewActionPageCode_it=
 Image:en_img=gius3
 jacmsPreviewActionPageCode_en=
 Image:en_img_metadata_alt=
-Text:it_title=Programma delle attività 2019
+Text:it_title=Programma delle attivitï¿½ 2019
 status=
 ','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <activityStreamInfo>
@@ -35508,8 +34944,8 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
 ','2019-06-18 11:36:24');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2743,'admin','2019-06-18 11:44:55','/do/jacms/Content','saveAndApprove','entandoaction:saveAndApprove=Submit
 Text:en_title=F.A.Q.
-Monolist:Composite:Longtext:it_lista_abstract_1=Risposta: Il distretto è la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
-Monolist:Composite:Longtext:it_lista_abstract_0=Risposta: Il circondario è la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
+Monolist:Composite:Longtext:it_lista_abstract_1=Risposta: Il distretto ï¿½ la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.
+Monolist:Composite:Longtext:it_lista_abstract_0=Risposta: Il circondario ï¿½ la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso
 __multiselect_extraGroupNames=
 contentOnSessionMarker=CTA_editContent_CTA673
 Monolist:Composite:Longtext:en_lista_abstract_2=Risposta: Anche se il suono di queste parole puï¿½ trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste piï¿½ dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura ï¿½ l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura ï¿½ l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).
@@ -35526,10 +34962,10 @@ Monolist:Composite:Date:lista_date_0=07/12/2018
 Monolist:Composite:Number:lista_number_2=3
 descr=Contenuto F.A.Q.
 Monolist:Composite:Number:lista_number_1=2
-Monolist:Composite:Text:it_lista_title_1=Domanda: Che cosa è il distretto?
-Monolist:Composite:Text:it_lista_title_0=Domanda: Che cosa è il circondario?
-Monolist:Composite:Longtext:it_lista_abstract_2=Risposta: Anche se il suono di queste parole può trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste più dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura è l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura è l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).
-Monolist:Composite:Text:it_lista_title_2=Domanda: Che differenza c''è  tra Procura, Pretura e Prefettura?
+Monolist:Composite:Text:it_lista_title_1=Domanda: Che cosa ï¿½ il distretto?
+Monolist:Composite:Text:it_lista_title_0=Domanda: Che cosa ï¿½ il circondario?
+Monolist:Composite:Longtext:it_lista_abstract_2=Risposta: Anche se il suono di queste parole puï¿½ trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste piï¿½ dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura ï¿½ l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura ï¿½ l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).
+Monolist:Composite:Text:it_lista_title_2=Domanda: Che differenza c''ï¿½  tra Procura, Pretura e Prefettura?
 jacmsPreviewActionPageCode_it=
 Monolist:Composite:Number:lista_number_0=1
 jacmsPreviewActionPageCode_en=
@@ -35562,12 +34998,12 @@ status=READY
 ','2019-06-18 11:44:55');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2744,'admin','2019-06-18 11:47:03','/do/Page','saveConfigure','entandoaction:saveConfigure=Submit
 charset=utf-8
-langen=Pubblicità  Legale
+langen=Pubblicitï¿½ Legale
 showable=true
 parentPageCode=homepage
 strutsAction=2
 mimeType=text/html
-langit=Pubblicità  Legale
+langit=Pubblicitï¿½ Legale
 pageCode=pubblicita_legale
 copyPageCode=
 groupSelectLock=false
@@ -35579,11 +35015,11 @@ group=free
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità  Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità  Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -35608,11 +35044,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità  Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità  Legale</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicitï¿½ Legale</value>
         </entry>
     </objectTitles>
     <groups>
@@ -35633,12 +35069,12 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
 ','2019-06-18 11:47:10');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2746,'admin','2019-06-18 11:47:40','/do/Page','saveConfigure','entandoaction:saveConfigure=Submit
 charset=utf-8
-langen=Modalità  di fatturazione e pagamento
+langen=Modalitï¿½ di fatturazione e pagamento
 showable=true
 parentPageCode=modalit_di_pubblicazione
 strutsAction=2
 mimeType=text/html
-langit=Modalità  di fatturazione e pagamento
+langit=Modalitï¿½ di fatturazione e pagamento
 pageCode=modalit_di_fatturazione_e_pag
 copyPageCode=
 groupSelectLock=false
@@ -35650,11 +35086,11 @@ group=free
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di fatturazione e pagamento</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di fatturazione e pagamento</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di fatturazione e pagamento</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di fatturazione e pagamento</value>
         </entry>
     </objectTitles>
     <groups>
@@ -35679,11 +35115,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di fatturazione e pagamento</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di fatturazione e pagamento</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di fatturazione e pagamento</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di fatturazione e pagamento</value>
         </entry>
     </objectTitles>
     <groups>
@@ -35704,12 +35140,12 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
 ','2019-06-18 11:47:45');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2748,'admin','2019-06-18 11:48:10','/do/Page','saveConfigure','entandoaction:saveConfigure=Submit
 charset=utf-8
-langen=Modalità  di invio documentazione
+langen=Modalitï¿½ di invio documentazione
 showable=true
 parentPageCode=modalit_di_pubblicazione
 strutsAction=2
 mimeType=text/html
-langit=Modalità  di invio documentazione
+langit=Modalitï¿½ di invio documentazione
 pageCode=modalit_di_invio_doc
 copyPageCode=
 groupSelectLock=false
@@ -35721,11 +35157,11 @@ group=free
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di invio documentazione</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di invio documentazione</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di invio documentazione</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di invio documentazione</value>
         </entry>
     </objectTitles>
     <groups>
@@ -35750,11 +35186,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di invio documentazione</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di invio documentazione</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di invio documentazione</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di invio documentazione</value>
         </entry>
     </objectTitles>
     <groups>
@@ -35779,11 +35215,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di invio documentazione</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di invio documentazione</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di invio documentazione</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di invio documentazione</value>
         </entry>
     </objectTitles>
     <groups>
@@ -35804,12 +35240,12 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
 ','2019-06-18 11:48:17');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2751,'admin','2019-06-18 11:48:43','/do/Page','saveConfigure','entandoaction:saveConfigure=Submit
 charset=utf-8
-langen=Modalità  di pubblicazione
+langen=Modalitï¿½ di pubblicazione
 showable=true
 parentPageCode=aste_giudiziarie
 strutsAction=2
 mimeType=text/html
-langit=Modalità di pubblicazione
+langit=Modalitï¿½ di pubblicazione
 pageCode=modalit_di_pubblicazione
 copyPageCode=
 groupSelectLock=false
@@ -35821,11 +35257,11 @@ group=free
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di pubblicazione</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di pubblicazione</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità di pubblicazione</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di pubblicazione</value>
         </entry>
     </objectTitles>
     <groups>
@@ -35850,11 +35286,11 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <objectTitles>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità  di pubblicazione</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di pubblicazione</value>
         </entry>
         <entry>
             <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalità di pubblicazione</value>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Modalitï¿½ di pubblicazione</value>
         </entry>
     </objectTitles>
     <groups>
@@ -36005,16 +35441,16 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2019-06-18 12:22:40');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2757,'admin','2019-06-18 13:02:04','/do/jacms/Content','saveAndApprove','Monolist:Composite:Longtext:it_lista_abstract_1=Si chiama adozione l''atto che attribuisce a un soggetto (l''adottato) la qualità  giuridica di figlio di un altro soggetto (l''adottante) anche se il primo non è stato generato dal secondo. Attraverso l''adozione si costituisce un vincolo giuridico di filiazione tra persone non unite da una relazione biologica. Con il termine adozione si indicano istituti giuridici diversi. Il nostro ordinamento infatti prevede e disciplina sia l''adozione dei minori (consentita, salvo casi particolari, solo ai coniugi uniti in matrimonio), sia l''adozione dei maggiorenni.
-Monolist:Composite:Longtext:it_lista_abstract_0=E'' il diritto che ciascun cittadino ha di esaminare e richiedere copia dei documenti amministrativi di cui ha interesse, nei modi e nei limiti stabiliti dalla legge (articolo 22 della legge n. 241 del 1990). Questo diritto è riconosciuto per assicurare la trasparenza dell''attività  amministrativa ed è escluso solo per i documenti coperti da "segreto", che costituiscono una eccezione alla regola generale. Le modalità  di esercizio del diritto d''accesso e i casi di esclusione sono disciplinati dal Regolamento 27 giugno 1992, n. 352.
-Monolist:Composite:Longtext:it_lista_abstract_5=E'' l''attività  svolta dal giudice per accertare un diritto controverso attraverso un procedimento (processo) che si conclude con un provvedimento (sentenza).
-Monolist:Composite:Longtext:it_lista_abstract_4=E'' l''attività svolta dal giudice per salvaguardare un diritto oggetto di una vertenza prima della sua definizione.
-Monolist:Composite:Longtext:it_lista_abstract_3=Si tratta di un mezzo di impugnazione per chiedere la riforma di un provvedimento del giudice di primo grado ritenuto, in tutto o in parte, ingiusto. Nello specifico impedisce che la sentenza passi in giudicato, e permette un riesame della controversia relativamente ai punti del provvedimento impugnati, sicchè la nuova sentenza sostituisce quella impugnata. L''appello impedisce anche l''esecuzione della sentenza impugnata (generalmente per il penale: art.650 c.p.p.) salvo che la legge non la dichiari provvisoriamente esecutiva (generalmente per il civile: art.282 c.p.c.).
-Monolist:Composite:Longtext:it_lista_abstract_2=E'' disciplinato dalla legge 4 maggio 1983 n. 184 e consiste nell''affidamento di un minore temporaneamente privo di un ambiente familiare idoneo, a una famiglia diversa da quella naturale, a una persona singola, a una comunità  di tipo familiare, o nel ricovero in un istituto di assistenza. Ha lo scopo di assicurare il mantenimento, l''educazione e l''istruzione del minore per il tempo necessario a superare le difficoltà  della famiglia d''origine. L''affidamento perciò è sempre temporaneo e comporta, quando è possibile, il reinserimento del minore nella sua famiglia naturale. Quando, invece, la situazione di crisi non è superabile, interverrà  la dichiarazione di adottabilità  del minore.
-Monolist:Composite:Longtext:it_lista_abstract_9=E'' lo schedario istituito presso la Procura della Repubblica di ogni Tribunale che raccoglie e conserva gli estratti dei provvedimenti dell''autorità  giudiziaria o amministrativa per consentire la conoscenza dei precedenti di ciascun soggetto. Presso il Ministero della Giustizia esiste il casellario centrale che è il terminale di tutti i casellari locali. L''ufficio del casellario giudiziale rilascia i certificati penali su richiesta delle autorità  giudiziarie e amministrative, o dei singoli privati che possono richiedere solo il proprio certificato.
-Monolist:Composite:Longtext:it_lista_abstract_8=E'' un mezzo elettronico destinato al controllo delle persone sottoposte agli arresti domiciliari o alla detenzione domiciliare che si applica alla caviglia e permette all''Autorità  giudiziaria di verificare a distanza e costantemente i movimenti del soggetto che lo indossa. Nel caso di alterazione o manomissione del braccialetto, E'' previsto il ritorno in carcere e una pena aggiuntiva.
-Monolist:Composite:Longtext:it_lista_abstract_7=E'' l''azione promossa dal Ministro della Giustizia o dal Procuratore generale della Cassazione nei confronti dei singoli magistrati che vengono meno ai loro doveri o che tengono una condotta contraria al prestigio dell''ordine giudiziario, ponendo in essere un illecito disciplinare. Sull''azione disciplinare decide il Consiglio Superiore della Magistratura che può applicare le sanzioni disciplinari (ammonizione, censura, perdita di anzianità , rimozione e destituzione).
-Monolist:Composite:Longtext:it_lista_abstract_6=E'' l''attività  svolta sotto la direzione di un giudice per l''attuazione, in via coattiva o forzata, di un diritto già  accertato.
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2757,'admin','2019-06-18 13:02:04','/do/jacms/Content','saveAndApprove','Monolist:Composite:Longtext:it_lista_abstract_1=Si chiama adozione l''atto che attribuisce a un soggetto (l''adottato) la qualitï¿½ giuridica di figlio di un altro soggetto (l''adottante) anche se il primo non ï¿½ stato generato dal secondo. Attraverso l''adozione si costituisce un vincolo giuridico di filiazione tra persone non unite da una relazione biologica. Con il termine adozione si indicano istituti giuridici diversi. Il nostro ordinamento infatti prevede e disciplina sia l''adozione dei minori (consentita, salvo casi particolari, solo ai coniugi uniti in matrimonio), sia l''adozione dei maggiorenni.
+Monolist:Composite:Longtext:it_lista_abstract_0=E'' il diritto che ciascun cittadino ha di esaminare e richiedere copia dei documenti amministrativi di cui ha interesse, nei modi e nei limiti stabiliti dalla legge (articolo 22 della legge n. 241 del 1990). Questo diritto ï¿½ riconosciuto per assicurare la trasparenza dell''attivitï¿½ amministrativa ed ï¿½ escluso solo per i documenti coperti da "segreto", che costituiscono una eccezione alla regola generale. Le modalitï¿½ di esercizio del diritto d''accesso e i casi di esclusione sono disciplinati dal Regolamento 27 giugno 1992, n. 352.
+Monolist:Composite:Longtext:it_lista_abstract_5=E'' l''attivitï¿½ svolta dal giudice per accertare un diritto controverso attraverso un procedimento (processo) che si conclude con un provvedimento (sentenza).
+Monolist:Composite:Longtext:it_lista_abstract_4=E'' l''attivitï¿½ svolta dal giudice per salvaguardare un diritto oggetto di una vertenza prima della sua definizione.
+Monolist:Composite:Longtext:it_lista_abstract_3=Si tratta di un mezzo di impugnazione per chiedere la riforma di un provvedimento del giudice di primo grado ritenuto, in tutto o in parte, ingiusto. Nello specifico impedisce che la sentenza passi in giudicato, e permette un riesame della controversia relativamente ai punti del provvedimento impugnati, sicchï¿½ la nuova sentenza sostituisce quella impugnata. L''appello impedisce anche l''esecuzione della sentenza impugnata (generalmente per il penale: art.650 c.p.p.) salvo che la legge non la dichiari provvisoriamente esecutiva (generalmente per il civile: art.282 c.p.c.).
+Monolist:Composite:Longtext:it_lista_abstract_2=E'' disciplinato dalla legge 4 maggio 1983 n. 184 e consiste nell''affidamento di un minore temporaneamente privo di un ambiente familiare idoneo, a una famiglia diversa da quella naturale, a una persona singola, a una comunitï¿½ di tipo familiare, o nel ricovero in un istituto di assistenza. Ha lo scopo di assicurare il mantenimento, l''educazione e l''istruzione del minore per il tempo necessario a superare le difficoltï¿½ della famiglia d''origine. L''affidamento perciï¿½ ï¿½ sempre temporaneo e comporta, quando ï¿½ possibile, il reinserimento del minore nella sua famiglia naturale. Quando, invece, la situazione di crisi non ï¿½ superabile, interverrï¿½ la dichiarazione di adottabilitï¿½ del minore.
+Monolist:Composite:Longtext:it_lista_abstract_9=E'' lo schedario istituito presso la Procura della Repubblica di ogni Tribunale che raccoglie e conserva gli estratti dei provvedimenti dell''autoritï¿½ giudiziaria o amministrativa per consentire la conoscenza dei precedenti di ciascun soggetto. Presso il Ministero della Giustizia esiste il casellario centrale che ï¿½ il terminale di tutti i casellari locali. L''ufficio del casellario giudiziale rilascia i certificati penali su richiesta delle autoritï¿½ giudiziarie e amministrative, o dei singoli privati che possono richiedere solo il proprio certificato.
+Monolist:Composite:Longtext:it_lista_abstract_8=E'' un mezzo elettronico destinato al controllo delle persone sottoposte agli arresti domiciliari o alla detenzione domiciliare che si applica alla caviglia e permette all''Autoritï¿½ giudiziaria di verificare a distanza e costantemente i movimenti del soggetto che lo indossa. Nel caso di alterazione o manomissione del braccialetto, E'' previsto il ritorno in carcere e una pena aggiuntiva.
+Monolist:Composite:Longtext:it_lista_abstract_7=E'' l''azione promossa dal Ministro della Giustizia o dal Procuratore generale della Cassazione nei confronti dei singoli magistrati che vengono meno ai loro doveri o che tengono una condotta contraria al prestigio dell''ordine giudiziario, ponendo in essere un illecito disciplinare. Sull''azione disciplinare decide il Consiglio Superiore della Magistratura che puï¿½ applicare le sanzioni disciplinari (ammonizione, censura, perdita di anzianitï¿½, rimozione e destituzione).
+Monolist:Composite:Longtext:it_lista_abstract_6=E'' l''attivitï¿½ svolta sotto la direzione di un giudice per l''attuazione, in via coattiva o forzata, di un diritto giï¿½ accertato.
 __multiselect_extraGroupNames=
 contentOnSessionMarker=CTA_editContent_CTA1880
 Monolist:Composite:Date:lista_date_36=
@@ -36099,23 +35535,23 @@ Text:en_title=
 descr=Glossario - Per il cittadino
 Text:it_title=Glossario dei termini giuridici
 Monolist:Composite:Text:it_lista_title_7=Azione disciplinare
-Monolist:Composite:Text:it_lista_title_6=Attività  giurisdizionale di esecuzione
+Monolist:Composite:Text:it_lista_title_6=Attivitï¿½ giurisdizionale di esecuzione
 Monolist:Composite:Text:it_lista_title_9=Casellario giudiziale
 Monolist:Composite:Text:it_lista_title_8=Braccialetto elettronico
 Monolist:Composite:Text:it_lista_title_1=Adozione
 Monolist:Composite:Text:it_lista_title_0=Accesso ai documenti amministrativi
 Monolist:Composite:Text:it_lista_title_3=Appello
 Monolist:Composite:Text:it_lista_title_2=Affidamento dei minori
-Monolist:Composite:Text:it_lista_title_5=Attività  giurisdizionale di cognizione
-Monolist:Composite:Text:it_lista_title_4=Attività  giurisdizionale cautelare
-Monolist:Composite:Longtext:it_lista_abstract_44=Si tratta di un procedimento penale speciale nel quale l''imputato e il Pubblico Ministero chiedono al giudice l''applicazione di una pena ridotta fino a un terzo rispetto a quella prevista per il reato commesso. Il patteggiamento è ammesso solo per i reati minori. Presupposto del patteggiamento è l''implicita ammissione di colpevolezza da parte dell''imputato e l''accordo tra imputato e Pubblico Ministero sulla scelta di questo rito speciale. Il giudice può accogliere la richiesta dell''imputato in ordine alla pena anche quando il Pubblico Ministero non è d''accordo. Se la sentenza è pronunciata sull''accordo tra imputato e pubblico ministero, l''appello non è ammesso.
-Monolist:Composite:Longtext:it_lista_abstract_45=La persona fisica per l''ordinamento giuridico è qualsiasi essere umano. La persona fisica è un soggetto di diritto: è dotato di capacità  giuridica, è titolare di diritti e doveri.
-Monolist:Composite:Longtext:it_lista_abstract_42=Principio che, accanto a quello di parità  di trattamento, è finalizzato all''uguaglianza sostanziale tra uomo e donna, in piena attuazione dell''art. 3 della Costituzione. In questo senso è andata la legge 125/91 che si è proposta di favorire l''inserimento e la carriera delle donne nel lavoro attraverso misure che tolgano gli ostacoli che di fatto impediscono la realizzazione delle pari opportunità .
-Monolist:Composite:Longtext:it_lista_abstract_43=E'' l''intervento dello Stato in favore di chi ha diritto al gratuito patrocinio per il pagamento delle spese legali (avvocati, consulenti, investigatori autorizzati). Il patrocinio a spese dello Stato, già  previsto per il processo penale e del lavoro nonchè per il processo di impugnazione del decreto di espulsione di stranieri e per i ricorsi al Garante per la protezione dei dati personali, è stato recentemente esteso ai giudizi civili ed amministrativi nonchè alle procedure di volontaria giurisdizione (legge n.134/2001).
-Monolist:Composite:Longtext:it_lista_abstract_48=E'' un procedimento penale speciale caratterizzato da un iter molto veloce, a cui si può ricorrere in caso di arresto in flagranza di reato, o di confessione dell''imputato. Sono ipotesi in cui, data l''evidenza delle prove, viene meno la necessità  di procedere a particolari indagini, per cui il processo si svolge direttamente saltando le fasi dell''udienza preliminare e, nella maggior parte dei casi, delle indagini preliminari.
-Monolist:Composite:Longtext:it_lista_abstract_49=E'' l''insieme delle attività  previste e disciplinate da norme giuridiche (cosiddette "norme processuali") attraverso le quali viene esercitata la giurisdizione: si svolge davanti ad un giudice, con la partecipazione dei soggetti interessati (le parti del giudizio) e mira a una pronuncia finale (il provvedimento giurisdizionale, ad esempio una sentenza) che impone l''applicazione della legge al caso concreto.
-Monolist:Composite:Longtext:it_lista_abstract_46=Le persone giuridiche sono organizzazioni collettive, considerate come soggetti distinti dalle persone fisiche che le compongono ed esse stesse soggetti di diritto, dotate di capacità  giuridica e titolari di diritti e doveri. Sono persone giuridiche le associazioni riconosciute, le fondazioni, i comitati riconosciuti, le società  di capitali e gli enti pubblici.
-Monolist:Composite:Longtext:it_lista_abstract_47=Il Pretore, tradizionale figura di giudice la cui denominazione risale al diritto romano, è stato abolito con il Decreto legislativo n. 51 del 19 febbraio 1998, a seguito di una rilevante riforma del sistema giudiziario italiano (detta del "Giudice unico").
+Monolist:Composite:Text:it_lista_title_5=Attivitï¿½ giurisdizionale di cognizione
+Monolist:Composite:Text:it_lista_title_4=Attivitï¿½ giurisdizionale cautelare
+Monolist:Composite:Longtext:it_lista_abstract_44=Si tratta di un procedimento penale speciale nel quale l''imputato e il Pubblico Ministero chiedono al giudice l''applicazione di una pena ridotta fino a un terzo rispetto a quella prevista per il reato commesso. Il patteggiamento ï¿½ ammesso solo per i reati minori. Presupposto del patteggiamento ï¿½ l''implicita ammissione di colpevolezza da parte dell''imputato e l''accordo tra imputato e Pubblico Ministero sulla scelta di questo rito speciale. Il giudice puï¿½ accogliere la richiesta dell''imputato in ordine alla pena anche quando il Pubblico Ministero non ï¿½ d''accordo. Se la sentenza ï¿½ pronunciata sull''accordo tra imputato e pubblico ministero, l''appello non ï¿½ ammesso.
+Monolist:Composite:Longtext:it_lista_abstract_45=La persona fisica per l''ordinamento giuridico ï¿½ qualsiasi essere umano. La persona fisica ï¿½ un soggetto di diritto: ï¿½ dotato di capacitï¿½ giuridica, ï¿½ titolare di diritti e doveri.
+Monolist:Composite:Longtext:it_lista_abstract_42=Principio che, accanto a quello di paritï¿½ di trattamento, ï¿½ finalizzato all''uguaglianza sostanziale tra uomo e donna, in piena attuazione dell''art. 3 della Costituzione. In questo senso ï¿½ andata la legge 125/91 che si ï¿½ proposta di favorire l''inserimento e la carriera delle donne nel lavoro attraverso misure che tolgano gli ostacoli che di fatto impediscono la realizzazione delle pari opportunitï¿½.
+Monolist:Composite:Longtext:it_lista_abstract_43=E'' l''intervento dello Stato in favore di chi ha diritto al gratuito patrocinio per il pagamento delle spese legali (avvocati, consulenti, investigatori autorizzati). Il patrocinio a spese dello Stato, giï¿½ previsto per il processo penale e del lavoro nonchï¿½ per il processo di impugnazione del decreto di espulsione di stranieri e per i ricorsi al Garante per la protezione dei dati personali, ï¿½ stato recentemente esteso ai giudizi civili ed amministrativi nonchï¿½ alle procedure di volontaria giurisdizione (legge n.134/2001).
+Monolist:Composite:Longtext:it_lista_abstract_48=E'' un procedimento penale speciale caratterizzato da un iter molto veloce, a cui si puï¿½ ricorrere in caso di arresto in flagranza di reato, o di confessione dell''imputato. Sono ipotesi in cui, data l''evidenza delle prove, viene meno la necessitï¿½ di procedere a particolari indagini, per cui il processo si svolge direttamente saltando le fasi dell''udienza preliminare e, nella maggior parte dei casi, delle indagini preliminari.
+Monolist:Composite:Longtext:it_lista_abstract_49=E'' l''insieme delle attivitï¿½ previste e disciplinate da norme giuridiche (cosiddette "norme processuali") attraverso le quali viene esercitata la giurisdizione: si svolge davanti ad un giudice, con la partecipazione dei soggetti interessati (le parti del giudizio) e mira a una pronuncia finale (il provvedimento giurisdizionale, ad esempio una sentenza) che impone l''applicazione della legge al caso concreto.
+Monolist:Composite:Longtext:it_lista_abstract_46=Le persone giuridiche sono organizzazioni collettive, considerate come soggetti distinti dalle persone fisiche che le compongono ed esse stesse soggetti di diritto, dotate di capacitï¿½ giuridica e titolari di diritti e doveri. Sono persone giuridiche le associazioni riconosciute, le fondazioni, i comitati riconosciuti, le societï¿½ di capitali e gli enti pubblici.
+Monolist:Composite:Longtext:it_lista_abstract_47=Il Pretore, tradizionale figura di giudice la cui denominazione risale al diritto romano, ï¿½ stato abolito con il Decreto legislativo n. 51 del 19 febbraio 1998, a seguito di una rilevante riforma del sistema giudiziario italiano (detta del "Giudice unico").
 Le principali funzioni giudiziarie del Pretore, infatti, sono state unificate in quelle del Tribunale ordinario che Ã¨ diventato il principale giudice di primo grado (mentre un ruolo di competenze minori di primo grado rimane assegnato al Giudice di pace).
 Quanto agli Uffici, le ex Preture sono state quasi tutte abolite tranne alcune, dislocate in uno o piÃ¹ comuni principali del circondario del Tribunale di appartenenza, ciascuna di esse diventata Sezione distaccata del Tribunale con competenza territoriale e funzionale ridotta.
 Riferimenti normativi:
@@ -36124,9 +35560,9 @@ Monolist:Composite:Text:en_lista_title_18=
 Monolist:Composite:Text:en_lista_title_17=
 Monolist:Composite:Text:en_lista_title_16=
 Monolist:Composite:Text:en_lista_title_15=
-Monolist:Composite:Longtext:it_lista_abstract_40=Sono misure introdotte con la legge di riforma penitenziaria del 26 luglio 1975 n. 354, che consentono al soggetto che ha subito una condanna di scontare, in tutto o in parte, a pena detentiva fuori dal carcere. In questo modo si cerca di facilitare il reinserimento del condannato nella società  civile sottraendolo all''ambiente carcerario. Le misure alternative alla detenzione sono: l''affidamento in prova al servizio sociale, la semilibertà , la detenzione domiciliare, la libertà  anticipata. Queste sono disposte dal Tribunale della sorveglianza.
+Monolist:Composite:Longtext:it_lista_abstract_40=Sono misure introdotte con la legge di riforma penitenziaria del 26 luglio 1975 n. 354, che consentono al soggetto che ha subito una condanna di scontare, in tutto o in parte, a pena detentiva fuori dal carcere. In questo modo si cerca di facilitare il reinserimento del condannato nella societï¿½ civile sottraendolo all''ambiente carcerario. Le misure alternative alla detenzione sono: l''affidamento in prova al servizio sociale, la semilibertï¿½, la detenzione domiciliare, la libertï¿½ anticipata. Queste sono disposte dal Tribunale della sorveglianza.
 Monolist:Composite:Text:en_lista_title_14=
-Monolist:Composite:Longtext:it_lista_abstract_41=E'' l''attività  con la quale l''ufficiale giudiziario o altra persona specificamente indicata dalla legge (messo comunale, polizia giudiziaria, avvocato) porta formalmente un atto a conoscenza del destinatario, attraverso la consegna di una copia conforme all''originale dell''atto.
+Monolist:Composite:Longtext:it_lista_abstract_41=E'' l''attivitï¿½ con la quale l''ufficiale giudiziario o altra persona specificamente indicata dalla legge (messo comunale, polizia giudiziaria, avvocato) porta formalmente un atto a conoscenza del destinatario, attraverso la consegna di una copia conforme all''originale dell''atto.
 Monolist:Composite:Text:en_lista_title_13=
 Monolist:Composite:Text:en_lista_title_12=
 Monolist:Composite:Text:en_lista_title_11=
@@ -36139,20 +35575,20 @@ Monolist:Composite:Longtext:en_lista_abstract_11=
 Monolist:Composite:Longtext:en_lista_abstract_12=
 Monolist:Composite:Longtext:en_lista_abstract_13=
 Monolist:Composite:Longtext:en_lista_abstract_14=
-Monolist:Composite:Longtext:it_lista_abstract_55=E'' un organo della giurisdizione amministrativa, competente a giudicare in primo grado sui provvedimenti amministrativi impugnati per motivi di legittimità  (cioè di conformità  alla legge) e lesivi di un interesse legittimo (cioè di un interesse del singolo corrispondente ad un interesse pubblico generale); in alcuni ambiti ha giurisdizione di merito o esclusiva.
+Monolist:Composite:Longtext:it_lista_abstract_55=E'' un organo della giurisdizione amministrativa, competente a giudicare in primo grado sui provvedimenti amministrativi impugnati per motivi di legittimitï¿½ (cioï¿½ di conformitï¿½ alla legge) e lesivi di un interesse legittimo (cioï¿½ di un interesse del singolo corrispondente ad un interesse pubblico generale); in alcuni ambiti ha giurisdizione di merito o esclusiva.
 Il TAR ha giurisdizione all''interno della propria circoscrizione, che coincide con il territorio della Regione, e ha sede nel suo capoluogo. Ãˆ suddiviso in sezioni e le sue decisioni sono assunte da un collegio di tre giudici. Contro le decisioni del TAR Ã¨ ammesso ricorso, in secondo grado, davanti al Consiglio di Stato.
 Monolist:Composite:Longtext:it_lista_abstract_56=E'' uno dei due organi in cui si articola la magistratura di sorveglianza.
-La magistratura di sorveglianza è un organo giurisdizionale che ha il compito di vigilare sull''esecuzione della pena, interviene in materia di applicazione di misure alternative alla detenzione, di esecuzione di sanzioni sostitutive, di applicazione ed esecuzione di misure di sicurezza.
+La magistratura di sorveglianza ï¿½ un organo giurisdizionale che ha il compito di vigilare sull''esecuzione della pena, interviene in materia di applicazione di misure alternative alla detenzione, di esecuzione di sanzioni sostitutive, di applicazione ed esecuzione di misure di sicurezza.
 Si compone di due organi giurisdizionali: il Magistrato di sorveglianza, organo monocratico e il Tribunale di sorveglianza, organo collegiale.
 
 Il Tribunale di sorveglianza opera sia come giudice di primo grado che come giudice di secondo grado rispetto al magistrato di sorveglianza.
 La competenza territoriale Ã¨ estesa all''intero distretto di Corte d''appello. Ãˆ composto di magistrati di sorveglianza in servizio nel distretto o nella circoscrizione territoriale della sezione distaccata di Corte d''appello e da professionisti esperti in psicologia, servizi sociali, pedagogia, psichiatria e criminologia clinica.
-Monolist:Composite:Longtext:it_lista_abstract_53=E'' il provvedimento giurisdizionale contenente una decisione, emanato dal giudice nel processo. Generalmente è l''atto conclusivo o finale del giudizio. La sua forma è stabilita dalla legge, è pronunciata "in nome del popolo italiano" con l''intestazione "Repubblica italiana". Contiene il dispositivo (l''enunciazione della decisione del giudice in forma sintetica) e la motivazione (l''insieme delle ragioni che giustificano la decisione del giudice).
-Monolist:Composite:Longtext:it_lista_abstract_54=E'' un beneficio con il quale il giudice nel pronunciare una condanna non superiore ai due anni di arresto o di reclusione (o a una pena pecuniaria, che comparata alla pena detentiva, sia corrispondente), sospende l''esecuzione della pena principale per un determinato periodo, a condizione che il condannato, nel corso di detto periodo, non commetta reati dello stesso tipo. In questo caso, il reato si estingue e cessa l''esecuzione delle pene accessorie. Se invece il condannato commette un reato, dovrà  scontare l''intera pena sospesa.
+Monolist:Composite:Longtext:it_lista_abstract_53=E'' il provvedimento giurisdizionale contenente una decisione, emanato dal giudice nel processo. Generalmente ï¿½ l''atto conclusivo o finale del giudizio. La sua forma ï¿½ stabilita dalla legge, ï¿½ pronunciata "in nome del popolo italiano" con l''intestazione "Repubblica italiana". Contiene il dispositivo (l''enunciazione della decisione del giudice in forma sintetica) e la motivazione (l''insieme delle ragioni che giustificano la decisione del giudice).
+Monolist:Composite:Longtext:it_lista_abstract_54=E'' un beneficio con il quale il giudice nel pronunciare una condanna non superiore ai due anni di arresto o di reclusione (o a una pena pecuniaria, che comparata alla pena detentiva, sia corrispondente), sospende l''esecuzione della pena principale per un determinato periodo, a condizione che il condannato, nel corso di detto periodo, non commetta reati dello stesso tipo. In questo caso, il reato si estingue e cessa l''esecuzione delle pene accessorie. Se invece il condannato commette un reato, dovrï¿½ scontare l''intera pena sospesa.
 Monolist:Composite:Longtext:it_lista_abstract_59=
 Monolist:Composite:Longtext:en_lista_abstract_19=
 Monolist:Composite:Longtext:it_lista_abstract_57=E'' il Giudice con competenza in materia sia civile che penale per un ambito territoriale detto circondario.
-Con il Decreto legislativo n. 51/98, che ha abolito il Pretore, il Tribunale ordinario è rimasto Giudice unico di primo grado, salvo talune competenze minori del Giudice di pace per le quali è quest''ultimo il giudice di primo grado. Perciò, il Tribunale ordinario giudica anche in secondo grado sugli appelli proposti contro le sentenze del Giudice di pace.
+Con il Decreto legislativo n. 51/98, che ha abolito il Pretore, il Tribunale ordinario ï¿½ rimasto Giudice unico di primo grado, salvo talune competenze minori del Giudice di pace per le quali ï¿½ quest''ultimo il giudice di primo grado. Perciï¿½, il Tribunale ordinario giudica anche in secondo grado sugli appelli proposti contro le sentenze del Giudice di pace.
 Il Tribunale ordinario giudica in composizione collegiale (tre giudici) e in composizione monocratica (un giudice singolo).
 Le sentenze del Tribunale ordinario sono impugnabili, mediante l''appello, davanti alla Corte d''Appello per motivi concernenti il fatto che ha dato origine alla causa (motivi di merito) e davanti alla Corte di Cassazione, mediante ricorso per cassazione, per motivi concernenti questioni di puro diritto (motivi di legittimitÃ ) o di attribuzione tra le varie giurisdizioni (motivi di giurisdizione).
 Il Tribunale ordinario esercita anche le funzioni di Giudice tutelare, oltre ad altre specifiche funzioni stabilite dalla legge.
@@ -36160,42 +35596,42 @@ I Tribunali ordinari sono 166, due dei quali appositamente istituiti in area di 
 
 Riferimenti normativi:
 Decreto legislativo 19 febbraio 1998, n. 51
-Monolist:Composite:Longtext:it_lista_abstract_58=Il Tribunale per i minorenni è un organo giudizionale, autonomo e specializzato, con funzioni di giudice di primo grado per tutti gli affari penali, civili e amministrativi riguardanti i minori degli anni 18.
-La sua circoscrizione territoriale coincide con quella della Corte d''Appello o della sezione della Corte d''Appello presso la quale il tribunale stesso è istituito. Il Tribunale per i minorenni è composto da un magistrato di Corte d''appello che lo presiede, da un magistrato di tribunale e da due componenti esperti non togati.
+Monolist:Composite:Longtext:it_lista_abstract_58=Il Tribunale per i minorenni ï¿½ un organo giudizionale, autonomo e specializzato, con funzioni di giudice di primo grado per tutti gli affari penali, civili e amministrativi riguardanti i minori degli anni 18.
+La sua circoscrizione territoriale coincide con quella della Corte d''Appello o della sezione della Corte d''Appello presso la quale il tribunale stesso ï¿½ istituito. Il Tribunale per i minorenni ï¿½ composto da un magistrato di Corte d''appello che lo presiede, da un magistrato di tribunale e da due componenti esperti non togati.
 Ha competenza in materia civile, penale e amministrativa per i procedimenti riguardanti:
 
 i reati commessi nell''ambito del distretto dai minori degli anni 18;
 l''applicazione di misure rieducative nei confronti dei minori degli anni 18 residenti nello stesso territorio;
 l''esercizio della potestÃ  dei genitori, della tutela, l''amministrazione patrimoniale, l''assistenza, l''affiliazione, l''adozione, sempre relativi ai minorenni residenti nel distretto di Corte d''Appello. Il Tribunale per i minorenni deve essere informato di tutti i procedimenti in corso per i delitti di violenza sessuale e corruzione commessi in danno di persone minori d''etÃ .
-Monolist:Composite:Longtext:it_lista_abstract_51=La Procura Generale presso la Corte di Cassazione svolge le funzioni del Pubblico Ministero presso l''organo supremo della giustizia; in base alla legge sull''ordinamento giudiziario interviene e conclude in tutte le udienze civili e penali della Corte di Cassazione e redige requisitorie scritte nei casi previsti da specifiche norme. Con tale attività  contribuisce, nell''interesse pubblico, ad assicurare l''uniforme interpretazione della legge.
-Monolist:Composite:Longtext:it_lista_abstract_52=E'' una consultazione popolare, cioè una votazione alla quale è chiamato il corpo elettorale, che ha come oggetto un testo normativo o una questione politica. E'' il più importante istituto di democrazia diretta, uno strumento attraverso il quale il popolo esercita direttamente la sovranità  di cui è titolare, senza il tramite dei suoi rappresentanti. Il nostro ordinamento giuridico prevede: - il referendum costituzionale, per l''adozione di leggi di revisione costituzionale o di altre leggi costituzionali - il referendum abrogativo, per l''abrogazione di una norma di legge in vigore; - il referendum territoriale, per la modificazione del territorio di Regioni, Province e Comuni - il referendum consultivo, senza efficacia giuridicamente vincolante, sulle questioni di particolare rilievo a livello regionale.
+Monolist:Composite:Longtext:it_lista_abstract_51=La Procura Generale presso la Corte di Cassazione svolge le funzioni del Pubblico Ministero presso l''organo supremo della giustizia; in base alla legge sull''ordinamento giudiziario interviene e conclude in tutte le udienze civili e penali della Corte di Cassazione e redige requisitorie scritte nei casi previsti da specifiche norme. Con tale attivitï¿½ contribuisce, nell''interesse pubblico, ad assicurare l''uniforme interpretazione della legge.
+Monolist:Composite:Longtext:it_lista_abstract_52=E'' una consultazione popolare, cioï¿½ una votazione alla quale ï¿½ chiamato il corpo elettorale, che ha come oggetto un testo normativo o una questione politica. E'' il piï¿½ importante istituto di democrazia diretta, uno strumento attraverso il quale il popolo esercita direttamente la sovranitï¿½ di cui ï¿½ titolare, senza il tramite dei suoi rappresentanti. Il nostro ordinamento giuridico prevede: - il referendum costituzionale, per l''adozione di leggi di revisione costituzionale o di altre leggi costituzionali - il referendum abrogativo, per l''abrogazione di una norma di legge in vigore; - il referendum territoriale, per la modificazione del territorio di Regioni, Province e Comuni - il referendum consultivo, senza efficacia giuridicamente vincolante, sulle questioni di particolare rilievo a livello regionale.
 Monolist:Composite:Longtext:it_lista_abstract_50=E'' l''ufficio dell''ordinamento giudiziario cui sono addetti i magistrati che svolgono le funzioni di Pubblico ministero (P.M.).
-L''ufficio del P.M. è istituito presso la Corte di Cassazione, le Corti di Appello, i Tribunali ordinari e i Tribunali per i minorenni.
+L''ufficio del P.M. ï¿½ istituito presso la Corte di Cassazione, le Corti di Appello, i Tribunali ordinari e i Tribunali per i minorenni.
 Agli uffici del P.M., che sono distinti ed autonomi dall''organo giurisdizionale presso il quale svolgono le loro funzioni, appartengono magistrati che esercitano le funzioni sotto la vigilanza del Ministro della giustizia (art.69 ordinamento giudiziario).
 I magistrati addetti agli uffici del P.M. - sostituti procuratori - esercitano le loro funzioni a seguito di designazione dei capi dell''ufficio (art.70 ordinamento giudiziario). Essi formano, nel loro complesso, la magistratura cd. requirente.
 Il P.M. vigila sull''osservanza delle leggi, sulla tutela dei diritti dello Stato, delle persone giuridiche e degli incapaci, richiedendo nei casi d''urgenza i provvedimenti che ritiene necessari; promuove la repressione dei reati e l''applicazione delle misure di sicurezza, fa eseguire i giudicati ed ogni altro provvedimento del giudice, nei casi stabiliti dalla legge.
 Anche innanzi al Giudice di pace in sede penale Ã¨ prevista la figura del P.M., perchÃ© presso di esso non esiste alcun autonomo ufficio di procura.
 Monolist:Composite:Longtext:en_lista_abstract_10=
-Monolist:Composite:Longtext:it_lista_abstract_28=La funzione giudicante è la funzione svolta dagli organi giudiziari (i giudici) a cui è attribuito il compito di decidere le controversie o di pronunciarsi sugli affari di loro competenza. La funzione requirente è invece esercitata dai magistrati che svolgono attività  di "pubblico ministero" e hanno il compito di esprimere richieste o pareri in vista delle decisioni degli organi giudicanti.
-Monolist:Composite:Longtext:it_lista_abstract_29=A partire dal 1° maggio 1995 il Giudice di Pace inizia la sua attività  in sostituzione del Giudice Conciliatore il cui ufficio è abolito.
-Rispetto al Giudice Conciliatore ha una competenza in materia civile molto più ampia oltre ad una competenza in materia penale per fatti lievi e che non richiedono accertamenti complessi. Il Giudice di Pace ha iniziato a svolgere le funzioni di giudice penale a partire dal 1° gennaio 2002.
+Monolist:Composite:Longtext:it_lista_abstract_28=La funzione giudicante ï¿½ la funzione svolta dagli organi giudiziari (i giudici) a cui ï¿½ attribuito il compito di decidere le controversie o di pronunciarsi sugli affari di loro competenza. La funzione requirente ï¿½ invece esercitata dai magistrati che svolgono attivitï¿½ di "pubblico ministero" e hanno il compito di esprimere richieste o pareri in vista delle decisioni degli organi giudicanti.
+Monolist:Composite:Longtext:it_lista_abstract_29=A partire dal 1ï¿½ maggio 1995 il Giudice di Pace inizia la sua attivitï¿½ in sostituzione del Giudice Conciliatore il cui ufficio ï¿½ abolito.
+Rispetto al Giudice Conciliatore ha una competenza in materia civile molto piï¿½ ampia oltre ad una competenza in materia penale per fatti lievi e che non richiedono accertamenti complessi. Il Giudice di Pace ha iniziato a svolgere le funzioni di giudice penale a partire dal 1ï¿½ gennaio 2002.
 
-Il Giudice di Pace è un magistrato onorario al quale temporaneamente sono assegnate funzioni giurisdizionali. Dura in carica quattro anni e alla scadenza può essere confermato una sola volta.
-Al compimento del 75° anno d''età  cessa dalle FunzioniLocali.
+Il Giudice di Pace ï¿½ un magistrato onorario al quale temporaneamente sono assegnate funzioni giurisdizionali. Dura in carica quattro anni e alla scadenza puï¿½ essere confermato una sola volta.
+Al compimento del 75ï¿½ anno d''etï¿½ cessa dalle FunzioniLocali.
 
-Egli è tenuto ad osservare i doveri previsti per i magistrati ed è soggetto a responsabilità  disciplinare.
+Egli ï¿½ tenuto ad osservare i doveri previsti per i magistrati ed ï¿½ soggetto a responsabilitï¿½ disciplinare.
 
-Il Giudice di Pace è un magistrato onorario e non di carriera e non ha un rapporto di impiego con lo Stato. Egli percepisce una indennità  cumulabile con i trattamenti pensionistici e di quiescenza.
-Monolist:Composite:Longtext:it_lista_abstract_22=E'' un provvedimento di condanna con il quale il giudice civile ordina al debitore il pagamento di una somma o la consegna di una cosa a favore del creditore che offre una determinata prova scritta del suo diritto. Tale decreto viene emesso dal giudice senza aver sentito il debitore, il quale può proporre opposizione.
+Il Giudice di Pace ï¿½ un magistrato onorario e non di carriera e non ha un rapporto di impiego con lo Stato. Egli percepisce una indennitï¿½ cumulabile con i trattamenti pensionistici e di quiescenza.
+Monolist:Composite:Longtext:it_lista_abstract_22=E'' un provvedimento di condanna con il quale il giudice civile ordina al debitore il pagamento di una somma o la consegna di una cosa a favore del creditore che offre una determinata prova scritta del suo diritto. Tale decreto viene emesso dal giudice senza aver sentito il debitore, il quale puï¿½ proporre opposizione.
 Monolist:Composite:Longtext:it_lista_abstract_23=E'' una legge fatta dal Governo, su delega del Parlamento, il quale ne indica i contenuti, i limiti e i tempi di emanazione in una apposita legge (cosiddetta Legge Delega).
-Si tratta di manifestazione del potere legislativo, di norma appartenente al Parlamento, che è consentito espressamente dall''art.76 della Costituzione ed il cui esercizio può essere sottoposto al controllo della Corte Costituzionale per verificare se il Governo abbia eventualmente ecceduto dalla delega.
-Monolist:Composite:Longtext:it_lista_abstract_20=E'' l''organo supremo della giustizia e ha il compito di assicurare l''esatta osservanza e l''uniforme interpretazione della legge. Inoltre regola i conflitti di competenza, di giurisdizione e attribuzione all''interno della magistratura. In materia civile e penale è competente a riesaminare le sentenze o i provvedimenti pronunciati nei precedenti gradi di giudizio solo per motivi di diritto (giudizio di legittimitÃ ) cioÃ¨ per verificare se il giudice di merito, nel pronunciarsi, abbia correttamente interpretato e applicato la legge.
+Si tratta di manifestazione del potere legislativo, di norma appartenente al Parlamento, che ï¿½ consentito espressamente dall''art.76 della Costituzione ed il cui esercizio puï¿½ essere sottoposto al controllo della Corte Costituzionale per verificare se il Governo abbia eventualmente ecceduto dalla delega.
+Monolist:Composite:Longtext:it_lista_abstract_20=E'' l''organo supremo della giustizia e ha il compito di assicurare l''esatta osservanza e l''uniforme interpretazione della legge. Inoltre regola i conflitti di competenza, di giurisdizione e attribuzione all''interno della magistratura. In materia civile e penale ï¿½ competente a riesaminare le sentenze o i provvedimenti pronunciati nei precedenti gradi di giudizio solo per motivi di diritto (giudizio di legittimitÃ ) cioÃ¨ per verificare se il giudice di merito, nel pronunciarsi, abbia correttamente interpretato e applicato la legge.
 E'' un organo collegiale della giurisdizione ordinaria. E'' suddiviso in sezioni cosiddette "semplici" (sei penali, tre civili, una per le controversie di lavoro) e nei casi di particolare rilievo giudica a sezioni unite. Ha sede a Roma, e ha giurisdizione su tutto il territorio della Repubblica.
-Monolist:Composite:Longtext:it_lista_abstract_21=La custodia cautelare in carcere o in un luogo di cura è una limitazione della libertà  personale dell''imputato che si applica prima della sentenza irrevocabile di condanna per esigenze cautelari processuali (e cioè se vi è pericolo di fuga o di inquinamento delle prove) o se vi sono esigenze di tutela della collettività  (ossia se vi è il pericolo di nuovi reati) nell''ipotesi in cui si procede per reati gravi e sussistono gravi indizi colpevolezza nei confronti dell''indagato o dell''imputato.
+Monolist:Composite:Longtext:it_lista_abstract_21=La custodia cautelare in carcere o in un luogo di cura ï¿½ una limitazione della libertï¿½ personale dell''imputato che si applica prima della sentenza irrevocabile di condanna per esigenze cautelari processuali (e cioï¿½ se vi ï¿½ pericolo di fuga o di inquinamento delle prove) o se vi sono esigenze di tutela della collettivitï¿½ (ossia se vi ï¿½ il pericolo di nuovi reati) nell''ipotesi in cui si procede per reati gravi e sussistono gravi indizi colpevolezza nei confronti dell''indagato o dell''imputato.
 Monolist:Composite:Longtext:it_lista_abstract_26=Si tratta del diritto che ogni cittadino ha di escludere dall''altrui conoscenza tutto quanto riguarda la propria vita privata. E'' anche conosciuto come diritto alla riservatezza. Ha trovato nel Decreto Legislativo 30 giugno 2003, n. 196 denominato "Codice in materia di protezione dei dati personali", una nuova misura.
-Monolist:Composite:Longtext:it_lista_abstract_27=Il Fondo Sociale Europeo rientra tra i fondi cosiddetti strutturali costituiti sin dagli anni ''60 per promuovere nell''insieme dei paesi aderenti alla Comunità  Europea uno sviluppo equilibrato e una crescita sostenibile. Oggi il Fondo Sociale Europeo è lo strumento attraverso il quale l''Unione Europea promuove al suo interno: possibilitÃ  di occupazione, mobilità  professionale e territoriale dei lavoratori, adeguamento alle trasformazioni industriali e al cambiamento dei sistemi produttivi. Per raggiungere tali finalità  l''FSE sostiene in particolare le attività  di formazione professionale e di riconversione professionale nel quadro dei seguenti specifici obiettivi: la promozione dello sviluppo di regioni in ritardo rispetto ad altre più progredite, la riconversione in zone di declino industriale, lo sviluppo dell''occupazione nelle zone ad alto tasso di disoccupazione, l''inserimento professionale di giovani con meno di 25 anni, il sostegno allo sviluppo di zone rurali. Il Fondo opera secondo specifici programmi, attraverso l''approvazione e il cofinanziamento di progetti che rispondano alle finalità  ed agli obiettivi fissati e che fruiscano per la loro realizzazione del concorso finanziario dello Stato o delle Regioni interessate.
-Monolist:Composite:Longtext:it_lista_abstract_24=E'' la difesa garantita a ciascun imputato che non abbia provveduto a nominare un proprio difensore di fiducia o ne sia rimasto privo. E'' prevista dalla legge al fine di garantire il diritto di difesa in ogni processo, diritto inviolabile dell''uomo riconosciuto dalla Costituzione all''articolo 24, comma secondo. Il difensore d''ufficio Ã¨ nominato dal giudice o dal pubblico ministero sulla base di un elenco di difensori predisposto dal Consiglio dell''ordine forense, d''intesa con il Presidente del Tribunale. Il difensore d''ufficio ha l''obbligo di prestare il suo patrocinio e può essere sostituito solo per giustificato motivo. Le spese della difesa di ufficio sono a carico dell''imputato ma, se questi ha diritto al gratuito patrocinio, sono a carico dello Stato.
-Monolist:Composite:Longtext:it_lista_abstract_25=La Direzione Nazionale Antimafia è istituita con legge 20 gennaio 1992 n.8, nell''ambito della Procura generale presso la Corte di Cassazione con il compito di coordinare, in ambito nazionale, le indagini relative alla criminalità  organizzata.
+Monolist:Composite:Longtext:it_lista_abstract_27=Il Fondo Sociale Europeo rientra tra i fondi cosiddetti strutturali costituiti sin dagli anni ''60 per promuovere nell''insieme dei paesi aderenti alla Comunitï¿½ Europea uno sviluppo equilibrato e una crescita sostenibile. Oggi il Fondo Sociale Europeo ï¿½ lo strumento attraverso il quale l''Unione Europea promuove al suo interno: possibilitÃ  di occupazione, mobilitï¿½ professionale e territoriale dei lavoratori, adeguamento alle trasformazioni industriali e al cambiamento dei sistemi produttivi. Per raggiungere tali finalitï¿½ l''FSE sostiene in particolare le attivitï¿½ di formazione professionale e di riconversione professionale nel quadro dei seguenti specifici obiettivi: la promozione dello sviluppo di regioni in ritardo rispetto ad altre piï¿½ progredite, la riconversione in zone di declino industriale, lo sviluppo dell''occupazione nelle zone ad alto tasso di disoccupazione, l''inserimento professionale di giovani con meno di 25 anni, il sostegno allo sviluppo di zone rurali. Il Fondo opera secondo specifici programmi, attraverso l''approvazione e il cofinanziamento di progetti che rispondano alle finalitï¿½ ed agli obiettivi fissati e che fruiscano per la loro realizzazione del concorso finanziario dello Stato o delle Regioni interessate.
+Monolist:Composite:Longtext:it_lista_abstract_24=E'' la difesa garantita a ciascun imputato che non abbia provveduto a nominare un proprio difensore di fiducia o ne sia rimasto privo. E'' prevista dalla legge al fine di garantire il diritto di difesa in ogni processo, diritto inviolabile dell''uomo riconosciuto dalla Costituzione all''articolo 24, comma secondo. Il difensore d''ufficio Ã¨ nominato dal giudice o dal pubblico ministero sulla base di un elenco di difensori predisposto dal Consiglio dell''ordine forense, d''intesa con il Presidente del Tribunale. Il difensore d''ufficio ha l''obbligo di prestare il suo patrocinio e puï¿½ essere sostituito solo per giustificato motivo. Le spese della difesa di ufficio sono a carico dell''imputato ma, se questi ha diritto al gratuito patrocinio, sono a carico dello Stato.
+Monolist:Composite:Longtext:it_lista_abstract_25=La Direzione Nazionale Antimafia ï¿½ istituita con legge 20 gennaio 1992 n.8, nell''ambito della Procura generale presso la Corte di Cassazione con il compito di coordinare, in ambito nazionale, le indagini relative alla criminalitï¿½ organizzata.
 
 Alla Direzione Ã¨ preposto il Procuratore nazionale antimafia nominato direttamente dal Consiglio Superiore della Magistratura e sono addetti, quali sostituti, magistrati esperti nella trattazione di procedimenti relativi alla criminalitÃ  organizzata.
 
@@ -36218,28 +35654,28 @@ Monolist:Composite:Text:en_lista_title_9=
 Monolist:Composite:Text:en_lista_title_8=
 Monolist:Composite:Text:en_lista_title_5=
 Monolist:Composite:Text:en_lista_title_4=
-Monolist:Composite:Longtext:it_lista_abstract_39=Nell''ambito della giurisdizione ordinaria, con il termine magistrato "togato" si indica il magistrato di carriera che esercita la funzione giurisdizionale (di giudice o di pubblico ministero) a tempo indeterminato, nominato mediante pubblico concorso e regolato dalle norme sull''ordinamento giudiziario, con remunerazione continuata. Il magistrato onorario, invece, Ã¨ il magistrato nominato con particolari procedure e non legato allo Stato da un rapporto di pubblico impiego ma di servizio onorario; le funzioni del giudice onorario sono temporanee e l''incarico è remunerato in maniera diversa secondo le funzioni esercitate (giudice di pace, giudice aggregato, giudice onorario di tribunale, vice procuratore onorario, esperto presso il tribunale per i minorenni).
+Monolist:Composite:Longtext:it_lista_abstract_39=Nell''ambito della giurisdizione ordinaria, con il termine magistrato "togato" si indica il magistrato di carriera che esercita la funzione giurisdizionale (di giudice o di pubblico ministero) a tempo indeterminato, nominato mediante pubblico concorso e regolato dalle norme sull''ordinamento giudiziario, con remunerazione continuata. Il magistrato onorario, invece, Ã¨ il magistrato nominato con particolari procedure e non legato allo Stato da un rapporto di pubblico impiego ma di servizio onorario; le funzioni del giudice onorario sono temporanee e l''incarico ï¿½ remunerato in maniera diversa secondo le funzioni esercitate (giudice di pace, giudice aggregato, giudice onorario di tribunale, vice procuratore onorario, esperto presso il tribunale per i minorenni).
 Monolist:Composite:Text:en_lista_title_7=
 Monolist:Composite:Text:en_lista_title_6=
 Monolist:Composite:Text:en_lista_title_1=
 Monolist:Composite:Text:en_lista_title_0=
 Monolist:Composite:Text:en_lista_title_3=
 Monolist:Composite:Text:en_lista_title_2=
-Monolist:Composite:Longtext:it_lista_abstract_33=E'' una delle funzioni fondamentali dello Stato, esercitata dai magistrati che costituiscono l''ordine giudiziario. è diretta all''applicazione delle norme giuridiche ai singoli casi concreti. La giurisdizione si distingue in ordinaria e speciale. La giurisdizione ordinaria è esercitata da magistrati ordinari e riguarda le materie che la legge non riserva ai giudici speciali. Sono organi della giurisdizione ordinaria, ad esempio, il Tribunale e la Corte di Cassazione. La giurisdizione speciale, invece, riguarda materie che la legge riserva a una magistratura speciale. Sono organi della giurisdizione speciale, ad esempio, i Tribunali Amministrativi Regionali e il Consiglio di Stato. A seconda degli ambiti e delle competenze la giurisdizione si differenzia in costituzionale, civile, penale, amministrativa, contabile, tributaria e militare. Lo strumento principale dell''attività  giurisdizionale è il processo, che attraverso il contraddittorio delle parti mira alla pronuncia di un provvedimento, ad esempio una sentenza, con cui la legge viene interpretata e applicata al caso concreto.
-Monolist:Composite:Longtext:it_lista_abstract_34=Indica la fase in cui si trova un giudizio: l''ordinamento italiano accoglie il principio del "doppio grado di giudizio" secondo il quale è ammesso un riesame della decisione emessa in primo grado. Si dice giudizio di primo grado, pertanto, quello in cui il giudice esamina e giudica una causa nel merito per la prima volta, di secondo grado (o in grado d''appello) quello in cui il giudice riesamina e si pronuncia sulla stessa causa per la seconda volta. E'' inoltre ammesso un giudizio di legittimità , ossia di controllo sulla legalità  dei precedenti gradi di giudizio, che si svolge avanti alla Corte di Cassazione.
-Monolist:Composite:Longtext:it_lista_abstract_31=Sono cittadini chiamati a comporre la Corte di Assise o la Corte di Assise di Appello insieme ai giudici togati. I loro nominativi sono estratti a sorte da apposite liste comunali. La nomina a giudice popolare è subordinata ad alcuni requisiti necessari: la cittadinanza italiana, l''età  compresa tra i 30 e i 65 anni, il godimento dei diritti civili e politici, la buona condotta morale, la licenza di Scuola Media Inferiore (per la Corte di Assise), licenza di Scuola Media Superiore (per la Corte di Assise di Appello). Sono esclusi magistrati e funzionari in servizio all''ordine giudiziario, gli appartenenti alle Forze Armate e alla Polizia, membri di culto e religiosi di ogni ordine e congregazione.
-Monolist:Composite:Longtext:it_lista_abstract_32=Il giudizio abbreviato è uno dei riti alternativi introdotti dal nuovo codice di procedura penale. E'' caratterizzato dal fatto che con esso si evita il dibattimento e la decisione viene presa dal giudice allo stato degli atti delle indagini preliminari svolte dal Pubblico Ministero, che assumono valore di prova. Con esso l''imputato rinuncia al dibattimento e alle sue garanzie, accettando di essere giudicato in base agli atti raccolti nelle indagini preliminari e contenuti nel fascicolo del Pubblico Ministero. In cambio, in caso di condanna, la pena è ridotta di un terzo.
-Monolist:Composite:Longtext:it_lista_abstract_37=E'' un rimedio giuridico creato per rimuovere uno svantaggio derivante da un provvedimento del giudice che si ritiene, in tutto o in parte, viziato. Attraverso l''impugnazione è possibile chiedere un controllo del provvedimento impugnato da parte di un giudice diverso da quello che lo ha emesso e ottenere così una nuova pronuncia.
-Monolist:Composite:Longtext:it_lista_abstract_38=Luogo chiuso e isolato dalla società , destinato ad accogliere coloro che sono in attesa di giudizio o già  definitivamente condannati, comunemente definito carcere. Gli istituti penitenziari fanno capo al Dipartimento dell''amministrazione penitenziaria, istituita presso il Ministero della Giustizia.
+Monolist:Composite:Longtext:it_lista_abstract_33=E'' una delle funzioni fondamentali dello Stato, esercitata dai magistrati che costituiscono l''ordine giudiziario. ï¿½ diretta all''applicazione delle norme giuridiche ai singoli casi concreti. La giurisdizione si distingue in ordinaria e speciale. La giurisdizione ordinaria ï¿½ esercitata da magistrati ordinari e riguarda le materie che la legge non riserva ai giudici speciali. Sono organi della giurisdizione ordinaria, ad esempio, il Tribunale e la Corte di Cassazione. La giurisdizione speciale, invece, riguarda materie che la legge riserva a una magistratura speciale. Sono organi della giurisdizione speciale, ad esempio, i Tribunali Amministrativi Regionali e il Consiglio di Stato. A seconda degli ambiti e delle competenze la giurisdizione si differenzia in costituzionale, civile, penale, amministrativa, contabile, tributaria e militare. Lo strumento principale dell''attivitï¿½ giurisdizionale ï¿½ il processo, che attraverso il contraddittorio delle parti mira alla pronuncia di un provvedimento, ad esempio una sentenza, con cui la legge viene interpretata e applicata al caso concreto.
+Monolist:Composite:Longtext:it_lista_abstract_34=Indica la fase in cui si trova un giudizio: l''ordinamento italiano accoglie il principio del "doppio grado di giudizio" secondo il quale ï¿½ ammesso un riesame della decisione emessa in primo grado. Si dice giudizio di primo grado, pertanto, quello in cui il giudice esamina e giudica una causa nel merito per la prima volta, di secondo grado (o in grado d''appello) quello in cui il giudice riesamina e si pronuncia sulla stessa causa per la seconda volta. E'' inoltre ammesso un giudizio di legittimitï¿½, ossia di controllo sulla legalitï¿½ dei precedenti gradi di giudizio, che si svolge avanti alla Corte di Cassazione.
+Monolist:Composite:Longtext:it_lista_abstract_31=Sono cittadini chiamati a comporre la Corte di Assise o la Corte di Assise di Appello insieme ai giudici togati. I loro nominativi sono estratti a sorte da apposite liste comunali. La nomina a giudice popolare ï¿½ subordinata ad alcuni requisiti necessari: la cittadinanza italiana, l''etï¿½ compresa tra i 30 e i 65 anni, il godimento dei diritti civili e politici, la buona condotta morale, la licenza di Scuola Media Inferiore (per la Corte di Assise), licenza di Scuola Media Superiore (per la Corte di Assise di Appello). Sono esclusi magistrati e funzionari in servizio all''ordine giudiziario, gli appartenenti alle Forze Armate e alla Polizia, membri di culto e religiosi di ogni ordine e congregazione.
+Monolist:Composite:Longtext:it_lista_abstract_32=Il giudizio abbreviato ï¿½ uno dei riti alternativi introdotti dal nuovo codice di procedura penale. E'' caratterizzato dal fatto che con esso si evita il dibattimento e la decisione viene presa dal giudice allo stato degli atti delle indagini preliminari svolte dal Pubblico Ministero, che assumono valore di prova. Con esso l''imputato rinuncia al dibattimento e alle sue garanzie, accettando di essere giudicato in base agli atti raccolti nelle indagini preliminari e contenuti nel fascicolo del Pubblico Ministero. In cambio, in caso di condanna, la pena ï¿½ ridotta di un terzo.
+Monolist:Composite:Longtext:it_lista_abstract_37=E'' un rimedio giuridico creato per rimuovere uno svantaggio derivante da un provvedimento del giudice che si ritiene, in tutto o in parte, viziato. Attraverso l''impugnazione ï¿½ possibile chiedere un controllo del provvedimento impugnato da parte di un giudice diverso da quello che lo ha emesso e ottenere cosï¿½ una nuova pronuncia.
+Monolist:Composite:Longtext:it_lista_abstract_38=Luogo chiuso e isolato dalla societï¿½, destinato ad accogliere coloro che sono in attesa di giudizio o giï¿½  definitivamente condannati, comunemente definito carcere. Gli istituti penitenziari fanno capo al Dipartimento dell''amministrazione penitenziaria, istituita presso il Ministero della Giustizia.
 Monolist:Composite:Longtext:it_lista_abstract_35=Si tratta di un beneficio previsto dalla Costituzione (art. 24 Cost.) che consiste nel riconoscimento dell''assistenza legale gratuita, per promuovere un giudizio o per difendersi davanti al giudice, alle persone che non sono in grado di sostenerne le spese. Al pagamento delle spese (avvocati, consulenti ed investigatori autorizzati) si provvede mediante il patrocinio a spese dello Stato.
-Monolist:Composite:Longtext:it_lista_abstract_36=Con questo termine si designa il Ministro della Giustizia, il quale, per tradizione, è il custode del sigillo dello Stato e in questa veste controfirma le leggi e i decreti al fine di provvedere alla loro pubblicazione.
+Monolist:Composite:Longtext:it_lista_abstract_36=Con questo termine si designa il Ministro della Giustizia, il quale, per tradizione, ï¿½ il custode del sigillo dello Stato e in questa veste controfirma le leggi e i decreti al fine di provvedere alla loro pubblicazione.
 Monolist:Composite:Text:en_lista_title_19=
 Monolist:Composite:Text:en_lista_title_29=
 Monolist:Composite:Text:en_lista_title_28=
 Monolist:Composite:Text:en_lista_title_27=
 Monolist:Composite:Text:en_lista_title_26=
 Monolist:Composite:Text:en_lista_title_25=
-Monolist:Composite:Longtext:it_lista_abstract_30=Il 2 giugno 1999 è divenuto efficace il Decreto legislativo 19 febbraio 1998, n. 51 che ha riformato l''organizzazione dell''ordinamento giudiziario istituendo la nuova figura del Giudice Unico di primo grado.
+Monolist:Composite:Longtext:it_lista_abstract_30=Il 2 giugno 1999 ï¿½ divenuto efficace il Decreto legislativo 19 febbraio 1998, n. 51 che ha riformato l''organizzazione dell''ordinamento giudiziario istituendo la nuova figura del Giudice Unico di primo grado.
 Il decreto ha abolito l''ufficio del Pretore trasferendo le sue competenze al Tribunale ordinario in materia sia civile che penale, escluso quanto attribuito al Giudice di pace.
 Il Tribunale ordinario decide, sia in materia civile che penale, prevalentemente in composizione monocratica (giudice singolo) e per specifiche ipotesi in composizione collegiale (collegio di tre giudici).
 
@@ -36261,7 +35697,7 @@ Monolist:Composite:Text:it_lista_title_40=Misure alternative alla detenzione
 Monolist:Composite:Text:it_lista_title_41=Notificazione
 Monolist:Composite:Text:it_lista_title_44=Patteggiamento
 Monolist:Composite:Text:it_lista_title_45=Persona fisica
-Monolist:Composite:Text:it_lista_title_42=Pari opportunità  tra uomo e donna
+Monolist:Composite:Text:it_lista_title_42=Pari opportunitï¿½ tra uomo e donna
 Monolist:Composite:Longtext:en_lista_abstract_8=
 Monolist:Composite:Text:it_lista_title_43=Patrocinio a spese dello stato
 Monolist:Composite:Longtext:en_lista_abstract_9=
@@ -36282,22 +35718,22 @@ resourceTypeCode=
 Monolist:Composite:Longtext:en_lista_abstract_3=
 Monolist:Composite:Longtext:en_lista_abstract_0=
 Monolist:Composite:Longtext:en_lista_abstract_1=
-Monolist:Composite:Longtext:it_lista_abstract_19=E'' un organo della giurisdizione ordinaria penale competente a giudicare in primo grado solo per alcuni gravi reati. E'' composta da un Presidente (magistrato di Corte d''Appello), da un "giudice a latere" (magistrato di Tribunale) e da sei giudici popolari. Nello svolgimento della loro funzione i giudici popolari sono equiparati ai magistrati di Tribunale e partecipano alla formazione della sentenza con parità  di voto.
+Monolist:Composite:Longtext:it_lista_abstract_19=E'' un organo della giurisdizione ordinaria penale competente a giudicare in primo grado solo per alcuni gravi reati. E'' composta da un Presidente (magistrato di Corte d''Appello), da un "giudice a latere" (magistrato di Tribunale) e da sei giudici popolari. Nello svolgimento della loro funzione i giudici popolari sono equiparati ai magistrati di Tribunale e partecipano alla formazione della sentenza con paritï¿½ di voto.
 Monolist:Composite:Longtext:en_lista_abstract_59=
-Monolist:Composite:Longtext:it_lista_abstract_17=E'' un organo previsto dalla Costituzione (articoli 100 e 103) che svolge funzioni di controllo di legittimità  sugli atti del Governo e della pubblica amministrazione; sulla gestione del bilancio dello Stato, delle amministrazioni pubbliche e degli enti sovvenzionati dallo Stato. Svolge anche funzioni giurisdizionali in materia di contabilitÃ  pubblica e di pensioni dei funzionari dello Stato. Si articola in sezioni "di controllo" e sezioni "giurisdizionali", per le questioni di maggior rilievo opera a sezioni unite. La Corte dei Conti ha anche funzioni consultive (attraverso la predisposizione di pareri) e referenti (in quanto è chiamata a riferire direttamente alle Camere sul risultato delle verifiche).
+Monolist:Composite:Longtext:it_lista_abstract_17=E'' un organo previsto dalla Costituzione (articoli 100 e 103) che svolge funzioni di controllo di legittimitï¿½ sugli atti del Governo e della pubblica amministrazione; sulla gestione del bilancio dello Stato, delle amministrazioni pubbliche e degli enti sovvenzionati dallo Stato. Svolge anche funzioni giurisdizionali in materia di contabilitÃ  pubblica e di pensioni dei funzionari dello Stato. Si articola in sezioni "di controllo" e sezioni "giurisdizionali", per le questioni di maggior rilievo opera a sezioni unite. La Corte dei Conti ha anche funzioni consultive (attraverso la predisposizione di pareri) e referenti (in quanto ï¿½ chiamata a riferire direttamente alle Camere sul risultato delle verifiche).
 Monolist:Composite:Longtext:it_lista_abstract_18=E'' competente a giudicare in secondo grado di giudizio (appello) sulle sentenze pronunciate in primo grado dalla Corte di Assise.
 Monolist:Composite:Longtext:en_lista_abstract_55=
 Monolist:Composite:Longtext:en_lista_abstract_56=
 Monolist:Composite:Longtext:en_lista_abstract_57=
 Monolist:Composite:Longtext:en_lista_abstract_58=
-Monolist:Composite:Longtext:it_lista_abstract_11=Indica l''ambito territoriale in cui ciascun organo giudiziario esercita il potere giurisdizionale. La ripartizione delle circoscrizioni è fissata dalla legge: la circoscrizione giudiziaria del Tribunale è definita circondario, la circoscrizione giudiziaria della Corte d''Appello è il distretto, mentre la Corte di Cassazione è competente per tutto il territorio nazionale.
-Monolist:Composite:Longtext:it_lista_abstract_12=E'' un organo della giurisdizione tributaria che ha la funzione di risolvere le controversie venutesi a creare tra i contribuenti e il Fisco. La Commissione Tributaria Provinciale è competente nel giudizio di primo grado, la Commissione Tributaria Regionale in quello di secondo grado.
-Monolist:Composite:Longtext:it_lista_abstract_10=E'' un atto attraverso il quale la pubblica amministrazione documenta fatti o attesta diritti. Nei casi previsti dalla legge, è rilasciato anche da privati investiti di pubbliche funzioni (notai, avvocati, medici...). Il certificato fa piena prova di quanto in esso affermato, fino a querela di falso.
-Monolist:Composite:Longtext:it_lista_abstract_15=E'' un organo previsto dalla nostra Costituzione per: - giudicare sulla costituzionalità  delle leggi, cioè per verificare se queste sono conformi a quanto stabilito dalla stessa Costituzione - giudicare sui conflitti di competenza tra i poteri dello Stato (legislativo, amministrativo, giurisdizionale), su quelli tra Stato e Regioni o tra le Regioni - giudicare sull''ammissibilitÃ  dei referendum abrogativi - giudicare penalmente, nei casi previsti dalla legge, il Presidente della Repubblica. Ãˆ formata da 15 giudici che restano in carica 9 anni: 5 sono nominati dal Presidente della Repubblica, 5 dal Parlamento in seduta comune, 5 dai magistrati ordinari e amministrativi di grado piÃ¹ elevato. Ogni tre anni i giudici della Corte Costituzionale eleggono tra loro un Presidente. Per giudicare penalmente il Presidente della Repubblica (cosa mai avvenuta sinora) ai 15 giudici se ne aggiungono altri 16 che vengono estratti a sorte da una lista di cittadini (eleggibili al Senato) compilata dal Parlamento ogni 9 anni.
+Monolist:Composite:Longtext:it_lista_abstract_11=Indica l''ambito territoriale in cui ciascun organo giudiziario esercita il potere giurisdizionale. La ripartizione delle circoscrizioni ï¿½ fissata dalla legge: la circoscrizione giudiziaria del Tribunale ï¿½ definita circondario, la circoscrizione giudiziaria della Corte d''Appello ï¿½ il distretto, mentre la Corte di Cassazione ï¿½ competente per tutto il territorio nazionale.
+Monolist:Composite:Longtext:it_lista_abstract_12=E'' un organo della giurisdizione tributaria che ha la funzione di risolvere le controversie venutesi a creare tra i contribuenti e il Fisco. La Commissione Tributaria Provinciale ï¿½ competente nel giudizio di primo grado, la Commissione Tributaria Regionale in quello di secondo grado.
+Monolist:Composite:Longtext:it_lista_abstract_10=E'' un atto attraverso il quale la pubblica amministrazione documenta fatti o attesta diritti. Nei casi previsti dalla legge, ï¿½ rilasciato anche da privati investiti di pubbliche funzioni (notai, avvocati, medici...). Il certificato fa piena prova di quanto in esso affermato, fino a querela di falso.
+Monolist:Composite:Longtext:it_lista_abstract_15=E'' un organo previsto dalla nostra Costituzione per: - giudicare sulla costituzionalitï¿½ delle leggi, cioï¿½ per verificare se queste sono conformi a quanto stabilito dalla stessa Costituzione - giudicare sui conflitti di competenza tra i poteri dello Stato (legislativo, amministrativo, giurisdizionale), su quelli tra Stato e Regioni o tra le Regioni - giudicare sull''ammissibilitÃ  dei referendum abrogativi - giudicare penalmente, nei casi previsti dalla legge, il Presidente della Repubblica. Ãˆ formata da 15 giudici che restano in carica 9 anni: 5 sono nominati dal Presidente della Repubblica, 5 dal Parlamento in seduta comune, 5 dai magistrati ordinari e amministrativi di grado piÃ¹ elevato. Ogni tre anni i giudici della Corte Costituzionale eleggono tra loro un Presidente. Per giudicare penalmente il Presidente della Repubblica (cosa mai avvenuta sinora) ai 15 giudici se ne aggiungono altri 16 che vengono estratti a sorte da una lista di cittadini (eleggibili al Senato) compilata dal Parlamento ogni 9 anni.
 Monolist:Composite:Longtext:it_lista_abstract_16=E'' un organo della giurisdizione ordinaria, civile e penale composto da tre giudici. E'' competente a giudicare in secondo grado di giudizio, detto appunto grado d''appello, sulle sentenze pronunciate in primo grado dal Tribunale. Ha giurisdizione all''interno della propria circoscrizione territoriale, circoscrizione che prende il nome di distretto e che generalmente corrisponde al territorio di una Regione e ha sede nel suo capoluogo.
-Monolist:Composite:Longtext:it_lista_abstract_13=E'' un organo che ha funzioni consultive e funzioni giurisdizionali in ambito amministrativo. In qualità  di organo consultivo (tre sezioni) il Consiglio si esprime in merito a tutte le materie riguardanti la Pubblica Amministrazione e si esprime attraverso il pronunciamento di "pareri" che possono essere "facoltativi" o "obbligatori". In qualità  di organo giurisdizionale (tre sezioni) è competente a decidere nel giudizio di secondo grado in merito ai provvedimenti emessi dai Tribunali Amministrativi Regionali.
-Monolist:Composite:Longtext:it_lista_abstract_14=E'' l''organo previsto dalla Costituzione (art. 104) per l''autogoverno della magistratura. Adotta i provvedimenti riguardanti assunzioni, assegnazioni, trasferimenti e promozioni dei magistrati, nonchè i provvedimenti disciplinari.
-E'' composto dal Presidente della Repubblica (che lo presiede) dal primo Presidente della Corte di Cassazione e dal Procuratore Generale presso di essa (che ne sono membri di diritto) e da ventiquattro membri elettivi che durano in carica quattro anni: due terzi sono magistrati ordinari (eletti dalla magistratura), un terzo sono professori ordinari di università  in materie giuridiche e avvocati con quindici anni di esercizio (cosiddetti "membri laici" eletti dal Parlamento in seduta comune).
+Monolist:Composite:Longtext:it_lista_abstract_13=E'' un organo che ha funzioni consultive e funzioni giurisdizionali in ambito amministrativo. In qualitï¿½ di organo consultivo (tre sezioni) il Consiglio si esprime in merito a tutte le materie riguardanti la Pubblica Amministrazione e si esprime attraverso il pronunciamento di "pareri" che possono essere "facoltativi" o "obbligatori". In qualitï¿½ di organo giurisdizionale (tre sezioni) ï¿½ competente a decidere nel giudizio di secondo grado in merito ai provvedimenti emessi dai Tribunali Amministrativi Regionali.
+Monolist:Composite:Longtext:it_lista_abstract_14=E'' l''organo previsto dalla Costituzione (art. 104) per l''autogoverno della magistratura. Adotta i provvedimenti riguardanti assunzioni, assegnazioni, trasferimenti e promozioni dei magistrati, nonchï¿½ i provvedimenti disciplinari.
+E'' composto dal Presidente della Repubblica (che lo presiede) dal primo Presidente della Corte di Cassazione e dal Procuratore Generale presso di essa (che ne sono membri di diritto) e da ventiquattro membri elettivi che durano in carica quattro anni: due terzi sono magistrati ordinari (eletti dalla magistratura), un terzo sono professori ordinari di universitï¿½ in materie giuridiche e avvocati con quindici anni di esercizio (cosiddetti "membri laici" eletti dal Parlamento in seduta comune).
 Monolist:Composite:Text:it_lista_title_51=Procura generale della repubblica presso la corte suprema di cassazione
 Monolist:Composite:Text:it_lista_title_52=Referendum
 Monolist:Composite:Text:it_lista_title_50=Procura della repubblica
@@ -36454,16 +35890,16 @@ Monolist:Composite:Text:en_lista_title_40=
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2019-06-18 13:02:04');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2758,'admin','2019-06-18 13:08:45','/do/jacms/Content','saveAndApprove','Monolist:Composite:Longtext:it_lista_abstract_1=Si chiama adozione l''atto che attribuisce a un soggetto (l''adottato) la qualità  giuridica di figlio di un altro soggetto (l''adottante) anche se il primo non è stato generato dal secondo. Attraverso l''adozione si costituisce un vincolo giuridico di filiazione tra persone non unite da una relazione biologica. Con il termine adozione si indicano istituti giuridici diversi. Il nostro ordinamento infatti prevede e disciplina sia l''adozione dei minori (consentita, salvo casi particolari, solo ai coniugi uniti in matrimonio), sia l''adozione dei maggiorenni.
-Monolist:Composite:Longtext:it_lista_abstract_0=E'' il diritto che ciascun cittadino ha di esaminare e richiedere copia dei documenti amministrativi di cui ha interesse, nei modi e nei limiti stabiliti dalla legge (articolo 22 della legge n. 241 del 1990). Questo diritto è riconosciuto per assicurare la trasparenza dell''attività  amministrativa ed è escluso solo per i documenti coperti da "segreto", che costituiscono una eccezione alla regola generale. Le modalità  di esercizio del diritto d''accesso e i casi di esclusione sono disciplinati dal Regolamento 27 giugno 1992, n. 352.
-Monolist:Composite:Longtext:it_lista_abstract_5=E'' l''attività  svolta dal giudice per accertare un diritto controverso attraverso un procedimento (processo) che si conclude con un provvedimento (sentenza).
-Monolist:Composite:Longtext:it_lista_abstract_4=E'' l''attività svolta dal giudice per salvaguardare un diritto oggetto di una vertenza prima della sua definizione.
-Monolist:Composite:Longtext:it_lista_abstract_3=Si tratta di un mezzo di impugnazione per chiedere la riforma di un provvedimento del giudice di primo grado ritenuto, in tutto o in parte, ingiusto. Nello specifico impedisce che la sentenza passi in giudicato, e permette un riesame della controversia relativamente ai punti del provvedimento impugnati, sicchè la nuova sentenza sostituisce quella impugnata. L''appello impedisce anche l''esecuzione della sentenza impugnata (generalmente per il penale: art.650 c.p.p.) salvo che la legge non la dichiari provvisoriamente esecutiva (generalmente per il civile: art.282 c.p.c.).
-Monolist:Composite:Longtext:it_lista_abstract_2=E'' disciplinato dalla legge 4 maggio 1983 n. 184 e consiste nell''affidamento di un minore temporaneamente privo di un ambiente familiare idoneo, a una famiglia diversa da quella naturale, a una persona singola, a una comunità  di tipo familiare, o nel ricovero in un istituto di assistenza. Ha lo scopo di assicurare il mantenimento, l''educazione e l''istruzione del minore per il tempo necessario a superare le difficoltà  della famiglia d''origine. L''affidamento perciò è sempre temporaneo e comporta, quando è possibile, il reinserimento del minore nella sua famiglia naturale. Quando, invece, la situazione di crisi non è superabile, interverrà  la dichiarazione di adottabilità  del minore.
-Monolist:Composite:Longtext:it_lista_abstract_9=E'' lo schedario istituito presso la Procura della Repubblica di ogni Tribunale che raccoglie e conserva gli estratti dei provvedimenti dell''autorità  giudiziaria o amministrativa per consentire la conoscenza dei precedenti di ciascun soggetto. Presso il Ministero della Giustizia esiste il casellario centrale che è il terminale di tutti i casellari locali. L''ufficio del casellario giudiziale rilascia i certificati penali su richiesta delle autorità  giudiziarie e amministrative, o dei singoli privati che possono richiedere solo il proprio certificato.
-Monolist:Composite:Longtext:it_lista_abstract_8=E'' un mezzo elettronico destinato al controllo delle persone sottoposte agli arresti domiciliari o alla detenzione domiciliare che si applica alla caviglia e permette all''Autorità  giudiziaria di verificare a distanza e costantemente i movimenti del soggetto che lo indossa. Nel caso di alterazione o manomissione del braccialetto, E'' previsto il ritorno in carcere e una pena aggiuntiva.
-Monolist:Composite:Longtext:it_lista_abstract_7=E'' l''azione promossa dal Ministro della Giustizia o dal Procuratore generale della Cassazione nei confronti dei singoli magistrati che vengono meno ai loro doveri o che tengono una condotta contraria al prestigio dell''ordine giudiziario, ponendo in essere un illecito disciplinare. Sull''azione disciplinare decide il Consiglio Superiore della Magistratura che può applicare le sanzioni disciplinari (ammonizione, censura, perdita di anzianità , rimozione e destituzione).
-Monolist:Composite:Longtext:it_lista_abstract_6=E'' l''attività  svolta sotto la direzione di un giudice per l''attuazione, in via coattiva o forzata, di un diritto già  accertato.
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2758,'admin','2019-06-18 13:08:45','/do/jacms/Content','saveAndApprove','Monolist:Composite:Longtext:it_lista_abstract_1=Si chiama adozione l''atto che attribuisce a un soggetto (l''adottato) la qualitï¿½ giuridica di figlio di un altro soggetto (l''adottante) anche se il primo non ï¿½ stato generato dal secondo. Attraverso l''adozione si costituisce un vincolo giuridico di filiazione tra persone non unite da una relazione biologica. Con il termine adozione si indicano istituti giuridici diversi. Il nostro ordinamento infatti prevede e disciplina sia l''adozione dei minori (consentita, salvo casi particolari, solo ai coniugi uniti in matrimonio), sia l''adozione dei maggiorenni.
+Monolist:Composite:Longtext:it_lista_abstract_0=E'' il diritto che ciascun cittadino ha di esaminare e richiedere copia dei documenti amministrativi di cui ha interesse, nei modi e nei limiti stabiliti dalla legge (articolo 22 della legge n. 241 del 1990). Questo diritto ï¿½ riconosciuto per assicurare la trasparenza dell''attivitï¿½ amministrativa ed ï¿½ escluso solo per i documenti coperti da "segreto", che costituiscono una eccezione alla regola generale. Le modalitï¿½ di esercizio del diritto d''accesso e i casi di esclusione sono disciplinati dal Regolamento 27 giugno 1992, n. 352.
+Monolist:Composite:Longtext:it_lista_abstract_5=E'' l''attivitï¿½ svolta dal giudice per accertare un diritto controverso attraverso un procedimento (processo) che si conclude con un provvedimento (sentenza).
+Monolist:Composite:Longtext:it_lista_abstract_4=E'' l''attivitï¿½ svolta dal giudice per salvaguardare un diritto oggetto di una vertenza prima della sua definizione.
+Monolist:Composite:Longtext:it_lista_abstract_3=Si tratta di un mezzo di impugnazione per chiedere la riforma di un provvedimento del giudice di primo grado ritenuto, in tutto o in parte, ingiusto. Nello specifico impedisce che la sentenza passi in giudicato, e permette un riesame della controversia relativamente ai punti del provvedimento impugnati, sicchï¿½ la nuova sentenza sostituisce quella impugnata. L''appello impedisce anche l''esecuzione della sentenza impugnata (generalmente per il penale: art.650 c.p.p.) salvo che la legge non la dichiari provvisoriamente esecutiva (generalmente per il civile: art.282 c.p.c.).
+Monolist:Composite:Longtext:it_lista_abstract_2=E'' disciplinato dalla legge 4 maggio 1983 n. 184 e consiste nell''affidamento di un minore temporaneamente privo di un ambiente familiare idoneo, a una famiglia diversa da quella naturale, a una persona singola, a una comunitï¿½ di tipo familiare, o nel ricovero in un istituto di assistenza. Ha lo scopo di assicurare il mantenimento, l''educazione e l''istruzione del minore per il tempo necessario a superare le difficoltï¿½ della famiglia d''origine. L''affidamento perciï¿½ ï¿½ sempre temporaneo e comporta, quando ï¿½ possibile, il reinserimento del minore nella sua famiglia naturale. Quando, invece, la situazione di crisi non ï¿½ superabile, interverrï¿½ la dichiarazione di adottabilitï¿½ del minore.
+Monolist:Composite:Longtext:it_lista_abstract_9=E'' lo schedario istituito presso la Procura della Repubblica di ogni Tribunale che raccoglie e conserva gli estratti dei provvedimenti dell''autoritï¿½ giudiziaria o amministrativa per consentire la conoscenza dei precedenti di ciascun soggetto. Presso il Ministero della Giustizia esiste il casellario centrale che ï¿½ il terminale di tutti i casellari locali. L''ufficio del casellario giudiziale rilascia i certificati penali su richiesta delle autoritï¿½ giudiziarie e amministrative, o dei singoli privati che possono richiedere solo il proprio certificato.
+Monolist:Composite:Longtext:it_lista_abstract_8=E'' un mezzo elettronico destinato al controllo delle persone sottoposte agli arresti domiciliari o alla detenzione domiciliare che si applica alla caviglia e permette all''Autoritï¿½ giudiziaria di verificare a distanza e costantemente i movimenti del soggetto che lo indossa. Nel caso di alterazione o manomissione del braccialetto, E'' previsto il ritorno in carcere e una pena aggiuntiva.
+Monolist:Composite:Longtext:it_lista_abstract_7=E'' l''azione promossa dal Ministro della Giustizia o dal Procuratore generale della Cassazione nei confronti dei singoli magistrati che vengono meno ai loro doveri o che tengono una condotta contraria al prestigio dell''ordine giudiziario, ponendo in essere un illecito disciplinare. Sull''azione disciplinare decide il Consiglio Superiore della Magistratura che puï¿½ applicare le sanzioni disciplinari (ammonizione, censura, perdita di anzianitï¿½, rimozione e destituzione).
+Monolist:Composite:Longtext:it_lista_abstract_6=E'' l''attivitï¿½ svolta sotto la direzione di un giudice per l''attuazione, in via coattiva o forzata, di un diritto giï¿½ accertato.
 __multiselect_extraGroupNames=
 contentOnSessionMarker=CTA_editContent_CTA1880
 Monolist:Composite:Date:lista_date_36=
@@ -36548,34 +35984,34 @@ Text:en_title=
 descr=Glossario - Per il cittadino
 Text:it_title=Glossario dei termini giuridici
 Monolist:Composite:Text:it_lista_title_7=Azione disciplinare
-Monolist:Composite:Text:it_lista_title_6=Attività  giurisdizionale di esecuzione
+Monolist:Composite:Text:it_lista_title_6=Attivitï¿½ giurisdizionale di esecuzione
 Monolist:Composite:Text:it_lista_title_9=Casellario giudiziale
 Monolist:Composite:Text:it_lista_title_8=Braccialetto elettronico
 Monolist:Composite:Text:it_lista_title_1=Adozione
 Monolist:Composite:Text:it_lista_title_0=Accesso ai documenti amministrativi
 Monolist:Composite:Text:it_lista_title_3=Appello
 Monolist:Composite:Text:it_lista_title_2=Affidamento dei minori
-Monolist:Composite:Text:it_lista_title_5=Attività  giurisdizionale di cognizione
-Monolist:Composite:Text:it_lista_title_4=Attività  giurisdizionale cautelare
-Monolist:Composite:Longtext:it_lista_abstract_44=Si tratta di un procedimento penale speciale nel quale l''imputato e il Pubblico Ministero chiedono al giudice l''applicazione di una pena ridotta fino a un terzo rispetto a quella prevista per il reato commesso. Il patteggiamento è ammesso solo per i reati minori. Presupposto del patteggiamento è l''implicita ammissione di colpevolezza da parte dell''imputato e l''accordo tra imputato e Pubblico Ministero sulla scelta di questo rito speciale. Il giudice può accogliere la richiesta dell''imputato in ordine alla pena anche quando il Pubblico Ministero non è d''accordo. Se la sentenza è pronunciata sull''accordo tra imputato e pubblico ministero, l''appello non è ammesso.
-Monolist:Composite:Longtext:it_lista_abstract_45=La persona fisica per l''ordinamento giuridico è qualsiasi essere umano. La persona fisica è un soggetto di diritto: è dotato di capacità  giuridica, è titolare di diritti e doveri.
-Monolist:Composite:Longtext:it_lista_abstract_42=Principio che, accanto a quello di parità  di trattamento, è finalizzato all''uguaglianza sostanziale tra uomo e donna, in piena attuazione dell''art. 3 della Costituzione. In questo senso è andata la legge 125/91 che si è proposta di favorire l''inserimento e la carriera delle donne nel lavoro attraverso misure che tolgano gli ostacoli che di fatto impediscono la realizzazione delle pari opportunità .
-Monolist:Composite:Longtext:it_lista_abstract_43=E'' l''intervento dello Stato in favore di chi ha diritto al gratuito patrocinio per il pagamento delle spese legali (avvocati, consulenti, investigatori autorizzati). Il patrocinio a spese dello Stato, già  previsto per il processo penale e del lavoro nonchè per il processo di impugnazione del decreto di espulsione di stranieri e per i ricorsi al Garante per la protezione dei dati personali, è stato recentemente esteso ai giudizi civili ed amministrativi nonchè alle procedure di volontaria giurisdizione (legge n.134/2001).
-Monolist:Composite:Longtext:it_lista_abstract_48=E'' un procedimento penale speciale caratterizzato da un iter molto veloce, a cui si può ricorrere in caso di arresto in flagranza di reato, o di confessione dell''imputato. Sono ipotesi in cui, data l''evidenza delle prove, viene meno la necessità  di procedere a particolari indagini, per cui il processo si svolge direttamente saltando le fasi dell''udienza preliminare e, nella maggior parte dei casi, delle indagini preliminari.
-Monolist:Composite:Longtext:it_lista_abstract_49=E'' l''insieme delle attività  previste e disciplinate da norme giuridiche (cosiddette "norme processuali") attraverso le quali viene esercitata la giurisdizione: si svolge davanti ad un giudice, con la partecipazione dei soggetti interessati (le parti del giudizio) e mira a una pronuncia finale (il provvedimento giurisdizionale, ad esempio una sentenza) che impone l''applicazione della legge al caso concreto.
-Monolist:Composite:Longtext:it_lista_abstract_46=Le persone giuridiche sono organizzazioni collettive, considerate come soggetti distinti dalle persone fisiche che le compongono ed esse stesse soggetti di diritto, dotate di capacità  giuridica e titolari di diritti e doveri. Sono persone giuridiche le associazioni riconosciute, le fondazioni, i comitati riconosciuti, le società  di capitali e gli enti pubblici.
-Monolist:Composite:Longtext:it_lista_abstract_47=Il Pretore, tradizionale figura di giudice la cui denominazione risale al diritto romano, è stato abolito con il Decreto legislativo n. 51 del 19 febbraio 1998, a seguito di una rilevante riforma del sistema giudiziario italiano (detta del "Giudice unico").
-Le principali funzioni giudiziarie del Pretore, infatti, sono state unificate in quelle del Tribunale ordinario che è diventato il principale giudice di primo grado (mentre un ruolo di competenze minori di primo grado rimane assegnato al Giudice di pace).
-Quanto agli Uffici, le ex Preture sono state quasi tutte abolite tranne alcune, dislocate in uno o più comuni principali del circondario del Tribunale di appartenenza, ciascuna di esse diventata Sezione distaccata del Tribunale con competenza territoriale e funzionale ridotta.
+Monolist:Composite:Text:it_lista_title_5=Attivitï¿½ giurisdizionale di cognizione
+Monolist:Composite:Text:it_lista_title_4=Attivitï¿½ giurisdizionale cautelare
+Monolist:Composite:Longtext:it_lista_abstract_44=Si tratta di un procedimento penale speciale nel quale l''imputato e il Pubblico Ministero chiedono al giudice l''applicazione di una pena ridotta fino a un terzo rispetto a quella prevista per il reato commesso. Il patteggiamento ï¿½ ammesso solo per i reati minori. Presupposto del patteggiamento ï¿½ l''implicita ammissione di colpevolezza da parte dell''imputato e l''accordo tra imputato e Pubblico Ministero sulla scelta di questo rito speciale. Il giudice puï¿½ accogliere la richiesta dell''imputato in ordine alla pena anche quando il Pubblico Ministero non ï¿½ d''accordo. Se la sentenza ï¿½ pronunciata sull''accordo tra imputato e pubblico ministero, l''appello non ï¿½ ammesso.
+Monolist:Composite:Longtext:it_lista_abstract_45=La persona fisica per l''ordinamento giuridico ï¿½ qualsiasi essere umano. La persona fisica ï¿½ un soggetto di diritto: ï¿½ dotato di capacitï¿½ giuridica, ï¿½ titolare di diritti e doveri.
+Monolist:Composite:Longtext:it_lista_abstract_42=Principio che, accanto a quello di paritï¿½ di trattamento, ï¿½ finalizzato all''uguaglianza sostanziale tra uomo e donna, in piena attuazione dell''art. 3 della Costituzione. In questo senso ï¿½ andata la legge 125/91 che si ï¿½ proposta di favorire l''inserimento e la carriera delle donne nel lavoro attraverso misure che tolgano gli ostacoli che di fatto impediscono la realizzazione delle pari opportunitï¿½.
+Monolist:Composite:Longtext:it_lista_abstract_43=E'' l''intervento dello Stato in favore di chi ha diritto al gratuito patrocinio per il pagamento delle spese legali (avvocati, consulenti, investigatori autorizzati). Il patrocinio a spese dello Stato, giï¿½ previsto per il processo penale e del lavoro nonchï¿½ per il processo di impugnazione del decreto di espulsione di stranieri e per i ricorsi al Garante per la protezione dei dati personali, ï¿½ stato recentemente esteso ai giudizi civili ed amministrativi nonchï¿½ alle procedure di volontaria giurisdizione (legge n.134/2001).
+Monolist:Composite:Longtext:it_lista_abstract_48=E'' un procedimento penale speciale caratterizzato da un iter molto veloce, a cui si puï¿½ ricorrere in caso di arresto in flagranza di reato, o di confessione dell''imputato. Sono ipotesi in cui, data l''evidenza delle prove, viene meno la necessitï¿½ di procedere a particolari indagini, per cui il processo si svolge direttamente saltando le fasi dell''udienza preliminare e, nella maggior parte dei casi, delle indagini preliminari.
+Monolist:Composite:Longtext:it_lista_abstract_49=E'' l''insieme delle attivitï¿½ previste e disciplinate da norme giuridiche (cosiddette "norme processuali") attraverso le quali viene esercitata la giurisdizione: si svolge davanti ad un giudice, con la partecipazione dei soggetti interessati (le parti del giudizio) e mira a una pronuncia finale (il provvedimento giurisdizionale, ad esempio una sentenza) che impone l''applicazione della legge al caso concreto.
+Monolist:Composite:Longtext:it_lista_abstract_46=Le persone giuridiche sono organizzazioni collettive, considerate come soggetti distinti dalle persone fisiche che le compongono ed esse stesse soggetti di diritto, dotate di capacitï¿½ giuridica e titolari di diritti e doveri. Sono persone giuridiche le associazioni riconosciute, le fondazioni, i comitati riconosciuti, le societï¿½ di capitali e gli enti pubblici.
+Monolist:Composite:Longtext:it_lista_abstract_47=Il Pretore, tradizionale figura di giudice la cui denominazione risale al diritto romano, ï¿½ stato abolito con il Decreto legislativo n. 51 del 19 febbraio 1998, a seguito di una rilevante riforma del sistema giudiziario italiano (detta del "Giudice unico").
+Le principali funzioni giudiziarie del Pretore, infatti, sono state unificate in quelle del Tribunale ordinario che ï¿½ diventato il principale giudice di primo grado (mentre un ruolo di competenze minori di primo grado rimane assegnato al Giudice di pace).
+Quanto agli Uffici, le ex Preture sono state quasi tutte abolite tranne alcune, dislocate in uno o piï¿½ comuni principali del circondario del Tribunale di appartenenza, ciascuna di esse diventata Sezione distaccata del Tribunale con competenza territoriale e funzionale ridotta.
 Riferimenti normativi:
 Decreto legislativo 19 febbraio 1998, n. 51
 Monolist:Composite:Text:en_lista_title_18=
 Monolist:Composite:Text:en_lista_title_17=
 Monolist:Composite:Text:en_lista_title_16=
 Monolist:Composite:Text:en_lista_title_15=
-Monolist:Composite:Longtext:it_lista_abstract_40=Sono misure introdotte con la legge di riforma penitenziaria del 26 luglio 1975 n. 354, che consentono al soggetto che ha subito una condanna di scontare, in tutto o in parte, a pena detentiva fuori dal carcere. In questo modo si cerca di facilitare il reinserimento del condannato nella società  civile sottraendolo all''ambiente carcerario. Le misure alternative alla detenzione sono: l''affidamento in prova al servizio sociale, la semilibertà , la detenzione domiciliare, la libertà  anticipata. Queste sono disposte dal Tribunale della sorveglianza.
+Monolist:Composite:Longtext:it_lista_abstract_40=Sono misure introdotte con la legge di riforma penitenziaria del 26 luglio 1975 n. 354, che consentono al soggetto che ha subito una condanna di scontare, in tutto o in parte, a pena detentiva fuori dal carcere. In questo modo si cerca di facilitare il reinserimento del condannato nella societï¿½ civile sottraendolo all''ambiente carcerario. Le misure alternative alla detenzione sono: l''affidamento in prova al servizio sociale, la semilibertï¿½, la detenzione domiciliare, la libertï¿½ anticipata. Queste sono disposte dal Tribunale della sorveglianza.
 Monolist:Composite:Text:en_lista_title_14=
-Monolist:Composite:Longtext:it_lista_abstract_41=E'' l''attività  con la quale l''ufficiale giudiziario o altra persona specificamente indicata dalla legge (messo comunale, polizia giudiziaria, avvocato) porta formalmente un atto a conoscenza del destinatario, attraverso la consegna di una copia conforme all''originale dell''atto.
+Monolist:Composite:Longtext:it_lista_abstract_41=E'' l''attivitï¿½ con la quale l''ufficiale giudiziario o altra persona specificamente indicata dalla legge (messo comunale, polizia giudiziaria, avvocato) porta formalmente un atto a conoscenza del destinatario, attraverso la consegna di una copia conforme all''originale dell''atto.
 Monolist:Composite:Text:en_lista_title_13=
 Monolist:Composite:Text:en_lista_title_12=
 Monolist:Composite:Text:en_lista_title_11=
@@ -36588,71 +36024,71 @@ Monolist:Composite:Longtext:en_lista_abstract_11=
 Monolist:Composite:Longtext:en_lista_abstract_12=
 Monolist:Composite:Longtext:en_lista_abstract_13=
 Monolist:Composite:Longtext:en_lista_abstract_14=
-Monolist:Composite:Longtext:it_lista_abstract_55=E'' un organo della giurisdizione amministrativa, competente a giudicare in primo grado sui provvedimenti amministrativi impugnati per motivi di legittimità  (cioè di conformità  alla legge) e lesivi di un interesse legittimo (cioè di un interesse del singolo corrispondente ad un interesse pubblico generale); in alcuni ambiti ha giurisdizione di merito o esclusiva.
-Il TAR ha giurisdizione all''interno della propria circoscrizione, che coincide con il territorio della Regione, e ha sede nel suo capoluogo. E'' suddiviso in sezioni e le sue decisioni sono assunte da un collegio di tre giudici. Contro le decisioni del TAR è ammesso ricorso, in secondo grado, davanti al Consiglio di Stato.
+Monolist:Composite:Longtext:it_lista_abstract_55=E'' un organo della giurisdizione amministrativa, competente a giudicare in primo grado sui provvedimenti amministrativi impugnati per motivi di legittimitï¿½ (cioï¿½ di conformitï¿½ alla legge) e lesivi di un interesse legittimo (cioï¿½ di un interesse del singolo corrispondente ad un interesse pubblico generale); in alcuni ambiti ha giurisdizione di merito o esclusiva.
+Il TAR ha giurisdizione all''interno della propria circoscrizione, che coincide con il territorio della Regione, e ha sede nel suo capoluogo. E'' suddiviso in sezioni e le sue decisioni sono assunte da un collegio di tre giudici. Contro le decisioni del TAR ï¿½ ammesso ricorso, in secondo grado, davanti al Consiglio di Stato.
 Monolist:Composite:Longtext:it_lista_abstract_56=E'' uno dei due organi in cui si articola la magistratura di sorveglianza.
-La magistratura di sorveglianza è un organo giurisdizionale che ha il compito di vigilare sull''esecuzione della pena, interviene in materia di applicazione di misure alternative alla detenzione, di esecuzione di sanzioni sostitutive, di applicazione ed esecuzione di misure di sicurezza.
+La magistratura di sorveglianza ï¿½ un organo giurisdizionale che ha il compito di vigilare sull''esecuzione della pena, interviene in materia di applicazione di misure alternative alla detenzione, di esecuzione di sanzioni sostitutive, di applicazione ed esecuzione di misure di sicurezza.
 Si compone di due organi giurisdizionali: il Magistrato di sorveglianza, organo monocratico e il Tribunale di sorveglianza, organo collegiale.
 
 Il Tribunale di sorveglianza opera sia come giudice di primo grado che come giudice di secondo grado rispetto al magistrato di sorveglianza.
-La competenza territoriale è estesa all''intero distretto di Corte d''appello. E'' composto di magistrati di sorveglianza in servizio nel distretto o nella circoscrizione territoriale della sezione distaccata di Corte d''appello e da professionisti esperti in psicologia, servizi sociali, pedagogia, psichiatria e criminologia clinica.
-Monolist:Composite:Longtext:it_lista_abstract_53=E'' il provvedimento giurisdizionale contenente una decisione, emanato dal giudice nel processo. Generalmente è l''atto conclusivo o finale del giudizio. La sua forma è stabilita dalla legge, è pronunciata "in nome del popolo italiano" con l''intestazione "Repubblica italiana". Contiene il dispositivo (l''enunciazione della decisione del giudice in forma sintetica) e la motivazione (l''insieme delle ragioni che giustificano la decisione del giudice).
-Monolist:Composite:Longtext:it_lista_abstract_54=E'' un beneficio con il quale il giudice nel pronunciare una condanna non superiore ai due anni di arresto o di reclusione (o a una pena pecuniaria, che comparata alla pena detentiva, sia corrispondente), sospende l''esecuzione della pena principale per un determinato periodo, a condizione che il condannato, nel corso di detto periodo, non commetta reati dello stesso tipo. In questo caso, il reato si estingue e cessa l''esecuzione delle pene accessorie. Se invece il condannato commette un reato, dovrà  scontare l''intera pena sospesa.
+La competenza territoriale ï¿½ estesa all''intero distretto di Corte d''appello. E'' composto di magistrati di sorveglianza in servizio nel distretto o nella circoscrizione territoriale della sezione distaccata di Corte d''appello e da professionisti esperti in psicologia, servizi sociali, pedagogia, psichiatria e criminologia clinica.
+Monolist:Composite:Longtext:it_lista_abstract_53=E'' il provvedimento giurisdizionale contenente una decisione, emanato dal giudice nel processo. Generalmente ï¿½ l''atto conclusivo o finale del giudizio. La sua forma ï¿½ stabilita dalla legge, ï¿½ pronunciata "in nome del popolo italiano" con l''intestazione "Repubblica italiana". Contiene il dispositivo (l''enunciazione della decisione del giudice in forma sintetica) e la motivazione (l''insieme delle ragioni che giustificano la decisione del giudice).
+Monolist:Composite:Longtext:it_lista_abstract_54=E'' un beneficio con il quale il giudice nel pronunciare una condanna non superiore ai due anni di arresto o di reclusione (o a una pena pecuniaria, che comparata alla pena detentiva, sia corrispondente), sospende l''esecuzione della pena principale per un determinato periodo, a condizione che il condannato, nel corso di detto periodo, non commetta reati dello stesso tipo. In questo caso, il reato si estingue e cessa l''esecuzione delle pene accessorie. Se invece il condannato commette un reato, dovrï¿½ scontare l''intera pena sospesa.
 Monolist:Composite:Longtext:it_lista_abstract_59=
 Monolist:Composite:Longtext:en_lista_abstract_19=
 Monolist:Composite:Longtext:it_lista_abstract_57=E'' il Giudice con competenza in materia sia civile che penale per un ambito territoriale detto circondario.
-Con il Decreto legislativo n. 51/98, che ha abolito il Pretore, il Tribunale ordinario è rimasto Giudice unico di primo grado, salvo talune competenze minori del Giudice di pace per le quali è quest''ultimo il giudice di primo grado. Perciò, il Tribunale ordinario giudica anche in secondo grado sugli appelli proposti contro le sentenze del Giudice di pace.
+Con il Decreto legislativo n. 51/98, che ha abolito il Pretore, il Tribunale ordinario ï¿½ rimasto Giudice unico di primo grado, salvo talune competenze minori del Giudice di pace per le quali ï¿½ quest''ultimo il giudice di primo grado. Perciï¿½, il Tribunale ordinario giudica anche in secondo grado sugli appelli proposti contro le sentenze del Giudice di pace.
 Il Tribunale ordinario giudica in composizione collegiale (tre giudici) e in composizione monocratica (un giudice singolo).
-Le sentenze del Tribunale ordinario sono impugnabili, mediante l''appello, davanti alla Corte d''Appello per motivi concernenti il fatto che ha dato origine alla causa (motivi di merito) e davanti alla Corte di Cassazione, mediante ricorso per cassazione, per motivi concernenti questioni di puro diritto (motivi di legittimità) o di attribuzione tra le varie giurisdizioni (motivi di giurisdizione).
+Le sentenze del Tribunale ordinario sono impugnabili, mediante l''appello, davanti alla Corte d''Appello per motivi concernenti il fatto che ha dato origine alla causa (motivi di merito) e davanti alla Corte di Cassazione, mediante ricorso per cassazione, per motivi concernenti questioni di puro diritto (motivi di legittimitï¿½) o di attribuzione tra le varie giurisdizioni (motivi di giurisdizione).
 Il Tribunale ordinario esercita anche le funzioni di Giudice tutelare, oltre ad altre specifiche funzioni stabilite dalla legge.
 I Tribunali ordinari sono 166, due dei quali appositamente istituiti in area di tribunali metropolitani.
 
 Riferimenti normativi:
 Decreto legislativo 19 febbraio 1998, n. 51
-Monolist:Composite:Longtext:it_lista_abstract_58=Il Tribunale per i minorenni è un organo giudizionale, autonomo e specializzato, con funzioni di giudice di primo grado per tutti gli affari penali, civili e amministrativi riguardanti i minori degli anni 18.
-La sua circoscrizione territoriale coincide con quella della Corte d''Appello o della sezione della Corte d''Appello presso la quale il tribunale stesso è istituito. Il Tribunale per i minorenni è composto da un magistrato di Corte d''appello che lo presiede, da un magistrato di tribunale e da due componenti esperti non togati.
+Monolist:Composite:Longtext:it_lista_abstract_58=Il Tribunale per i minorenni ï¿½ un organo giudizionale, autonomo e specializzato, con funzioni di giudice di primo grado per tutti gli affari penali, civili e amministrativi riguardanti i minori degli anni 18.
+La sua circoscrizione territoriale coincide con quella della Corte d''Appello o della sezione della Corte d''Appello presso la quale il tribunale stesso ï¿½ istituito. Il Tribunale per i minorenni ï¿½ composto da un magistrato di Corte d''appello che lo presiede, da un magistrato di tribunale e da due componenti esperti non togati.
 Ha competenza in materia civile, penale e amministrativa per i procedimenti riguardanti:
 
 i reati commessi nell''ambito del distretto dai minori degli anni 18;
 l''applicazione di misure rieducative nei confronti dei minori degli anni 18 residenti nello stesso territorio;
-l''esercizio della potestà  dei genitori, della tutela, l''amministrazione patrimoniale, l''assistenza, l''affiliazione, l''adozione, sempre relativi ai minorenni residenti nel distretto di Corte d''Appello. Il Tribunale per i minorenni deve essere informato di tutti i procedimenti in corso per i delitti di violenza sessuale e corruzione commessi in danno di persone minori d''età.
-Monolist:Composite:Longtext:it_lista_abstract_51=La Procura Generale presso la Corte di Cassazione svolge le funzioni del Pubblico Ministero presso l''organo supremo della giustizia; in base alla legge sull''ordinamento giudiziario interviene e conclude in tutte le udienze civili e penali della Corte di Cassazione e redige requisitorie scritte nei casi previsti da specifiche norme. Con tale attività  contribuisce, nell''interesse pubblico, ad assicurare l''uniforme interpretazione della legge.
-Monolist:Composite:Longtext:it_lista_abstract_52=E'' una consultazione popolare, cioè una votazione alla quale è chiamato il corpo elettorale, che ha come oggetto un testo normativo o una questione politica. E'' il più importante istituto di democrazia diretta, uno strumento attraverso il quale il popolo esercita direttamente la sovranità  di cui è titolare, senza il tramite dei suoi rappresentanti. Il nostro ordinamento giuridico prevede: - il referendum costituzionale, per l''adozione di leggi di revisione costituzionale o di altre leggi costituzionali - il referendum abrogativo, per l''abrogazione di una norma di legge in vigore; - il referendum territoriale, per la modificazione del territorio di Regioni, Province e Comuni - il referendum consultivo, senza efficacia giuridicamente vincolante, sulle questioni di particolare rilievo a livello regionale.
+l''esercizio della potestï¿½ dei genitori, della tutela, l''amministrazione patrimoniale, l''assistenza, l''affiliazione, l''adozione, sempre relativi ai minorenni residenti nel distretto di Corte d''Appello. Il Tribunale per i minorenni deve essere informato di tutti i procedimenti in corso per i delitti di violenza sessuale e corruzione commessi in danno di persone minori d''etï¿½.
+Monolist:Composite:Longtext:it_lista_abstract_51=La Procura Generale presso la Corte di Cassazione svolge le funzioni del Pubblico Ministero presso l''organo supremo della giustizia; in base alla legge sull''ordinamento giudiziario interviene e conclude in tutte le udienze civili e penali della Corte di Cassazione e redige requisitorie scritte nei casi previsti da specifiche norme. Con tale attivitï¿½ contribuisce, nell''interesse pubblico, ad assicurare l''uniforme interpretazione della legge.
+Monolist:Composite:Longtext:it_lista_abstract_52=E'' una consultazione popolare, cioï¿½ una votazione alla quale ï¿½ chiamato il corpo elettorale, che ha come oggetto un testo normativo o una questione politica. E'' il piï¿½ importante istituto di democrazia diretta, uno strumento attraverso il quale il popolo esercita direttamente la sovranitï¿½ di cui ï¿½ titolare, senza il tramite dei suoi rappresentanti. Il nostro ordinamento giuridico prevede: - il referendum costituzionale, per l''adozione di leggi di revisione costituzionale o di altre leggi costituzionali - il referendum abrogativo, per l''abrogazione di una norma di legge in vigore; - il referendum territoriale, per la modificazione del territorio di Regioni, Province e Comuni - il referendum consultivo, senza efficacia giuridicamente vincolante, sulle questioni di particolare rilievo a livello regionale.
 Monolist:Composite:Longtext:it_lista_abstract_50=E'' l''ufficio dell''ordinamento giudiziario cui sono addetti i magistrati che svolgono le funzioni di Pubblico ministero (P.M.).
-L''ufficio del P.M. è istituito presso la Corte di Cassazione, le Corti di Appello, i Tribunali ordinari e i Tribunali per i minorenni.
+L''ufficio del P.M. ï¿½ istituito presso la Corte di Cassazione, le Corti di Appello, i Tribunali ordinari e i Tribunali per i minorenni.
 Agli uffici del P.M., che sono distinti ed autonomi dall''organo giurisdizionale presso il quale svolgono le loro funzioni, appartengono magistrati che esercitano le funzioni sotto la vigilanza del Ministro della giustizia (art.69 ordinamento giudiziario).
 I magistrati addetti agli uffici del P.M. - sostituti procuratori - esercitano le loro funzioni a seguito di designazione dei capi dell''ufficio (art.70 ordinamento giudiziario). Essi formano, nel loro complesso, la magistratura cd. requirente.
 Il P.M. vigila sull''osservanza delle leggi, sulla tutela dei diritti dello Stato, delle persone giuridiche e degli incapaci, richiedendo nei casi d''urgenza i provvedimenti che ritiene necessari; promuove la repressione dei reati e l''applicazione delle misure di sicurezza, fa eseguire i giudicati ed ogni altro provvedimento del giudice, nei casi stabiliti dalla legge.
-Anche innanzi al Giudice di pace in sede penale è prevista la figura del P.M., perchè presso di esso non esiste alcun autonomo ufficio di procura.
+Anche innanzi al Giudice di pace in sede penale ï¿½ prevista la figura del P.M., perchï¿½ presso di esso non esiste alcun autonomo ufficio di procura.
 Monolist:Composite:Longtext:en_lista_abstract_10=
-Monolist:Composite:Longtext:it_lista_abstract_28=La funzione giudicante è la funzione svolta dagli organi giudiziari (i giudici) a cui è attribuito il compito di decidere le controversie o di pronunciarsi sugli affari di loro competenza. La funzione requirente è invece esercitata dai magistrati che svolgono attività  di "pubblico ministero" e hanno il compito di esprimere richieste o pareri in vista delle decisioni degli organi giudicanti.
-Monolist:Composite:Longtext:it_lista_abstract_29=A partire dal 1° maggio 1995 il Giudice di Pace inizia la sua attività  in sostituzione del Giudice Conciliatore il cui ufficio è abolito.
-Rispetto al Giudice Conciliatore ha una competenza in materia civile molto più ampia oltre ad una competenza in materia penale per fatti lievi e che non richiedono accertamenti complessi. Il Giudice di Pace ha iniziato a svolgere le funzioni di giudice penale a partire dal 1° gennaio 2002.
+Monolist:Composite:Longtext:it_lista_abstract_28=La funzione giudicante ï¿½ la funzione svolta dagli organi giudiziari (i giudici) a cui ï¿½ attribuito il compito di decidere le controversie o di pronunciarsi sugli affari di loro competenza. La funzione requirente ï¿½ invece esercitata dai magistrati che svolgono attivitï¿½ di "pubblico ministero" e hanno il compito di esprimere richieste o pareri in vista delle decisioni degli organi giudicanti.
+Monolist:Composite:Longtext:it_lista_abstract_29=A partire dal 1ï¿½ maggio 1995 il Giudice di Pace inizia la sua attivitï¿½ in sostituzione del Giudice Conciliatore il cui ufficio ï¿½ abolito.
+Rispetto al Giudice Conciliatore ha una competenza in materia civile molto piï¿½ ampia oltre ad una competenza in materia penale per fatti lievi e che non richiedono accertamenti complessi. Il Giudice di Pace ha iniziato a svolgere le funzioni di giudice penale a partire dal 1ï¿½ gennaio 2002.
 
-Il Giudice di Pace è un magistrato onorario al quale temporaneamente sono assegnate funzioni giurisdizionali. Dura in carica quattro anni e alla scadenza può essere confermato una sola volta.
-Al compimento del 75° anno d''età  cessa dalle FunzioniLocali.
+Il Giudice di Pace ï¿½ un magistrato onorario al quale temporaneamente sono assegnate funzioni giurisdizionali. Dura in carica quattro anni e alla scadenza puï¿½ essere confermato una sola volta.
+Al compimento del 75ï¿½ anno d''etï¿½ cessa dalle FunzioniLocali.
 
-Egli è tenuto ad osservare i doveri previsti per i magistrati ed è soggetto a responsabilità  disciplinare.
+Egli ï¿½ tenuto ad osservare i doveri previsti per i magistrati ed ï¿½ soggetto a responsabilitï¿½ disciplinare.
 
-Il Giudice di Pace è un magistrato onorario e non di carriera e non ha un rapporto di impiego con lo Stato. Egli percepisce una indennità  cumulabile con i trattamenti pensionistici e di quiescenza.
-Monolist:Composite:Longtext:it_lista_abstract_22=E'' un provvedimento di condanna con il quale il giudice civile ordina al debitore il pagamento di una somma o la consegna di una cosa a favore del creditore che offre una determinata prova scritta del suo diritto. Tale decreto viene emesso dal giudice senza aver sentito il debitore, il quale può proporre opposizione.
+Il Giudice di Pace ï¿½ un magistrato onorario e non di carriera e non ha un rapporto di impiego con lo Stato. Egli percepisce una indennitï¿½ cumulabile con i trattamenti pensionistici e di quiescenza.
+Monolist:Composite:Longtext:it_lista_abstract_22=E'' un provvedimento di condanna con il quale il giudice civile ordina al debitore il pagamento di una somma o la consegna di una cosa a favore del creditore che offre una determinata prova scritta del suo diritto. Tale decreto viene emesso dal giudice senza aver sentito il debitore, il quale puï¿½ proporre opposizione.
 Monolist:Composite:Longtext:it_lista_abstract_23=E'' una legge fatta dal Governo, su delega del Parlamento, il quale ne indica i contenuti, i limiti e i tempi di emanazione in una apposita legge (cosiddetta Legge Delega).
-Si tratta di manifestazione del potere legislativo, di norma appartenente al Parlamento, che è consentito espressamente dall''art.76 della Costituzione ed il cui esercizio può essere sottoposto al controllo della Corte Costituzionale per verificare se il Governo abbia eventualmente ecceduto dalla delega.
-Monolist:Composite:Longtext:it_lista_abstract_20=E'' l''organo supremo della giustizia e ha il compito di assicurare l''esatta osservanza e l''uniforme interpretazione della legge. Inoltre regola i conflitti di competenza, di giurisdizione e attribuzione all''interno della magistratura. In materia civile e penale è competente a riesaminare le sentenze o i provvedimenti pronunciati nei precedenti gradi di giudizio solo per motivi di diritto (giudizio di legittimità ) cioè per verificare se il giudice di merito, nel pronunciarsi, abbia correttamente interpretato e applicato la legge.
+Si tratta di manifestazione del potere legislativo, di norma appartenente al Parlamento, che ï¿½ consentito espressamente dall''art.76 della Costituzione ed il cui esercizio puï¿½ essere sottoposto al controllo della Corte Costituzionale per verificare se il Governo abbia eventualmente ecceduto dalla delega.
+Monolist:Composite:Longtext:it_lista_abstract_20=E'' l''organo supremo della giustizia e ha il compito di assicurare l''esatta osservanza e l''uniforme interpretazione della legge. Inoltre regola i conflitti di competenza, di giurisdizione e attribuzione all''interno della magistratura. In materia civile e penale ï¿½ competente a riesaminare le sentenze o i provvedimenti pronunciati nei precedenti gradi di giudizio solo per motivi di diritto (giudizio di legittimitï¿½) cioï¿½ per verificare se il giudice di merito, nel pronunciarsi, abbia correttamente interpretato e applicato la legge.
 E'' un organo collegiale della giurisdizione ordinaria. E'' suddiviso in sezioni cosiddette "semplici" (sei penali, tre civili, una per le controversie di lavoro) e nei casi di particolare rilievo giudica a sezioni unite. Ha sede a Roma, e ha giurisdizione su tutto il territorio della Repubblica.
-Monolist:Composite:Longtext:it_lista_abstract_21=La custodia cautelare in carcere o in un luogo di cura è una limitazione della libertà  personale dell''imputato che si applica prima della sentenza irrevocabile di condanna per esigenze cautelari processuali (e cioè se vi è pericolo di fuga o di inquinamento delle prove) o se vi sono esigenze di tutela della collettività  (ossia se vi è il pericolo di nuovi reati) nell''ipotesi in cui si procede per reati gravi e sussistono gravi indizi colpevolezza nei confronti dell''indagato o dell''imputato.
+Monolist:Composite:Longtext:it_lista_abstract_21=La custodia cautelare in carcere o in un luogo di cura ï¿½ una limitazione della libertï¿½ personale dell''imputato che si applica prima della sentenza irrevocabile di condanna per esigenze cautelari processuali (e cioï¿½ se vi ï¿½ pericolo di fuga o di inquinamento delle prove) o se vi sono esigenze di tutela della collettivitï¿½ (ossia se vi ï¿½ il pericolo di nuovi reati) nell''ipotesi in cui si procede per reati gravi e sussistono gravi indizi colpevolezza nei confronti dell''indagato o dell''imputato.
 Monolist:Composite:Longtext:it_lista_abstract_26=Si tratta del diritto che ogni cittadino ha di escludere dall''altrui conoscenza tutto quanto riguarda la propria vita privata. E'' anche conosciuto come diritto alla riservatezza. Ha trovato nel Decreto Legislativo 30 giugno 2003, n. 196 denominato "Codice in materia di protezione dei dati personali", una nuova misura.
-Monolist:Composite:Longtext:it_lista_abstract_27=Il Fondo Sociale Europeo rientra tra i fondi cosiddetti strutturali costituiti sin dagli anni ''60 per promuovere nell''insieme dei paesi aderenti alla Comunità  Europea uno sviluppo equilibrato e una crescita sostenibile. Oggi il Fondo Sociale Europeo è lo strumento attraverso il quale l''Unione Europea promuove al suo interno: possibilità  di occupazione, mobilità  professionale e territoriale dei lavoratori, adeguamento alle trasformazioni industriali e al cambiamento dei sistemi produttivi. Per raggiungere tali finalità  l''FSE sostiene in particolare le attività  di formazione professionale e di riconversione professionale nel quadro dei seguenti specifici obiettivi: la promozione dello sviluppo di regioni in ritardo rispetto ad altre più progredite, la riconversione in zone di declino industriale, lo sviluppo dell''occupazione nelle zone ad alto tasso di disoccupazione, l''inserimento professionale di giovani con meno di 25 anni, il sostegno allo sviluppo di zone rurali. Il Fondo opera secondo specifici programmi, attraverso l''approvazione e il cofinanziamento di progetti che rispondano alle finalità  ed agli obiettivi fissati e che fruiscano per la loro realizzazione del concorso finanziario dello Stato o delle Regioni interessate.
-Monolist:Composite:Longtext:it_lista_abstract_24=E'' la difesa garantita a ciascun imputato che non abbia provveduto a nominare un proprio difensore di fiducia o ne sia rimasto privo. E'' prevista dalla legge al fine di garantire il diritto di difesa in ogni processo, diritto inviolabile dell''uomo riconosciuto dalla Costituzione all''articolo 24, comma secondo. Il difensore d''ufficio è nominato dal giudice o dal pubblico ministero sulla base di un elenco di difensori predisposto dal Consiglio dell''ordine forense, d''intesa con il Presidente del Tribunale. Il difensore d''ufficio ha l''obbligo di prestare il suo patrocinio e può essere sostituito solo per giustificato motivo. Le spese della difesa di ufficio sono a carico dell''imputato ma, se questi ha diritto al gratuito patrocinio, sono a carico dello Stato.
-Monolist:Composite:Longtext:it_lista_abstract_25=La Direzione Nazionale Antimafia è istituita con legge 20 gennaio 1992 n.8, nell''ambito della Procura generale presso la Corte di Cassazione con il compito di coordinare, in ambito nazionale, le indagini relative alla criminalità  organizzata.
+Monolist:Composite:Longtext:it_lista_abstract_27=Il Fondo Sociale Europeo rientra tra i fondi cosiddetti strutturali costituiti sin dagli anni ''60 per promuovere nell''insieme dei paesi aderenti alla Comunitï¿½ Europea uno sviluppo equilibrato e una crescita sostenibile. Oggi il Fondo Sociale Europeo ï¿½ lo strumento attraverso il quale l''Unione Europea promuove al suo interno: possibilitï¿½ di occupazione, mobilitï¿½ professionale e territoriale dei lavoratori, adeguamento alle trasformazioni industriali e al cambiamento dei sistemi produttivi. Per raggiungere tali finalitï¿½ l''FSE sostiene in particolare le attivitï¿½ di formazione professionale e di riconversione professionale nel quadro dei seguenti specifici obiettivi: la promozione dello sviluppo di regioni in ritardo rispetto ad altre piï¿½ progredite, la riconversione in zone di declino industriale, lo sviluppo dell''occupazione nelle zone ad alto tasso di disoccupazione, l''inserimento professionale di giovani con meno di 25 anni, il sostegno allo sviluppo di zone rurali. Il Fondo opera secondo specifici programmi, attraverso l''approvazione e il cofinanziamento di progetti che rispondano alle finalitï¿½ ed agli obiettivi fissati e che fruiscano per la loro realizzazione del concorso finanziario dello Stato o delle Regioni interessate.
+Monolist:Composite:Longtext:it_lista_abstract_24=E'' la difesa garantita a ciascun imputato che non abbia provveduto a nominare un proprio difensore di fiducia o ne sia rimasto privo. E'' prevista dalla legge al fine di garantire il diritto di difesa in ogni processo, diritto inviolabile dell''uomo riconosciuto dalla Costituzione all''articolo 24, comma secondo. Il difensore d''ufficio ï¿½ nominato dal giudice o dal pubblico ministero sulla base di un elenco di difensori predisposto dal Consiglio dell''ordine forense, d''intesa con il Presidente del Tribunale. Il difensore d''ufficio ha l''obbligo di prestare il suo patrocinio e puï¿½ essere sostituito solo per giustificato motivo. Le spese della difesa di ufficio sono a carico dell''imputato ma, se questi ha diritto al gratuito patrocinio, sono a carico dello Stato.
+Monolist:Composite:Longtext:it_lista_abstract_25=La Direzione Nazionale Antimafia ï¿½ istituita con legge 20 gennaio 1992 n.8, nell''ambito della Procura generale presso la Corte di Cassazione con il compito di coordinare, in ambito nazionale, le indagini relative alla criminalitï¿½ organizzata.
 
-Alla Direzione è preposto il Procuratore nazionale antimafia nominato direttamente dal Consiglio Superiore della Magistratura e sono addetti, quali sostituti, magistrati esperti nella trattazione di procedimenti relativi alla criminalità  organizzata.
+Alla Direzione ï¿½ preposto il Procuratore nazionale antimafia nominato direttamente dal Consiglio Superiore della Magistratura e sono addetti, quali sostituti, magistrati esperti nella trattazione di procedimenti relativi alla criminalitï¿½ organizzata.
 
-Il Procuratore, si avvale per le indagini delle strutture della Direzione Investigativa Antimafia (D.I.A.). La D.I.A. è organismo istituito nell''ambito del Dipartimento di Pubblica sicurezza del Ministero dell''Interno con il compito di assicurare lo svolgimento coordinato delle attività  di investigazione sulla criminalità  organizzata, ed in particolare sui delitti di associazione di tipo mafioso.
+Il Procuratore, si avvale per le indagini delle strutture della Direzione Investigativa Antimafia (D.I.A.). La D.I.A. ï¿½ organismo istituito nell''ambito del Dipartimento di Pubblica sicurezza del Ministero dell''Interno con il compito di assicurare lo svolgimento coordinato delle attivitï¿½ di investigazione sulla criminalitï¿½ organizzata, ed in particolare sui delitti di associazione di tipo mafioso.
 
-Il Procuratore collabora con i magistrati addetti alle indagini antimafia; risolve eventuali conflitti riguardanti lo svolgimento delle indagini; assume le indagini preliminari svolte dai procuratori distrettuali, se non sono state osservate le direttive impartite o non si è efficacemente realizzato il coordinamento.
+Il Procuratore collabora con i magistrati addetti alle indagini antimafia; risolve eventuali conflitti riguardanti lo svolgimento delle indagini; assume le indagini preliminari svolte dai procuratori distrettuali, se non sono state osservate le direttive impartite o non si ï¿½ efficacemente realizzato il coordinamento.
 
-Il Procuratore nazionale antimafia è sottoposto alla vigilanza del Procuratore generale presso la Corte di Cassazione che riferisce al Consiglio Superiore della Magistratura, circa l''attività  svolta e i risultati conseguiti dalla Direzione Nazionale Antimafia e dalle Direzioni distrettuali antimafia istituite presso la Procura della Repubblica del tribunale dei 26 capoluoghi di distretto di Corte d''appello.
+Il Procuratore nazionale antimafia ï¿½ sottoposto alla vigilanza del Procuratore generale presso la Corte di Cassazione che riferisce al Consiglio Superiore della Magistratura, circa l''attivitï¿½ svolta e i risultati conseguiti dalla Direzione Nazionale Antimafia e dalle Direzioni distrettuali antimafia istituite presso la Procura della Repubblica del tribunale dei 26 capoluoghi di distretto di Corte d''appello.
 Monolist:Composite:Text:en_lista_title_39=
 Monolist:Composite:Text:en_lista_title_38=
 Monolist:Composite:Text:en_lista_title_37=
@@ -36667,28 +36103,28 @@ Monolist:Composite:Text:en_lista_title_9=
 Monolist:Composite:Text:en_lista_title_8=
 Monolist:Composite:Text:en_lista_title_5=
 Monolist:Composite:Text:en_lista_title_4=
-Monolist:Composite:Longtext:it_lista_abstract_39=Nell''ambito della giurisdizione ordinaria, con il termine magistrato "togato" si indica il magistrato di carriera che esercita la funzione giurisdizionale (di giudice o di pubblico ministero) a tempo indeterminato, nominato mediante pubblico concorso e regolato dalle norme sull''ordinamento giudiziario, con remunerazione continuata. Il magistrato onorario, invece, è il magistrato nominato con particolari procedure e non legato allo Stato da un rapporto di pubblico impiego ma di servizio onorario; le funzioni del giudice onorario sono temporanee e l''incarico è remunerato in maniera diversa secondo le funzioni esercitate (giudice di pace, giudice aggregato, giudice onorario di tribunale, vice procuratore onorario, esperto presso il tribunale per i minorenni).
+Monolist:Composite:Longtext:it_lista_abstract_39=Nell''ambito della giurisdizione ordinaria, con il termine magistrato "togato" si indica il magistrato di carriera che esercita la funzione giurisdizionale (di giudice o di pubblico ministero) a tempo indeterminato, nominato mediante pubblico concorso e regolato dalle norme sull''ordinamento giudiziario, con remunerazione continuata. Il magistrato onorario, invece, ï¿½ il magistrato nominato con particolari procedure e non legato allo Stato da un rapporto di pubblico impiego ma di servizio onorario; le funzioni del giudice onorario sono temporanee e l''incarico ï¿½ remunerato in maniera diversa secondo le funzioni esercitate (giudice di pace, giudice aggregato, giudice onorario di tribunale, vice procuratore onorario, esperto presso il tribunale per i minorenni).
 Monolist:Composite:Text:en_lista_title_7=
 Monolist:Composite:Text:en_lista_title_6=
 Monolist:Composite:Text:en_lista_title_1=
 Monolist:Composite:Text:en_lista_title_0=
 Monolist:Composite:Text:en_lista_title_3=
 Monolist:Composite:Text:en_lista_title_2=
-Monolist:Composite:Longtext:it_lista_abstract_33=E'' una delle funzioni fondamentali dello Stato, esercitata dai magistrati che costituiscono l''ordine giudiziario. è diretta all''applicazione delle norme giuridiche ai singoli casi concreti. La giurisdizione si distingue in ordinaria e speciale. La giurisdizione ordinaria è esercitata da magistrati ordinari e riguarda le materie che la legge non riserva ai giudici speciali. Sono organi della giurisdizione ordinaria, ad esempio, il Tribunale e la Corte di Cassazione. La giurisdizione speciale, invece, riguarda materie che la legge riserva a una magistratura speciale. Sono organi della giurisdizione speciale, ad esempio, i Tribunali Amministrativi Regionali e il Consiglio di Stato. A seconda degli ambiti e delle competenze la giurisdizione si differenzia in costituzionale, civile, penale, amministrativa, contabile, tributaria e militare. Lo strumento principale dell''attività  giurisdizionale è il processo, che attraverso il contraddittorio delle parti mira alla pronuncia di un provvedimento, ad esempio una sentenza, con cui la legge viene interpretata e applicata al caso concreto.
-Monolist:Composite:Longtext:it_lista_abstract_34=Indica la fase in cui si trova un giudizio: l''ordinamento italiano accoglie il principio del "doppio grado di giudizio" secondo il quale è ammesso un riesame della decisione emessa in primo grado. Si dice giudizio di primo grado, pertanto, quello in cui il giudice esamina e giudica una causa nel merito per la prima volta, di secondo grado (o in grado d''appello) quello in cui il giudice riesamina e si pronuncia sulla stessa causa per la seconda volta. E'' inoltre ammesso un giudizio di legittimità , ossia di controllo sulla legalità  dei precedenti gradi di giudizio, che si svolge avanti alla Corte di Cassazione.
-Monolist:Composite:Longtext:it_lista_abstract_31=Sono cittadini chiamati a comporre la Corte di Assise o la Corte di Assise di Appello insieme ai giudici togati. I loro nominativi sono estratti a sorte da apposite liste comunali. La nomina a giudice popolare è subordinata ad alcuni requisiti necessari: la cittadinanza italiana, l''età  compresa tra i 30 e i 65 anni, il godimento dei diritti civili e politici, la buona condotta morale, la licenza di Scuola Media Inferiore (per la Corte di Assise), licenza di Scuola Media Superiore (per la Corte di Assise di Appello). Sono esclusi magistrati e funzionari in servizio all''ordine giudiziario, gli appartenenti alle Forze Armate e alla Polizia, membri di culto e religiosi di ogni ordine e congregazione.
-Monolist:Composite:Longtext:it_lista_abstract_32=Il giudizio abbreviato è uno dei riti alternativi introdotti dal nuovo codice di procedura penale. E'' caratterizzato dal fatto che con esso si evita il dibattimento e la decisione viene presa dal giudice allo stato degli atti delle indagini preliminari svolte dal Pubblico Ministero, che assumono valore di prova. Con esso l''imputato rinuncia al dibattimento e alle sue garanzie, accettando di essere giudicato in base agli atti raccolti nelle indagini preliminari e contenuti nel fascicolo del Pubblico Ministero. In cambio, in caso di condanna, la pena è ridotta di un terzo.
-Monolist:Composite:Longtext:it_lista_abstract_37=E'' un rimedio giuridico creato per rimuovere uno svantaggio derivante da un provvedimento del giudice che si ritiene, in tutto o in parte, viziato. Attraverso l''impugnazione è possibile chiedere un controllo del provvedimento impugnato da parte di un giudice diverso da quello che lo ha emesso e ottenere così una nuova pronuncia.
-Monolist:Composite:Longtext:it_lista_abstract_38=Luogo chiuso e isolato dalla società , destinato ad accogliere coloro che sono in attesa di giudizio o già  definitivamente condannati, comunemente definito carcere. Gli istituti penitenziari fanno capo al Dipartimento dell''amministrazione penitenziaria, istituita presso il Ministero della Giustizia.
+Monolist:Composite:Longtext:it_lista_abstract_33=E'' una delle funzioni fondamentali dello Stato, esercitata dai magistrati che costituiscono l''ordine giudiziario. ï¿½ diretta all''applicazione delle norme giuridiche ai singoli casi concreti. La giurisdizione si distingue in ordinaria e speciale. La giurisdizione ordinaria ï¿½ esercitata da magistrati ordinari e riguarda le materie che la legge non riserva ai giudici speciali. Sono organi della giurisdizione ordinaria, ad esempio, il Tribunale e la Corte di Cassazione. La giurisdizione speciale, invece, riguarda materie che la legge riserva a una magistratura speciale. Sono organi della giurisdizione speciale, ad esempio, i Tribunali Amministrativi Regionali e il Consiglio di Stato. A seconda degli ambiti e delle competenze la giurisdizione si differenzia in costituzionale, civile, penale, amministrativa, contabile, tributaria e militare. Lo strumento principale dell''attivitï¿½ giurisdizionale ï¿½ il processo, che attraverso il contraddittorio delle parti mira alla pronuncia di un provvedimento, ad esempio una sentenza, con cui la legge viene interpretata e applicata al caso concreto.
+Monolist:Composite:Longtext:it_lista_abstract_34=Indica la fase in cui si trova un giudizio: l''ordinamento italiano accoglie il principio del "doppio grado di giudizio" secondo il quale ï¿½ ammesso un riesame della decisione emessa in primo grado. Si dice giudizio di primo grado, pertanto, quello in cui il giudice esamina e giudica una causa nel merito per la prima volta, di secondo grado (o in grado d''appello) quello in cui il giudice riesamina e si pronuncia sulla stessa causa per la seconda volta. E'' inoltre ammesso un giudizio di legittimitï¿½, ossia di controllo sulla legalitï¿½ dei precedenti gradi di giudizio, che si svolge avanti alla Corte di Cassazione.
+Monolist:Composite:Longtext:it_lista_abstract_31=Sono cittadini chiamati a comporre la Corte di Assise o la Corte di Assise di Appello insieme ai giudici togati. I loro nominativi sono estratti a sorte da apposite liste comunali. La nomina a giudice popolare ï¿½ subordinata ad alcuni requisiti necessari: la cittadinanza italiana, l''etï¿½ compresa tra i 30 e i 65 anni, il godimento dei diritti civili e politici, la buona condotta morale, la licenza di Scuola Media Inferiore (per la Corte di Assise), licenza di Scuola Media Superiore (per la Corte di Assise di Appello). Sono esclusi magistrati e funzionari in servizio all''ordine giudiziario, gli appartenenti alle Forze Armate e alla Polizia, membri di culto e religiosi di ogni ordine e congregazione.
+Monolist:Composite:Longtext:it_lista_abstract_32=Il giudizio abbreviato ï¿½ uno dei riti alternativi introdotti dal nuovo codice di procedura penale. E'' caratterizzato dal fatto che con esso si evita il dibattimento e la decisione viene presa dal giudice allo stato degli atti delle indagini preliminari svolte dal Pubblico Ministero, che assumono valore di prova. Con esso l''imputato rinuncia al dibattimento e alle sue garanzie, accettando di essere giudicato in base agli atti raccolti nelle indagini preliminari e contenuti nel fascicolo del Pubblico Ministero. In cambio, in caso di condanna, la pena ï¿½ ridotta di un terzo.
+Monolist:Composite:Longtext:it_lista_abstract_37=E'' un rimedio giuridico creato per rimuovere uno svantaggio derivante da un provvedimento del giudice che si ritiene, in tutto o in parte, viziato. Attraverso l''impugnazione ï¿½ possibile chiedere un controllo del provvedimento impugnato da parte di un giudice diverso da quello che lo ha emesso e ottenere cosï¿½ una nuova pronuncia.
+Monolist:Composite:Longtext:it_lista_abstract_38=Luogo chiuso e isolato dalla societï¿½, destinato ad accogliere coloro che sono in attesa di giudizio o giï¿½  definitivamente condannati, comunemente definito carcere. Gli istituti penitenziari fanno capo al Dipartimento dell''amministrazione penitenziaria, istituita presso il Ministero della Giustizia.
 Monolist:Composite:Longtext:it_lista_abstract_35=Si tratta di un beneficio previsto dalla Costituzione (art. 24 Cost.) che consiste nel riconoscimento dell''assistenza legale gratuita, per promuovere un giudizio o per difendersi davanti al giudice, alle persone che non sono in grado di sostenerne le spese. Al pagamento delle spese (avvocati, consulenti ed investigatori autorizzati) si provvede mediante il patrocinio a spese dello Stato.
-Monolist:Composite:Longtext:it_lista_abstract_36=Con questo termine si designa il Ministro della Giustizia, il quale, per tradizione, è il custode del sigillo dello Stato e in questa veste controfirma le leggi e i decreti al fine di provvedere alla loro pubblicazione.
+Monolist:Composite:Longtext:it_lista_abstract_36=Con questo termine si designa il Ministro della Giustizia, il quale, per tradizione, ï¿½ il custode del sigillo dello Stato e in questa veste controfirma le leggi e i decreti al fine di provvedere alla loro pubblicazione.
 Monolist:Composite:Text:en_lista_title_19=
 Monolist:Composite:Text:en_lista_title_29=
 Monolist:Composite:Text:en_lista_title_28=
 Monolist:Composite:Text:en_lista_title_27=
 Monolist:Composite:Text:en_lista_title_26=
 Monolist:Composite:Text:en_lista_title_25=
-Monolist:Composite:Longtext:it_lista_abstract_30=Il 2 giugno 1999 è divenuto efficace il Decreto legislativo 19 febbraio 1998, n. 51 che ha riformato l''organizzazione dell''ordinamento giudiziario istituendo la nuova figura del Giudice Unico di primo grado.
+Monolist:Composite:Longtext:it_lista_abstract_30=Il 2 giugno 1999 ï¿½ divenuto efficace il Decreto legislativo 19 febbraio 1998, n. 51 che ha riformato l''organizzazione dell''ordinamento giudiziario istituendo la nuova figura del Giudice Unico di primo grado.
 Il decreto ha abolito l''ufficio del Pretore trasferendo le sue competenze al Tribunale ordinario in materia sia civile che penale, escluso quanto attribuito al Giudice di pace.
 Il Tribunale ordinario decide, sia in materia civile che penale, prevalentemente in composizione monocratica (giudice singolo) e per specifiche ipotesi in composizione collegiale (collegio di tre giudici).
 
@@ -36710,7 +36146,7 @@ Monolist:Composite:Text:it_lista_title_40=Misure alternative alla detenzione
 Monolist:Composite:Text:it_lista_title_41=Notificazione
 Monolist:Composite:Text:it_lista_title_44=Patteggiamento
 Monolist:Composite:Text:it_lista_title_45=Persona fisica
-Monolist:Composite:Text:it_lista_title_42=Pari opportunità  tra uomo e donna
+Monolist:Composite:Text:it_lista_title_42=Pari opportunitï¿½ tra uomo e donna
 Monolist:Composite:Longtext:en_lista_abstract_8=
 Monolist:Composite:Text:it_lista_title_43=Patrocinio a spese dello stato
 Monolist:Composite:Longtext:en_lista_abstract_9=
@@ -36731,22 +36167,22 @@ resourceTypeCode=
 Monolist:Composite:Longtext:en_lista_abstract_3=
 Monolist:Composite:Longtext:en_lista_abstract_0=
 Monolist:Composite:Longtext:en_lista_abstract_1=
-Monolist:Composite:Longtext:it_lista_abstract_19=E'' un organo della giurisdizione ordinaria penale competente a giudicare in primo grado solo per alcuni gravi reati. E'' composta da un Presidente (magistrato di Corte d''Appello), da un "giudice a latere" (magistrato di Tribunale) e da sei giudici popolari. Nello svolgimento della loro funzione i giudici popolari sono equiparati ai magistrati di Tribunale e partecipano alla formazione della sentenza con parità  di voto.
+Monolist:Composite:Longtext:it_lista_abstract_19=E'' un organo della giurisdizione ordinaria penale competente a giudicare in primo grado solo per alcuni gravi reati. E'' composta da un Presidente (magistrato di Corte d''Appello), da un "giudice a latere" (magistrato di Tribunale) e da sei giudici popolari. Nello svolgimento della loro funzione i giudici popolari sono equiparati ai magistrati di Tribunale e partecipano alla formazione della sentenza con paritï¿½ di voto.
 Monolist:Composite:Longtext:en_lista_abstract_59=
-Monolist:Composite:Longtext:it_lista_abstract_17=E'' un organo previsto dalla Costituzione (articoli 100 e 103) che svolge funzioni di controllo di legittimità  sugli atti del Governo e della pubblica amministrazione; sulla gestione del bilancio dello Stato, delle amministrazioni pubbliche e degli enti sovvenzionati dallo Stato. Svolge anche funzioni giurisdizionali in materia di contabilità  pubblica e di pensioni dei funzionari dello Stato. Si articola in sezioni "di controllo" e sezioni "giurisdizionali", per le questioni di maggior rilievo opera a sezioni unite. La Corte dei Conti ha anche funzioni consultive (attraverso la predisposizione di pareri) e referenti (in quanto è chiamata a riferire direttamente alle Camere sul risultato delle verifiche).
+Monolist:Composite:Longtext:it_lista_abstract_17=E'' un organo previsto dalla Costituzione (articoli 100 e 103) che svolge funzioni di controllo di legittimitï¿½ sugli atti del Governo e della pubblica amministrazione; sulla gestione del bilancio dello Stato, delle amministrazioni pubbliche e degli enti sovvenzionati dallo Stato. Svolge anche funzioni giurisdizionali in materia di contabilitï¿½ pubblica e di pensioni dei funzionari dello Stato. Si articola in sezioni "di controllo" e sezioni "giurisdizionali", per le questioni di maggior rilievo opera a sezioni unite. La Corte dei Conti ha anche funzioni consultive (attraverso la predisposizione di pareri) e referenti (in quanto ï¿½ chiamata a riferire direttamente alle Camere sul risultato delle verifiche).
 Monolist:Composite:Longtext:it_lista_abstract_18=E'' competente a giudicare in secondo grado di giudizio (appello) sulle sentenze pronunciate in primo grado dalla Corte di Assise.
 Monolist:Composite:Longtext:en_lista_abstract_55=
 Monolist:Composite:Longtext:en_lista_abstract_56=
 Monolist:Composite:Longtext:en_lista_abstract_57=
 Monolist:Composite:Longtext:en_lista_abstract_58=
-Monolist:Composite:Longtext:it_lista_abstract_11=Indica l''ambito territoriale in cui ciascun organo giudiziario esercita il potere giurisdizionale. La ripartizione delle circoscrizioni è fissata dalla legge: la circoscrizione giudiziaria del Tribunale è definita circondario, la circoscrizione giudiziaria della Corte d''Appello è il distretto, mentre la Corte di Cassazione è competente per tutto il territorio nazionale.
-Monolist:Composite:Longtext:it_lista_abstract_12=E'' un organo della giurisdizione tributaria che ha la funzione di risolvere le controversie venutesi a creare tra i contribuenti e il Fisco. La Commissione Tributaria Provinciale è competente nel giudizio di primo grado, la Commissione Tributaria Regionale in quello di secondo grado.
-Monolist:Composite:Longtext:it_lista_abstract_10=E'' un atto attraverso il quale la pubblica amministrazione documenta fatti o attesta diritti. Nei casi previsti dalla legge, è rilasciato anche da privati investiti di pubbliche funzioni (notai, avvocati, medici...). Il certificato fa piena prova di quanto in esso affermato, fino a querela di falso.
-Monolist:Composite:Longtext:it_lista_abstract_15=E'' un organo previsto dalla nostra Costituzione per: - giudicare sulla costituzionalità  delle leggi, cioè per verificare se queste sono conformi a quanto stabilito dalla stessa Costituzione - giudicare sui conflitti di competenza tra i poteri dello Stato (legislativo, amministrativo, giurisdizionale), su quelli tra Stato e Regioni o tra le Regioni - giudicare sull''ammissibilitÃ  dei referendum abrogativi - giudicare penalmente, nei casi previsti dalla legge, il Presidente della Repubblica. Ãˆ formata da 15 giudici che restano in carica 9 anni: 5 sono nominati dal Presidente della Repubblica, 5 dal Parlamento in seduta comune, 5 dai magistrati ordinari e amministrativi di grado piÃ¹ elevato. Ogni tre anni i giudici della Corte Costituzionale eleggono tra loro un Presidente. Per giudicare penalmente il Presidente della Repubblica (cosa mai avvenuta sinora) ai 15 giudici se ne aggiungono altri 16 che vengono estratti a sorte da una lista di cittadini (eleggibili al Senato) compilata dal Parlamento ogni 9 anni.
+Monolist:Composite:Longtext:it_lista_abstract_11=Indica l''ambito territoriale in cui ciascun organo giudiziario esercita il potere giurisdizionale. La ripartizione delle circoscrizioni ï¿½ fissata dalla legge: la circoscrizione giudiziaria del Tribunale ï¿½ definita circondario, la circoscrizione giudiziaria della Corte d''Appello ï¿½ il distretto, mentre la Corte di Cassazione ï¿½ competente per tutto il territorio nazionale.
+Monolist:Composite:Longtext:it_lista_abstract_12=E'' un organo della giurisdizione tributaria che ha la funzione di risolvere le controversie venutesi a creare tra i contribuenti e il Fisco. La Commissione Tributaria Provinciale ï¿½ competente nel giudizio di primo grado, la Commissione Tributaria Regionale in quello di secondo grado.
+Monolist:Composite:Longtext:it_lista_abstract_10=E'' un atto attraverso il quale la pubblica amministrazione documenta fatti o attesta diritti. Nei casi previsti dalla legge, ï¿½ rilasciato anche da privati investiti di pubbliche funzioni (notai, avvocati, medici...). Il certificato fa piena prova di quanto in esso affermato, fino a querela di falso.
+Monolist:Composite:Longtext:it_lista_abstract_15=E'' un organo previsto dalla nostra Costituzione per: - giudicare sulla costituzionalitï¿½ delle leggi, cioï¿½ per verificare se queste sono conformi a quanto stabilito dalla stessa Costituzione - giudicare sui conflitti di competenza tra i poteri dello Stato (legislativo, amministrativo, giurisdizionale), su quelli tra Stato e Regioni o tra le Regioni - giudicare sull''ammissibilitÃ  dei referendum abrogativi - giudicare penalmente, nei casi previsti dalla legge, il Presidente della Repubblica. Ãˆ formata da 15 giudici che restano in carica 9 anni: 5 sono nominati dal Presidente della Repubblica, 5 dal Parlamento in seduta comune, 5 dai magistrati ordinari e amministrativi di grado piÃ¹ elevato. Ogni tre anni i giudici della Corte Costituzionale eleggono tra loro un Presidente. Per giudicare penalmente il Presidente della Repubblica (cosa mai avvenuta sinora) ai 15 giudici se ne aggiungono altri 16 che vengono estratti a sorte da una lista di cittadini (eleggibili al Senato) compilata dal Parlamento ogni 9 anni.
 Monolist:Composite:Longtext:it_lista_abstract_16=E'' un organo della giurisdizione ordinaria, civile e penale composto da tre giudici. E'' competente a giudicare in secondo grado di giudizio, detto appunto grado d''appello, sulle sentenze pronunciate in primo grado dal Tribunale. Ha giurisdizione all''interno della propria circoscrizione territoriale, circoscrizione che prende il nome di distretto e che generalmente corrisponde al territorio di una Regione e ha sede nel suo capoluogo.
-Monolist:Composite:Longtext:it_lista_abstract_13=E'' un organo che ha funzioni consultive e funzioni giurisdizionali in ambito amministrativo. In qualità  di organo consultivo (tre sezioni) il Consiglio si esprime in merito a tutte le materie riguardanti la Pubblica Amministrazione e si esprime attraverso il pronunciamento di "pareri" che possono essere "facoltativi" o "obbligatori". In qualità  di organo giurisdizionale (tre sezioni) è competente a decidere nel giudizio di secondo grado in merito ai provvedimenti emessi dai Tribunali Amministrativi Regionali.
-Monolist:Composite:Longtext:it_lista_abstract_14=E'' l''organo previsto dalla Costituzione (art. 104) per l''autogoverno della magistratura. Adotta i provvedimenti riguardanti assunzioni, assegnazioni, trasferimenti e promozioni dei magistrati, nonchè i provvedimenti disciplinari.
-E'' composto dal Presidente della Repubblica (che lo presiede) dal primo Presidente della Corte di Cassazione e dal Procuratore Generale presso di essa (che ne sono membri di diritto) e da ventiquattro membri elettivi che durano in carica quattro anni: due terzi sono magistrati ordinari (eletti dalla magistratura), un terzo sono professori ordinari di università  in materie giuridiche e avvocati con quindici anni di esercizio (cosiddetti "membri laici" eletti dal Parlamento in seduta comune).
+Monolist:Composite:Longtext:it_lista_abstract_13=E'' un organo che ha funzioni consultive e funzioni giurisdizionali in ambito amministrativo. In qualitï¿½ di organo consultivo (tre sezioni) il Consiglio si esprime in merito a tutte le materie riguardanti la Pubblica Amministrazione e si esprime attraverso il pronunciamento di "pareri" che possono essere "facoltativi" o "obbligatori". In qualitï¿½ di organo giurisdizionale (tre sezioni) ï¿½ competente a decidere nel giudizio di secondo grado in merito ai provvedimenti emessi dai Tribunali Amministrativi Regionali.
+Monolist:Composite:Longtext:it_lista_abstract_14=E'' l''organo previsto dalla Costituzione (art. 104) per l''autogoverno della magistratura. Adotta i provvedimenti riguardanti assunzioni, assegnazioni, trasferimenti e promozioni dei magistrati, nonchï¿½ i provvedimenti disciplinari.
+E'' composto dal Presidente della Repubblica (che lo presiede) dal primo Presidente della Corte di Cassazione e dal Procuratore Generale presso di essa (che ne sono membri di diritto) e da ventiquattro membri elettivi che durano in carica quattro anni: due terzi sono magistrati ordinari (eletti dalla magistratura), un terzo sono professori ordinari di universitï¿½ in materie giuridiche e avvocati con quindici anni di esercizio (cosiddetti "membri laici" eletti dal Parlamento in seduta comune).
 Monolist:Composite:Text:it_lista_title_51=Procura generale della repubblica presso la corte suprema di cassazione
 Monolist:Composite:Text:it_lista_title_52=Referendum
 Monolist:Composite:Text:it_lista_title_50=Procura della repubblica
@@ -37589,7 +37025,7 @@ Monolist:Composite:Text:en_contProc_title_0=
 __multiselect_extraGroupNames=
 descr=Procedura Concorsuale Lista
 Monolist:Composite:Longtext:it_contProc_text_0=Decreto del 07/12/2017, domanda di liquidazione presentata il 06/12/2017, decreto di integrazione e parziale modifica del 21/12/2017.
-Monolist:Composite:Longtext:it_contProc_text_1=Si comunica che è pubblicato il decreto N. 1042/2018 N.V.G. emesso in data 22.01.2019 dalla dott.ssa Mary Carmisciano.
+Monolist:Composite:Longtext:it_contProc_text_1=Si comunica che ï¿½ pubblicato il decreto N. 1042/2018 N.V.G. emesso in data 22.01.2019 dalla dott.ssa Mary Carmisciano.
 Monolist:Composite:Longtext:en_contProc_text_1=
 contentOnSessionMarker=PRO_newContent
 Monolist:Composite:Longtext:en_contProc_text_0=
@@ -37690,3 +37126,389 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2019-06-18 15:08:30');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2788,'admin','2019-06-19 15:58:50','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','pageCode=homepage
+frame=8
+widgetTypeCode=content_viewer_list
+contentType=CTM
+categories=link_utili
+categoryCodes=link_utili
+modelId=4
+maxElemForItem=8
+maxElements=
+categoryCode=
+filterKey=keyFilter_created
+filters=(order=ASC;attributeFilter=false;key=created)
+title_it=UtilitÃ 
+title_en=UtilitÃ 
+pageLink=link_utili
+linkDescr_it=Vedi Tutti
+linkDescr_en=Vedi Tutti
+userFilterKey=fulltext
+userFilters=
+entandoaction:saveListViewerConfig=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>1</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-19 15:58:50');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2789,'admin','2019-06-19 15:58:51','/do/rs/Page','setOnline','pageCode=homepage
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-19 15:58:51');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2790,'admin','2019-06-19 16:47:37','/do/jacms/Content','saveAndApprove','descr=TRASPARENZA HOME PAGE
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CTA_editContent_CTA71
+resourceTypeCode=
+Text:it_title=Trasparenza
+Monolist:Composite:Text:it_lista_title_0=Amministrazione Trasparente
+Monolist:Composite:Longtext:it_lista_abstract_0=
+Monolist:Composite:Link:it_lista_link_0=Amministrazione Trasparente
+Monolist:Composite:Date:lista_date_0=
+Monolist:Composite:Number:lista_number_0=
+Monolist:Composite:Text:it_lista_title_1=PubblicitÃ   Legale
+Monolist:Composite:Longtext:it_lista_abstract_1=
+Monolist:Composite:Link:it_lista_link_1=PubblicitÃ   Legale
+Monolist:Composite:Date:lista_date_1=
+Monolist:Composite:Number:lista_number_1=
+Monolist:Composite:Text:it_lista_title_2=Bilancio
+Monolist:Composite:Longtext:it_lista_abstract_2=
+Monolist:Composite:Link:it_lista_link_2=Bilancio Sociale
+Monolist:Composite:Date:lista_date_2=
+Monolist:Composite:Number:lista_number_2=
+jacmsPreviewActionPageCode_it=
+Text:en_title=Trasparenza
+Monolist:Composite:Text:en_lista_title_0=Amministrazione Trasparente
+Monolist:Composite:Longtext:en_lista_abstract_0=
+Monolist:Composite:Link:en_lista_link_0=Amministrazione Trasparente
+Monolist:Composite:Text:en_lista_title_1=Pubblicita Legale
+Monolist:Composite:Longtext:en_lista_abstract_1=
+Monolist:Composite:Link:en_lista_link_1=Pubblicita Legale
+Monolist:Composite:Text:en_lista_title_2=Bilancio
+Monolist:Composite:Longtext:en_lista_abstract_2=
+Monolist:Composite:Link:en_lista_link_2=Bilancio
+jacmsPreviewActionPageCode_en=
+status=READY
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">TRASPARENZA HOME PAGE</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA71</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-19 16:47:37');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2792,'admin','2019-06-20 13:03:10','/do/jacms/Content','saveAndApprove','descr=TEST-TEST-TEST
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=PRO_newContent
+resourceTypeCode=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">TEST-TEST-TEST</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>11</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">PRO2791</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-20 13:03:10');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2793,'admin','2019-06-20 16:11:39','/do/Page/SpecialWidget','saveConfigSimpleParameter','pageCode=moduli
+frame=5
+widgetTypeCode=lista_moduli
+mainCategoryFilter=moduli
+categoryCodesCSV=cittadino,allegati
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Moduli</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Moduli</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>1</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">moduli</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-20 16:11:39');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2794,'admin','2019-06-20 16:11:44','/do/rs/Page','setOnline','pageCode=moduli
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Moduli</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Moduli</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">moduli</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-20 16:11:44');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2797,'admin','2019-06-20 17:24:06','/do/rs/Page','setOnline','pageCode=homepage
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-20 17:24:06');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2798,'admin','2019-06-20 17:37:15','/do/jacms/Page/SpecialWidget/Viewer','saveViewerConfig','pageCode=homepage
+frame=10
+widgetTypeCode=content_viewer
+contentId=CTA76
+modelId=8
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>1</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">10</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-20 17:37:15');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2799,'admin','2019-06-20 17:57:02','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','pageCode=homepage
+frame=7
+widgetTypeCode=content_viewer_list
+contentType=CTM
+categories=news
+categoryCodes=news
+modelId=1
+maxElemForItem=3
+maxElements=3
+categoryCode=
+filterKey=keyFilter_created
+filters=(attributeFilter=true;order=ASC;key=primopiano;value=false)+(attributeFilter=false;order=DESC;key=created)
+title_it=News
+title_en=News
+pageLink=news
+linkDescr_it=Lista News
+linkDescr_en=Lista News
+userFilterKey=fulltext
+userFilters=
+entandoaction:saveListViewerConfig=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>1</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">7</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-20 17:57:02');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2800,'admin','2019-06-20 17:57:04','/do/rs/Page','setOnline','pageCode=homepage
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-20 17:57:04');
