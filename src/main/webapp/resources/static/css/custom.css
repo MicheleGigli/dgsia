@@ -3,7 +3,7 @@
     color: #fff;
 }
 
-.linkHover:hover {    
+.servizi a.card-body-link:hover {    
     color: white;
 }
 
@@ -11,6 +11,10 @@
     color: #fff;
     font-size: 1em;
     padding: 0;
+}
+
+.owl-carousel-link {
+    margin: 4em 0;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1124,6 +1128,10 @@ ul.link-list .list-item {
     .modal .modal-dialog {
         margin: 48px;
     }
+    .custom-list-content .card-header {
+        position: relative;
+        height: 155px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 1024px) and (orientation: landscape) {
@@ -1567,5 +1575,9 @@ ul.link-list .list-item {
         -webkit-box-shadow: 0px 13px 9px -1px rgba(0, 0, 0, 1);
         -moz-box-shadow: 0px 13px 9px -1px rgba(0, 0, 0, 1);
         box-shadow: 0px 13px 9px -1px rgba(0, 0, 0, 1);
+    }
+    .custom-list-content .card-header {
+        position: relative;
+        height: 121px;
     }
 }
