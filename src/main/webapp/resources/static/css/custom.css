@@ -613,7 +613,7 @@ ul.link-list .list-item {
 }
 
 #section5 {
-    margin: 143px 0 95px 0;
+    margin: 0;
 }
 
 .owl-carousel.owl-drag .owl-item {
@@ -720,7 +720,7 @@ ul.link-list .list-item {
 
 @media (min-width: 320px) and (max-width: 1024px) and (orientation: portrait) {
     .container {
-        max-width: 89%;
+        max-width: 96%;
     }
     .card .card-body .category-top a.category {
         font-size: 32px;
@@ -1460,7 +1460,7 @@ ul.link-list .list-item {
     }
     .card-header {
         position: relative;
-        height: 85px;
+        height: 113px;
     }
     .navbar {
         padding: 0px 16px;
@@ -1551,7 +1551,7 @@ ul.link-list .list-item {
     }
     .img-responsive-wrapper .img-responsive {
         position: relative;
-        padding-bottom: 1%;
+        padding-bottom: 40%;
         height: 0;
     }
     .navbar {
