@@ -3,6 +3,10 @@
     color: #fff;
 }
 
+.linkHover:hover {    
+    color: white;
+}
+
 .it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
     color: #fff;
     font-size: 1em;
@@ -153,6 +157,11 @@
 
 .card::after {
     display: none;
+}
+
+.custom-list-content .card-header {
+    position: relative;
+    height: 79px;
 }
 
 .card-header {
