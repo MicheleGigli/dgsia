@@ -146,17 +146,6 @@
     right: 0;
 }
 
-
-/*#carouselExampleControls .carousel-item {
-    display:block
-}*/
-
-
-/**/
-
-
-/* CARD */
-
 .row [class*="col-"]>.card-wrapper,
 .row [class*="col-"]>.card-wrapper>.card {
     height: auto;
@@ -168,7 +157,7 @@
 
 .card-header {
     position: relative;
-    height: 79px;
+    height: 60px;
 }
 
 .card-header .card-text {
@@ -213,13 +202,6 @@
     color: #17324d;
 }
 
-.linkHover:hover {    
-  color: white;
-}
-
-
-/**/
-
 
 /* SERVIZI */
 
@@ -240,17 +222,11 @@
     font-size: 1rem;
 }
 
-
-/* in home */
-
 #section1 .img-fluid {
     max-width: initial;
     width: 100%;
     height: auto;
 }
-
-
-/**/
 
 
 /* NOTIZIE IN PRIMO PIANO */
@@ -572,9 +548,6 @@ ul.link-list .list-item {
 }
 
 .news-body p {
-    /*    white-space: nowrap;
-overflow: hidden;
-text-overflow: ellipsis;*/
     overflow: hidden;
 }
 
@@ -582,7 +555,6 @@ text-overflow: ellipsis;*/
     font-size: .875rem;
     line-height: 1.2rem;
     min-height: 65px;
-    max-height: 65px;
 }
 
 .card-news .card-body {
@@ -641,7 +613,7 @@ text-overflow: ellipsis;*/
 }
 
 #section5 {
-    margin: 90px 0 46px 0;
+    margin: 143px 0 95px 0;
 }
 
 .owl-carousel.owl-drag .owl-item {
@@ -657,7 +629,6 @@ text-overflow: ellipsis;*/
     background-color: transparent;
     background-image: none;
     box-shadow: inset 0 0 0 1px #fff;
-    text-transform: capitalize;
 }
 
 .btn-access {
@@ -668,16 +639,12 @@ text-overflow: ellipsis;*/
 .menu-mobile-bar .form-control::-webkit-input-placeholder {
     color: white;
 }
-.menu-mobile-bar .form-control:-moz-placeholder {
-    color: white;
-}
+
 .menu-mobile-bar .form-control::-moz-placeholder {
     color: white;
 }
+
 .menu-mobile-bar .form-control:-ms-input-placeholder {
-    color: white;
-}
-.menu-mobile-bar .form-control::-ms-input-placeholder {
     color: white;
 }
 
@@ -697,7 +664,22 @@ text-overflow: ellipsis;*/
     box-shadow: inset 0 0 0 1px #fff;
 }
 
+.blocca {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 10000;
+}
+
+.search-custom .form-control {
+    display: block;
+    width: 100%;
+    color: #fff;
+}
+
+
 /* CUSTOM MEDIA QUERIES */
+
 
 /* COOCKIE BAR */
 
@@ -715,7 +697,6 @@ text-overflow: ellipsis;*/
         font-size: .875rem;
         line-height: 1.2rem;
         min-height: 120px;
-        text-align: justify;
     }
     .detail .card-body p {
         font-size: .875rem;
@@ -739,7 +720,7 @@ text-overflow: ellipsis;*/
 
 @media (min-width: 320px) and (max-width: 1024px) and (orientation: portrait) {
     .container {
-        max-width: 880px;
+        max-width: 89%;
     }
     .card .card-body .category-top a.category {
         font-size: 32px;
@@ -750,19 +731,20 @@ text-overflow: ellipsis;*/
     }
     .card .card-body h5.card-title.big-heading,
     .card .card-body h5.card-title {
-        font-size: 42px;
+        font-size: 47px;
+        line-height: 53px;
     }
     .card .card-body p {
-        font-size: 36px;
-        line-height: 37px;
+        font-size: 46px;
+        line-height: 59px;
         min-height: 188px;
     }
     .card .card-body .card-signature {
-        font-size: 32px;
+        font-size: 39px;
     }
     a.read-more {
         margin-top: 14px;
-        font-size: 32px;
+        font-size: 39px;
     }
     h2 {
         font-size: 44px;
@@ -772,7 +754,7 @@ text-overflow: ellipsis;*/
     }
     .card-body-link {
         color: white;
-        font-size: 34px;
+        font-size: 46px;
     }
     .card-header {
         position: relative;
@@ -780,13 +762,13 @@ text-overflow: ellipsis;*/
     }
     .card-header .card-text.orange {
         border-color: #FF9700;
-        font-size: 34px;
+        font-size: 41px;
     }
     .btn {
         font-size: 32px;
     }
     a.text-white {
-        font-size: 42px;
+        font-size: 50px;
     }
     .img-fluid {
         width: 100%;
@@ -794,7 +776,7 @@ text-overflow: ellipsis;*/
     }
     .it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
         color: #fff;
-        font-size: 37px;
+        font-size: 45px;
         font-weight: 500;
     }
     .it-header-slim-wrapper .it-header-slim-wrapper-content .dropdown-menu {
@@ -803,32 +785,33 @@ text-overflow: ellipsis;*/
     }
     .it-header-slim-wrapper .it-header-slim-wrapper-content a.dropdown-toggle {
         text-transform: uppercase;
-        font-size: 31px;
+        font-size: 38px;
         text-decoration: underline;
         align-items: center;
+        margin-top: -15px;
     }
     .icon-light {
         fill: #ffffff;
     }
     .icon {
-        width: 71px;
-        height: 71px;
+        width: 50px;
+        height: 50px;
         vertical-align: middle;
     }
     .it-carousel-wrapper .owl-dots .owl-dot {
-        width: 32px;
-        height: 32px;
+        width: 52px;
+        height: 52px;
         background: #0059b3;
         display: inline-block;
         opacity: .3;
         -webkit-transition: .3s;
         transition: .3s;
         border-radius: 50px;
-        margin: 0 8px;
+        margin: 0 15px;
     }
     .navbar .navbar-collapse .navbar-nav li a.nav-link {
         color: #FFF;
-        font-size: 43px;
+        font-size: 47px;
         font-weight: 600;
     }
     .menu-mobile-bar {
@@ -860,24 +843,23 @@ text-overflow: ellipsis;*/
         font-size: 33px;
     }
     .breadcrumb {
-        font-size: 41px;
-        padding: .5em 0!important;
+        font-size: 42px;
+        font-weight: 600;
     }
     .container p {
-        font-size: 32px
+        font-size: 45px;
     }
     h2 {
         font-size: 56px !Important;
-        /* border-bottom: 1px solid #b1b1b3!important; */
     }
     .footer a {
         color: #333;
         text-decoration: underline;
-        font-size: 39px;
+        font-size: 41px;
     }
     .display-4,
     address {
-        font-size: 37px;
+        font-size: 41px;
     }
     .col-7 .card-header {
         position: relative;
@@ -885,7 +867,7 @@ text-overflow: ellipsis;*/
     }
     .text-muted {
         color: #5a768a!important;
-        font-size: 32px;
+        font-size: 40px;
     }
     .u-color-white {
         font-size: 32px;
@@ -893,7 +875,7 @@ text-overflow: ellipsis;*/
     }
     .h6,
     h6 {
-        font-size: 38px;
+        font-size: 1.6rem;
     }
     label {
         font-size: 26px;
@@ -917,7 +899,7 @@ text-overflow: ellipsis;*/
         height: 43px;
     }
     select {
-        font-size: 38px !important;
+        font-size: 32px !important;
         padding: 0 !important;
         height: calc(3.25rem + 2px) !important;
     }
@@ -925,20 +907,15 @@ text-overflow: ellipsis;*/
         font-size: 32px;
     }
     .collapse-body {
-        padding: 26px 11px;
-        font-size: 36px;
-        text-align: justify;
-        border-bottom: 1px solid #383838;
+        padding: 12px 24px 42px;
+        font-size: 32px;
     }
     .card-title {
-        font-size: 42px;
-        margin: 1em 0;
+        font-size: 40px;
     }
     .card-body {
-        font-size: 36px;
-        text-align: justify;
+        font-size: 32px;
     }
-
     .navbar .dropdown-menu .link-list-wrapper ul li h3,
     .navbar .dropdown-menu .link-list-wrapper ul li a i,
     .navbar .dropdown-menu .link-list-wrapper ul li a span {
@@ -949,11 +926,10 @@ text-overflow: ellipsis;*/
         height: 46px;
     }
     .link-list-wrapper ul li a {
-        line-height: 2.3em;
-        /* font-size: 12px; */
+        line-height: 3.3em;
     }
     ul.link-list .list-item {
-        font-size: 37px;
+        font-size: 40px;
     }
     .collapse-header [data-toggle=collapse]:after {
         width: 3.5rem;
@@ -975,13 +951,10 @@ text-overflow: ellipsis;*/
     .form-group optgroup,
     .form-group textarea {
         font-size: 39px;
-        margin: 17px 0;
-        height: 3.5rem;
     }
     .list-group {
         list-style: none;
         padding-left: 0;
-        margin: 2em 0;
     }
     .form-group label {
         font-size: 1.7rem;
@@ -1016,27 +989,31 @@ text-overflow: ellipsis;*/
         left: 0;
         bottom: 0;
         margin: 0;
-        padding: 11px 11px;
+        padding: 31px 11px;
         width: 77%;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
         font-size: 1rem;
     }
+    #section5 {
+        margin: 143px 0 95px 0;
+    }
     .owl-next,
     .owl-prev {
-        font-size: 132px !important;
+        font-size: 147px !important;
         color: #003466 !important;
         outline: none !important;
+        margin: 0 25px;
     }
     .owl-carousel-link .owl-nav {
         position: absolute;
-        top: -153px;
+        top: -212px;
         right: 0;
     }
     .item-owl-custom {
         width: 100%;
-        height: 187px;
+        height: 255px;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
@@ -1052,26 +1029,23 @@ text-overflow: ellipsis;*/
     }
     .card-header {
         position: relative;
-        height: 133px;
+        height: 153px;
     }
-
     .search-custom input[type=text] {
-        width: 110px;
-        font-size: 35px;
+        width: 148px;
+        font-size: 45px;
         background: transparent;
         font-weight: 500;
         border-bottom: 1px solid #ffffff;
-        -webkit-transition: width 1s ease-in-out;
-        -moz-transition:width 1s ease-in-out;
-        -o-transition: width 1s ease-in-out;
-        transition: width 1s ease-in-out;
+        -webkit-transition: width .2s ease-in-out;
+        -moz-transition: width .2s ease-in-out;
+        -o-transition: width .2s ease-in-out;
+        transition: width .2s ease-in-out;
     }
-
     .search-custom input[type=text]:focus {
-        width: 260px;
-        font-size:35px;
+        width: 400px;
+        font-size: 44px;
     }
-
     .gj-datepicker-md [role=right-icon] {
         position: absolute;
         right: 0;
@@ -1082,15 +1056,14 @@ text-overflow: ellipsis;*/
         font-weight: 600 !important;
         font-size: 28px !important;
     }
-    .gj-picker-md table tr td div, .gj-picker-md table tr th div {
+    .gj-picker-md table tr td div,
+    .gj-picker-md table tr th div {
         display: block;
         width: 60px !important;
         height: 60px !important;
         line-height: 60px !important;
         font-size: 27px !important;
-
     }
-
     .gj-textbox-md {
         font-family: inherit !important;
         font-size: 28px !important;
@@ -1099,16 +1072,13 @@ text-overflow: ellipsis;*/
         margin: 0 !important;
         font-weight: 400 !important;
     }
-
     .pagination .page-item .page-link {
         height: 4.66667rem;
         min-width: 4.66667rem;
     }
-
-    a.page-link  {
-        font-size:32px !important;
+    a.page-link {
+        font-size: 32px !important;
     }
-
     .badge {
         display: inline-block;
         padding: .25em .4em;
@@ -1120,39 +1090,62 @@ text-overflow: ellipsis;*/
         vertical-align: baseline;
         border-radius: 4px;
     }
-
-    .nav-link {
-        display: block;
-        padding: .1rem 1rem;
+    .navbar {
+        padding: 19px 16px;
+        position: sticky;
+        z-index: 9999;
+    }
+    .icon {
+        width: 80px;
+        height: 80px;
+        vertical-align: middle;
+    }
+    .it-header-slim-wrapper {
+        background: #0059b3;
+        padding: 40.5px 18px;
+    }
+    .list-group-item {
+        padding: 0;
+    }
+    .navbar {
+        -webkit-box-shadow: 0px 13px 9px -1px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 0px 13px 9px -1px rgba(0, 0, 0, 1);
+        box-shadow: 0px 13px 9px -1px rgba(0, 0, 0, 1);
+    }
+    .modal .modal-dialog {
+        margin: 48px;
     }
 }
 
 @media (min-width: 320px) and (max-width: 1024px) and (orientation: landscape) {
+    .list-group-item {
+        padding: 1rem;
+    }
     .container {
         max-width: 880px;
     }
     .card .card-body .category-top a.category {
-        font-size: 32px;
+        font-size: 21px;
         text-decoration: underline;
     }
     .data {
-        font-size: 32px;
+        font-size: 21px;
     }
     .card .card-body h5.card-title.big-heading,
     .card .card-body h5.card-title {
-        font-size: 42px;
+        font-size: 28px;
     }
     .card .card-body p {
-        font-size: 36px;
-        line-height: 37px;
-        min-height: 188px;
+        font-size: 24px;
+        line-height: 32px;
+        min-height: 83px;
     }
     .card .card-body .card-signature {
-        font-size: 32px;
+        font-size: 21px;
     }
     a.read-more {
         margin-top: 14px;
-        font-size: 32px;
+        font-size: 23px;
     }
     h2 {
         font-size: 44px;
@@ -1162,7 +1155,7 @@ text-overflow: ellipsis;*/
     }
     .card-body-link {
         color: white;
-        font-size: 34px;
+        font-size: 28px;
     }
     .card-header {
         position: relative;
@@ -1170,21 +1163,30 @@ text-overflow: ellipsis;*/
     }
     .card-header .card-text.orange {
         border-color: #FF9700;
-        font-size: 34px;
+        font-size: 28px;
     }
     .btn {
-        font-size: 32px;
+        font-size: 25px;
+        padding: 10px 10px 10px 10px;
     }
     a.text-white {
-        font-size: 42px;
+        font-size: 36px;
     }
     .img-fluid {
         width: 100%;
         height: auto;
     }
+    .header .img-fluid {
+        width: 63%;
+        height: auto;
+    }
+    .footer .img-fluid {
+        width: 50%;
+        height: auto;
+    }
     .it-header-slim-wrapper .it-header-slim-wrapper-content .navbar-brand {
         color: #fff;
-        font-size: 34px;
+        font-size: 23px;
         font-weight: 500;
     }
     .it-header-slim-wrapper .it-header-slim-wrapper-content .dropdown-menu {
@@ -1192,8 +1194,8 @@ text-overflow: ellipsis;*/
         left: -4px !important;
     }
     .it-header-slim-wrapper .it-header-slim-wrapper-content a.dropdown-toggle {
-        text-transform: uppercase;
-        font-size: 31px;
+        text-transform: capitalize;
+        font-size: 23px;
         text-decoration: underline;
         align-items: center;
     }
@@ -1201,24 +1203,24 @@ text-overflow: ellipsis;*/
         fill: #ffffff;
     }
     .icon {
-        width: 71px;
-        height: 71px;
+        width: 60px;
+        height: 60px;
         vertical-align: middle;
     }
     .it-carousel-wrapper .owl-dots .owl-dot {
-        width: 32px;
-        height: 32px;
+        width: 30px;
+        height: 30px;
         background: #0059b3;
         display: inline-block;
         opacity: .3;
         -webkit-transition: .3s;
         transition: .3s;
         border-radius: 50px;
-        margin: 0 8px;
+        margin: 0px 13px;
     }
     .navbar .navbar-collapse .navbar-nav li a.nav-link {
         color: #FFF;
-        font-size: 43px;
+        font-size: 26px;
         font-weight: 600;
     }
     .menu-mobile-bar {
@@ -1227,10 +1229,26 @@ text-overflow: ellipsis;*/
         position: relative;
         margin: 0 0 10px 0;
     }
+    .menu-wrapper .link-list-wrapper {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
     .search-custom {
         position: absolute;
         right: 0;
         top: -8px;
+    }
+    .search-custom input[type=text] {
+        width: 100px;
+        font-size: 28px;
+        background: transparent;
+        color: #fff;
+        font-weight: 500;
+        border-color: #fff;
+    }
+    .search-custom input[type=text]:focus {
+        width: 500px;
+        font-size: 29px;
     }
     .btn-search-custom {
         display: block;
@@ -1250,24 +1268,22 @@ text-overflow: ellipsis;*/
         font-size: 33px;
     }
     .breadcrumb {
-        font-size: 41px;
-        padding: .5em 0!important;
+        font-size: 26px;
     }
     .container p {
         font-size: 32px
     }
     h2 {
-        font-size: 56px !Important;
-        /* border-bottom: 1px solid #b1b1b3!important; */
+        font-size: 35px !Important;
     }
     .footer a {
         color: #333;
         text-decoration: underline;
-        font-size: 39px;
+        font-size: 27px;
     }
     .display-4,
     address {
-        font-size: 37px;
+        font-size: 27px;
     }
     .col-7 .card-header {
         position: relative;
@@ -1278,18 +1294,24 @@ text-overflow: ellipsis;*/
         font-size: 29px;
     }
     .u-color-white {
-        font-size: 32px;
-        margin-top: 20px;
+        font-size: 26px;
+    }
+    .u-padding-all-m {
+        padding: 1rem !important;
+        margin: 20px 0 0 0;
     }
     .h6,
     h6 {
-        font-size: 38px;
+        font-size: 26px;
     }
     label {
         font-size: 26px;
     }
     .gj-datepicker-md [role=right-icon] {
-        font-size: 38px !important;
+        position: absolute;
+        right: -5px;
+        top: -5px;
+        font-size: 38px;
     }
     .h5,
     h5 {
@@ -1307,43 +1329,36 @@ text-overflow: ellipsis;*/
         height: 43px;
     }
     select {
-        font-size: 38px !important;
-        padding: 0 !important;
-        height: calc(3.25rem + 2px) !important;
+        font-size: 26px !important;
+        height: calc(3rem + 2px) !important;
     }
     .collapse-header [data-toggle=collapse] {
         font-size: 32px;
     }
     .collapse-body {
-        padding: 26px 11px;
-        font-size: 36px;
-        text-align: justify;
-        border-bottom: 1px solid #383838;
+        padding: 12px 24px 42px;
+        font-size: 32px;
     }
     .card-title {
-        font-size: 42px;
-        margin: 1em 0;
+        font-size: 32px;
     }
     .card-body {
-        font-size: 36px;
-        text-align: justify;
+        font-size: 28px;
     }
-
     .navbar .dropdown-menu .link-list-wrapper ul li h3,
     .navbar .dropdown-menu .link-list-wrapper ul li a i,
     .navbar .dropdown-menu .link-list-wrapper ul li a span {
-        font-size: 42px;
+        font-size: 26px;
     }
     .icon.icon-sm {
         width: 46px;
         height: 46px;
     }
     .link-list-wrapper ul li a {
-        line-height: 2.3em;
-        /* font-size: 12px; */
+        line-height: 36px;
     }
     ul.link-list .list-item {
-        font-size: 37px;
+        font-size: 26px;
     }
     .collapse-header [data-toggle=collapse]:after {
         width: 3.5rem;
@@ -1353,7 +1368,7 @@ text-overflow: ellipsis;*/
         margin: 1.5rem auto;
     }
     .modal .modal-dialog .modal-content .modal-header h5 {
-        font-size: 43px;
+        font-size: 30px;
     }
     .modal label {
         font-size: 32px;
@@ -1364,14 +1379,11 @@ text-overflow: ellipsis;*/
     .form-group input,
     .form-group optgroup,
     .form-group textarea {
-        font-size: 39px;
-        margin: 17px 0;
-        height: 3.5rem;
+        font-size: 23px;
     }
     .list-group {
         list-style: none;
         padding-left: 0;
-        margin: 2em 0;
     }
     .form-group label {
         font-size: 1.7rem;
@@ -1392,8 +1404,8 @@ text-overflow: ellipsis;*/
         width: 77%;
     }
     .card .card-body h5.card-title {
-        margin-top: 13px;
-        margin-bottom: 37px;
+        margin-top: 0;
+        margin-bottom: 22px;
     }
     .carousel-desktop-view {
         display: none;
@@ -1407,7 +1419,7 @@ text-overflow: ellipsis;*/
         bottom: 0;
         margin: 0;
         padding: 11px 11px;
-        width: 77%;
+        width: 57%;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
@@ -1418,10 +1430,11 @@ text-overflow: ellipsis;*/
         font-size: 132px !important;
         color: #003466 !important;
         outline: none !important;
+        margin: 0 17px;
     }
     .owl-carousel-link .owl-nav {
         position: absolute;
-        top: -153px;
+        top: -203px;
         right: 0;
     }
     .item-owl-custom {
@@ -1440,28 +1453,21 @@ text-overflow: ellipsis;*/
         width: 100%;
         height: 300px;
     }
+    .card-news .img-wrapper .img-fluid {
+        max-width: initial;
+        width: 100%;
+        height: 200px;
+    }
     .card-header {
         position: relative;
         height: 85px;
     }
-
-    .search-custom input[type=text] {
-        width: 110px;
-        font-size: 35px;
-        background: transparent;
-        font-weight: 500;
-        border-bottom: 1px solid #ffffff;
-        -webkit-transition: width 1s ease-in-out;
-        -moz-transition:width 1s ease-in-out;
-        -o-transition: width 1s ease-in-out;
-        transition: width 1s ease-in-out;
+    .navbar {
+        padding: 0px 16px;
+        padding: 19px 16px;
+        position: sticky;
+        z-index: 9999;
     }
-
-    .search-custom input[type=text]:focus {
-        width: 488px;
-        font-size:35px;
-    }
-
     .gj-datepicker-md [role=right-icon] {
         position: absolute;
         right: 0;
@@ -1472,15 +1478,51 @@ text-overflow: ellipsis;*/
         font-weight: 600 !important;
         font-size: 28px !important;
     }
-    .gj-picker-md table tr td div, .gj-picker-md table tr th div {
+    .gj-picker-md table tr td div,
+    .gj-picker-md table tr th div {
         display: block;
         width: 60px !important;
         height: 60px !important;
         line-height: 60px !important;
         font-size: 27px !important;
-
     }
-
+    .gj-textbox-md {
+        font-family: inherit !important;
+        font-size: 26px !important;
+        line-height: 26px !important;
+        padding: 4px 0 !important;
+        margin: 0 !important;
+        font-weight: 400 !important;
+    }
+    .badge {
+        display: inline-block;
+        padding: .45em .69em;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 4px;
+    }
+    .gj-datepicker-md [role=right-icon] {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 35px !Important;
+    }
+    .gj-picker div[role=navigator] div[role=period] {
+        font-weight: 600 !important;
+        font-size: 28px !important;
+    }
+    .gj-picker-md table tr td div,
+    .gj-picker-md table tr th div {
+        display: block;
+        width: 60px !important;
+        height: 60px !important;
+        line-height: 60px !important;
+        font-size: 27px !important;
+    }
     .gj-textbox-md {
         font-family: inherit !important;
         font-size: 28px !important;
@@ -1489,30 +1531,32 @@ text-overflow: ellipsis;*/
         margin: 0 !important;
         font-weight: 400 !important;
     }
-
     .pagination .page-item .page-link {
-        height: 4.66667rem;
-        min-width: 4.66667rem;
+        height: 3.66667rem;
+        min-width: 3.66667rem;
     }
-
-    a.page-link  {
-        font-size:32px !important;
+    a.page-link {
+        font-size: 26px !important;
     }
-
     .badge {
         display: inline-block;
         padding: .25em .4em;
-        font-size: 75%;
-        font-weight: 700;
+        font-size: 28px;
+        font-weight: 600;
         line-height: 1;
         text-align: center;
         white-space: nowrap;
         vertical-align: baseline;
         border-radius: 4px;
     }
-
-    .nav-link {
-        display: block;
-        padding: .1rem 1rem;
+    .img-responsive-wrapper .img-responsive {
+        position: relative;
+        padding-bottom: 1%;
+        height: 0;
+    }
+    .navbar {
+        -webkit-box-shadow: 0px 13px 9px -1px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 0px 13px 9px -1px rgba(0, 0, 0, 1);
+        box-shadow: 0px 13px 9px -1px rgba(0, 0, 0, 1);
     }
 }

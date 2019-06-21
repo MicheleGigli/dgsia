@@ -286,6 +286,6 @@
         <a href="#" data-attribute="return-to-top" class="return-to-top"><i
                 class="it-collapse"></i><span class="sr-only">Collapse</span>
         </a>
-        <script src="<wp:resourceURL />static/js/bootstrap-italia.bundle.min.js"></script>
+
     </body>
 </html>

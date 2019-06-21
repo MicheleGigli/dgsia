@@ -1,7 +1,7 @@
-<%@ taglib prefix="wp" uri="/aps-core"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="wp" uri="/aps-core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="<wp:info key="currentLang" />">
@@ -15,6 +15,7 @@
     </head>
     <body>
 
+
         <div class="cookiebar bg-dark p-4 hide" aria-hidden="true">
             <p class="text-white">Questo sito utilizza cookie tecnici, analytics e di terze parti.
                 <br>Proseguendo nella navigazione accetti l'utilizzo dei cookie.<br>
@@ -24,6 +25,7 @@
                 <a href="" class="btn btn-outline-info">Privacy policy</a>
             </p>
         </div>
+
 
         <div class="it-header-slim-wrapper">
             <div class="container">
@@ -56,11 +58,9 @@
                                 <ul class="list-inline">
                                     <li class="list-inline-item">Seguici su</li>
                                     <li class="list-inline-item">
-                                        <a href="">
-                                            <svg class="icon icon-primary">
+                                        <a href=""><svg class="icon icon-primary">
                                             <use xlink:href="<wp:imgURL />sprite.svg#it-facebook "></use>
-                                            </svg>
-                                        </a>
+                                            </svg></a>
                                     </li>
                                     <li class="list-inline-item">
                                         <a href=""><svg class="icon icon-primary">
@@ -68,11 +68,9 @@
                                             </svg></a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href="">
-                                            <svg class="icon icon-primary">
+                                        <a href=""><svg class="icon icon-primary">
                                             <use xlink:href="<wp:imgURL />sprite.svg#it-youtube"></use>
-                                            </svg>
-                                        </a>
+                                            </svg></a>
                                     </li>
                                 </ul>
                             </div>
@@ -123,22 +121,30 @@
             </div>
         </nav>
 
-        <wp:show frame="4" />
-        <wp:show frame="5" />
-        <wp:show frame="6" />
+        <wp:show frame="4" /> 
+
         <section id="section2">
-            <wp:show frame="7" />
-        </section>
-        <section id="section3" class="bg-link">
-            <wp:show frame="8" />
-        </section>
-        <wp:show frame="9" />
-        <wp:show frame="10" />
-        <wp:show frame="11" />
-        <wp:show frame="12" />
-        <wp:show frame="13" />
+            <div class="container py-1">
+                <div class="row">
+                    <div class="col-lg-7 col-sm-12">
+                        <!--questa mostra il tiotlo della pagina corrente anche multilingua-->
+                        <h2 class="border-bottom"><wp:currentPage param="title" /></h2>
+                        <wp:show frame="5" />
+                        <wp:show frame="7" />
+                    </div>
+                    <!--                    <div class="col-lg">
+                                        </div>-->
+                    <div class="col-lg-5 col-sm-12">
+                        <wp:show frame="6" />
+                        <wp:show frame="8" />
+                    </div>
+                </div>
 
+                <wp:show frame="9" />
+                <wp:show frame="10" />
+            </div>
 
+        </section>
         <footer class="footer bg-300 py-5">
             <div class="container">
                 <div class="row">
@@ -155,7 +161,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col col-sm-6 col-lg-3 my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Argomento 1</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -168,7 +174,7 @@
                         </ul>
                     </div>
 
-                    <div class="col col-sm-6 col-lg-3 my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Argomento 2</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -181,7 +187,7 @@
                         </ul>
                     </div>
 
-                    <div class="col col-sm-6 col-lg-3 my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Argomento 3</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -194,7 +200,7 @@
                         </ul>
                     </div>
 
-                    <div class="col col-sm-6 col-lg-3 my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Argomento 4</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="">blanditiis soluta
@@ -209,7 +215,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col col-sm-6 col-lg-3 my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Contatti</h2>
                         <div>
                             <h3 class="display-4">Recapiti</h3>
@@ -220,7 +226,7 @@
                         </div>
                     </div>
 
-                    <div class="col col-sm-6 col-lg-3 my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Contatti</h2>
                         <div>
                             <h3 class="display-4">Recapiti</h3>
@@ -231,7 +237,7 @@
                         </div>
                     </div>
 
-                    <div class="col col-sm-6 col-lg-3 my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Contatti</h2>
                         <div>
                             <h3 class="display-4">Indirizzo PEC</h3>
@@ -241,7 +247,7 @@
                         </div>
                     </div>
 
-                    <div class="col col-sm-6 col-lg-3 my-3">
+                    <div class="col col-sm-6 my-3">
                         <h2 class="display-3 mb-4">Seguici su</h2>
                         <div>
                             <ul class="list-inline">
@@ -277,12 +283,8 @@
             </div>
         </footer>
 
-        <a href="#" data-attribute="return-to-top" class="return-to-top">
-            <i class="it-collapse"></i>
-            <span class="sr-only">Collapse</span>
+        <a href="#" data-attribute="return-to-top" class="return-to-top"><i
+                class="it-collapse"></i><span class="sr-only">Collapse</span>
         </a>
-
-        <script src="<wp:resourceURL />static/js/bootstrap-italia.bundle.min.js"></script>
     </body>
-
 </html>
