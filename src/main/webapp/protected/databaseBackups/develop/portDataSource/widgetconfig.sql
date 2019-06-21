@@ -1051,6 +1051,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('glossari
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',0,'entando-widget-language_choose',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',1,'entando-widget-search_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',2,'Navigation_Bar_Settato',NULL);
+INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',3,'entando-widget-login_form',NULL);
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',5,'content_viewer_list_carousel','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="maxElemForItem">20</property>
@@ -1070,12 +1071,13 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage
 ');
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',7,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
+<property key="maxElements">3</property>
 <property key="filters">(attributeFilter=true;order=ASC;key=primopiano;value=false)+(attributeFilter=false;order=DESC;key=created)</property>
 <property key="title_it">News</property>
 <property key="linkDescr_it">Lista News</property>
 <property key="pageLink">news</property>
 <property key="categories">news</property>
-<property key="maxElemForItem">4</property>
+<property key="maxElemForItem">3</property>
 <property key="title_en">News</property>
 <property key="modelId">1</property>
 <property key="contentType">CTM</property>
@@ -1086,12 +1088,12 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('homepage',8,'content_viewer_list','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="filters">(order=ASC;attributeFilter=false;key=created)</property>
-<property key="title_it">Utilit‡</property>
+<property key="title_it">Utilit√†</property>
 <property key="linkDescr_it">Vedi Tutti</property>
 <property key="pageLink">link_utili</property>
 <property key="categories">link_utili</property>
 <property key="maxElemForItem">8</property>
-<property key="title_en">Utilit‡</property>
+<property key="title_en">Utilit√†</property>
 <property key="modelId">4</property>
 <property key="contentType">CTM</property>
 <property key="linkDescr_en">Vedi Tutti</property>
@@ -1280,7 +1282,7 @@ INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',
 INSERT INTO widgetconfig (pagecode,framepos,widgetcode,config) VALUES ('moduli',5,'lista_moduli','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="mainCategoryFilter">moduli</property>
-<property key="categoryCodesCSV">cittadino</property>
+<property key="categoryCodesCSV">cittadino,allegati</property>
 </properties>
 
 ');

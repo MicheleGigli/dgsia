@@ -28,7 +28,7 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CNG_READ_MORE',
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('CNG_READ_MORE','it','Continua');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('COPYRIGHT','en','Copyright &copy; My Company YYYY');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('COPYRIGHT','it','Copyright &copy; Mia Azienda AAAA');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('correzione','it','Â');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('correzione','it','Ã‚');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DATE_FROM','en','From');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DATE_FROM','it','Da');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('DATE_TO','en','To');
@@ -60,7 +60,7 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_MET
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_AUTHORIZATION','en','Authorization');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_AUTHORIZATION','it','Autorizzazione');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_AUTH_FREE','en','None, this method is public');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_AUTH_FREE','it','Nessuna, questo metodo è pubblico');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_AUTH_FREE','it','Nessuna, questo metodo Ã¨ pubblico');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_AUTH_SIMPLE','en','Registered users');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_AUTH_SIMPLE','it','Utenti registrati');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_AUTH_WITH_PERM','en','Registered users with permission');
@@ -70,7 +70,7 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_MET
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_OK','en','Available');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_OK','it','Disponibile');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_PARAMS_SUMM','en','This table shows the request parameters for this method. For each of them there are three columns: the parameter name, the parameter description and whether if it''s mandatory or not.');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_PARAMS_SUMM','it','Questa tabella mostra i parametri per la richiesta del metodo. Per ciascuno di essi ci sono tre colonne: il nome del parametro, la descrizione del parametro e l''indicazione di obbligatorietà.');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_PARAMS_SUMM','it','Questa tabella mostra i parametri per la richiesta del metodo. Per ciascuno di essi ci sono tre colonne: il nome del parametro, la descrizione del parametro e l''indicazione di obbligatorietÃ .');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_REQUEST_PARAMS','en','Parameters');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_REQUEST_PARAMS','it','Parametri');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ENTANDO_API_METHOD_SCHEMAS','en','XML Schemas');
@@ -156,7 +156,9 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESNB_YOU_ARE_HE
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','en','Search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('ESSF_SEARCH','it','Cerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FAQ_TITOLO','en','Common questions');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FAQ_TITOLO','it','Domande più frequenti');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FAQ_TITOLO','it','Domande piÃ¹ frequenti');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FILE_DWN','en','DOWNLOAD');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FILE_DWN','it','SCARICA');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FULL_TEXT_SEARCH','en','search');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('FULL_TEXT_SEARCH','it','ricerca');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('GENERIC_ERROR','en','Generic Error');
@@ -168,7 +170,7 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('IGNORE','it','I
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_LIST_VIEWER_FIELD','en','The value for field');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_LIST_VIEWER_FIELD','it','Il valore del campo');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_LIST_VIEWER_INVALID_FORMAT','en','is invalid');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_LIST_VIEWER_INVALID_FORMAT','it','non è corretto');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_LIST_VIEWER_INVALID_FORMAT','it','non Ã¨ corretto');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_LIST_VIEWER_INVALID_RANGE','en','generates an invalid range');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_LIST_VIEWER_INVALID_RANGE','it','genera un range non valido');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TEXT_ALL_WORDS','en','All words');
@@ -177,8 +179,8 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TE
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TEXT_AT_LEAST_ONE_WORD','it','Almeno una parola');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TEXT_EXACT','en','Exact');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('jacms_SEARCH_TEXT_EXACT','it','Frase esatta');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LINGUA_CORRENTE','en','English');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LINGUA_CORRENTE','it','Italiano');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LINGUA_CORRENTE','en','Eng');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LINGUA_CORRENTE','it','Ita');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LINK_UTILI','en','Read more');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LINK_UTILI','it','Tutti i link utili');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('LIST_VIEWER_EMPTY','en','No result found. Broaden your search and try again!');
@@ -213,12 +215,12 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PAGE_TITLE','en
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PAGE_TITLE','it','titolo pagina');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PASSWORD','en','Password');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PASSWORD','it','Password');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','en','My Portal');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','it','Il Mio Portale');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','en','Tribunale Marsala');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('PORTAL_TITLE','it','Tribunale Marsala');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('pubblicita','en','Advertising');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('pubblicita','it','Pubblicità');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('pubblicita','it','PubblicitÃ ');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','en','Read more');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','it','Leggi di più');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('READ_MORE','it','Leggi di piÃ¹');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','en','Please sign in');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RESERVED_AREA','it','E'' necessario autenticarsi');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('RISULTATO_NULLO','en','La ricerca non ha restituito nessun risultato.');
@@ -298,7 +300,7 @@ INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('userprofile_NO'
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('userprofile_OLDPASSWORD','en','Old password');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('userprofile_OLDPASSWORD','it','Vecchia password');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('userprofile_PASSWORD_UPDATED','en','Your password updated successfully.');
-INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('userprofile_PASSWORD_UPDATED','it','La password è stata aggiornata correttamente.');
+INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('userprofile_PASSWORD_UPDATED','it','La password Ã¨ stata aggiornata correttamente.');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('userprofile_PFL_email','it','Email');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('userprofile_PFL_fullname','it','Full Name');
 INSERT INTO localstrings (keycode,langcode,stringvalue) VALUES ('userprofile_PLEASE_LOGIN','en','Please login');

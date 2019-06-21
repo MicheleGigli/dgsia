@@ -182,8 +182,8 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
 ','2019-05-08 11:02:50');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('attivit_contrattazione_cons','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Attività  contrattazione consuntivi semestrali</property>
-<property key="it">Attività  contrattazione consuntivi semestrali</property>
+<property key="en">AttivitÃ Â  contrattazione consuntivi semestrali</property>
+<property key="it">AttivitÃ Â  contrattazione consuntivi semestrali</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -196,8 +196,8 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
 ','2019-06-17 16:03:15');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('attivit_contr_cons_semestr','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Attività  Contrattazione Consuntivi Semestrali</property>
-<property key="it">Attività  Contrattazione Consuntivi Semestrali</property>
+<property key="en">AttivitÃ Â  Contrattazione Consuntivi Semestrali</property>
+<property key="it">AttivitÃ Â  Contrattazione Consuntivi Semestrali</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -926,7 +926,7 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-06-18 14:33:50');
+','2019-06-20 17:57:04');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('il_tribunale','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Il Tribunale</property>
@@ -1032,8 +1032,8 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
 ','2019-06-17 17:44:38');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('modalit_di_fatturazione_e_pag','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Modalità  di fatturazione e pagamento</property>
-<property key="it">Modalità  di fatturazione e pagamento</property>
+<property key="en">ModalitÃ Â  di fatturazione e pagamento</property>
+<property key="it">ModalitÃ Â  di fatturazione e pagamento</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -1046,8 +1046,8 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
 ','2019-06-18 11:47:43');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('modalit_di_invio_doc','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Modalità  di invio documentazione</property>
-<property key="it">Modalità  di invio documentazione</property>
+<property key="en">ModalitÃ Â  di invio documentazione</property>
+<property key="it">ModalitÃ Â  di invio documentazione</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -1060,8 +1060,8 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
 ','2019-06-18 11:48:14');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('modalit_di_pubblicazione','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Modalità  di pubblicazione</property>
-<property key="it">Modalità di pubblicazione</property>
+<property key="en">ModalitÃ Â  di pubblicazione</property>
+<property key="it">ModalitÃ  di pubblicazione</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -1085,7 +1085,7 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
   <mimeType>text/html</mimeType>
 </config>
 
-','2019-06-18 12:21:46');
+','2019-06-20 16:11:44');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('moduli_prof','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Moduli</property>
@@ -1415,8 +1415,8 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
 ','2019-05-30 10:25:56');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('programma_delle_attivita','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Programma delle Attività</property>
-<property key="it">Programma delle Attività </property>
+<property key="en">Programma delle AttivitÃ </property>
+<property key="it">Programma delle AttivitÃ Â </property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -1527,8 +1527,8 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
 ','2019-05-31 15:10:25');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('pubblicita_legale','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Pubblicità  Legale</property>
-<property key="it">Pubblicità  Legale</property>
+<property key="en">PubblicitÃ Â  Legale</property>
+<property key="it">PubblicitÃ Â  Legale</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -1541,8 +1541,8 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
 ','2019-06-18 11:47:07');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('pubblicit_lega','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Pubblicità Legale</property>
-<property key="it">Pubblicità Legale</property>
+<property key="en">PubblicitÃ  Legale</property>
+<property key="it">PubblicitÃ  Legale</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
@@ -1555,8 +1555,8 @@ INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,ex
 ','2019-06-17 16:27:58');
 INSERT INTO pages_metadata_online (code,groupcode,titles,modelcode,showinmenu,extraconfig,updatedat) VALUES ('rend_attivit_di_perf','free','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
-<property key="en">Rendicontazione delle attività  di performance</property>
-<property key="it">Rendicontazione delle attività  di performance</property>
+<property key="en">Rendicontazione delle attivitÃ Â  di performance</property>
+<property key="it">Rendicontazione delle attivitÃ Â  di performance</property>
 </properties>
 
 ','internal-page',1,'<?xml version="1.0" encoding="UTF-8"?>
