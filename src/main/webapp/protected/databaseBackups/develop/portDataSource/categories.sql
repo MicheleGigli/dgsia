@@ -54,6 +54,13 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_amministrativa'
 </properties>
 
 ');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_amministrativa_modu','moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Area Amministrativa</property>
+<property key="it">Area Amministrativa</property>
+</properties>
+
+');
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_civile','magistrati','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Area Civile</property>
@@ -65,6 +72,13 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_civile_cancelle
 <properties>
 <property key="en">Area Civile Cancellerie</property>
 <property key="it">Area Civile Cancellerie</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_civile_moduli','moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Area Civile</property>
+<property key="it">Area Civile</property>
 </properties>
 
 ');
@@ -82,10 +96,52 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_penale_cancelle
 </properties>
 
 ');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('area_penale_moduli','moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Area Penale</property>
+<property key="it">Area Penale</property>
+</properties>
+
+');
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('avvisi','news','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">AVVISI</property>
 <property key="it">AVVISI</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('cancelleria_contenzioso_civile','moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Cancelleria Contenzioso Civile e Volontaria Giurisdizione</property>
+<property key="it">Cancelleria Contenzioso Civile e Volontaria Giurisdizione</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('cancelleria_esecuzioni_civi','moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Cancelleria Esecuzioni Civili Immobiliari e Mobiliari – Servizio Depositi Giudiziari</property>
+<property key="it">Cancelleria Esecuzioni Civili Immobiliari e Mobiliari – Servizio Depositi Giudiziari</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('cancelleria_fallimentar','moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Cancelleria Fallimentare e procedure concorsuali</property>
+<property key="it">Cancelleria Fallimentare e procedure concorsuali</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('cancelleria_g_i_p_g_u_p_','moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Cancelleria G.I.P./G.U.P.</property>
+<property key="it">Cancelleria G.I.P./G.U.P.</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('cancelleria_penale_dibat','moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Cancelleria Penale Dibattimentale</property>
+<property key="it">Cancelleria Penale Dibattimentale</property>
 </properties>
 
 ');
@@ -299,6 +355,13 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('segreteria_di_presid
 </properties>
 
 ');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('segreteria_di_presidenza_mod','moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Segreteria di Presidenza</property>
+<property key="it">Segreteria di Presidenza</property>
+</properties>
+
+');
 INSERT INTO categories (catcode,parentcode,titles) VALUES ('sezione_pdf','allegati_dirigenti','<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">sezione pdf</property>
@@ -317,6 +380,13 @@ INSERT INTO categories (catcode,parentcode,titles) VALUES ('ufficio_gip_gup','ar
 <properties>
 <property key="en">Ufficio GIP/GUP</property>
 <property key="it">Ufficio GIP/GUP</property>
+</properties>
+
+');
+INSERT INTO categories (catcode,parentcode,titles) VALUES ('ufficio_recupero_crediti_sp','moduli','<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">Ufficio Recupero Crediti/Spese di Giustizia</property>
+<property key="it">Ufficio Recupero Crediti/Spese di Giustizia</property>
 </properties>
 
 ');

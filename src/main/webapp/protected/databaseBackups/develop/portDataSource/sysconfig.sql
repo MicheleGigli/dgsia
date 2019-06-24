@@ -582,7 +582,7 @@ INSERT INTO sysconfig (version,item,descr,config) VALUES ('production','params',
 	<Param name="treeStyle_category">classic</Param>
 	<Param name="startLangFromBrowser">false</Param>
 	<Param name="firstTimeMessages">false</Param>
-	<Param name="baseUrl">request</Param>
+	<Param name="baseUrl">relative</Param>
 	<Param name="baseUrlContext">true</Param>
 	<Param name="useJsessionId">false</Param>
 	<Param name="gravatarIntegrationEnabled">false</Param>

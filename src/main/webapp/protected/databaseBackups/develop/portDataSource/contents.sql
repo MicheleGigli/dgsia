@@ -58,8 +58,8 @@ Il sito del Tribunale nasce dalla consapevolezza della circostanza che oggi la p
 &bull; garantire un servizio pi&ugrave; efficace, s&igrave; da rispondere meglio alle esigenze della utenza.<br />
 <br />
 Il Tribunale, progettando un sito Internet, ritiene di avere intrapreso un percorso finalizzato a favorire la configurazione di un nuovo rapporto tra il cittadino e l&rsquo;Amministrazione, rendendo altres&igrave; manifesta la funzione di servizio nei confronti dell&rsquo;utenza che gli uffici giudiziari sono chiamati a rendere.</p>
-]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>READY</status><version>66.3</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181122154736</created><lastModified>20190528092300</lastModified></content>
-','20181122154736','20190528092300','<?xml version="1.0" encoding="UTF-8"?>
+]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>READY</status><version>66.4</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181122154736</created><lastModified>20190621150110</lastModified></content>
+','20181122154736','20190621150110','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CNG142" typecode="CNG" typedescr="Generic Content"><descr>il Tribunale</descr><groups mainGroup="free" /><categories /><attributes><attribute name="Title" attributetype="Text"><text lang="en">Info Il Tribunale</text><text lang="it">Chi siamo</text></attribute><attribute name="Abstract" attributetype="Hypertext"><hypertext lang="en"><![CDATA[<p>Informazioni sul Tribunale</p>
 ]]></hypertext><hypertext lang="it"><![CDATA[<p>Informazioni sul Tribunale</p>
 ]]></hypertext></attribute><attribute name="MainBody" attributetype="Hypertext"><hypertext lang="en"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo in nisi pellentesque ornare. Vestibulum eu rutrum dui, non auctor nisl. Duis vehicula nibh nec erat semper, sed accumsan nulla eleifend. Cras aliquam elementum lacinia. Ut aliquet enim vehicula quam imperdiet, quis consectetur dolor laoreet. Suspendisse eu dolor eu lorem cursus blandit. Morbi vehicula, augue nec tincidunt mollis, ligula dui feugiat dolor, in hendrerit dolor dui sit amet elit. In luctus justo ac orci mollis, eget porta mi fermentum. Praesent accumsan lorem porta, tempus eros ut, eleifend enim. Mauris magna tellus, egestas eu risus non, aliquam tristique purus. Sed sollicitudin neque nec volutpat mollis. Ut lobortis viverra eros vel imperdiet. In consectetur urna eget iaculis venenatis. Cras vehicula ligula ut sem cursus, in aliquet nisi blandit.</p>
@@ -82,7 +82,7 @@ Il sito del Tribunale nasce dalla consapevolezza della circostanza che oggi la p
 <br />
 Il Tribunale, progettando un sito Internet, ritiene di avere intrapreso un percorso finalizzato a favorire la configurazione di un nuovo rapporto tra il cittadino e l&rsquo;Amministrazione, rendendo altres&igrave; manifesta la funzione di servizio nei confronti dell&rsquo;utenza che gli uffici giudiziari sono chiamati a rendere.</p>
 ]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /></attributes><status>PUBLIC</status><version>66.0</version><firstEditor>admin</firstEditor><lastEditor>ElianaGranata </lastEditor><created>20181122154736</created><lastModified>20190418123111</lastModified></content>
-','free','66.3','admin','admin');
+','free','66.4','admin','admin');
 INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CNG1424','CNG','percorso stazione','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CNG1424" typecode="CNG" typedescr="Generic Content"><descr>percorso stazione</descr><groups mainGroup="free" /><categories /><attributes><attribute name="Title" attributetype="Text" /><attribute name="Abstract" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>percorso stazione</p>
 ]]></hypertext></attribute><attribute name="MainBody" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d12610.5884801559!2d12.429514780506333!3d37.79830887982771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x131bc29c93ed98d5%3A0xfb99f1d4d36e46f3!2sViale+Amerigo+Fazio%2C+91025+Marsala+TP!3m2!1d37.7932902!2d12.442870399999999!4m5!1s0x131be81fe705ac01%3A0x80853918a2e2801b!2sVia+Massimo+D&#39;Azeglio%2C+91025+Marsala+TP!3m2!1d37.804152699999996!2d12.4377131!5e0!3m2!1sit!2sit!4v1555672351400!5m2!1sit!2sit" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  -->
@@ -166,12 +166,12 @@ INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmod
 ]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190503165341</lastModified></content>
 ','free','1.0','admin','admin');
 INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CNG1517','CNG','Servizi Online','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
-<content id="CNG1517" typecode="CNG" typedescr="Generic Content"><descr>Servizi Online</descr><groups mainGroup="free" /><categories /><attributes><attribute name="Title" attributetype="Text"><text lang="it">Servizi on-line</text></attribute><attribute name="Abstract" attributetype="Hypertext" /><attribute name="MainBody" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p><a href="#!U;http://pst.giustizia.it/PST/!#">Consultazione pubblica dei registri civili [link esterno]</a></p>
-]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>PUBLIC</status><version>2.0</version><firstEditor>admin</firstEditor><lastEditor>ElianaGranata </lastEditor><created>20190503165459</created><lastModified>20190506115813</lastModified></content>
-','20190503165459','20190506115813','<?xml version="1.0" encoding="UTF-8"?>
-<content id="CNG1517" typecode="CNG" typedescr="Generic Content"><descr>Servizi Online</descr><groups mainGroup="free" /><categories /><attributes><attribute name="Title" attributetype="Text"><text lang="it">Servizi on-line</text></attribute><attribute name="Abstract" attributetype="Hypertext" /><attribute name="MainBody" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p><a href="#!U;http://pst.giustizia.it/PST/!#">Consultazione pubblica dei registri civili [link esterno]</a></p>
-]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>PUBLIC</status><version>2.0</version><firstEditor>admin</firstEditor><lastEditor>ElianaGranata </lastEditor><created>20190503165459</created><lastModified>20190506115813</lastModified></content>
-','free','2.0','ElianaGranata ','admin');
+<content id="CNG1517" typecode="CNG" typedescr="Generic Content"><descr>Servizi Online</descr><groups mainGroup="free" /><categories /><attributes><attribute name="Title" attributetype="Text" /><attribute name="Abstract" attributetype="Hypertext" /><attribute name="MainBody" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p><a href="#!U;http://pst.giustizia.it/PST/!#">Consultazione pubblica dei registri civili [link esterno]</a></p>
+]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>PUBLIC</status><version>3.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20190503165459</created><lastModified>20190621150812</lastModified></content>
+','20190503165459','20190621150812','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CNG1517" typecode="CNG" typedescr="Generic Content"><descr>Servizi Online</descr><groups mainGroup="free" /><categories /><attributes><attribute name="Title" attributetype="Text" /><attribute name="Abstract" attributetype="Hypertext" /><attribute name="MainBody" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p><a href="#!U;http://pst.giustizia.it/PST/!#">Consultazione pubblica dei registri civili [link esterno]</a></p>
+]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>PUBLIC</status><version>3.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20190503165459</created><lastModified>20190621150812</lastModified></content>
+','free','3.0','admin','admin');
 INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CNG1524','CNG','Comunicazione Provvedimenti Organizzativi','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CNG1524" typecode="CNG" typedescr="Generic Content"><descr>Comunicazione Provvedimenti Organizzativi</descr><groups mainGroup="free" /><categories /><attributes><attribute name="Title" attributetype="Text" /><attribute name="Abstract" attributetype="Hypertext" /><attribute name="MainBody" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Comunicazione Provvedimenti Organizzativi</p>
 ]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190503170007</lastModified></content>
@@ -1659,20 +1659,18 @@ Il Tribunale, progettando un sito Internet, ritiene di avere intrapreso un perco
 ]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>PUBLIC</status><version>14.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181122154736</created><lastModified>20190603115737</lastModified></content>
 ','free','14.0','admin','admin');
 INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CNG373','CNG','Info per il professionista','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
-<content id="CNG373" typecode="CNG" typedescr="Generic Content"><descr>Info per il professionista</descr><groups mainGroup="free"><group name="free" /></groups><categories /><attributes><attribute name="Title" attributetype="Text"><text lang="en">Info Per il Professionista</text><text lang="it">Info per il professionista</text></attribute><attribute name="Abstract" attributetype="Hypertext"><hypertext lang="en"><![CDATA[<p>Informazioni Per il Professionista</p>
+<content id="CNG373" typecode="CNG" typedescr="Generic Content"><descr>Info per il professionista</descr><groups mainGroup="free"><group name="free" /></groups><categories /><attributes><attribute name="Title" attributetype="Text"><text lang="en">Info Per il Professionista</text></attribute><attribute name="Abstract" attributetype="Hypertext"><hypertext lang="en"><![CDATA[<p>Informazioni Per il Professionista</p>
 ]]></hypertext><hypertext lang="it"><![CDATA[<p>Informazioni Per il Professionista</p>
 ]]></hypertext></attribute><attribute name="MainBody" attributetype="Hypertext"><hypertext lang="en"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo in nisi pellentesque ornare. Vestibulum eu rutrum dui, non auctor nisl. Duis vehicula nibh nec erat semper, sed accumsan nulla eleifend. Cras aliquam elementum lacinia. Ut aliquet enim vehicula quam imperdiet, quis consectetur dolor laoreet. Suspendisse eu dolor eu lorem cursus blandit. Morbi vehicula, augue nec tincidunt mollis, ligula dui feugiat dolor, in hendrerit dolor dui sit amet elit. In luctus justo ac orci mollis, eget porta mi fermentum. Praesent accumsan lorem porta, tempus eros ut, eleifend enim. Mauris magna tellus, egestas eu risus non, aliquam tristique purus. Sed sollicitudin neque nec volutpat mollis. Ut lobortis viverra eros vel imperdiet. In consectetur urna eget iaculis venenatis. Cras vehicula ligula ut sem cursus, in aliquet nisi blandit.</p>
-]]></hypertext><hypertext lang="it"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br />
-<!-- p--></p>
-]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>PUBLIC</status><version>6.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181122154736</created><lastModified>20190529155648</lastModified></content>
-','20181126122934','20190529155648','<?xml version="1.0" encoding="UTF-8"?>
-<content id="CNG373" typecode="CNG" typedescr="Generic Content"><descr>Info per il professionista</descr><groups mainGroup="free"><group name="free" /></groups><categories /><attributes><attribute name="Title" attributetype="Text"><text lang="en">Info Per il Professionista</text><text lang="it">Info per il professionista</text></attribute><attribute name="Abstract" attributetype="Hypertext"><hypertext lang="en"><![CDATA[<p>Informazioni Per il Professionista</p>
+]]></hypertext><hypertext lang="it"><![CDATA[<p>Introduzione al menu che espone i servizi per gli Avvocati</p>
+]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>PUBLIC</status><version>8.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181122154736</created><lastModified>20190621152233</lastModified></content>
+','20181126122934','20190621152233','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CNG373" typecode="CNG" typedescr="Generic Content"><descr>Info per il professionista</descr><groups mainGroup="free"><group name="free" /></groups><categories /><attributes><attribute name="Title" attributetype="Text"><text lang="en">Info Per il Professionista</text></attribute><attribute name="Abstract" attributetype="Hypertext"><hypertext lang="en"><![CDATA[<p>Informazioni Per il Professionista</p>
 ]]></hypertext><hypertext lang="it"><![CDATA[<p>Informazioni Per il Professionista</p>
 ]]></hypertext></attribute><attribute name="MainBody" attributetype="Hypertext"><hypertext lang="en"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo in nisi pellentesque ornare. Vestibulum eu rutrum dui, non auctor nisl. Duis vehicula nibh nec erat semper, sed accumsan nulla eleifend. Cras aliquam elementum lacinia. Ut aliquet enim vehicula quam imperdiet, quis consectetur dolor laoreet. Suspendisse eu dolor eu lorem cursus blandit. Morbi vehicula, augue nec tincidunt mollis, ligula dui feugiat dolor, in hendrerit dolor dui sit amet elit. In luctus justo ac orci mollis, eget porta mi fermentum. Praesent accumsan lorem porta, tempus eros ut, eleifend enim. Mauris magna tellus, egestas eu risus non, aliquam tristique purus. Sed sollicitudin neque nec volutpat mollis. Ut lobortis viverra eros vel imperdiet. In consectetur urna eget iaculis venenatis. Cras vehicula ligula ut sem cursus, in aliquet nisi blandit.</p>
-]]></hypertext><hypertext lang="it"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br />
-<!-- p--></p>
-]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>PUBLIC</status><version>6.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181122154736</created><lastModified>20190529155648</lastModified></content>
-','free','6.0','admin','admin');
+]]></hypertext><hypertext lang="it"><![CDATA[<p>Introduzione al menu che espone i servizi per gli Avvocati</p>
+]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /><list name="lista_comp" attributetype="Monolist" nestedtype="Composite" /></attributes><status>PUBLIC</status><version>8.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181122154736</created><lastModified>20190621152233</lastModified></content>
+','free','8.0','admin','admin');
 INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CNG375','CNG','Info Per l''Amministrazione','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CNG375" typecode="CNG" typedescr="Generic Content"><descr>Info Per l''Amministrazione</descr><groups mainGroup="free"><group name="free" /></groups><categories /><attributes><attribute name="Title" attributetype="Text"><text lang="en">Info Per l''Amministrazione</text></attribute><attribute name="Abstract" attributetype="Hypertext"><hypertext lang="en"><![CDATA[Informazioni Per l''Amministrazione]]></hypertext></attribute><attribute name="MainBody" attributetype="Hypertext"><hypertext lang="en"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo in nisi pellentesque ornare. Vestibulum eu rutrum dui, non auctor nisl. Duis vehicula nibh nec erat semper, sed accumsan nulla eleifend. Cras aliquam elementum lacinia. Ut aliquet enim vehicula quam imperdiet, quis consectetur dolor laoreet. Suspendisse eu dolor eu lorem cursus blandit. Morbi vehicula, augue nec tincidunt mollis, ligula dui feugiat dolor, in hendrerit dolor dui sit amet elit. In luctus justo ac orci mollis, eget porta mi fermentum. Praesent accumsan lorem porta, tempus eros ut, eleifend enim. Mauris magna tellus, egestas eu risus non, aliquam tristique purus. Sed sollicitudin neque nec volutpat mollis. Ut lobortis viverra eros vel imperdiet. In consectetur urna eget iaculis venenatis. Cras vehicula ligula ut sem cursus, in aliquet nisi blandit.]]></hypertext></attribute><attribute name="Picture" attributetype="Image" /><attribute name="Caption" attributetype="Text" /><list name="Links" attributetype="Monolist" nestedtype="Link" /><list name="Attaches" attributetype="Monolist" nestedtype="Attach" /></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181122154736</created><lastModified>20181126123044</lastModified></content>
 ','20181126123029','20181126123044','<?xml version="1.0" encoding="UTF-8"?>
@@ -2321,169 +2319,11 @@ Sede Palazzo Halley: Via Carlo Cattaneo<br />
 ','free','1.0','admin','admin');
 INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CON2688','CON','Piante Organiche Mars','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CON2688" typecode="CON" typedescr="Contenuto composto"><descr>Piante Organiche Mars</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Ufficio del Giudice di Pace di Marsala al 29.2.201</p>
-
-<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
-	<tbody>
-		<tr>
-			<td><strong>Profilo professionale</strong></td>
-			<td><strong>area</strong></td>
-			<td><strong>in organico</strong></td>
-			<td><strong>in effettivo servizio</strong></td>
-			<td><strong>applicato ad altro Ufficio</strong></td>
-			<td><strong>applicato da altro ufficio *</strong></td>
-			<td><strong>Vacanze</strong></td>
-			<td>
-			<p><strong>Esuberi</strong></p>
-			</td>
-		</tr>
-		<tr>
-			<td>Funzionario</td>
-			<td>&nbsp; III</td>
-			<td>1</td>
-			<td>1</td>
-			<td>0</td>
-			<td>1</td>
-			<td>1</td>
-			<td>0</td>
-		</tr>
-		<tr>
-			<td>Cancelliere</td>
-			<td>&nbsp; II</td>
-			<td>1</td>
-			<td>1</td>
-			<td>1</td>
-			<td>0</td>
-			<td>0</td>
-			<td>1</td>
-		</tr>
-		<tr>
-			<td>Assistente</td>
-			<td>&nbsp; II</td>
-			<td>2</td>
-			<td>2</td>
-			<td>0</td>
-			<td>0</td>
-			<td>0</td>
-			<td>0</td>
-		</tr>
-		<tr>
-			<td>Operatore</td>
-			<td>&nbsp; II</td>
-			<td>1</td>
-			<td>3</td>
-			<td>0</td>
-			<td>0</td>
-			<td>0</td>
-			<td>2</td>
-		</tr>
-		<tr>
-			<td>Ausiliario</td>
-			<td>&nbsp; I</td>
-			<td>1</td>
-			<td>1</td>
-			<td>0</td>
-			<td>0</td>
-			<td>0</td>
-			<td>0</td>
-		</tr>
-		<tr>
-			<td><strong>Totale</strong></td>
-			<td>&nbsp;</td>
-			<td><strong>6</strong></td>
-			<td><strong>8</strong></td>
-			<td><strong>1</strong></td>
-			<td><strong>1</strong></td>
-			<td><strong>1</strong></td>
-			<td><strong>3</strong></td>
-		</tr>
-	</tbody>
-</table>
-
-<p>&nbsp;</p>
-]]></hypertext></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190617172623</lastModified></content>
-','20190617172603','20190617172623','<?xml version="1.0" encoding="UTF-8"?>
+]]></hypertext></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="2888" lang="it" /><text lang="it">Ufficio del Giudice di Pace di Marsala - piante organiche.png</text></attribute><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>4.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20190617172603</created><lastModified>20190621155940</lastModified></content>
+','20190617172603','20190621155940','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CON2688" typecode="CON" typedescr="Contenuto composto"><descr>Piante Organiche Mars</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Ufficio del Giudice di Pace di Marsala al 29.2.201</p>
-
-<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
-	<tbody>
-		<tr>
-			<td><strong>Profilo professionale</strong></td>
-			<td><strong>area</strong></td>
-			<td><strong>in organico</strong></td>
-			<td><strong>in effettivo servizio</strong></td>
-			<td><strong>applicato ad altro Ufficio</strong></td>
-			<td><strong>applicato da altro ufficio *</strong></td>
-			<td><strong>Vacanze</strong></td>
-			<td>
-			<p><strong>Esuberi</strong></p>
-			</td>
-		</tr>
-		<tr>
-			<td>Funzionario</td>
-			<td>&nbsp; III</td>
-			<td>1</td>
-			<td>1</td>
-			<td>0</td>
-			<td>1</td>
-			<td>1</td>
-			<td>0</td>
-		</tr>
-		<tr>
-			<td>Cancelliere</td>
-			<td>&nbsp; II</td>
-			<td>1</td>
-			<td>1</td>
-			<td>1</td>
-			<td>0</td>
-			<td>0</td>
-			<td>1</td>
-		</tr>
-		<tr>
-			<td>Assistente</td>
-			<td>&nbsp; II</td>
-			<td>2</td>
-			<td>2</td>
-			<td>0</td>
-			<td>0</td>
-			<td>0</td>
-			<td>0</td>
-		</tr>
-		<tr>
-			<td>Operatore</td>
-			<td>&nbsp; II</td>
-			<td>1</td>
-			<td>3</td>
-			<td>0</td>
-			<td>0</td>
-			<td>0</td>
-			<td>2</td>
-		</tr>
-		<tr>
-			<td>Ausiliario</td>
-			<td>&nbsp; I</td>
-			<td>1</td>
-			<td>1</td>
-			<td>0</td>
-			<td>0</td>
-			<td>0</td>
-			<td>0</td>
-		</tr>
-		<tr>
-			<td><strong>Totale</strong></td>
-			<td>&nbsp;</td>
-			<td><strong>6</strong></td>
-			<td><strong>8</strong></td>
-			<td><strong>1</strong></td>
-			<td><strong>1</strong></td>
-			<td><strong>1</strong></td>
-			<td><strong>3</strong></td>
-		</tr>
-	</tbody>
-</table>
-
-<p>&nbsp;</p>
-]]></hypertext></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190617172623</lastModified></content>
-','free','1.0','admin','admin');
+]]></hypertext></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="2888" lang="it" /><text lang="it">Ufficio del Giudice di Pace di Marsala - piante organiche.png</text></attribute><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>4.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20190617172603</created><lastModified>20190621155940</lastModified></content>
+','free','4.0','admin','admin');
 INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CON2692','CON','Magistrati - Ufficio del giudice di pace di Marsala','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CON2692" typecode="CON" typedescr="Contenuto composto"><descr>Magistrati - Ufficio del giudice di pace di Marsala</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="it">Magistrati - Ufficio del giudice di pace di Marsala</text></attribute><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>I dati sono visualizzati in ordine di anzianit&agrave; di servizio<br />
 <br />
@@ -2687,6 +2527,900 @@ Dott. Vito Orlando (Funzionario UNEP)</p>
 Dott. Vito Orlando (Funzionario UNEP)</p>
 ]]></hypertext></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>READY</status><version>1.1</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190618131243</lastModified></content>
 ','free','1.1','admin','admin');
+INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CON2805','CON','Piante Organiche degli Uffici del Giudice di Pace','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2805" typecode="CON" typedescr="Contenuto composto"><descr>Piante Organiche degli Uffici del Giudice di Pace</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Organico Magistrati al 29.02.2016</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="2816" lang="it" /><text lang="it">piante organiche giudice di pace.png</text></attribute><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>5.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20190621144912</created><lastModified>20190621145720</lastModified></content>
+','20190621144912','20190621145720','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2805" typecode="CON" typedescr="Contenuto composto"><descr>Piante Organiche degli Uffici del Giudice di Pace</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Organico Magistrati al 29.02.2016</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="2816" lang="it" /><text lang="it">piante organiche giudice di pace.png</text></attribute><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>5.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20190621144912</created><lastModified>20190621145720</lastModified></content>
+','free','5.0','admin','admin');
+INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CON2818','CON','Elenco personale amministrativo','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2818" typecode="CON" typedescr="Contenuto composto"><descr>Elenco personale amministrativo</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>I dati sono visualizzati nel seguente ordine: qualifica comprensiva della fascia economica, nominativo<br />
+<br />
+<strong>&bull; Dott. Fabio Maiani</strong> (Dirigente Amministrativo)<br />
+Incarico: Dirigente Amministrativo (Dirigenza Amministrativa)<br />
+Piano: 1&deg;<br />
+Stanza: 58<br />
+Telefono: 0923/765232;<br />
+Fax: 0923/956638;<br />
+Email: fabio.maiani@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Gaspare Ferro</strong> (Direttore Amministrativo F5)<br />
+Incarico: Responsabile (Segreteria di Presidenza)<br />
+Stanza: 57<br />
+Telefono: 0923/765251;<br />
+Fax: 0923/956638;<br />
+Email: gaspare.ferro@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Antonio Placenza</strong> (Direttore Amministrativo F5)<br />
+Incarico: Direttore (Ufficio Corpi di Reato)<br />
+Telefono: 0923/765341;<br />
+Email: antonio.placenza@giustizia.it;<br />
+<br />
+Incarico: Direttore (Cancelleria Penale Dibattimentale)<br />
+Stanza: 203<br />
+Telefono: 0923/765203;<br />
+Email: antonio.placenza@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Giacomo Giacalone</strong> (Direttore Amministrativo F4)<br />
+Incarico: Direttore (Cancelleria G.I.P./G.U.P.)<br />
+Piano: terra<br />
+Stanza: 24<br />
+Telefono: 0923/765348;<br />
+<br />
+<strong>&bull; Dott. Giuseppe Lombardo</strong> (Direttore Amministrativo F4)<br />
+Incarico: Responsabile (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Stanza: 66<br />
+Telefono: 0923/765303;<br />
+Email: giuseppe.lombardo01@giustizia.it;<br />
+<br />
+Incarico: Responsabile (Cancelleria Lavoro e Previdenza)<br />
+Piano: Primo<br />
+Stanza: 66<br />
+Telefono: 0923/765303;<br />
+Email: giuseppe.lombardo01@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppe Pipitone</strong> (Funzionario Giudiziario F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Stanza: 39<br />
+Telefono: 0923/765270;<br />
+Email: giuseppe.pipitone02@giustizia.it;<br />
+<br />
+<strong>&bull; Vincenzo Russo</strong> (Funzionario Giudiziario F3)<br />
+<br />
+<strong>&bull; Rosaria Genna</strong> (Funzionario Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765308;<br />
+Email: rosaria.genna@giustizia.it;<br />
+<br />
+<strong>&bull; Vincenzo Giacalone</strong> (Funzionario Giudiziario F2)<br />
+Incarico: Responsabile (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765301;<br />
+<br />
+<strong>&bull; Giovanna Ottoveggio</strong> (Funzionario Giudiziario F2)<br />
+Incarico: Responsabile (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Stanza: 101<br />
+Telefono: 0923/765277;<br />
+Email: giovanna.ottoveggio@giustizia.it;<br />
+<br />
+Incarico: Responsabile (Consegnatario/Economo)<br />
+Stanza: 58<br />
+Telefono: 0923/765260;<br />
+Fax: 0923/765381;<br />
+<br />
+<strong>&bull; Andrea Tommaso Accardi</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765219;<br />
+Email: andrea.accardi@giustizia.it;<br />
+<br />
+<strong>&bull; Grazia Alfisi</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 41<br />
+Telefono: 0923/765216;<br />
+Email: grazia.alfisi@giustizia.it;<br />
+<br />
+<strong>&bull; Roberta Architetto</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Piano: Secondo<br />
+Stanza: 103<br />
+Telefono: 0923/765256;<br />
+Fax: 0923/765255;<br />
+Email: carmelaroberta.architetto@giustizia.it;<br />
+<br />
+<strong>&bull; Agata Fontana</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Ufficio Corpi di Reato)<br />
+Piano: 1&deg;<br />
+Stanza: 40<br />
+Telefono: 0923/765225;<br />
+Email: agata.fontana@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Giuseppe Malato</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Telefono: 0923/765335;<br />
+<br />
+<strong>&bull; Dott.ssa Annalisa Manata</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Consegnatario/Economo)<br />
+Piano: 1<br />
+Stanza: 56<br />
+Telefono: 0923/765260;<br />
+<br />
+<strong>&bull; Roberto Abrignani</strong> (Cancelliere F6)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765331;<br />
+Email: abrignani.roberto@giustizia.it;<br />
+<br />
+<strong>&bull; Alessandra Conti </strong>(Cancelliere F5)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765329;<br />
+Email: alessandra.conti@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanna Ingoglia</strong> (Cancelliere F5)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765372;<br />
+Email: giovanna.ingoglia@giustizia.it;<br />
+<br />
+<strong>&bull; Rosa Maria Stallone</strong> (Cancelliere F5)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Telefono: 0923/765295;<br />
+<br />
+<strong>&bull; Mariarita Gullo</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Stanza: 65<br />
+Telefono: 0923/765287;<br />
+Email: mariaannarita.gullo@giustizia.it;<br />
+<br />
+<strong>&bull; Franca Macchetti</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 39<br />
+Telefono: 0923/765270;<br />
+Email: franca.macchetti@giustizia.it;<br />
+<br />
+<strong>&bull; Flora Mangia</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 23<br />
+Telefono: 0923/765354;<br />
+Email: florarosaria.mangia@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppina Pellegrino</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 35<br />
+Telefono: 0923/765282;<br />
+Email: giuseppina.pellegrino@giustizia.it;<br />
+<br />
+<strong>&bull; Rossella Piccione</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765307;<br />
+Email: rossella.piccione@giustizia.it;<br />
+<br />
+<strong>&bull; Veronica Scatassa</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 40<br />
+Telefono: 0923/765270;<br />
+Email: veronica.scatassa@giustizia.it;<br />
+<br />
+<strong>&bull; Biagio Valenti</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Piano: 2<br />
+Stanza: Palazzo Halley<br />
+Email: biagio.valenti@giustizia.it;<br />
+<br />
+<strong>&bull; Rosanna Gucciardi</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Segreteria di Presidenza)<br />
+Stanza: 59<br />
+Telefono: 0923/765226;<br />
+Fax: 0923/956638;<br />
+<br />
+<strong>&bull; Rosario Pinna</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 68<br />
+Telefono: 0923/765264;<br />
+Email: rosario.pinna@giustizia.it;<br />
+<br />
+<strong>&bull; Franca Tranchida</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Telefono: 0923/765274;<br />
+Email: franca.tranchida@giustizia.it;<br />
+<br />
+<strong>&bull; Isabella Tranchida</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Telefono: 0923/765275;<br />
+<br />
+<strong>&bull; Floriana Abbonato</strong> (Assistente Giudiziario F3)<br />
+<br />
+<strong>&bull; Giuseppe Adamo</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+<br />
+<strong>&bull; Filippo Bonafede</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765291;<br />
+Email: filippo.bonafede@giustizia.it;<br />
+<br />
+<strong>&bull; Piera Galfano</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 1&deg;<br />
+Stanza: 63<br />
+Telefono: 0923/765229;<br />
+<br />
+<strong>&bull; Giacoma Giacalone</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 35<br />
+Telefono: 0923/765268;<br />
+Email: giacoma.giacalone@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanni Giacalone</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+<br />
+<strong>&bull; Angelo Daniele Licari </strong>(Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 24<br />
+Telefono: 0923/765343;<br />
+Email: angelodaniele.licari@giustizia.it;<br />
+<br />
+<strong>&bull; Antonino Mistretta</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 40<br />
+Telefono: 0923/765383;<br />
+Email: antonio.mistretta@giustizia.it;<br />
+<br />
+<strong>&bull; Dina Petralia</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Stanza: 63<br />
+Telefono: 0923/765227;<br />
+Email: dina.petralia@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanna Scardino</strong> (Assistente Giudiziario F3)<br />
+<br />
+<strong>&bull; Dott. Francesco Arno</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 1&deg;<br />
+Telefono: 0923/765382;<br />
+<br />
+<strong>&bull; Dott.ssa Caterina Emanuela De Vita</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Telefono: 765270;<br />
+Email: emanuelacaterina.devita@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Cristina Ferrante</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1&deg;<br />
+Stanza: 70<br />
+Telefono: 0923/765383;<br />
+<br />
+<strong>&bull; Dott.ssa Caterina Ingrasciotta</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 1<br />
+Stanza: 69<br />
+Telefono: 0923/765352;<br />
+Email: caterina.ingrasciotta@giustizia.it;<br />
+<br />
+<strong>&bull; Dott.ssa Francesca Paola Ruggieri</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Piano: Piano Terra<br />
+Telefono: 0923/765203;<br />
+Email: francescapaola.ruggieri@giustizia.it;<br />
+<br />
+<strong>&bull; Dott.ssa Antonella Schifano</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Stanza: 37<br />
+Telefono: 0923/765282;<br />
+Email: antonella.schifano@giustizia.it;<br />
+<br />
+<strong>&bull; Rita Barracca</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Telefono: 0923/765274;<br />
+Email: giusepparita.barraca@giustizia.it;<br />
+<br />
+<strong>&bull; Anastasia Francesca Leggio</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765272;<br />
+Email: anastasiafrancesca@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppa Li Vigni</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Telefono: 0923/765295;<br />
+<br />
+<strong>&bull; Giuseppa Valenti</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Ufficio del Personale)<br />
+Stanza: 54<br />
+Telefono: 0923/765280;<br />
+Email: giuseppa.valenti@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanna Alagna</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 24<br />
+Telefono: 0923/765276;<br />
+Email: giovanna.alagna@giustizia.it;<br />
+<br />
+<strong>&bull; Anna Maria Aleci</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 40<br />
+Telefono: 0923/765383;<br />
+Email: annamaria.aleci@giustizia.it;<br />
+<br />
+<strong>&bull; Marina Frazzitta</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765388;<br />
+Email: marina.frazzitta@giustizia.it;<br />
+<br />
+<strong>&bull; Antonia Maria</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 65<br />
+Telefono: 0923/765287;<br />
+Email: antoniaanna.maria@@giustizia.it;<br />
+<br />
+<strong>&bull; Maria Luisa Marocco</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Consegnatario/Economo)<br />
+Stanza: 58<br />
+Telefono: 0923/765380;<br />
+Fax: 0923/765381;<br />
+Email: marialuisa.marocco@giustizia.it;<br />
+<br />
+<strong>&bull; Francesca Martinico</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 65<br />
+Telefono: 0923/765287;<br />
+Email: francesca.martinico@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppe Papadia</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 70<br />
+Telefono: 0923/765352;<br />
+Email: giuseppe.papadia@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppe Parisi</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765304;<br />
+Email: giuseppe.parisi@giustizia.it;<br />
+<br />
+<strong>&bull; Filippo Parrinell</strong>o (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Stanza: 100<br />
+Telefono: 0923/765275;<br />
+Email: filippo.parrinello@giustizia.it;<br />
+<br />
+<strong>&bull; Calogera Daniela Pellegrino</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Ufficio Corpi di Reato)<br />
+Telefono: 0923/765377;<br />
+Email: calogera.pellegrino@giustizia.it;<br />
+<br />
+Incarico: Addetto (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Piano: 2<br />
+Stanza: 101<br />
+Telefono: 0923/765279;<br />
+<br />
+<strong>&bull;</strong> <strong>Lucia Raineri</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Segreteria di Presidenza)<br />
+Piano: 59<br />
+Telefono: 0923/765350;<br />
+Fax: 0923/956638;<br />
+Email: lucia.raineri@giustizia.it;<br />
+<br />
+<strong>&bull; Marilena Russo</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Stanza: 35<br />
+Telefono: 0923/765249;<br />
+Fax: 0923/765243;<br />
+Email: marilena.russo@giustizia.it;<br />
+<br />
+<strong>&bull; Michela Scalia</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765318;<br />
+Email: michela.scalia@giustizia.it;<br />
+<br />
+<strong>&bull; Maria Pia Sciacca</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Ufficio del Personale)<br />
+Stanza: 54<br />
+Telefono: 0923/765224;<br />
+Email: mariapia.sciacca@giustizia.it;<br />
+<br />
+<strong>&bull; Piero Sugamiele</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Piano: 2<br />
+Stanza: Palazzo Halley<br />
+Telefono: 0923/765318;<br />
+Email: piero.sugamiele@giustizia.it;<br />
+<br />
+<strong>&bull; Pietro Di Giovanni</strong> (Conducente di automezzi F2)<br />
+<br />
+<strong>&bull; Mimmo Fazio</strong> (Conducente di automezzi F2)<br />
+<br />
+<strong>&bull; Pietro Gambina</strong> (Conducente di automezzi F2)<br />
+<br />
+<strong>&bull; Vincenzo Di Prima</strong> (Ausiliario F3)<br />
+<br />
+<strong>&bull; Paolo Favata</strong> (Ausiliario F2)<br />
+<br />
+<strong>&bull; Caterina Ingoglia</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+<br />
+<strong>&bull; Tommaso Lombardo</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+<br />
+<strong>&bull; Matteo Longo</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Telefono: 0923/765227;<br />
+<br />
+<strong>&bull; Michele Mannone</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+<br />
+<strong>&bull; Manlio Marino</strong> (Ausiliario F2)<br />
+<br />
+<strong>&bull; Anna Russo</strong> (Ausiliario F2)<br />
+<br />
+<strong>&bull; Angelo Sammartano</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Stanza: 102<br />
+Telefono: 0923/765273;<br />
+<br />
+<strong>&bull; Girolamo Adragna</strong> (Centralinista F2)<br />
+Incarico: Addetto</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190621154806</lastModified></content>
+','20190621150237','20190621154806','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2818" typecode="CON" typedescr="Contenuto composto"><descr>Elenco personale amministrativo</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>I dati sono visualizzati nel seguente ordine: qualifica comprensiva della fascia economica, nominativo<br />
+<br />
+<strong>&bull; Dott. Fabio Maiani</strong> (Dirigente Amministrativo)<br />
+Incarico: Dirigente Amministrativo (Dirigenza Amministrativa)<br />
+Piano: 1&deg;<br />
+Stanza: 58<br />
+Telefono: 0923/765232;<br />
+Fax: 0923/956638;<br />
+Email: fabio.maiani@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Gaspare Ferro</strong> (Direttore Amministrativo F5)<br />
+Incarico: Responsabile (Segreteria di Presidenza)<br />
+Stanza: 57<br />
+Telefono: 0923/765251;<br />
+Fax: 0923/956638;<br />
+Email: gaspare.ferro@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Antonio Placenza</strong> (Direttore Amministrativo F5)<br />
+Incarico: Direttore (Ufficio Corpi di Reato)<br />
+Telefono: 0923/765341;<br />
+Email: antonio.placenza@giustizia.it;<br />
+<br />
+Incarico: Direttore (Cancelleria Penale Dibattimentale)<br />
+Stanza: 203<br />
+Telefono: 0923/765203;<br />
+Email: antonio.placenza@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Giacomo Giacalone</strong> (Direttore Amministrativo F4)<br />
+Incarico: Direttore (Cancelleria G.I.P./G.U.P.)<br />
+Piano: terra<br />
+Stanza: 24<br />
+Telefono: 0923/765348;<br />
+<br />
+<strong>&bull; Dott. Giuseppe Lombardo</strong> (Direttore Amministrativo F4)<br />
+Incarico: Responsabile (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Stanza: 66<br />
+Telefono: 0923/765303;<br />
+Email: giuseppe.lombardo01@giustizia.it;<br />
+<br />
+Incarico: Responsabile (Cancelleria Lavoro e Previdenza)<br />
+Piano: Primo<br />
+Stanza: 66<br />
+Telefono: 0923/765303;<br />
+Email: giuseppe.lombardo01@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppe Pipitone</strong> (Funzionario Giudiziario F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Stanza: 39<br />
+Telefono: 0923/765270;<br />
+Email: giuseppe.pipitone02@giustizia.it;<br />
+<br />
+<strong>&bull; Vincenzo Russo</strong> (Funzionario Giudiziario F3)<br />
+<br />
+<strong>&bull; Rosaria Genna</strong> (Funzionario Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765308;<br />
+Email: rosaria.genna@giustizia.it;<br />
+<br />
+<strong>&bull; Vincenzo Giacalone</strong> (Funzionario Giudiziario F2)<br />
+Incarico: Responsabile (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765301;<br />
+<br />
+<strong>&bull; Giovanna Ottoveggio</strong> (Funzionario Giudiziario F2)<br />
+Incarico: Responsabile (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Stanza: 101<br />
+Telefono: 0923/765277;<br />
+Email: giovanna.ottoveggio@giustizia.it;<br />
+<br />
+Incarico: Responsabile (Consegnatario/Economo)<br />
+Stanza: 58<br />
+Telefono: 0923/765260;<br />
+Fax: 0923/765381;<br />
+<br />
+<strong>&bull; Andrea Tommaso Accardi</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765219;<br />
+Email: andrea.accardi@giustizia.it;<br />
+<br />
+<strong>&bull; Grazia Alfisi</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 41<br />
+Telefono: 0923/765216;<br />
+Email: grazia.alfisi@giustizia.it;<br />
+<br />
+<strong>&bull; Roberta Architetto</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Piano: Secondo<br />
+Stanza: 103<br />
+Telefono: 0923/765256;<br />
+Fax: 0923/765255;<br />
+Email: carmelaroberta.architetto@giustizia.it;<br />
+<br />
+<strong>&bull; Agata Fontana</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Ufficio Corpi di Reato)<br />
+Piano: 1&deg;<br />
+Stanza: 40<br />
+Telefono: 0923/765225;<br />
+Email: agata.fontana@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Giuseppe Malato</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Telefono: 0923/765335;<br />
+<br />
+<strong>&bull; Dott.ssa Annalisa Manata</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Consegnatario/Economo)<br />
+Piano: 1<br />
+Stanza: 56<br />
+Telefono: 0923/765260;<br />
+<br />
+<strong>&bull; Roberto Abrignani</strong> (Cancelliere F6)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765331;<br />
+Email: abrignani.roberto@giustizia.it;<br />
+<br />
+<strong>&bull; Alessandra Conti </strong>(Cancelliere F5)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765329;<br />
+Email: alessandra.conti@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanna Ingoglia</strong> (Cancelliere F5)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765372;<br />
+Email: giovanna.ingoglia@giustizia.it;<br />
+<br />
+<strong>&bull; Rosa Maria Stallone</strong> (Cancelliere F5)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Telefono: 0923/765295;<br />
+<br />
+<strong>&bull; Mariarita Gullo</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Stanza: 65<br />
+Telefono: 0923/765287;<br />
+Email: mariaannarita.gullo@giustizia.it;<br />
+<br />
+<strong>&bull; Franca Macchetti</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 39<br />
+Telefono: 0923/765270;<br />
+Email: franca.macchetti@giustizia.it;<br />
+<br />
+<strong>&bull; Flora Mangia</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 23<br />
+Telefono: 0923/765354;<br />
+Email: florarosaria.mangia@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppina Pellegrino</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 35<br />
+Telefono: 0923/765282;<br />
+Email: giuseppina.pellegrino@giustizia.it;<br />
+<br />
+<strong>&bull; Rossella Piccione</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765307;<br />
+Email: rossella.piccione@giustizia.it;<br />
+<br />
+<strong>&bull; Veronica Scatassa</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 40<br />
+Telefono: 0923/765270;<br />
+Email: veronica.scatassa@giustizia.it;<br />
+<br />
+<strong>&bull; Biagio Valenti</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Piano: 2<br />
+Stanza: Palazzo Halley<br />
+Email: biagio.valenti@giustizia.it;<br />
+<br />
+<strong>&bull; Rosanna Gucciardi</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Segreteria di Presidenza)<br />
+Stanza: 59<br />
+Telefono: 0923/765226;<br />
+Fax: 0923/956638;<br />
+<br />
+<strong>&bull; Rosario Pinna</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 68<br />
+Telefono: 0923/765264;<br />
+Email: rosario.pinna@giustizia.it;<br />
+<br />
+<strong>&bull; Franca Tranchida</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Telefono: 0923/765274;<br />
+Email: franca.tranchida@giustizia.it;<br />
+<br />
+<strong>&bull; Isabella Tranchida</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Telefono: 0923/765275;<br />
+<br />
+<strong>&bull; Floriana Abbonato</strong> (Assistente Giudiziario F3)<br />
+<br />
+<strong>&bull; Giuseppe Adamo</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+<br />
+<strong>&bull; Filippo Bonafede</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765291;<br />
+Email: filippo.bonafede@giustizia.it;<br />
+<br />
+<strong>&bull; Piera Galfano</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 1&deg;<br />
+Stanza: 63<br />
+Telefono: 0923/765229;<br />
+<br />
+<strong>&bull; Giacoma Giacalone</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 35<br />
+Telefono: 0923/765268;<br />
+Email: giacoma.giacalone@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanni Giacalone</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+<br />
+<strong>&bull; Angelo Daniele Licari </strong>(Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 24<br />
+Telefono: 0923/765343;<br />
+Email: angelodaniele.licari@giustizia.it;<br />
+<br />
+<strong>&bull; Antonino Mistretta</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 40<br />
+Telefono: 0923/765383;<br />
+Email: antonio.mistretta@giustizia.it;<br />
+<br />
+<strong>&bull; Dina Petralia</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Stanza: 63<br />
+Telefono: 0923/765227;<br />
+Email: dina.petralia@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanna Scardino</strong> (Assistente Giudiziario F3)<br />
+<br />
+<strong>&bull; Dott. Francesco Arno</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 1&deg;<br />
+Telefono: 0923/765382;<br />
+<br />
+<strong>&bull; Dott.ssa Caterina Emanuela De Vita</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Telefono: 765270;<br />
+Email: emanuelacaterina.devita@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Cristina Ferrante</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1&deg;<br />
+Stanza: 70<br />
+Telefono: 0923/765383;<br />
+<br />
+<strong>&bull; Dott.ssa Caterina Ingrasciotta</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 1<br />
+Stanza: 69<br />
+Telefono: 0923/765352;<br />
+Email: caterina.ingrasciotta@giustizia.it;<br />
+<br />
+<strong>&bull; Dott.ssa Francesca Paola Ruggieri</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Piano: Piano Terra<br />
+Telefono: 0923/765203;<br />
+Email: francescapaola.ruggieri@giustizia.it;<br />
+<br />
+<strong>&bull; Dott.ssa Antonella Schifano</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Stanza: 37<br />
+Telefono: 0923/765282;<br />
+Email: antonella.schifano@giustizia.it;<br />
+<br />
+<strong>&bull; Rita Barracca</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Telefono: 0923/765274;<br />
+Email: giusepparita.barraca@giustizia.it;<br />
+<br />
+<strong>&bull; Anastasia Francesca Leggio</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765272;<br />
+Email: anastasiafrancesca@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppa Li Vigni</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Telefono: 0923/765295;<br />
+<br />
+<strong>&bull; Giuseppa Valenti</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Ufficio del Personale)<br />
+Stanza: 54<br />
+Telefono: 0923/765280;<br />
+Email: giuseppa.valenti@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanna Alagna</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 24<br />
+Telefono: 0923/765276;<br />
+Email: giovanna.alagna@giustizia.it;<br />
+<br />
+<strong>&bull; Anna Maria Aleci</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 40<br />
+Telefono: 0923/765383;<br />
+Email: annamaria.aleci@giustizia.it;<br />
+<br />
+<strong>&bull; Marina Frazzitta</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765388;<br />
+Email: marina.frazzitta@giustizia.it;<br />
+<br />
+<strong>&bull; Antonia Maria</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 65<br />
+Telefono: 0923/765287;<br />
+Email: antoniaanna.maria@@giustizia.it;<br />
+<br />
+<strong>&bull; Maria Luisa Marocco</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Consegnatario/Economo)<br />
+Stanza: 58<br />
+Telefono: 0923/765380;<br />
+Fax: 0923/765381;<br />
+Email: marialuisa.marocco@giustizia.it;<br />
+<br />
+<strong>&bull; Francesca Martinico</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 65<br />
+Telefono: 0923/765287;<br />
+Email: francesca.martinico@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppe Papadia</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 70<br />
+Telefono: 0923/765352;<br />
+Email: giuseppe.papadia@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppe Parisi</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765304;<br />
+Email: giuseppe.parisi@giustizia.it;<br />
+<br />
+<strong>&bull; Filippo Parrinell</strong>o (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Stanza: 100<br />
+Telefono: 0923/765275;<br />
+Email: filippo.parrinello@giustizia.it;<br />
+<br />
+<strong>&bull; Calogera Daniela Pellegrino</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Ufficio Corpi di Reato)<br />
+Telefono: 0923/765377;<br />
+Email: calogera.pellegrino@giustizia.it;<br />
+<br />
+Incarico: Addetto (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Piano: 2<br />
+Stanza: 101<br />
+Telefono: 0923/765279;<br />
+<br />
+<strong>&bull;</strong> <strong>Lucia Raineri</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Segreteria di Presidenza)<br />
+Piano: 59<br />
+Telefono: 0923/765350;<br />
+Fax: 0923/956638;<br />
+Email: lucia.raineri@giustizia.it;<br />
+<br />
+<strong>&bull; Marilena Russo</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Stanza: 35<br />
+Telefono: 0923/765249;<br />
+Fax: 0923/765243;<br />
+Email: marilena.russo@giustizia.it;<br />
+<br />
+<strong>&bull; Michela Scalia</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765318;<br />
+Email: michela.scalia@giustizia.it;<br />
+<br />
+<strong>&bull; Maria Pia Sciacca</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Ufficio del Personale)<br />
+Stanza: 54<br />
+Telefono: 0923/765224;<br />
+Email: mariapia.sciacca@giustizia.it;<br />
+<br />
+<strong>&bull; Piero Sugamiele</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Piano: 2<br />
+Stanza: Palazzo Halley<br />
+Telefono: 0923/765318;<br />
+Email: piero.sugamiele@giustizia.it;<br />
+<br />
+<strong>&bull; Pietro Di Giovanni</strong> (Conducente di automezzi F2)<br />
+<br />
+<strong>&bull; Mimmo Fazio</strong> (Conducente di automezzi F2)<br />
+<br />
+<strong>&bull; Pietro Gambina</strong> (Conducente di automezzi F2)<br />
+<br />
+<strong>&bull; Vincenzo Di Prima</strong> (Ausiliario F3)<br />
+<br />
+<strong>&bull; Paolo Favata</strong> (Ausiliario F2)<br />
+<br />
+<strong>&bull; Caterina Ingoglia</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+<br />
+<strong>&bull; Tommaso Lombardo</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+<br />
+<strong>&bull; Matteo Longo</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Telefono: 0923/765227;<br />
+<br />
+<strong>&bull; Michele Mannone</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+<br />
+<strong>&bull; Manlio Marino</strong> (Ausiliario F2)<br />
+<br />
+<strong>&bull; Anna Russo</strong> (Ausiliario F2)<br />
+<br />
+<strong>&bull; Angelo Sammartano</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Stanza: 102<br />
+Telefono: 0923/765273;<br />
+<br />
+<strong>&bull; Girolamo Adragna</strong> (Centralinista F2)<br />
+Incarico: Addetto</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190621154806</lastModified></content>
+','free','1.0','admin','admin');
+INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CON2828','CON','Intro Per il Professionista','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2828" typecode="CON" typedescr="Contenuto composto"><descr>Intro Per il Professionista</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Introduzione al menu che espone i servizi per gli Avvocati</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190621152318</lastModified></content>
+','20190621152312','20190621152318','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2828" typecode="CON" typedescr="Contenuto composto"><descr>Intro Per il Professionista</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Introduzione al menu che espone i servizi per gli Avvocati</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190621152318</lastModified></content>
+','free','1.0','admin','admin');
+INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CON2832','CON','Intro Per l''Amministrazione','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2832" typecode="CON" typedescr="Contenuto composto"><descr>Intro Per l''Amministrazione</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Introduzione al menu che espone i servizi per l&#39;Amministrazione Trasparente</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190621152456</lastModified></content>
+','20190621152422','20190621152456','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2832" typecode="CON" typedescr="Contenuto composto"><descr>Intro Per l''Amministrazione</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Introduzione al menu che espone i servizi per l&#39;Amministrazione Trasparente</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190621152456</lastModified></content>
+','free','1.0','admin','admin');
+INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CON2894','CON','Ufficio del Giudice di Pace di Castelvetrano - piante org','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2894" typecode="CON" typedescr="Contenuto composto"><descr>Ufficio del Giudice di Pace di Castelvetrano - piante org</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Ufficio del Giudice di Pace di Castelvetrano</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="2895" lang="it" /><text lang="it">Ufficio del Giudice di Pace di Marsala - piante organiche.png</text></attribute><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190621160513</lastModified></content>
+','20190621160456','20190621160513','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2894" typecode="CON" typedescr="Contenuto composto"><descr>Ufficio del Giudice di Pace di Castelvetrano - piante org</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Ufficio del Giudice di Pace di Castelvetrano</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="2895" lang="it" /><text lang="it">Ufficio del Giudice di Pace di Marsala - piante organiche.png</text></attribute><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190621160513</lastModified></content>
+','free','1.0','admin','admin');
+INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CON2899','CON','Ufficio del Giudice di Pace di Pantelleria - piante org','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2899" typecode="CON" typedescr="Contenuto composto"><descr>Ufficio del Giudice di Pace di Pantelleria - piante org</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Ufficio del Giudice di Pace di Pantelleria al 31.12.2015</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="2900" lang="it" /><text lang="it">Ufficio del Giudice di Pace di Pantelleria - piante org.png</text></attribute><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190621161029</lastModified></content>
+','20190621160956','20190621161029','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CON2899" typecode="CON" typedescr="Contenuto composto"><descr>Ufficio del Giudice di Pace di Pantelleria - piante org</descr><groups mainGroup="free" /><categories /><attributes><list name="contComp" attributetype="Monolist" nestedtype="Composite"><composite name="contComp" attributetype="Composite"><attribute name="title" attributetype="Text" /><attribute name="text" attributetype="Hypertext"><hypertext lang="it"><![CDATA[<p>Ufficio del Giudice di Pace di Pantelleria al 31.12.2015</p>
+]]></hypertext></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="2900" lang="it" /><text lang="it">Ufficio del Giudice di Pace di Pantelleria - piante org.png</text></attribute><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="allegato" attributetype="Attach" /></composite></list></attributes><status>PUBLIC</status><version>1.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><lastModified>20190621161029</lastModified></content>
+','free','1.0','admin','admin');
 INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CTA144','CTA','Lista Link Tribunali','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CTA144" typecode="CTA" typedescr="Contenuto lista"><descr>Lista Link Tribunali</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">Sezioni</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Linklist1</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link" /><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Linklist2</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link" /><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Linklist3</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link" /><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Linklist4</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link" /><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite></list></attributes><status>PUBLIC</status><version>4.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181122155202</created><lastModified>20181127161049</lastModified></content>
 ','20181122155202','20181127161049','<?xml version="1.0" encoding="UTF-8"?>
@@ -2804,10 +3538,10 @@ l''applicazione di misure rieducative nei confronti dei minori degli anni 18 res
 l''esercizio della potest  dei genitori, della tutela, l''amministrazione patrimoniale, l''assistenza, l''affiliazione, l''adozione, sempre relativi ai minorenni residenti nel distretto di Corte d''Appello. Il Tribunale per i minorenni deve essere informato di tutti i procedimenti in corso per i delitti di violenza sessuale e corruzione commessi in danno di persone minori d''età.</text></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>59</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="it">Tribunali metropolitani</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite></list></attributes><status>PUBLIC</status><version>19.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20190508121047</created><lastModified>20190618130845</lastModified></content>
 ','free','19.0','admin','admin');
 INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CTA22','CTA','LISTA SERVIZI HOME PAGE','READY','<?xml version="1.0" encoding="UTF-8"?>
-<content id="CTA22" typecode="CTA" typedescr="Contenuto lista"><descr>LISTA SERVIZI HOME PAGE</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">Servizi</text><text lang="it">Servizi</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">PER IL CITTADINO</text><text lang="it">PER IL CITTADINO</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="45" lang="it" /><text lang="it">cittadino</text></attribute><attribute name="link" attributetype="Link"><link type="page"><pagedest>per_il_cittadino</pagedest></link><text lang="en">link per il cittadino</text><text lang="it">link per il cittadino</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">PER IL PROFESSIONISTA</text><text lang="it">PER IL PROFESSIONISTA</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="46" lang="it" /><text lang="it">professionista</text></attribute><attribute name="link" attributetype="Link"><link type="page"><pagedest>per_il_professionista</pagedest></link><text lang="en">link per il professionista</text><text lang="it">link per il professionista</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">amministrazione</text><text lang="it">PER L''AMMINISTRAZIONE</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1397" lang="it" /><text lang="it">tribunale Marsala.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="page"><pagedest>per_l_amministrazione</pagedest></link><text lang="en">link per l''amministrazione</text><text lang="it">link per l''amministrazione</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite></list></attributes><status>READY</status><version>17.3</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181121124147</created><lastModified>20190618092042</lastModified></content>
-','20181121124147','20190618092042','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CTA22" typecode="CTA" typedescr="Contenuto lista"><descr>LISTA SERVIZI HOME PAGE</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">Servizi</text><text lang="it">Servizi</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">PER IL CITTADINO</text><text lang="it">PER IL CITTADINO</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="45" lang="it" /><text lang="it">cittadino</text></attribute><attribute name="link" attributetype="Link"><link type="page"><pagedest>per_il_cittadino</pagedest></link><text lang="en">link per il cittadino</text><text lang="it">link per il cittadino</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">PER IL PROFESSIONISTA</text><text lang="it">PER IL PROFESSIONISTA</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="46" lang="it" /><text lang="it">professionista</text></attribute><attribute name="link" attributetype="Link"><link type="page"><pagedest>per_il_professionista</pagedest></link><text lang="en">link per il professionista</text><text lang="it">link per il professionista</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">amministrazione</text><text lang="it">PER L''AMMINISTRAZIONE</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1397" lang="it" /><text lang="it">tribunale Marsala.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="page"><pagedest>per_l_amministrazione</pagedest></link><text lang="en">link per l''amministrazione</text><text lang="it">link per l''amministrazione</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite></list></attributes><status>READY</status><version>17.4</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181121124147</created><lastModified>20190621151015</lastModified></content>
+','20181121124147','20190621151015','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CTA22" typecode="CTA" typedescr="Contenuto lista"><descr>LISTA SERVIZI HOME PAGE</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">Servizi</text><text lang="it">Servizi</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">PER IL CITTADINO</text><text lang="it">PER IL CITTADINO</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="45" lang="it" /><text lang="it">cittadino</text></attribute><attribute name="link" attributetype="Link"><link type="page"><pagedest>per_il_cittadino</pagedest></link><text lang="en">link per il cittadino</text><text lang="it">link per il cittadino</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">PER IL PROFESSIONISTA</text><text lang="it">PER IL PROFESSIONISTA</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="46" lang="it" /><text lang="it">professionista</text></attribute><attribute name="link" attributetype="Link"><link type="page"><pagedest>per_il_professionista</pagedest></link><text lang="en">link per il professionista</text><text lang="it">link per il professionista</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">amministrazione</text><text lang="it">PER L''AMMINISTRAZIONE</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1397" lang="it" /><text lang="it">tribunale Marsala.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="page"><pagedest>per_l_amministrazione</pagedest></link><text lang="en">link per l''amministrazione</text><text lang="it">link per l''amministrazione</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite></list></attributes><status>PUBLIC</status><version>17.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181121124147</created><lastModified>20190419101955</lastModified></content>
-','free','17.3','admin','admin');
+','free','17.4','admin','admin');
 INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CTA30','CTA','NOTIZIE IN PRIMO PIANO','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CTA30" typecode="CTA" typedescr="Contenuto lista"><descr>NOTIZIE IN PRIMO PIANO</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">Notizie in primo piano</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">NOTIZIA 1</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">adfa d a a agfafd gadfg a agfa fdgagafd gadfg afg</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="50" lang="en" /><text lang="en">notizia1</text></attribute><attribute name="link" attributetype="Link" /><attribute name="date" attributetype="Date"><date>20181126</date></attribute><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">NOTIZIA 2</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">a dfa  adfg adf fad adf ga agadf gad gadf g</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="51" lang="en" /><text lang="en">notizia2</text></attribute><attribute name="link" attributetype="Link" /><attribute name="date" attributetype="Date"><date>20181129</date></attribute><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">NOTIZIA3</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">asd aa ga dgfadfgadf afdg af adf gadfa fa a a</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="52" lang="en" /><text lang="en">notizia3</text></attribute><attribute name="link" attributetype="Link" /><attribute name="date" attributetype="Date"><date>20181130</date></attribute><attribute name="number" attributetype="Number" /></composite></list></attributes><status>PUBLIC</status><version>4.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181121155459</created><lastModified>20181121220526</lastModified></content>
 ','20181121155459','20181121220526','<?xml version="1.0" encoding="UTF-8"?>
@@ -2818,16 +3552,16 @@ INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmod
 ','20181218102336','20190618114455','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CTA673" typecode="CTA" typedescr="Contenuto lista"><descr>Contenuto F.A.Q.</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">F.A.Q.</text><text lang="it">F.A.Q.</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Domanda: Che cosa � il circondario?</text><text lang="it">Domanda: Che cosa � il circondario?</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">Risposta: Il circondario � la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso</text><text lang="it">Risposta: Il circondario � la porzione di territorio dove si estende la competenza del Tribunale e, di conseguenza, della Procura della Repubblica presso il Tribunale. Spesso coincide con la provincia, come nel nostro caso</text></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="date" attributetype="Date"><date>20181207</date></attribute><attribute name="number" attributetype="Number"><number>1</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Domanda: Che cosa � il distretto?</text><text lang="it">Domanda: Che cosa � il distretto?</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.</text><text lang="it">Risposta: Il distretto � la porzione di territorio dove si estende la competenza della Corte d''Appello e di tutti i Tribunali che in esso insistono. Di conseguenza, si ricava la competenza della Procura Generale e delle Procure della Repubblica da essa dipendenti. Corrisponde spesso alla regione, come nel nostro caso.</text></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="date" attributetype="Date"><date>20181202</date></attribute><attribute name="number" attributetype="Number"><number>2</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Domanda: Che differenza c''�  tra Procura, Pretura e Prefettura?</text><text lang="it">Domanda: Che differenza c''�  tra Procura, Pretura e Prefettura?</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">Risposta: Anche se il suono di queste parole pu� trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste pi� dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura � l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura � l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).</text><text lang="it">Risposta: Anche se il suono di queste parole pu� trarre in inganno, sono tre uffici molto diversi tra loro. Anzitutto la Pretura non esiste pi� dal 1999: era un ufficio simile, per competenze, al Tribunale. La Prefettura � l''Ufficio Territoriale del Governo dove ha sede il Prefetto (Ministero dell''Interno). La Procura � l''ufficio giudiziario dove ha sede il Procuratore della Repubblica (Ministero della Giustizia).</text></attribute><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><properties /></attribute><attribute name="date" attributetype="Date"><date>20181207</date></attribute><attribute name="number" attributetype="Number"><number>3</number></attribute></composite></list></attributes><status>PUBLIC</status><version>16.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181218102336</created><lastModified>20190618114455</lastModified></content>
 ','free','16.0','admin','admin');
-INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CTA71','CTA','TRASPARENZA HOME PAGE','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CTA71','CTA','TRASPARENZA HOME PAGE','READY','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CTA71" typecode="CTA" typedescr="Contenuto lista"><descr>TRASPARENZA HOME PAGE</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">Trasparenza</text><text lang="it">Trasparenza</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Amministrazione Trasparente</text><text lang="it">Amministrazione Trasparente</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><link type="page"><pagedest>trasparenza</pagedest></link><text lang="en">Amministrazione Trasparente</text><text lang="it">Amministrazione Trasparente</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Pubblicita Legale</text><text lang="it">Pubblicità  Legale</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><link type="page"><pagedest>pubblicit_lega</pagedest></link><text lang="en">Pubblicita Legale</text><text lang="it">Pubblicità  Legale</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Bilancio</text><text lang="it">Bilancio</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><link type="page"><pagedest>bilancio_sociale</pagedest></link><text lang="en">Bilancio</text><text lang="it">Bilancio Sociale</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite></list></attributes><status>READY</status><version>13.1</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181121182007</created><lastModified>20190624100451</lastModified></content>
+','20181121182007','20190624100451','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CTA71" typecode="CTA" typedescr="Contenuto lista"><descr>TRASPARENZA HOME PAGE</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">Trasparenza</text><text lang="it">Trasparenza</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Amministrazione Trasparente</text><text lang="it">Amministrazione Trasparente</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><link type="page"><pagedest>trasparenza</pagedest></link><text lang="en">Amministrazione Trasparente</text><text lang="it">Amministrazione Trasparente</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Pubblicita Legale</text><text lang="it">Pubblicità  Legale</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><link type="page"><pagedest>pubblicit_lega</pagedest></link><text lang="en">Pubblicita Legale</text><text lang="it">Pubblicità  Legale</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Bilancio</text><text lang="it">Bilancio</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><link type="page"><pagedest>bilancio_sociale</pagedest></link><text lang="en">Bilancio</text><text lang="it">Bilancio Sociale</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite></list></attributes><status>PUBLIC</status><version>13.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181121182007</created><lastModified>20190619164737</lastModified></content>
-','20181121182007','20190619164737','<?xml version="1.0" encoding="UTF-8"?>
-<content id="CTA71" typecode="CTA" typedescr="Contenuto lista"><descr>TRASPARENZA HOME PAGE</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">Trasparenza</text><text lang="it">Trasparenza</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Amministrazione Trasparente</text><text lang="it">Amministrazione Trasparente</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><link type="page"><pagedest>trasparenza</pagedest></link><text lang="en">Amministrazione Trasparente</text><text lang="it">Amministrazione Trasparente</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Pubblicita Legale</text><text lang="it">Pubblicità  Legale</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><link type="page"><pagedest>pubblicit_lega</pagedest></link><text lang="en">Pubblicita Legale</text><text lang="it">Pubblicità  Legale</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Bilancio</text><text lang="it">Bilancio</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image" /><attribute name="link" attributetype="Link"><link type="page"><pagedest>bilancio_sociale</pagedest></link><text lang="en">Bilancio</text><text lang="it">Bilancio Sociale</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number" /></composite></list></attributes><status>PUBLIC</status><version>13.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181121182007</created><lastModified>20190619164737</lastModified></content>
-','free','13.0','admin','admin');
-INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CTA76','CTA','Lista link istituzionali','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
+','free','13.1','admin','admin');
+INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CTA76','CTA','Lista link istituzionali','READY','<?xml version="1.0" encoding="UTF-8"?>
+<content id="CTA76" typecode="CTA" typedescr="Contenuto lista"><descr>Lista link istituzionali</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">Link Istituzionali</text><text lang="it">Link Istituzionali</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Corte Suprema di Cassazione</text><text lang="it">Corte Suprema di Cassazione</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="446" lang="en" /><text lang="en">Corte Suprema di Cassazione</text><text lang="it">Corte Suprema di Cassazione</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>http://www.cortedicassazione.it/corte-di-cassazione/</urldest></link><text lang="en">Corte Suprema di Cassazione</text><text lang="it">Corte Suprema di Cassazione</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>0</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Corte Superiore della Magistratura</text><text lang="it">Consiglio Superiore della Magistratura</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="447" lang="en" /><text lang="en">Corte Superiore della Magistratura</text><text lang="it">Consiglio Superiore della Magistratura</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.csm.it/</urldest></link><text lang="en">Corte Superiore della Magistratura</text><text lang="it">Consiglio  Superiore della Magistratura</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>1</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Ordine Avvocati Torino</text><text lang="it">Ordine Avvocati Marsala</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1139" lang="it" /><text lang="it">AvvMarsala1.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.ordineavvocatimarsala.net/com/index.php/albo/albo-avvocati-marsala</urldest></link><text lang="en">Ordine Avvocati Torino</text><text lang="it">Ordine Avvocati Marsala</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>2</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="it">Scuola Superiore Magistratura</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="it">Scuola Superiore Magistratura</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1141" lang="it" /><text lang="it">SSM.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>http://www.scuolamagistratura.it/entra.html</urldest></link><text lang="it">Scuola Superiore Magistratura</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>3</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="it">Presidenza della Repubblica</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="it">Presidenza della Repubblica</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1143" lang="it" /><text lang="it">Presidenza Repubblica.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.quirinale.it/</urldest></link><text lang="it">Presidenza della repubblica</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>4</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="it">Ministero della Giustizia</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="it">Ministero della Giustizia</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1145" lang="it" /><text lang="it">Ministero Giustizia.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.giustizia.it/giustizia/</urldest></link><text lang="it">Ministero della Giustizia</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>5</number></attribute></composite></list></attributes><status>READY</status><version>20.2</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181121185014</created><lastModified>20190624100419</lastModified></content>
+','20181121185014','20190624100419','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CTA76" typecode="CTA" typedescr="Contenuto lista"><descr>Lista link istituzionali</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">Link Istituzionali</text><text lang="it">Link Istituzionali</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Corte Suprema di Cassazione</text><text lang="it">Corte Suprema di Cassazione</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="446" lang="en" /><text lang="en">Corte Suprema di Cassazione</text><text lang="it">Corte Suprema di Cassazione</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>http://www.cortedicassazione.it/corte-di-cassazione/</urldest></link><text lang="en">Corte Suprema di Cassazione</text><text lang="it">Corte Suprema di Cassazione</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>0</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Corte Superiore della Magistratura</text><text lang="it">Consiglio Superiore della Magistratura</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="447" lang="en" /><text lang="en">Corte Superiore della Magistratura</text><text lang="it">Consiglio Superiore della Magistratura</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.csm.it/</urldest></link><text lang="en">Corte Superiore della Magistratura</text><text lang="it">Consiglio  Superiore della Magistratura</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>1</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Ordine Avvocati Torino</text><text lang="it">Ordine Avvocati Marsala</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1139" lang="it" /><text lang="it">AvvMarsala1.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.ordineavvocatimarsala.net/com/index.php/albo/albo-avvocati-marsala</urldest></link><text lang="en">Ordine Avvocati Torino</text><text lang="it">Ordine Avvocati Marsala</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>2</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="it">Scuola Superiore Magistratura</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="it">Scuola Superiore Magistratura</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1141" lang="it" /><text lang="it">SSM.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>http://www.scuolamagistratura.it/entra.html</urldest></link><text lang="it">Scuola Superiore Magistratura</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>3</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="it">Presidenza della Repubblica</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="it">Presidenza della Repubblica</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1143" lang="it" /><text lang="it">Presidenza Repubblica.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.quirinale.it/</urldest></link><text lang="it">Presidenza della repubblica</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>4</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="it">Ministero della Giustizia</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="it">Ministero della Giustizia</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1145" lang="it" /><text lang="it">Ministero Giustizia.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.giustizia.it/giustizia/</urldest></link><text lang="it">Ministero della Giustizia</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>5</number></attribute></composite></list></attributes><status>PUBLIC</status><version>20.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181121185014</created><lastModified>20190603105539</lastModified></content>
-','20181121185014','20190603105539','<?xml version="1.0" encoding="UTF-8"?>
-<content id="CTA76" typecode="CTA" typedescr="Contenuto lista"><descr>Lista link istituzionali</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">Link Istituzionali</text><text lang="it">Link Istituzionali</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Corte Suprema di Cassazione</text><text lang="it">Corte Suprema di Cassazione</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="446" lang="en" /><text lang="en">Corte Suprema di Cassazione</text><text lang="it">Corte Suprema di Cassazione</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>http://www.cortedicassazione.it/corte-di-cassazione/</urldest></link><text lang="en">Corte Suprema di Cassazione</text><text lang="it">Corte Suprema di Cassazione</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>0</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Corte Superiore della Magistratura</text><text lang="it">Consiglio Superiore della Magistratura</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="447" lang="en" /><text lang="en">Corte Superiore della Magistratura</text><text lang="it">Consiglio Superiore della Magistratura</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.csm.it/</urldest></link><text lang="en">Corte Superiore della Magistratura</text><text lang="it">Consiglio  Superiore della Magistratura</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>1</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Ordine Avvocati Torino</text><text lang="it">Ordine Avvocati Marsala</text></attribute><attribute name="abstract" attributetype="Longtext" /><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1139" lang="it" /><text lang="it">AvvMarsala1.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.ordineavvocatimarsala.net/com/index.php/albo/albo-avvocati-marsala</urldest></link><text lang="en">Ordine Avvocati Torino</text><text lang="it">Ordine Avvocati Marsala</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>2</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="it">Scuola Superiore Magistratura</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="it">Scuola Superiore Magistratura</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1141" lang="it" /><text lang="it">SSM.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>http://www.scuolamagistratura.it/entra.html</urldest></link><text lang="it">Scuola Superiore Magistratura</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>3</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="it">Presidenza della Repubblica</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="it">Presidenza della Repubblica</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1143" lang="it" /><text lang="it">Presidenza Repubblica.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.quirinale.it/</urldest></link><text lang="it">Presidenza della repubblica</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>4</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="it">Ministero della Giustizia</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="it">Ministero della Giustizia</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="1145" lang="it" /><text lang="it">Ministero Giustizia.jpg</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>https://www.giustizia.it/giustizia/</urldest></link><text lang="it">Ministero della Giustizia</text><properties /></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>5</number></attribute></composite></list></attributes><status>PUBLIC</status><version>20.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181121185014</created><lastModified>20190603105539</lastModified></content>
-','free','20.0','admin','admin');
+','free','20.2','admin','admin');
 INSERT INTO contents (contentid,contenttype,descr,status,workxml,created,lastmodified,onlinexml,maingroup,currentversion,lasteditor,firsteditor) VALUES ('CTA91','CTA','Carousel home','PUBLIC','<?xml version="1.0" encoding="UTF-8"?>
 <content id="CTA91" typecode="CTA" typedescr="Contenuto lista"><descr>Carousel home</descr><groups mainGroup="free" /><categories /><attributes><attribute name="title" attributetype="Text"><text lang="en">home</text></attribute><list name="lista" attributetype="Monolist" nestedtype="Composite"><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">test</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">test test testtesttesttest test test test test</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="302" lang="en" /><text lang="en">gius1</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>http://www.mysite.com/</urldest></link><text lang="en">link test</text></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>0</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">test</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">test test testtesttesttest test test test test</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="303" lang="en" /><text lang="en">gius2</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>http://www.mysite.com/</urldest></link><text lang="en">link test 2</text></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>1</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">test</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">test test testtesttesttest test test test test</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="304" lang="en" /><text lang="en">gius3</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>http://www.mysite.com/</urldest></link><text lang="en">link test</text></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>2</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">test</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">test test testtesttesttest test test test test</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="305" lang="en" /><text lang="en">gius4</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>http://www.mysite.com/</urldest></link><text lang="en">linkj test</text></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>3</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">test</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">test vtesttesttesttesttesttesttesttesttest</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="306" lang="en" /><text lang="en">gius5</text></attribute><attribute name="link" attributetype="Link"><link type="external"><urldest>http://www.mysite.com/</urldest></link><text lang="en">test 4</text></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>4</number></attribute></composite><composite name="lista" attributetype="Composite"><attribute name="title" attributetype="Text"><text lang="en">Atti giudiziari</text></attribute><attribute name="abstract" attributetype="Longtext"><text lang="en">Atti giudiziari</text></attribute><attribute name="img" attributetype="Image"><resource resourcetype="Image" id="50" lang="en" /><text lang="en">notizia1</text></attribute><attribute name="link" attributetype="Link"><link type="content"><contentdest>CTM165</contentdest></link><text lang="en">Atti giudiziari</text></attribute><attribute name="date" attributetype="Date" /><attribute name="number" attributetype="Number"><number>5</number></attribute></composite></list></attributes><status>PUBLIC</status><version>18.0</version><firstEditor>admin</firstEditor><lastEditor>admin</lastEditor><created>20181121222344</created><lastModified>20181127155555</lastModified></content>
 ','20181121222344','20181127155555','<?xml version="1.0" encoding="UTF-8"?>

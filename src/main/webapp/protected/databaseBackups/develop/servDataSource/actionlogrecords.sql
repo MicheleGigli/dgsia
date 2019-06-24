@@ -3414,133 +3414,6 @@ jacmsPreviewActionPageCode_en=
 status=
 entandoaction:saveAndApprove=Submit
 ',NULL,'2019-05-27 12:11:54');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2049,'admin','2019-05-27 12:16:40','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-Monolist:Composite:Text:it_contComp_title_1=
-Monolist:Composite:Hypertext:it_contComp_text_1=<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-Monolist:Composite:Text:it_contComp_title_2=
-Monolist:Composite:Hypertext:it_contComp_text_2=<p>Orario al pubblico:</p>
-
-<p>Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-Monolist:Composite:Text:en_contComp_title_1=
-Monolist:Composite:Hypertext:en_contComp_text_1=
-Monolist:Composite:Text:en_contComp_title_2=
-Monolist:Composite:Hypertext:en_contComp_text_2=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:16:40');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2050,'admin','2019-05-27 12:17:05','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br /><strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-Monolist:Composite:Text:it_contComp_title_1=
-Monolist:Composite:Hypertext:it_contComp_text_1=<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-Monolist:Composite:Text:it_contComp_title_2=
-Monolist:Composite:Hypertext:it_contComp_text_2=<p>Orario al pubblico:</p>
-
-<p>Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-Monolist:Composite:Text:en_contComp_title_1=
-Monolist:Composite:Hypertext:en_contComp_text_1=
-Monolist:Composite:Text:en_contComp_title_2=
-Monolist:Composite:Hypertext:en_contComp_text_2=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:17:05');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2051,'admin','2019-05-27 12:18:41','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
 __multiselect_extraGroupNames=
 treeNodesToOpen=home
@@ -3582,1084 +3455,6 @@ jacmsPreviewActionPageCode_en=
 status=
 entandoaction:saveAndApprove=Submit
 ',NULL,'2019-05-27 12:18:41');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2052,'admin','2019-05-27 12:18:49','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br />
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p><strong>Orario al pubblico</strong>:<br />
-Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-jacmsPreviewActionPageCode_en=
-status=READY
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:18:49');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2053,'admin','2019-05-27 12:22:38','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br />
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p><strong>Orario al pubblico</strong>:<br />
-Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-Monolist:Composite:Text:it_contComp_title_1=
-Monolist:Composite:Hypertext:it_contComp_text_1=<p>Personale Amministrativo:<br />
-I dati sono visualizzati nel seguente ordine: incarico, qualifica comprensiva della fascia economica, nominativo<br />
-Giovanna Ottoveggio&nbsp;(Funzionario Giudiziario F2)<br />
-Incarico: Responsabile<br />
-Stanza: 101<br />
-Telefono: 0923/765277;&nbsp;<br />
-Email:&nbsp;giovanna.ottoveggio@giustizia.it;&nbsp;<br />
-Isabella Tranchida&nbsp;(Assistente Giudiziario F4)<br />
-Incarico: Addetto<br />
-Telefono: 0923/765275;&nbsp;<br />
-Filippo Parrinello&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Stanza: 100<br />
-Telefono: 0923/765275;&nbsp;<br />
-Email:&nbsp;filippo.parrinello@giustizia.it;&nbsp;<br />
-Calogera Daniela Pellegrino&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Piano: 2<br />
-Stanza: 101<br />
-Telefono: 0923/765279;&nbsp;</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-Monolist:Composite:Text:en_contComp_title_1=
-Monolist:Composite:Hypertext:en_contComp_text_1=
-jacmsPreviewActionPageCode_en=
-status=READY
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:22:38');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2054,'admin','2019-05-27 12:23:27','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br />
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p><strong>Orario al pubblico</strong>:<br />
-Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-Monolist:Composite:Text:it_contComp_title_1=
-Monolist:Composite:Hypertext:it_contComp_text_1=<p><strong>Personale Amministrativo</strong>:<br />
-I dati sono visualizzati nel seguente ordine: incarico, qualifica comprensiva della fascia economica, nominativo</p>
-
-<p>&bull;Giovanna Ottoveggio&nbsp;(Funzionario Giudiziario F2)<br />
-Incarico: Responsabile<br />
-Stanza: 101<br />
-Telefono: 0923/765277;&nbsp;<br />
-Email:&nbsp;giovanna.ottoveggio@giustizia.it;&nbsp;</p>
-
-<p>&bull;Isabella Tranchida&nbsp;(Assistente Giudiziario F4)<br />
-Incarico: Addetto<br />
-Telefono: 0923/765275;&nbsp;</p>
-
-<p>&bull;Filippo Parrinello&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Stanza: 100<br />
-Telefono: 0923/765275;&nbsp;<br />
-Email:&nbsp;filippo.parrinello@giustizia.it;&nbsp;</p>
-
-<p>&bull;Calogera Daniela Pellegrino&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Piano: 2<br />
-Stanza: 101<br />
-Telefono: 0923/765279;&nbsp;</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-Monolist:Composite:Text:en_contComp_title_1=
-Monolist:Composite:Hypertext:en_contComp_text_1=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:23:27');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2055,'admin','2019-05-27 12:25:17','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br />
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p><strong>Orario al pubblico</strong>:<br />
-Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-Monolist:Composite:Text:it_contComp_title_1=
-Monolist:Composite:Hypertext:it_contComp_text_1=<p><strong>Personale Amministrativo</strong>:<br />
-I dati sono visualizzati nel seguente ordine: incarico, qualifica comprensiva della fascia economica, nominativo</p>
-
-<p><strong>&bull;</strong> Giovanna Ottoveggio&nbsp;(Funzionario Giudiziario F2)<br />
-Incarico: Responsabile<br />
-Stanza: 101<br />
-Telefono: 0923/765277;&nbsp;<br />
-Email:&nbsp;giovanna.ottoveggio@giustizia.it;&nbsp;</p>
-
-<p><strong>&bull;</strong> Isabella Tranchida&nbsp;(Assistente Giudiziario F4)<br />
-Incarico: Addetto<br />
-Telefono: 0923/765275;&nbsp;</p>
-
-<p><strong>&bull;</strong> Filippo Parrinello&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Stanza: 100<br />
-Telefono: 0923/765275;&nbsp;<br />
-Email:&nbsp;filippo.parrinello@giustizia.it;&nbsp;</p>
-
-<p><strong>&bull;</strong> Calogera Daniela Pellegrino&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Piano: 2<br />
-Stanza: 101<br />
-Telefono: 0923/765279;&nbsp;</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-Monolist:Composite:Text:en_contComp_title_1=
-Monolist:Composite:Hypertext:en_contComp_text_1=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:25:17');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2056,'admin','2019-05-27 12:26:58','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br />
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p><strong>Orario al pubblico</strong>:<br />
-Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-<p>Personale Amministrativo:<br />
-I dati sono visualizzati nel seguente ordine: incarico, qualifica comprensiva della fascia economica, nominativo<br />
-
-&bull; Giovanna Ottoveggio&nbsp;(Funzionario Giudiziario F2)<br />
-Incarico: Responsabile<br />
-Stanza: 101<br />
-Telefono: 0923/765277;&nbsp;<br />
-Email:&nbsp;giovanna.ottoveggio@giustizia.it;&nbsp;<br />
-
-&bull; Isabella Tranchida&nbsp;(Assistente Giudiziario F4)<br />
-Incarico: Addetto<br />
-Telefono: 0923/765275;&nbsp;<br />
-
-&bull; Filippo Parrinello&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Stanza: 100<br />
-Telefono: 0923/765275;&nbsp;<br />
-Email:&nbsp;filippo.parrinello@giustizia.it;&nbsp;<br />
-
-&bull; Calogera Daniela Pellegrino&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Piano: 2<br />
-Stanza: 101<br />
-Telefono: 0923/765279;&nbsp;</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-jacmsPreviewActionPageCode_en=
-status=READY
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:26:58');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2057,'admin','2019-05-27 12:27:54','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br />
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p><strong>Orario al pubblico</strong>:<br />
-Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-<p><strong>Personale Amministrativo</strong>:<br />
-I dati sono visualizzati nel seguente ordine: incarico, qualifica comprensiva della fascia economica, nominativo<br />
-<strong>&bull;</strong> Giovanna Ottoveggio&nbsp;(Funzionario Giudiziario F2)<br />
-Incarico: Responsabile<br />
-Stanza: 101<br />
-Telefono: 0923/765277;&nbsp;<br />
-Email:&nbsp;giovanna.ottoveggio@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> Isabella Tranchida&nbsp;(Assistente Giudiziario F4)<br />
-Incarico: Addetto<br />
-Telefono: 0923/765275;&nbsp;<br />
-<strong>&bull;</strong> Filippo Parrinello&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Stanza: 100<br />
-Telefono: 0923/765275;&nbsp;<br />
-Email:&nbsp;filippo.parrinello@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> Calogera Daniela Pellegrino&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Piano: 2<br />
-Stanza: 101<br />
-Telefono: 0923/765279;&nbsp;</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:27:54');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2058,'admin','2019-05-27 12:31:38','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br />
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p><strong>Orario al pubblico</strong>:<br />
-Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-<p><strong>Personale Amministrativo</strong>:<br />
-I dati sono visualizzati nel seguente ordine: incarico, qualifica comprensiva della fascia economica, nominativo<br />
-&nbsp;</p>
-
-<p><strong>&bull;</strong> Giovanna Ottoveggio&nbsp;(Funzionario Giudiziario F2)<br />
-Incarico: Responsabile<br />
-Stanza: 101<br />
-Telefono: 0923/765277;&nbsp;<br />
-Email:&nbsp;giovanna.ottoveggio@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> Isabella Tranchida&nbsp;(Assistente Giudiziario F4)<br />
-Incarico: Addetto<br />
-Telefono: 0923/765275;&nbsp;<br />
-<strong>&bull;</strong> Filippo Parrinello&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Stanza: 100<br />
-Telefono: 0923/765275;&nbsp;<br />
-Email:&nbsp;filippo.parrinello@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> Calogera Daniela Pellegrino&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Piano: 2<br />
-Stanza: 101<br />
-Telefono: 0923/765279;&nbsp;</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:31:38');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2059,'admin','2019-05-27 12:33:23','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br />
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p><strong>Orario al pubblico</strong>:<br />
-Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-<p><strong>Personale Amministrativo</strong>:<br />
-I dati sono visualizzati nel seguente ordine: incarico, qualifica comprensiva della fascia economica, nominativo<br />
-<strong>&bull;</strong> Giovanna Ottoveggio&nbsp;(Funzionario Giudiziario F2)<br />
-Incarico: Responsabile<br />
-Stanza: 101<br />
-Telefono: 0923/765277;&nbsp;<br />
-Email:&nbsp;giovanna.ottoveggio@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> Isabella Tranchida&nbsp;(Assistente Giudiziario F4)<br />
-Incarico: Addetto<br />
-Telefono: 0923/765275;&nbsp;<br />
-<strong>&bull;</strong> Filippo Parrinello&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Stanza: 100<br />
-Telefono: 0923/765275;&nbsp;<br />
-Email:&nbsp;filippo.parrinello@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> Calogera Daniela Pellegrino&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Piano: 2<br />
-Stanza: 101<br />
-Telefono: 0923/765279;&nbsp;</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:33:23');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2060,'admin','2019-05-27 12:33:55','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br />
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p><strong>Orario al pubblico</strong>:<br />
-Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.<br />
-<strong>Personale Amministrativo</strong>:<br />
-I dati sono visualizzati nel seguente ordine: incarico, qualifica comprensiva della fascia economica, nominativo<br />
-<strong>&bull;</strong> Giovanna Ottoveggio&nbsp;(Funzionario Giudiziario F2)<br />
-Incarico: Responsabile<br />
-Stanza: 101<br />
-Telefono: 0923/765277;&nbsp;<br />
-Email:&nbsp;giovanna.ottoveggio@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> Isabella Tranchida&nbsp;(Assistente Giudiziario F4)<br />
-Incarico: Addetto<br />
-Telefono: 0923/765275;&nbsp;<br />
-<strong>&bull;</strong> Filippo Parrinello&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Stanza: 100<br />
-Telefono: 0923/765275;&nbsp;<br />
-Email:&nbsp;filippo.parrinello@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> Calogera Daniela Pellegrino&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Piano: 2<br />
-Stanza: 101<br />
-Telefono: 0923/765279;&nbsp;</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:33:55');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2061,'admin','2019-05-27 12:34:30','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br />
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p><strong>Orario al pubblico</strong>:<br />
-Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-<p><strong>Personale Amministrativo</strong>:<br />
-I dati sono visualizzati nel seguente ordine: incarico, qualifica comprensiva della fascia economica, nominativo<br />
-<strong>&bull;</strong> Giovanna Ottoveggio&nbsp;(Funzionario Giudiziario F2)<br />
-Incarico: Responsabile<br />
-Stanza: 101<br />
-Telefono: 0923/765277;&nbsp;<br />
-Email:&nbsp;giovanna.ottoveggio@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> Isabella Tranchida&nbsp;(Assistente Giudiziario F4)<br />
-Incarico: Addetto<br />
-Telefono: 0923/765275;&nbsp;<br />
-<strong>&bull;</strong> Filippo Parrinello&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Stanza: 100<br />
-Telefono: 0923/765275;&nbsp;<br />
-Email:&nbsp;filippo.parrinello@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> Calogera Daniela Pellegrino&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Piano: 2<br />
-Stanza: 101<br />
-Telefono: 0923/765279;&nbsp;</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:34:30');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2062,'admin','2019-05-27 12:59:05','/do/jacms/Content','saveAndApprove','descr=Info Ufficio Recupero Crediti/Spese di Giustizia
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CON_editContent_CON2038
-resourceTypeCode=
-Monolist:Composite:Text:it_contComp_title_0=
-Monolist:Composite:Hypertext:it_contComp_text_0=<p><strong>Ubicazione</strong>:&nbsp;Piazza Borsellino, 1<br />
-<strong>Piano</strong>:&nbsp;Secondo<br />
-<strong>Stanza</strong>:&nbsp;100 - 101<br />
-<strong>Telefono</strong>:&nbsp;0923/765279;<br />
-0923/765277;<br />
-0923/765275<br />
-<strong>Fax</strong>:&nbsp;0923/765272<br />
-<strong>PEC</strong>:&nbsp;spesedigiustizia.tribunale.marsala@giustiziacert.it</p>
-
-<p><strong>Attivit&agrave; svolte:</strong><br />
-Servizi connessi alla tenuta dei registri informatici previsti dall&rsquo;art. 161 del DPR 115/02 (T.U. in materia di spese di giustizia):<br />
-<strong>&bull; </strong>Iscrizione della spese anticipate dall&rsquo;erario, predisposizione degli ordinativi di pagamento da inviare al Funzionario delegato alle spese di giustizia, redazione dei Modd. 770;<br />
-<strong>&bull;</strong> Iscrizione delle spese prenotate nel relativo registro;<br />
-<strong>&bull;&nbsp;</strong>Annotazione delle vicende dei crediti erariali nel registro dei crediti da recuperare e delle successive vicende dei crediti, esame della documentazione trasmessa al concessionario per la riscossione dopo la formazione del ruolo.</p>
-
-<p>Istruzione e definizione dei procedimenti di sospensione della riscossione, di dilazione e/o rateizzazione, annullamento delle partite di credito. In seguito all&#39;attivazione, negli Uffici Giudiziari del distretto di Corte di Appello di Palermo, della Convenzione stipulta dal Ministero della Giustizia con Equitalia Giustizia SpA per la riscossione dei crediti di giustizia, alla stessa societ&agrave; &egrave; affidata la gestione dei crediti di giustizia maturati a decorrere dal 1&deg; gennaio 2008. L&#39;Ufficio provvede, preliminarmente, all&#39;esame della documentazione da inviare a Equitalia Giustizia SpA per l&#39;identificazione del debitore e la quantificazione del credito. La stessa unit&agrave; operativa svolge il servizio connesso alla tenuta del registro del Fondo Unico Giustizia.</p>
-
-<p><strong>Orario al pubblico</strong>:<br />
-Dal luned&igrave; al venerd&igrave; dalle ore 09:00 alle ore 13:00.</p>
-
-<p><strong>Personale Amministrativo</strong>:<br />
-I dati sono visualizzati nel seguente ordine: incarico, qualifica comprensiva della fascia economica, nominativo<br />
-<strong>&bull;</strong> <strong>Giovanna Ottoveggio</strong>&nbsp;(Funzionario Giudiziario F2)<br />
-Incarico: Responsabile<br />
-Stanza: 101<br />
-Telefono: 0923/765277;&nbsp;<br />
-Email:&nbsp;giovanna.ottoveggio@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> <strong>Isabella Tranchida</strong>&nbsp;(Assistente Giudiziario F4)<br />
-Incarico: Addetto<br />
-Telefono: 0923/765275;&nbsp;<br />
-<strong>&bull;</strong> <strong>Filippo Parrinello</strong>&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Stanza: 100<br />
-Telefono: 0923/765275;&nbsp;<br />
-Email:&nbsp;filippo.parrinello@giustizia.it;&nbsp;<br />
-<strong>&bull;</strong> <strong>Calogera Daniela Pellegrin</strong>o&nbsp;(Operatore Giudiziario F2)<br />
-Incarico: Addetto<br />
-Piano: 2<br />
-Stanza: 101<br />
-Telefono: 0923/765279;&nbsp;</p>
-
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Text:en_contComp_title_0=
-Monolist:Composite:Hypertext:en_contComp_text_0=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Ufficio Recupero Crediti/Spese di Giustizia</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2038</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 12:59:05');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2063,'admin','2019-05-27 16:26:48','/do/jacms/Content','saveAndApprove','descr=Info Competenza Territoriale
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CNG_editContent_CNG342
-resourceTypeCode=
-Text:it_Title=Comune
-Hypertext:it_Abstract=
-Hypertext:it_MainBody=<p><strong>&bull;</strong> Campobello di Mazara</br>
-
-<strong>&bull;</strong> Castelvetrano
-
-<strong>&bull;</strong> Marsala
-
-<strong>&bull;</strong> Mazara del Vallo
-
-<strong>&bull;</strong> Pantelleria
-
-<strong>&bull;</strong> Petrosino</p>
-
-<p><strong>&bull;</strong> Salemi</p>
-
-<p><strong>&bull;</strong> Vita</p>
-
-Text:it_Caption=
-jacmsPreviewActionPageCode_it=
-Text:en_Title=Info Competenza Territoriale
-Hypertext:en_Abstract=<p>Informazioni sulla Competenza Territoriale</p>
-
-Hypertext:en_MainBody=<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo in nisi pellentesque ornare. Vestibulum eu rutrum dui, non auctor nisl. Duis vehicula nibh nec erat semper, sed accumsan nulla eleifend. Cras aliquam elementum lacinia. Ut aliquet enim vehicula quam imperdiet, quis consectetur dolor laoreet. Suspendisse eu dolor eu lorem cursus blandit. Morbi vehicula, augue nec tincidunt mollis, ligula dui feugiat dolor, in hendrerit dolor dui sit amet elit. In luctus justo ac orci mollis, eget porta mi fermentum. Praesent accumsan lorem porta, tempus eros ut, eleifend enim. Mauris magna tellus, egestas eu risus non, aliquam tristique purus. Sed sollicitudin neque nec volutpat mollis. Ut lobortis viverra eros vel imperdiet. In consectetur urna eget iaculis venenatis. Cras vehicula ligula ut sem cursus, in aliquet nisi blandit.</p>
-
-Text:en_Caption=
-jacmsPreviewActionPageCode_en=
-status=READY
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Competenza Territoriale</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CNG342</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 16:26:48');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2064,'admin','2019-05-27 16:28:41','/do/jacms/Content','saveAndApprove','descr=Info Competenza Territoriale
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CNG_editContent_CNG342
-resourceTypeCode=
-Text:it_Title=Comune
-Hypertext:it_Abstract=<p>Informazioni sulla Competenza Territoriale</p>
-
-Hypertext:it_MainBody=<p><strong>&bull;</strong> Campobello di Mazara<br />
-<strong>&bull;</strong> Castelvetrano<br />
-<strong>&bull;</strong> Marsala<br />
-<strong>&bull;</strong> Mazara del Vallo<br />
-<strong>&bull;</strong> Pantelleria<br />
-<strong>&bull;</strong> Petrosino<br />
-<strong>&bull;</strong> Salemi</p>
-
-<p><strong>&bull;</strong> Vita</p>
-
-Text:it_Caption=
-jacmsPreviewActionPageCode_it=
-Text:en_Title=Info Competenza Territoriale
-Hypertext:en_Abstract=<p>Informazioni sulla Competenza Territoriale</p>
-
-Hypertext:en_MainBody=<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo in nisi pellentesque ornare. Vestibulum eu rutrum dui, non auctor nisl. Duis vehicula nibh nec erat semper, sed accumsan nulla eleifend. Cras aliquam elementum lacinia. Ut aliquet enim vehicula quam imperdiet, quis consectetur dolor laoreet. Suspendisse eu dolor eu lorem cursus blandit. Morbi vehicula, augue nec tincidunt mollis, ligula dui feugiat dolor, in hendrerit dolor dui sit amet elit. In luctus justo ac orci mollis, eget porta mi fermentum. Praesent accumsan lorem porta, tempus eros ut, eleifend enim. Mauris magna tellus, egestas eu risus non, aliquam tristique purus. Sed sollicitudin neque nec volutpat mollis. Ut lobortis viverra eros vel imperdiet. In consectetur urna eget iaculis venenatis. Cras vehicula ligula ut sem cursus, in aliquet nisi blandit.</p>
-
-Text:en_Caption=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Competenza Territoriale</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CNG342</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 16:28:41');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2065,'admin','2019-05-27 16:29:05','/do/jacms/Content','saveAndApprove','descr=Info Competenza Territoriale
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CNG_editContent_CNG342
-resourceTypeCode=
-Text:it_Title=Comune
-Hypertext:it_Abstract=<p>Informazioni sulla Competenza Territoriale</p>
-
-Hypertext:it_MainBody=<p><strong>&bull;</strong> Campobello di Mazara<br />
-<strong>&bull;</strong> Castelvetrano<br />
-<strong>&bull;</strong> Marsala<br />
-<strong>&bull;</strong> Mazara del Vallo<br />
-<strong>&bull;</strong> Pantelleria<br />
-<strong>&bull;</strong> Petrosino<br />
-
-<strong>&bull;</strong> Salemi<br />
-<strong>&bull;</strong> Vita</p>
-
-Text:it_Caption=
-jacmsPreviewActionPageCode_it=
-Text:en_Title=Info Competenza Territoriale
-Hypertext:en_Abstract=<p>Informazioni sulla Competenza Territoriale</p>
-
-Hypertext:en_MainBody=<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo in nisi pellentesque ornare. Vestibulum eu rutrum dui, non auctor nisl. Duis vehicula nibh nec erat semper, sed accumsan nulla eleifend. Cras aliquam elementum lacinia. Ut aliquet enim vehicula quam imperdiet, quis consectetur dolor laoreet. Suspendisse eu dolor eu lorem cursus blandit. Morbi vehicula, augue nec tincidunt mollis, ligula dui feugiat dolor, in hendrerit dolor dui sit amet elit. In luctus justo ac orci mollis, eget porta mi fermentum. Praesent accumsan lorem porta, tempus eros ut, eleifend enim. Mauris magna tellus, egestas eu risus non, aliquam tristique purus. Sed sollicitudin neque nec volutpat mollis. Ut lobortis viverra eros vel imperdiet. In consectetur urna eget iaculis venenatis. Cras vehicula ligula ut sem cursus, in aliquet nisi blandit.</p>
-
-Text:en_Caption=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Competenza Territoriale</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CNG342</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 16:29:05');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2066,'admin','2019-05-27 16:29:39','/do/jacms/Content','saveAndApprove','descr=Info Competenza Territoriale
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CNG_editContent_CNG342
-resourceTypeCode=
-Text:it_Title=Comune
-Hypertext:it_Abstract=<p>Informazioni sulla Competenza Territoriale</p>
-
-Hypertext:it_MainBody=<p><strong>&bull;</strong> Campobello di Mazara<br />
-<strong>&bull;</strong> Castelvetrano<br />
-<strong>&bull;</strong> Marsala<br />
-<strong>&bull;</strong> Mazara del Vallo<br />
-<strong>&bull;</strong> Pantelleria<br />
-<strong>&bull;</strong> Petrosino<br />
-<strong>&bull;</strong> Salemi<br />
-<strong>&bull;</strong> Vita</p>
-
-Text:it_Caption=
-jacmsPreviewActionPageCode_it=
-Text:en_Title=Info Competenza Territoriale
-Hypertext:en_Abstract=<p>Informazioni sulla Competenza Territoriale</p>
-
-Hypertext:en_MainBody=<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo in nisi pellentesque ornare. Vestibulum eu rutrum dui, non auctor nisl. Duis vehicula nibh nec erat semper, sed accumsan nulla eleifend. Cras aliquam elementum lacinia. Ut aliquet enim vehicula quam imperdiet, quis consectetur dolor laoreet. Suspendisse eu dolor eu lorem cursus blandit. Morbi vehicula, augue nec tincidunt mollis, ligula dui feugiat dolor, in hendrerit dolor dui sit amet elit. In luctus justo ac orci mollis, eget porta mi fermentum. Praesent accumsan lorem porta, tempus eros ut, eleifend enim. Mauris magna tellus, egestas eu risus non, aliquam tristique purus. Sed sollicitudin neque nec volutpat mollis. Ut lobortis viverra eros vel imperdiet. In consectetur urna eget iaculis venenatis. Cras vehicula ligula ut sem cursus, in aliquet nisi blandit.</p>
-
-Text:en_Caption=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info Competenza Territoriale</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CNG342</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-27 16:29:39');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2067,'admin','2019-05-28 10:01:00','/do/jacms/Content','saveAndApprove','descr=
 __multiselect_extraGroupNames=
 treeNodesToOpen=home,scheda_all_info,magistrati,area_civile,uffici_e_cancellerie,uffici_e_cancellerie_int
@@ -4756,1669 +3551,6 @@ Text:en_note=
 status=
 entandoaction:saveAndApprove=Submit
 ',NULL,'2019-05-28 10:01:37');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2071,'admin','2019-05-28 10:01:43','/do/jacms/Content','saveAndApprove','descr=Giudice Francesca Bellafiore
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile,uffici_e_cancellerie,uffici_e_cancellerie_int
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Francesca Bellafiore
-Text:it_incarico=Giudice Sezione Civile 
-Text:it_luogo=
-Number:piano=2
-Text:it_stanza=107
-Text:it_telefono=0923/765111; 
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Tutti i martedì del mese affari civili.
-Text:it_competenze=Affari Civili; procedimenti cautelari, reclami al Collegio, affari del giudice tutelare; procedure concorsuali.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Francesca Bellafiore</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2068</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 10:01:43');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2073,'admin','2019-05-28 10:03:24','/do/jacms/Content','saveAndApprove','descr=Giudice Mary Carmisciano
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Mary Carmisciano
-Text:it_incarico=Giudice
-Text:it_luogo=
-Number:piano=1
-Text:it_stanza=105
-Text:it_telefono=0923/765111; 
-Text:it_fax=0923/765298; 
-Text:it_email=
-Text:it_gg_udienza=° e 3° mercoledì del mese tratterà gli affari civili - 1° e il 3° giovedì del mese (verifica stato passivo) - 2° e 4° giovedì del mese (prefallimentare- vendite)
-Text:it_competenze=Affari civili con funzioni monocratiche e collegiali - giudice delegato
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Mary Carmisciano</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2072</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 10:03:24');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2075,'admin','2019-05-28 10:04:47','/do/jacms/Content','saveAndApprove','descr=Giudice Francescamaria Piruzza
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Francescamaria Piruzza
-Text:it_incarico=Giudice
-Text:it_luogo=
-Number:piano=1
-Text:it_stanza=337
-Text:it_telefono=0923/765111; 
-Text:it_fax=0923/765338; 
-Text:it_email=
-Text:it_gg_udienza=Tutti i lunedì del mese
-Text:it_competenze=Contenzioso ordinario e non contenzioso - Giudice della sezione specializzata agraria
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Francescamaria Piruzza</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2074</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 10:04:47');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2077,'admin','2019-05-28 11:05:17','/do/jacms/Content','saveAndApprove','descr=Giudice Francesco Paolo Pizzo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Francesco Paolo Pizzo
-Text:it_incarico=Giudice Sezione Civile 
-Text:it_luogo=
-Number:piano=1
-Text:it_stanza=45
-Text:it_telefono=0923/765111;
-Text:it_fax=0923/956638; 
-Text:it_email=
-Text:it_gg_udienza=Tutti i martedì del mese
-Text:it_competenze=Contenzioso ordinario- Giudice tutelare
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Francesco Paolo Pizzo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2076</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:05:17');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2079,'admin','2019-05-28 11:07:09','/do/jacms/Content','saveAndApprove','descr=Giudice Maria Saieva
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Maria Saieva
-Text:it_incarico=Giudice
-Text:it_luogo=
-Number:piano=2
-Text:it_stanza=107
-Text:it_telefono=0923/765111; 
-Text:it_fax=0923/765298; 
-Text:it_email=
-Text:it_gg_udienza=1° e 3° martedì del mese tratterà gli affari civili - 1° e il 3° giovedì del mese (pre- fallimentari)- 2° e 4° giovedì del mese ( verifica stato passivo e vendite)
-Text:it_competenze=ffari civili con funzioni monocratiche e collegiali - giudice delegato
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Maria Saieva</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2078</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:07:09');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2080,'admin','2019-05-28 11:07:24','/do/jacms/Content','saveAndApprove','descr=Giudice Francesco Paolo Pizzo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2076
-resourceTypeCode=
-Text:it_nome=Dott. Francesco Paolo Pizzo
-Text:it_incarico=Giudice Sezione Civile
-Text:it_luogo=
-Number:piano=1
-Text:it_stanza=45
-Text:it_telefono=0923/765111;
-Text:it_fax=0923/956638;
-Text:it_email=
-Text:it_gg_udienza=Tutti i martedì del mese
-Text:it_competenze=Contenzioso ordinario- Giudice tutelare
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Francesco Paolo Pizzo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2076</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:07:24');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2081,'admin','2019-05-28 11:07:44','/do/jacms/Content','saveAndApprove','descr=Giudice Francescamaria Piruzza
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2074
-resourceTypeCode=
-Text:it_nome=Dott.ssa Francescamaria Piruzza
-Text:it_incarico=Giudice
-Text:it_luogo=
-Number:piano=1
-Text:it_stanza=337
-Text:it_telefono=0923/765111;
-Text:it_fax=0923/765338;
-Text:it_email=
-Text:it_gg_udienza=Tutti i lunedì del mese
-Text:it_competenze=Contenzioso ordinario e non contenzioso - Giudice della sezione specializzata agraria
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=READY
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Francescamaria Piruzza</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2074</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:07:44');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2082,'admin','2019-05-28 11:08:03','/do/jacms/Content','saveAndApprove','descr=Giudice Mary Carmisciano
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2072
-resourceTypeCode=
-Text:it_nome=Dott.ssa Mary Carmisciano
-Text:it_incarico=Giudice
-Text:it_luogo=
-Number:piano=1
-Text:it_stanza=105
-Text:it_telefono=0923/765111;
-Text:it_fax=0923/765298;
-Text:it_email=
-Text:it_gg_udienza=° e 3° mercoledì del mese tratterà gli affari civili - 1° e il 3° giovedì del mese (verifica stato passivo) - 2° e 4° giovedì del mese (prefallimentare- vendite)
-Text:it_competenze=Affari civili con funzioni monocratiche e collegiali - giudice delegato
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Mary Carmisciano</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2072</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:08:03');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2083,'admin','2019-05-28 11:08:20','/do/jacms/Content','saveAndApprove','descr=Giudice Francesca Bellafiore
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2068
-resourceTypeCode=
-Text:it_nome=Dott.ssa Francesca Bellafiore
-Text:it_incarico=Giudice Sezione Civile
-Text:it_luogo=
-Number:piano=2
-Text:it_stanza=107
-Text:it_telefono=0923/765111;
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Tutti i martedì del mese affari civili.
-Text:it_competenze=Affari Civili; procedimenti cautelari, reclami al Collegio, affari del giudice tutelare; procedure concorsuali.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Francesca Bellafiore</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2068</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:08:20');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2084,'admin','2019-05-28 11:11:09','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','pageCode=contenzioso_non_contenzioso
-frame=5
-widgetTypeCode=content_viewer_list_news
-contentType=SCH
-categories=contenzioso_non_contenzioso
-categoryCodes=contenzioso_non_contenzioso
-modelId=100
-maxElemForItem=20
-maxElements=
-categoryCode=
-filterKey=keyFilter_created
-filters=(order=ASC;attributeFilter=false;key=created)
-title_it=
-title_en=
-pageLink=
-linkDescr_it=
-linkDescr_en=
-userFilterKey=fulltext
-userFilters=
-entandoaction:saveListViewerConfig=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Contenzioso/Non Contenzioso</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Contenzioso/Non Contenzioso</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>1</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>editFrame</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contenzioso_non_contenzioso</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:11:09');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2085,'admin','2019-05-28 11:11:28','/do/rs/Page','setOnline','pageCode=contenzioso_non_contenzioso
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Contenzioso/Non Contenzioso</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Contenzioso/Non Contenzioso</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contenzioso_non_contenzioso</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:11:28');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2087,'admin','2019-05-28 11:13:16','/do/jacms/Content','saveAndApprove','descr=Giudice Tiziana Barone
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Tiziana Barone
-Text:it_incarico=Giudice Sezione Civile
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Martedì: contenzioso ordinario; Venerdì: esecuzioni mobiliari
-Text:it_competenze=Affianca il giudice togato per gli affari del contenzioso ordinario; Esecuzioni mobiliari.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Tiziana Barone</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2086</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:13:16');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2089,'admin','2019-05-28 11:14:47','/do/jacms/Content','saveAndApprove','descr=Giudice Marcello Bellomo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott. Marcello Bellomo
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Lunedì: esecuzioni immobiliari Martedì: contenzioso ordinario
-Text:it_competenze=Affianca il giudice togato delle esecuzioni immobiliari;  Affianca il giudice togato per gli affari del contenzioso ordinario.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Marcello Bellomo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2088</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:14:47');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2091,'admin','2019-05-28 11:15:48','/do/jacms/Content','saveAndApprove','descr=Giudice Monica D''Angelo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Monica D''Angelo
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=
-Text:it_competenze=
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Monica D''Angelo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2090</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:15:48');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2093,'admin','2019-05-28 11:16:55','/do/jacms/Content','saveAndApprove','descr=Giudice Marchesina Palermo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Marchesina Palermo
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Tutti i lunedì del mese Contenzioso ordinario Tutti i venerdì del mese Mobiliare
-Text:it_competenze=Affianca il giudice togato per gli affari di esecuzioni immobiliari e di contenzioso ordinario.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Marchesina Palermo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2092</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:16:55');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2095,'admin','2019-05-28 11:25:35','/do/jacms/Content','saveAndApprove','descr=Giudice Filippetta Signorello
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Filippetta Signorello
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Tutti i lunedì del mese affari del contenzioso ordinario  Tutti i mercoledì del mese Esecuzioni Immobiliari Tutti i giovedì del mese Esecuzioni Mobiliari
-Text:it_competenze=Affianca il giudice togato per gli affari del contenzioso ordinario. Esecuzioni mobiliari.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Filippetta Signorello</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2094</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:25:35');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2097,'admin','2019-05-28 11:27:22','/do/jacms/Content','saveAndApprove','descr=Giudice Matteo Torre
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott. Matteo Torre
-Text:it_incarico=Giudice Sezione Civile 
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=0923/765282;
-Text:it_fax=0923/765243;
-Text:it_email=
-Text:it_gg_udienza=1° lunedì e 1° giovedì di ogni mese
-Text:it_competenze=Affianca il giudice togato nella trattazione degli affari penali on rito monocratico
-Text:it_attivita=
-Text:it_note=Aula Marchetti 2° piano
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Matteo Torre</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2096</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:27:22');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2099,'admin','2019-05-28 11:28:21','/do/jacms/Content','saveAndApprove','descr=Giudice Sebastiana Zuppardi
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=contenzioso_non_contenzioso
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Sebastiana Zuppardi
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Tutti i martedì del mese affari di contenzioso ordinario. Tutti i lunedì del mese affari di esecuzione mobiliare.
-Text:it_competenze=Affari contenzioso ordinario e di esecuzione mobiliare
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Sebastiana Zuppardi</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2098</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:28:21');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2100,'admin','2019-05-28 11:43:00','/do/jacms/Content','saveAndApprove','descr=Giudice Matteo Torre
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2096
-resourceTypeCode=
-Text:it_nome=Dott. Matteo Torre
-Text:it_incarico=Giudice Sezione Civile
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=0923/765282;
-Text:it_fax=0923/765243;
-Text:it_email=
-Text:it_gg_udienza=1° lunedì e 1° giovedì di ogni mese
-Text:it_competenze=Affianca il giudice togato nella trattazione degli affari penali on rito monocratico
-Text:it_attivita=
-Text:it_note=Aula Marchetti 2° piano
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=READY
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Matteo Torre</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2096</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 11:43:00');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2103,'admin','2019-05-28 12:10:19','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','pageCode=lavoro_e_previdenza
-frame=5
-widgetTypeCode=content_viewer_list_news
-contentType=SCH
-categories=lavoro_e_previdenza
-categoryCodes=lavoro_e_previdenza
-modelId=100
-maxElemForItem=20
-maxElements=
-categoryCode=
-filterKey=keyFilter_created
-filters=(order=ASC;attributeFilter=false;key=created)
-title_it=
-title_en=
-pageLink=
-linkDescr_it=
-linkDescr_en=
-userFilterKey=fulltext
-userFilters=
-entandoaction:saveListViewerConfig=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Lavoro e Previdenza</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Lavoro e Previdenza</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>2</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>editFrame</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">lavoro_e_previdenza</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:10:19');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2104,'admin','2019-05-28 12:10:22','/do/rs/Page','setOnline','pageCode=lavoro_e_previdenza
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Lavoro e Previdenza</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Lavoro e Previdenza</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">lavoro_e_previdenza</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:10:22');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2105,'admin','2019-05-28 12:11:28','/do/jacms/Content','saveAndApprove','descr=Giudice Cinzia Immordino
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=lavoro_e_previdenza
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Cinzia Immordino
-Text:it_incarico=Giudice
-Text:it_luogo=
-Number:piano=2
-Text:it_stanza=98
-Text:it_telefono=0923/765111; 
-Text:it_fax=0923/765207; 
-Text:it_email=
-Text:it_gg_udienza=Tutti i martedì del mese
-Text:it_competenze= Lavoro e Previdenza - giudice tutelare.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Cinzia Immordino</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2101</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:11:28');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2107,'admin','2019-05-28 12:13:18','/do/jacms/Content','saveAndApprove','descr=Giudice Andrea Marangoni
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=lavoro_e_previdenza
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott. Andrea Marangoni 
-Text:it_incarico=Giudice
-Text:it_luogo=
-Number:piano=2
-Text:it_stanza=98
-Text:it_telefono=0923/765111; 
-Text:it_fax=0923/765255; 
-Text:it_email=
-Text:it_gg_udienza=Tutti i mercoledì udienza di Previdenza e Assistenza obbligatoria  Tutti i giovedì udienza di Lavoro
-Text:it_competenze=Lavoro Previdenza e Assistenza obbligatoria.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Andrea Marangoni</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2106</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:13:18');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2108,'admin','2019-05-28 12:17:17','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','pageCode=espropriazione_immobiliare
-frame=5
-widgetTypeCode=content_viewer_list_news
-contentType=SCH
-categories=espropriazione_immobiliare
-categoryCodes=espropriazione_immobiliare
-modelId=100
-maxElemForItem=20
-maxElements=
-categoryCode=
-filterKey=keyFilter_created
-filters=(order=ASC;attributeFilter=false;key=created)
-title_it=
-title_en=
-pageLink=
-linkDescr_it=
-linkDescr_en=
-userFilterKey=fulltext
-userFilters=
-entandoaction:saveListViewerConfig=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Espropriazione Immobiliare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Espropriazione Immobiliare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>2</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>editFrame</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">espropriazione_immobiliare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:17:17');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2109,'admin','2019-05-28 12:17:20','/do/rs/Page','setOnline','pageCode=espropriazione_immobiliare
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Espropriazione Immobiliare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Espropriazione Immobiliare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">espropriazione_immobiliare</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:17:20');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2111,'admin','2019-05-28 12:18:57','/do/jacms/Content','saveAndApprove','descr=Giudice Caterina Greco
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=espropriazione_immobiliare
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Caterina Greco
-Text:it_incarico=Giudice
-Text:it_luogo=
-Number:piano=2
-Text:it_stanza=99
-Text:it_telefono=0923/765111;
-Text:it_fax=0923/765255;
-Text:it_email=
-Text:it_gg_udienza=Tutti i martedì di ogni mese.
-Text:it_competenze=Esecuzioni Immobiliare.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Caterina Greco</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2110</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:18:57');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2113,'admin','2019-05-28 12:20:32','/do/jacms/Content','saveAndApprove','descr=Giudice Filippo Ruggiero
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile,uffici_e_cancellerie
-categoryCode=espropriazione_immobiliare
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott. Filippo Ruggiero
-Text:it_incarico=Giudice
-Text:it_luogo=
-Number:piano=1
-Text:it_stanza=49
-Text:it_telefono=0923/765111; 
-Text:it_fax=0923/956638; 
-Text:it_email=
-Text:it_gg_udienza=Tutti i mercoledì del mese.
-Text:it_competenze=Affari di Espropriazioni Immobiliari.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Filippo Ruggiero</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2112</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:20:32');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2115,'admin','2019-05-28 12:21:43','/do/jacms/Content','saveAndApprove','descr=Giudice Marcello Bellomo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=espropriazione_immobiliare
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome= Dott. Marcello Bellomo
-Text:it_incarico=Giudice Sezione Civile 
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Lunedì: esecuzioni immobiliari; Martedì: contenzioso ordinario.
-Text:it_competenze=Affianca il giudice togato delle esecuzioni immobiliari;  Affianca il giudice togato per gli affari del contenzioso ordinario.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Marcello Bellomo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2114</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:21:43');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2117,'admin','2019-05-28 12:23:10','/do/jacms/Content','saveAndApprove','descr=Giudice Monica D''Angelo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=espropriazione_immobiliare
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Monica D''Angelo
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=0923/765111; 
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=
-Text:it_competenze=
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Monica D''Angelo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2116</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:23:10');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2119,'admin','2019-05-28 12:24:27','/do/jacms/Content','saveAndApprove','descr=Giudice Filippetta Signorello
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=espropriazione_immobiliare
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Filippetta Signorello
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Tutti i lunedì del mese affari del contenzioso ordinario.  Tutti i mercoledì del mese Esecuzioni Immobiliari. Tutti i giovedì del mese Esecuzioni Mobiliari.
-Text:it_competenze=Affianca il giudice togato per gli affari del contenzioso ordinario. Esecuzioni mobiliari.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Filippetta Signorello</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2118</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:24:27');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2120,'admin','2019-05-28 12:29:50','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','pageCode=espropriazione_mobiliare
-frame=5
-widgetTypeCode=content_viewer_list_news
-contentType=SCH
-categories=espropriazione_mobiliare
-categoryCodes=espropriazione_mobiliare
-modelId=100
-maxElemForItem=20
-maxElements=
-categoryCode=
-filterKey=keyFilter_created
-filters=(order=ASC;attributeFilter=false;key=created)
-title_it=
-title_en=
-pageLink=
-linkDescr_it=
-linkDescr_en=
-userFilterKey=fulltext
-userFilters=
-entandoaction:saveListViewerConfig=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Espropriazione Mobiliare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Espropriazione Mobiliare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>2</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>editFrame</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">espropriazione_mobiliare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:29:50');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2121,'admin','2019-05-28 12:29:51','/do/rs/Page','setOnline','pageCode=espropriazione_mobiliare
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Espropriazione Mobiliare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Espropriazione Mobiliare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">espropriazione_mobiliare</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:29:51');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2123,'admin','2019-05-28 12:30:21','/do/jacms/Content','save','descr=Contenuto per pubblicazioni contenuti on fly
 __multiselect_extraGroupNames=
 treeNodesToOpen=home
@@ -6503,62 +3635,6 @@ jacmsPreviewActionPageCode_en=
 status=READY
 entandoaction:saveAndApprove=Submit
 ',NULL,'2019-05-28 12:30:36');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2126,'admin','2019-05-28 12:31:06','/do/jacms/Content','saveAndApprove','descr=Giudice Tiziana Barone
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=espropriazione_mobiliare
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Tiziana Barone
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Martedì: contenzioso ordinario; Venerdì: esecuzioni mobiliari.
-Text:it_competenze=Affianca il giudice togato per gli affari del contenzioso ordinario. Esecuzioni mobiliari.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Tiziana Barone</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2122</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:31:06');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2128,'admin','2019-05-28 12:31:30','/do/jacms/Content','saveAndApprove','descr=Contenuto per pubblicazioni contenuti on fly
 __multiselect_extraGroupNames=
 treeNodesToOpen=home
@@ -6587,278 +3663,6 @@ jacmsPreviewActionPageCode_en=
 status=READY
 entandoaction:saveAndApprove=Submit
 ',NULL,'2019-05-28 12:31:30');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2129,'admin','2019-05-28 12:31:47','/do/jacms/Content','saveAndApprove','descr=Contenuto per pubblicazioni contenuti on fly
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CTM_editContent_CTM851
-resourceTypeCode=
-Boolean:primopiano=false
-Text:it_subtitle=Anno 2019
-Text:it_title=Tirocini Formativi
-Text:it_abstract=Quisque placera
-Date:date=12/04/2019
-Enumerator:enum=
-Text:it_autore=bianchi
-Monolist:Composite:Hypertext:it_article_text1_0=<p>Consistono in un periodo di formazione e lavoro, svolto in affiancamento a uno o pi&ugrave; magistrati affidatari, nel corso del quale si supporta il giudice nei suoi compiti e si assiste allo svolgimento dell&rsquo;attivit&agrave; giudiziaria, partecipando alle udienze e alle camere di consiglio. Esistono due tipi di tirocinio:</p>
-
-<p>uno, della durata di 6 o 12 mesi (a scelta del richiedente), sostituisce un uguale periodo di pratica professionale presso uno studio legale; al termine del tirocinio, lo stagista potr&agrave; sostenere l&rsquo;esame da avvocato dopo aver svolto l&rsquo;eventuale rimanente periodo di pratica professionale (che complessivamente, compresi i mesi di tirocinio, non deve essere inferiore a 18 mesi). (Per maggiori dettagli vedi&nbsp;art.37 D.L. 98/2011, convertito in legge 111/2011)</p>
-
-<p>Un altro, della durata di 18 mesi, costituisce titolo per accedere al concorso in magistratura (senza necessit&agrave; di frequentare la Scuola Superiore per le Professioni Legali e senza bisogno di aver prima superato l&rsquo;esame da avvocato). Qualora il concorso sia superato, questo tirocinio d&agrave; anche diritto a punti aggiuntivi nella graduatoria del concorso. Inoltre il tirocinio &egrave; titolo di preferenza in graduatoria per numerosi altri concorsi pubblici ed &egrave; sostitutivo di 12 mesi di pratica legale o notarile ai fini dell&rsquo;esame da avvocato e del concorso da notaio. (Per maggiori dettagli vedi art.73 D.L. 69/2013, convertito in L.98/2013).</p>
-
-jacmsPreviewActionPageCode_it=
-Text:en_subtitle=
-Text:en_title=
-Text:en_abstract=
-Text:en_autore=
-Monolist:Composite:Hypertext:en_article_text1_0=
-jacmsPreviewActionPageCode_en=
-status=READY
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Contenuto per pubblicazioni contenuti on fly</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM851</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:31:47');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2130,'admin','2019-05-28 12:31:59','/do/jacms/Content','saveAndApprove','descr=Giudice Rosita Cosentino
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=espropriazione_mobiliare
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Rosita Cosentino
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Lunedì: contenzioso.
-Text:it_competenze=Affianca il giudice togato per gli affari del contenzioso ordinario. 
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Rosita Cosentino</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2127</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:31:59');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2132,'admin','2019-05-28 12:32:54','/do/jacms/Content','saveAndApprove','descr=Contenuto per pubblicazioni contenuti on fly
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=CTM_editContent_CTM851
-resourceTypeCode=
-Boolean:primopiano=false
-Text:it_subtitle=Anno 2019
-Text:it_title=Tirocini Formativi
-Text:it_abstract=
-Date:date=12/04/2019
-Enumerator:enum=
-Text:it_autore=bianchi
-Monolist:Composite:Hypertext:it_article_text1_0=<p>Consistono in un periodo di formazione e lavoro, svolto in affiancamento a uno o pi&ugrave; magistrati affidatari, nel corso del quale si supporta il giudice nei suoi compiti e si assiste allo svolgimento dell&rsquo;attivit&agrave; giudiziaria, partecipando alle udienze e alle camere di consiglio. Esistono due tipi di tirocinio:</p>
-
-<p>uno, della durata di 6 o 12 mesi (a scelta del richiedente), sostituisce un uguale periodo di pratica professionale presso uno studio legale; al termine del tirocinio, lo stagista potr&agrave; sostenere l&rsquo;esame da avvocato dopo aver svolto l&rsquo;eventuale rimanente periodo di pratica professionale (che complessivamente, compresi i mesi di tirocinio, non deve essere inferiore a 18 mesi). (Per maggiori dettagli vedi&nbsp;art.37 D.L. 98/2011, convertito in legge 111/2011)</p>
-
-<p>Un altro, della durata di 18 mesi, costituisce titolo per accedere al concorso in magistratura (senza necessit&agrave; di frequentare la Scuola Superiore per le Professioni Legali e senza bisogno di aver prima superato l&rsquo;esame da avvocato). Qualora il concorso sia superato, questo tirocinio d&agrave; anche diritto a punti aggiuntivi nella graduatoria del concorso. Inoltre il tirocinio &egrave; titolo di preferenza in graduatoria per numerosi altri concorsi pubblici ed &egrave; sostitutivo di 12 mesi di pratica legale o notarile ai fini dell&rsquo;esame da avvocato e del concorso da notaio. (Per maggiori dettagli vedi art.73 D.L. 69/2013, convertito in L.98/2013).</p>
-
-jacmsPreviewActionPageCode_it=
-Text:en_subtitle=
-Text:en_title=
-Text:en_abstract=
-Text:en_autore=
-Monolist:Composite:Hypertext:en_article_text1_0=
-jacmsPreviewActionPageCode_en=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Contenuto per pubblicazioni contenuti on fly</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTM851</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:32:54');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2133,'admin','2019-05-28 12:33:02','/do/jacms/Content','saveAndApprove','descr=Giudice Marchesina Palermo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=espropriazione_mobiliare
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Marchesina Palermo
-Text:it_incarico=Giudice dell''Esecuzione
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=utti i lunedì del mese affari del contenzioso ordinario; Tutti i mercoledì del mese Esecuzioni Immobiliari; Tutti i giovedì del mese Esecuzioni Mobiliari.
-Text:it_competenze=Affianca il giudice togato per gli affari del contenzioso ordinario. Esecuzioni mobiliari.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Marchesina Palermo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2131</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:33:02');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2135,'admin','2019-05-28 12:34:07','/do/jacms/Content','saveAndApprove','descr=Giudice Sebastiana Zuppardi
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=espropriazione_mobiliare
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Sebastiana Zuppardi
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=Tutti i martedì del mese affari di contenzioso ordinario; Tutti i lunedì del mese affari di esecuzione mobiliare.
-Text:it_competenze=Affari contenzioso ordinario e di esecuzione mobiliare.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Sebastiana Zuppardi</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2134</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:34:07');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2136,'admin','2019-05-28 12:34:09','/do/jacms/Content','saveAndApprove','descr=Contenuto per pubblicazioni contenuti on fly
 __multiselect_extraGroupNames=
 treeNodesToOpen=home
@@ -6887,228 +3691,6 @@ jacmsPreviewActionPageCode_en=
 status=READY
 entandoaction:saveAndApprove=Submit
 ',NULL,'2019-05-28 12:34:09');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2137,'admin','2019-05-28 12:36:33','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','pageCode=affari_del_giudice_tutelare
-frame=5
-widgetTypeCode=content_viewer_list_links
-contentType=SCH
-categories=affari_del_giudice_tutelare
-categoryCodes=affari_del_giudice_tutelare
-modelId=100
-maxElemForItem=20
-maxElements=
-categoryCode=
-filterKey=keyFilter_created
-filters=(order=ASC;attributeFilter=false;key=created)
-title_it=
-title_en=
-pageLink=
-linkDescr_it=
-linkDescr_en=
-userFilterKey=fulltext
-userFilters=
-entandoaction:saveListViewerConfig=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>2</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>editFrame</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:36:33');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2138,'admin','2019-05-28 12:36:34','/do/rs/Page','setOnline','pageCode=affari_del_giudice_tutelare
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:36:34');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2140,'admin','2019-05-28 12:38:18','/do/jacms/Content','saveAndApprove','descr=Giudice Cinzia Immordino
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=affari_del_giudice_tutelare
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Cinzia Immordino
-Text:it_incarico=Giudice
-Text:it_luogo=
-Number:piano=2
-Text:it_stanza=98
-Text:it_telefono=0923/765111; 
-Text:it_fax=0923/765207; 
-Text:it_email=
-Text:it_gg_udienza=Tutti i martedì del mese.
-Text:it_competenze=Contenzioso ordinario e non contenzioso - Giudice della sezione specializzata agraria - giudice tutelare.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Cinzia Immordino</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2139</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:38:18');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2142,'admin','2019-05-28 12:39:04','/do/jacms/Content','saveAndApprove','descr=Giudice Francescamaria Piruzza
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_civile
-categoryCode=affari_del_giudice_tutelare
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott.ssa Francescamaria Piruzza
-Text:it_incarico=Giudice Sezione Civile 
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=
-Text:it_competenze=
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Francescamaria Piruzza</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2141</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:39:04');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2143,'admin','2019-05-28 12:39:25','/do/rs/Page','setOnline','pageCode=affari_del_giudice_tutelare
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:39:25');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2144,'admin','2019-05-28 12:39:45','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','pageCode=area_penale_cancellerie
 frame=5
 widgetTypeCode=content_viewer_list
@@ -7129,451 +3711,6 @@ userFilterKey=fulltext
 userFilters=
 entandoaction:saveListViewerConfig=Submit
 ',NULL,'2019-05-28 12:39:45');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2145,'admin','2019-05-28 12:39:57','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','pageCode=area_penale_cancellerie
-frame=5
-widgetTypeCode=content_viewer_list
-contentType=SCH
-categories=
-modelId=100
-maxElemForItem=20
-maxElements=20
-categoryCode=
-filterKey=keyFilter_created
-filters=
-title_it=
-title_en=
-pageLink=
-linkDescr_it=
-linkDescr_en=
-userFilterKey=fulltext
-userFilters=
-entandoaction:saveListViewerConfig=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Area Penale</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Area Penale</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>2</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>editFrame</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">area_penale_cancellerie</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:39:57');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2146,'admin','2019-05-28 12:39:58','/do/rs/Page','setOnline','pageCode=area_penale_cancellerie
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Area Penale</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Area Penale</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">area_penale_cancellerie</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:39:58');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2147,'admin','2019-05-28 12:40:41','/do/Page/SpecialWidget/Navigator','saveNavigatorConfig','pageCode=affari_del_giudice_tutelare
-frame=6
-widgetTypeCode=entando-widget-internal-navigation_bar
-navSpec=code(sezione_tribunale).subtree(1)
-specSuperLevel=1
-specAbsLevel=1
-specCode=homepage
-operatorId=0
-operatorSubtreeLevel=1
-entandoaction:saveNavigatorConfig=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>1</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>editFrame</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">6</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:40:41');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2148,'admin','2019-05-28 12:40:42','/do/rs/Page','setOnline','pageCode=affari_del_giudice_tutelare
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:40:42');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2149,'admin','2019-05-28 12:42:16','/do/rs/Page','setOnline','pageCode=affari_del_giudice_tutelare
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:42:16');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2150,'admin','2019-05-28 12:42:37','/do/rs/Page','setOnline','pageCode=affari_del_giudice_tutelare
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:42:37');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2151,'admin','2019-05-28 12:45:10','/do/Page/SpecialWidget/Navigator','saveNavigatorConfig','pageCode=affari_del_giudice_tutelare
-frame=7
-widgetTypeCode=entando-widget-internal-navigation_bar
-navSpec=code(sezione_tribunale).children
-specSuperLevel=1
-specAbsLevel=1
-specCode=homepage
-operatorId=0
-operatorSubtreeLevel=1
-entandoaction:saveNavigatorConfig=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>1</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>editFrame</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">7</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:45:10');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2152,'admin','2019-05-28 12:45:11','/do/rs/Page','setOnline','pageCode=affari_del_giudice_tutelare
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:45:11');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2153,'admin','2019-05-28 12:49:05','/do/jacms/Content','saveAndApprove','descr=Giudice Monica D''Angelo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2116
-resourceTypeCode=
-Text:it_nome=Dott.ssa Monica D''Angelo
-Text:it_incarico=
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=0923/765111;
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=
-Text:it_competenze=
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Monica D''Angelo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2116</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:49:05');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2154,'admin','2019-05-28 12:49:24','/do/jacms/Content','saveAndApprove','descr=Giudice Monica D''Angelo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2116
-resourceTypeCode=
-Text:it_nome=Dott.ssa Monica D''Angelo
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=0923/765111;
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=
-Text:it_competenze=
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Monica D''Angelo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2116</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:49:24');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2155,'admin','2019-05-28 12:49:53','/do/jacms/Content','saveAndApprove','descr=Giudice Monica D''Angelo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2090
-resourceTypeCode=
-Text:it_nome=Dott.ssa Monica D''Angelo
-Text:it_incarico=
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=
-Text:it_competenze=
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Monica D''Angelo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2090</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:49:53');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2156,'admin','2019-05-28 12:50:18','/do/jacms/Content','saveAndApprove','descr=Giudice Monica D''Angelo
 __multiselect_extraGroupNames=
 treeNodesToOpen=home
@@ -7605,547 +3742,6 @@ Text:en_note=
 status=
 entandoaction:saveAndApprove=Submit
 ',NULL,'2019-05-28 12:50:18');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2157,'admin','2019-05-28 12:50:25','/do/jacms/Content','saveAndApprove','descr=Giudice Monica D''Angelo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2090
-resourceTypeCode=
-Text:it_nome=Dott.ssa Monica D''Angelo
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=Giudice Onorario di Tribunale
-Number:piano=2
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=
-Text:it_competenze=
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=READY
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Monica D''Angelo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2090</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:50:25');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2158,'admin','2019-05-28 12:50:45','/do/jacms/Content','saveAndApprove','descr=Giudice Monica D''Angelo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2090
-resourceTypeCode=
-Text:it_nome=Dott.ssa Monica D''Angelo
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=Giudice Onorario di Tribunale
-Number:piano=2
-Text:it_stanza=32
-Text:it_telefono=323
-Text:it_fax=32323
-Text:it_email=3232
-Text:it_gg_udienza=32323
-Text:it_competenze=32323
-Text:it_attivita=3223
-Text:it_note=23223
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Monica D''Angelo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2090</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:50:45');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2159,'admin','2019-05-28 12:51:07','/do/jacms/Content','saveAndApprove','descr=Giudice Monica D''Angelo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2090
-resourceTypeCode=
-Text:it_nome=Dott.ssa Monica D''Angelo
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=
-Text:it_competenze=
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Monica D''Angelo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2090</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:51:07');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2160,'admin','2019-05-28 12:52:30','/do/jacms/Content','saveAndApprove','descr=Giudice Monica D''Angelo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2090
-resourceTypeCode=
-Text:it_nome=Dott.ssa Monica D''Angelo
-Text:it_incarico=
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=
-Text:it_competenze=
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Monica D''Angelo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2090</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:52:30');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2161,'admin','2019-05-28 12:53:15','/do/jacms/Content','saveAndApprove','descr=Giudice Monica D''Angelo
-__multiselect_extraGroupNames=
-treeNodesToOpen=home
-contentOnSessionMarker=SCH_editContent_SCH2090
-resourceTypeCode=
-Text:it_nome=Dott.ssa Monica D''Angelo
-Text:it_incarico=Giudice Onorario di Tribunale
-Text:it_luogo=
-Number:piano=
-Text:it_stanza=
-Text:it_telefono=
-Text:it_fax=
-Text:it_email=
-Text:it_gg_udienza=
-Text:it_competenze=
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudice Monica D''Angelo</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2090</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 12:53:15');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2162,'admin','2019-05-28 13:44:06','/do/Page/SpecialWidget/Navigator','saveNavigatorConfig','pageCode=affari_del_giudice_tutelare
-frame=7
-widgetTypeCode=entando-widget-internal-navigation_bar
-navSpec=current.children
-specSuperLevel=1
-specAbsLevel=1
-specCode=homepage
-operatorId=0
-operatorSubtreeLevel=1
-entandoaction:saveNavigatorConfig=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>1</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>editFrame</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">7</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 13:44:06');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2163,'admin','2019-05-28 13:44:07','/do/rs/Page','setOnline','pageCode=affari_del_giudice_tutelare
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 13:44:07');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2164,'admin','2019-05-28 13:53:49','/do/rs/Page','setOnline','pageCode=affari_del_giudice_tutelare
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 13:53:49');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2165,'admin','2019-05-28 13:53:57','/do/rs/Page','setOnline','pageCode=affari_del_giudice_tutelare
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Affari del Giudice Tutelare</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">affari_del_giudice_tutelare</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 13:53:57');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2167,'admin','2019-05-28 14:38:10','/do/jacms/Content','saveAndApprove','descr=Presidente Sezione Penale Vito Saladino
-__multiselect_extraGroupNames=
-treeNodesToOpen=home,scheda_all_info,magistrati,area_penale
-categoryCode=dibattimento
-contentOnSessionMarker=SCH_newContent
-resourceTypeCode=
-Text:it_nome=Dott. Vito Saladino
-Text:it_incarico=Presidente Sezione Penale
-Text:it_luogo=
-Number:piano=1
-Text:it_stanza=44
-Text:it_telefono=0923/765111; 
-Text:it_fax=0923/956591;
-Text:it_email=
-Text:it_gg_udienza=Rito monocratico: 2° e 4° mercoledì del mese -  Rito collegiale 1°  2° 3° e 4° martedì - 1° 2° e 3° giovedì del mese.
-Text:it_competenze=Affari penali di rito monocratico e rito collegiale.
-Text:it_attivita=
-Text:it_note=
-Text:en_nome=
-Text:en_incarico=
-Text:en_luogo=
-Text:en_stanza=
-Text:en_telefono=
-Text:en_fax=
-Text:en_email=
-Text:en_gg_udienza=
-Text:en_competenze=
-Text:en_attivita=
-Text:en_note=
-status=
-entandoaction:saveAndApprove=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Presidente Sezione Penale Vito Saladino</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SCH2166</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 14:38:10');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2168,'admin','2019-05-28 14:38:45','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','pageCode=dibattimento
-frame=5
-widgetTypeCode=content_viewer_list_news
-contentType=SCH
-categories=dibattimento
-categoryCodes=dibattimento
-modelId=100
-maxElemForItem=20
-maxElements=
-categoryCode=
-filterKey=keyFilter_created
-filters=(order=ASC;attributeFilter=false;key=created)
-title_it=
-title_en=
-pageLink=
-linkDescr_it=
-linkDescr_en=
-userFilterKey=fulltext
-userFilters=
-entandoaction:saveListViewerConfig=Submit
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Dibattimento</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Dibattimento</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>2</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>editFrame</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">dibattimento</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 14:38:45');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2169,'admin','2019-05-28 14:38:46','/do/rs/Page','setOnline','pageCode=dibattimento
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Dibattimento</value>
-        </entry>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Dibattimento</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-    </groups>
-    <actionType>5</actionType>
-    <linkNamespace>/do/Page</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">dibattimento</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>managePages</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-05-28 14:38:46');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2170,'admin','2019-05-28 14:38:54','/do/jacms/Content','saveAndApprove','descr=Presidente Sezione Penale Vito Saladino
 __multiselect_extraGroupNames=
 treeNodesToOpen=home
@@ -37512,3 +33108,3199 @@ INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parame
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2019-06-20 17:57:04');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2801,'admin','2019-06-21 12:34:56','/do/jacms/Page/SpecialWidget/ListViewer','saveListViewerConfig','pageCode=homepage
+frame=11
+widgetTypeCode=content_viewer_list_home_link
+contentType=CTM
+categories=link_utili
+categoryCodes=link_utili
+modelId=4
+maxElemForItem=8
+maxElements=
+categoryCode=
+filterKey=keyFilter_created
+filters=(order=ASC;attributeFilter=false;key=created)
+title_it=Utilità
+title_en=Utilità
+pageLink=link_utili
+linkDescr_it=Vedi tutti
+linkDescr_en=View all
+userFilterKey=fulltext
+userFilters=
+entandoaction:saveListViewerConfig=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>2</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">11</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 12:34:56');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2802,'admin','2019-06-21 12:34:59','/do/rs/Page','setOnline','pageCode=homepage
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 12:34:59');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2803,'admin','2019-06-21 12:35:30','/do/rs/Page','setOnline','pageCode=homepage
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 12:35:30');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2804,'admin','2019-06-21 12:35:57','/do/rs/Page','setOnline','pageCode=homepage
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 12:35:57');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2807,'admin','2019-06-21 14:50:56','/do/jacms/Content','saveAndApprove','descr=Piante Organiche degli Uffici del Giudice di Pace
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_newContent
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Organico Magistrati al 29.02.2016</p>
+
+Monolist:Composite:Image:it_contComp_img_0=piante organiche giudice di pace.png
+Monolist:Composite:Image:it_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:it_contComp_img_0_metadata_description=
+Monolist:Composite:Image:it_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:it_contComp_img_0_metadata_title=
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+Monolist:Composite:Image:en_contComp_img_0=
+Monolist:Composite:Image:en_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:en_contComp_img_0_metadata_description=
+Monolist:Composite:Image:en_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:en_contComp_img_0_metadata_title=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche degli Uffici del Giudice di Pace</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2805</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 14:50:56');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2808,'admin','2019-06-21 14:51:09','/do/jacms/Page/SpecialWidget/Viewer','saveViewerConfig','pageCode=piant_org_uff_del_giud_di_pac
+frame=5
+widgetTypeCode=content_viewer
+contentId=CON2805
+modelId=10000
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche degli Uffici del Giudice di Pace</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche degli Uffici del Giudice di Pace</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>2</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">piant_org_uff_del_giud_di_pac</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 14:51:09');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2809,'admin','2019-06-21 14:51:11','/do/rs/Page','setOnline','pageCode=piant_org_uff_del_giud_di_pac
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche degli Uffici del Giudice di Pace</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche degli Uffici del Giudice di Pace</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">piant_org_uff_del_giud_di_pac</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 14:51:11');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2811,'admin','2019-06-21 14:52:22','/do/jacms/Content','saveAndApprove','descr=Piante Organiche degli Uffici del Giudice di Pace
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_editContent_CON2805
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Organico Magistrati al 29.02.2016</p>
+
+Monolist:Composite:Text:it_contComp_title_1=
+Monolist:Composite:Hypertext:it_contComp_text_1=
+Monolist:Composite:Image:it_contComp_img_1=piante organiche giudice di pace.png
+Monolist:Composite:Image:it_contComp_img_1_metadata_alt=
+Monolist:Composite:Image:it_contComp_img_1_metadata_description=
+Monolist:Composite:Image:it_contComp_img_1_metadata_legend=
+Monolist:Composite:Image:it_contComp_img_1_metadata_title=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+Monolist:Composite:Text:en_contComp_title_1=
+Monolist:Composite:Hypertext:en_contComp_text_1=
+Monolist:Composite:Image:en_contComp_img_1=
+Monolist:Composite:Image:en_contComp_img_1_metadata_alt=
+Monolist:Composite:Image:en_contComp_img_1_metadata_description=
+Monolist:Composite:Image:en_contComp_img_1_metadata_legend=
+Monolist:Composite:Image:en_contComp_img_1_metadata_title=
+jacmsPreviewActionPageCode_en=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche degli Uffici del Giudice di Pace</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2805</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 14:52:22');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2813,'admin','2019-06-21 14:53:41','/do/jacms/Content','saveAndApprove','descr=Piante Organiche degli Uffici del Giudice di Pace
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_editContent_CON2805
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Organico Magistrati al 29.02.2016</p>
+
+Monolist:Composite:Image:it_contComp_img_0=piante organiche giudice di pace.png
+Monolist:Composite:Image:it_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:it_contComp_img_0_metadata_description=
+Monolist:Composite:Image:it_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:it_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+Monolist:Composite:Image:en_contComp_img_0=
+Monolist:Composite:Image:en_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:en_contComp_img_0_metadata_description=
+Monolist:Composite:Image:en_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:en_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_en=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche degli Uffici del Giudice di Pace</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2805</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 14:53:41');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2815,'admin','2019-06-21 14:55:43','/do/jacms/Content','saveAndApprove','descr=Piante Organiche degli Uffici del Giudice di Pace
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_editContent_CON2805
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Organico Magistrati al 29.02.2016</p>
+
+Monolist:Composite:Image:it_contComp_img_0=piante organiche giudice di pace.png
+Monolist:Composite:Image:it_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:it_contComp_img_0_metadata_description=
+Monolist:Composite:Image:it_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:it_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+Monolist:Composite:Image:en_contComp_img_0=
+Monolist:Composite:Image:en_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:en_contComp_img_0_metadata_description=
+Monolist:Composite:Image:en_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:en_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_en=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche degli Uffici del Giudice di Pace</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2805</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 14:55:43');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2817,'admin','2019-06-21 14:57:21','/do/jacms/Content','saveAndApprove','descr=Piante Organiche degli Uffici del Giudice di Pace
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_editContent_CON2805
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Organico Magistrati al 29.02.2016</p>
+
+Monolist:Composite:Image:it_contComp_img_0=piante organiche giudice di pace.png
+Monolist:Composite:Image:it_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:it_contComp_img_0_metadata_description=
+Monolist:Composite:Image:it_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:it_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+Monolist:Composite:Image:en_contComp_img_0=
+Monolist:Composite:Image:en_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:en_contComp_img_0_metadata_description=
+Monolist:Composite:Image:en_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:en_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_en=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche degli Uffici del Giudice di Pace</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2805</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 14:57:21');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2819,'admin','2019-06-21 15:08:12','/do/jacms/Content','saveAndApprove','descr=Servizi Online
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CNG_editContent_CNG1517
+resourceTypeCode=
+Text:it_Title=
+Hypertext:it_Abstract=
+Hypertext:it_MainBody=<p><a href="#!U;http://pst.giustizia.it/PST/!#">Consultazione pubblica dei registri civili [link esterno]</a></p>
+
+Text:it_Caption=
+jacmsPreviewActionPageCode_it=
+Text:en_Title=
+Hypertext:en_Abstract=
+Hypertext:en_MainBody=
+Text:en_Caption=
+jacmsPreviewActionPageCode_en=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Servizi Online</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CNG1517</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:08:12');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2820,'admin','2019-06-21 15:09:36','/do/rs/Page','setOnline','pageCode=per_il_professionista
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_il_professionista</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:09:36');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2821,'admin','2019-06-21 15:09:37','/do/rs/Page','setOffline','pageCode=per_il_professionista
+',NULL,'2019-06-21 15:09:37');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2822,'admin','2019-06-21 15:13:41','/do/Page/SpecialWidget/Navigator','saveNavigatorConfig','pageCode=per_il_professionista
+frame=6
+widgetTypeCode=entando-widget-side-navigation_bar
+navSpec=code(sezione_per_il_professionista).subtree(1)
+specSuperLevel=1
+specAbsLevel=1
+specCode=homepage
+operatorId=0
+operatorSubtreeLevel=1
+entandoaction:saveNavigatorConfig=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>2</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_il_professionista</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">6</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:13:41');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2823,'admin','2019-06-21 15:13:43','/do/rs/Page','setOnline','pageCode=per_il_professionista
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_il_professionista</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:13:43');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2824,'admin','2019-06-21 15:18:31','/do/jacms/Page/SpecialWidget/Viewer','saveViewerConfig','pageCode=per_il_professionista
+frame=5
+widgetTypeCode=content_viewer
+contentId=CNG373
+modelId=9
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>2</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_il_professionista</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:18:31');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2825,'admin','2019-06-21 15:18:33','/do/rs/Page','setOnline','pageCode=per_il_professionista
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_il_professionista</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:18:33');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2826,'admin','2019-06-21 15:22:07','/do/jacms/Content','saveAndApprove','descr=Info per il professionista
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CNG_editContent_CNG373
+resourceTypeCode=
+Text:it_Title=
+Hypertext:it_Abstract=
+Hypertext:it_MainBody=<p>Introduzione al menu che espone i servizi per gli Avvocati</p>
+
+Text:it_Caption=
+jacmsPreviewActionPageCode_it=
+Text:en_Title=Info Per il Professionista
+Hypertext:en_Abstract=<p>Informazioni Per il Professionista</p>
+
+Hypertext:en_MainBody=<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo in nisi pellentesque ornare. Vestibulum eu rutrum dui, non auctor nisl. Duis vehicula nibh nec erat semper, sed accumsan nulla eleifend. Cras aliquam elementum lacinia. Ut aliquet enim vehicula quam imperdiet, quis consectetur dolor laoreet. Suspendisse eu dolor eu lorem cursus blandit. Morbi vehicula, augue nec tincidunt mollis, ligula dui feugiat dolor, in hendrerit dolor dui sit amet elit. In luctus justo ac orci mollis, eget porta mi fermentum. Praesent accumsan lorem porta, tempus eros ut, eleifend enim. Mauris magna tellus, egestas eu risus non, aliquam tristique purus. Sed sollicitudin neque nec volutpat mollis. Ut lobortis viverra eros vel imperdiet. In consectetur urna eget iaculis venenatis. Cras vehicula ligula ut sem cursus, in aliquet nisi blandit.</p>
+
+Text:en_Caption=
+jacmsPreviewActionPageCode_en=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info per il professionista</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CNG373</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:22:07');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2827,'admin','2019-06-21 15:22:34','/do/jacms/Content','saveAndApprove','descr=Info per il professionista
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CNG_editContent_CNG373
+resourceTypeCode=
+Text:it_Title=
+Hypertext:it_Abstract=<p>Informazioni Per il Professionista</p>
+
+Hypertext:it_MainBody=<p>Introduzione al menu che espone i servizi per gli Avvocati</p>
+
+Text:it_Caption=
+jacmsPreviewActionPageCode_it=
+Text:en_Title=Info Per il Professionista
+Hypertext:en_Abstract=<p>Informazioni Per il Professionista</p>
+
+Hypertext:en_MainBody=<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo in nisi pellentesque ornare. Vestibulum eu rutrum dui, non auctor nisl. Duis vehicula nibh nec erat semper, sed accumsan nulla eleifend. Cras aliquam elementum lacinia. Ut aliquet enim vehicula quam imperdiet, quis consectetur dolor laoreet. Suspendisse eu dolor eu lorem cursus blandit. Morbi vehicula, augue nec tincidunt mollis, ligula dui feugiat dolor, in hendrerit dolor dui sit amet elit. In luctus justo ac orci mollis, eget porta mi fermentum. Praesent accumsan lorem porta, tempus eros ut, eleifend enim. Mauris magna tellus, egestas eu risus non, aliquam tristique purus. Sed sollicitudin neque nec volutpat mollis. Ut lobortis viverra eros vel imperdiet. In consectetur urna eget iaculis venenatis. Cras vehicula ligula ut sem cursus, in aliquet nisi blandit.</p>
+
+Text:en_Caption=
+jacmsPreviewActionPageCode_en=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Info per il professionista</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CNG373</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:22:34');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2829,'admin','2019-06-21 15:23:18','/do/jacms/Content','saveAndApprove','descr=Intro Per il Professionista
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_newContent
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Introduzione al menu che espone i servizi per gli Avvocati</p>
+
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Intro Per il Professionista</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2828</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:23:18');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2830,'admin','2019-06-21 15:23:39','/do/jacms/Page/SpecialWidget/Viewer','saveViewerConfig','pageCode=per_il_professionista
+frame=5
+widgetTypeCode=content_viewer
+contentId=CON2828
+modelId=10000
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>1</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_il_professionista</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:23:39');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2831,'admin','2019-06-21 15:23:41','/do/rs/Page','setOnline','pageCode=per_il_professionista
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_il_professionista</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:23:41');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2833,'admin','2019-06-21 15:24:57','/do/jacms/Content','saveAndApprove','descr=Intro Per l''Amministrazione
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_newContent
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Introduzione al menu che espone i servizi per l&#39;Amministrazione Trasparente</p>
+
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Intro Per l''Amministrazione</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2832</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:24:57');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2834,'admin','2019-06-21 15:25:38','/do/jacms/Page/SpecialWidget/Viewer','saveViewerConfig','pageCode=per_l_amministrazione
+frame=5
+widgetTypeCode=content_viewer
+contentId=CON2832
+modelId=10000
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per l''Amministrazione</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per l''Amministrazione</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>1</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_l_amministrazione</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:25:38');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2835,'admin','2019-06-21 15:25:40','/do/rs/Page','setOnline','pageCode=per_l_amministrazione
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per l''Amministrazione</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per l''Amministrazione</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_l_amministrazione</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:25:40');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2836,'admin','2019-06-21 15:30:03','/do/rs/Page','setOnline','pageCode=homepage
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Home</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">homepage</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:30:03');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2837,'admin','2019-06-21 15:31:40','/do/rs/Page','setOnline','pageCode=uffici_e_cancellerie
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Uffici e Cancellerie</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Uffici e Cancellerie</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">uffici_e_cancellerie</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:31:40');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2838,'admin','2019-06-21 15:32:11','/do/rs/Page','setOnline','pageCode=giudici_di_pace
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudici di Pace</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Giudici di Pace</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">giudici_di_pace</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:32:11');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2840,'admin','2019-06-21 15:32:30','/do/rs/Page','setOnline','pageCode=ufficiali_giudiziari
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ufficiali Giudiziari</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ufficiali Giudiziari</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ufficiali_giudiziari</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:32:30');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2841,'admin','2019-06-21 15:32:48','/do/rs/Page','setOnline','pageCode=dove_siamo
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Come Raggiungerci</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Come Raggiungerci</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">dove_siamo</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:32:48');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2843,'admin','2019-06-21 15:33:15','/do/rs/Page','setOnline','pageCode=contatti
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Contatti</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Contatti</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contatti</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:33:15');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2844,'admin','2019-06-21 15:33:41','/do/rs/Page','setOnline','pageCode=dislocazione_uffici
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Dislocazione Uffici</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Dislocazione Uffici</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">dislocazione_uffici</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:33:41');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2846,'admin','2019-06-21 15:34:42','/do/rs/Page','setOnline','pageCode=per_il_cittadino
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Cittadino</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Cittadino</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_il_cittadino</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:34:42');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2847,'admin','2019-06-21 15:35:02','/do/rs/Page','setOnline','pageCode=carta_dei_servizi
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Carta dei Servizi</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Carta dei Servizi</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">carta_dei_servizi</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:35:02');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2848,'admin','2019-06-21 15:35:25','/do/rs/Page','setOnline','pageCode=glossario
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Glossario</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Glossario</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">glossario</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:35:25');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2849,'admin','2019-06-21 15:35:48','/do/rs/Page','setOnline','pageCode=servizi_online
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Servizi Online</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Servizi Online</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">servizi_online</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:35:48');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2850,'admin','2019-06-21 15:36:20','/do/rs/Page','setOnline','pageCode=moduli
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Moduli</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Moduli</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">moduli</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:36:20');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2851,'admin','2019-06-21 15:37:24','/do/rs/Page','setOnline','pageCode=per_il_professionista
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per il Professionista</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_il_professionista</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:37:24');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2852,'admin','2019-06-21 15:37:41','/do/rs/Page','setOnline','pageCode=accesso_servizi_di_cancelleria
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Accesso Servizi di Cancelleria</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Accesso Servizi di Cancelleria</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">accesso_servizi_di_cancelleria</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:37:41');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2853,'admin','2019-06-21 15:38:10','/do/rs/Page','setOnline','pageCode=consiglio_nazionale_francese
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Consiglio Nazionale Forense</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Consiglio Nazionale Forense</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">consiglio_nazionale_francese</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:38:10');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2854,'admin','2019-06-21 15:38:32','/do/rs/Page','setOnline','pageCode=ordine_degli_avvocati
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ordine degli Avvocati</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ordine degli Avvocati</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ordine_degli_avvocati</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:38:32');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2855,'admin','2019-06-21 15:38:56','/do/rs/Page','setOnline','pageCode=com_prov_org
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Comunicazione Provvedimenti Organizzativi</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Comunicazione Provvedimenti Organizzativi</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">com_prov_org</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:38:56');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2856,'admin','2019-06-21 15:39:14','/do/rs/Page','setOnline','pageCode=calendario_udienze_civili
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Calendario Udienze Civili</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Calendario Udienze Civili</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">calendario_udienze_civili</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:39:14');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2857,'admin','2019-06-21 15:39:31','/do/rs/Page','setOnline','pageCode=calendario_udienze_penali
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Calendario Udienze Penali</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Calendario Udienze Penali</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">calendario_udienze_penali</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:39:31');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2858,'admin','2019-06-21 15:39:48','/do/rs/Page','setOnline','pageCode=tirocinio_formativo_il_prof
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Tirocinio Formativo</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Tirocinio Formativo</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tirocinio_formativo_il_prof</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:39:48');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2859,'admin','2019-06-21 15:40:05','/do/rs/Page','setOnline','pageCode=moduli_prof
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Moduli</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Moduli</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">moduli_prof</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:40:05');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2860,'admin','2019-06-21 15:40:31','/do/rs/Page','setOnline','pageCode=per_l_amministrazione
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per l''Amministrazione</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Per l''Amministrazione</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">per_l_amministrazione</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:40:31');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2861,'admin','2019-06-21 15:40:50','/do/rs/Page','setOnline','pageCode=attivit_contr_cons_semestr
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attività  Contrattazione Consuntivi Semestrali</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attività  Contrattazione Consuntivi Semestrali</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">attivit_contr_cons_semestr</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:40:50');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2862,'admin','2019-06-21 15:41:05','/do/rs/Page','setOnline','pageCode=bilancio_sociale
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bilancio Sociale</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bilancio Sociale</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">bilancio_sociale</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:41:05');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2863,'admin','2019-06-21 15:41:23','/do/rs/Page','setOnline','pageCode=statistiche_amm
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Statistiche</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Statistiche</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">statistiche_amm</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:41:23');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2864,'admin','2019-06-21 15:41:53','/do/rs/Page','setOnline','pageCode=trasparenza
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Trasparenza</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Trasparenza</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">trasparenza</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:41:53');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2865,'admin','2019-06-21 15:42:10','/do/rs/Page','setOnline','pageCode=pubblicit_lega
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità Legale</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pubblicit_lega</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:42:10');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2866,'admin','2019-06-21 15:42:33','/do/rs/Page','setOnline','pageCode=come_fare_per
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ricerca guidata</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ricerca guidata</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">come_fare_per</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:42:33');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2867,'admin','2019-06-21 15:42:53','/do/rs/Page','setOnline','pageCode=f_a_q_
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">F.A.Q.</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">F.A.Q.</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">f_a_q_</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:42:53');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2868,'admin','2019-06-21 15:43:14','/do/rs/Page','setOnline','pageCode=link_utili
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Link Utili</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Link Utili</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">link_utili</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:43:14');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2869,'admin','2019-06-21 15:43:33','/do/rs/Page','setOnline','pageCode=procedure_concorsuali
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Procedure concorsuali</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Procedure concorsuali</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">procedure_concorsuali</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:43:33');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2870,'admin','2019-06-21 15:43:52','/do/rs/Page','setOnline','pageCode=tirocinio_formativo
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Tirocinio formativo</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Tirocinio formativo</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">tirocinio_formativo</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:43:52');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2871,'admin','2019-06-21 15:44:12','/do/rs/Page','setOnline','pageCode=statistiche
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Moduli</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Moduli</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">statistiche</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:44:12');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2872,'admin','2019-06-21 15:44:31','/do/rs/Page','setOnline','pageCode=richieste_on_line
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Richieste on line</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Richieste on line</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">richieste_on_line</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:44:31');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2873,'admin','2019-06-21 15:44:49','/do/rs/Page','setOnline','pageCode=aste_giudiziarie
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Aste Giudiziarie</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Aste Giudiziarie</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">aste_giudiziarie</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:44:49');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2874,'admin','2019-06-21 15:45:27','/do/rs/Page','setOnline','pageCode=normativa
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Normativa</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Normativa</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">normativa</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:45:27');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2875,'admin','2019-06-21 15:45:44','/do/rs/Page','setOnline','pageCode=statistiche_link
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Statistiche</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Statistiche</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">statistiche_link</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:45:44');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2876,'admin','2019-06-21 15:46:01','/do/rs/Page','setOnline','pageCode=amministrazione_trasparente
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Amministrazione Trasparente</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Amministrazione Trasparente</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">amministrazione_trasparente</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:46:01');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2877,'admin','2019-06-21 15:46:14','/do/rs/Page','setOnline','pageCode=pubblicita_legale
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità  Legale</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pubblicità  Legale</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pubblicita_legale</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:46:14');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2878,'admin','2019-06-21 15:46:28','/do/rs/Page','setOnline','pageCode=bilancio
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bilancio</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bilancio</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">bilancio</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:46:28');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2879,'admin','2019-06-21 15:46:46','/do/rs/Page','setOnline','pageCode=news_categorizzate
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">News categorizzate</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">News categorizzate</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">news_categorizzate</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:46:46');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2880,'admin','2019-06-21 15:48:07','/do/jacms/Content','saveAndApprove','descr=Elenco personale amministrativo
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_newContent
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>I dati sono visualizzati nel seguente ordine: qualifica comprensiva della fascia economica, nominativo<br />
+<br />
+<strong>&bull; Dott. Fabio Maiani</strong> (Dirigente Amministrativo)<br />
+Incarico: Dirigente Amministrativo (Dirigenza Amministrativa)<br />
+Piano: 1&deg;<br />
+Stanza: 58<br />
+Telefono: 0923/765232;<br />
+Fax: 0923/956638;<br />
+Email: fabio.maiani@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Gaspare Ferro</strong> (Direttore Amministrativo F5)<br />
+Incarico: Responsabile (Segreteria di Presidenza)<br />
+Stanza: 57<br />
+Telefono: 0923/765251;<br />
+Fax: 0923/956638;<br />
+Email: gaspare.ferro@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Antonio Placenza</strong> (Direttore Amministrativo F5)<br />
+Incarico: Direttore (Ufficio Corpi di Reato)<br />
+Telefono: 0923/765341;<br />
+Email: antonio.placenza@giustizia.it;<br />
+<br />
+Incarico: Direttore (Cancelleria Penale Dibattimentale)<br />
+Stanza: 203<br />
+Telefono: 0923/765203;<br />
+Email: antonio.placenza@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Giacomo Giacalone</strong> (Direttore Amministrativo F4)<br />
+Incarico: Direttore (Cancelleria G.I.P./G.U.P.)<br />
+Piano: terra<br />
+Stanza: 24<br />
+Telefono: 0923/765348;<br />
+<br />
+<strong>&bull; Dott. Giuseppe Lombardo</strong> (Direttore Amministrativo F4)<br />
+Incarico: Responsabile (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Stanza: 66<br />
+Telefono: 0923/765303;<br />
+Email: giuseppe.lombardo01@giustizia.it;<br />
+<br />
+Incarico: Responsabile (Cancelleria Lavoro e Previdenza)<br />
+Piano: Primo<br />
+Stanza: 66<br />
+Telefono: 0923/765303;<br />
+Email: giuseppe.lombardo01@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppe Pipitone</strong> (Funzionario Giudiziario F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Stanza: 39<br />
+Telefono: 0923/765270;<br />
+Email: giuseppe.pipitone02@giustizia.it;<br />
+<br />
+<strong>&bull; Vincenzo Russo</strong> (Funzionario Giudiziario F3)<br />
+<br />
+<strong>&bull; Rosaria Genna</strong> (Funzionario Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765308;<br />
+Email: rosaria.genna@giustizia.it;<br />
+<br />
+<strong>&bull; Vincenzo Giacalone</strong> (Funzionario Giudiziario F2)<br />
+Incarico: Responsabile (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765301;<br />
+<br />
+<strong>&bull; Giovanna Ottoveggio</strong> (Funzionario Giudiziario F2)<br />
+Incarico: Responsabile (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Stanza: 101<br />
+Telefono: 0923/765277;<br />
+Email: giovanna.ottoveggio@giustizia.it;<br />
+<br />
+Incarico: Responsabile (Consegnatario/Economo)<br />
+Stanza: 58<br />
+Telefono: 0923/765260;<br />
+Fax: 0923/765381;<br />
+<br />
+<strong>&bull; Andrea Tommaso Accardi</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765219;<br />
+Email: andrea.accardi@giustizia.it;<br />
+<br />
+<strong>&bull; Grazia Alfisi</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 41<br />
+Telefono: 0923/765216;<br />
+Email: grazia.alfisi@giustizia.it;<br />
+<br />
+<strong>&bull; Roberta Architetto</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Piano: Secondo<br />
+Stanza: 103<br />
+Telefono: 0923/765256;<br />
+Fax: 0923/765255;<br />
+Email: carmelaroberta.architetto@giustizia.it;<br />
+<br />
+<strong>&bull; Agata Fontana</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Ufficio Corpi di Reato)<br />
+Piano: 1&deg;<br />
+Stanza: 40<br />
+Telefono: 0923/765225;<br />
+Email: agata.fontana@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Giuseppe Malato</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Telefono: 0923/765335;<br />
+<br />
+<strong>&bull; Dott.ssa Annalisa Manata</strong> (Funzionario Giudiziario F1)<br />
+Incarico: Addetto (Consegnatario/Economo)<br />
+Piano: 1<br />
+Stanza: 56<br />
+Telefono: 0923/765260;<br />
+<br />
+<strong>&bull; Roberto Abrignani</strong> (Cancelliere F6)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765331;<br />
+Email: abrignani.roberto@giustizia.it;<br />
+<br />
+<strong>&bull; Alessandra Conti </strong>(Cancelliere F5)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765329;<br />
+Email: alessandra.conti@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanna Ingoglia</strong> (Cancelliere F5)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765372;<br />
+Email: giovanna.ingoglia@giustizia.it;<br />
+<br />
+<strong>&bull; Rosa Maria Stallone</strong> (Cancelliere F5)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Telefono: 0923/765295;<br />
+<br />
+<strong>&bull; Mariarita Gullo</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Stanza: 65<br />
+Telefono: 0923/765287;<br />
+Email: mariaannarita.gullo@giustizia.it;<br />
+<br />
+<strong>&bull; Franca Macchetti</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 39<br />
+Telefono: 0923/765270;<br />
+Email: franca.macchetti@giustizia.it;<br />
+<br />
+<strong>&bull; Flora Mangia</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 23<br />
+Telefono: 0923/765354;<br />
+Email: florarosaria.mangia@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppina Pellegrino</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 35<br />
+Telefono: 0923/765282;<br />
+Email: giuseppina.pellegrino@giustizia.it;<br />
+<br />
+<strong>&bull; Rossella Piccione</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765307;<br />
+Email: rossella.piccione@giustizia.it;<br />
+<br />
+<strong>&bull; Veronica Scatassa</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 40<br />
+Telefono: 0923/765270;<br />
+Email: veronica.scatassa@giustizia.it;<br />
+<br />
+<strong>&bull; Biagio Valenti</strong> (Cancelliere F4)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Piano: 2<br />
+Stanza: Palazzo Halley<br />
+Email: biagio.valenti@giustizia.it;<br />
+<br />
+<strong>&bull; Rosanna Gucciardi</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Segreteria di Presidenza)<br />
+Stanza: 59<br />
+Telefono: 0923/765226;<br />
+Fax: 0923/956638;<br />
+<br />
+<strong>&bull; Rosario Pinna</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 68<br />
+Telefono: 0923/765264;<br />
+Email: rosario.pinna@giustizia.it;<br />
+<br />
+<strong>&bull; Franca Tranchida</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Telefono: 0923/765274;<br />
+Email: franca.tranchida@giustizia.it;<br />
+<br />
+<strong>&bull; Isabella Tranchida</strong> (Assistente Giudiziario F4)<br />
+Incarico: Addetto (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Telefono: 0923/765275;<br />
+<br />
+<strong>&bull; Floriana Abbonato</strong> (Assistente Giudiziario F3)<br />
+<br />
+<strong>&bull; Giuseppe Adamo</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+<br />
+<strong>&bull; Filippo Bonafede</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765291;<br />
+Email: filippo.bonafede@giustizia.it;<br />
+<br />
+<strong>&bull; Piera Galfano</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 1&deg;<br />
+Stanza: 63<br />
+Telefono: 0923/765229;<br />
+<br />
+<strong>&bull; Giacoma Giacalone</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Stanza: 35<br />
+Telefono: 0923/765268;<br />
+Email: giacoma.giacalone@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanni Giacalone</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+<br />
+<strong>&bull; Angelo Daniele Licari </strong>(Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 24<br />
+Telefono: 0923/765343;<br />
+Email: angelodaniele.licari@giustizia.it;<br />
+<br />
+<strong>&bull; Antonino Mistretta</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 40<br />
+Telefono: 0923/765383;<br />
+Email: antonio.mistretta@giustizia.it;<br />
+<br />
+<strong>&bull; Dina Petralia</strong> (Assistente Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Stanza: 63<br />
+Telefono: 0923/765227;<br />
+Email: dina.petralia@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanna Scardino</strong> (Assistente Giudiziario F3)<br />
+<br />
+<strong>&bull; Dott. Francesco Arno</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 1&deg;<br />
+Telefono: 0923/765382;<br />
+<br />
+<strong>&bull; Dott.ssa Caterina Emanuela De Vita</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Telefono: 765270;<br />
+Email: emanuelacaterina.devita@giustizia.it;<br />
+<br />
+<strong>&bull; Dott. Cristina Ferrante</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1&deg;<br />
+Stanza: 70<br />
+Telefono: 0923/765383;<br />
+<br />
+<strong>&bull; Dott.ssa Caterina Ingrasciotta</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 1<br />
+Stanza: 69<br />
+Telefono: 0923/765352;<br />
+Email: caterina.ingrasciotta@giustizia.it;<br />
+<br />
+<strong>&bull; Dott.ssa Francesca Paola Ruggieri</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Piano: Piano Terra<br />
+Telefono: 0923/765203;<br />
+Email: francescapaola.ruggieri@giustizia.it;<br />
+<br />
+<strong>&bull; Dott.ssa Antonella Schifano</strong> (Assistente Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Stanza: 37<br />
+Telefono: 0923/765282;<br />
+Email: antonella.schifano@giustizia.it;<br />
+<br />
+<strong>&bull; Rita Barracca</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Telefono: 0923/765274;<br />
+Email: giusepparita.barraca@giustizia.it;<br />
+<br />
+<strong>&bull; Anastasia Francesca Leggio</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765272;<br />
+Email: anastasiafrancesca@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppa Li Vigni</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Telefono: 0923/765295;<br />
+<br />
+<strong>&bull; Giuseppa Valenti</strong> (Operatore Giudiziario F3)<br />
+Incarico: Addetto (Ufficio del Personale)<br />
+Stanza: 54<br />
+Telefono: 0923/765280;<br />
+Email: giuseppa.valenti@giustizia.it;<br />
+<br />
+<strong>&bull; Giovanna Alagna</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 24<br />
+Telefono: 0923/765276;<br />
+Email: giovanna.alagna@giustizia.it;<br />
+<br />
+<strong>&bull; Anna Maria Aleci</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 40<br />
+Telefono: 0923/765383;<br />
+Email: annamaria.aleci@giustizia.it;<br />
+<br />
+<strong>&bull; Marina Frazzitta</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria G.I.P./G.U.P.)<br />
+Stanza: 16<br />
+Telefono: 0923/765388;<br />
+Email: marina.frazzitta@giustizia.it;<br />
+<br />
+<strong>&bull; Antonia Maria</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 65<br />
+Telefono: 0923/765287;<br />
+Email: antoniaanna.maria@@giustizia.it;<br />
+<br />
+<strong>&bull; Maria Luisa Marocco</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Consegnatario/Economo)<br />
+Stanza: 58<br />
+Telefono: 0923/765380;<br />
+Fax: 0923/765381;<br />
+Email: marialuisa.marocco@giustizia.it;<br />
+<br />
+<strong>&bull; Francesca Martinico</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 65<br />
+Telefono: 0923/765287;<br />
+Email: francesca.martinico@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppe Papadia</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Piano: 70<br />
+Telefono: 0923/765352;<br />
+Email: giuseppe.papadia@giustizia.it;<br />
+<br />
+<strong>&bull; Giuseppe Parisi</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Telefono: 0923/765304;<br />
+Email: giuseppe.parisi@giustizia.it;<br />
+<br />
+<strong>&bull; Filippo Parrinell</strong>o (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Stanza: 100<br />
+Telefono: 0923/765275;<br />
+Email: filippo.parrinello@giustizia.it;<br />
+<br />
+<strong>&bull; Calogera Daniela Pellegrino</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Ufficio Corpi di Reato)<br />
+Telefono: 0923/765377;<br />
+Email: calogera.pellegrino@giustizia.it;<br />
+<br />
+Incarico: Addetto (Ufficio Recupero Crediti/Spese di Giustizia)<br />
+Piano: 2<br />
+Stanza: 101<br />
+Telefono: 0923/765279;<br />
+<br />
+<strong>&bull;</strong> <strong>Lucia Raineri</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Segreteria di Presidenza)<br />
+Piano: 59<br />
+Telefono: 0923/765350;<br />
+Fax: 0923/956638;<br />
+Email: lucia.raineri@giustizia.it;<br />
+<br />
+<strong>&bull; Marilena Russo</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+Piano: 1<br />
+Stanza: 35<br />
+Telefono: 0923/765249;<br />
+Fax: 0923/765243;<br />
+Email: marilena.russo@giustizia.it;<br />
+<br />
+<strong>&bull; Michela Scalia</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+Telefono: 0923/765318;<br />
+Email: michela.scalia@giustizia.it;<br />
+<br />
+<strong>&bull; Maria Pia Sciacca</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Ufficio del Personale)<br />
+Stanza: 54<br />
+Telefono: 0923/765224;<br />
+Email: mariapia.sciacca@giustizia.it;<br />
+<br />
+<strong>&bull; Piero Sugamiele</strong> (Operatore Giudiziario F2)<br />
+Incarico: Addetto (Cancelleria Esecuzioni Civili Immobiliari e Mobiliari &ndash; Servizio Depositi Giudiziari)<br />
+Piano: 2<br />
+Stanza: Palazzo Halley<br />
+Telefono: 0923/765318;<br />
+Email: piero.sugamiele@giustizia.it;<br />
+<br />
+<strong>&bull; Pietro Di Giovanni</strong> (Conducente di automezzi F2)<br />
+<br />
+<strong>&bull; Mimmo Fazio</strong> (Conducente di automezzi F2)<br />
+<br />
+<strong>&bull; Pietro Gambina</strong> (Conducente di automezzi F2)<br />
+<br />
+<strong>&bull; Vincenzo Di Prima</strong> (Ausiliario F3)<br />
+<br />
+<strong>&bull; Paolo Favata</strong> (Ausiliario F2)<br />
+<br />
+<strong>&bull; Caterina Ingoglia</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+<br />
+<strong>&bull; Tommaso Lombardo</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Fallimentare e procedure concorsuali)<br />
+<br />
+<strong>&bull; Matteo Longo</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Contenzioso Civile e Volontaria Giurisdizione)<br />
+Telefono: 0923/765227;<br />
+<br />
+<strong>&bull; Michele Mannone</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Penale Dibattimentale)<br />
+<br />
+<strong>&bull; Manlio Marino</strong> (Ausiliario F2)<br />
+<br />
+<strong>&bull; Anna Russo</strong> (Ausiliario F2)<br />
+<br />
+<strong>&bull; Angelo Sammartano</strong> (Ausiliario F2)<br />
+Incarico: Addetto (Cancelleria Lavoro e Previdenza)<br />
+Stanza: 102<br />
+Telefono: 0923/765273;<br />
+<br />
+<strong>&bull; Girolamo Adragna</strong> (Centralinista F2)<br />
+Incarico: Addetto</p>
+
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Elenco personale amministrativo</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2818</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:48:07');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2881,'admin','2019-06-21 15:48:45','/do/jacms/Page/SpecialWidget/Viewer','saveViewerConfig','pageCode=elenco_personale_amm
+frame=5
+widgetTypeCode=content_viewer
+contentId=CON2818
+modelId=10000
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Elenco Personale Amministrativo</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Elenco Personale Amministrativo</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>1</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">elenco_personale_amm</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:48:45');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2882,'admin','2019-06-21 15:48:47','/do/rs/Page','setOnline','pageCode=elenco_personale_amm
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Elenco Personale Amministrativo</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Elenco Personale Amministrativo</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">elenco_personale_amm</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:48:47');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2883,'admin','2019-06-21 15:50:38','/do/rs/Page','setOnline','pageCode=sezione_civile_magistrati
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sezione Civile</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sezione Civile</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">sezione_civile_magistrati</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:50:38');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2885,'admin','2019-06-21 15:54:35','/do/jacms/Content','saveAndApprove','descr=Piante Organiche Mars
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_editContent_CON2688
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Ufficio del Giudice di Pace di Marsala al 29.2.201</p>
+
+Monolist:Composite:Image:it_contComp_img_0=Ufficio del Giudice di Pace di Marsala - piante organiche.png
+Monolist:Composite:Image:it_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:it_contComp_img_0_metadata_description=
+Monolist:Composite:Image:it_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:it_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+Monolist:Composite:Image:en_contComp_img_0=
+Monolist:Composite:Image:en_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:en_contComp_img_0_metadata_description=
+Monolist:Composite:Image:en_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:en_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_en=
+status=READY
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche Mars</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2688</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:54:35');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2887,'admin','2019-06-21 15:58:48','/do/jacms/Content','saveAndApprove','descr=Piante Organiche Mars
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_editContent_CON2688
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Ufficio del Giudice di Pace di Marsala al 29.2.201</p>
+
+Monolist:Composite:Image:it_contComp_img_0=Ufficio del Giudice di Pace di Marsala - piante organiche.png
+Monolist:Composite:Image:it_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:it_contComp_img_0_metadata_description=
+Monolist:Composite:Image:it_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:it_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+Monolist:Composite:Image:en_contComp_img_0=
+Monolist:Composite:Image:en_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:en_contComp_img_0_metadata_description=
+Monolist:Composite:Image:en_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:en_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_en=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche Mars</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2688</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:58:48');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2889,'admin','2019-06-21 15:59:41','/do/jacms/Content','saveAndApprove','descr=Piante Organiche Mars
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_editContent_CON2688
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Ufficio del Giudice di Pace di Marsala al 29.2.201</p>
+
+Monolist:Composite:Image:it_contComp_img_0=Ufficio del Giudice di Pace di Marsala - piante organiche.png
+Monolist:Composite:Image:it_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:it_contComp_img_0_metadata_description=
+Monolist:Composite:Image:it_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:it_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_it=
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+Monolist:Composite:Image:en_contComp_img_0=
+Monolist:Composite:Image:en_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:en_contComp_img_0_metadata_description=
+Monolist:Composite:Image:en_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:en_contComp_img_0_metadata_title=
+jacmsPreviewActionPageCode_en=
+status=READY
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche Mars</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2688</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 15:59:41');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2890,'admin','2019-06-21 16:00:25','/do/rs/Page','setOnline','pageCode=sezione_penale_magistrati
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sezione Penale</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sezione Penale</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">sezione_penale_magistrati</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 16:00:25');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2891,'admin','2019-06-21 16:01:48','/do/rs/Page','setOnline','pageCode=elenco_personale_amm
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Elenco Personale Amministrativo</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Elenco Personale Amministrativo</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">elenco_personale_amm</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 16:01:48');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2892,'admin','2019-06-21 16:02:55','/do/rs/Page','setOnline','pageCode=uffici_e_cancellerie_interno
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Uffici e Cancellerie</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Uffici e Cancellerie</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">uffici_e_cancellerie_interno</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 16:02:55');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2893,'admin','2019-06-21 16:04:01','/do/rs/Page','setOnline','pageCode=dirigenza_amministrativa_canc
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Dirigenza Amministrativa</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Dirigenza Amministrativa</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">dirigenza_amministrativa_canc</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 16:04:01');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2896,'admin','2019-06-21 16:05:14','/do/jacms/Content','saveAndApprove','descr=Ufficio del Giudice di Pace di Castelvetrano - piante org
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_newContent
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Ufficio del Giudice di Pace di Castelvetrano</p>
+
+Monolist:Composite:Image:it_contComp_img_0=Ufficio del Giudice di Pace di Marsala - piante organiche.png
+Monolist:Composite:Image:it_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:it_contComp_img_0_metadata_description=
+Monolist:Composite:Image:it_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:it_contComp_img_0_metadata_title=
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+Monolist:Composite:Image:en_contComp_img_0=
+Monolist:Composite:Image:en_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:en_contComp_img_0_metadata_description=
+Monolist:Composite:Image:en_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:en_contComp_img_0_metadata_title=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ufficio del Giudice di Pace di Castelvetrano - piante org</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2894</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 16:05:14');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2897,'admin','2019-06-21 16:05:50','/do/jacms/Page/SpecialWidget/Viewer','saveViewerConfig','pageCode=piante_organiche_cast
+frame=5
+widgetTypeCode=content_viewer
+contentId=CON2894
+modelId=10000
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>2</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">piante_organiche_cast</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 16:05:50');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2898,'admin','2019-06-21 16:05:54','/do/rs/Page','setOnline','pageCode=piante_organiche_cast
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">piante_organiche_cast</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 16:05:54');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2901,'admin','2019-06-21 16:10:29','/do/jacms/Content','saveAndApprove','descr=Ufficio del Giudice di Pace di Pantelleria - piante org
+__multiselect_extraGroupNames=
+treeNodesToOpen=home
+contentOnSessionMarker=CON_newContent
+resourceTypeCode=
+Monolist:Composite:Text:it_contComp_title_0=
+Monolist:Composite:Hypertext:it_contComp_text_0=<p>Ufficio del Giudice di Pace di Pantelleria al 31.12.2015</p>
+
+Monolist:Composite:Image:it_contComp_img_0=Ufficio del Giudice di Pace di Pantelleria - piante org.png
+Monolist:Composite:Image:it_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:it_contComp_img_0_metadata_description=
+Monolist:Composite:Image:it_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:it_contComp_img_0_metadata_title=
+Monolist:Composite:Text:en_contComp_title_0=
+Monolist:Composite:Hypertext:en_contComp_text_0=
+Monolist:Composite:Image:en_contComp_img_0=
+Monolist:Composite:Image:en_contComp_img_0_metadata_alt=
+Monolist:Composite:Image:en_contComp_img_0_metadata_description=
+Monolist:Composite:Image:en_contComp_img_0_metadata_legend=
+Monolist:Composite:Image:en_contComp_img_0_metadata_title=
+status=
+entandoaction:saveAndApprove=Submit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ufficio del Giudice di Pace di Pantelleria - piante org</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+        <group>free</group>
+    </groups>
+    <actionType>12</actionType>
+    <linkNamespace>/do/jacms/Content</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CON2899</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>editContents</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 16:10:29');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2902,'admin','2019-06-21 16:10:48','/do/jacms/Page/SpecialWidget/Viewer','saveViewerConfig','pageCode=piante_organiche_pant
+frame=5
+widgetTypeCode=content_viewer
+contentId=CON2899
+modelId=10000
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>2</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>editFrame</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">pageCode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">piante_organiche_pant</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">frame</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 16:10:48');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (2903,'admin','2019-06-21 16:10:49','/do/rs/Page','setOnline','pageCode=piante_organiche_pant
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Piante Organiche</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">piante_organiche_pant</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-21 16:10:49');

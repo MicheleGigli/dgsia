@@ -164,7 +164,9 @@ $(document).ready(function () {
 INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8,'CTA','Link Istituzionali Home Page prima del footer','<section id="section5">
 
 <div class="container">
-
+	
+    <h2 class="text-blue">$content.title.text</h2>
+  
     <div class="owl-carousel-link owl-carousel owl-theme container">
      #foreach ($item in $content.lista) 
         <div class="item item-owl-custom">
@@ -182,6 +184,7 @@ INSERT INTO contentmodels (modelid,contenttype,descr,model,stylesheet) VALUES (8
 
     $(''.owl-carousel-link'').owlCarousel({
         loop: true,
+        autoplay:true,
         margin: 10,
         nav: true,
         responsive: {
