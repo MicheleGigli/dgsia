@@ -275,12 +275,11 @@
                 </div>
 
                 <ul class="list-inline border-top">
-                    <li class="list-inline-item"><a href="" title="Privacy policy">Privacy</a></li>
-                    <li class="list-inline-item"><a href="" title="Note legali">Note
+                    <li class="list-inline-item"><a href="https://template.giustizia.it/tribunalemarsala/it/privacy.page" title="Privacy policy">Privacy</a></li>
+                    <li class="list-inline-item"><a href="https://template.giustizia.it/tribunalemarsala/it/note_legali.page" title="Note legali">Note
                             legali</a></li>
-                    <li class="list-inline-item"><a href="" title="Contatti">Contatti</a></li>
-                    <li class="list-inline-item"><a href="" title="a est rerum">a
-                            est rerum</a></li>
+                    <li class="list-inline-item"><a href="https://template.giustizia.it/tribunalemarsala/it/contatti.page" title="Contatti">Contatti</a></li>
+                    <li class="list-inline-item"><a href="https://template.giustizia.it/tribunalemarsala/it/accessibilit.page" title="Accessibilità">Accessibilità</a></li>
                     <li class="list-inline-item">autem reiciendis maiores</li>
                 </ul>
             </div>
