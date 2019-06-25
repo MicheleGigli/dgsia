@@ -220,8 +220,9 @@
                         <div>
                             <h3 class="display-4">Recapiti</h3>
                             <address>
-                                Via autem reiciendis maiores<br> autem reiciendis maiores<br>
-                                Tel. (+00) 00.0000.0000
+                                Tribunale di Marsala <br>
+                                Piazza Borsellino, 1, 91025 <br>
+                                Marsala (TP)
                             </address>
                         </div>
                     </div>
@@ -231,8 +232,7 @@
                         <div>
                             <h3 class="display-4">Recapiti</h3>
                             <address>
-                                Via blanditiis soluta exercitationem<br> blanditiis soluta
-                                exercitationem<br> Tel. (+00) 00.0000.0000
+                                Centralino: 0923 – 765111
                             </address>
                         </div>
                     </div>
@@ -242,7 +242,7 @@
                         <div>
                             <h3 class="display-4">Indirizzo PEC</h3>
                             <p>
-                                <a href="">indirizzo.pec@gov.it</a>
+                                <a href="">tribunale.marsala@giustizia.it</a>
                             </p>
                         </div>
                     </div>
@@ -277,7 +277,6 @@
                             legali</a></li>
                     <li class="list-inline-item"><a href="https://template.giustizia.it/tribunalemarsala/it/contatti.page" title="Contatti">Contatti</a></li>
                     <li class="list-inline-item"><a href="https://template.giustizia.it/tribunalemarsala/it/accessibilit.page" title="Accessibilità">Accessibilità</a></li>
-                    <li class="list-inline-item">autem reiciendis maiores</li>
                 </ul>
             </div>
         </footer>
