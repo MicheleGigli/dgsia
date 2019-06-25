@@ -711,6 +711,12 @@ ul.link-list .list-item {
         line-height: 1.2rem;
         min-height: 120px;
     }
+    
+      .card .card-body2 p {
+        font-size: .875rem;
+        line-height: 1.2rem;
+    }
+    
     .detail .card-body p {
         font-size: .875rem;
         line-height: 1.2rem;
