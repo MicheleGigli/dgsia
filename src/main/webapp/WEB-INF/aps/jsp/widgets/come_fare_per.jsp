@@ -156,12 +156,12 @@
                 </select>
             </div>
 
-            <h6>Sotto area 2</h6>
+<!--            <h6>Sotto area 2</h6>
             <div class="input-group mb-3">
                 <select name="subarea_2" class="custom-select" id="dropdown3">
                     <option >Scegli...</option>
                 </select>
-            </div>
+            </div>-->
             <button type="submit" class="btn btn-secondary my-3"><wp:i18n key="BTN_FILTRA" /></button>
         </form>
     </div>

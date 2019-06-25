@@ -154,7 +154,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+<!--                <div class="row">
                     <div class="col col-sm-6 col-lg-3 my-3">
                         <h2 class="display-3 mb-4">Argomento 1</h2>
                         <ul class="list-group list-group-flush">
@@ -206,7 +206,7 @@
                             <li class="list-group-item"><a href="">sed et velit</a></li>
                         </ul>
                     </div>
-                </div>
+                </div>-->
 
                 <div class="row">
                     <div class="col col-sm-6 col-lg-3 my-3">
