@@ -1,0 +1,2816 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en-us" class="ie9 layout-pf layout-pf-fixed"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en-us" class="layout-pf layout-pf-fixed">
+    <!--<![endif]-->
+
+    <head>
+        <title>Entando - Resources</title>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" href="/tribunalemarsala/resources/administration/img/favicon-entando.png">
+
+        <!--CSS inclusions-->
+<link rel="stylesheet" href="/tribunalemarsala/resources/administration/bootstrap/css/bootstrap.min.css" media="screen" />
+<link rel="stylesheet" href="/tribunalemarsala/resources/administration/patternfly/css/patternfly.min.css">
+<link rel="stylesheet" href="/tribunalemarsala/resources/administration/patternfly/css/patternfly-additions.min.css">
+<link rel="stylesheet" href="/tribunalemarsala/resources/administration/css/entando-admin-console-default-theme.css">
+<link rel="stylesheet" type="text/css" href="/tribunalemarsala/resources/administration/css/pages/settingsPage.css"/>
+
+
+
+<!--JS inclusions-->
+<script src="/tribunalemarsala/resources/administration/js/jquery-2.2.4.min.js"></script>
+<script src="/tribunalemarsala/resources/administration/js/entando-stream.js"></script>
+<script src="/tribunalemarsala/resources/administration/js/jquery.matchHeight-min.js"></script>
+<script src="/tribunalemarsala/resources/administration/patternfly/js/patternfly.js"></script>
+<script src="/tribunalemarsala/resources/administration/js/pages/settingsPage.js"></script>
+<script src="/tribunalemarsala/resources/administration/bootstrap/js/bootstrap.min.js"></script>
+<script src="/tribunalemarsala/resources/administration/js/bootstrap-switch.min.js"></script>
+<script src="/tribunalemarsala/resources/administration/js/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+<link rel="stylesheet" type="text/css" href="/tribunalemarsala/resources/administration/css/bootstrap.vertical-tabs.min.css"/>
+<link rel="stylesheet" type="text/css" href="/tribunalemarsala/resources/administration/cropper-js/cropper.min.css"/>
+<link rel="stylesheet" type="text/css" href="/tribunalemarsala/resources/administration/crop-editor/crop-editor.css"/>
+
+<script src="/tribunalemarsala/resources/administration/js/jquery.sticky.js"></script>
+<script src="/tribunalemarsala/resources/administration/js/data-tables/jquery.dataTables.min.js"></script>
+<script src="/tribunalemarsala/resources/administration/js/data-tables/dataTables.fixedColumns.min.js"></script>
+<script src="/tribunalemarsala/resources/administration/js/data-tables/dataTables.colVis.min.js"></script>
+
+<script src="/tribunalemarsala/resources/administration/js/generate-code-from-title.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        var treeStyle = 'classic';
+        var isTreeOnRequest = (treeStyle === 'request') ? true : false;
+        $('.table-treegrid').treegrid(null, isTreeOnRequest);
+        $(".treeRow ").on("click", function (event) {
+            $(".treeRow").removeClass("active");
+            $(this).find('.subTreeToggler').prop("checked", true);
+            $(this).addClass("active");
+        });
+
+        $("#expandAll").click(function () {
+            $('#categoryTree .treeRow').removeClass('hidden');
+            $('#categoryTree .treeRow').removeClass('collapsed');
+            $('#categoryTree .icon.fa-angle-right').removeClass('fa-angle-right').addClass('fa-angle-down');
+        });
+
+        $("#collapseAll").click(function () {
+            $('#categoryTree .treeRow:not(:first-child)').addClass('hidden');
+            $('#categoryTree .treeRow').addClass('collapsed');
+            $('#categoryTree .icon.fa-angle-down').removeClass('fa-angle-down').addClass('fa-angle-right');
+        });
+    });
+</script>
+
+<script src="/tribunalemarsala/resources/administration/file-uploader/file-uploader.js"></script>
+<script src="/tribunalemarsala/resources/administration/cropper-js/cropper.min.js"></script>
+</head>
+
+    <body>
+
+        <!--barra di navigazione-->
+        <nav class="navbar navbar-pf-vertical">
+            <script>
+    var Entando = Entando || {};
+    Entando.backoffice = Entando.backoffice || {};
+    Entando.backoffice.stream = {};
+    Entando.backoffice.stream.list = {};
+    Entando.backoffice.stream.list.updateUrl = '/tribunalemarsala/do/ActivityStream/update.action';
+    Entando.backoffice.stream.list.loadMoreUrl = '/tribunalemarsala/do/ActivityStream/viewMore.action';
+    Entando.backoffice.stream.comments = {};
+    Entando.backoffice.stream.comments.addUrl = '/tribunalemarsala/do/ActivityStream/addComment.action';
+    Entando.backoffice.stream.comments.deleteUrl = '/tribunalemarsala/do/ActivityStream/removeComment.action';
+</script>
+<script>
+    jQuery(function () {
+        $('#activity-stream [data-toggle="tooltip"]').tooltip({trigger: 'hover'});
+    })
+</script>
+
+
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a href="/tribunalemarsala/do/main.action" class="navbar-brand">
+        <img class="navbar-brand-icon logo-entando" src="/tribunalemarsala/resources/administration/img/entando-logo.svg" alt="Entando 5.0" />
+        <span class="entando-development">Admin console 5.0</span>    </a>
+</div>
+<nav class="collapse navbar-collapse">
+    <ul class="nav navbar-nav navbar-right navbar-iconic">
+        <li id="preview-portal" class="drawer-pf-trigger2 notifications dropdown">
+            <a class="nav-item-iconic" target="#" href="/tribunalemarsala/" title="Go to Homepage ( same window )">
+                <span class="icon fa fa-globe fa-fw"></span>&#32;
+                Go to Homepage</a>
+        </li>
+
+        <li id="notification-ico" class="drawer-pf-trigger2 notifications dropdown">
+            <a class="nav-item-iconic drawer-pf-trigger-icon">
+                <span class="fa fa-bell" title="Notifications"></span>
+
+            </a>
+        </li>
+
+        <li class="dropdown">
+            <a class="dropdown-toggle nav-item-iconic" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <span title="Info" class="fa pficon-info"></span>
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Licence</a></li>
+            </ul>
+        </li>
+        <li id="userDropdown" class="dropdown">
+            <a class="dropdown-toggle nav-item-iconic" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <span title="Username" class="fa pficon-user"></span>
+                admin<span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li>
+                        <a href="/tribunalemarsala/do/CurrentUser/editProfile.action">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            My profile</a>
+                    </li>
+                <li>
+                    <a href="/tribunalemarsala/do/logout.action">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>&#32;
+                        Sign out</a>
+                </li>
+            </ul>
+
+            <div class="drawer-pf drawer-pf-custom hide drawer-pf-notifications-non-clickable">
+                <div class="drawer-pf-title drawer-pf-title-right-menu">
+                    <a id="toggle-stream" class="drawer-pf-toggle-expand"></a>
+                    <span class="right-bar-title-pages">Notifications</span>
+                    <span id="close-notifications" class=" close-button-menu-right pull-right"><i class="fa fa-times" ></i></span>
+                </div>
+                <div class="panel-group" id="notification-drawer-accordion">
+                    <div id="main" role="main">
+    <!--<h1>Admin Updates</h1>-->
+    <div id="stream-updates-alert" aria-live="polite" class="hide btn-primary btn-links">
+            Show New Updates (<span class="n"></span>)
+        </div>
+        <ul class="list-unstyled" id="activity-stream">
+            <li class="li-custom-avatar" data-entando-id="3653" data-entando-creationdate="2019-06-27 16:49:22|000"
+        data-entando-updatedate="2019-06-27 16:49:22|000">
+        <div class="avatar-utente">
+            <img alt=" " src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=36&amp;username=admin" width="36" height="36" class="img-circle media-object" />
+        </div>
+        <div class="avatar-utente-logger activity-stream-event event-first">
+            <div class="user-notification" data-entando="ajax-update">
+                <a  href="/tribunalemarsala/do/userprofile/view.action?username=admin"
+                            title="View the profile of: admin">
+                            admin</a>
+                    <!--                &#32;&middot;&#32;-->
+                edited and published a content:&#32;
+                <a class href="/tribunalemarsala/do/jacms/Content/edit.action?contentId=CON1804">Normativa - link utili</a>
+                    <p class="time-notifications">
+                    <time datetime="2019-06-27 16:49" title="2019-06-27 16:49" >
+                        20 hours, 2 minutes ago</time>
+                    
+                    &#32;|&#32;
+                    <a class="like-notifications" data-entando="like-link" href="/tribunalemarsala/do/ActivityStream/likeActivity.action?recordId=3653">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+                    </p>
+
+                </div>
+
+            <div class=""  data-entando="ajax-update">
+                <h4 class="sr-only">Comments</h4>
+                </div>
+            <div class="comment-panel-insert"  >
+                <a role="button" data-toggle="collapse" href="#openComment3653"  aria-controls="openComment3653">
+                    Write a comment</a>
+            </div>
+
+            <div class="collapse comment-box-panel" id="openComment3653">
+
+                <div class="comment-box ">
+                    <div class="insert-comment media ">
+                            <span class="pull-left" >
+                                <img class="img-circle avatar-utente-comment-img" src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=26&amp;username=admin" />
+                        </span>
+                        <div class="media-body">
+                            <form action="/tribunalemarsala/do/ActivityStream/addComment.action">
+                                <input type="hidden" name="streamRecordId" value="3653"/><textarea  id="textarea-stream-3653" 
+                                           class="form-control" cols="38" rows="1" placeholder="Write a comment" title="Write a comment"
+                                           name="commentText" maxlength="200">
+                                </textarea>
+                                <button type="submit" value="Submit" class="btn btn-primary btn-sm pull-right btn-submit-spacer" data-entando="add-comment-button" data-loading-text="Loading">
+Submit
+</button>
+</form>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    </li>
+<li class="li-custom-avatar" data-entando-id="3641" data-entando-creationdate="2019-06-27 16:22:26|000"
+        data-entando-updatedate="2019-06-27 16:49:22|000">
+        <div class="avatar-utente">
+            <img alt=" " src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=36&amp;username=admin" width="36" height="36" class="img-circle media-object" />
+        </div>
+        <div class="avatar-utente-logger activity-stream-event ">
+            <div class="user-notification" data-entando="ajax-update">
+                <a  href="/tribunalemarsala/do/userprofile/view.action?username=admin"
+                            title="View the profile of: admin">
+                            admin</a>
+                    <!--                &#32;&middot;&#32;-->
+                edited and published a content:&#32;
+                <a class href="/tribunalemarsala/do/jacms/Content/edit.action?contentId=SCH3639">Dott.ssa Filippetta Signorello</a>
+                    <p class="time-notifications">
+                    <time datetime="2019-06-27 16:22" title="2019-06-27 16:22" >
+                        20 hours, 29 minutes ago</time>
+                    
+                    &#32;|&#32;
+                    <a class="like-notifications" data-entando="like-link" href="/tribunalemarsala/do/ActivityStream/likeActivity.action?recordId=3641">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+                    </p>
+
+                </div>
+
+            <div class=""  data-entando="ajax-update">
+                <h4 class="sr-only">Comments</h4>
+                </div>
+            <div class="comment-panel-insert"  >
+                <a role="button" data-toggle="collapse" href="#openComment3641"  aria-controls="openComment3641">
+                    Write a comment</a>
+            </div>
+
+            <div class="collapse comment-box-panel" id="openComment3641">
+
+                <div class="comment-box ">
+                    <div class="insert-comment media ">
+                            <span class="pull-left" >
+                                <img class="img-circle avatar-utente-comment-img" src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=26&amp;username=admin" />
+                        </span>
+                        <div class="media-body">
+                            <form action="/tribunalemarsala/do/ActivityStream/addComment.action">
+                                <input type="hidden" name="streamRecordId" value="3641"/><textarea  id="textarea-stream-3641" 
+                                           class="form-control" cols="38" rows="1" placeholder="Write a comment" title="Write a comment"
+                                           name="commentText" maxlength="200">
+                                </textarea>
+                                <button type="submit" value="Submit" class="btn btn-primary btn-sm pull-right btn-submit-spacer" data-entando="add-comment-button" data-loading-text="Loading">
+Submit
+</button>
+</form>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    </li>
+<li class="li-custom-avatar" data-entando-id="3640" data-entando-creationdate="2019-06-27 16:21:40|000"
+        data-entando-updatedate="2019-06-27 16:49:22|000">
+        <div class="avatar-utente">
+            <img alt=" " src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=36&amp;username=admin" width="36" height="36" class="img-circle media-object" />
+        </div>
+        <div class="avatar-utente-logger activity-stream-event ">
+            <div class="user-notification" data-entando="ajax-update">
+                <a  href="/tribunalemarsala/do/userprofile/view.action?username=admin"
+                            title="View the profile of: admin">
+                            admin</a>
+                    <!--                &#32;&middot;&#32;-->
+                edited and published a content:&#32;
+                <a class href="/tribunalemarsala/do/jacms/Content/edit.action?contentId=SCH3639">Dott.ssa Filippetta Signorello</a>
+                    <p class="time-notifications">
+                    <time datetime="2019-06-27 16:21" title="2019-06-27 16:21" >
+                        20 hours, 30 minutes ago</time>
+                    
+                    &#32;|&#32;
+                    <a class="like-notifications" data-entando="like-link" href="/tribunalemarsala/do/ActivityStream/likeActivity.action?recordId=3640">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+                    </p>
+
+                </div>
+
+            <div class=""  data-entando="ajax-update">
+                <h4 class="sr-only">Comments</h4>
+                </div>
+            <div class="comment-panel-insert"  >
+                <a role="button" data-toggle="collapse" href="#openComment3640"  aria-controls="openComment3640">
+                    Write a comment</a>
+            </div>
+
+            <div class="collapse comment-box-panel" id="openComment3640">
+
+                <div class="comment-box ">
+                    <div class="insert-comment media ">
+                            <span class="pull-left" >
+                                <img class="img-circle avatar-utente-comment-img" src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=26&amp;username=admin" />
+                        </span>
+                        <div class="media-body">
+                            <form action="/tribunalemarsala/do/ActivityStream/addComment.action">
+                                <input type="hidden" name="streamRecordId" value="3640"/><textarea  id="textarea-stream-3640" 
+                                           class="form-control" cols="38" rows="1" placeholder="Write a comment" title="Write a comment"
+                                           name="commentText" maxlength="200">
+                                </textarea>
+                                <button type="submit" value="Submit" class="btn btn-primary btn-sm pull-right btn-submit-spacer" data-entando="add-comment-button" data-loading-text="Loading">
+Submit
+</button>
+</form>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    </li>
+<li class="li-custom-avatar" data-entando-id="3638" data-entando-creationdate="2019-06-27 16:20:00|000"
+        data-entando-updatedate="2019-06-27 16:49:22|000">
+        <div class="avatar-utente">
+            <img alt=" " src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=36&amp;username=admin" width="36" height="36" class="img-circle media-object" />
+        </div>
+        <div class="avatar-utente-logger activity-stream-event ">
+            <div class="user-notification" data-entando="ajax-update">
+                <a  href="/tribunalemarsala/do/userprofile/view.action?username=admin"
+                            title="View the profile of: admin">
+                            admin</a>
+                    <!--                &#32;&middot;&#32;-->
+                edited and published a content:&#32;
+                <a class href="/tribunalemarsala/do/jacms/Content/edit.action?contentId=SCH1022">magistrato Francesca Bellafiore</a>
+                    <p class="time-notifications">
+                    <time datetime="2019-06-27 16:20" title="2019-06-27 16:20" >
+                        20 hours, 31 minutes ago</time>
+                    
+                    &#32;|&#32;
+                    <a class="like-notifications" data-entando="like-link" href="/tribunalemarsala/do/ActivityStream/likeActivity.action?recordId=3638">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+                    </p>
+
+                </div>
+
+            <div class=""  data-entando="ajax-update">
+                <h4 class="sr-only">Comments</h4>
+                </div>
+            <div class="comment-panel-insert"  >
+                <a role="button" data-toggle="collapse" href="#openComment3638"  aria-controls="openComment3638">
+                    Write a comment</a>
+            </div>
+
+            <div class="collapse comment-box-panel" id="openComment3638">
+
+                <div class="comment-box ">
+                    <div class="insert-comment media ">
+                            <span class="pull-left" >
+                                <img class="img-circle avatar-utente-comment-img" src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=26&amp;username=admin" />
+                        </span>
+                        <div class="media-body">
+                            <form action="/tribunalemarsala/do/ActivityStream/addComment.action">
+                                <input type="hidden" name="streamRecordId" value="3638"/><textarea  id="textarea-stream-3638" 
+                                           class="form-control" cols="38" rows="1" placeholder="Write a comment" title="Write a comment"
+                                           name="commentText" maxlength="200">
+                                </textarea>
+                                <button type="submit" value="Submit" class="btn btn-primary btn-sm pull-right btn-submit-spacer" data-entando="add-comment-button" data-loading-text="Loading">
+Submit
+</button>
+</form>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    </li>
+<li class="li-custom-avatar" data-entando-id="3637" data-entando-creationdate="2019-06-27 16:19:21|000"
+        data-entando-updatedate="2019-06-27 16:49:22|000">
+        <div class="avatar-utente">
+            <img alt=" " src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=36&amp;username=admin" width="36" height="36" class="img-circle media-object" />
+        </div>
+        <div class="avatar-utente-logger activity-stream-event ">
+            <div class="user-notification" data-entando="ajax-update">
+                <a  href="/tribunalemarsala/do/userprofile/view.action?username=admin"
+                            title="View the profile of: admin">
+                            admin</a>
+                    <!--                &#32;&middot;&#32;-->
+                edited and published a content:&#32;
+                <a class href="/tribunalemarsala/do/jacms/Content/edit.action?contentId=SCH1022">magistrato Francesca Bellafiore</a>
+                    <p class="time-notifications">
+                    <time datetime="2019-06-27 16:19" title="2019-06-27 16:19" >
+                        20 hours, 32 minutes ago</time>
+                    
+                    &#32;|&#32;
+                    <a class="like-notifications" data-entando="like-link" href="/tribunalemarsala/do/ActivityStream/likeActivity.action?recordId=3637">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+                    </p>
+
+                </div>
+
+            <div class=""  data-entando="ajax-update">
+                <h4 class="sr-only">Comments</h4>
+                </div>
+            <div class="comment-panel-insert"  >
+                <a role="button" data-toggle="collapse" href="#openComment3637"  aria-controls="openComment3637">
+                    Write a comment</a>
+            </div>
+
+            <div class="collapse comment-box-panel" id="openComment3637">
+
+                <div class="comment-box ">
+                    <div class="insert-comment media ">
+                            <span class="pull-left" >
+                                <img class="img-circle avatar-utente-comment-img" src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=26&amp;username=admin" />
+                        </span>
+                        <div class="media-body">
+                            <form action="/tribunalemarsala/do/ActivityStream/addComment.action">
+                                <input type="hidden" name="streamRecordId" value="3637"/><textarea  id="textarea-stream-3637" 
+                                           class="form-control" cols="38" rows="1" placeholder="Write a comment" title="Write a comment"
+                                           name="commentText" maxlength="200">
+                                </textarea>
+                                <button type="submit" value="Submit" class="btn btn-primary btn-sm pull-right btn-submit-spacer" data-entando="add-comment-button" data-loading-text="Loading">
+Submit
+</button>
+</form>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    </li>
+<li class="li-custom-avatar" data-entando-id="3636" data-entando-creationdate="2019-06-27 14:24:10|000"
+        data-entando-updatedate="2019-06-27 16:49:22|000">
+        <div class="avatar-utente">
+            <img alt=" " src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=36&amp;username=admin" width="36" height="36" class="img-circle media-object" />
+        </div>
+        <div class="avatar-utente-logger activity-stream-event ">
+            <div class="user-notification" data-entando="ajax-update">
+                <a  href="/tribunalemarsala/do/userprofile/view.action?username=admin"
+                            title="View the profile of: admin">
+                            admin</a>
+                    <!--                &#32;&middot;&#32;-->
+                edited and published a content:&#32;
+                <a class href="/tribunalemarsala/do/jacms/Content/edit.action?contentId=CTM741">link utili - Tirocinio formativo</a>
+                    <p class="time-notifications">
+                    <time datetime="2019-06-27 14:24" title="2019-06-27 14:24" >
+                        22 hours, 27 minutes ago</time>
+                    
+                    &#32;|&#32;
+                    <a class="like-notifications" data-entando="like-link" href="/tribunalemarsala/do/ActivityStream/likeActivity.action?recordId=3636">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+                    </p>
+
+                </div>
+
+            <div class=""  data-entando="ajax-update">
+                <h4 class="sr-only">Comments</h4>
+                </div>
+            <div class="comment-panel-insert"  >
+                <a role="button" data-toggle="collapse" href="#openComment3636"  aria-controls="openComment3636">
+                    Write a comment</a>
+            </div>
+
+            <div class="collapse comment-box-panel" id="openComment3636">
+
+                <div class="comment-box ">
+                    <div class="insert-comment media ">
+                            <span class="pull-left" >
+                                <img class="img-circle avatar-utente-comment-img" src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=26&amp;username=admin" />
+                        </span>
+                        <div class="media-body">
+                            <form action="/tribunalemarsala/do/ActivityStream/addComment.action">
+                                <input type="hidden" name="streamRecordId" value="3636"/><textarea  id="textarea-stream-3636" 
+                                           class="form-control" cols="38" rows="1" placeholder="Write a comment" title="Write a comment"
+                                           name="commentText" maxlength="200">
+                                </textarea>
+                                <button type="submit" value="Submit" class="btn btn-primary btn-sm pull-right btn-submit-spacer" data-entando="add-comment-button" data-loading-text="Loading">
+Submit
+</button>
+</form>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    </li>
+<li class="li-custom-avatar" data-entando-id="3635" data-entando-creationdate="2019-06-27 14:23:43|000"
+        data-entando-updatedate="2019-06-27 16:49:22|000">
+        <div class="avatar-utente">
+            <img alt=" " src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=36&amp;username=admin" width="36" height="36" class="img-circle media-object" />
+        </div>
+        <div class="avatar-utente-logger activity-stream-event ">
+            <div class="user-notification" data-entando="ajax-update">
+                <a  href="/tribunalemarsala/do/userprofile/view.action?username=admin"
+                            title="View the profile of: admin">
+                            admin</a>
+                    <!--                &#32;&middot;&#32;-->
+                edited and published a content:&#32;
+                <a class href="/tribunalemarsala/do/jacms/Content/edit.action?contentId=CTM743">Link utile - Moduli</a>
+                    <p class="time-notifications">
+                    <time datetime="2019-06-27 14:23" title="2019-06-27 14:23" >
+                        22 hours, 28 minutes ago</time>
+                    
+                    &#32;|&#32;
+                    <a class="like-notifications" data-entando="like-link" href="/tribunalemarsala/do/ActivityStream/likeActivity.action?recordId=3635">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+                    </p>
+
+                </div>
+
+            <div class=""  data-entando="ajax-update">
+                <h4 class="sr-only">Comments</h4>
+                </div>
+            <div class="comment-panel-insert"  >
+                <a role="button" data-toggle="collapse" href="#openComment3635"  aria-controls="openComment3635">
+                    Write a comment</a>
+            </div>
+
+            <div class="collapse comment-box-panel" id="openComment3635">
+
+                <div class="comment-box ">
+                    <div class="insert-comment media ">
+                            <span class="pull-left" >
+                                <img class="img-circle avatar-utente-comment-img" src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=26&amp;username=admin" />
+                        </span>
+                        <div class="media-body">
+                            <form action="/tribunalemarsala/do/ActivityStream/addComment.action">
+                                <input type="hidden" name="streamRecordId" value="3635"/><textarea  id="textarea-stream-3635" 
+                                           class="form-control" cols="38" rows="1" placeholder="Write a comment" title="Write a comment"
+                                           name="commentText" maxlength="200">
+                                </textarea>
+                                <button type="submit" value="Submit" class="btn btn-primary btn-sm pull-right btn-submit-spacer" data-entando="add-comment-button" data-loading-text="Loading">
+Submit
+</button>
+</form>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    </li>
+<li class="li-custom-avatar" data-entando-id="3634" data-entando-creationdate="2019-06-27 14:23:21|000"
+        data-entando-updatedate="2019-06-27 16:49:22|000">
+        <div class="avatar-utente">
+            <img alt=" " src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=36&amp;username=admin" width="36" height="36" class="img-circle media-object" />
+        </div>
+        <div class="avatar-utente-logger activity-stream-event ">
+            <div class="user-notification" data-entando="ajax-update">
+                <a  href="/tribunalemarsala/do/userprofile/view.action?username=admin"
+                            title="View the profile of: admin">
+                            admin</a>
+                    <!--                &#32;&middot;&#32;-->
+                edited and published a content:&#32;
+                <a class href="/tribunalemarsala/do/jacms/Content/edit.action?contentId=CTM743">Link utile - Moduli</a>
+                    <p class="time-notifications">
+                    <time datetime="2019-06-27 14:23" title="2019-06-27 14:23" >
+                        22 hours, 28 minutes ago</time>
+                    
+                    &#32;|&#32;
+                    <a class="like-notifications" data-entando="like-link" href="/tribunalemarsala/do/ActivityStream/likeActivity.action?recordId=3634">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+                    </p>
+
+                </div>
+
+            <div class=""  data-entando="ajax-update">
+                <h4 class="sr-only">Comments</h4>
+                </div>
+            <div class="comment-panel-insert"  >
+                <a role="button" data-toggle="collapse" href="#openComment3634"  aria-controls="openComment3634">
+                    Write a comment</a>
+            </div>
+
+            <div class="collapse comment-box-panel" id="openComment3634">
+
+                <div class="comment-box ">
+                    <div class="insert-comment media ">
+                            <span class="pull-left" >
+                                <img class="img-circle avatar-utente-comment-img" src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=26&amp;username=admin" />
+                        </span>
+                        <div class="media-body">
+                            <form action="/tribunalemarsala/do/ActivityStream/addComment.action">
+                                <input type="hidden" name="streamRecordId" value="3634"/><textarea  id="textarea-stream-3634" 
+                                           class="form-control" cols="38" rows="1" placeholder="Write a comment" title="Write a comment"
+                                           name="commentText" maxlength="200">
+                                </textarea>
+                                <button type="submit" value="Submit" class="btn btn-primary btn-sm pull-right btn-submit-spacer" data-entando="add-comment-button" data-loading-text="Loading">
+Submit
+</button>
+</form>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    </li>
+<li class="li-custom-avatar" data-entando-id="3633" data-entando-creationdate="2019-06-27 14:23:02|000"
+        data-entando-updatedate="2019-06-27 16:49:22|000">
+        <div class="avatar-utente">
+            <img alt=" " src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=36&amp;username=admin" width="36" height="36" class="img-circle media-object" />
+        </div>
+        <div class="avatar-utente-logger activity-stream-event ">
+            <div class="user-notification" data-entando="ajax-update">
+                <a  href="/tribunalemarsala/do/userprofile/view.action?username=admin"
+                            title="View the profile of: admin">
+                            admin</a>
+                    <!--                &#32;&middot;&#32;-->
+                edited and published a content:&#32;
+                <a class href="/tribunalemarsala/do/jacms/Content/edit.action?contentId=CTM741">link utili - Tirocinio formativo</a>
+                    <p class="time-notifications">
+                    <time datetime="2019-06-27 14:23" title="2019-06-27 14:23" >
+                        22 hours, 28 minutes ago</time>
+                    
+                    &#32;|&#32;
+                    <a class="like-notifications" data-entando="like-link" href="/tribunalemarsala/do/ActivityStream/likeActivity.action?recordId=3633">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+                    </p>
+
+                </div>
+
+            <div class=""  data-entando="ajax-update">
+                <h4 class="sr-only">Comments</h4>
+                </div>
+            <div class="comment-panel-insert"  >
+                <a role="button" data-toggle="collapse" href="#openComment3633"  aria-controls="openComment3633">
+                    Write a comment</a>
+            </div>
+
+            <div class="collapse comment-box-panel" id="openComment3633">
+
+                <div class="comment-box ">
+                    <div class="insert-comment media ">
+                            <span class="pull-left" >
+                                <img class="img-circle avatar-utente-comment-img" src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=26&amp;username=admin" />
+                        </span>
+                        <div class="media-body">
+                            <form action="/tribunalemarsala/do/ActivityStream/addComment.action">
+                                <input type="hidden" name="streamRecordId" value="3633"/><textarea  id="textarea-stream-3633" 
+                                           class="form-control" cols="38" rows="1" placeholder="Write a comment" title="Write a comment"
+                                           name="commentText" maxlength="200">
+                                </textarea>
+                                <button type="submit" value="Submit" class="btn btn-primary btn-sm pull-right btn-submit-spacer" data-entando="add-comment-button" data-loading-text="Loading">
+Submit
+</button>
+</form>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    </li>
+<li class="li-custom-avatar" data-entando-id="3632" data-entando-creationdate="2019-06-27 10:47:23|000"
+        data-entando-updatedate="2019-06-27 16:49:22|000">
+        <div class="avatar-utente">
+            <img alt=" " src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=36&amp;username=admin" width="36" height="36" class="img-circle media-object" />
+        </div>
+        <div class="avatar-utente-logger activity-stream-event ">
+            <div class="user-notification" data-entando="ajax-update">
+                <a  href="/tribunalemarsala/do/userprofile/view.action?username=admin"
+                            title="View the profile of: admin">
+                            admin</a>
+                    <!--                &#32;&middot;&#32;-->
+                edited and published a content:&#32;
+                <a class href="/tribunalemarsala/do/jacms/Content/edit.action?contentId=CTM741">link utili - Tirocinio formativo</a>
+                    <p class="time-notifications">
+                    <time datetime="2019-06-27 10:47" title="2019-06-27 10:47" >
+                        one day, 2 hours ago</time>
+                    
+                    &#32;|&#32;
+                    <a class="like-notifications" data-entando="like-link" href="/tribunalemarsala/do/ActivityStream/likeActivity.action?recordId=3632">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i></a>
+                    </p>
+
+                </div>
+
+            <div class=""  data-entando="ajax-update">
+                <h4 class="sr-only">Comments</h4>
+                </div>
+            <div class="comment-panel-insert"  >
+                <a role="button" data-toggle="collapse" href="#openComment3632"  aria-controls="openComment3632">
+                    Write a comment</a>
+            </div>
+
+            <div class="collapse comment-box-panel" id="openComment3632">
+
+                <div class="comment-box ">
+                    <div class="insert-comment media ">
+                            <span class="pull-left" >
+                                <img class="img-circle avatar-utente-comment-img" src="/tribunalemarsala/do/user/avatar/avatarStream.action?gravatarSize=26&amp;username=admin" />
+                        </span>
+                        <div class="media-body">
+                            <form action="/tribunalemarsala/do/ActivityStream/addComment.action">
+                                <input type="hidden" name="streamRecordId" value="3632"/><textarea  id="textarea-stream-3632" 
+                                           class="form-control" cols="38" rows="1" placeholder="Write a comment" title="Write a comment"
+                                           name="commentText" maxlength="200">
+                                </textarea>
+                                <button type="submit" value="Submit" class="btn btn-primary btn-sm pull-right btn-submit-spacer" data-entando="add-comment-button" data-loading-text="Loading">
+Submit
+</button>
+</form>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    </li>
+</ul>
+
+        <div class="col-xs-12 text-center">
+            <button class="btn btn-primary btn-submit-spacer btn-sm" data-entando="load-more-button" data-loading-text="Loading&hellip;">Load More</button>
+        </div>
+
+    </div> 
+</html>
+
+
+</div>  
+        </li>
+    </ul>
+</nav>
+<script>
+    $(document).ready(function () {
+        // Show/Hide Notifications Drawer
+        $('.notifications, #close-notifications').click(function () {
+            var $drawer = $('.drawer-pf');
+
+            $(this).toggleClass('open');
+            if ($drawer.hasClass('hide')) {
+                $drawer.removeClass('hide');
+                $("#notification-ico").addClass("notification-active")
+                setTimeout(function () {
+                    if (window.dispatchEvent) {
+                        window.dispatchEvent(new Event('resize'));
+                    }
+                    // Special case for IE
+                    if ($(document).fireEvent) {
+                        $(document).fireEvent('onresize');
+                    }
+                }, 100);
+            } else {
+                $drawer.addClass('hide');
+                $("#notification-ico").removeClass("notification-active")
+            }
+        });
+        $('#toggle-stream').click(function () {
+            var $drawer = $('.drawer-pf');
+            var $drawerNotifications = $drawer.find('.drawer-pf-notification');
+
+            if ($drawer.hasClass('drawer-pf-expanded')) {
+                $drawer.removeClass('drawer-pf-expanded');
+                $drawerNotifications.removeClass('expanded-notification');
+            } else {
+                $drawer.addClass('drawer-pf-expanded');
+                $drawerNotifications.addClass('expanded-notification');
+            }
+        });
+
+        // Mark All Read
+        $('.panel-collapse').each(function (index, panel) {
+            var $panel = $(panel);
+            $panel.on('click', '.drawer-pf-action .btn', function () {
+                $panel.find('.unread').removeClass('unread');
+                $(panel.parentElement).find('.panel-counter').text('0 New Events');
+            });
+        });
+
+        $('#notification-drawer-accordion').initCollapseHeights('.panel-body');
+    });
+
+</script>
+</nav>
+        <!--/.navbar-->
+
+        <!--barra di menu laterale-->
+        <div class="nav-pf-vertical nav-pf-vertical-with-sub-menus nav-pf-vertical-collapsible-menus ">
+            <script>
+    $(document).ready(function () {
+        // matchHeight the contents of each .card-pf and then the .card-pf itself
+        $(".row-cards-pf > [class*='col'] > .card-pf .card-pf-title").matchHeight();
+        $(".row-cards-pf > [class*='col'] > .card-pf > .card-pf-body").matchHeight();
+        $(".row-cards-pf > [class*='col'] > .card-pf > .card-pf-footer").matchHeight();
+        $(".row-cards-pf > [class*='col'] > .card-pf").matchHeight();
+        // Initialize the vertical navigation
+        $().setupVerticalNavigation(true);
+        $('[data-toggle=popover]').popovers();
+//        $(".bootstrap-switch").bootstrapSwitch();
+    });
+</script>
+
+<ul class="list-group">
+    <!-- Page Designer -->
+        <li class="list-group-item secondary-nav-item-pf" data-target="#page-designer-secondary">
+            <a>
+                <span class="fa fa-files-o" data-toggle="tooltip" title="Page Designer" ></span>
+                <span class="list-group-item-value">Page Designer</span>
+            </a>
+
+            <div id="page-designer-secondary" class="nav-pf-secondary-nav">
+                <div class="nav-item-pf-header">
+                    <a class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+                    <span>Page Designer</span>
+                </div>
+
+                <!-- Page Designer Secondary -->
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a id="linkHome" href='/tribunalemarsala/do/Page/viewTree.action'>
+                            <span class="list-group-item-value">Page Tree</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a id="" href='/tribunalemarsala/do/Page/Console/viewTreeMenu.action'>
+                            <span class="list-group-item-value">Page Configuration</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                            <a href='/tribunalemarsala/do/Page/systemParams.action'>
+                                <span class="list-group-item-value">Page Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+                <!--Fine Page Designer Secondary-->
+            </div>
+        </li>
+    <!-- UX Patterns -->
+    <li class="list-group-item secondary-nav-item-pf" data-target="#ux-pattern-secondary">
+            <a>
+                <span class="fa fa-object-ungroup" data-toggle="tooltip" title="UX Pattern"></span>
+                <span class="list-group-item-value">UX Pattern</span>
+            </a>
+
+            <div id="ux-pattern-secondary" class="nav-pf-secondary-nav">
+                <div class="nav-item-pf-header">
+                    <a class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+                    <span>UX Pattern</span>
+                </div>
+
+                <!-- UX Patterns Secondary -->
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a href='/tribunalemarsala/do/Portal/WidgetType/viewWidgets.action'>
+                            <span class="list-group-item-value">Widget</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                            <a href='/tribunalemarsala/do/Portal/GuiFragment/list.action'>
+                                <span class="list-group-item-value">Fragments</span>
+
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href='/tribunalemarsala/do/PageModel/list.action'>
+                                <span class="list-group-item-value">Page Models</span>
+                            </a>
+                        </li>
+                    </ul>
+                <!--Fine UX Patterns Secondary-->
+            </div>
+        </li>
+    <!-- Integrations -->
+
+    <li class="list-group-item secondary-nav-item-pf" data-target="#integration-secondary">
+        <a>
+            <span class="fa fa-cubes" data-toggle="tooltip" title="Integrations"></span>
+            <span class="list-group-item-value">Integrations</span>
+        </a>
+
+        <!--Integrations secondary-->
+
+        <div id="integration-secondary" class="nav-pf-secondary-nav">
+            <div class="nav-item-pf-header">
+                <a class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+                <span>Integrations</span>
+            </div>
+
+            <ul class="list-group">
+                <li class="list-group-item tertiary-nav-item-pf" data-target="integrations-ux-components-tertiary">
+                    <a>
+                        <span class="list-group-item-value">Components</span>
+                    </a>
+                </li>
+                <li class="list-group-item tertiary-nav-item-pf" data-target="integrations-api-tertiary">
+                        <a>
+                            <span class="list-group-item-value">API Management</span>
+                        </a>
+
+                        <div id="integrations-api-tertiary" class="nav-pf-tertiary-nav">
+                            <div class="nav-item-pf-header">
+                                <a class="tertiary-collapse-toggle-pf" data-toggle="collapse-tertiary-nav"></a>
+                                <span>API Management</span>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <a href='/tribunalemarsala/do/Api/Resource/list.action'>
+                                        <span class="list-group-item-value">Resources</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href='/tribunalemarsala/do/Api/Service/list.action'>
+                                        <span  class="list-group-item-value">Services</span>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href='/tribunalemarsala/do/Api/Consumer/list.action'>
+                                        <span class="list-group-item-value">Consumers</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+    </li>
+
+    <!--  Users Settings -->
+        <li class="list-group-item secondary-nav-item-pf" data-target="#user-settings-secondary">
+            <a>
+                <span class="fa fa-users" data-toggle="tooltip" title="User Settings" ></span>
+                <span class="list-group-item-value">User Settings</span>
+            </a>
+
+            <div id="#user-settings-secondary" class="nav-pf-secondary-nav">
+                <div class="nav-item-pf-header">
+                    <a class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+                    <span>User Settings</span>
+                </div>
+
+                <!-- Users Settings Secondary -->
+
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a href='/tribunalemarsala/do/User/list.action'>
+                            <span class="list-group-item-value">Users</span>
+                        </a>
+                    </li>
+
+                    <li class="list-group-item">
+                            <a href='/tribunalemarsala/do/Entity/initViewEntityTypes.action?entityManagerName=UserProfileManager'>
+                                <span class="list-group-item-value">Profile Types</span>
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                                <a href='/tribunalemarsala/do/User/systemParams.action'>
+                                    <span class="list-group-item-value">User Restriction</span>
+                                </a>
+                            </li>
+                        <li class="list-group-item">
+                            <a href='/tribunalemarsala/do/Role/list.action'>
+                                <span class="list-group-item-value">Roles</span>
+                            </a>
+                        </li>
+                    </ul>
+                <!--Fine Users Settings Secondary-->
+            </div>
+        </li>
+    <!-- APPS -->
+    <li class="list-group-item secondary-nav-item-pf" data-target="#apps-secondary">
+        <a>
+            <span class="fa fa-rocket" data-toggle="tooltip" title="APPS"></span>
+            <span class="list-group-item-value">APPS</span>
+        </a>
+        <!--Integrations secondary-->
+        <div id="apps-secondary" class="nav-pf-secondary-nav">
+            <div class="nav-item-pf-header">
+                <a class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+                <span>APPS</span>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item tertiary-nav-item-pf" data-target="apps-cms-tertiary">
+        <a>
+            <span class="list-group-item-value">CMS</span>
+        </a>
+        <div id="apps-cms-tertiary" class="nav-pf-tertiary-nav">
+            <div class="nav-item-pf-header">
+                <a class="tertiary-collapse-toggle-pf" data-toggle="collapse-tertiary-nav"></a>
+                <span>CMS</span>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">
+                        <a href="/tribunalemarsala/do/jacms/Content/list.action">
+                           <span class="list-group-item-value">Contents</span>
+                        </a>
+                    </li>
+                <li class="list-group-item">
+                        <a href="/tribunalemarsala/do/jacms/Resource/list.action?resourceTypeCode=Image">
+                            <span class="list-group-item-value">Digital Assets</span>
+                        </a>
+                    </li>
+                <li class="list-group-item">
+                        <a href="/tribunalemarsala/do/Entity/initViewEntityTypes.action?entityManagerName=jacmsContentManager">
+                            <span class="list-group-item-value">Content Types</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/tribunalemarsala/do/jacms/ContentModel/list.action">
+                           <span class="list-group-item-value">Content Models</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="/tribunalemarsala/do/jacms/Content/Admin/openIndexProspect.action">
+                           <span class="list-group-item-value">Content Settings</span>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+    </li>
+<li class="list-group-item disabled">
+                    <a>
+                        <span class="ml-5">IoT</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </li>
+
+
+
+    <!-- DATA TYPE -->
+    <li class="list-group-item secondary-nav-item-pf" data-target="#datatype-secondary">
+            <a>
+                <span class="fa fa-file-text-o" data-toggle="tooltip" title="Data"></span>
+                <span class="list-group-item-value">Data</span>
+            </a>
+            <div id="datatype-secondary" class="nav-pf-secondary-nav">
+                <div class="nav-item-pf-header">
+                    <a class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+                    <span>Data</span>
+                </div>
+                <!-- DataType Secondary -->
+                <ul class="list-group">
+                    <li class="list-group-item">
+                            <a href="/tribunalemarsala/do/Entity/initViewEntityTypes.action?entityManagerName=DataObjectManager">
+                                <span class="list-group-item-value">Data Type</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="/tribunalemarsala/do/dataobject/model/list.action">
+                               <span class="list-group-item-value">Data Model</span>
+                            </a>
+                        </li>
+                    </ul>
+                <!--Fine DATA TYPE Secondary-->
+            </div>
+        </li>
+    </ul>
+
+<ul class="list-group fixed-bottom">
+
+        <li class="list-group-item secondary-nav-item-pf" data-target="#settings-secondary">
+            <a>
+                <span class="fa fa-cogs" data-toggle="tooltip" title="Settings"></span>
+                <span class="list-group-item-value">Settings</span>
+            </a>
+
+            <div id="#settings-secondary" class="nav-pf-secondary-nav">
+                <div class="nav-item-pf-header">
+                    <a class="secondary-collapse-toggle-pf" data-toggle="collapse-secondary-nav"></a>
+                    <span>Settings</span>
+                </div>
+
+                <!-- Settings Secondary -->
+
+                <ul class="list-group">
+                    <li class="list-group-item">
+                            <a href='/tribunalemarsala/do/Category/viewTree.action'>
+                                <span class="list-group-item-value">Categories</span>
+                            </a>
+                        </li>
+                    <li class="list-group-item">
+                            <a href='/tribunalemarsala/do/Lang/list.action'>
+                                <span class="list-group-item-value">Labels & Languages</span>
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href='/tribunalemarsala/do/BaseAdmin/reloadChoose.action'>
+                                <span class="list-group-item-value">Reload Configuration</span>
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href='/tribunalemarsala/do/Admin/Database/entry.action'>
+                                <span class="list-group-item-value">Database</span>
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href='/tribunalemarsala/do/FileBrowser/list.action'>
+                                <span class="list-group-item-value">File Browser</span>
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href='/tribunalemarsala/do/Group/list.action'>
+                                <span class="list-group-item-value">Groups</span>
+                            </a>
+                        </li>
+                    </ul>
+                <!--Fine Users Settings Secondary-->
+            </div>
+
+        </li>
+    </ul>
+</div>
+
+        <div class="container-fluid container-cards-pf container-pf-nav-pf-vertical">
+            <ol class="breadcrumb page-tabs-header breadcrumb-position">
+    <li>
+        Apps</li>
+    <li>
+        CMS</li>
+
+    <li>
+            Digital Assets</li>
+    <li>
+        <a href="/tribunalemarsala/do/jacms/Resource/list.action?resourceTypeCode=Attach">
+                List of Attachments</a>
+        </li>
+    <li class="page-title-container">
+        Edit</li>
+</ol>
+<h1 class="page-title-container">
+    Edit<span class="pull-right">
+        <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-html="true" title=""
+           data-original-title=""
+           data-content="The DIGITAL ASSETS section lets you manage existing resources, images and attachements, access resources list, add or delete resources.  Images and attachments can be uploaded to a digital assets archive and used in content."
+           data-placement="left">
+            <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+        </a>
+    </span>
+</h1>
+<i class="fa fa-asterisk required-icon"></i>
+<div class="text-right">
+    <div class="form-group-separator">
+        * Required Fields</div>
+</div>
+<br/>
+<form id="save" name="save" action="/tribunalemarsala/do/jacms/Resource/save.action" method="post" enctype="multipart/form-data" class="form-horizontal image-upload-form"><input type="hidden" name="fieldCount" value="0"/><p class="sr-only">
+        <input type="hidden" name="strutsAction" value="2"/><input type="hidden" name="resourceTypeCode" value="Attach" id="resourceTypeCode"/><input type="hidden" name="contentOnSessionMarker" value=""/><input type="hidden" name="resourceId" value="3527"/><input type="hidden" name="mainGroup" value="free"/></p>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="mainGroup">
+            Group<i class="fa fa-asterisk required-icon"></i>
+        </label>
+        <div class="col-sm-10">
+            <select name="mainGroup" disabled="disabled" id="mainGroup" class="combobox form-control">
+    <option value="administrators">Administrators</option>
+    <option value="free" selected="selected">Free Access</option>
+
+
+</select>
+
+</div>
+    </div>
+
+    <fieldset class="margin-base-vertical" id="category-content-block">
+        <div class="form-group">
+            <div class="col-xs-2 control-label">
+                <label>
+                    Categories</label>
+            </div>
+            <div class="col-xs-10">
+                <script src="/tribunalemarsala/resources/administration/js/entando-typeahead-tree.js"></script>
+                <script>
+    (function () {
+
+        function getCategoryFormData() {
+            var data = [];
+            $('#categoryTree').closest('form').serializeArray().forEach(el => {
+                // This can cause the "Form too large" exception
+                if(el.name !== 'base64Image') {
+                    data.push(el);
+                }
+            });
+            return data;
+        }
+
+        function updateCategory(postEndpoint, categoryAction, category) {
+            var data = getCategoryFormData();
+            data.push({
+                'name': 'entandoaction:' + categoryAction + '?categoryCode=' + category,
+                'value': 'Submit'
+            });
+            $.post(postEndpoint, data, function (res) {
+                var updated = $(res).find('#categoryList');
+                $('#categoryList').html(updated);
+            });
+        }
+
+        window.categoriesAjax = {
+
+            loadTreeNode: function (open, postEndpoint, nodeAction, targetNode) {
+                var data = getCategoryFormData();
+                data.push({
+                    'name': "entandoaction:" + nodeAction + "?treeNodeActionMarkerCode="
+                            + (open ? "open" : "close") + ";openCollapsed='true';"
+                            + "targetNode=" + targetNode,
+                    'value': (open ? "Open" : "Close")
+                });
+                $.post(postEndpoint, data, function (res) {
+                    var updated = $(res).find('#categoryTreeWrapper');
+                    $('#categoryTreeWrapper').html(updated);
+                    $('.table-treegrid').treegrid(null, true);
+                });
+            },
+
+            joinCategory: function (postEndpoint, category, joinAction) {
+                updateCategory(postEndpoint, joinAction || 'joinCategory', category);
+            },
+
+            removeCategory: function (postEndpoint, category, removeAction) {
+                updateCategory(postEndpoint, removeAction || 'removeCategory', category);
+            }
+        };
+    })();
+</script>
+
+<div class="table-responsive" id="categoryTreeWrapper">
+
+    <table id="categoryTree"
+           class="table table-bordered table-hover table-treegrid classic">
+        <thead>
+            <tr>
+                <th>
+                    Category Tree<button type="button" class="btn-no-button expand-button" id="expandAll">
+                            <i class="fa fa-plus-square-o treeInteractionButtons" aria-hidden="true"></i>
+                            &#32;
+                            Expand All</button>
+                        <button type="button" class="btn-no-button" id="collapseAll">
+                            <i class="fa fa-minus-square-o treeInteractionButtons" aria-hidden="true"></i>
+                            &#32;
+                            Collapse All</button>
+                    </th>
+                <th class="text-center table-w-10">
+                        Join</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr id="home" data-parent="#home" 
+    class="treeRow  tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_home" 
+                value="home" 
+                class="subTreeToggler  hidden  tree_home"
+                 />&#32;
+            <label for="fagianonode_home">
+               <span class="icon node-icon fa fa-folder"></span>
+               Root</label>
+        </td>
+        <td class="text-center">
+            </td>
+</tr>
+
+<tr id="come_fare_per" data-parent="#home" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_come_fare_per" 
+                value="come_fare_per" 
+                class="subTreeToggler  hidden  tree_come_fare_per"
+                 />&#32;
+            <label for="fagianonode_come_fare_per">
+               <span class="icon node-icon fa fa-folder"></span>
+               Come Fare Per</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'come_fare_per', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="cittadino1" data-parent="#come_fare_per" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_cittadino1" 
+                value="cittadino1" 
+                class="subTreeToggler  hidden  tree_cittadino1"
+                 />&#32;
+            <label for="fagianonode_cittadino1">
+               <span class="icon node-icon fa fa-folder"></span>
+               Cittadino</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'cittadino1', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_amm" data-parent="#cittadino1" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_amm" 
+                value="area_amm" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_amm">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Amministrativa</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_amm', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_civile1" data-parent="#cittadino1" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_civile1" 
+                value="area_civile1" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_civile1">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Civile</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_civile1', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_civile_ered_e_succ" data-parent="#cittadino1" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_civile_ered_e_succ" 
+                value="area_civile_ered_e_succ" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_civile_ered_e_succ">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Civile - EreditÃ  e Successioni</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_civile_ered_e_succ', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_civile_ese_mob_e_imm" data-parent="#cittadino1" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_civile_ese_mob_e_imm" 
+                value="area_civile_ese_mob_e_imm" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_civile_ese_mob_e_imm">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Civile - Esecuzioni Mobiliari e Immobiliari</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_civile_ese_mob_e_imm', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_civile_fall" data-parent="#cittadino1" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_civile_fall" 
+                value="area_civile_fall" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_civile_fall">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Civile - Fallimenti</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_civile_fall', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_civile_famiglia" data-parent="#cittadino1" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_civile_famiglia" 
+                value="area_civile_famiglia" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_civile_famiglia">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Civile - Famiglia</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_civile_famiglia', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_civile_tit_di_cred" data-parent="#cittadino1" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_civile_tit_di_cred" 
+                value="area_civile_tit_di_cred" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_civile_tit_di_cred">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Civile - Titoli di Credito</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_civile_tit_di_cred', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_civile_volont_giuri" data-parent="#cittadino1" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_civile_volont_giuri" 
+                value="area_civile_volont_giuri" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_civile_volont_giuri">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Civile - Volontaria Giurisdizione</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_civile_volont_giuri', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_penal" data-parent="#cittadino1" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_penal" 
+                value="area_penal" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_penal">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Penale</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_penal', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="professionista" data-parent="#come_fare_per" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_professionista" 
+                value="professionista" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_professionista">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Professionista</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'professionista', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="link_utili" data-parent="#home" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_link_utili" 
+                value="link_utili" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_link_utili">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               link utili</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'link_utili', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="moduli" data-parent="#home" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_moduli" 
+                value="moduli" 
+                class="subTreeToggler  hidden  tree_moduli"
+                 />&#32;
+            <label for="fagianonode_moduli">
+               <span class="icon node-icon fa fa-folder"></span>
+               Moduli</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'moduli', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="argomento" data-parent="#moduli" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_argomento" 
+                value="argomento" 
+                class="subTreeToggler  hidden  tree_argomento"
+                 />&#32;
+            <label for="fagianonode_argomento">
+               <span class="icon node-icon fa fa-folder"></span>
+               Argomento</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'argomento', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_amministrativanew" data-parent="#argomento" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_amministrativanew" 
+                value="area_amministrativanew" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_amministrativanew">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Amministrativa</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_amministrativanew', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_civilenew" data-parent="#argomento" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_civilenew" 
+                value="area_civilenew" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_civilenew">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Civile</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_civilenew', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_penalenew" data-parent="#argomento" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_penalenew" 
+                value="area_penalenew" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_penalenew">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Penale</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_penalenew', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="ufficio" data-parent="#moduli" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_ufficio" 
+                value="ufficio" 
+                class="subTreeToggler  hidden  tree_ufficio"
+                 />&#32;
+            <label for="fagianonode_ufficio">
+               <span class="icon node-icon fa fa-folder"></span>
+               Ufficio</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'ufficio', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="cancelleria_contenzioso_c" data-parent="#ufficio" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_cancelleria_contenzioso_c" 
+                value="cancelleria_contenzioso_c" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_cancelleria_contenzioso_c">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Cancelleria Contenzioso Civile e Volontaria Giurisdizione</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'cancelleria_contenzioso_c', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="cancelleria_esecuzioni_ci" data-parent="#ufficio" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_cancelleria_esecuzioni_ci" 
+                value="cancelleria_esecuzioni_ci" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_cancelleria_esecuzioni_ci">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Cancelleria Esecuzioni Civili Immobiliari e Mobiliari â€“ Servizio Depositi Giudiziari</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'cancelleria_esecuzioni_ci', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="cancelleria_fallime" data-parent="#ufficio" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_cancelleria_fallime" 
+                value="cancelleria_fallime" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_cancelleria_fallime">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Cancelleria Fallimentare e procedure concorsuali</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'cancelleria_fallime', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="cancelleria_g_i_p_g_u_p_" data-parent="#ufficio" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_cancelleria_g_i_p_g_u_p_" 
+                value="cancelleria_g_i_p_g_u_p_" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_cancelleria_g_i_p_g_u_p_">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Cancelleria G.I.P./G.U.P.</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'cancelleria_g_i_p_g_u_p_', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="cancelleria_pena" data-parent="#ufficio" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_cancelleria_pena" 
+                value="cancelleria_pena" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_cancelleria_pena">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Cancelleria Penale Dibattimentale</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'cancelleria_pena', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="segreteria_di_presi" data-parent="#ufficio" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_segreteria_di_presi" 
+                value="segreteria_di_presi" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_segreteria_di_presi">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Segreteria di Presidenza</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'segreteria_di_presi', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="ufficio_recupero_cr" data-parent="#ufficio" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_ufficio_recupero_cr" 
+                value="ufficio_recupero_cr" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_ufficio_recupero_cr">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Ufficio Recupero Crediti/Spese di Giustizia</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'ufficio_recupero_cr', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="news" data-parent="#home" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_news" 
+                value="news" 
+                class="subTreeToggler  hidden  tree_news"
+                 />&#32;
+            <label for="fagianonode_news">
+               <span class="icon node-icon fa fa-folder"></span>
+               news</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'news', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="avvisi" data-parent="#news" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_avvisi" 
+                value="avvisi" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_avvisi">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               AVVISI</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'avvisi', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="decreti" data-parent="#news" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_decreti" 
+                value="decreti" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_decreti">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               DECRETI</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'decreti', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="filtro1" data-parent="#news" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_filtro1" 
+                value="filtro1" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_filtro1">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Editoriale</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'filtro1', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="news_in_evidenza" data-parent="#news" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_news_in_evidenza" 
+                value="news_in_evidenza" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_news_in_evidenza">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               News in Evidenza</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'news_in_evidenza', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="scheda_all_info" data-parent="#home" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_scheda_all_info" 
+                value="scheda_all_info" 
+                class="subTreeToggler  hidden  tree_scheda_all_info"
+                 />&#32;
+            <label for="fagianonode_scheda_all_info">
+               <span class="icon node-icon fa fa-folder"></span>
+               Scheda All Info</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'scheda_all_info', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="magistrati" data-parent="#scheda_all_info" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_magistrati" 
+                value="magistrati" 
+                class="subTreeToggler  hidden  tree_magistrati"
+                 />&#32;
+            <label for="fagianonode_magistrati">
+               <span class="icon node-icon fa fa-folder"></span>
+               Magistrati</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'magistrati', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_civile" data-parent="#magistrati" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_civile" 
+                value="area_civile" 
+                class="subTreeToggler  hidden  tree_area_civile"
+                 />&#32;
+            <label for="fagianonode_area_civile">
+               <span class="icon node-icon fa fa-folder"></span>
+               Area Civile</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_civile', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="affari_del_giudice_tutelare" data-parent="#area_civile" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_affari_del_giudice_tutelare" 
+                value="affari_del_giudice_tutelare" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_affari_del_giudice_tutelare">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Affari del Giudice Tutelare</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'affari_del_giudice_tutelare', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="agraria" data-parent="#area_civile" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_agraria" 
+                value="agraria" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_agraria">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Agraria</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'agraria', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="contenzioso_non_contenzioso" data-parent="#area_civile" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_contenzioso_non_contenzioso" 
+                value="contenzioso_non_contenzioso" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_contenzioso_non_contenzioso">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Contenzioso/Non Contenzioso</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'contenzioso_non_contenzioso', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="espropriazione_immobiliare" data-parent="#area_civile" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_espropriazione_immobiliare" 
+                value="espropriazione_immobiliare" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_espropriazione_immobiliare">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Espropriazione Immobiliare</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'espropriazione_immobiliare', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="espropriazione_mobiliare" data-parent="#area_civile" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_espropriazione_mobiliare" 
+                value="espropriazione_mobiliare" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_espropriazione_mobiliare">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Espropriazione Mobiliare</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'espropriazione_mobiliare', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="fallimenti" data-parent="#area_civile" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_fallimenti" 
+                value="fallimenti" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_fallimenti">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Fallimenti</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'fallimenti', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="lavoro_e_previdenza" data-parent="#area_civile" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_lavoro_e_previdenza" 
+                value="lavoro_e_previdenza" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_lavoro_e_previdenza">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Lavoro e Previdenza</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'lavoro_e_previdenza', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_penale" data-parent="#magistrati" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_penale" 
+                value="area_penale" 
+                class="subTreeToggler  hidden  tree_area_penale"
+                 />&#32;
+            <label for="fagianonode_area_penale">
+               <span class="icon node-icon fa fa-folder"></span>
+               Area Penale</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_penale', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="dibattimento" data-parent="#area_penale" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_dibattimento" 
+                value="dibattimento" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_dibattimento">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Dibattimento</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'dibattimento', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="ufficio_gip_gup" data-parent="#area_penale" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_ufficio_gip_gup" 
+                value="ufficio_gip_gup" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_ufficio_gip_gup">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Ufficio GIP/GUP</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'ufficio_gip_gup', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="uffici_e_cancellerie" data-parent="#scheda_all_info" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_uffici_e_cancellerie" 
+                value="uffici_e_cancellerie" 
+                class="subTreeToggler  hidden  tree_uffici_e_cancellerie"
+                 />&#32;
+            <label for="fagianonode_uffici_e_cancellerie">
+               <span class="icon node-icon fa fa-folder"></span>
+               Uffici e Cancellerie</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'uffici_e_cancellerie', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="elenco_personale_amm" data-parent="#uffici_e_cancellerie" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_elenco_personale_amm" 
+                value="elenco_personale_amm" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_elenco_personale_amm">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Elenco Personale Amministrativo</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'elenco_personale_amm', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="uffici_e_cancellerie_int" data-parent="#uffici_e_cancellerie" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_uffici_e_cancellerie_int" 
+                value="uffici_e_cancellerie_int" 
+                class="subTreeToggler  hidden  tree_uffici_e_cancellerie_int"
+                 />&#32;
+            <label for="fagianonode_uffici_e_cancellerie_int">
+               <span class="icon node-icon fa fa-folder"></span>
+               Uffici e Cancellerie interno</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'uffici_e_cancellerie_int', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_amministrativa" data-parent="#uffici_e_cancellerie_int" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_amministrativa" 
+                value="area_amministrativa" 
+                class="subTreeToggler  hidden  tree_area_amministrativa"
+                 />&#32;
+            <label for="fagianonode_area_amministrativa">
+               <span class="icon node-icon fa fa-folder"></span>
+               Area Amministrativa</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_amministrativa', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="consegnatario_economo" data-parent="#area_amministrativa" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_consegnatario_economo" 
+                value="consegnatario_economo" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_consegnatario_economo">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Consegnatario/Economo</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'consegnatario_economo', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="segreteria_di_presidenza" data-parent="#area_amministrativa" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_segreteria_di_presidenza" 
+                value="segreteria_di_presidenza" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_segreteria_di_presidenza">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Segreteria di Presidenza</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'segreteria_di_presidenza', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="ufficio_del_personale" data-parent="#area_amministrativa" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_ufficio_del_personale" 
+                value="ufficio_del_personale" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_ufficio_del_personale">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Ufficio del Personale</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'ufficio_del_personale', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_civile_cancellerie" data-parent="#uffici_e_cancellerie_int" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_civile_cancellerie" 
+                value="area_civile_cancellerie" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_civile_cancellerie">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Civile Cancellerie</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_civile_cancellerie', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="area_penale_cancellerie" data-parent="#uffici_e_cancellerie_int" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_area_penale_cancellerie" 
+                value="area_penale_cancellerie" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_area_penale_cancellerie">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Area Penale Cancellerie</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'area_penale_cancellerie', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+<tr id="dirigenza_amministrativa" data-parent="#uffici_e_cancellerie_int" 
+    class="treeRow collapsed childrenNodes tree_node_flag category" >
+        <td class="treegrid-node pointer">
+            <input type="radio" name="categoryCode" 
+                id="fagianonode_dirigenza_amministrativa" 
+                value="dirigenza_amministrativa" 
+                class="subTreeToggler  hidden"
+                 />&#32;
+            <label for="fagianonode_dirigenza_amministrativa">
+               <span class="icon node-icon fa fa-folder-o"></span>
+               Dirigenza Amministrativa</label>
+        </td>
+        <td class="text-center">
+            <button type="button" class="btn btn-sm btn-link js_joinCategory"
+                            onclick="categoriesAjax.joinCategory('joinCategory', 'dirigenza_amministrativa', 'joinCategory')"
+                            title="Join">
+                        <span class="icon fa fa-plus"></span>
+                    </button>
+                </td>
+</tr>
+
+</tbody>
+    </table>
+</div>
+<span id="categoryList">
+
+                    <p class="sr-only">
+                        </p>
+
+                    </span>
+
+            </div>
+        </div>
+    </fieldset>
+    <br>
+
+    <div id="fields-container">
+        <div id="formGroup-0"
+                 class="form-group form-group--file " data-file-id="0">
+                <label class="col-sm-2 control-label" for="descr">
+                    Name<i class="fa fa-asterisk required-icon"></i>
+                </label>
+                <div class="col-sm-4 fileUpload-right">
+                    <input type="text" name="descr_0" maxlength="250" value="Fac - simile istanza autorizzazione ad accettare l' ereditÃ  di B.I..rtf" id="descr_0" class="form-control file-description"/><div class="progress" id="progress_0">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                             aria-valuemax="100" style="width: 0%;">
+                            <span>0%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <label class="col-sm-1 control-label" for="upload">
+                    File<a role="button" tabindex="0" data-toggle="popover" data-trigger="focus" data-html="true"
+                           title=""
+                           data-placement="bottom" data-content="Default attachments file formats are pdf, xls, doc, ppt, txt, rtf, sxw, sxc, odt, ods, odp, tar, gz, zip, rar, flv, swf, avi, wmv, ogg, mp3, wav, ogm, mov, iso, nrg, docx, docm, xlsx, xlsm, xlsb, pptx, pptm, ppsx, ppsm, sldx, sldm."
+                           data-original-title="" style="position: absolute; right: 8px;">
+                            <span class="fa fa-info-circle"></span>
+                        </a>
+                    </label>
+
+                <div class="col-sm-4">
+                    <label id="fileUpload_0_label" class="btn btn-default" for="fileUpload_0">Choose file</label><input type="file" name="fileUpload" id="newFileUpload_0" class="input-file-button"/><input type="hidden" name="fileUploadId_0" value="" id="fileUploadId_0" class="form-control fileUploadId" maxlength="50"/><input type="hidden" name="fileUploadName_0" value="" id="fileUploadName_0" class="form-control fileUploadName" maxlength="500"/><input type="hidden" name="fileUploadContentType_0" value="" id="fileUploadContentType_0" class="form-control fileUploadContentType" maxlength="250"/><input type="file" name="fileUpload" id="fileUpload_0" class="input-file-button"/></div>
+
+                <button type="button" class="btn-danger delete-fields "
+                            title="Remove from form"
+                    ><span class="fa fa-times white"></span>
+                    </button>
+                </div>
+
+
+        </div>
+
+
+    <div class="modal fade bs-cropping-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-xlg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close">
+                    Close<span class="fa fa-times"></span>
+                </button>
+                <h4 class="modal-title">Edit Image<span class="image-name"></span>
+                </h4>
+            </div>
+            <div class="container-fluid no-padding">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <!-- Tab panes -->
+                            <div class="tab-content">
+                                <!-- tab pane blue print -->
+                                <div class="tab-pane hidden" id="tab-pane-blueprint">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <div class="image-container">
+                                                    <img src="" alt="" class="store_item_">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="docs-preview clearfix">
+                                                    <div class="img-preview preview-lg"><img
+                                                            src="">
+                                                    </div>
+                                                    <div class="img-preview preview-md"><img
+                                                            src="">
+                                                    </div>
+                                                    <div class="img-preview preview-sm"><img
+                                                            src="">
+                                                    </div>
+                                                    <div class="img-preview preview-xs"><img
+                                                            src="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="docs-data">
+                                                    <div class="field-group row">
+                                                        <div class="col-md-6 col">
+                                                            <span class="dimensions-label">
+                                                              <label class="-text" for="dataX">X</label>
+                                                            </span>
+                                                            <input type="text" class="form-control dataX"
+                                                                   placeholder="x" disabled>
+                                                            <span class="text-append">
+                                                              <span class="-text">px</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-md-6 col">
+                                                            <span class="dimensions-label">
+                                                              <label class="-text" for="dataY">Y</label>
+                                                            </span>
+                                                            <input type="text" class="form-control dataY"
+                                                                   placeholder="y" disabled>
+                                                            <span class="text-append">
+                                                              <span class="-text">px</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="field-group row">
+                                                        <div class="col-md-6 col">
+                                                            <span class="dimensions-label">
+                                                              <label class="-text" for="dataWidth">Width</label>
+                                                            </span>
+                                                            <input type="text" class="form-control dataWidth"
+                                                                   placeholder="width" disabled>
+                                                            <span class="text-append">
+                                                              <span class="-text">px</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-md-6 col">
+                                                            <span class="dimensions-label">
+                                                              <label class="-text" for="dataHeight">Height</label>
+                                                            </span>
+                                                            <input type="text" class="form-control dataHeight"
+                                                                   placeholder="height" disabled>
+                                                            <span class="text-append">
+                                                            <span class="-text">px</span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="field-group row">
+                                                        <div class="col-md-6 col">
+                                                            <span class="dimensions-label">
+                                                              <label class="-text"
+                                                                     for="dataScaleX">ScaleX</label>
+                                                            </span>
+                                                            <input type="text" class="form-control dataScaleX"
+                                                                   placeholder="scaleX" disabled>
+                                                        </div>
+                                                        <div class="col-md-6 col">
+                                                            <span class="dimensions-label">
+                                                              <label class="-text"
+                                                                     for="dataScaleY">ScaleY</label>
+                                                            </span>
+                                                            <input type="text" class="form-control dataScaleY"
+                                                                   placeholder="scaleY" disabled>
+                                                        </div>
+                                                    </div>
+                                                    <div class="field-group field-group-full">
+                                                        <span class="dimensions-label">
+                                                          <label class="-text"
+                                                                 for="dataRotate">Rotate</label>
+                                                        </span>
+                                                        <input type="text" class="form-control dataRotate"
+                                                               placeholder="rotate" disabled>
+                                                        <span class="text-append">
+                                                          <span class="">deg</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row flex-container">
+                                            <div class="col-md-8">
+                                                <div class="toolbar-container flex-container space-between">
+                                                    <!-- scale -->
+                                                    <div class="btn-group flex-item">
+                                                        <span class="btn-group__title">flip</span>
+                                                        <button type="button" class="btn btn-primary"
+                                                                data-method="scaleX" data-option="-1"
+                                                                title="Flip Horizontal">
+                                                    <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                          data-original-title="cropper.scaleX(-1)">
+                                                      <span class="fa fa-arrows-h"></span>
+                                                    </span>
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary"
+                                                                data-method="scaleY" data-option="-1"
+                                                                title="Flip Vertical">
+                                                    <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                          data-original-title="cropper.scaleY(-1)">
+                                                      <span class="fa fa-arrows-v"></span>
+                                                    </span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="divider flex-item"></div>
+
+
+                                                    <!-- move -->
+                                                    <div class="btn-group flex-item">
+                                                        <span class="btn-group__title">move</span>
+                                                        <button type="button" class="btn btn-primary" data-method="move"
+                                                                data-option="-10" data-second-option="0"
+                                                                title="Move Left">
+                                                <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                      data-original-title="cropper.move(-10, 0)">
+                                                  <span class="fa fa-arrow-left"></span>
+                                                </span>
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary" data-method="move"
+                                                                data-option="10" data-second-option="0"
+                                                                title="Move Right">
+                                                <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                      data-original-title="cropper.move(10, 0)">
+                                                  <span class="fa fa-arrow-right"></span>
+                                                </span>
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary" data-method="move"
+                                                                data-option="0" data-second-option="-10"
+                                                                title="Move Up">
+                                                <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                      data-original-title="cropper.move(0, -10)">
+                                                  <span class="fa fa-arrow-up"></span>
+                                                </span>
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary" data-method="move"
+                                                                data-option="0" data-second-option="10"
+                                                                title="Move Down">
+                                                <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                      data-original-title="cropper.move(0, 10)">
+                                                  <span class="fa fa-arrow-down"></span>
+                                                </span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="divider flex-item"></div>
+
+
+                                                    <!-- rotate -->
+                                                    <div class="btn-group flex-item">
+                                                        <span class="btn-group__title">rotate</span>
+                                                        <button type="button" class="btn btn-primary"
+                                                                data-method="rotate"
+                                                                data-option="-45" title="Rotate Left">
+                                                    <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                          data-original-title="cropper.rotate(-45)">
+                                                      <span class="fa fa-rotate-left"></span>
+                                                    </span>
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary"
+                                                                data-method="rotate"
+                                                                data-option="45" title="Rotate Right">
+                                                    <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                          data-original-title="cropper.rotate(45)">
+                                                      <span class="fa fa-rotate-right"></span>
+                                                    </span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="divider flex-item"></div>
+
+
+                                                    <!-- zoom -->
+                                                    <div class="btn-group flex-item">
+                                                        <span class="btn-group__title">zoom</span>
+                                                        <button type="button" class="btn btn-primary" data-method="zoom"
+                                                                data-option="0.1" title="Zoom In">
+                                                    <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                          data-original-title="cropper.zoom(0.1)">
+                                                      <span class="fa fa-search-plus"></span>
+                                                    </span>
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary" data-method="zoom"
+                                                                data-option="-0.1" title="Zoom Out">
+                                                    <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                          data-original-title="cropper.zoom(-0.1)">
+                                                      <span class="fa fa-search-minus"></span>
+                                                    </span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="divider flex-item"></div>
+
+
+                                                    <!-- save and cancel -->
+                                                    <div class="btn-group flex-item">
+                                                        <span class="btn-group__title">crop</span>
+                                                        <button type="button" class="btn btn-primary" data-method="crop"
+                                                                title="crop">
+                                                    <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                          data-original-title="cropper.crop()">
+                                                      <span class="fa fa-check"></span>
+                                                    </span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="divider flex-item"></div>
+
+                                                    <div class="btn-group flex-item">
+                                                        <span class="btn-group__title">cancel</span>
+                                                        <button type="button" class="btn btn-primary"
+                                                                data-method="remove"
+                                                                title="Remove">
+                                                    <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                          data-original-title="cropper.clear()">
+                                                      <span class="fa fa-remove"></span>
+                                                    </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 aspect-ratio-buttons-container ">
+                                                <div class="aspect-ratio-buttons">
+                                                    <div class="btn-group d-flex flex-nowrap" data-toggle="buttons">
+                                                        <label class="btn btn-primary active"
+                                                               data-method="setAspectRatio" data-option="NaN">
+                                                            <input type="radio" class="sr-only" id="aspectRatio5"
+                                                                   name="aspectRatio" value="NaN">
+                                                            <span class="docs-tooltip" data-toggle="tooltip" title=""
+                                                                  data-original-title="aspectRatio: NaN">Free</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /tab pane blue print -->
+                            </div>
+                        </div>
+
+                        </div>
+                </div>
+            </div>
+            <div id="aspect-ratio-values">
+                </div>
+        </div>
+    </div>
+
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            <div class="col-sm-12 margin-small-vertical">
+                <input id="submit" type="submit" value="Submit" class="btn btn-primary pull-right">
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<div class="col-xs-12 no-padding">
+        <h2>Metadata</h2>
+    </div>
+    <div class="col-xs-12 no-padding">
+        <table class="table table-bordered table-hover table-striped">
+            <thead>
+            <tr>
+                <th>
+                    Name</th>
+                <th>
+                    Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tbody>
+        </table>
+    </div>
+
+    <span
+            id="imageUrl"
+            data-value=""
+            class="hidden"
+    >
+    </span>
+<div class="toast-pf alert alert-success alert-dismissable toast-crop-editor-success toast-success-blueprint hidden">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+        <span class="pficon pficon-close"></span>
+    </button>
+    <span class="pficon pficon-ok"></span>
+    <span class="toast-message">New crop created.</span>
+</div>
+
+<span class="hidden singleImageUpload"></span>
+<span class="hidden attachment_upload_enabled"></span>
+<template id="hidden-fields-template">
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="descr">
+            Name<i class="fa fa-asterisk required-icon"></i>
+        </label>
+        <div class="col-sm-4 fileUpload-right">
+            <input type="text" name="descr" maxlength="250" value="" id="newDescr" class="form-control file-description"/></div>
+        <div id="newFileUpload_box">
+            <label class="col-sm-1 control-label" for="upload">
+                File<a role="button" tabindex="0" data-toggle="popover" data-trigger="focus" data-html="true" title=""
+                       data-placement="bottom" data-content="Default attachments file formats are pdf, xls, doc, ppt, txt, rtf, sxw, sxc, odt, ods, odp, tar, gz, zip, rar, flv, swf, avi, wmv, ogg, mp3, wav, ogm, mov, iso, nrg, docx, docm, xlsx, xlsm, xlsb, pptx, pptm, ppsx, ppsm, sldx, sldm."
+                       data-original-title="" style="position: absolute; right: 8px;">
+                        <span class="fa fa-info-circle"></span>
+                    </a>
+                </label>
+
+            <div class="col-sm-4">
+                <label id="newFileUpload_label" for="newFileUpload" class="btn btn-default">
+                    Choose file</label>
+
+                <input type="file" name="fileUpload" id="newFileUpload" class="input-file-button"/><span id="newFileUpload_selected" class="file-upload-selected-name">No file chosen</span>
+            </div>
+        </div>
+
+        <button type="button" class="btn-danger delete-fields "
+                    title="Remove from form"
+            ><span class="fa fa-times white"></span>
+            </button>
+        </div>
+
+</template>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#fields-container').on("change", "input[type=file]", function (e) {
+          var name=$(this)[0].files[0].name;
+          var id = $(this).attr("id");
+          $("#"+id+"_selected").html(name);
+        });
+        $('input[type=file]').change(function (e) {
+             var name = $(this)[0].files[0].name;
+             var id = $(this).attr("id");
+             $("#" + id + "_selected").html(name);
+        });      
+    });
+</script>
+</div>
+    </body>
+</html>

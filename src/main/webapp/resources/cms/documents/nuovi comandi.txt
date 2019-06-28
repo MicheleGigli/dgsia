@@ -1,0 +1,1 @@
+pin -a ........            ... = nome indirizzo senza http e senza www
