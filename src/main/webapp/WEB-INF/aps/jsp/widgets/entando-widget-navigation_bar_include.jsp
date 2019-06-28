@@ -39,7 +39,8 @@
         <c:set var="ulClass" value='' />
     </c:if>
 
-    <c:set var="aClassAndData" value=' class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"' />
+    <c:set var="aClassAndData" value='  onmouseover="this.style.textDecoration=\'underline\';" 
+    onmouseout="this.style.textDecoration=\'none\';" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" ' />
     <c:if test="${previousLevel == 0}">
         <c:set var="caret"><svg class="icon-expand icon icon-sm icon-light">
             <use xlink:href="<wp:imgURL />sprite.svg#it-expand"></use>
