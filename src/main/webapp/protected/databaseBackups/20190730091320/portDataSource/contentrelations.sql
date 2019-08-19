@@ -540,6 +540,13 @@ INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcatego
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('IPT1264',NULL,NULL,'1137',NULL,NULL);
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('IMG1126',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('IMG1126',NULL,NULL,'946',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22',NULL,NULL,NULL,NULL,'free');
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22',NULL,NULL,'45',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22','per_il_cittadino',NULL,NULL,NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22',NULL,NULL,'46',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22','per_il_professionista',NULL,NULL,NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22',NULL,NULL,'3664',NULL,NULL);
+INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22','per_l_amministrazione',NULL,NULL,NULL,NULL);
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CON3156',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CON3156',NULL,NULL,'3672',NULL,NULL);
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CON3156',NULL,NULL,'3673',NULL,NULL);
@@ -888,10 +895,3 @@ INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcatego
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG4038',NULL,NULL,NULL,NULL,'free');
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG4038','protocolli_di_intesa',NULL,NULL,NULL,NULL);
 INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CNG4038',NULL,NULL,'4039',NULL,NULL);
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22',NULL,NULL,NULL,NULL,'free');
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22',NULL,NULL,'45',NULL,NULL);
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22','per_il_cittadino',NULL,NULL,NULL,NULL);
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22',NULL,NULL,'46',NULL,NULL);
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22','per_il_professionista',NULL,NULL,NULL,NULL);
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22',NULL,NULL,'1397',NULL,NULL);
-INSERT INTO contentrelations (contentid,refpage,refcontent,refresource,refcategory,refgroup) VALUES ('CTA22','per_l_amministrazione',NULL,NULL,NULL,NULL);

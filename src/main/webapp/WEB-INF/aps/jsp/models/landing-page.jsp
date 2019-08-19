@@ -46,7 +46,7 @@
                 <div class="row">
                     <div class="col-12 col-md-12 col-lg-6">
                         <a href="<wp:url page="homepage" />" > 
-                            <img class="img-fluid" src="<wp:imgURL />logo-Tribunale-di-Marsala.png">
+                            <img alt="Tribunale di Marsala" title="Tribunale di Marsala" class="img-fluid" src="<wp:imgURL />logo-Tribunale-di-Marsala.png">
                         </a>
                     </div>
 
@@ -266,11 +266,11 @@
                 </div>
 
                 <ul class="list-inline border-top">
-                    <li class="list-inline-item"><a href="https://template.giustizia.it/tribunalemarsala/it/privacy.page" title="Privacy policy">Privacy</a></li>
-                    <li class="list-inline-item"><a href="https://template.giustizia.it/tribunalemarsala/it/note_legali.page" title="Note legali">Note
+                    <li class="list-inline-item"><a href="<wp:url page="privacy" />" title="Privacy policy">Privacy</a></li>
+                    <li class="list-inline-item"><a href="<wp:url page="note_legali" />" title="Note legali">Note
                             legali</a></li>
-                    <li class="list-inline-item"><a href="https://template.giustizia.it/tribunalemarsala/it/contatti.page" title="Contatti">Contatti</a></li>
-                    <li class="list-inline-item"><a href="https://template.giustizia.it/tribunalemarsala/it/accessibilit.page" title="Accessibilità">Accessibilità</a></li>
+                    <li class="list-inline-item"><a href="<wp:url page="contatti" />" title="Contatti">Contatti</a></li>
+                    <li class="list-inline-item"><a href="<wp:url page="accessibilit" />" title="Accessibilità">Accessibilità</a></li>
                 </ul>
             </div>
         </footer>

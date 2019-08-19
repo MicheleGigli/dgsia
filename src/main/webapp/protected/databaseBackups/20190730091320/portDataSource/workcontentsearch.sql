@@ -176,6 +176,8 @@ INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,l
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('PRC3418','titolo','3.9.07 - Richiesta/rilascio informazioni relative al titolo e sua corrispondenza con i dati riportati sulle cartelle esattoriali',NULL,NULL,'en');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('PRC3420','titolo','3.9.08 - Registrazione delle vendite con riserva di proprietà',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('PRC3420','titolo','3.9.08 - Registrazione delle vendite con riserva di proprietà',NULL,NULL,'en');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA22','title','Servizi',NULL,NULL,'it');
+INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA22','title','Servizi',NULL,NULL,'en');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM851','primopiano','false',NULL,NULL,NULL);
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM851','title','Tirocini Formativi',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM851','date',NULL,'2019-04-12 00:00:00',NULL,NULL);
@@ -238,4 +240,3 @@ INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,l
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','autore','Redazione',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CNG666','Title','Info Per le F.A.Q.',NULL,NULL,'it');
 INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA71','title','Trasparenza',NULL,NULL,'it');
-INSERT INTO workcontentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA22','title','Servizi',NULL,NULL,'it');

@@ -8753,6 +8753,36 @@ entandoaction:saveAndApprove=Submit
 ',NULL,'2019-06-25 11:28:12');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (3224,'admin','2019-06-25 11:28:28','/do/Page','setDefaultWidgets','pageCode=note_legali
 ',NULL,'2019-06-25 11:28:28');
+INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (3236,'admin','2019-06-25 11:36:26','/do/Page','doSetOnline','selectedNode=accessibilit
+pageCode=accessibilit
+','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<activityStreamInfo>
+    <objectTitles>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">en</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Accessibilità</value>
+        </entry>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Accessibilità</value>
+        </entry>
+    </objectTitles>
+    <groups>
+        <group>free</group>
+    </groups>
+    <actionType>5</actionType>
+    <linkNamespace>/do/Page</linkNamespace>
+    <linkActionName>edit</linkActionName>
+    <linkParameters>
+        <entry>
+            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">selectedNode</key>
+            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">accessibilit</value>
+        </entry>
+    </linkParameters>
+    <linkAuthPermission>managePages</linkAuthPermission>
+    <linkAuthGroup>free</linkAuthGroup>
+</activityStreamInfo>
+','2019-06-25 11:36:26');
 INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (3237,'admin','2019-06-25 11:40:08','/do/jacms/Content','saveAndApprove','descr=3.1.01 - ISCRIZIONE A RUOLO
 __multiselect_extraGroupNames=
 treeNodesToOpen=home
@@ -40654,67 +40684,3 @@ entandoaction:saveAndApprove=Submit
     <linkAuthGroup>free</linkAuthGroup>
 </activityStreamInfo>
 ','2019-07-24 14:12:06');
-INSERT INTO actionlogrecords (id,username,actiondate,namespace,actionname,parameters,activitystreaminfo,updatedate) VALUES (4229,'admin','2019-07-30 16:46:49','/do/jacms/Content','saveAndApprove','Monolist:Composite:Image:it_lista_img_0_metadata_alt=
-entandoaction:saveAndApprove=Submit
-Monolist:Composite:Image:it_lista_img_2_metadata_alt=
-Monolist:Composite:Image:it_lista_img_0=cittadino
-Monolist:Composite:Image:it_lista_img_1_metadata_description=
-Monolist:Composite:Image:it_lista_img_0_metadata_legend=
-Monolist:Composite:Longtext:it_lista_abstract_1=
-Monolist:Composite:Image:it_lista_img_2_metadata_title=
-Monolist:Composite:Longtext:it_lista_abstract_0=
-Monolist:Composite:Image:it_lista_img_1_metadata_alt=
-__multiselect_extraGroupNames=
-contentOnSessionMarker=CTA_editContent_CTA22
-Monolist:Composite:Image:it_lista_img_2_metadata_legend=
-Monolist:Composite:Image:it_lista_img_2=tribunale Marsala_1_d0.jpg
-Monolist:Composite:Image:it_lista_img_1=professionista
-resourceTypeCode=
-Monolist:Composite:Image:it_lista_img_2_metadata_description=
-Monolist:Composite:Image:it_lista_img_1_metadata_legend=
-Monolist:Composite:Image:it_lista_img_0_metadata_description=
-Monolist:Composite:Link:it_lista_link_1=link per il professionista
-Monolist:Composite:Link:it_lista_link_2=link per l''amministrazione
-Monolist:Composite:Link:it_lista_link_0=link per il cittadino
-Monolist:Composite:Date:lista_date_1=
-Monolist:Composite:Date:lista_date_2=
-treeNodesToOpen=home
-Monolist:Composite:Date:lista_date_0=
-Monolist:Composite:Image:it_lista_img_0_metadata_title=
-Monolist:Composite:Number:lista_number_2=
-descr=LISTA SERVIZI HOME PAGE
-Monolist:Composite:Number:lista_number_1=
-Monolist:Composite:Text:it_lista_title_1=PER IL PROFESSIONISTA
-Monolist:Composite:Text:it_lista_title_0=PER IL CITTADINO
-Monolist:Composite:Longtext:it_lista_abstract_2=
-Monolist:Composite:Text:it_lista_title_2=PER L''AMMINISTRAZIONE
-jacmsPreviewActionPageCode_it=
-Monolist:Composite:Number:lista_number_0=
-Text:it_title=Servizi
-Monolist:Composite:Image:it_lista_img_1_metadata_title=
-status=READY
-','<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<activityStreamInfo>
-    <objectTitles>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">it</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">LISTA SERVIZI HOME PAGE</value>
-        </entry>
-    </objectTitles>
-    <groups>
-        <group>free</group>
-        <group>free</group>
-    </groups>
-    <actionType>12</actionType>
-    <linkNamespace>/do/jacms/Content</linkNamespace>
-    <linkActionName>edit</linkActionName>
-    <linkParameters>
-        <entry>
-            <key xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">contentId</key>
-            <value xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CTA22</value>
-        </entry>
-    </linkParameters>
-    <linkAuthPermission>editContents</linkAuthPermission>
-    <linkAuthGroup>free</linkAuthGroup>
-</activityStreamInfo>
-','2019-07-30 16:46:49');

@@ -187,6 +187,8 @@ INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langc
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('PRC3418','titolo','3.9.07 - Richiesta/rilascio informazioni relative al titolo e sua corrispondenza con i dati riportati sulle cartelle esattoriali',NULL,NULL,'en');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('PRC3420','titolo','3.9.08 - Registrazione delle vendite con riserva di proprietà',NULL,NULL,'it');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('PRC3420','titolo','3.9.08 - Registrazione delle vendite con riserva di proprietà',NULL,NULL,'en');
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA22','title','Servizi',NULL,NULL,'it');
+INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA22','title','Servizi',NULL,NULL,'en');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA673','title','F.A.Q.',NULL,NULL,'it');
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','primopiano','true',NULL,NULL,NULL);
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM165','title','Linee guida in materia di violenza di genere e violenza domestica',NULL,NULL,'it');
@@ -241,4 +243,3 @@ INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langc
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','date',NULL,'2019-03-27 00:00:00',NULL,NULL);
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','enum','ATTI GIUDIZIARI',NULL,NULL,NULL);
 INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTM167','autore','Redazione',NULL,NULL,'it');
-INSERT INTO contentsearch (contentid,attrname,textvalue,datevalue,numvalue,langcode) VALUES ('CTA22','title','Servizi',NULL,NULL,'it');
