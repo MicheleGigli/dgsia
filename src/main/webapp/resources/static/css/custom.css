@@ -774,6 +774,7 @@ ul.link-list .list-item {
     .card-body-link {
         color: white;
         font-size: 46px;
+        d
     }
     .card-header {
         position: relative;
@@ -910,6 +911,7 @@ ul.link-list .list-item {
         font-size: 1.7rem;
         font-weight: 600;
         display: block;
+        alt:
     }
     .it-list-wrapper .it-list a .it-right-zone svg {
         fill: #207bd6;
@@ -1344,6 +1346,7 @@ ul.link-list .list-item {
         font-size: 1.7rem;
         font-weight: 600;
         display: block;
+
     }
     .it-list-wrapper .it-list a .it-right-zone svg {
         fill: #207bd6;

@@ -9,7 +9,7 @@
                 <c:if test="${group.advanced}">
                     <%-- Back to start --%>
                     <li class="page-item">
-                        <a class="page-link" 
+                        <a class="page-link"
                            href="<wp:url paramRepeat="true" ><wp:parameter name="${group.paramItemName}" >1</wp:parameter></wp:url>"  title="<wp:i18n key="PAGER_FIRST" />">
                             <span class="sr-only"><wp:i18n key="PAGER_FIRST1" /></span>
                         </a>

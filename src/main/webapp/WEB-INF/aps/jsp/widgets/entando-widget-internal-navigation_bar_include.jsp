@@ -46,7 +46,7 @@
 </c:if>
 
 <li<c:out value="${liClass}" escapeXml="false" />>
-     <a href="<c:out value="${aURL}" escapeXml="false" />"<c:out value="${aClassAndData}" escapeXml="false" />><!-- [ <c:out value="${previousLevel}" /> ] --><c:out value="${homeIcon}" escapeXml="false" />
+     <a alt="${previousPage.title}" title="${previousPage.title    }" href="<c:out value="${aURL}" escapeXml="false" />"<c:out value="${aClassAndData}" escapeXml="false" />><!-- [ <c:out value="${previousLevel}" /> ] --><c:out value="${homeIcon}" escapeXml="false" />
         <span><c:out value="${previousPage.title}" /></span>
         <svg class="icon icon-primary icon-right m-0">
         <use xlink:href="<wp:imgURL />sprite.svg#it-chevron-right"></use>

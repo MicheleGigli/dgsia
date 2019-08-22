@@ -162,7 +162,7 @@
                     <option >Scegli...</option>
                 </select>
             </div>-->
-            <button type="submit" class="btn btn-secondary my-3"><wp:i18n key="BTN_FILTRA" /></button>
+            <button onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" type="submit" class="btn btn-secondary my-3"><wp:i18n key="BTN_FILTRA" /></button>
         </form>
     </div>
 
@@ -178,7 +178,7 @@
             <div class="it-list-wrapper mb-4">
                 <ul class="it-list">
                     <c:forEach var="contentId" items="${contentList}" begin="${groupContent.begin}" end="${groupContent.end}">
-                        <jacms:content contentId="${contentId}" modelId="list" />
+                        <jacms:content contentId="${contentId}" modelId="list"/>
                     </c:forEach>
                 </ul>
             </div>

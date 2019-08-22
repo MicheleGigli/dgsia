@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="it-header-slim-wrapper-content">
-                            <a class="navbar-brand"  href="https://www.giustizia.it/giustizia/">Ministero della Giustizia</a>
+                            <a alt="Ministero della Giustizia" title="Ministero della Giustizia" class="navbar-brand"  href="https://www.giustizia.it/giustizia/">Ministero della Giustizia</a>
                             <div class="header-slim-right-zone">
                                 <%-- 0. Untitled Frame I  --%>
                                 <wp:show frame="0" />
@@ -56,19 +56,19 @@
                                 <ul class="list-inline">
                                     <li class="list-inline-item">Seguici su</li>
                                     <li class="list-inline-item">
-                                        <a href="">
+                                        <a alt="Facebook" title="Facebook" href="">
                                             <svg class="icon icon-primary">
                                             <use xlink:href="<wp:imgURL />sprite.svg#it-facebook "></use>
                                             </svg>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href=""><svg class="icon icon-primary">
+                                        <a alt="Twitter" title="Twitter" href=""><svg class="icon icon-primary">
                                             <use xlink:href="<wp:imgURL />sprite.svg#it-twitter"></use>
                                             </svg></a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href="">
+                                        <a alt="YouTube" title="YouTube" href="">
                                             <svg class="icon icon-primary">
                                             <use xlink:href="<wp:imgURL />sprite.svg#it-youtube"></use>
                                             </svg>
@@ -236,7 +236,7 @@
                         <div>
                             <h3 class="display-4">Indirizzo PEC</h3>
                             <p>
-                                <a href="">tribunale.marsala@giustizia.it</a>
+                                <a alt="tribunale.marsala@giustizia.it" title="tribunale.marsala@giustizia.it" href="">tribunale.marsala@giustizia.it</a>
                             </p>
                         </div>
                     </div>
@@ -245,17 +245,17 @@
                         <h2 class="display-3 mb-4">Seguici su</h2>
                         <div>
                             <ul class="list-inline">
-                                <li class="list-inline-item"><a href="" class=""><svg
+                                <li class="list-inline-item"><a alt="Facebook" title="Facebook" href="" class=""><svg
                                             class="icon">
                                         <use
                                             xlink:href="<wp:imgURL />sprite.svg#it-facebook "></use>
                                         </svg></a></li>
-                                <li class="list-inline-item"><a href=""><svg
+                                <li class="list-inline-item"><a alt="Twitter" title="Twitter" href=""><svg
                                             class="icon">
                                         <use
                                             xlink:href="<wp:imgURL />sprite.svg#it-twitter"></use>
                                         </svg></a></li>
-                                <li class="list-inline-item"><a href=""><svg
+                                <li class="list-inline-item"><a alt="YouTube" title="YouTube" href=""><svg
                                             class="icon">
                                         <use
                                             xlink:href="<wp:imgURL />sprite.svg#it-youtube"></use>
