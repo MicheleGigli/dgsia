@@ -86,60 +86,12 @@
 
                         });
                     });
-//                    var timeCookie = $.cookie("timeCookie"),
-//                            selElem = $('select[name=macro_area]');
-//
-//                    console.log(" valore iniziale", timeCookie);
-//
-//                    selElem.on('change', function () {
-//                        $.cookie("timeCookie", this.value);
-//                    });
-//
-//                    if (timeCookie != undefined) {
-//                        console.log("ha valore", timeCookie);
-//                        selElem.val(timeCookie);
-//
-//                    } else {
-//                        console.log("ha valore 2", timeCookie);
-//                        $.cookie("timeCookie", selElem.val());
-//                    }
-//
-//                    var timeCookie2 = $.cookie("timeCookie2"),
-//                            selElem2 = $('select[name=subarea_1]');
-//
-//                    selElem2.on('change', function () {
-//                        $.cookie("timeCookie2", this.value);
-//                    });
-//
-//                    if (timeCookie2 != undefined) {
-//                        console.log("ha valore", timeCookie2);
-//                        selElem2.val(timeCookie2);
-//
-//                    } else {
-//                        console.log("ha valore 2", timeCookie2);
-//                        $.cookie("timeCookie2", selElem2.val());
-//                    }
-//                    var timeCookie3 = $.cookie("timeCookie3"),
-//                            selElem3 = $('select[name=subarea_2]');
-//
-//                    selElem3.on('change', function () {
-//                        $.cookie("timeCookie3", this.value);
-//                    });
-//
-//                    if (timeCookie3 != undefined) {
-//                        console.log("ha valore", timeCookie3);
-//                        selElem3.val(timeCookie3);
-//
-//                    } else {
-//                        console.log("ha valore 3", timeCookie3);
-//                        $.cookie("timeCookie3", selElem3.val());
-//                    }
                 });
 </script>
 
 <div class="row">
     <div class="col-lg-7 col-sm-12 p-0  my-2 px-1 ">
-        <form action="<wp:url />" method="post">
+        <form action="<wp:url />" method="get">
             <h4 class="card-title">Ricerca guidata</h4>
 
             <h6>Macro area</h6>
@@ -156,13 +108,7 @@
                 </select>
             </div>
 
-<!--            <h6>Sotto area 2</h6>
-            <div class="input-group mb-3">
-                <select name="subarea_2" class="custom-select" id="dropdown3">
-                    <option >Scegli...</option>
-                </select>
-            </div>-->
-            <button onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" type="submit" class="btn btn-secondary my-3"><wp:i18n key="BTN_FILTRA" /></button>
+            <button onmouseover="this.style.textDecoration = 'underline'" onmouseout="this.style.textDecoration = 'none'" type="submit" class="btn btn-secondary my-3"><wp:i18n key="BTN_FILTRA" /></button>
         </form>
     </div>
 
