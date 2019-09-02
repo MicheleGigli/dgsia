@@ -258,7 +258,7 @@
 
 .img-wrapper {
     height: auto;
-    overflow: inherit;
+    overflow: hidden;
     display: inline-block;
     position: relative;
     width: 100%;
@@ -757,7 +757,6 @@ ul.link-list .list-item {
         font-size: 46px;
         line-height: 59px;
         min-height: 188px;
-
     }
     .card .card-body .card-signature {
         font-size: 39px;
@@ -775,6 +774,7 @@ ul.link-list .list-item {
     .card-body-link {
         color: white;
         font-size: 46px;
+        d
     }
     .card-header {
         position: relative;
@@ -911,6 +911,7 @@ ul.link-list .list-item {
         font-size: 1.7rem;
         font-weight: 600;
         display: block;
+        alt:
     }
     .it-list-wrapper .it-list a .it-right-zone svg {
         fill: #207bd6;
