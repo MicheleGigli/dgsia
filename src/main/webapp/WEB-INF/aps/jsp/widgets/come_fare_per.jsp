@@ -92,7 +92,6 @@
 <div class="row">
     <div class="col-lg-7 col-sm-12 p-0  my-2 px-1 ">
         <form action="<wp:url />" method="get">
-            <h4 class="card-title">Ricerca guidata</h4>
 
             <h6>Macro area</h6>
             <div class="input-group mb-3">
